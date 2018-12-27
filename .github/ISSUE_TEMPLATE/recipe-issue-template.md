@@ -10,7 +10,6 @@ assignees: ''
 ## Recipe Name  
 (this will usually be the same as the issue name)
 
-## Link  
 (Provide link to `index.md` of the issue, if available. To be filled in after issue is created - you need the issue number!)
 
 ## Use case  
