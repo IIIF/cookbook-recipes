@@ -1,14 +1,14 @@
 ---
-title: Recipe - Reusing an image service (ImageApiSelector)
+title: Recipe - A manuscript with multiple orderings
 layout: spec
 tags: [annex, service, services, specifications]
 cssversion: 2
 ---
 
-This is a recipe from the [Presentation API Cookbook][annex-cookbook].
+This is a recipe from the [IIIF Cookbook][annex-cookbook].
 
 
-# Reusing an image service (ImageApiSelector)
+# A manuscript with multiple orderings
 
 ## Use Case
 

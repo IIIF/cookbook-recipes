@@ -5,7 +5,7 @@ tags: [annex, service, services, specifications]
 cssversion: 2
 ---
 
-This is a recipe from the [Presentation API Cookbook][annex-cookbook].
+This is a recipe from the [IIIF Cookbook][annex-cookbook].
 
 
 # Foldouts, etc (Choice or non-paged interlude (flaps vs maps))?
