@@ -12,7 +12,7 @@ This is a recipe from the [IIIF Cookbook][annex-cookbook].
 
 ## Use Case
 
-Annotate a Canvas using an image with an associated IIIF Image API service.
+Paint a Canvas using an image with an associated IIIF Image API service.
 
 ## Implementation notes
 
