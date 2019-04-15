@@ -39,6 +39,7 @@ None known.
     {
       "id": "https://example.org/iiif/book5/canvas/p1",
       "type": "Canvas",
+      "label":  { "en": [ "Canvas with a single IIIF image" ] },
       "height": 1800,
       "width": 1200,
       "items": [
