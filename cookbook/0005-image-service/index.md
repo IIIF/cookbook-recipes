@@ -16,7 +16,9 @@ Annotate a Canvas using an image with an associated IIIF Image API service.
 
 ## Implementation notes
 
-The annotation structure follows that of the [Simplest Manifest - Image] recipe. Within the `body` of the image annotation, specify the IIIF Image API service using the `service` property. The `id` of the service is the base URI of the associated IIIF Image API service.    
+The annotation structure follows that of the [Simplest Manifest - Image] recipe. Within the `body` of the image annotation, specify the IIIF Image API service using the `service` property. The `id` of the service is the base URI of the associated IIIF Image API service.  
+
+The `type` property is mandatory. Image API version 1 and 2 services may be referenced using the `type` values defined in the Presentation API[#service].  
 
 ## Restrictions
 
