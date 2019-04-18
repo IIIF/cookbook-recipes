@@ -1,11 +1,11 @@
 ---
 title: Recipe - Page with Detail Image
-layout: spec
+layout: recipe
 tags: [annex, service, services, specifications]
 cssversion: 2
 ---
 
-This is a recipe from the [IIIF Cookbook][annex-cookbook].
+
 
 # Multiple Images - Page plus Detail
 

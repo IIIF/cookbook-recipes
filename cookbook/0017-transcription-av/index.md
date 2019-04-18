@@ -1,11 +1,11 @@
 ---
 title: Recipe - Transcription of audio and video
-layout: spec
+layout: recipe
 tags: [annex, service, services, specifications]
 cssversion: 2
 ---
 
-This is a recipe from the [IIIF Cookbook][annex-cookbook].
+
 
 
 # Transcription of audio and video

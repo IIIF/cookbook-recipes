@@ -1,11 +1,11 @@
 ---
 title: Recipe - Book (simplest, > 1 canvas)
-layout: spec
+layout: recipe
 tags: [annex, service, services, specifications]
 cssversion: 2
 ---
 
-This is a recipe from the [IIIF Cookbook][annex-cookbook].
+
 
 
 # Book (simplest, > 1 canvas)

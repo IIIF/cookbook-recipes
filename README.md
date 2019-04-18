@@ -1,3 +1,10 @@
+---
+title: Cookbook Home
+layout: recipe
+tags: [annex, service, services, specifications]
+cssversion: 2
+---
+
 # IIIF cookbook recipes
 
 The issues of this repository are used to identify and discuss cookbook recipes, prior to their inclusion in the cookbook section of the API repository. 

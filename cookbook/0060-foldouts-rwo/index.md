@@ -1,11 +1,11 @@
 ---
 title: Recipe - A complex printed work with foldouts and choice
-layout: spec
+layout: recipe
 tags: [annex, service, services, specifications]
 cssversion: 2
 ---
 
-This is a recipe from the [IIIF Cookbook][annex-cookbook].
+
 
 
 # A complex printed work with foldouts and choice

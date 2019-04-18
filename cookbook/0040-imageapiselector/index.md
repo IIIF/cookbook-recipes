@@ -1,11 +1,11 @@
 ---
 title: Recipe - Reusing an image service (ImageApiSelector)
-layout: spec
+layout: recipe
 tags: [annex, service, services, specifications]
 cssversion: 2
 ---
 
-This is a recipe from the [IIIF Cookbook][annex-cookbook].
+
 
 
 # Reusing an image service (ImageApiSelector)

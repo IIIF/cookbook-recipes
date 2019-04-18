@@ -1,0 +1,11 @@
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "recipe"
+
+markdown: kramdown
+kramdown:
+   syntax_highlighter_opts:
+      disable : true

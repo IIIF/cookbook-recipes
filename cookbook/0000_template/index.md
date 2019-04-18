@@ -1,11 +1,11 @@
 ---
 title: Recipe - Name of Recipe
-layout: spec
+layout: recipe
 tags: [annex, service, services, specifications]
 cssversion: 2
 ---
 
-This is a recipe from the [IIIF Cookbook][annex-cookbook].
+
 
 
 # Name of Recipe
@@ -26,15 +26,8 @@ When is this pattern is usable / not usable? Is it deprecated? If it uses multip
 
 Describe in prose and provide examples, e.g.: 
 
-``` json-doc
-{
-  "@context": [
-    "http://www.w3.org/ns/anno.jsonld",
-    "http://iiif.io/api/presentation/{{ page.major }}/context.json"
-  ],
-  "id": "https://example.org/iiif/book1/manifest",
-  "type": "Manifest" 
-}
+{: .line-numbers data-src="manifest.json" }
+```json
 ```
 
 # Related recipes

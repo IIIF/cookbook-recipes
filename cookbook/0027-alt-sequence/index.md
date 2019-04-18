@@ -1,11 +1,11 @@
 ---
 title: Recipe - Alternative Sequence (via `sequence` Range)
-layout: spec
+layout: recipe
 tags: [annex, service, services, specifications]
 cssversion: 2
 ---
 
-This is a recipe from the [IIIF Cookbook][annex-cookbook].
+
 
 
 # Alternative Sequence (via `sequence` Range)

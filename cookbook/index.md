@@ -1,10 +1,6 @@
 ---
 title: IIIF Cookbook
-layout: spec
-tags: [annex, service, services, specifications]
-cssversion: 2
 ---
-
 
 # Cookbook of IIIF Recipes
 
@@ -46,9 +42,9 @@ A recipe must have the following features:
 
 _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..(3,5)_
 
-* [Simplest Manifest - Image][recipe-mvm-image] (1) (use static image as content resource, w.h)
-* Simplest Manifest - Audio (1) (use single audio as content resource, d)
-* Simplest Manifest - Video (1) (use single video as content resource, w,h,d)
+* [Simplest Manifest - Image][0001] (1) (use static image as content resource, w.h)
+* [Simplest Manifest - Audio][0002] (1) (use single audio as content resource, d)
+* [Simplest Manifest - Video][0003] (1) (use single video as content resource, w,h,d)
 * Image different size to canvas (26)
 * Image Service for single image (24,25)
 * Multiple values and languages (3,4,6)
