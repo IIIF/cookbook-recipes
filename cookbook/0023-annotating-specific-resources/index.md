@@ -1,11 +1,11 @@
 ---
 title: Recipe - Annotation in the context of a particular content resource
-layout: spec
+layout: recipe
 tags: [annex, service, services, specifications]
 cssversion: 2
 ---
 
-This is a recipe from the [IIIF Cookbook][annex-cookbook].
+
 
 
 # Annotation in the context of a particular content resource

@@ -1,11 +1,9 @@
 ---
 title: Recipe - Simplest Manifest - Image
-layout: spec
+layout: recipe
 tags: [annex, service, services, specifications]
 cssversion: 2
 ---
-
-This is a recipe from the [IIIF Cookbook][annex-cookbook].
 
 
 # Simplest Manifest - Image
@@ -25,45 +23,10 @@ The `items` property of the Canvas is a list of annotation pages, in this case t
 
 ## Example
 
-``` json-doc
-{
-  "@context": [
-    "http://www.w3.org/ns/anno.jsonld",
-    "http://iiif.io/api/presentation/{{ page.major }}/context.json"
-  ],
-  "id": "https://example.org/iiif/book1/manifest",
-  "type": "Manifest",
-  "label": { "en": [ "Image 1" ] },
-  "items": [
-    {
-      "id": "https://example.org/iiif/book1/canvas/p1",
-      "type": "Canvas",
-      "height": 1800,
-      "width": 1200,
-      "items": [
-        {
-          "id": "https://example.org/iiif/book1/page/p1/1",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://example.org/iiif/book1/annotation/p0001-image",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "http://iiif.io/api/presentation/2.1/example/fixtures/resources/page1-full.png",
-                "type": "Image",
-                "format": "image/png",
-                "height": 1800,
-                "width": 1200
-              },
-              "target": "https://example.org/iiif/book1/canvas/p1"
-            }
-          ]
-        }
-      ]
-    }    
-  ]
-}
+[View direct](manifest.json) 
+
+{: .line-numbers data-download-link data-download-link-label="Download me" data-src="manifest.json" }
+```json
 ```
 
 # Related recipes

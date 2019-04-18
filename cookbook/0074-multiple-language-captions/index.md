@@ -1,11 +1,11 @@
 ---
 title: Recipe - Video with captions in multiple languages
-layout: spec
+layout: recipe
 tags: [annex, service, services, specifications]
 cssversion: 2
 ---
 
-This is a recipe from the [IIIF Cookbook][annex-cookbook].
+
 
 
 # Video with captions in multiple languages

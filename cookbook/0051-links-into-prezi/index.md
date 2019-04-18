@@ -1,11 +1,11 @@
 ---
 title: Recipe - Linking from external metadata to Presentation API
-layout: spec
+layout: recipe
 tags: [annex, service, services, specifications]
 cssversion: 2
 ---
 
-This is a recipe from the [IIIF Cookbook][annex-cookbook].
+
 
 
 # Linking from external metadata to Presentation API

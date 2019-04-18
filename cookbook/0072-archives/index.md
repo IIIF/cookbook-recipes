@@ -1,11 +1,11 @@
 ---
 title: Recipe - Archival collection (hierarchy, paging); fonds-to-IIIF
-layout: spec
+layout: recipe
 tags: [annex, service, services, specifications]
 cssversion: 2
 ---
 
-This is a recipe from the [IIIF Cookbook][annex-cookbook].
+
 
 
 # Archival collection (hierarchy, paging); fonds-to-IIIF

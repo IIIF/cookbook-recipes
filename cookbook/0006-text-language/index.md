@@ -1,5 +1,5 @@
 
-This is a recipe from the [IIIF Cookbook][annex-cookbook].
+
 
 # Text in Multiple Languages 
 
