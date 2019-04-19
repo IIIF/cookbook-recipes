@@ -1,8 +1,8 @@
 ---
 title: Cookbook Home
-layout: recipe
-tags: [annex, service, services, specifications]
-cssversion: 2
+layout: default
+tags: [tbc]
+summary: "tbc"
 ---
 
 # IIIF cookbook recipes
