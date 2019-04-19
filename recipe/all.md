@@ -9,7 +9,7 @@ layout: default
   {% assign sorted = recipes | sort:"id" %}
   {% for recipe in sorted %}
     <li>
-      <h3>{{ recipe.id }}: <a href="{{ recipe.url }}">{{ recipe.title }}</a></h3>
+      <h3>{{ recipe.id }}: <a href="{{ site.baseurl }}{{ recipe.url }}">{{ recipe.title }}</a></h3>
       <p>Tagged: 
       {% for tag in recipe.tags %}
         <a href="">{{ tag }}</a>
