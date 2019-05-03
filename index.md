@@ -1,11 +1,9 @@
 ---
-title: Cookbook Home
+title: IIIF cookbook recipes
 layout: default
 tags: [tbc]
 summary: "tbc"
 ---
-
-# IIIF cookbook recipes
 
 The issues of this repository are used to identify and discuss cookbook recipes, prior to their inclusion in the cookbook section of the API repository. 
 
