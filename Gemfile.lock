@@ -56,8 +56,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (>= 3.8.4)
-  kramdown (> 1.16)
+  jekyll (>= 3.8.5)
+  kramdown (>= 1.17.0)
 
 BUNDLED WITH
    1.16.1
