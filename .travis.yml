@@ -1,24 +1,25 @@
 language: ruby
 cache: bundler
-
 before_script:
-    - bundle install
-
+- bundle install
 script:
-    - bundle exec jekyll clean && bundle exec jekyll build
-
+- bundle exec jekyll clean && bundle exec jekyll build
 deploy:
-    - provider: s3
-      access_key_id:
-        secure: sIMOWw/ALby0Y43zRfWcHkr7T+rgZDzi7A4fJapKuueR8d29DRN1PiGknp8WHE92eaCZOBQfV+nUzsJihDXuE2JmbqLF6XWhjYl7917Ts56bmA7Iy+RshrlQOvyTlVQmUkPlZrRoJ6RmXiibB51WmzZLNyOr4CPBu8lKQwAprzW2yroYhY16jCKWP1Q74q8hWKkeiTdee1PZN4o9RLntyJ9+JAb0xUe7boCEOjAEWEmisvsHvChmYq81jo7gntYyVcm0mlcjKYS8J0EfT0jB6s0aadX98xE4ZHuiq0hC6NAgvC1rrtbGVLj2/bzUcxD+j3B28/eOfA1R1e3Zkl+xlA/eA15CSbWrEBJutZele+/Hb2Py2jd0PkFfP0OHd2H7pfJuU+H2W3xoleI/tVAUrBKoq6awgf5sFJqj8vAS0k0M/CEkgzRau/8/od6iyCkUPYR0WDn/QJ03FBLCv3spuxIAOnNCs/leaNrfGYLBmw4qfJ++S//GtDjH/663T2mq8PDApURZFb24q1CyKuy+SKvjqZh+SmYBi1m+jkrJluhJjGKx882Naf8HevH679gqFzStaVB0yybPR0mYiMzMaYHDCx710KdHbZMrAFrjQjZAzy1G+JcGvSubAezdt41ASuurMiFhMhod5D3ZTJFJ73igmwLVE2uhEjHd4yMGo58=
-      secret_access_key:
-        secure: ixqajmdI3gFvI/5BZhCJ6b0PAEtwHjyncHiBsJzYWxje5BKbgGNdu0lXjlOWutSPBBDu89bEfBkUb2Ser8nyEyrlNjV0VH1HMNvwNCOwmQpddVsvOJooXhJczlQ72xic2SEURUpZD1ng0SI1Mq8hct6gOkqSuaqgmXwmc8HSwRAdgwZ/WqZDnfFQfA3jGojWOfpr63UMpJwRe4dsObfPwMhXDboLxEB7uBi834OAd2zqT8PKZHc1YFv3F6VOi9/TsMYthwbs7izlIvGfJ1wWZbq264dEGg3T4abV4YX9Q1f837N1m/y85poG/x65BiJ+qMfdVbw25WNIpPZ/gph8kphJx5S2phkifDyWAGB7Q+lM+n5qkYvFDkoEZy7a8rl5JmBrPaLcWm2O0FE5CrmVHj+aPMgsnMjGWNdh3kxcYBchT2BPcqcnLRMSNjAyqLgNNDyuac0tUf9wk7BkYqZ1GW0CaJGQMksBwVlFWHgAcCPS14xsMJmbqTEzUf0Gc8B1aLljz4K9i8BiBfQzs47tS9P7hjFNvSjiQGRG87gNzPdZFVnRBmCPMsqvW18lgEd2YfWs8jumDVpD/KVg3d9osz0DLSX/y6v8nsGdJgoCf7TzB9sGYDLtaiw2xgltQ1A+8yPveEiKBe3lLAd1iVe2n8ihcFD19yl1t/d3WV7qEW0=
-      bucket: preview.iiif.io
-      skip_cleanup: true
-      acl: public_read
-      region: us-east-1
-      local_dir: _site
-      upload-dir: cookbook/$TRAVIS_BRANCH
-      on:
-        all_branches: true
-        condition: "$TRAVIS_BRANCH != master"
+- provider: s3
+  access_key_id:
+    secure: TZXT7hv08A7rWMNssgqpE3kgcaijY6jVkzIlRn/7uf2n4XebEviWeUuFDK9rX7Hmp60v4ZFihZyPhct95gkNpb89rp6zUPj4sGqjsXPYv17yP+ijmNKDJCGcmyGjfK51YIgaiW3vOO3eiZFZjCzq/DJA7XcJxoWXOY6CFBtJAqiPOfbDU9D/POeVrKc4ifS1xwIz3I2gvDi5l5rdimzbXaqO57IpbBHCLpQVTwBTdqktsmGoPwV+ezHRYx9+nl9XWFRR9KrsYnlhaOdEZMRNyhhsxbhry74pzpZaquq9jSXZklvobFZJLjxWA/ncTB+eS6YPTPtc2vwOkGSTBUpl3QxVTHpPokymj217S0+cwgMsKp8EVHeZDGtSUAqtFehYL8gZDdRYfA8kFKhbEnoW1FreGjNVe9hkIfqaowjxu0mmCdTaA/IknbN2O7V9N/C12r8q3G7mRBJGzgOWTN/mw4/SrKboHiA11lImVPPZftWC3J1j74JVSN3ktbaQtxewElmCpeI+m08hSj4gvhvu1tVT194ElNgeJyTJDEv36keOC5CumPOVtDiAR7/mtAg/yLyvRtyJgxLuqp2R8sl5cbMrO3LzN8fvic1kaxFBaoqG8TN42knoqD+fBWfaM8JFrlVMQFUkeG/qYR8DXQ1D1WCLQpr3p7tdD5AFf5NwRzQ=
+  secret_access_key:
+    secure: gsdqBr0mfAW755imA0l7z/XEjHEwO+xpKe+rtq69i+UPmWReJTVsAs/YelPvtyZ8mLGunUFt2iPoY7xhIvqNp3/Uq9RKJ/pXC+Rch8iY9RX6rV+IFlHbfy8ZwI9BFrYNr1pRgM3zMR33RUewJ4qkirfADSJlu5LFobATxMNJOSv8cRPP+1JBkqB5j0+GOfmXUFtymnlr7JEZfEwE/4ZB2EmrSYbPLcBOHleifmhZlPrmdrBBAS4Bce+A17+mXWO7DPB5hAhCYVp0O1IeWQ4BQlzH6yjoVcSLMKroFIjbM97bFTOolMGoLEOw3mnIx/IRgR757BKAneTLwHmWr9+i0tByzpboQ7IeJGcIDkoD0gFxTxgWgrXGnFnvumpmbC6T7/hV2Gm5E3YLIZAgQbdqmWcUBA0G9wNUqZF/8/SqDNVH6XNPIVluw7sv1Nd2mtL6DFo0FVrimQ1N33ROOtmdXh+gS6P+gJ+tqmPnwL/b2d3sOvPrsDN1aJ6GusIrhuWbCAaIyga9KCEwXj1dUbYVnn6ZOo0urzIqySSWtUe1XBS+252OeLrHE64ZVUFAKIMvOKkWBFh2xQaD6731yE8HWDp8O5vgJSBHM8TTBQui8lqFcDlxPMVWeOcG25FFjpktZEIgbrX48UnXzNsLlN3KqNWnmO7x1ABAVdcQqqQnWn8=
+  bucket: preview.iiif.io
+  skip_cleanup: true
+  acl: public_read
+  region: us-east-1
+  local_dir: _site
+  upload-dir: cookbook/$TRAVIS_BRANCH
+  on:
+    all_branches: true
+    condition: "$TRAVIS_BRANCH != master"
+env:
+  global:
+  - secure: 
+  - secure: 
