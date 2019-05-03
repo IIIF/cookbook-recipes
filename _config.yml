@@ -4,8 +4,10 @@ defaults:
       path: ""
     values:
       layout: "recipe"
+      livesite: "https://iiif.io"
 
 markdown: kramdown
 kramdown:
    syntax_highlighter_opts:
       disable : true
+
