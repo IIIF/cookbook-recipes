@@ -1,0 +1,24 @@
+language: ruby
+cache: bundler
+
+before_install:
+    - bundle install
+
+install:
+    - bundle exec jekyll clean && bundle exec jekyll build
+
+deploy:
+    - provider: s3
+      access_key_id:
+        secure: sIMOWw/ALby0Y43zRfWcHkr7T+rgZDzi7A4fJapKuueR8d29DRN1PiGknp8WHE92eaCZOBQfV+nUzsJihDXuE2JmbqLF6XWhjYl7917Ts56bmA7Iy+RshrlQOvyTlVQmUkPlZrRoJ6RmXiibB51WmzZLNyOr4CPBu8lKQwAprzW2yroYhY16jCKWP1Q74q8hWKkeiTdee1PZN4o9RLntyJ9+JAb0xUe7boCEOjAEWEmisvsHvChmYq81jo7gntYyVcm0mlcjKYS8J0EfT0jB6s0aadX98xE4ZHuiq0hC6NAgvC1rrtbGVLj2/bzUcxD+j3B28/eOfA1R1e3Zkl+xlA/eA15CSbWrEBJutZele+/Hb2Py2jd0PkFfP0OHd2H7pfJuU+H2W3xoleI/tVAUrBKoq6awgf5sFJqj8vAS0k0M/CEkgzRau/8/od6iyCkUPYR0WDn/QJ03FBLCv3spuxIAOnNCs/leaNrfGYLBmw4qfJ++S//GtDjH/663T2mq8PDApURZFb24q1CyKuy+SKvjqZh+SmYBi1m+jkrJluhJjGKx882Naf8HevH679gqFzStaVB0yybPR0mYiMzMaYHDCx710KdHbZMrAFrjQjZAzy1G+JcGvSubAezdt41ASuurMiFhMhod5D3ZTJFJ73igmwLVE2uhEjHd4yMGo58=
+      secret_access_key:
+        secure: ixqajmdI3gFvI/5BZhCJ6b0PAEtwHjyncHiBsJzYWxje5BKbgGNdu0lXjlOWutSPBBDu89bEfBkUb2Ser8nyEyrlNjV0VH1HMNvwNCOwmQpddVsvOJooXhJczlQ72xic2SEURUpZD1ng0SI1Mq8hct6gOkqSuaqgmXwmc8HSwRAdgwZ/WqZDnfFQfA3jGojWOfpr63UMpJwRe4dsObfPwMhXDboLxEB7uBi834OAd2zqT8PKZHc1YFv3F6VOi9/TsMYthwbs7izlIvGfJ1wWZbq264dEGg3T4abV4YX9Q1f837N1m/y85poG/x65BiJ+qMfdVbw25WNIpPZ/gph8kphJx5S2phkifDyWAGB7Q+lM+n5qkYvFDkoEZy7a8rl5JmBrPaLcWm2O0FE5CrmVHj+aPMgsnMjGWNdh3kxcYBchT2BPcqcnLRMSNjAyqLgNNDyuac0tUf9wk7BkYqZ1GW0CaJGQMksBwVlFWHgAcCPS14xsMJmbqTEzUf0Gc8B1aLljz4K9i8BiBfQzs47tS9P7hjFNvSjiQGRG87gNzPdZFVnRBmCPMsqvW18lgEd2YfWs8jumDVpD/KVg3d9osz0DLSX/y6v8nsGdJgoCf7TzB9sGYDLtaiw2xgltQ1A+8yPveEiKBe3lLAd1iVe2n8ihcFD19yl1t/d3WV7qEW0=
+      bucket: preview.iiif.io
+      skip_cleanup: true
+      acl: public_read
+      region: us-east-1
+      local_dir: _site
+      upload-dir: cookbook/$TRAVIS_BRANCH
+      on:
+        all_branches: true
+        condition: "$TRAVIS_BRANCH != master"
