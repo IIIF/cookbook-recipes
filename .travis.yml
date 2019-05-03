@@ -1,11 +1,10 @@
 language: ruby
 cache: bundler
 
-before_install:
-    - bundle update
+before_script:
     - bundle install
 
-install:
+script:
     - bundle exec jekyll clean && bundle exec jekyll build
 
 deploy:
