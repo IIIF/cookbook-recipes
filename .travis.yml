@@ -3,7 +3,7 @@ cache: bundler
 before_script:
 - bundle install
 script:
-- bundle exec jekyll clean && bundle exec jekyll build
+- bundle exec jekyll clean && bundle exec jekyll build  --baseurl /cookbook/$TRAVIS_BRANCH
 deploy:
   provider: s3
   access_key_id:
