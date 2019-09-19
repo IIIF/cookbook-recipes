@@ -14,7 +14,7 @@ Please see the [Cookbook Process](recipe/index.md).
 
 Then connect to [http://localhost:4000/](http://localhost:4000/)
 
-## Prieview links
+## Preview links
 
 This repository can be viewed using the following pattern:
 
