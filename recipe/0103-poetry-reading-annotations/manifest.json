@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://raw.githubusercontent.com/BrumfieldLabs/cookbook-recipes/master/recipe/0103-poetry-reading-annotations/manifest",
+    "id": "https://raw.githubusercontent.com/BrumfieldLabs/cookbook-recipes/master/recipe/0103-poetry-reading-annotations/manifest.json",
     "type": "Manifest",
     "label": { "en": [ "Anne Sexton, Poetry Reading, 1974 -- Her Kind" ] },
     "items": [
