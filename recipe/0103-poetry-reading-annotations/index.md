@@ -23,9 +23,14 @@ This implementation builds off of the [audio example][0002], but adds Web Annota
 
 ## Example
 
-Describe in prose and provide examples, e.g.: 
+A manifest for the poem "Her Kind" read by Anne Sexton in 1974.  The recording is 107 minutes long.
 
 {: .line-numbers data-src="manifest.json" }
+```json
+```
+Annotation examples, both a point annotation (at a particular time) and a range annotation (covering a time range)
+
+{: .line-numbers data-src="annotations.json" }
 ```json
 ```
 

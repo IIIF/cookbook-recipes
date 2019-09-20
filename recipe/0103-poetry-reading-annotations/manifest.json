@@ -29,5 +29,14 @@
           }
         ]
       }    
+    ],
+    "homepage": [
+      {
+        "id": "https://library.harvard.edu/poetry/listeningbooth/poets/sexton.html",
+        "type": "Text",
+        "label": { "en": [ "Anne Sexton at the Woodberry Poetry Room" ] },
+        "format": "text/html",
+        "language": [ "en" ]
+      }
     ]
   }
