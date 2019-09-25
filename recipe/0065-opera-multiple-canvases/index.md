@@ -2,43 +2,31 @@
 title: An opera on multiple Canvases
 id: 65
 layout: recipe
-tags: [tbc]
-summary: "tbc"
+tags: [video, presentation, opera]
+summary: "A real world example of an audio recording of an opera spread across multiple canvases."
 ---
 
 
 ## Use Case
 
-Why is this pattern is important?
+An opera performance can be long and split across multiple physical tapes, reels, or cassettes.  These may be digitized as one file per physical medium then mapped to one canvas per file.  This real world example shows how this can be modeled using multiple canvases.
 
 ## Implementation notes
 
-How does one implement the pattern?
+Implementation is identical to the [opera on one canvas recipe](../0064-opera-one-canvas/index.md) except that there are two files, one for each act.  These files each have their own canvas and are referenced as such in the structures.
 
 ## Restrictions
 
-When is this pattern is usable / not usable? Is it deprecated? If it uses multiple specifications, which versions are needed, etc.? (Not present if not needed.)
+None known.
 
 ## Example
 
-Describe in prose and provide examples, e.g.: 
-
-``` json-doc
-{
-  "@context": [
-    "http://www.w3.org/ns/anno.jsonld",
-    "http://iiif.io/api/presentation/{{ page.major }}/context.json"
-  ],
-  "id": "https://example.org/iiif/book1/manifest",
-  "type": "Manifest" 
-}
-```
+{: .line-numbers data-download-link data-download-link-label="Download me" data-src="manifest.json" }
 
 # Related recipes
 
-Provide a bulleted list of related recipes and why they are relevant.
-
+* [Table of Contents - Opera](../0026-toc-opera/index.md) - Another example of using nested ranges to represent an opera's table of contents.
+* [Opera One Canvas](../0064-opera-one-canvas/index.md) - The same opera from this example but in video format on one canvas.
 
 {% include acronyms.md %}
 {% include links.md %}
-

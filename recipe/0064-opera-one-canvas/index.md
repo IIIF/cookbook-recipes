@@ -2,42 +2,31 @@
 title: An opera on one Canvas
 id: 64
 layout: recipe
-tags: [tbc]
-summary: "tbc"
+tags: [video, presentation, opera]
+summary: "A real world example of a video recording of an opera on one canvas."
 ---
 
 
 ## Use Case
 
-Why is this pattern is important?
+Opera performances are generally long with lots of divisions, often hierarchical, making for a complex table of contents.  This real world example shows how this can be modeled using a single canvas.
 
 ## Implementation notes
 
-How does one implement the pattern?
+This implementation builds upon the [opera table of contents recipe](../0026-toc-opera/index.md) but adds metadata, homepage, and thumbnail properties for more more context.
 
 ## Restrictions
 
-When is this pattern is usable / not usable? Is it deprecated? If it uses multiple specifications, which versions are needed, etc.? (Not present if not needed.)
+None Known.
 
 ## Example
 
-Describe in prose and provide examples, e.g.: 
-
-``` json-doc
-{
-  "@context": [
-    "http://www.w3.org/ns/anno.jsonld",
-    "http://iiif.io/api/presentation/{{ page.major }}/context.json"
-  ],
-  "id": "https://example.org/iiif/book1/manifest",
-  "type": "Manifest" 
-}
-```
+{: .line-numbers data-download-link data-download-link-label="Download me" data-src="manifest.json" }
 
 # Related recipes
 
-Provide a bulleted list of related recipes and why they are relevant.
-
+* [Table of Contents - Opera](../0026-toc-opera/index.md) - Another example of using nested ranges to represent an opera's table of contents.
+* [Opera Multiple Canvases](../0065-opera-multiple-canvases/index.md) - The same opera from this example but in audio format split across multiple canvases.
 
 {% include acronyms.md %}
 {% include links.md %}

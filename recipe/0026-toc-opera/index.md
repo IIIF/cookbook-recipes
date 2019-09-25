@@ -2,41 +2,33 @@
 title: Table of contents (ranges) - acts of an opera
 id: 26
 layout: recipe
-tags: [tbc]
-summary: "tbc"
+tags: [video, presentation, opera]
+summary: "Complex nested table of contents for an opera."
 ---
 
 
 ## Use Case
 
-Why is this pattern is important?
+An opera's table of contents can be hierarchically divided into acts, scenes, and arias.
 
 ## Implementation notes
 
-How does one implement the pattern?
+Implementation is similar to [Book Chapters](../0024-toc-book-chapters/index.md) except that nesting may be deeper.
 
 ## Restrictions
 
-When is this pattern is usable / not usable? Is it deprecated? If it uses multiple specifications, which versions are needed, etc.? (Not present if not needed.)
+None Known.
 
 ## Example
 
-Describe in prose and provide examples, e.g.: 
-
-``` json-doc
-{
-  "@context": [
-    "http://www.w3.org/ns/anno.jsonld",
-    "http://iiif.io/api/presentation/{{ page.major }}/context.json"
-  ],
-  "id": "https://example.org/iiif/book1/manifest",
-  "type": "Manifest" 
-}
-```
+{: .line-numbers data-download-link data-download-link-label="Download me" data-src="manifest.json" }
 
 # Related recipes
 
-Provide a bulleted list of related recipes and why they are relevant.
+* [Table of Contents (Ranges) - Book Chapters](../0024-toc-book-chapters/index.md)
+* [Simplest Manifest - Video](../0003-mvm-video/index.md)
+* [Opera One Canvas](../0064-opera-one-canvas/index.md) - The same opera from this example but expanded into a real world example.
+* [Opera Multiple Canvases](../0065-opera-multiple-canvases/index.md) - The same opera from this example but expanded into a real world example in audio format split across multiple canvases.
 
 
 {% include acronyms.md %}
