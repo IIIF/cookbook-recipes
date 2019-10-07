@@ -18,7 +18,9 @@ Anyone can submit a recipe to the cookbook. The community process is as follows:
 
 * The proposer creates an issue for the recipe on GitHub.
 * The initial discussion of the recipe is conducted in comments on the issue. This may result in the recipe being modified, or abandoned.
-* If there is broad agreement that the recipe is valuable, the proposer, or another community member, creates a pull request containing the recipe.
+* If there is broad agreement that the recipe is valuable, the proposer, or another community member assigns the issue to themselves. 
+  * To get permission to assign issues please contact the IIIF Staff at admin@iiif.io who will add you to the iiif-recipes Github team. 
+* The assignee will then create a pull request containing the recipe.
 * The pull request is reviewed by the Technical Review Committee as part of its regular work.
 * If approved, the pull request is merged, and the recipe becomes part of the published cookbook.
 
