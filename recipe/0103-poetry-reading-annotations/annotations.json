@@ -2,7 +2,8 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "https://raw.githubusercontent.com/BrumfieldLabs/cookbook-recipes/master/recipe/0103-poetry-reading-annotations/annopage/p1",
   "type": "AnnotationPage",
-  "items": [
+  "items": 
+  [
    { 
       "@context":"http://www.w3.org/ns/anno.jsonld",
       "id":"https://raw.githubusercontent.com/BrumfieldLabs/cookbook-recipes/master/recipe/0103-poetry-reading-annotations/manifest/canvas/annotation1",
@@ -20,6 +21,24 @@
             "t":"27.660653"
          }
       }
-   }
-   ]
+   },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "https://raw.githubusercontent.com/BrumfieldLabs/cookbook-recipes/master/recipe/0103-poetry-reading-annotations/manifest/canvas/segment1/annotation/4",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "body": {
+      "type": "TextualBody",
+      "value": "her kind",
+      "format": "text/plain"
+    },
+    "target": {
+      "source": "https://raw.githubusercontent.com/BrumfieldLabs/cookbook-recipes/master/recipe/0103-poetry-reading-annotations/manifest/canvas/segment1",
+      "selector": {
+        "type": "RangeSelector",
+        "t": "46.734653,47.875068"
+      }
+    }
+  }
+ ]
 }
