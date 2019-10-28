@@ -30,6 +30,12 @@
         ]
       }    
     ],
+    "annotations": [
+      {
+        "id": "https://raw.githubusercontent.com/BrumfieldLabs/cookbook-recipes/master/recipe/0103-poetry-reading-annotations/annotations.json",
+        "type": "AnnotationPage",
+      }
+  	],
     "homepage": [
       {
         "id": "https://library.harvard.edu/poetry/listeningbooth/poets/sexton.html",
