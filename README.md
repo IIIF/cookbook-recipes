@@ -12,7 +12,7 @@ The cookbook site is available at:
 
 https://preview.iiif.io/cookbook/master
 
-**Note:** at a late date this will be merged into the https://iiif.io website. 
+**Note:** in the future this will be merged into the https://iiif.io website. 
 
 ## To build locally:
 
