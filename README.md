@@ -6,6 +6,14 @@ This repository is the source location for the IIIF 3.0 recipes. The aim is to s
 
 Please see the [Cookbook Process](recipe/index.md).
 
+## Live site
+
+The cookbook site is available at:
+
+https://preview.iiif.io/cookbook/master
+
+**Note:** in the future this will be merged into the https://iiif.io website. 
+
 ## To build locally:
 
 ```bundle install```

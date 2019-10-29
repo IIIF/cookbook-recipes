@@ -19,4 +19,3 @@ deploy:
   upload-dir: cookbook/$TRAVIS_BRANCH
   on:
     all_branches: true
-    condition: "$TRAVIS_BRANCH != master"
