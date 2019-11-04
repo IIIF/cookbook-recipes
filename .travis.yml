@@ -1,9 +1,12 @@
 language: ruby
 cache: bundler
 before_script:
-- bundle install
+  - bundle install
 script:
-- bundle exec jekyll clean && bundle exec jekyll build  --baseurl /cookbook/$TRAVIS_BRANCH
+  - bundle exec jekyll clean && bundle exec jekyll build  --baseurl /cookbook/$TRAVIS_BRANCH
+
+install:
+  - chmod 755 $TRAVIS_BUILD_DIR/scripts/updatePullRequest.sh && export iiifsite=cookbook && $TRAVIS_BUILD_DIR/scripts/updatePullRequest.sh;
 deploy:
   provider: s3
   access_key_id:
