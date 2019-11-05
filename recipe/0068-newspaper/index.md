@@ -23,15 +23,10 @@ When is this pattern is usable / not usable? Is it deprecated? If it uses multip
 
 Describe in prose and provide examples, e.g.: 
 
-``` json-doc
-{
-  "@context": [
-    "http://www.w3.org/ns/anno.jsonld",
-    "http://iiif.io/api/presentation/{{ page.major }}/context.json"
-  ],
-  "id": "https://example.org/iiif/book1/manifest",
-  "type": "Manifest" 
-}
+[JSON-LD](newspaper_title-collection.json) | View in X | View in Y 
+
+{: .line-numbers data-download-link data-download-link-label="Download me" data-src="newspaper_title-collection.json" }
+```json
 ```
 
 # Related recipes

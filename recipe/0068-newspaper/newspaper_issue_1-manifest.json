@@ -1,0 +1,179 @@
+---
+layout: null
+---
+{
+  "@context": [
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "type": "Manifest",
+  "id": "{{site.url }}/{{ site.baseurl }}{{ page.path}}",
+  "partOf": [
+    {
+      "id": "{{site.url }}{{ site.baseurl }}{{ page.dir }}newspaper_title-collection.json",
+      "type": "Collection"
+    }
+  ],
+  "label": {
+    "de": [
+      "Berliner Tageblatt - 1925-02-16"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "none": [
+          "http://schema.org/PublicationIssue",
+          "http://data.europeana.eu/concept/base/18"
+        ],
+        "en": [
+          "Analytic serial",
+          "Newspaper",
+          "Newspaper Issue"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "language"
+        ]
+      },
+      "value": {
+        "none": "de",
+        "en": [
+          "German"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://api.europeana.eu/api/v2/thumbnail-by-url.json?uri=https%3A%2F%2Fiiif.europeana.eu%2Fimage%2F2YMIN6YXMQ6COVM5AO2XKB5KMCKPMT2YKEKNMAGHVRBIHOOY4AVA%2Fpresentation_images%2F9340afd0-ffe2-11e5-b68d-fa163e60dd72%2Fnode-2%2Fimage%2FSBB%2FBerliner_Tageblatt%2F1925%2F02%2F16%2F0%2FF_SBB_00001_19250216_054_079_0_001%2Ffull%2Ffull%2F0%2Fdefault.jpg&type=TEXT",
+      "type": "Image",
+      "format": "image/jpeg"
+    }
+  ],
+  "navDate": "1925-02-16T00:00:00Z",
+  "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ]
+    },
+    "value": {
+      "en": [
+        "Berliner Tageblatt - https://www.europeana.eu/portal/record/9200355/BibliographicResource_3000096302605.html. Staatsbibliothek zu Berlin - Preußischer Kulturbesitz. Public Domain Mark - http://creativecommons.org/publicdomain/mark/1.0/"
+      ]
+    }
+  },
+  "logo": [
+    {
+      "id": "https://style.europeana.eu/images/europeana-logo-default.png"
+    }
+  ],
+  "seeAlso": [
+    {
+      "id": "https://www.europeana.eu/api/v2/record/9200355/BibliographicResource_3000096302513.json-ld",
+      "format": "application/ld+json",
+      "profile": "http://www.europeana.eu/schemas/edm/"
+    }
+  ],
+  "start": {
+    "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302513/canvas/p1",
+    "type": "Canvas"
+  },
+  "items": [
+    {
+      "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302513/canvas/p1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "p. 1"
+        ]
+      },
+      "height": 5000,
+      "width": 3602,
+      "items": [
+        {
+          "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302513/annotation_page_painting/ap1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302513/annotation/p1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.europeana.eu/image/2YMIN6YXMQ6COVM5AO2XKB5KMCKPMT2YKEKNMAGHVRBIHOOY4AVA/presentation_images/9340afd0-ffe2-11e5-b68d-fa163e60dd72/node-2/image/SBB/Berliner_Tageblatt/1925/02/16/0/F_SBB_00001_19250216_054_079_0_001/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://iiif.europeana.eu/image/2YMIN6YXMQ6COVM5AO2XKB5KMCKPMT2YKEKNMAGHVRBIHOOY4AVA/presentation_images/9340afd0-ffe2-11e5-b68d-fa163e60dd72/node-2/image/SBB/Berliner_Tageblatt/1925/02/16/0/F_SBB_00001_19250216_054_079_0_001",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302513/canvas/p1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{site.url }}{{ site.baseurl }}{{ page.dir }}newspaper_issue_1-anno_p1.json",
+          "type": "AnnotationPage"
+        }
+      ]
+    },
+    {
+      "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302513/canvas/p2",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "p. 2"
+        ]
+      },
+      "height": 5000,
+      "width": 3602,
+      "items": [
+        {
+          "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302513/annotation_page_painting/ap2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302513/annotation/p2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.europeana.eu/image/2YMIN6YXMQ6COVM5AO2XKB5KMCKPMT2YKEKNMAGHVRBIHOOY4AVA/presentation_images/9340afd0-ffe2-11e5-b68d-fa163e60dd72/node-2/image/SBB/Berliner_Tageblatt/1925/02/16/0/F_SBB_00001_19250216_054_079_0_002/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://iiif.europeana.eu/image/2YMIN6YXMQ6COVM5AO2XKB5KMCKPMT2YKEKNMAGHVRBIHOOY4AVA/presentation_images/9340afd0-ffe2-11e5-b68d-fa163e60dd72/node-2/image/SBB/Berliner_Tageblatt/1925/02/16/0/F_SBB_00001_19250216_054_079_0_002",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ]
+              },
+              "target": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302513/canvas/p2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{site.url }}{{ site.baseurl }}{{ page.dir }}newspaper_issue_1-anno_p2.json",
+          "type": "AnnotationPage"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+---
+layout: null
+---
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "{{site.url }}/{{ site.baseurl }}{{page.path}}",
+  "type": "AnnotationPage",
+  "items": [
+    {
+      "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/6dadebd602e9a542248bd65331cff1ab",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "http://purl.org/dc/elements/1.1/type": "page",
+      "body": {
+        "id": "https://www.europeana.eu/api/fulltext/9200355/BibliographicResource_3000096302513/8c6abaa8b05a33a93526a8f6d0411bf5",
+        "type": "http://www.europeana.eu/schemas/edm/FullTextResource"
+      },
+      "target": "https://iiif.europeana.eu/image/2YMIN6YXMQ6COVM5AO2XKB5KMCKPMT2YKEKNMAGHVRBIHOOY4AVA/presentation_images/9340afd0-ffe2-11e5-b68d-fa163e60dd72/node-2/image/SBB/Berliner_Tageblatt/1925/02/16/0/F_SBB_00001_19250216_054_079_0_001/full/full/0/default.jpg"
+    },
+    {
+      "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/20b3b1f4cb15f062e53fd50d584d66ff",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "http://purl.org/dc/elements/1.1/type": "word",
+      "body": {
+        "id": "https://www.europeana.eu/api/fulltext/9200355/BibliographicResource_3000096302513/8c6abaa8b05a33a93526a8f6d0411bf5#char=0,2",
+        "type": "http://www.europeana.eu/schemas/edm/FullTextResource"
+      },
+      "target": "https://iiif.europeana.eu/image/2YMIN6YXMQ6COVM5AO2XKB5KMCKPMT2YKEKNMAGHVRBIHOOY4AVA/presentation_images/9340afd0-ffe2-11e5-b68d-fa163e60dd72/node-2/image/SBB/Berliner_Tageblatt/1925/02/16/0/F_SBB_00001_19250216_054_079_0_001/full/full/0/default.jpg#xywh=182,476,59,43"
+    },
+    {
+      "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/a045849ecadd9479d28945ef328633e4",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "http://purl.org/dc/elements/1.1/type": "word",
+      "body": {
+        "id": "https://www.europeana.eu/api/fulltext/9200355/BibliographicResource_3000096302513/8c6abaa8b05a33a93526a8f6d0411bf5#char=2,3",
+        "type": "http://www.europeana.eu/schemas/edm/FullTextResource"
+      },
+      "target": "https://iiif.europeana.eu/image/2YMIN6YXMQ6COVM5AO2XKB5KMCKPMT2YKEKNMAGHVRBIHOOY4AVA/presentation_images/9340afd0-ffe2-11e5-b68d-fa163e60dd72/node-2/image/SBB/Berliner_Tageblatt/1925/02/16/0/F_SBB_00001_19250216_054_079_0_001/full/full/0/default.jpg#xywh=246,509,8,9"
+    }
+  ]
+}
