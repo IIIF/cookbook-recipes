@@ -7,7 +7,7 @@ summary: "tbc"
 
 The issues of this repository are used to identify and discuss cookbook recipes, prior to their inclusion in the cookbook section of the API repository. 
 
-[See all issues](https://github.com/IIIF/cookbook-recipes/issues)
+[Issue List](all.html) | [See all issues on GitHub](https://github.com/IIIF/cookbook-recipes/issues) 
 
 Anyone is welcome to submit a recipe idea. Sometimes the person who raises the recipe issue then goes on to write the recipe, but this doesn't have to be the case. The need for a recipe may be expressed before its form is known; the comments on the recipe issue are where the recipe is discussed and elaborated.
 
