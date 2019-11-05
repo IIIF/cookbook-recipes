@@ -29,7 +29,7 @@ This recipe shows two variations of referencing annotations from within a manife
 
 ## Example
 
-A manifest for the poem "Her Kind" read by Anne Sexton in 1974.  The recording is 107 minutes long.  Annotations are included in the manifest and show both a point annotation (at a particular time) and a range annotation (covering a time range).  (For more on these annotations, see the [annotation.json file description.](#annotations))
+A manifest for the poem "Her Kind" read by Anne Sexton in 1974.  The recording is 107 seconds long.  Annotations are included in the manifest and show both a point annotation (at a particular time) and a range annotation (covering a time range).  (For more on these annotations, see the [annotation.json file description.](#annotations))
 
 {: .line-numbers data-src="manifest1.json" }
 ```json
