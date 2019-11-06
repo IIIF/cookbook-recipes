@@ -2,40 +2,37 @@
 layout: null
 ---
 {
-    "@context": [
-      "http://www.w3.org/ns/anno.jsonld",
-      "http://iiif.io/api/presentation/3/context.json"
-    ],
-    "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}",
-    "type": "Manifest",
-    "label": { "en": [ "Image 1" ] },
-    "items": [
-      {
-        "id": "{{site.url }}{{ site.baseurl }}{{page.dir}}/canvas/p1",
-        "type": "Canvas",
-        "height": 1800,
-        "width": 1200,
-        "items": [
-          {
-            "id": "{{site.url }}{{ site.baseurl }}{{page.dir}}page/p1/1",
-            "type": "AnnotationPage",
-            "items": [
-              {
-                "id": "{{site.url }}{{ site.baseurl }}{{page.dir}}annotation/p0001-image",
-                "type": "Annotation",
-                "motivation": "painting",
-                "body": {
-                  "id": "http://iiif.io/api/presentation/2.1/example/fixtures/resources/page1-full.png",
-                  "type": "Image",
-                  "format": "image/png",
-                  "height": 1800,
-                  "width": 1200
-                },
-                "target": "{{site.url }}{{ site.baseurl }}{{page.dir}}canvas/p1"
-              }
-            ]
-          }
-        ]
-      }    
-    ]
-  }
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}",
+  "type": "Manifest",
+  "label": { "en": [ "Single Image Example" ] },
+  "items": [
+    {
+      "id": "{{site.url }}{{ site.baseurl }}{{page.dir}}/canvas/p1",
+      "type": "Canvas",
+      "height": 1800,
+      "width": 1200,
+      "items": [
+        {
+          "id": "{{site.url }}{{ site.baseurl }}{{page.dir}}page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{site.url }}{{ site.baseurl }}{{page.dir}}annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "http://iiif.io/api/presentation/2.1/example/fixtures/resources/page1-full.png",
+                "type": "Image",
+                "format": "image/png",
+                "height": 1800,
+                "width": 1200
+              },
+              "target": "{{site.url }}{{ site.baseurl }}{{page.dir}}canvas/p1"
+            }
+          ]
+        }
+      ]
+    }    
+  ]
+}
