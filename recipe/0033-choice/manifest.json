@@ -2,7 +2,7 @@
 layout: null
 ---
 {
-    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}",
     "type": "Manifest",
     "label": { "en": [ "Image 1" ] },
