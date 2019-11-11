@@ -22,10 +22,36 @@ There is a third use case where manifests are unaware of annotations on them, bu
 
 ## Implementation notes
 
-This implementation builds off of the [audio example][0002], but adds Web Annotations.
+1. This implementation builds off of the [audio example][0002], but adds Web Annotations.
 
-This recipe shows two variations of referencing annotations from within a manifest.  The first has the annotations embedded within the manifest file.  The second has a reference to annotations in a separate file.
+2. This recipe shows two variations of referencing annotations from within a manifest.  The first has the annotations embedded within the manifest file.  The second has a reference to annotations in a separate file.
 
+3. Where we use "RangeSelector" for the annotation target, we could instead use a Media Fragment like "#t=1.23,2.23" appended to the canvas URL. Instead of "source" you'd condense it into the "target" field.  For example:
+
+```
+                "target": {
+                  "source": "http://localhost:4000/recipe/0103-poetry-reading-annotations/manifest1.json/canvas/segment1/canvas/segment1",
+                  "selector": {
+                    "type": "RangeSelector",
+                    "t": "46.734653,47.875068"
+                  }
+```
+
+Could become
+
+```
+                "target": "http://localhost:4000/recipe/0103-poetry-reading-annotations/manifest1.json/canvas/segment1/canvas/segment1#t=46.734653,47.875068"
+```
+
+Both are correct.
+
+4. While the IIIF Specification requires arrays for most values, the W3C Web Annotation Specification does not require arrays, so the following line: 
+
+`"motivation": "commenting",`
+
+is correct, but unusual for a IIIF resource.  It could also be expressed (and must be if there is more than one motivation) as follows:
+
+`"motivation": ["commenting"],`
 
 ## Example
 
