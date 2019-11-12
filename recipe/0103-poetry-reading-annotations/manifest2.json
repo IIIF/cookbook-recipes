@@ -1,9 +1,6 @@
 ---
 layout: null
 ---
----
-layout: null
----
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "{{site.url}}{{site.basurl}}/{{page.path}}",
