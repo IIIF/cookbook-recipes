@@ -3,7 +3,7 @@ layout: null
 ---
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "{{site.url}}{{site.baseurl}}/{{page.path}}/annopage/p1",
+  "id": "{{site.url}}{{site.baseurl}}{{page.dir}}annotations.json",
   "type": "AnnotationPage",
   "items": 
   [

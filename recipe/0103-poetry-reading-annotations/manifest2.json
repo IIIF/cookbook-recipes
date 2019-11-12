@@ -1,23 +1,26 @@
 ---
 layout: null
 ---
+---
+layout: null
+---
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "{{site.url}}{{site.baseurl}}/{{page.path}}",
+    "id": "{{site.url}}{{site.basurl}}/{{page.path}}",
     "type": "Manifest",
     "label": { "en": [ "Anne Sexton, Poetry Reading, 1974 -- Her Kind" ] },
     "items": [
       {
-        "id": "{{site.url}}{{site.baseurl}}/{{page.path}}/canvas/segment1",
+        "id": "{{site.url}}{{site.baseurl}}{{page.dir}}canvas/1",
         "type": "Canvas",
         "duration": 107,
         "items": [
           {
-            "id": "{{site.url}}{{site.baseurl}}/{{page.path}}/annotation/segment1/page",
+            "id": "{{site.url}}{{site.baseurl}}{{page.dir}}canvas/1/paintings",
             "type": "AnnotationPage",
             "items": [
               {
-                "id": "{{site.url}}{{site.baseurl}}/{{page.path}}/annotation/segment1-audio",
+                "id": "{{site.url}}{{site.baseurl}}{{page.dir}}canvas/1/painting/1",
                 "type": "Annotation",
                 "motivation": "painting",
                 "body": {
@@ -26,19 +29,19 @@ layout: null
                   "format": "audio/mp3",
                   "duration": 107
                 },
-                "target": "{{site.url}}{{site.baseurl}}/{{page.path}}/canvas/segment1"
-              }
-            ]
-          }
-        ]
-      }    
+                "target": "{{site.url}}{{site.baseurl}}{{page.dir}}canvas/1"
+              },
+            ],
+          }    
+        ],
+      }
     ],
     "annotations": [
       {
-        "id": "https://raw.githubusercontent.com/BrumfieldLabs/cookbook-recipes/master/recipe/0103-poetry-reading-annotations/annotations.json",
+        "id": "{{site.url}}{{site.baseurl}}{{page.dir}}annotations.json",
         "type": "AnnotationPage",
       }
-  	],
+    ],
     "homepage": [
       {
         "id": "https://library.harvard.edu/poetry/listeningbooth/poets/sexton.html",
