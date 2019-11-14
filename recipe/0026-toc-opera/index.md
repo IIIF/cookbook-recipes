@@ -15,9 +15,11 @@ An opera's table of contents can be hierarchically divided into acts, scenes, an
 
 Implementation is similar to [Book Chapters](../0024-toc-book-chapters/index.md) except that nesting may be deeper.
 
+Ranges in the structure target different portions of the same canvas using temporal Media Fragments (e.g. "t=0,100").  This is in contrast to the Book Chapters recipe where each range targets a different canvas.
+
 ## Restrictions
 
-None Known.
+The ranges here don’t overlap (although that is allowed in the spec) because that can affect the user experience of playing through all the ranges in a player (the overlapping part would be played twice).
 
 ## Example
 
