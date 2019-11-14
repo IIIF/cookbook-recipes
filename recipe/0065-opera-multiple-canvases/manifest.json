@@ -2,27 +2,8 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "type": "Manifest",
   "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}",
-  "label": {
-    "it": [
-      "L'elisir d'amore"
-    ],
-    "en": [
-      "The elixir of love"
-    ]
-  },
+  "label": { "it": [ "L'elisir d'amore" ], "en": [ "The elixir of love" ] },
   "metadata": [
-    {
-      "label": {
-        "en": [
-          "Creator"
-        ]
-      },
-      "value": {
-        "en": [
-          "See Other Contributors"
-        ]
-      }
-    },
     {
       "label": {
         "en": [
@@ -71,56 +52,6 @@
           "Indiana University Jacobs School of Music"
         ]
       }
-    },
-    {
-      "label": {
-        "en": [
-          "Subject"
-        ]
-      },
-      "value": {
-        "en": [
-          "Operas"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "Genre"
-        ]
-      },
-      "value": {
-        "en": [
-          "Operas.",
-          "Filmed performances.",
-          "Live sound recordings."
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "Topical Subject"
-        ]
-      },
-      "value": {
-        "en": [
-          "Operas"
-        ]
-      }
-    }
-  ],
-  "homepage": [
-    {
-      "id": "https://purl.dlib.indiana.edu/iudl/media/q085549g74",
-      "type": "Text",
-      "label": {
-        "en": [
-          "View in Repository"
-        ]
-      },
-      "format": "text/html"
     }
   ],
   "items": [
@@ -142,7 +73,7 @@
               "motivation": "painting",
               "target": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/1",
               "body": {
-                "id": "https://iiif-av.s3.amazonaws.com/examples/indiana/donizetti-elixir/vae0637_accessH264_low_act_1.mp4",
+                "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/vae0637_accessH264_low_act_1.mp4",
                 "type": "Video",
                 "format": "video/mp4",
                 "height": 1080,
@@ -151,6 +82,12 @@
               }
             }
           ]
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://media.dlib.indiana.edu/master_files/vt150p78b/thumbnail",
+          "type": "Image"
         }
       ]
     },
@@ -172,7 +109,7 @@
               "motivation": "painting",
               "target": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/2",
               "body": {
-                "id": "https://iiif-av.s3.amazonaws.com/examples/indiana/donizetti-elixir/vae0637_accessH264_low_act_2.mp4",
+                "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/vae0637_accessH264_low_act_2.mp4",
                 "type": "Video",
                 "format": "video/mp4",
                 "height": 1080,
@@ -181,6 +118,12 @@
               }
             }
           ]
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://media.dlib.indiana.edu/master_files/vt150p78b/thumbnail",
+          "type": "Image"
         }
       ]
     }
@@ -197,25 +140,10 @@
       "items": [
         {
           "type": "Range",
-          "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/r764d8a04-47a4-4aa5-bc68-a572ad33866a",
-          "label": {
-            "en": [
-              "[ambience]"
-            ]
-          },
-          "items": [
-            {
-              "type": "Canvas",
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/1#t=0.0,26.17"
-            }
-          ]
-        },
-        {
-          "type": "Range",
           "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/raa6a9c5b-79be-4d73-a3fc-2cb22e9e6618",
           "label": {
             "it": [
-              "Gaetano Donizetti, L'Elisir D'Amore"
+              "Gaetano Donizetti, L'Elisir D'Amore, Atto Primo"
             ]
           },
           "items": [
@@ -224,13 +152,13 @@
               "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/r2ceb895e-a290-43b6-9351-f1fc8bad336c",
               "label": {
                 "it": [
-                  "Atto Primo – Preludio e Coro d'introduzione – Bel conforto al mietitore"
+                  "Preludio e Coro d'introduzione – Bel conforto al mietitore"
                 ]
               },
               "items": [
                 {
                   "type": "Canvas",
-                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/1#t=26.17,302.05"
+                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/1#t=0,302.05"
                 }
               ]
             },
@@ -238,196 +166,16 @@
               "type": "Range",
               "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/r5061e574-e6c6-4e04-93ea-368f8afab78b",
               "label": {
-                "it": [
-                  "Atto Primo – Cavatoma – Quanto é cara!"
+                "en": [
+                  "Remainder of Act I"
                 ]
               },
               "items": [
                 {
                   "type": "Canvas",
-                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/1#t=302.05,488.23"
+                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/1#t=302.05,3971.24"
                 }
               ]
-            },
-            {
-              "type": "Range",
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/r2f07821a-33c0-49c3-8e28-2fa3bcdf1349",
-              "label": {
-                "it": [
-                  "Atto Primo – Cavatina - Benedette queste carte! – Della crudele Isotta"
-                ]
-              },
-              "items": [
-                {
-                  "type": "Canvas",
-                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/1#t=488.23,770.29"
-                }
-              ]
-            },
-            {
-              "type": "Range",
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/rf2a0a534-4e5f-4280-a572-0f6b4d64246d",
-              "label": {
-                "it": [
-                  "Atto Primo – Cavatina e Stretta d’introduzione – Come Paride vezzoso"
-                ]
-              },
-              "items": [
-                {
-                  "type": "Canvas",
-                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/1#t=770.29,1278.04"
-                }
-              ]
-            },
-            {
-              "type": "Range",
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/r40dee6f3-6df4-42cc-b71c-7536d26df61e",
-              "label": {
-                "it": [
-                  "Atto Primo – Recitativo – Intanto, o mia ragazza"
-                ]
-              },
-              "items": [
-                {
-                  "type": "Canvas",
-                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/1#t=1278.04,1314.05"
-                }
-              ]
-            },
-            {
-              "type": "Range",
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/rffadb10b-f45f-4f37-8566-cac50783f77c",
-              "label": {
-                "it": [
-                  "Atto Primo – Scene e Duetto – Una parola, o Adina – Chiedi all’aura lushinghiera"
-                ]
-              },
-              "items": [
-                {
-                  "type": "Canvas",
-                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/1#t=1314.05,1738.15"
-                }
-              ]
-            },
-            {
-              "type": "Range",
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/rf072516a-868d-4bf1-86b4-bba2951689ec",
-              "label": {
-                "it": [
-                  "Atto Primo – Coro – Che vuol dire codesta sonata?"
-                ]
-              },
-              "items": [
-                {
-                  "type": "Canvas",
-                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/1#t=1738.15,1855.24"
-                }
-              ]
-            },
-            {
-              "type": "Range",
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/r05fc5414-d4c9-416c-bb08-44aabde33a63",
-              "label": {
-                "it": [
-                  "Atto Primo – Cavatina – Udite, udite, o rustici"
-                ]
-              },
-              "items": [
-                {
-                  "type": "Canvas",
-                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/1#t=1855.24,2288.23"
-                }
-              ]
-            },
-            {
-              "type": "Range",
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/r60d2be49-2651-47da-9018-fb31758314ab",
-              "label": {
-                "it": [
-                  "Atto Primo – Recitavio, Scena e Duetto – Ardir! – Voglio dire"
-                ]
-              },
-              "items": [
-                {
-                  "type": "Canvas",
-                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/1#t=2288.23,2705.21"
-                }
-              ]
-            },
-            {
-              "type": "Range",
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/r23b13c8a-27d1-416f-ba25-f71a7947a0b7",
-              "label": {
-                "it": [
-                  "Atto Primo – Recitavio – Caro Elisir! sei mio!"
-                ]
-              },
-              "items": [
-                {
-                  "type": "Canvas",
-                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/1#t=2705.21,2847.14"
-                }
-              ]
-            },
-            {
-              "type": "Range",
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/r04634ffa-bf37-4537-80e4-cf0d7919666a",
-              "label": {
-                "it": [
-                  "Atto Primo – Scene e Duetto – Lallarallarà, la, la – Esulti pur la Barbara"
-                ]
-              },
-              "items": [
-                {
-                  "type": "Canvas",
-                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/1#t=2847.14,3174.16"
-                }
-              ]
-            },
-            {
-              "type": "Range",
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/r95c31349-5bc1-4c4f-8fc1-7ff4e34133dc",
-              "label": {
-                "it": [
-                  "Atto Primo – Terzetto – In Guerra ed in amore"
-                ]
-              },
-              "items": [
-                {
-                  "type": "Canvas",
-                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/1#t=3174.16,3370.2"
-                }
-              ]
-            },
-            {
-              "type": "Range",
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/re9d2963f-ed54-4ff8-9f0f-19e2be05bf0e",
-              "label": {
-                "it": [
-                  "Atto Primo – Quartetto e Stretta del Finale I – Signor sergente – Adina, credimi"
-                ]
-              },
-              "items": [
-                {
-                  "type": "Canvas",
-                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/1#t=3370.2,3971.24"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "Range",
-          "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/r3e7e0b40-026d-43d0-8281-9e0dc11ae674",
-          "label": {
-            "en": [
-              "[ambience]"
-            ]
-          },
-          "items": [
-            {
-              "type": "Canvas",
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/2#t=0,32.89"
             }
           ]
         },
@@ -436,184 +184,17 @@
           "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/rf7350bab-17b7-4b7d-858e-e8c83e8cef7a",
           "label": {
             "it": [
-              "Gaetano Donizetti, L'Elisir D'Amore"
+              "Gaetano Donizetti, L'Elisir D'Amore, Atto Secondo"
             ]
           },
           "items": [
             {
-              "type": "Range",
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/rdedd2c01-86be-4f7b-bfcc-586848bb0cd0",
-              "label": {
-                "it": [
-                  "Atto Secondo – Coro d’Introduzione – Cantiamo, facciam brindisi"
-                ]
-              },
-              "items": [
-                {
-                  "type": "Canvas",
-                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/2#t=32.89,169.04"
-                }
-              ]
-            },
-            {
-              "type": "Range",
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/r00d145d8-7bd7-4077-be4c-247cc026c811",
-              "label": {
-                "it": [
-                  "Atto Secondo – Recitativo – Poiché cantar vi alletta"
-                ]
-              },
-              "items": [
-                {
-                  "type": "Canvas",
-                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/2#t=169.04,216.92"
-                }
-              ]
-            },
-            {
-              "type": "Range",
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/r1c7aa4ff-9200-475c-9df5-61618c0fec35",
-              "label": {
-                "it": [
-                  "Atto Secondo – Barcarola a due voci – Io son ricco e tu sei bella"
-                ]
-              },
-              "items": [
-                {
-                  "type": "Canvas",
-                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/2#t=216.92,359.78"
-                }
-              ]
-            },
-            {
-              "type": "Range",
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/rc31de5e6-0db6-4893-8383-af6fbf429f7a",
-              "label": {
-                "it": [
-                  "Atto Secondo – Recotativo – Silenzio! È qua il notaro"
-                ]
-              },
-              "items": [
-                {
-                  "type": "Canvas",
-                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/2#t=359.78,561.76"
-                }
-              ]
-            },
-            {
-              "type": "Range",
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/r97bfe0c8-0fed-4c8a-9412-fefec5c891fc",
-              "label": {
-                "it": [
-                  "Atto Secondo – Scena e Duetto – La donna è en animale stravagante – Venti scudi"
-                ]
-              },
-              "items": [
-                {
-                  "type": "Canvas",
-                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/2#t=561.76,1047.88"
-                }
-              ]
-            },
-            {
-              "type": "Range",
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/r8e68d5c5-6931-4532-ac1b-212f437ce89b",
-              "label": {
-                "it": [
-                  "Atto Secondo – Coro – Saria possibil?"
-                ]
-              },
-              "items": [
-                {
-                  "type": "Canvas",
-                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/2#t=1047.88,1283.02"
-                }
-              ]
-            },
-            {
-              "type": "Range",
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/re14797a3-4222-4922-814a-a4fa12f989ea",
-              "label": {
-                "it": [
-                  "Atto Secondo – Quartetto – Dell’elisir mirabile"
-                ]
-              },
-              "items": [
-                {
-                  "type": "Canvas",
-                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/2#t=1283.02,1686.90"
-                }
-              ]
-            },
-            {
-              "type": "Range",
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/re0591627-b002-4dec-a579-cc01b12b30d4",
-              "label": {
-                "it": [
-                  "Atto Secondo – Recitativo e Duetto – Come sen va contento! – Quanto amore!"
-                ]
-              },
-              "items": [
-                {
-                  "type": "Canvas",
-                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/2#t=1686.90,2162.01"
-                }
-              ]
-            },
-            {
-              "type": "Range",
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/ra6cec2bb-4028-4f34-bcf5-3406d5252853",
-              "label": {
-                "it": [
-                  "Atto Secondo – Romanza – Una furtiva lagrima"
-                ]
-              },
-              "items": [
-                {
-                  "type": "Canvas",
-                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/2#t=2162.01,2441.03"
-                }
-              ]
-            },
-            {
-              "type": "Range",
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/r7ec19a5a-e1cc-4db1-ab96-0ad578b90cc9",
-              "label": {
-                "it": [
-                  "Atto Secondo – Recitativo ed Aria - Eccola – Prendi, Per me sei Libero"
-                ]
-              },
-              "items": [
-                {
-                  "type": "Canvas",
-                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/2#t=2441.03,2969.77"
-                }
-              ]
-            },
-            {
-              "type": "Range",
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/r2b320d47-3996-4901-9322-808583958672",
-              "label": {
-                "it": [
-                  "Atto Secondo – Recitativo – Aria e Finale II - Alto! – Fronte! – Eli corregge ogni difetto"
-                ]
-              },
-              "items": [
-                {
-                  "type": "Canvas",
-                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/2#t=2969.77,3307.22"
-                }
-              ]
+              "type": "Canvas",
+              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/2#t=0,3307.22"
             }
           ]
         }
       ]
-    }
-  ],
-  "thumbnail": [
-    {
-      "id": "https://media.dlib.indiana.edu/master_files/vt150p78b/thumbnail",
-      "type": "Image"
     }
   ]
 }
