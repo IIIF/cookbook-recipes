@@ -13,7 +13,7 @@ To make the process of making the manifests resolvable during all stages of the 
  * `id.url` - the current resolvable URL for this resource e.g. https://preview.iiif.io/cookbook/master/recipe/0001-mvm-image/manifest.json
  * `id.path` - the URL to the current directory of the file e.g. https://preview.iiif.io/cookbook/master/recipe/0001-mvm-image/. This can be useful for linking to annotation or collection JSON in the current directory. 
 
-For an example of these in variables in practice please see:
+For an example of these variables in practice please see:
 
 https://github.com/IIIF/cookbook-recipes/blob/master/recipe/0001-mvm-image/manifest.json
 
