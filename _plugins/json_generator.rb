@@ -46,7 +46,7 @@ module Jekyll
             data = JSON.load file
             processHash(data, replacements)
             File.open(dest_path,"w") do |f|
-              f.write(data.to_json)
+              f.write(JSON.pretty_generate(data))
             end
 		end
         def processHash(hash, replacements)
