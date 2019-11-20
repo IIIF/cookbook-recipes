@@ -35,8 +35,7 @@ module Jekyll
             return false if File.exist?(dest_path) && !modified?
             replacements = {
                 "id.url" => @site.config['url'].to_s + @site.config['baseurl'].to_s+ @dir.to_s + "/" + @name.to_s,
-                "id.basename" => @site.config['url'].to_s + @site.config['baseurl'].to_s+ @dir.to_s
-               # "id.url" => "http://test.com"
+                "id.path" => @site.config['url'].to_s + @site.config['baseurl'].to_s+ @dir.to_s
             }
 
             self.class.mtimes[path] = mtime

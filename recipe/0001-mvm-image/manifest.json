@@ -5,17 +5,17 @@
     "label": { "en": [ "Image 1" ] },
     "items": [
       {
-        "id": "{{ id.basename }}/canvas/p1",
+        "id": "{{ id.path }}/canvas/p1",
         "type": "Canvas",
         "height": 1800,
         "width": 1200,
         "items": [
           {
-            "id": "{{ id.basename }}/page/p1/1",
+            "id": "{{ id.path }}/page/p1/1",
             "type": "AnnotationPage",
             "items": [
               {
-                "id": "{{ id.basename }}/annotation/p0001-image",
+                "id": "{{ id.path }}/annotation/p0001-image",
                 "type": "Annotation",
                 "motivation": "painting",
                 "body": {
@@ -25,7 +25,7 @@
                   "height": 1800,
                   "width": 1200
                 },
-                "target": "{{ id.basename }}/canvas/p1"
+                "target": "{{ id.path }}/canvas/p1"
               }
             ]
           }
