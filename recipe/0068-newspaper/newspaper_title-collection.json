@@ -73,7 +73,7 @@
   ],
   "items": [
     {
-      "id": "{{ id.basename }}/newspaper_issue_1-manifest.json",
+      "id": "{{ id.path }}/newspaper_issue_1-manifest.json",
       "type": "Manifest",
       "label": {
         "de": [
@@ -83,7 +83,7 @@
       "navDate": "1925-02-16T00:00:00Z"
     },
     {
-      "id": "{{ id.basename }}/newspaper_issue_2-manifest.json",
+      "id": "{{ id.path }}/newspaper_issue_2-manifest.json",
       "type": "Manifest",
       "label": {
         "de": [

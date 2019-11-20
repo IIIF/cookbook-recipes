@@ -6,7 +6,7 @@
   "id": "{{ id.url }}",
   "partOf": [
     {
-      "id": "{{ id.basename }}/newspaper_title-collection.json",
+      "id": "{{ id.path }}/newspaper_title-collection.json",
       "type": "Collection"
     }
   ],
@@ -124,7 +124,7 @@
       ],
       "annotations": [
         {
-          "id": "{{ id.basename }}/newspaper_issue_1-anno_p1.json",
+          "id": "{{ id.path }}/newspaper_issue_1-anno_p1.json",
           "type": "AnnotationPage"
         }
       ]
@@ -167,7 +167,7 @@
       ],
       "annotations": [
         {
-          "id": "{{ id.basename }}/newspaper_issue_1-anno_p2.json",
+          "id": "{{ id.path }}/newspaper_issue_1-anno_p2.json",
           "type": "AnnotationPage"
         }
       ]
