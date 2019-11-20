@@ -1,15 +1,12 @@
----
-layout: null
----
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "{{site.url}}{{site.baseurl}}{{page.dir}}annotations.json",
+  "id": "{{ id.url }}",
   "type": "AnnotationPage",
   "items": 
   [
    { 
       "@context":"http://www.w3.org/ns/anno.jsonld",
-      "id":"{{site.url}}{{site.baseurl}}/{{page.path}}/canvas/annotation1",
+      "id":"{{ id.path }}/canvas/annotation1",
       "type":"Annotation",
       "motivation":"commenting",
       "body":{ 
@@ -18,7 +15,7 @@ layout: null
          "format":"text/plain"
       },
       "target":{ 
-         "source":"{{site.url}}{{site.baseurl}}/{{page.path}}/canvas/segment1",
+         "source":"{{ id.path }}/canvas/1",
          "selector":{ 
             "type":"PointSelector",
             "t":"27.660653"
@@ -27,7 +24,7 @@ layout: null
    },
   {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "{{site.url}}{{site.baseurl}}/{{page.path}}/canvas/segment1/annotation/4",
+    "id": "{{ id.path }}/canvas/segment1/annotation/4",
     "type": "Annotation",
     "motivation": "commenting",
     "body": {
@@ -36,7 +33,7 @@ layout: null
       "format": "text/plain"
     },
     "target": {
-      "source": "{{site.url}}{{site.baseurl}}/{{page.path}}/canvas/segment1",
+      "source": "{{ id.path }}/canvas/1",
       "selector": {
         "type": "RangeSelector",
         "t": "46.734653,47.875068"

@@ -1,23 +1,20 @@
----
-layout: null
----
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "{{site.url}}{{site.basurl}}/{{page.path}}",
+    "id": "{{ id.url }}",
     "type": "Manifest",
     "label": { "en": [ "Anne Sexton, Poetry Reading, 1974 -- Her Kind" ] },
     "items": [
       {
-        "id": "{{site.url}}{{site.baseurl}}{{page.dir}}canvas/1",
+        "id": "{{ id.path }}/canvas/1",
         "type": "Canvas",
         "duration": 107,
         "items": [
           {
-            "id": "{{site.url}}{{site.baseurl}}{{page.dir}}canvas/1/paintings",
+            "id": "{{ id.path }}/canvas/1/paintings",
             "type": "AnnotationPage",
             "items": [
               {
-                "id": "{{site.url}}{{site.baseurl}}{{page.dir}}canvas/1/painting/1",
+                "id": "{{ id.path }}/canvas/1/painting/1",
                 "type": "Annotation",
                 "motivation": "painting",
                 "body": {
@@ -26,17 +23,17 @@ layout: null
                   "format": "audio/mp3",
                   "duration": 107
                 },
-                "target": "{{site.url}}{{site.baseurl}}{{page.dir}}canvas/1"
-              },
-            ],
+                "target": "{{ id.path }}/canvas/1"
+              }
+            ]
           }    
-        ],
+        ]
       }
     ],
     "annotations": [
       {
-        "id": "{{site.url}}{{site.baseurl}}{{page.dir}}annotations.json",
-        "type": "AnnotationPage",
+        "id": "{{ id.path }}/annotations.json",
+        "type": "AnnotationPage"
       }
     ],
     "homepage": [
