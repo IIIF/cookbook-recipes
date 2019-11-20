@@ -1,0 +1,47 @@
+---
+layout: null
+---
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "{{site.url}}{{site.baseurl}}{{page.dir}}annotations.json",
+  "type": "AnnotationPage",
+  "items": 
+  [
+   { 
+      "@context":"http://www.w3.org/ns/anno.jsonld",
+      "id":"{{site.url}}{{site.baseurl}}/{{page.path}}/canvas/annotation1",
+      "type":"Annotation",
+      "motivation":"commenting",
+      "body":{ 
+         "type":"TextualBody",
+         "value":"breath",
+         "format":"text/plain"
+      },
+      "target":{ 
+         "source":"{{site.url}}{{site.baseurl}}/{{page.path}}/canvas/segment1",
+         "selector":{ 
+            "type":"PointSelector",
+            "t":"27.660653"
+         }
+      }
+   },
+  {
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "{{site.url}}{{site.baseurl}}/{{page.path}}/canvas/segment1/annotation/4",
+    "type": "Annotation",
+    "motivation": "commenting",
+    "body": {
+      "type": "TextualBody",
+      "value": "her kind",
+      "format": "text/plain"
+    },
+    "target": {
+      "source": "{{site.url}}{{site.baseurl}}/{{page.path}}/canvas/segment1",
+      "selector": {
+        "type": "RangeSelector",
+        "t": "46.734653,47.875068"
+      }
+    }
+  }
+ ]
+}
