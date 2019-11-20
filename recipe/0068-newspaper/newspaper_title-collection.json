@@ -1,12 +1,9 @@
----
-layout: null
----
 {
   "@context": [
     "http://iiif.io/api/presentation/3/context.json"
   ],
   "type": "Collection",
-  "id": "{{site.url }}/{{ site.baseurl }}{{page.path}}",
+  "id": "{{ id.url }}",
   "within": "http://data.theeuropeanlibrary.org/Collection/a0620",
   "label": {
     "de": [
@@ -76,7 +73,7 @@ layout: null
   ],
   "items": [
     {
-      "id": "{{site.url }}{{ site.baseurl }}{{ page.dir }}newspaper_issue_1-manifest.json",
+      "id": "{{ id.basename }}/newspaper_issue_1-manifest.json",
       "type": "Manifest",
       "label": {
         "de": [
@@ -86,7 +83,7 @@ layout: null
       "navDate": "1925-02-16T00:00:00Z"
     },
     {
-      "id": "{{site.url }}{{ site.baseurl }}{{ page.dir }}newspaper_issue_2-manifest.json",
+      "id": "{{ id.basename }}/newspaper_issue_2-manifest.json",
       "type": "Manifest",
       "label": {
         "de": [

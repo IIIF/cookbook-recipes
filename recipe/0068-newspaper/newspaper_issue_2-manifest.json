@@ -1,15 +1,12 @@
----
-layout: null
----
 {
   "@context": [
     "http://iiif.io/api/presentation/3/context.json"
   ],
   "type": "Manifest",
-  "id": "{{site.url }}/{{ site.baseurl }}{{page.path}}",
+  "id": "{{ id.url }}",
   "partOf": [
     {
-      "id": "{{site.url }}{{ site.baseurl }}{{ page.dir }}newspaper_title-collection.json",
+      "id": "{{ id.basename }}newspaper_title-collection.json",
       "type": "Collection"
     }
   ],

@@ -1,9 +1,6 @@
----
-layout: null
----
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "{{site.url }}/{{ site.baseurl }}{{page.path}}",
+  "id": "{{ id.url }}",
   "type": "AnnotationPage",
   "items": [
     {
