@@ -23,7 +23,7 @@
                   "type": "Image",
                   "format": "image/jpg",
                   "height": 900,
-                  "width": 600,
+                  "width": 600
                 },
                 "target": "https://example.org/iiif/canvas-size/canvas1"
               }

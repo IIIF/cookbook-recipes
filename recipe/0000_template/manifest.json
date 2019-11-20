@@ -1,8 +1,5 @@
 {
-    "@context": [
-      "http://www.w3.org/ns/anno.jsonld",
-      "http://iiif.io/api/presentation/{{ page.major }}/context.json"
-    ],
-    "id": "https://example.org/iiif/book1/manifest",
+    "@context": [ "http://iiif.io/api/presentation/3/context.json" ],
+    "id": "{{ id.basename }} ",
     "type": "Manifest" 
   }
