@@ -3,7 +3,7 @@ cache: bundler
 before_script:
   - bundle install
 script:
-  - bundle exec jekyll clean && bundle exec jekyll build  --baseurl /cookbook/$TRAVIS_BRANCH
+  - bundle exec jekyll clean && bundle exec jekyll build  --baseurl cookbook/$TRAVIS_BRANCH
 
 install:
   - chmod 755 $TRAVIS_BUILD_DIR/scripts/updatePullRequest.sh && export iiifsite=cookbook && $TRAVIS_BUILD_DIR/scripts/updatePullRequest.sh;
