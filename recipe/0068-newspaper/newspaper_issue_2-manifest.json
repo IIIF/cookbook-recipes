@@ -6,7 +6,7 @@
   "id": "{{ id.url }}",
   "partOf": [
     {
-      "id": "{{ id.path }}newspaper_title-collection.json",
+      "id": "{{ id.path }}/newspaper_title-collection.json",
       "type": "Collection"
     }
   ],
