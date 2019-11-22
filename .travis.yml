@@ -4,7 +4,7 @@ before_script:
   - bundle install
 script:
   - bundle exec jekyll clean && bundle exec jekyll build  --baseurl /cookbook/$TRAVIS_BRANCH
-  - chmod 755 $TRAVIS_BUILD_DIR/scripts/validate.py && pip install -r $TRAVIS_BUILD_DIR/scripts/requirements.txt && $TRAVIS_BUILD_DIR/scripts/validate.py
+  - chmod 755 $TRAVIS_BUILD_DIR/scripts/validate.py && pip install --user -r $TRAVIS_BUILD_DIR/scripts/requirements.txt && $TRAVIS_BUILD_DIR/scripts/validate.py
 
 install:
   - chmod 755 $TRAVIS_BUILD_DIR/scripts/updatePullRequest.sh && export iiifsite=cookbook && $TRAVIS_BUILD_DIR/scripts/updatePullRequest.sh;
