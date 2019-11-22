@@ -1,4 +1,9 @@
 language: ruby
+addons:
+  apt:
+    packages:
+      - "python3"
+      - "python3-pip"
 cache: bundler
 before_script:
   - bundle install
