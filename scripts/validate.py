@@ -39,6 +39,7 @@ def validate(schema, jsonData):
         print('Problem with the supplied schema:\n')
         print(err)
 
+
     errors = sorted(results, key=lambda e: e.path)
     if errors:
         print('Validation Failed')
