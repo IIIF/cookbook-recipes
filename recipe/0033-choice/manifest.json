@@ -1,24 +1,21 @@
----
-layout: null
----
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}",
+    "id": "{{ id.url }}",
     "type": "Manifest",
     "label": { "en": [ "Image 1" ] },
     "items": [
       {
-        "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/p1",
+        "id": "{{ id.path }}/canvas/p1",
         "type": "Canvas",
         "height": 7656,
         "width": 4867,
         "items": [
           {
-            "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/page/p1/1",
+            "id": "{{ id.path }}/page/p1/1",
             "type": "AnnotationPage",
             "items": [
               {
-                "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/annotation/p0001-image",
+                "id": "{{ id.path }}/annotation/p0001-image",
                 "type": "Annotation",
                 "motivation": "painting",
                 "body": {
@@ -42,7 +39,7 @@ layout: null
                     }
                   ]
                 },
-                "target": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/p1"
+                "target": "{{ id.path }}/canvas/p1"
               }
             ]
           }
