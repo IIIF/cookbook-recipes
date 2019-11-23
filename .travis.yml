@@ -1,9 +1,17 @@
 language: ruby
+addons:
+  apt:
+    packages:
+      - "python3"
+      - "python3-pip"
+      - "python3-setuptools"
 cache: bundler
 before_script:
   - bundle install
+  - pip3 install --upgrade pip
 script:
   - bundle exec jekyll clean && bundle exec jekyll build  --baseurl /cookbook/$TRAVIS_BRANCH
+  - chmod 755 $TRAVIS_BUILD_DIR/scripts/validate.py && pip3 install --user -r $TRAVIS_BUILD_DIR/scripts/requirements.txt && $TRAVIS_BUILD_DIR/scripts/validate.py
 
 install:
   - chmod 755 $TRAVIS_BUILD_DIR/scripts/updatePullRequest.sh && export iiifsite=cookbook && $TRAVIS_BUILD_DIR/scripts/updatePullRequest.sh;

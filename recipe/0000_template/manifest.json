@@ -1,8 +1,8 @@
----
-layout: null
----
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}",
-    "type": "Manifest" 
+    "@context": [ "http://iiif.io/api/presentation/3/context.json" ],
+    "id": "{{ id.url }} ",
+    "type": "Manifest",
+    "label": { 
+        "none": [""]
+    }
 }
