@@ -41,7 +41,7 @@
         ]
       },
       "value": {
-        "none": "de",
+        "none": ["de"],
         "en": [
           "German"
         ]
@@ -81,10 +81,6 @@
       "profile": "http://www.europeana.eu/schemas/edm/"
     }
   ],
-  "start": {
-    "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302516/canvas/p1",
-    "type": "Canvas"
-  },
   "items": [
     {
       "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302516/canvas/p1",

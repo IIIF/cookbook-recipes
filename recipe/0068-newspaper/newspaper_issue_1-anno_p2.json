@@ -4,17 +4,6 @@
   "type": "AnnotationPage",
   "items": [
     {
-      "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/f570d07ccd4f628f31da67ab9c989899",
-      "type": "Annotation",
-      "motivation": "supplementing",
-      "http://purl.org/dc/elements/1.1/type": "page",
-      "body": {
-        "id": "https://www.europeana.eu/api/fulltext/9200355/BibliographicResource_3000096302513/84c818dfd7275b90add2593ccb05a518",
-        "type": "http://www.europeana.eu/schemas/edm/FullTextResource"
-      },
-      "target": "https://iiif.europeana.eu/image/2YMIN6YXMQ6COVM5AO2XKB5KMCKPMT2YKEKNMAGHVRBIHOOY4AVA/presentation_images/9340afd0-ffe2-11e5-b68d-fa163e60dd72/node-2/image/SBB/Berliner_Tageblatt/1925/02/16/0/F_SBB_00001_19250216_054_079_0_002/full/full/0/default.jpg"
-    },
-    {
       "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/05c22b1121d23cd3db4ed95cd6bebb33",
       "type": "Annotation",
       "motivation": "supplementing",

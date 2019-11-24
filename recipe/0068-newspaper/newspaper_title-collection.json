@@ -4,7 +4,6 @@
   ],
   "type": "Collection",
   "id": "{{ id.url }}",
-  "within": "http://data.theeuropeanlibrary.org/Collection/a0620",
   "label": {
     "de": [
       "Berliner Tageblatt"
@@ -18,7 +17,7 @@
         ]
       },
       "value": {
-        "none": "http://data.europeana.eu/concept/base/18",
+        "none": ["http://data.europeana.eu/concept/base/18"],
         "en": [
           "Newspaper Title",
           "Serial"
