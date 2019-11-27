@@ -7,8 +7,7 @@
       "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/20b3b1f4cb15f062e53fd50d584d66ff",
       "type": "Annotation",
       "motivation": "supplementing",
-      "http://purl.org/dc/elements/1.1/type": "word",
-      "body": {
+      " ": {
         "id": "https://www.europeana.eu/api/fulltext/9200355/BibliographicResource_3000096302513/8c6abaa8b05a33a93526a8f6d0411bf5#char=0,2",
         "type": "http://www.europeana.eu/schemas/edm/FullTextResource"
       },
@@ -18,7 +17,6 @@
       "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/a045849ecadd9479d28945ef328633e4",
       "type": "Annotation",
       "motivation": "supplementing",
-      "http://purl.org/dc/elements/1.1/type": "word",
       "body": {
         "id": "https://www.europeana.eu/api/fulltext/9200355/BibliographicResource_3000096302513/8c6abaa8b05a33a93526a8f6d0411bf5#char=2,3",
         "type": "http://www.europeana.eu/schemas/edm/FullTextResource"

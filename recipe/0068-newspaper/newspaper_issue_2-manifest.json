@@ -79,7 +79,19 @@
       "id": "https://www.europeana.eu/api/v2/record/9200355/BibliographicResource_3000096302516.json-ld",
       "format": "application/ld+json",
       "profile": "http://www.europeana.eu/schemas/edm/"
-    }
+    },
+	{
+		"@id":"{{ id.path }}/newspaper_issue_1-alto_p1.json",
+		"format":"application/xml",
+	    "profile": "http://www.loc.gov/standards/alto/",
+	    "label": "ALTO XML"
+	},
+    {
+		"@id":"{{ id.path }}/newspaper_issue_1-alto_p2.json",
+		"format":"application/xml",
+	    "profile": "http://www.loc.gov/standards/alto/",
+	    "label": "ALTO XML"
+	}
   ],
   "items": [
     {
