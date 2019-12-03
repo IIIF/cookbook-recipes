@@ -77,21 +77,10 @@
   "seeAlso": [
     {
       "id": "https://www.europeana.eu/api/v2/record/9200355/BibliographicResource_3000096302516.json-ld",
+      "type": "Dataset",
       "format": "application/ld+json",
       "profile": "http://www.europeana.eu/schemas/edm/"
-    },
-	{
-		"@id":"{{ id.path }}/newspaper_issue_1-alto_p1.json",
-		"format":"application/xml",
-	    "profile": "http://www.loc.gov/standards/alto/",
-	    "label": "ALTO XML"
-	},
-    {
-		"@id":"{{ id.path }}/newspaper_issue_1-alto_p2.json",
-		"format":"application/xml",
-	    "profile": "http://www.loc.gov/standards/alto/",
-	    "label": "ALTO XML"
-	}
+    }
   ],
   "items": [
     {
@@ -102,6 +91,15 @@
           "p. 1"
         ]
       },
+      "seeAlso": [
+          {
+            "@id":"{{ id.path }}/newspaper_issue_2-alto_p1.xml",
+            "type": "Text",
+            "format":"application/xml",
+            "profile": "http://www.loc.gov/standards/alto/",
+            "label": { "en": ["ALTO XML"] }
+          }
+      ],
       "height": 5000,
       "width": 3602,
       "items": [
@@ -119,9 +117,9 @@
                 "format": "image/jpeg",
                 "service": [
                   {
-                    "id": "https://iiif.europeana.eu/image/3UU6R3RRZZGU2VNISCQX7N474GR7X4VMGYBTIWV2SNCBRGSR2WAA/presentation_images/ea1ba210-ffd3-11e5-b68d-fa163e60dd72/node-2/image/SBB/Berliner_Tageblatt/1925/03/13/0/F_SBB_00001_19250313_054_123_0_001",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "@id": "https://iiif.europeana.eu/image/3UU6R3RRZZGU2VNISCQX7N474GR7X4VMGYBTIWV2SNCBRGSR2WAA/presentation_images/ea1ba210-ffd3-11e5-b68d-fa163e60dd72/node-2/image/SBB/Berliner_Tageblatt/1925/03/13/0/F_SBB_00001_19250313_054_123_0_001",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level1.json"
                   }
                 ]
               },
@@ -145,6 +143,15 @@
           "p. 2"
         ]
       },
+      "seeAlso": [
+        {
+            "@id":"{{ id.path }}/newspaper_issue_2-alto_p2.xml",
+            "type": "Text",
+            "format":"application/xml",
+            "profile": "http://www.loc.gov/standards/alto/",
+            "label": { "en": ["ALTO XML"] }
+        }
+      ],
       "height": 5000,
       "width": 3602,
       "items": [
@@ -162,9 +169,9 @@
                 "format": "image/jpeg",
                 "service": [
                   {
-                    "id": "https://iiif.europeana.eu/image/3UU6R3RRZZGU2VNISCQX7N474GR7X4VMGYBTIWV2SNCBRGSR2WAA/presentation_images/ea1ba210-ffd3-11e5-b68d-fa163e60dd72/node-2/image/SBB/Berliner_Tageblatt/1925/03/13/0/F_SBB_00001_19250313_054_123_0_002",
-                    "type": "ImageService3",
-                    "profile": "level2"
+                    "@id": "https://iiif.europeana.eu/image/3UU6R3RRZZGU2VNISCQX7N474GR7X4VMGYBTIWV2SNCBRGSR2WAA/presentation_images/ea1ba210-ffd3-11e5-b68d-fa163e60dd72/node-2/image/SBB/Berliner_Tageblatt/1925/03/13/0/F_SBB_00001_19250313_054_123_0_002",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level1.json"
                   }
                 ]
               },
