@@ -2,8 +2,8 @@
   "@context": [
     "http://iiif.io/api/presentation/3/context.json"
   ],
-  "type": "Manifest",
   "id": "{{ id.url }}",
+  "type": "Manifest",
   "partOf": [
   {
       "id": "{{ id.path }}/newspaper_title-collection.json",
@@ -77,21 +77,10 @@
   "seeAlso": [
     {
       "id": "https://www.europeana.eu/api/v2/record/9200355/BibliographicResource_3000096302513.json-ld",
+      "type": "Dataset",
       "format": "application/ld+json",
       "profile": "http://www.europeana.eu/schemas/edm/"
-    },
-	{
-		"@id":"{{ id.path }}/newspaper_issue_1-alto_p1.json",
-		"format":"application/xml",
-	    "profile": "http://www.loc.gov/standards/alto/",
-	    "label": "ALTO XML"
-	},
-    {
-		"@id":"{{ id.path }}/newspaper_issue_1-alto_p2.json",
-		"format":"application/xml",
-	    "profile": "http://www.loc.gov/standards/alto/",
-	    "label": "ALTO XML"
-	}
+    }
   ],
   "items": [
     {
@@ -102,6 +91,13 @@
           "p. 1"
         ]
       },
+      "seeAlso": [{
+		"id":"{{ id.path }}/newspaper_issue_1-alto_p1.xml",
+        "type": "Text",
+		"format":"application/xml",
+	    "profile": "http://www.loc.gov/standards/alto/",
+	    "label": { "en": ["ALTO XML"] }
+      }],
       "height": 5000,
       "width": 3602,
       "items": [
@@ -114,14 +110,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.europeana.eu/image/2YMIN6YXMQ6COVM5AO2XKB5KMCKPMT2YKEKNMAGHVRBIHOOY4AVA/presentation_images/9340afd0-ffe2-11e5-b68d-fa163e60dd72/node-2/image/SBB/Berliner_Tageblatt/1925/02/16/0/F_SBB_00001_19250216_054_079_0_001/full/full/0/default.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/4ce82cef49fb16798f4c2440307c3d6f-newspaper-p1/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "service": [
                   {
-                    "id": "https://iiif.europeana.eu/image/2YMIN6YXMQ6COVM5AO2XKB5KMCKPMT2YKEKNMAGHVRBIHOOY4AVA/presentation_images/9340afd0-ffe2-11e5-b68d-fa163e60dd72/node-2/image/SBB/Berliner_Tageblatt/1925/02/16/0/F_SBB_00001_19250216_054_079_0_001",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/4ce82cef49fb16798f4c2440307c3d6f-newspaper-p1",
                     "type": "ImageService3",
-                    "profile": "level2"
+                    "profile": "level1"
                   }
                 ]
               },
@@ -145,6 +141,13 @@
           "p. 2"
         ]
       },
+      "seeAlso": [{
+		"id":"{{ id.path }}/newspaper_issue_1-alto_p2.xml",
+        "type": "Text",
+		"format":"application/xml",
+	    "profile": "http://www.loc.gov/standards/alto/",
+	    "label": { "en": ["ALTO XML"] }
+      }],
       "height": 5000,
       "width": 3602,
       "items": [
@@ -157,14 +160,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.europeana.eu/image/2YMIN6YXMQ6COVM5AO2XKB5KMCKPMT2YKEKNMAGHVRBIHOOY4AVA/presentation_images/9340afd0-ffe2-11e5-b68d-fa163e60dd72/node-2/image/SBB/Berliner_Tageblatt/1925/02/16/0/F_SBB_00001_19250216_054_079_0_002/full/full/0/default.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/4ce82cef49fb16798f4c2440307c3d6f-newspaper-p2/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "service": [
                   {
-                    "id": "https://iiif.europeana.eu/image/2YMIN6YXMQ6COVM5AO2XKB5KMCKPMT2YKEKNMAGHVRBIHOOY4AVA/presentation_images/9340afd0-ffe2-11e5-b68d-fa163e60dd72/node-2/image/SBB/Berliner_Tageblatt/1925/02/16/0/F_SBB_00001_19250216_054_079_0_002",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/4ce82cef49fb16798f4c2440307c3d6f-newspaper-p2",
                     "type": "ImageService3",
-                    "profile": "level2"
+                    "profile": "level1"
                   }
                 ]
               },
