@@ -93,7 +93,7 @@
       },
       "seeAlso": [
           {
-            "@id":"{{ id.path }}/newspaper_issue_2-alto_p1.xml",
+            "id":"{{ id.path }}/newspaper_issue_2-alto_p1.xml",
             "type": "Text",
             "format":"application/xml",
             "profile": "http://www.loc.gov/standards/alto/",
@@ -145,7 +145,7 @@
       },
       "seeAlso": [
         {
-            "@id":"{{ id.path }}/newspaper_issue_2-alto_p2.xml",
+            "id":"{{ id.path }}/newspaper_issue_2-alto_p2.xml",
             "type": "Text",
             "format":"application/xml",
             "profile": "http://www.loc.gov/standards/alto/",
