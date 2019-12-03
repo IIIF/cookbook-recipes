@@ -130,7 +130,7 @@
       ],
       "annotations": [
         {
-          "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302516/annopage/1",
+          "id": "{{ id.path }}/newspaper_issue_2-anno_p1.json",
           "type": "AnnotationPage"
         }
       ]
@@ -182,7 +182,7 @@
       ],
       "annotations": [
         {
-          "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302516/annopage/2",
+          "id": "{{ id.path }}/newspaper_issue_2-anno_p2.json",
           "type": "AnnotationPage"
         }
       ]
