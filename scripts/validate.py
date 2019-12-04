@@ -43,6 +43,8 @@ def validate(schema, jsonData):
     if errors:
         print('Validation Failed')
         errorCount = 1
+        if len(errors) == 1 and 'is not valid under any of the given schemas' in errors[0].message:
+            errors = errors[0].context
         for err in errors:
             print('Error {} of {}.\n Message: {}'.format(errorCount, len(errors), err.message))
             if 'title' in err.schema:
