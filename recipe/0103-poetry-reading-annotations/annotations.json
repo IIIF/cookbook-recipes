@@ -18,7 +18,7 @@
          "source":"{{ id.path }}/canvas/1",
          "selector":{ 
             "type":"PointSelector",
-            "t":"27.660653"
+            "t":27.660653
          }
       }
    },
