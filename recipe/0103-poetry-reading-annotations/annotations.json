@@ -5,7 +5,6 @@
   "items": 
   [
    { 
-      "@context":"http://www.w3.org/ns/anno.jsonld",
       "id":"{{ id.path }}/canvas/annotation1",
       "type":"Annotation",
       "motivation":"commenting",
@@ -23,7 +22,6 @@
       }
    },
   {
-    "@context": "http://www.w3.org/ns/anno.jsonld",
     "id": "{{ id.path }}/canvas/segment1/annotation/4",
     "type": "Annotation",
     "motivation": "commenting",
