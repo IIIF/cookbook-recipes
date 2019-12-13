@@ -1,49 +1,48 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "{{ id.url }}",
-  "type": "AnnotationPage",
-  "items": 
-  [
-   { 
-      "id":"{{ id.path }}/canvas/annotation1",
-      "type":"Annotation",
-      "motivation":"commenting",
-      "body":{ 
-         "type":"TextualBody",
-         "value":"breath",
-         "format":"text/plain"
+   "@context":"http://iiif.io/api/presentation/3/context.json",
+   "id":"{{ id.url }}",
+   "type":"AnnotationPage",
+   "items":[
+      {
+         "id":"{{ id.path }}/canvas/annotation1",
+         "type":"Annotation",
+         "motivation":"commenting",
+         "body":{
+            "type":"TextualBody",
+            "value":"breath",
+            "format":"text/plain"
+         },
+         "target":{
+            "source":"{{ id.path }}/canvas/1",
+            "selector":{
+               "type":"PointSelector",
+               "t":27.660653
+            }
+         }
       },
-      "target":{ 
-         "source":"{{ id.path }}/canvas/1",
-         "selector":{ 
-            "type":"PointSelector",
-            "t":27.660653
+      {
+         "id":"{{ id.path }}/canvas/segment1/annotation/4",
+         "type":"Annotation",
+         "motivation":"commenting",
+         "body":{
+            "type":"TextualBody",
+            "value":"her kind",
+            "format":"text/plain"
+         },
+         "target":{
+            "source":"{{ id.path }}/canvas/1",
+            "selector":{
+               "type":"RangeSelector",
+               "startSelector":{
+                  "type":"PointSelector",
+                  "t":46.734653
+               },
+               "endSelector":{
+                  "type":"PointSelector",
+                  "t":47.875068
+               }
+            }
          }
       }
-   },
-  {
-    "id": "{{ id.path }}/canvas/segment1/annotation/4",
-    "type": "Annotation",
-    "motivation": "commenting",
-    "body": {
-      "type": "TextualBody",
-      "value": "her kind",
-      "format": "text/plain"
-    },
-    "target":{
-      "source":"{{ id.path }}/canvas/1",
-      "selector":{
-      "type":"RangeSelector",
-      "startSelector": {
-        "type": "PointSelector",
-        "t":46.734653
-      },
-      "endSelector": {
-        "type": "PointSelector",
-        "t": 47.875068
-      }
-     }
-    }
-  }
- ]
+   ]
 }

@@ -1,101 +1,101 @@
 {
-  "@context":"http://iiif.io/api/presentation/3/context.json",
-  "id":"{{ id.url }}",
-  "type":"Manifest",
-  "label":{
-    "en":[
-      "Anne Sexton, Poetry Reading, 1974 -- Her Kind"
-    ]
-  },
-  "items":[
-    {
-      "id":"{{ id.path }}/canvas/1",
-      "type":"Canvas",
-      "duration":107,
-      "items":[
-        {
-          "id":"{{ id.path }}/canvas/1/paintings",
-          "type":"AnnotationPage",
-          "items":[
-            {
-              "id":"{{ id.path }}/canvas/1/painting/1",
-              "type":"Annotation",
-              "motivation":"painting",
-              "body":{
-                "id":"https://library.harvard.edu/poetry/audio/listeningbooth//PS3537E915A6x1974/Her_Kind.mp3",
-                "type":"Sound",
-                "format":"audio/mp3",
-                "duration":107
-              },
-              "target":"{{ id.path }}/canvas/1"
-            }
-          ],
-          "annotations":[
-            {
-              "id":"{{ id.path }}/annotations.json",
-              "type":"AnnotationPage",
-              "items":[
-                {
-                  "id":"{{ id.path }}/canvas/1/annotation/1",
-                  "type":"Annotation",
-                  "motivation":"commenting",
-                  "body":{
-                    "type":"TextualBody",
-                    "value":"breath",
-                    "format":"text/plain"
-                  },
-                  "target":{
-                    "source":"{{ id.path }}/canvas/1",
-                    "selector":{
-                      "type":"PointSelector",
-                      "t":27.660653
-                    }
-                  }
-                },
-                {
-                  "id":"{{ id.path }}/canvas/1/annotation/2",
-                  "type":"Annotation",
-                  "motivation":"commenting",
-                  "body":{
-                    "type":"TextualBody",
-                    "value":"her kind",
-                    "format":"text/plain"
-                  },
-                  "target":{
-                    "source":"{{ id.path }}/canvas/1",
-                    "selector":{
-                      "type":"RangeSelector",
-                      "startSelector": {
-			"type": "PointSelector",
-			"t":46.734653
-		      },
-	   	     "endSelector": {
-		       "type": "PointSelector",
-		        "t": 47.875068
- 		     }
-                   }
-                  }
-                }
-              ]
-            }
-          ]
-        }
+   "@context":"http://iiif.io/api/presentation/3/context.json",
+   "id":"{{ id.url }}",
+   "type":"Manifest",
+   "label":{
+      "en":[
+         "Anne Sexton, Poetry Reading, 1974 -- Her Kind"
       ]
-    }
-  ],
-  "homepage":[
-    {
-      "id":"https://library.harvard.edu/poetry/listeningbooth/poets/sexton.html",
-      "type":"Text",
-      "label":{
-        "en":[
-          "Anne Sexton at the Woodberry Poetry Room"
-        ]
-      },
-      "format":"text/html",
-      "language":[
-        "en"
-      ]
-    }
-  ]
+   },
+   "items":[
+      {
+         "id":"{{ id.path }}/canvas/1",
+         "type":"Canvas",
+         "duration":107,
+         "items":[
+            {
+               "id":"{{ id.path }}/canvas/1/paintings",
+               "type":"AnnotationPage",
+               "items":[
+                  {
+                     "id":"{{ id.path }}/canvas/1/painting/1",
+                     "type":"Annotation",
+                     "motivation":"painting",
+                     "body":{
+                        "id":"https://library.harvard.edu/poetry/audio/listeningbooth//PS3537E915A6x1974/Her_Kind.mp3",
+                        "type":"Sound",
+                        "format":"audio/mp3",
+                        "duration":107
+                     },
+                     "target":"{{ id.path }}/canvas/1"
+                  }
+               ],
+               "annotations":[
+                  {
+                     "id":"{{ id.path }}/annotations.json",
+                     "type":"AnnotationPage",
+                     "items":[
+                        {
+                           "id":"{{ id.path }}/canvas/1/annotation/1",
+                           "type":"Annotation",
+                           "motivation":"commenting",
+                           "body":{
+                              "type":"TextualBody",
+                              "value":"breath",
+                              "format":"text/plain"
+                           },
+                           "target":{
+                              "source":"{{ id.path }}/canvas/1",
+                              "selector":{
+                                 "type":"PointSelector",
+                                 "t":27.660653
+                              }
+                           }
+                        },
+                        {
+                           "id":"{{ id.path }}/canvas/1/annotation/2",
+                           "type":"Annotation",
+                           "motivation":"commenting",
+                           "body":{
+                              "type":"TextualBody",
+                              "value":"her kind",
+                              "format":"text/plain"
+                           },
+                           "target":{
+                              "source":"{{ id.path }}/canvas/1",
+                              "selector":{
+                                 "type":"RangeSelector",
+                                 "startSelector":{
+                                    "type":"PointSelector",
+                                    "t":46.734653
+                                 },
+                                 "endSelector":{
+                                    "type":"PointSelector",
+                                    "t":47.875068
+                                 }
+                              }
+                           }
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   ],
+   "homepage":[
+      {
+         "id":"https://library.harvard.edu/poetry/listeningbooth/poets/sexton.html",
+         "type":"Text",
+         "label":{
+            "en":[
+               "Anne Sexton at the Woodberry Poetry Room"
+            ]
+         },
+         "format":"text/html",
+         "language":[
+            "en"
+         ]
+      }
+   ]
 }
