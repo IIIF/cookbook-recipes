@@ -36,7 +36,6 @@
               "type":"AnnotationPage",
               "items":[
                 {
-                  "@context":"http://www.w3.org/ns/anno.jsonld",
                   "id":"{{ id.path }}/canvas/1/annotation/1",
                   "type":"Annotation",
                   "motivation":"commenting",
@@ -54,7 +53,6 @@
                   }
                 },
                 {
-                  "@context":"http://www.w3.org/ns/anno.jsonld",
                   "id":"{{ id.path }}/canvas/1/annotation/2",
                   "type":"Annotation",
                   "motivation":"commenting",
@@ -67,8 +65,15 @@
                     "source":"{{ id.path }}/canvas/1",
                     "selector":{
                       "type":"RangeSelector",
-                      "t":"46.734653,47.875068"
-                    }
+                      "startSelector": {
+			"type": "PointSelector",
+			"t":46.734653
+		      },
+	   	     "endSelector": {
+		       "type": "PointSelector",
+		        "t": 47.875068
+ 		     }
+                   }
                   }
                 }
               ]

@@ -30,12 +30,19 @@
       "value": "her kind",
       "format": "text/plain"
     },
-    "target": {
-      "source": "{{ id.path }}/canvas/1",
-      "selector": {
-        "type": "RangeSelector",
-        "t": "46.734653,47.875068"
+    "target":{
+      "source":"{{ id.path }}/canvas/1",
+      "selector":{
+      "type":"RangeSelector",
+      "startSelector": {
+        "type": "PointSelector",
+        "t":46.734653
+      },
+      "endSelector": {
+        "type": "PointSelector",
+        "t": 47.875068
       }
+     }
     }
   }
  ]
