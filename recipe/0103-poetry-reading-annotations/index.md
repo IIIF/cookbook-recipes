@@ -29,12 +29,19 @@ There is a third use case where manifests are unaware of annotations on them, bu
 3. Where we use "RangeSelector" for the annotation target, we could instead use a Media Fragment like "#t=1.23,2.23" appended to the canvas URL. Instead of "source" you'd condense it into the "target" field.  For example:
 
 ```
-                "target": {
-                  "source": "http://localhost:4000/recipe/0103-poetry-reading-annotations/manifest1.json/canvas/segment1/canvas/segment1",
-                  "selector": {
-                    "type": "RangeSelector",
-                    "t": "46.734653,47.875068"
+              "target":{
+                "source":"{{ id.path }}/canvas/1",
+                "selector":{
+                  "type":"RangeSelector",
+                  "startSelector":{
+                    "type":"PointSelector",
+                    "t":46.734653
+                  },
+                  "endSelector":{
+                    "type":"PointSelector",
+                    "t":47.875068
                   }
+                }
 ```
 
 Could become
