@@ -64,7 +64,7 @@ There is a third use case where manifests are unaware of annotations on them, bu
 
 ## Example
 
-A manifest for the poem "Her Kind" read by Anne Sexton in 1974.  The recording is 107 seconds long.  Annotations are included in the manifest and show both a point annotation (at a particular time) and a range annotation (covering a time range).  (For more on these annotations, see the [annotation.json file description.](#annotations))
+A manifest for the poem "Her Kind" read by Anne Sexton in 1974.  The recording is 107 seconds long.  Annotations are included in the manifest and show both a point annotation (at a particular time) and a range annotation (covering a time range).
 
 {: .line-numbers data-src="manifest1.json" }
 ```json
@@ -75,6 +75,8 @@ The same manifest, but with a reference to annotations in a separate file.  The 
 {: .line-numbers data-src="manifest2.json" }
 ```json
 ```
+
+The annotations in a separate file.
 
 {: .line-numbers data-src="annotations.json" }
 ```json
