@@ -6,7 +6,7 @@
       {
          "id":"{{ id.path }}/canvas/annotation1",
          "type":"Annotation",
-         "motivation":"commenting",
+         "motivation":["commenting"],
          "body":{
             "type":"TextualBody",
             "value":"breath",
@@ -23,10 +23,10 @@
       {
          "id":"{{ id.path }}/canvas/segment1/annotation/4",
          "type":"Annotation",
-         "motivation":"commenting",
+         "motivation":["commenting"],
          "body":{
             "type":"TextualBody",
-            "value":"her kind",
+            "value":"repetition of 'her kind'",
             "format":"text/plain"
          },
          "target":{

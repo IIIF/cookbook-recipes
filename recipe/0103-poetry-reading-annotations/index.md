@@ -74,8 +74,6 @@ The same manifest, but with a reference to annotations in a separate file.  The 
 ```json
 ```
 
-<a name="annotations"></a>Annotation examples, both a point annotation (at a particular time) and a range annotation (covering a time range).  We use the "supplementing" motivation because these annotations are derived from the audio file on the canvas and the "commenting" motivation because the annotations are a comment about the canvas.  Annotations must have "supplementing" as a motivation for any annotations derived from the items on the canvas.
-
 {: .line-numbers data-src="annotations.json" }
 ```json
 ```
