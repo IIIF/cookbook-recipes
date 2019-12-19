@@ -28,7 +28,7 @@ There is a third use case where manifests are unaware of annotations on them, bu
 
 3. Where we use "RangeSelector" for the annotation target, we could instead use a Media Fragment like "#t=1.23,2.23" appended to the canvas URL. Instead of "source" you'd condense it into the "target" field.  For example:
 
-```
+    ```
               "target":{
                 "source":"{{ id.path }}/canvas/1",
                 "selector":{
@@ -42,23 +42,23 @@ There is a third use case where manifests are unaware of annotations on them, bu
                     "t":47.875068
                   }
                 }
-```
+    ```
 
-Could become
-
-```
+    Could become
+ 
+    ```
                 "target": "http://localhost:4000/recipe/0103-poetry-reading-annotations/manifest1.json/canvas/segment1/canvas/segment1#t=46.734653,47.875068"
-```
+    ```
 
-Both are correct.
+    Both are correct.
 
 4. While the IIIF Specification requires arrays for most values, the W3C Web Annotation Specification does not require arrays, so the following line: 
 
-`"motivation": "commenting",`
+    `"motivation": "commenting",`
 
-is correct, but unusual for a IIIF resource.  It could also be expressed (and must be if there is more than one motivation) as follows:
+    is correct, but unusual for a IIIF resource.  It could also be expressed (and must be if there is more than one motivation) as follows:
 
-`"motivation": ["commenting"],`
+    `"motivation": ["commenting"],`
 
 ## Example
 
