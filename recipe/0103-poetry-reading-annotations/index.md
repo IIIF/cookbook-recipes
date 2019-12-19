@@ -11,10 +11,12 @@ summary: "Use annotations to indicate aspects of the performance of a particular
 
 While an audio file of a poetry performance may be divided into a track for each poem, scholars may wish to use annotations to indicate aspects of the performance of a particular poem.  
 
+For a performance of a well-known text, transcribing the performance is of little use to the researcher annotating the performance.  Rather, the annotations serve as commentary on the performance itself.
+
 A researcher might want to annotate the following types of information:
 * structural information (introduction, title, stanzas)
 * points where the performer takes a breath
-* repeated phrases
+* repeated or emphasized phrases
 
 Since annotations could be available at the same time the manifest is generated, or might be a separate process that references the item manifest, both scenarios are shown.
 
@@ -52,11 +54,11 @@ There is a third use case where manifests are unaware of annotations on them, bu
 
     Both are correct.
 
-4. While the IIIF Specification requires arrays for most values, the W3C Web Annotation Specification does not require arrays, so the following line: 
+4. While the IIIF Specification requires arrays for values that could contain more than one element, the W3C Web Annotation Specification does not require arrays.  As a result, the following line: 
 
     `"motivation": "commenting",`
 
-    is correct, but unusual for a IIIF resource.  It could also be expressed (and must be if there is more than one motivation) as follows:
+    is not correct.  It should be expressed as follows:
 
     `"motivation": ["commenting"],`
 
