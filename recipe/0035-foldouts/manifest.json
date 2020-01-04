@@ -12,7 +12,7 @@
          "language": [ "en" ]
        }
     ],
-    "behavior": "paged",
+    "behavior": ["paged"],
     "items": [
         {
           "id": "{{ id.path }}/canvas/p1",
@@ -101,7 +101,7 @@
         {
           "id": "{{ id.path }}/canvas/p4",
           "type": "Canvas",
-          "behavior": "non-paged",
+          "behavior": ["non-paged"],
           "height": 1968,
           "width": 3688,
           "label": { "en": [ "Foldout, unfolded" ] },
