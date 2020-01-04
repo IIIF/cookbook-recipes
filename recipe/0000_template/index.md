@@ -29,9 +29,13 @@ If you don't know what the restrictions might be initially, just leave the follo
 Describe the solution in prose and provide an example.
 The example json document must be an external document, and imported with the following:
 
+[JSON-LD](manifest.json)
+
 {: .line-numbers data-download-link data-download-link-label="Download me" data-src="manifest.json" }
 ```json
 ```
+
+The direct link to the fixture is a useful convenience.
 
 ## Related Recipes
 
