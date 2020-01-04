@@ -34,7 +34,7 @@ When is this pattern is usable / not usable? Is it deprecated? If it uses multip
 
 ## Example
 
-[JSON-LD](manifest.json) | View in X | View in Y 
+[JSON-LD](manifest.json)
 
 {: .line-numbers data-download-link data-download-link-label="Download me" data-src="manifest.json" }
 ```json
