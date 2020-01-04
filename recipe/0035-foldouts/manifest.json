@@ -1,0 +1,243 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "{{ id.url }}",
+    "type": "Manifest",
+    "label": { "en": [ "A foldout map in a paged book" ] },
+    "homepage": [
+       {
+         "id": "https://wellcomelibrary.org/item/b29346423",
+         "type": "Text",
+         "label": { "en": [ "Outlines of geology being the substance of a course of lectures delivered in the Theatre of the Royal Institution in the year 1816" ] },
+         "format": "text/html",
+         "language": [ "en" ]
+       }
+    ],
+    "behavior": "paged",
+    "items": [
+        {
+          "id": "{{ id.path }}/canvas/p1",
+          "type": "Canvas",
+          "height": 4429,
+          "width": 2533,
+          "label": { "en": [ "Front cover" ] },
+          "items": [
+            {
+              "id": "{{ id.path }}/page/p1/1",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "{{ id.path }}/annotation/p0001-image",
+                  "type": "Annotation",
+                  "motivation": "painting",
+                  "body": {
+                    "id": "https://dlcs.io/iiif-img/wellcome/5/b29346423_0001.jp2/full/!1024,1024/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 1024,
+                    "width": 586
+                  },
+                  "target": "{{ id.path }}/canvas/p1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "{{ id.path }}/canvas/p2",
+          "type": "Canvas",
+          "height": 4315,
+          "width": 2490,
+          "label": { "en": [ "Inside front cover" ] },
+          "items": [
+            {
+              "id": "{{ id.path }}/page/p2/1",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "{{ id.path }}/annotation/p0002-image",
+                  "type": "Annotation",
+                  "motivation": "painting",
+                  "body": {
+                    "id": "https://dlcs.io/iiif-img/wellcome/5/b29346423_0002.jp2/full/!1024,1024/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 1024,
+                    "width": 591
+                  },
+                  "target": "{{ id.path }}/canvas/p2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "{{ id.path }}/canvas/p3",
+          "type": "Canvas",
+          "height": 4278,
+          "width": 2197,
+          "label": { "en": [ "Foldout, folded" ] },
+          "items": [
+            {
+              "id": "{{ id.path }}/page/p3/1",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "{{ id.path }}/annotation/p0003-image",
+                  "type": "Annotation",
+                  "motivation": "painting",
+                  "body": {
+                    "id": "https://dlcs.io/iiif-img/wellcome/5/b29346423_0005.jp2/full/!1024,1024/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 1024,
+                    "width": 526
+                  },
+                  "target": "{{ id.path }}/canvas/p3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "{{ id.path }}/canvas/p4",
+          "type": "Canvas",
+          "behavior": "non-paged",
+          "height": 1968,
+          "width": 3688,
+          "label": { "en": [ "Foldout, unfolded" ] },
+          "items": [
+            {
+              "id": "{{ id.path }}/page/p4/1",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "{{ id.path }}/annotation/p0004-image",
+                  "type": "Annotation",
+                  "motivation": "painting",
+                  "body": {
+                    "id": "https://dlcs.io/iiif-img/wellcome/5/b29346423_0006.jp2/full/!1024,1024/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 546,
+                    "width": 1024
+                  },
+                  "target": "{{ id.path }}/canvas/p4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "{{ id.path }}/canvas/p5",
+          "type": "Canvas",
+          "height": 4315,
+          "width": 2490,
+          "label": { "en": [ "Title page" ] },
+          "items": [
+            {
+              "id": "{{ id.path }}/page/p5/1",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "{{ id.path }}/annotation/p0005-image",
+                  "type": "Annotation",
+                  "motivation": "painting",
+                  "body": {
+                    "id": "https://dlcs.io/iiif-img/wellcome/5/b29346423_0007.jp2/full/!1024,1024/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 1024,
+                    "width": 591
+                  },
+                  "target": "{{ id.path }}/canvas/p5"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "{{ id.path }}/canvas/p6",
+          "type": "Canvas",
+          "height": 4315,
+          "width": 2490,
+          "label": { "en": [ "Back of title page" ] },
+          "items": [
+            {
+              "id": "{{ id.path }}/page/p6/1",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "{{ id.path }}/annotation/p0006-image",
+                  "type": "Annotation",
+                  "motivation": "painting",
+                  "body": {
+                    "id": "https://dlcs.io/iiif-img/wellcome/5/b29346423_0008.jp2/full/!1024,1024/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 1024,
+                    "width": 591
+                  },
+                  "target": "{{ id.path }}/canvas/p6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "{{ id.path }}/canvas/p7",
+          "type": "Canvas",
+          "height": 4315,
+          "width": 2490,
+          "label": { "en": [ "Inside back cover" ] },
+          "items": [
+            {
+              "id": "{{ id.path }}/page/p7/1",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "{{ id.path }}/annotation/p0007-image",
+                  "type": "Annotation",
+                  "motivation": "painting",
+                  "body": {
+                    "id": "https://dlcs.io/iiif-img/wellcome/5/b29346423_0161.jp2/full/!1024,1024/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 1024,
+                    "width": 591
+                  },
+                  "target": "{{ id.path }}/canvas/p7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "{{ id.path }}/canvas/p8",
+          "type": "Canvas",
+          "height": 4315,
+          "width": 2490,
+          "label": { "en": [ "Back cover" ] },
+          "items": [
+            {
+              "id": "{{ id.path }}/page/p8/1",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "{{ id.path }}/annotation/p0008-image",
+                  "type": "Annotation",
+                  "motivation": "painting",
+                  "body": {
+                    "id": "https://dlcs.io/iiif-img/wellcome/5/b29346423_0162.jp2/full/!1024,1024/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 1024,
+                    "width": 591
+                  },
+                  "target": "{{ id.path }}/canvas/p8"
+                }
+              ]
+            }
+          ]
+        }    
+    ]
+  }

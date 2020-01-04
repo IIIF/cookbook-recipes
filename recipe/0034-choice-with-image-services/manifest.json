@@ -2,7 +2,7 @@
     "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "{{ id.url }}",
     "type": "Manifest",
-    "label": { "en": [ "Choice Example" ] },
+    "label": { "en": [ "Choice Example with Image Services" ] },
     "items": [
       {
         "id": "{{ id.path }}/canvas/p1",
@@ -27,7 +27,14 @@
                         "format": "image/jpeg",
                         "width": 2000,
                         "height": 1271,
-                        "label": { "en": [ "Natural Light" ] }
+                        "label": { "en": [ "Natural Light" ] },
+                        "service": [
+                            {
+                                "@id": "https://dlcs.io/iiif-img/3/2/04fbbb28-d5a7-4408-b7da-800c4e65eda3",
+                                "@type": "ImageService2",
+                                "profile": "http://iiif.io/api/image/2/level2.json"
+                            }
+                        ]
                     },
                     {                        
                         "id": "https://tomcrane.github.io/scratch/img/dee/small/dee-xray.jpg",
@@ -35,7 +42,14 @@
                         "format": "image/jpeg",
                         "width": 2000,
                         "height": 1271,
-                        "label": { "en": [ "X-Ray" ] }
+                        "label": { "en": [ "X-Ray" ] },
+                        "service": [
+                            {
+                                "@id": "https://dlcs.io/iiif-img/3/2/8034eb5b-9c90-4471-ad68-52124232ec0c",
+                                "@type": "ImageService2",
+                                "profile": "http://iiif.io/api/image/2/level2.json"
+                            }
+                        ]
                     }
                   ]
                 },
