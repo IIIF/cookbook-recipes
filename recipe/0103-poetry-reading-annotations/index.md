@@ -1,5 +1,5 @@
 ---
-title: Annotating a Poetry Reading
+title: Scholarly Annotation of a Poetry Reading
 id: 103
 layout: recipe
 tags: [audio, presentation, annotation]
@@ -53,14 +53,6 @@ There is a third use case where manifests are unaware of annotations on them, bu
     ```
 
     Both are correct.
-
-4. While the IIIF Specification requires arrays for values that could contain more than one element, the W3C Web Annotation Specification does not require arrays.  As a result, the following line: 
-
-    `"motivation": "commenting",`
-
-    is not correct.  It should be expressed as follows:
-
-    `"motivation": ["commenting"],`
 
 ## Example
 
