@@ -54,6 +54,9 @@ There is a third use case where manifests are unaware of annotations on them, bu
 
     Both are correct.
 
+    4.  Because the annotations are pointing out features of the audio, rather than transcriptions, the "motivation" for each annotation is "commenting" not "supplementing".  (If the annotations were transcriptions, their motivation would be "supplementing".)
+
+
 ## Example
 
 A manifest for the poem "Her Kind" read by Anne Sexton in 1974.  The recording is 107 seconds long.  Annotations are included in the manifest and show both a point annotation (at a particular time) and a range annotation (covering a time range).
