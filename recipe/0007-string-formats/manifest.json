@@ -2,9 +2,9 @@
     "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "{{ id.url }}",
     "type": "Manifest",
-    "label": { "en": [ "Image 1" ] },
+    "label": { "en": [ "Berliner Tageblatt - https://www.europeana.eu/portal/record/9200355/BibliographicResource_3000096302605.html" ] },
     "summary": {
-        "en": [ "<p>This work is a companion piece to <i>Work Name</i> by the same artist.</p>" ]
+        "en": [ "<p>Front page of <i>Berliner Tageblatt</i> for 16 February 1925</p>" ]
     },
     "items": [
       {
@@ -22,11 +22,11 @@
                 "type": "Annotation",
                 "motivation": "painting",
                 "body": {
-                  "id": "https://images.britishart.yale.edu/iiif/862f2fb6-069d-4c91-a265-e17872489947/full/full/0/native.jpg",
+                  "id": "https://iiif.io/api/image/3.0/example/reference/4ce82cef49fb16798f4c2440307c3d6f-newspaper-p1",
                   "type": "Image",
                   "format": "image/jpg",
-                  "height": 1800,
-                  "width": 1200
+                  "height": 5000,
+                  "width": 3602
                 },
                 "target": "{{ id.path }}/canvas/p1"
               }
