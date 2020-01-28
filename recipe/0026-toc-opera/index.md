@@ -33,10 +33,10 @@ The opera covers the whole length of the canvas and is divided into two ranges f
 
 ## Related Recipes
 
-* [Table of Contents (Ranges) - Book Chapters](../0024-toc-book-chapters/index.md)
-* [Simplest Manifest - Video](../0003-mvm-video/index.md)
-* [Opera One Canvas](../0064-opera-one-canvas/index.md) - The same opera from this example but expanded into a real world example.
-* [Opera Multiple Canvases](../0065-opera-multiple-canvases/index.md) - The same opera from this example but expanded into a real world example in audio format split across multiple canvases.
+* [Table of Contents (Ranges) - Book Chapters][0024]
+* [Simplest Manifest - Video][0003]
+* [Opera One Canvas][0064] - The same opera from this example but expanded into a real world example.
+* [Opera Multiple Canvases][0065] - The same opera from this example but expanded into a real world example in audio format split across multiple canvases.
 
 
 {% include acronyms.md %}

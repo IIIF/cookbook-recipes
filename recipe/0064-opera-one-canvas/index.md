@@ -25,8 +25,8 @@ This implementation builds upon the [opera table of contents recipe](../0026-toc
 
 ## Related Recipes
 
-* [Table of Contents - Opera](../0026-toc-opera/index.md) - Another example of using nested ranges to represent an opera's table of contents.
-* [Opera Multiple Canvases](../0065-opera-multiple-canvases/index.md) - The same opera from this example but in audio format split across multiple canvases.
+* [Table of Contents - Opera][0026] - Another example of using nested ranges to represent an opera's table of contents.
+* [Opera Multiple Canvases][0065] - The same opera from this example but in audio format split across multiple canvases.
 
 {% include acronyms.md %}
 {% include links.md %}

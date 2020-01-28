@@ -25,8 +25,8 @@ Implementation is identical to the [opera on one canvas recipe](../0064-opera-on
 
 ## Related Recipes
 
-* [Table of Contents - Opera](../0026-toc-opera/index.md) - Another example of using nested ranges to represent an opera's table of contents.
-* [Opera One Canvas](../0064-opera-one-canvas/index.md) - The same opera from this example but in video format on one canvas.
+* [Table of Contents - Opera][0026] - Another example of using nested ranges to represent an opera's table of contents.
+* [Opera One Canvas][0064] - The same opera from this example but in video format on one canvas.
 
 {% include acronyms.md %}
 {% include links.md %}
