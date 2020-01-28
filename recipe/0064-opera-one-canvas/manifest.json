@@ -1,76 +1,35 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "type": "Manifest",
-  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}",
+  "id": "{{ id.path }}",
   "label": { "it": [ "L'elisir d'amore" ], "en": [ "The elixir of love" ] },
   "metadata": [
     {
-      "label": {
-        "en": [
-          "Date Issued"
-        ]
-      },
-      "value": {
-        "en": [
-          "2019"
-        ]
-      }
+      "label": { "en": [ "Date Issued" ] },
+      "value": { "en": [ "2019" ] }
     },
     {
-      "label": {
-        "en": [
-          "Contributor"
-        ]
-      },
-      "value": {
-        "en": [
-          "Romani, Felice, 1788-1865",
-          "Neely, David",
-          "Boyd, Spencer (Spencer Lawrence)",
-          "Boettcher, Avery",
-          "Sandes, Bruno",
-          "Ceballos de la Mora, Ricardo",
-          "Webber, Savanna",
-          "Porter, John Christopher",
-          "Brovsky, Linda",
-          "O'Hearn, Robert",
-          "Tzvetkov, Dana",
-          "Hase, Thomas C.",
-          "Siena, Daniela",
-          "Indiana University Opera Theater"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "Publisher"
-        ]
-      },
-      "value": {
-        "en": [
-          "Indiana University Jacobs School of Music"
-        ]
-      }
+      "label": { "en": [ "Publisher" ] },
+      "value": { "en": [ "Indiana University Jacobs School of Music" ] }
     }
   ],
   "items": [
     {
-      "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/1",
+      "id": "{{ id.path }}/canvas/1",
       "type": "Canvas",
       "width": 1920,
       "height": 1080,
       "duration": 7278.422,
       "items": [
         {
-          "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/1/annotation_page/1",
+          "id": "{{ id.path }}/canvas/1/annotation_page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/1/annotation_page/1/annotation/1",
+              "id": "{{ id.path }}/canvas/1/annotation_page/1/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/1",
+              "target": "{{ id.path }}/canvas/1",
               "body": {
                 "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/vae0637_accessH264_low.mp4",
                 "type": "Video",
@@ -83,14 +42,14 @@
           ]
         },
         {
-          "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/1/annotation_page/1",
+          "id": "{{ id.path }}/canvas/1/annotation_page/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/1/annotation_page/1/annotation/2",
+              "id": "{{ id.path }}/canvas/1/annotation_page/1/annotation/2",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/1",
+              "target": "{{ id.path }}/canvas/1",
               "body": {
                 "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/vae0637_accessH264_low_act_2.mp4",
                 "type": "Video",
@@ -114,49 +73,33 @@
   "structures": [
     {
       "type": "Range",
-      "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/r9ad47417-1344-4991-a41a-b084c69a12d4",
-      "label": {
-        "en": [
-          "IU Opera Theatre"
-        ]
-      },
+      "id": "{{ id.path }}/range/1",
+      "label": { "it": [ "Gaetano Donizetti, L'Elisir D'Amore" ] },
       "items": [
         {
           "type": "Range",
-          "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/raa6a9c5b-79be-4d73-a3fc-2cb22e9e6618",
-          "label": {
-            "it": [
-              "Gaetano Donizetti, L'Elisir D'Amore, Atto Primo"
-            ]
-          },
+          "id": "{{ id.path }}/range/2",
+          "label": { "it": [ "Atto Primo" ] },
           "items": [
             {
               "type": "Range",
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/r2ceb895e-a290-43b6-9351-f1fc8bad336c",
-              "label": {
-                "it": [
-                  "Preludio e Coro d'introduzione – Bel conforto al mietitore"
-                ]
-              },
+              "id": "{{ id.path }}/range/3",
+              "label": { "it": [ "Preludio e Coro d'introduzione – Bel conforto al mietitore" ] },
               "items": [
                 {
                   "type": "Canvas",
-                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/1#t=0,302.05"
+                  "id": "{{ id.path }}/canvas/1#t=0,302.05"
                 }
               ]
             },
             {
               "type": "Range",
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/r5061e574-e6c6-4e04-93ea-368f8afab78b",
-              "label": {
-                "en": [
-                  "Remainder of Act I"
-                ]
-              },
+              "id": "{{ id.path }}/range/4",
+              "label": { "en": [ "Remainder of Act I" ] },
               "items": [
                 {
                   "type": "Canvas",
-                  "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/1#t=302.05,3971.24"
+                  "id": "{{ id.path }}/canvas/1#t=302.05,3971.24"
                 }
               ]
             }
@@ -164,16 +107,12 @@
         },
         {
           "type": "Range",
-          "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/range/rf7350bab-17b7-4b7d-858e-e8c83e8cef7a",
-          "label": {
-            "it": [
-              "Gaetano Donizetti, L'Elisir D'Amore, Atto Secondo"
-            ]
-          },
+          "id": "{{ id.path }}/range/5",
+          "label": { "it": [ "Atto Secondo" ] },
           "items": [
             {
               "type": "Canvas",
-              "id": "{{site.url }}{{ site.baseurl }}/{{ page.path}}/canvas/1#t=3971.24,7278.422"
+              "id": "{{ id.path }}/canvas/1#t=3971.24,7278.422"
             }
           ]
         }
