@@ -1,7 +1,7 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "{{ id.url }}",
   "type": "Manifest",
-  "id": "{{ id.path }}",
   "label": { "it": [ "L'elisir d'amore" ], "en": [ "The elixir of love" ] },
   "metadata": [
     {

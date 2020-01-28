@@ -13,7 +13,7 @@ An opera's table of contents can be hierarchically divided into acts, scenes, an
 
 ## Implementation Notes
 
-Implementation is similar to [Book Chapters](../0024-toc-book-chapters/index.md) except that nesting may be deeper.
+Implementation is similar to [Book Chapters][0024] except that nesting may be deeper.
 
 Ranges in the structure target different portions of the same canvas using temporal [media fragments](https://www.w3.org/TR/media-frags/#naming-time) (e.g. "t=0,100").  This is in contrast to the Book Chapters recipe where each range targets a different canvas.
 

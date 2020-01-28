@@ -13,7 +13,7 @@ An opera performance can be long and split across multiple physical tapes, reels
 
 ## Implementation Notes
 
-Implementation is identical to the [opera on one canvas recipe](../0064-opera-one-canvas/index.md) except that the two files, one for each act, each have their own canvas and are referenced as such in the structures.
+Implementation is identical to the [opera on one canvas recipe][0064] except that the two files, one for each act, each have their own canvas and are referenced as such in the structures.
 
 ## Example
 

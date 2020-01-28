@@ -13,7 +13,7 @@ Opera performances are generally long with lots of divisions, often hierarchical
 
 ## Implementation Notes
 
-This implementation builds upon the [opera table of contents recipe](../0026-toc-opera/index.md) but uses two sound files, one for each act, annotated onto the same canvas.  It also includes metadata and thumbnail properties for more context.
+This implementation builds upon the [opera table of contents recipe][0026] but uses two sound files, one for each act, annotated onto the same canvas.  It also includes metadata and thumbnail properties for more context.
 
 ## Example
 
