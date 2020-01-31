@@ -12,7 +12,7 @@ You want to have more control on how your metadata is displayed by adding links 
 
 ## Implementation notes
 
-You may include minimal HTML markup only in the `summary` property and the `value` property in the `metadata` and `requiredStatement` objects. Your HTML must be [well-formed XML](https://validator.w3.org/) and therefore must be wrapped in an element such as `p` or `span`.
+You may include minimal HTML markup only in the `summary` property and the `value` property in the `metadata` and `requiredStatement` objects. HTML is not permitted in `label` or other properties. Your HTML must be [well-formed XML](https://validator.w3.org/) and therefore must be wrapped in an element such as `p` or `span`.
 
 To alert a consuming application that your content is HTML, the first character in your string must be ‘<’ and the last character must be ‘>’. If your content is plain text but happens to start and end with angle brackets as described above, add an additional whitespace character to the end of the value.
 
