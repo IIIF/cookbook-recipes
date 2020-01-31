@@ -1,16 +1,16 @@
 {
-    "@context": "https://iiif.io/api/presentation/3/context.json",
+    "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "{{ id.url }}",
     "type": "Manifest",
     "label": { "en": [ "Picture of Göttingen taken during the 2019 IIIF Conference" ] },
-    "summary": { "en": [ "<p>Picture taken by the <a href='https://github.com/glenrobson'>IIIF Technical Coordinator</a></p>" ] },
+    "summary": { "en": [ "<p>Picture taken by the <a href=\"https://github.com/glenrobson\">IIIF Technical Coordinator</a></p>" ] },
     "metadata": [
       {
         "label": { "en": [ "Author" ] },
         "value": { "none": [ "<span><a href='https://github.com/glenrobson'>Glen Robson</a></span>" ] }
       }
     ],
-    "rights": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "rights": "http://creativecommons.org/licenses/by-sa/3.0/",
     "requiredStatement": {
       "label": { "en": [ "Attribution" ] },
       "value": { "en": [ "<span>Glen Robson, IIIF Technical Coordinator. <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a> <img src=\"https://licensebuttons.net/l/by-sa/3.0/88x31.png\"/></span>" ] }
@@ -36,11 +36,13 @@
                   "format": "image/jpeg",
                   "height": 3024,
                   "width": 4032,
-                  "service": {
+                  "service": [
+                    {
                     "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
                     "profile": "level1",
                     "type": "ImageService3"
-                  }
+                    }
+                  ]
                 },
                 "target": "{{ id.path }}/canvas/p1"
               }
