@@ -39,7 +39,7 @@
                   "service": {
                     "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
                     "profile": "level1",
-                    "type": "ImageService3",
+                    "type": "ImageService3"
                   }
                 },
                 "target": "{{ id.path }}/canvas/p1"
