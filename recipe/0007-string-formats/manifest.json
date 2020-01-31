@@ -20,7 +20,7 @@
               {
                 "id": "{{ id.path }}/annotation/p0001-image",
                 "type": "Annotation",
-                "motivation": "newspaper",
+                "motivation": "painting",
                 "body": {
                   "id": "https://iiif.io/api/image/3.0/example/reference/4ce82cef49fb16798f4c2440307c3d6f-newspaper-p1",
                   "type": "Image",
