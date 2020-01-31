@@ -1,8 +1,8 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "@context": "https://iiif.io/api/presentation/3/context.json",
     "id": "{{ id.url }}",
     "type": "Manifest",
-    "label": { "en": [ "Picture of <a href='https://de.wikipedia.org/wiki/G%C3%B6ttingen'>Göttingen</a> taken during the 2019 IIIF Conference" ] },
+    "label": { "en": [ "Picture of Göttingen taken during the 2019 IIIF Conference" ] },
     "summary": { "en": [ "<p>Picture taken by the <a href='https://github.com/glenrobson'>IIIF Technical Coordinator</a></p>" ] },
     "metadata": [
       {
@@ -31,32 +31,16 @@
                 "type": "Annotation",
                 "motivation": "painting",
                 "body": {
-                  "extraFormats": [
-                    "jpg",
-                    "png"
-                  ],
-                  "extraQualities": [
-                    "default",
-                    "color",
-                    "gray"
-                  ],
+                  "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
                   "height": 3024,
                   "width": 4032,
-                  "id": "http://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
-                  "profile": "level1",
-                  "protocol": "http://iiif.io/api/image",
-                  "tiles": [
-                    {
-                      "height": 512,
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4
-                      ],
-                      "width": 512
-                    }
-                  ],
-                  "type": "ImageService3"
+                  "service": {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
+                    "profile": "level1",
+                    "type": "ImageService3",
+                  }
                 },
                 "target": "{{ id.path }}/canvas/p1"
               }
