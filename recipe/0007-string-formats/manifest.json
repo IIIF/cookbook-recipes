@@ -2,9 +2,18 @@
     "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "{{ id.url }}",
     "type": "Manifest",
-    "label": { "en": [ "Berliner Tageblatt - https://www.europeana.eu/portal/record/9200355/BibliographicResource_3000096302605.html" ] },
-    "summary": {
-        "en": [ "<p>Front page of <i>Berliner Tageblatt</i> for 16 February 1925</p>" ]
+    "label": { "en": [ "Picture of <a href='https://de.wikipedia.org/wiki/G%C3%B6ttingen'>Göttingen</a> taken during the 2019 IIIF Conference" ] },
+    "summary": { "en": [ "<p>Picture taken by the <a href='https://github.com/glenrobson'>IIIF Technical Coordinator</a></p>" ] },
+    "metadata": [
+      {
+        "label": { "en": [ "Author" ] },
+        "value": { "none": [ "<span><a href='https://github.com/glenrobson'>Glen Robson</a></span>" ] }
+      },
+    ],
+    "rights": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "requiredStatement": {
+      "label": { "en": [ "Attribution" ] },
+      "value": { "en": [ "<span>Glen Robson, IIIF Technical Coordinator. <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a> <img src=\"https://licensebuttons.net/l/by-sa/3.0/88x31.png\"/></span>" ] }
     },
     "items": [
       {
