@@ -8,7 +8,7 @@
       {
         "label": { "en": [ "Author" ] },
         "value": { "none": [ "<span><a href='https://github.com/glenrobson'>Glen Robson</a></span>" ] }
-      },
+      }
     ],
     "rights": "https://creativecommons.org/licenses/by-sa/3.0/",
     "requiredStatement": {
