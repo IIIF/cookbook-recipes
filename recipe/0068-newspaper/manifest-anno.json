@@ -1,0 +1,44 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "http://dams.llgc.org.uk/iiif/4342443/annotation/list/ART8.json",
+  "type": "AnnotationPage",
+  "resources": [
+    {
+      "id": "http://dams.llgc.org.uk/iiif/4342443/annotation/2003468828629",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+         "type": "TextualBody",
+         "value": "SIEraOROLlOIO,At"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": "http://dams.llgc.org.uk/iiif/4342439/canvas/4342443",
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=2003,4688,286,29"
+        }
+      }
+    },
+    {
+      "id": "http://dams.llgc.org.uk/iiif/4342443/annotation/2308468424928",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "value": "OBSERVATIONS"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": "http://dams.llgc.org.uk/iiif/4342439/canvas/4342443",
+        "selector": {
+          "type": "FragmentSelector",
+          "value": "xywh=588,2844,9951,10412"
+        }
+      }
+    }
+  ]
+}
