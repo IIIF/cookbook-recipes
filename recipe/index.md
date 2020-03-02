@@ -51,7 +51,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * Image different size to canvas (26)
 * Image Service for single image (24,25)
 * Multiple values and languages (3,4,6)
-* [Embedding HTML][0007] (64) (use HTML in property values)
+* Multiple formats of strings (text, html, markdown...?) (64)
 * [Rights][0008] (7) (Rights statements)
 * Book (simplest, > 1 canvas) (19)
 * Book (viewingDirection variations) (11,12,13,14)

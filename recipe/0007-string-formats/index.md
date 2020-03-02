@@ -1,38 +1,44 @@
 ---
-title: Embedding HTML in descriptive properties
+title: Multiple formats of strings
 id: 7
 layout: recipe
 tags: [text, presentation]
-summary: "You want to have more control on how your metadata is displayed. For example scientific names, and also links out to other sites. Also legacy systems that might include things like italic tags."
+summary: "tbc"
 ---
+
 
 ## Use Case
 
-You want to have more control on how your metadata is displayed by adding links or simple formatting instructions to selected text blocks. For example, scientific names might need special formatting and links out to other sites benefit from being activatable. Legacy systems may also include rudimentary formatting in their output.
+Why is this pattern is important?
 
 ## Implementation notes
 
-You may include minimal HTML markup only in the `summary` property and the `value` property in the `metadata` and `requiredStatement` objects. HTML is not permitted in `label` or other properties. Your HTML must be [well-formed XML](https://validator.w3.org/) and therefore must be wrapped in an element such as `p` or `span`.
-
-To alert a consuming application that your content is HTML, the first character in your string must be ‘<’ and the last character must be ‘>’. If your content is plain text but happens to start and end with angle brackets as described above, add an additional whitespace character to the end of the value.
-
-For security reasons, clients allow only `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, and `sup` tags, and may remove any or all of those. For more details of permitted and prohibited markup, see [the specification](https://iiif.io/api/presentation/3.0/#45-html-markup-in-property-values).
+How does one implement the pattern?
 
 ## Restrictions
 
-None known.
+When is this pattern is usable / not usable? Is it deprecated? If it uses multiple specifications, which versions are needed, etc.? (Not present if not needed.)
 
 ## Example
 
-[JSON-LD](manifest.json) | View in X | View in Y 
+Describe in prose and provide examples, e.g.: 
 
-{: .line-numbers data-download-link data-download-link-label="Download me" data-line="7,12,24,38" data-src="manifest.json" }
-```json
+``` json-doc
+{
+  "@context": [
+    "http://www.w3.org/ns/anno.jsonld",
+    "http://iiif.io/api/presentation/{{ page.major }}/context.json"
+  ],
+  "id": "https://example.org/iiif/book1/manifest",
+  "type": "Manifest" 
+}
 ```
 
 # Related recipes
 
-* [Simplest Manifest - Single Image File][0001]
+Provide a bulleted list of related recipes and why they are relevant.
+
 
 {% include acronyms.md %}
 {% include links.md %}
+
