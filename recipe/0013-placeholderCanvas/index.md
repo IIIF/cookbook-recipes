@@ -6,7 +6,6 @@ tags: [tbc]
 summary: "tbc"
 ---
 
-
 ## Use Case
 
 Why is this pattern is important?
@@ -23,15 +22,8 @@ When is this pattern is usable / not usable? Is it deprecated? If it uses multip
 
 Describe in prose and provide examples, e.g.: 
 
-``` json-doc
-{
-  "@context": [
-    "http://www.w3.org/ns/anno.jsonld",
-    "http://iiif.io/api/presentation/{{ page.major }}/context.json"
-  ],
-  "id": "https://example.org/iiif/book1/manifest",
-  "type": "Manifest" 
-}
+{: .line-numbers data-src="manifest.json" }
+```json
 ```
 
 # Related recipes
