@@ -31,43 +31,48 @@ See Presentation API 3 Example 3.
 # Presentation API 3
 ### Example 1
 In this example, the agent does not own the resource and it attempting multiple third party assertion.  This can be done using Annotations.
-``` json-doc
 [JSON-LD](anno.json)
+{: .line-numbers data-download-link data-download-link-label="Download me" data-src="anno.json" }
+```json
 ```
-
 You can target the same resource with many of these Annotations that represent separate geographic assertions.
 
 
 ### Example 2
 In this example, the agent does own the resource.  The agent still wants to use Annotations to describe the resource and wants to put those Annotations directly on the resource.  This can be done using an AnnotationPage.
-``` json-doc
 [JSON-LD](canvasAndAnnos.json)
+{: .line-numbers data-download-link data-download-link-label="Download me" data-src="canvasAndAnnos.json" }
+```json
 ```
 
 ### Example 3 
 In this example, the agent does own the resource.  The agent wants to put the assertion directly on the resource without using the AnnotationPage. 
-``` json-doc
 [JSON-LD](canavsAndService.json)
+{: .line-numbers data-download-link data-download-link-label="Download me" data-src="canvasAndAnnos.json" }
+```json
 ```
 This has a small issue with how type clashes, but we can handle that within properties. However, that means FeatureCollections could not be used here, since FeatureCollections must not have properties. There would be no way to reconcile the type conflict. It is paramount the service return an array of Features here instead of a FeatureCollection.
 
 # Presentation API 2
 ### Example 1
 In this example, the agent does not own the resource and is attempting to make multiple third party assertion.  This can be done using an AnnotationList.
-``` json-doc
 [JSON-LD](prezi2list.json)
+{: .line-numbers data-download-link data-download-link-label="Download me" data-src="prezi2list.json" }
+```json
 ```
 
 ### Example 2
 In this example, the agent does own the resource.  The agent still wants to use Annotations to describe the resource and wants to put those Annotations directly on the resource.  This can be done using an AnnotationList.
-``` json-doc
 [JSON-LD](prezi2canvasandannos.json)
+{: .line-numbers data-download-link data-download-link-label="Download me" data-src="prezi2canvasandannos.json" }
+```json
 ```
 
 ### Example 3
 In this example, the agent does own the resource.  The agent wants to put the assertion directly on the resource.  It is a bit different since service is not an array. That means your service will need to return a single FeatureCollection containing all the geographic data Features.
-``` json-doc
 [JSON-LD](prezi2canvasandservice.json)
+{: .line-numbers data-download-link data-download-link-label="Download me" data-src="prezi2canvasandservice.json" }
+```json
 ```
 
 ## Related IIIF Stories
