@@ -1,0 +1,10 @@
+﻿{
+   "@id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/prezi2canvas.json",
+   "@type":"sc:Canvas",
+   "@context":"http://iiif.io/api/presentation/2/context.json",
+   "label":"p. 1",
+   "height":1000,
+   "width":750,
+   "images":[],
+   "otherContent":[]
+}

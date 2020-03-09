@@ -172,7 +172,7 @@ In this example, the agent does not own the resource and it attempting a third p
                ]
             }
          },
-         "on":"https://iiif.example.org/canvas/123"
+         "on":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/prez2canvas.json"
       }
    ]
 }
@@ -214,7 +214,7 @@ In this example, the agent does own the resource.  The agent still wants to use 
                      ]
                   }
                },
-               "on":"https://iiif.example.org/canvas/123"
+               "on":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/prez2canvas.json"
             }
          ]
       }
