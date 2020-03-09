@@ -1,6 +1,7 @@
 ---
 title: Multiple Geographical Assertions
-layout: default
+id: 140
+layout: recipe
 tags: [maps, geocode, annotation]
 summary: "Make multiple geographical assertions about a IIIF resource."
 ---
