@@ -8,7 +8,7 @@
    "images":[],
    "otherContent":[],
    "service":{
-      "@id":"https://example.org/geo/service/point-collection()&format=geojson",
+      "@id":"https://example.org/geo/service/point-collection(48.86,2.34)&format=geojson",
       "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
       "profile":"http://geojson.org/geojson-spec.html",
       "@type":"FeatureCollection",
@@ -23,8 +23,8 @@
             "geometry":{
                "type":"Point",
                "coordinates":[
-                  7,
-                  7
+                   48.86,
+                   2.34
                ]
             }
          }
