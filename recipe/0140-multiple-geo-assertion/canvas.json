@@ -1,5 +1,5 @@
 ﻿{
-   "id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/canvas.json",
+   "id":"{{ id.url }}",
    "type":"Canvas",
    "@context":"http://iiif.io/api/presentation/3/context.json",
    "label":{

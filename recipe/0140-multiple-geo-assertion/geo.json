@@ -1,5 +1,5 @@
 ﻿{
-   "id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/geo.json",
+   "id":"{{ id.url }}",
    "type":"Feature",
    "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
    "properties":{

@@ -31,29 +31,7 @@ See Presentation API 3 Example 3.
 ### Example 1
 In this example, the agent does not own the resource and it attempting multiple third party assertion.  This can be done using Annotations.
 ``` json-doc
-{
-   "id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/anno.json",
-   "type":"Annotation",
-   "@context":"http://iiif.io/api/presentation/3/context.json",
-   "motivation":"geocode",
-   "body":{
-      "id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/geo.json",
-      "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
-      "type":"Feature",
-      "properties":{
-         "label":"String this geometry node should use as a label.",
-         "description":"Some description to go along with node."
-      },
-      "geometry":{
-         "type":"Point",
-         "coordinates":[
-            7,
-            7
-         ]
-      }
-   },
-   "target":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/canvas.json"
-}
+[JSON-LD](anno.json)
 ```
 
 You can target the same resource with many of these Annotations that represent separate geographic assertions.
@@ -62,90 +40,13 @@ You can target the same resource with many of these Annotations that represent s
 ### Example 2
 In this example, the agent does own the resource.  The agent still wants to use Annotations to describe the resource and wants to put those Annotations directly on the resource.  This can be done using an AnnotationPage.
 ``` json-doc
-{
-   "id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/canvasAndAnnos.json",
-   "type":"Canvas",
-   "@context":"http://iiif.io/api/presentation/3/context.json",
-   "label":{
-      "none":[
-         "pg. 2"
-      ]
-   },
-   "height":1000,
-   "width":750,
-   "items":[],
-   "annotations":[
-      {
-         "@context":"http://iiif.io/api/presentation/3/context.json",
-         "id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/annoPage.json",
-         "type":"AnnotationPage",
-         "items":[
-            {
-               "id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/anno.json",
-               "type":"Annotation",
-               "@context":"http://iiif.io/api/presentation/3/context.json",
-               "motivation":"geocode",
-               "body":{
-                  "id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/geo.json",
-                  "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
-                  "type":"Feature",
-                  "properties":{
-                     "label":"String this geometry node should use as a label.",
-                     "description":"Some description to go along with node."
-                  },
-                  "geometry":{
-                     "type":"Point",
-                     "coordinates":[
-                        7,
-                        7
-                     ]
-                  }
-               },
-               "target":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/canvasAndAnnos.json"
-            }//and so on
-         ]
-      }
-   ]
-}
+[JSON-LD](canvasAndAnnos.json)
 ```
 
 ### Example 3 
 In this example, the agent does own the resource.  The agent wants to put the assertion directly on the resource without using the AnnotationPage. 
 ``` json-doc
-{
-   "id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/canvasAndService.json",
-   "type":"Canvas",
-   "@context":"http://iiif.io/api/presentation/3/context.json",
-   "label":{
-      "none":[
-         "pg. 2"
-      ]
-   },
-   "height":1000,
-   "width":750,
-   "items":[],
-   "service":[
-      {
-         "id":"https://example.org/geo/service/point(7,7)&format=geojson",
-         "type":"GeoJSON_Serivce",
-         "profile":"http://geojson.org/geojson-spec.html",
-         "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
-         "properties":{
-            "type":"Feature",
-            "label":"String this geometry node should use as a label.",
-            "description":"Some description to go along with node.",
-            "motivation":"geocode"
-         },
-        "geometry":{
-               "type":"Point",
-               "coordinates":[
-                  7,
-                  7
-               ]
-            }
-      }//and so on
-   ]
-}
+[JSON-LD](canavsAndService.json)
 ```
 This has a small issue with how type clashes, but we can handle that within properties. However, that means FeatureCollections could not be used here, since FeatureCollections must not have properties. There would be no way to reconcile the type conflict. It is paramount the service return an array of Features here instead of a FeatureCollection.
 
@@ -153,116 +54,19 @@ This has a small issue with how type clashes, but we can handle that within prop
 ### Example 1
 In this example, the agent does not own the resource and is attempting to make multiple third party assertion.  This can be done using an AnnotationList.
 ``` json-doc
-{
-   "@id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/prezi2list.json",
-   "@type":"sc:AnnotationList",
-   "@context":"http://iiif.io/api/presentation/2/context.json",
-   "resources":[
-      {
-         "@type":"oa:Annotation",
-         "motivation":"geocode",
-         "resource":{
-            "@id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/geo.json",
-            "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
-            "@type":"Feature",
-            "properties":{
-               "label":"String this geometry node should use as a label.",
-               "description":"Some description to go along with node."
-            },
-            "geometry":{
-               "type":"Point",
-               "coordinates":[
-                  7,
-                  7
-               ]
-            }
-         },
-         "on":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/prezi2canvas.json"
-      }// and so on
-   ]
-}
+[JSON-LD](prezi2list.json)
 ```
 
 ### Example 2
 In this example, the agent does own the resource.  The agent still wants to use Annotations to describe the resource and wants to put those Annotations directly on the resource.  This can be done using an AnnotationList.
 ``` json-doc
-{
-   "@id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/prezi2canvasandannos.json",
-   "@type":"sc:Canvas",
-   "@context":"http://iiif.io/api/presentation/2/context.json",
-   "label":"p. 1",
-   "height":1000,
-   "width":750,
-   "images":[],
-   "otherContent":[
-      {
-         "@id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/prezi2list.json",
-         "@context":"http://iiif.io/api/presentation/2/context.json",
-         "@type":"sc:AnnotationList",
-         "resources":[
-            {
-               "@type":"oa:Annotation",
-               "motivation":"geocode",
-               "resource":{
-                  "@id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/geo.json",
-                  "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
-                  "@type":"Feature",
-                  "properties":{
-                     "label":"String this geometry node should use as a label.",
-                     "description":"Some description to go along with node."
-                  },
-                  "geometry":{
-                     "type":"Point",
-                     "coordinates":[
-                        7,
-                        7
-                     ]
-                  }
-               },
-               "on":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/prezi2canvas.json"
-            }//and so on
-         ]
-      }
-   ]
-}
+[JSON-LD](prezi2canvasandannos.json)
 ```
 
 ### Example 3
 In this example, the agent does own the resource.  The agent wants to put the assertion directly on the resource.  It is a bit different since service is not an array. That means your service will need to return a single FeatureCollection containing all the geographic data Features.
 ``` json-doc
-{
-   "@id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/prezi2canvasandservice.json",
-   "@type":"sc:Canvas",
-   "@context":"http://iiif.io/api/presentation/2/context.json",
-   "label":"p. 1",
-   "height":1000,
-   "width":750,
-   "images":[],
-   "otherContent":[],
-   "service":{
-      "@id":"https://example.org/geo/service/point-collection()&format=geojson",
-      "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
-      "profile":"http://geojson.org/geojson-spec.html",
-      "@type":"FeatureCollection",
-      "features":[
-         {
-            "@type":"Feature",
-            "properties":{
-               "label":"String this geometry node should use as a label.",
-               "description":"Some description to go along with node.",
-               "motivation":"geocode"
-            },
-            "geometry":{
-               "type":"Point",
-               "coordinates":[
-                  7,
-                  7
-               ]
-            }
-         }
-      ]
-   }
-}
+[JSON-LD](prezi2canvasandservice.json)
 ```
 
 ## Related IIIF Stories

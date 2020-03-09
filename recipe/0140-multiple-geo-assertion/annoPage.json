@@ -1,5 +1,5 @@
 ﻿{
-         "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/annoPage.json",
+         "id":"{{ id.url }}",
          "type":"AnnotationPage",
          "@context":"http://iiif.io/api/presentation/3/context.json",
          "items":[
@@ -24,7 +24,7 @@
                      ]
                   }
                },
-               "target":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/canvasAndAnnos.json"
+               "target":"{{ id.path }}/canvasAndAnnos.json"
             }//and so on
          ]
       }

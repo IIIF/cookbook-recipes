@@ -1,10 +1,10 @@
 ﻿{
-   "id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/anno.json",
+   "id":"{{ id.url }}",
    "type":"Annotation",
    "@context":"http://iiif.io/api/presentation/3/context.json",
    "motivation":"geocode",
    "body":{
-      "id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/geo.json",
+      "id":"{{ id.path }}/geo.json",
       "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
       "type":"Feature",
       "properties":{
@@ -19,5 +19,5 @@
          ]
       }
    },
-   "target":"https://iiif.example.org/canvas/123"
+   "target":"{{ id.path }}/canvas.json"
 }
