@@ -1,0 +1,13 @@
+﻿{
+   "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/canvas.json",
+   "type":"Canvas",
+   "@context":"http://iiif.io/api/presentation/3/context.json",
+   "label":{
+      "none":[
+         "pg. 2"
+      ]
+   },
+   "height":1000,
+   "width":750,
+   "items":[],
+}

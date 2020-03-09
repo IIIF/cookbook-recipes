@@ -1,0 +1,45 @@
+﻿{
+   "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/canvasAndAnnos.json",
+   "type":"Canvas",
+   "@context":"http://iiif.io/api/presentation/3/context.json",
+   "label":{
+      "none":[
+         "pg. 2"
+      ]
+   },
+   "height":1000,
+   "width":750,
+   "items":[],
+   "annotations":[
+      {
+         "@context":"http://iiif.io/api/presentation/3/context.json",
+         "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/annoPage.json",
+         "type":"AnnotationPage",
+         "items":[
+            {
+               "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/anno.json",
+               "type":"Annotation",
+               "@context":"http://iiif.io/api/presentation/3/context.json",
+               "motivation":"geocode",
+               "body":{
+                  "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/geo.json",
+                  "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
+                  "type":"Feature",
+                  "properties":{
+                     "label":"String this geometry node should use as a label.",
+                     "description":"Some description to go along with node."
+                  },
+                  "geometry":{
+                     "type":"Point",
+                     "coordinates":[
+                        7,
+                        7
+                     ]
+                  }
+               },
+               "target":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/canvasAndAnnos.json"
+            }//and so on
+         ]
+      }
+   ]
+}
