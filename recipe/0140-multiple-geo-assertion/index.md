@@ -77,7 +77,7 @@ In this example, the agent does own the resource.  The agent wants to put the as
 * [https://github.com/IIIF/iiif-stories/issues/135] [0135]
 
 ## Related Recipes
-* [Geographical Assertinos] [0TBD] - It is the same problem, only with a single assertion instead of multiple.
+* [Geographical Assertions] [0TBD] - It is the same problem, only with a single assertion instead of multiple.
 * [Annotation Specific Resources] [0023] - The same Annotation techniques seen here will work on specific resources.
 * [Transcription/Translation] [0092] - The same Annotation aggregates AnnotationList and AnnotationPage combined with motivation will achieve this
 
