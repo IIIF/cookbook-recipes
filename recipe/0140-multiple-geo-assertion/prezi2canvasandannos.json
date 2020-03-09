@@ -1,0 +1,39 @@
+﻿{
+   "@context":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0140-multiple-geo-assertions/prezi2canvasandannos.json",
+   "@id":"http://example.org/iiif/book1/canvas/p1",
+   "@type":"sc:Canvas",
+   "label":"p. 1",
+   "height":1000,
+   "width":750,
+   "images":[],
+   "otherContent":[
+      {
+         "@id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0140-multiple-geo-assertions/prezi2list.json",
+         "@context":"http://iiif.io/api/presentation/2/context.json",
+         "@type":"sc:AnnotationList",
+         "resources":[
+            {
+               "@type":"oa:Annotation",
+               "motivation":"geocode",
+               "resource":{
+                  "@id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0140-multiple-geo-assertions/geo.json",
+                  "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
+                  "@type":"Feature",
+                  "properties":{
+                     "label":"String this geometry node should use as a label.",
+                     "description":"Some description to go along with node."
+                  },
+                  "geometry":{
+                     "type":"Point",
+                     "coordinates":[
+                        7,
+                        7
+                     ]
+                  }
+               },
+               "on":"https://iiif.example.org/canvas/123"
+            }//and so on
+         ]
+      }
+   ]
+}
