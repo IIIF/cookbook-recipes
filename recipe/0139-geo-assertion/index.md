@@ -14,7 +14,7 @@ There are multiple scenarios that drive which pattern one may use to achieve thi
 
 Note that geocode was used as the motivation throughout.  The IIIF-Maps group is working on proper motivation extensions for the various kinds of assertions that could be made.  The three main categories are geocode, georeference and co-locate.
 
-Note that properties is a very generic field. This community should seek to put some rails on what goes into that field. If, for example, the targeted resource has a label and the properties field contains a label, the consuming interface must make a choice on which to preference for UI/UX purposes. This could be a way to inject, override or extend resource properties.
+Note that the GeoJSON properties is a very generic field. This community should seek to put some rails on what goes into that field. If, for example, the targeted resource has a label and the properties field contains a label, the consuming interface must make a choice on which to preference for UI/UX purposes. This could be a way to inject, override or extend resource properties.
 
 Note that geometry can be more than just a Point.
 
