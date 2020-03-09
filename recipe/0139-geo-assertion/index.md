@@ -1,6 +1,7 @@
 ---
 title: Geographical Assertion
-layout: default
+id: 139
+layout: recipe
 tags: [maps, geocode, annotation]
 summary: "Make a geographical assertion about a IIIF resource."
 ---
