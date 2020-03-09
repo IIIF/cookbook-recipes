@@ -72,9 +72,7 @@ In this example, the agent does own the resource.  The agent still wants to use 
    },
    "height":1000,
    "width":750,
-   "items":[
-
-   ],
+   "items":[],
    "annotations":[
       {
          "@context":"http://iiif.io/api/presentation/3/context.json",
@@ -127,9 +125,7 @@ In this example, the agent does own the resource.  The agent wants to put the as
    },
    "height":1000,
    "width":750,
-   "items":[
-
-   ],
+   "items":[],
    "service":[
       {
          "id":"https://example.org/geo/service/point(7,7)&format=geojson",
@@ -252,12 +248,8 @@ In this example, the agent does own the resource.  The agent wants to put the as
    "label":"p. 1",
    "height":1000,
    "width":750,
-   "images":[
-
-   ],
-   "otherContent":[
-
-   ],
+   "images":[],
+   "otherContent":[],
    "service":{
       "@id":"https://example.org/geo/service/point-collection()&format=geojson",
       "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
