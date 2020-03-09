@@ -1,7 +1,7 @@
 ﻿{
    "@id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/prezi2list.json",
-   "@context":"http://iiif.io/api/presentation/2/context.json",
    "@type":"sc:AnnotationList",
+   "@context":"http://iiif.io/api/presentation/2/context.json",
    "resources":[
       {
          "@type":"oa:Annotation",

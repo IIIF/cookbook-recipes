@@ -1,7 +1,7 @@
 ﻿{
-   "@context":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/prezi2canvasandannos.json",
-   "@id":"http://example.org/iiif/book1/canvas/p1",
+   "@id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/prezi2canvasandannos.json",
    "@type":"sc:Canvas",
+   "@context":"http://iiif.io/api/presentation/2/context.json",
    "label":"p. 1",
    "height":1000,
    "width":750,

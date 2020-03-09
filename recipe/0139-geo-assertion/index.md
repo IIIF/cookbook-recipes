@@ -150,8 +150,8 @@ In this example, the agent does not own the resource and it attempting a third p
 ``` json-doc
 {
    "@id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/prezi2list.json",
-   "@context":"http://iiif.io/api/presentation/2/context.json",
    "@type":"sc:AnnotationList",
+   "@context":"http://iiif.io/api/presentation/2/context.json",
    "resources":[
       {
          "@type":"oa:Annotation",
@@ -183,8 +183,8 @@ In this example, the agent does own the resource.  The agent still wants to use 
 ``` json-doc
 {
    "@id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/prezi2canvasandannos.json",
-   "@context":"http://iiif.io/api/presentation/2/context.json",
    "@type":"sc:Canvas",
+   "@context":"http://iiif.io/api/presentation/2/context.json",
    "label":"p. 1",
    "height":1000,
    "width":750,
@@ -227,8 +227,8 @@ In this example, the agent does own the resource.  The agent wants to put the as
 ``` json-doc
 {
    "@id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/prezi2canvasandservice.json",
-   "@context":"http://iiif.io/api/presentation/2/context.json",
    "@type":"sc:Canvas",
+   "@context":"http://iiif.io/api/presentation/2/context.json",
    "label":"p. 1",
    "height":1000,
    "width":750,

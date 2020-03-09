@@ -1,7 +1,7 @@
 ﻿{
-         "@context":"http://iiif.io/api/presentation/3/context.json",
          "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/annoPage.json",
          "type":"AnnotationPage",
+         "@context":"http://iiif.io/api/presentation/3/context.json",
          "items":[
             {
                "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/anno.json",

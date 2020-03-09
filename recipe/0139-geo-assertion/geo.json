@@ -1,7 +1,7 @@
 ﻿{
    "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/geo.json",
-   "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
    "type":"Feature",
+   "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
    "properties":{
       "label":"String this geometry node should use as a label.",
       "description":"Some description to go along with node."
