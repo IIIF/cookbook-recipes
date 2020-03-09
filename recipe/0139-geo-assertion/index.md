@@ -26,7 +26,7 @@ In Presentation API 3, there is a minor conflict with the "type" field.  See Pre
 In this example, the agent does not own the resource and it attempting a third party assertion.  This can be done using an Annotation.
 ``` json-doc
 {
-   "id":"https://example.com/annotation/12345",
+   "id":"https://iif.example.org/annotation/12345",
    "type":"Annotation",
    "@context":"http://iiif.io/api/presentation/3/context.json",
    "motivation":"geocode",
@@ -64,17 +64,15 @@ In this example, the agent does own the resource.  The agent still wants to use 
    },
    "height":1000,
    "width":750,
-   "items":[
-
-   ],
+   "items":[],
    "annotations":[
       {
          "@context":"http://iiif.io/api/presentation/3/context.json",
-         "id":"https://example.org/iiif/annopage/123",
+         "id":"https://iiif.example.org/iiif/annopage/123",
          "type":"AnnotationPage",
          "items":[
             {
-               "id":"https://example.com/annotation/12345",
+               "id":"https://iiif.example.org/annotation/12345",
                "type":"Annotation",
                "@context":"http://iiif.io/api/presentation/3/context.json",
                "motivation":"geocode",
@@ -106,7 +104,7 @@ In this example, the agent does own the resource.  The agent still wants to use 
 In this example, the agent does own the resource.  The agent wants to put the assertion directly on the resource without using the AnnotationPage. 
 ``` json-doc
 {
-   "id":"https://example.org/iiif/book1/canvas/p2",
+   "id":"https://iiif.example.org/canvas/123",
    "type":"Canvas",
    "@context":"http://iiif.io/api/presentation/3/context.json",
    "label":{
@@ -116,9 +114,7 @@ In this example, the agent does own the resource.  The agent wants to put the as
    },
    "height":1000,
    "width":750,
-   "items":[
-
-   ],
+   "items":[],
    "service":[
       {
          "id":"https://example.org/geo/service/point(7,7)&format=geojson",
@@ -149,7 +145,7 @@ Something to note here is this GeoJSON had to type itself as a Feature inside it
 In this example, the agent does not own the resource and it attempting a third party assertion.  This can be done using an AnnotationList.
 ``` json-doc
 {
- "@id":"http://example.org/annolist/123",
+ "@id":"http://iiif.example.org/annolist/123",
  "@context":"http://iiif.io/api/presentation/2/context.json",
  "@type":"sc:AnnotationList",
  "resources":[
@@ -188,9 +184,7 @@ In this example, the agent does own the resource.  The agent still wants to use 
    "label":"p. 1",
    "height":1000,
    "width":750,
-   "images":[
-
-   ],
+   "images":[],
    "otherContent":[
       {
          "@id":"http://example.org/annolist/123",
@@ -234,12 +228,8 @@ In this example, the agent does own the resource.  The agent wants to put the as
    "label":"p. 1",
    "height":1000,
    "width":750,
-   "images":[
-
-   ],
-   "otherContent":[
-
-   ],
+   "images":[],
+   "otherContent":[],
    "service":{
       "@id":"https://example.org/geo/service/point(7,7)&format=geojson",
       "@type":"Feature",
@@ -261,3 +251,14 @@ In this example, the agent does own the resource.  The agent wants to put the as
    }
 }
 ```
+
+## Related IIIF Stories
+* [https://github.com/IIIF/iiif-stories/issues/116][0116]
+* [https://github.com/IIIF/iiif-stories/issues/119][0119]
+* [https://github.com/IIIF/iiif-stories/issues/125][0125]
+* [https://github.com/IIIF/iiif-stories/issues/135][0135]
+
+## Related Recipes
+* [Multiple Geographical Assertions][0TBD] - It is the same problem, only multiple assertions instead of a single assertion.
+* [Annotation Specific Resources][0023] - The same Annotation techniques seen here will work on specific resources.
+* [Transcription/Translation][0092] - The same Annotation aggregates AnnotationList and AnnotationPage combined with motivation will achieve this
