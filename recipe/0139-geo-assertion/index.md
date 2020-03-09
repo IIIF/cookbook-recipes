@@ -11,13 +11,19 @@ Geographical knowledge of a IIIF resource is obtained.  There is the need to ass
 
 ### Implementation Notes
 There are multiple scenarios that drive which pattern one may use to achieve this.  If the agent making the assertion owns the resource, they may change the state of that resource to include the assertion directly on the JSON-LD object.  Other scenarios include entirely third party assertions where the agent does not own the resource or even have permission to view it.
+Note that geocode was used as the motivation throughout.  The IIIF-Maps group is working on proper motivation extensions for the various kinds of assertions that could be made.  The three main categories are geocode, georeference and co-locate.
+Note that properties is a very generic field. This community should seek to put some rails on what goes into that field. If, for example, the targeted resource has a label and the properties field contains a label, the consuming interface must make a choice on which to preference for UI/UX purposes. This could be a way to inject, override or extend resource properties.
+Note that geometry can be more than just a Point.
+Note that target values can include hash or SVG selectors. This would allow someone to annotate a portion/slice/frame/fragment of a resource.
+
 
 ### Restrictions
-In Presentation API 3, there is a conflict with the "type" field.  
+In Presentation API 3, there is a minor conflict with the "type" field.  See Presentation API 3 Example 3.
+
 
 # Presentation API 3
 ### Example 1
-In this example, the Agent does not own the resource and it attempting a third party assertion.  This can be done using an Annotation.
+In this example, the agent does not own the resource and it attempting a third party assertion.  This can be done using an Annotation.
 ``` json-doc
 {
    "id":"https://example.com/annotation/12345",
@@ -45,7 +51,7 @@ In this example, the Agent does not own the resource and it attempting a third p
 ```
 
 ### Example 2
-In this example, the Agent does own the resource.  The Agent still wants to use Annotation to describe the resource and wants to put that Annotation directly on the resource.  This can be done using an AnnotationPage.
+In this example, the agent does own the resource.  The agent still wants to use Annotation to describe the resource and wants to put that Annotation directly on the resource.  This can be done using an AnnotationPage.
 ``` json-doc
 {
    "id":"https://iiif.example.org/canvas/123",
@@ -96,8 +102,8 @@ In this example, the Agent does own the resource.  The Agent still wants to use 
 }
 ```
 
-### Example 2 
-In this example, the Agent does own the resource.  The Agent wants to put the assertion directly on the resource without using the AnnotationPage. 
+### Example 3 
+In this example, the agent does own the resource.  The agent wants to put the assertion directly on the resource without using the AnnotationPage. 
 ``` json-doc
 {
    "id":"https://example.org/iiif/book1/canvas/p2",
@@ -136,11 +142,11 @@ In this example, the Agent does own the resource.  The Agent wants to put the as
    ]
 }
 ```
-
+Something to note here is this GeoJSON had to type itself as a Feature inside its own properties field.  This is because type is a required key descriptor for a service which causes a small clash of IIIF Presentation API 3 and GeoJSON standards here.
 
 # Presentation API 2
 ### Example 1
-In this example, the Agent does not own the resource and it attempting a third party assertion.  This can be done using an AnnotationList.
+In this example, the agent does not own the resource and it attempting a third party assertion.  This can be done using an AnnotationList.
 ``` json-doc
 {
  "@id":"http://example.org/annolist/123",
@@ -173,7 +179,7 @@ In this example, the Agent does not own the resource and it attempting a third p
 ```
 
 ### Example 2
-In this example, the Agent does own the resource.  The Agent still wants to use Annotation to describe the resource and wants to put that Annotation directly on the resource.  This can be done using an AnnotationList.
+In this example, the agent does own the resource.  The agent still wants to use Annotation to describe the resource and wants to put that Annotation directly on the resource.  This can be done using an AnnotationList.
 ``` json-doc
 {
    "@context":"http://iiif.io/api/presentation/2/context.json",
@@ -219,7 +225,7 @@ In this example, the Agent does own the resource.  The Agent still wants to use 
 ```
 
 ### Example 3
-In this example, the Agent does own the resource.  The Agent wants to put the assertion directly on the resource without using the AnnotationPage. 
+In this example, the agent does own the resource.  The agent wants to put the assertion directly on the resource without using the AnnotationPage. 
 ``` json-doc
 {
    "@context":"http://iiif.io/api/presentation/2/context.json",
