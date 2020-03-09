@@ -177,7 +177,7 @@ In this example, the agent does not own the resource and is attempting to make m
                ]
             }
          },
-         "on":"https://iiif.example.org/canvas/123"
+         "on":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/prezi2canvas.json"
       }// and so on
    ]
 }
@@ -219,7 +219,7 @@ In this example, the agent does own the resource.  The agent still wants to use 
                      ]
                   }
                },
-               "on":"https://iiif.example.org/canvas/123"
+               "on":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/prezi2canvas.json"
             }//and so on
          ]
       }
