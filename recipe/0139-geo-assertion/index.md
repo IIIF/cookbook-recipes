@@ -11,9 +11,13 @@ Geographical knowledge of a IIIF resource is obtained.  There is the need to ass
 
 ### Implementation Notes
 There are multiple scenarios that drive which pattern one may use to achieve this.  If the agent making the assertion owns the resource, they may change the state of that resource to include the assertion directly on the JSON-LD object.  Other scenarios include entirely third party assertions where the agent does not own the resource or even have permission to view it.
+
 Note that geocode was used as the motivation throughout.  The IIIF-Maps group is working on proper motivation extensions for the various kinds of assertions that could be made.  The three main categories are geocode, georeference and co-locate.
+
 Note that properties is a very generic field. This community should seek to put some rails on what goes into that field. If, for example, the targeted resource has a label and the properties field contains a label, the consuming interface must make a choice on which to preference for UI/UX purposes. This could be a way to inject, override or extend resource properties.
+
 Note that geometry can be more than just a Point.
+
 Note that target values can include hash or SVG selectors. This would allow someone to annotate a portion/slice/frame/fragment of a resource.
 
 
@@ -253,12 +257,15 @@ In this example, the agent does own the resource.  The agent wants to put the as
 ```
 
 ## Related IIIF Stories
-* [https://github.com/IIIF/iiif-stories/issues/116][0116]
-* [https://github.com/IIIF/iiif-stories/issues/119][0119]
-* [https://github.com/IIIF/iiif-stories/issues/125][0125]
-* [https://github.com/IIIF/iiif-stories/issues/135][0135]
+* [https://github.com/IIIF/iiif-stories/issues/116] [0116]
+* [https://github.com/IIIF/iiif-stories/issues/119] [0119]
+* [https://github.com/IIIF/iiif-stories/issues/125] [0125]
+* [https://github.com/IIIF/iiif-stories/issues/135] [0135]
 
 ## Related Recipes
-* [Multiple Geographical Assertions][0TBD] - It is the same problem, only multiple assertions instead of a single assertion.
-* [Annotation Specific Resources][0023] - The same Annotation techniques seen here will work on specific resources.
-* [Transcription/Translation][0092] - The same Annotation aggregates AnnotationList and AnnotationPage combined with motivation will achieve this
+* [Multiple Geographical Assertions] [0TBD] - It is the same problem, only multiple assertions instead of a single assertion.
+* [Annotation Specific Resources] [0023] - The same Annotation techniques seen here will work on specific resources.
+* [Transcription/Translation] [0092] - The same Annotation aggregates AnnotationList and AnnotationPage combined with motivation will achieve this
+
+{% include acronyms.md %}
+{% include links.md %}
