@@ -1,0 +1,16 @@
+﻿{
+   "id":"{{ id.url }}",
+   "type":"Feature",
+   "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
+   "properties":{
+      "label":"String this geometry node should use as a label.",
+      "description":"Some description to go along with node."
+   },
+   "geometry":{
+      "type":"Point",
+      "coordinates":[
+         7,
+         7
+      ]
+   }
+}

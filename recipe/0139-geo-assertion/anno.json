@@ -1,0 +1,23 @@
+﻿{
+   "id":"{{ id.url }}",
+   "type":"Annotation",
+   "@context":"http://iiif.io/api/presentation/3/context.json",
+   "motivation":"geocode",
+   "body":{
+      "id":"{{ id.path }}/geo.json",
+      "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
+      "type":"Feature",
+      "properties":{
+         "label":"String this geometry node should use as a label.",
+         "description":"Some description to go along with node."
+      },
+      "geometry":{
+         "type":"Point",
+         "coordinates":[
+            48.86,
+            2.34
+         ]
+      }
+   },
+   "target":"{{ id.path }}/canvas.json"
+}

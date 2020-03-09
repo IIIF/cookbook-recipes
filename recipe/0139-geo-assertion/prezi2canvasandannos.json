@@ -1,0 +1,39 @@
+﻿{
+   "@id":"{{ id.url }}",
+   "@type":"sc:Canvas",
+   "@context":"http://iiif.io/api/presentation/2/context.json",
+   "label":"p. 1",
+   "height":1000,
+   "width":750,
+   "images":[],
+   "otherContent":[
+      {
+         "@id":"{{ id.path }}/prezi2list.json",
+         "@context":"http://iiif.io/api/presentation/2/context.json",
+         "@type":"sc:AnnotationList",
+         "resources":[
+            {
+               "@type":"oa:Annotation",
+               "motivation":"geocode",
+               "resource":{
+                  "@id":"{{ id.path }}/geo.json",
+                  "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
+                  "@type":"Feature",
+                  "properties":{
+                     "label":"String this geometry node should use as a label.",
+                     "description":"Some description to go along with node."
+                  },
+                  "geometry":{
+                     "type":"Point",
+                     "coordinates":[
+                        7,
+                        7
+                     ]
+                  }
+               },
+               "on":"{{ id.url }}"
+            }//and so on
+         ]
+      }
+   ]
+}

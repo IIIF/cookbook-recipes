@@ -1,0 +1,10 @@
+﻿{
+   "@id":"{{ id.url }}",
+   "@type":"sc:Canvas",
+   "@context":"http://iiif.io/api/presentation/2/context.json",
+   "label":"p. 1",
+   "height":1000,
+   "width":750,
+   "images":[],
+   "otherContent":[]
+}

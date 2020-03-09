@@ -1,0 +1,28 @@
+﻿{
+   "@id":"{{ id.url }}",
+   "@type":"sc:AnnotationList",
+   "@context":"http://iiif.io/api/presentation/2/context.json",
+   "resources":[
+      {
+         "@type":"oa:Annotation",
+         "motivation":"geocode",
+         "resource":{
+            "@id":"{{ id.path }}/geo.json",
+            "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
+            "@type":"Feature",
+            "properties":{
+               "label":"String this geometry node should use as a label.",
+               "description":"Some description to go along with node."
+            },
+            "geometry":{
+               "type":"Point",
+               "coordinates":[
+                  7,
+                  7
+               ]
+            }
+         },
+         "on":"{{ id.path }}/canvas.json"
+      }// and so on
+   ]
+}

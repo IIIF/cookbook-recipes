@@ -1,0 +1,45 @@
+﻿{
+   "id":"{{ id.url }}",
+   "type":"Canvas",
+   "@context":"http://iiif.io/api/presentation/3/context.json",
+   "label":{
+      "none":[
+         "pg. 2"
+      ]
+   },
+   "height":1000,
+   "width":750,
+   "items":[],
+   "annotations":[
+      {
+         "@context":"http://iiif.io/api/presentation/3/context.json",
+         "id":"{{ id.path }}/annoPage.json",
+         "type":"AnnotationPage",
+         "items":[
+            {
+               "id":"{{ id.path }}/anno.json",
+               "type":"Annotation",
+               "@context":"http://iiif.io/api/presentation/3/context.json",
+               "motivation":"geocode",
+               "body":{
+                  "id":"{{ id.path }}/geo.json",
+                  "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
+                  "type":"Feature",
+                  "properties":{
+                     "label":"String this geometry node should use as a label.",
+                     "description":"Some description to go along with node."
+                  },
+                  "geometry":{
+                     "type":"Point",
+                     "coordinates":[
+                        7,
+                        7
+                     ]
+                  }
+               },
+               "target":"{{ id.url }}"
+            }//and so on
+         ]
+      }
+   ]
+}

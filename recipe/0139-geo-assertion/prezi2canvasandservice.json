@@ -1,0 +1,33 @@
+﻿{
+   "@id":"{{ id.url }}",
+   "@type":"sc:Canvas",
+   "@context":"http://iiif.io/api/presentation/2/context.json",
+   "label":"p. 1",
+   "height":1000,
+   "width":750,
+   "images":[],
+   "otherContent":[],
+   "service":{
+      "@id":"https://example.org/geo/service/point-collection()&format=geojson",
+      "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
+      "profile":"http://geojson.org/geojson-spec.html",
+      "@type":"FeatureCollection",
+      "features":[
+         {
+            "@type":"Feature",
+            "properties":{
+               "label":"String this geometry node should use as a label.",
+               "description":"Some description to go along with node.",
+               "motivation":"geocode"
+            },
+            "geometry":{
+               "type":"Point",
+               "coordinates":[
+                  7,
+                  7
+               ]
+            }
+         }
+      ]
+   }
+}
