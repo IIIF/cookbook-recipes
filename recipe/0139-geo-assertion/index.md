@@ -29,118 +29,19 @@ In Presentation API 3, there is a minor conflict with the "type" field.  See Pre
 ### Example 1
 In this example, the agent does not own the resource and it attempting a third party assertion.  This can be done using an Annotation.
 ``` json-doc
-{
-   "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/anno.json",
-   "type":"Annotation",
-   "@context":"http://iiif.io/api/presentation/3/context.json",
-   "motivation":"geocode",
-   "body":{
-      "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/geo.json",
-      "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
-      "type":"Feature",
-      "properties":{
-         "label":"String this geometry node should use as a label.",
-         "description":"Some description to go along with node."
-      },
-      "geometry":{
-         "type":"Point",
-         "coordinates":[
-            7,
-            7
-         ]
-      }
-   },
-   "target":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/canvas.json"
-}
+[JSON-LD](anno.json)
 ```
 
 ### Example 2
 In this example, the agent does own the resource.  The agent still wants to use Annotation to describe the resource and wants to put that Annotation directly on the resource.  This can be done using an AnnotationPage.
 ``` json-doc
-{
-   "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/canvasAndAnnos.json",
-   "type":"Canvas",
-   "@context":"http://iiif.io/api/presentation/3/context.json",
-   "label":{
-      "none":[
-         "pg. 2"
-      ]
-   },
-   "height":1000,
-   "width":750,
-   "items":[],
-   "annotations":[
-      {
-         "@context":"http://iiif.io/api/presentation/3/context.json",
-         "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/annoPage.json",
-         "type":"AnnotationPage",
-         "items":[
-            {
-               "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/anno.json",
-               "type":"Annotation",
-               "@context":"http://iiif.io/api/presentation/3/context.json",
-               "motivation":"geocode",
-               "body":{
-                  "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/geo.json",
-                  "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
-                  "type":"Feature",
-                  "properties":{
-                     "label":"String this geometry node should use as a label.",
-                     "description":"Some description to go along with node."
-                  },
-                  "geometry":{
-                     "type":"Point",
-                     "coordinates":[
-                        7,
-                        7
-                     ]
-                  }
-               },
-               "target":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/canvasAndAnnos.json"
-            }
-         ]
-      }
-   ]
-}
+[JSON-LD](canvasAndAnnos.json)
 ```
 
 ### Example 3 
 In this example, the agent does own the resource.  The agent wants to put the assertion directly on the resource without using the AnnotationPage. 
 ``` json-doc
-{
-   "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/canvasAndService.json",
-   "type":"Canvas",
-   "@context":"http://iiif.io/api/presentation/3/context.json",
-   "label":{
-      "none":[
-         "pg. 2"
-      ]
-   },
-   "height":1000,
-   "width":750,
-   "items":[],
-   "service":[
-      {
-         "id":"https://example.org/geo/service/point(7,7)&format=geojson",
-         "type":"GeoJSON_Serivce",
-         "profile":"http://geojson.org/geojson-spec.html",
-         "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
-         "properties":{
-            "type":"Feature",
-            "label":"String this geometry node should use as a label.",
-            "description":"Some description to go along with node.",
-            "motivation":"geocode"
-         },
-        "geometry":{
-               "type":"Point",
-               "coordinates":[
-                  7,
-                  7
-               ]
-            }
-      }
-   ]
-}
+[JSON-LD](canvasAndService.json)
 ```
 Something to note here is this GeoJSON had to type itself as a Feature inside its own properties field.  This is because type is a required key descriptor for a service which causes a small clash of IIIF Presentation API 3 and GeoJSON standards here.
 
@@ -148,116 +49,19 @@ Something to note here is this GeoJSON had to type itself as a Feature inside it
 ### Example 1
 In this example, the agent does not own the resource and it attempting a third party assertion.  This can be done using an AnnotationList.
 ``` json-doc
-{
-   "@id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/prezi2list.json",
-   "@type":"sc:AnnotationList",
-   "@context":"http://iiif.io/api/presentation/2/context.json",
-   "resources":[
-      {
-         "@type":"oa:Annotation",
-         "motivation":"geocode",
-         "resource":{
-            "@id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/geo.json",
-            "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
-            "@type":"Feature",
-            "properties":{
-               "label":"String this geometry node should use as a label.",
-               "description":"Some description to go along with node."
-            },
-            "geometry":{
-               "type":"Point",
-               "coordinates":[
-                  7,
-                  7
-               ]
-            }
-         },
-         "on":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/prez2canvas.json"
-      }
-   ]
-}
+[JSON-LD](prezi2list.json)
 ```
 
 ### Example 2
 In this example, the agent does own the resource.  The agent still wants to use Annotation to describe the resource and wants to put that Annotation directly on the resource.  This can be done using an AnnotationList.
 ``` json-doc
-{
-   "@id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/prezi2canvasandannos.json",
-   "@type":"sc:Canvas",
-   "@context":"http://iiif.io/api/presentation/2/context.json",
-   "label":"p. 1",
-   "height":1000,
-   "width":750,
-   "images":[],
-   "otherContent":[
-      {
-         "@id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/prezi2list.json",
-         "@context":"http://iiif.io/api/presentation/2/context.json",
-         "@type":"sc:AnnotationList",
-         "resources":[
-            {
-               "@type":"oa:Annotation",
-               "motivation":"geocode",
-               "resource":{
-                  "@id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/geo.json",
-                  "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
-                  "@type":"Feature",
-                  "properties":{
-                     "label":"String this geometry node should use as a label.",
-                     "description":"Some description to go along with node."
-                  },
-                  "geometry":{
-                     "type":"Point",
-                     "coordinates":[
-                        7,
-                        7
-                     ]
-                  }
-               },
-               "on":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/prez2canvas.json"
-            }
-         ]
-      }
-   ]
-}
+[JSON-LD](prezi2canvasandannos.json)
 ```
 
 ### Example 3
 In this example, the agent does own the resource.  The agent wants to put the assertion directly on the resource without using the AnnotationPage. 
 ``` json-doc
-{
-   "@id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/prezi2canvasandservice.json",
-   "@type":"sc:Canvas",
-   "@context":"http://iiif.io/api/presentation/2/context.json",
-   "label":"p. 1",
-   "height":1000,
-   "width":750,
-   "images":[],
-   "otherContent":[],
-   "service":{
-      "@id":"https://example.org/geo/service/point-collection()&format=geojson",
-      "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
-      "profile":"http://geojson.org/geojson-spec.html",
-      "@type":"FeatureCollection",
-      "features":[
-         {
-            "@type":"Feature",
-            "properties":{
-               "label":"String this geometry node should use as a label.",
-               "description":"Some description to go along with node.",
-               "motivation":"geocode"
-            },
-            "geometry":{
-               "type":"Point",
-               "coordinates":[
-                  7,
-                  7
-               ]
-            }
-         }
-      ]
-   }
-}
+[JSON-LD](prezi2canvasandservice.json)
 ```
 
 ## Related IIIF Stories
