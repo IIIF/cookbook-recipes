@@ -1,5 +1,5 @@
 ---
-title: IIIF cookbook recipes
+title: Geographical Assertion
 layout: default
 tags: [maps, geocode, annotation]
 summary: "Make a geographical assertion about a IIIF resource."
@@ -17,7 +17,7 @@ In Presentation API 3, there is a conflict with the "type" field.
 
 # Presentation API 3
 ### Example 1
-## In this example, the Agent does not own the resource and it attempting a third party assertion.  This can be done using an Annotation.
+In this example, the Agent does not own the resource and it attempting a third party assertion.  This can be done using an Annotation.
 ``` json-doc
 {
    "id":"https://example.com/annotation/12345",
@@ -45,7 +45,7 @@ In Presentation API 3, there is a conflict with the "type" field.
 ```
 
 ### Example 2
-## In this example, the Agent does own the resource.  The Agent still wants to use Annotation to describe the resource and wants to put that Annotation directly on the resource.  This can be done using an AnnotationPage.
+In this example, the Agent does own the resource.  The Agent still wants to use Annotation to describe the resource and wants to put that Annotation directly on the resource.  This can be done using an AnnotationPage.
 ``` json-doc
 {
    "id":"https://iiif.example.org/canvas/123",
@@ -96,8 +96,8 @@ In Presentation API 3, there is a conflict with the "type" field.
 }
 ```
 
-### Example 2
-## In this example, the Agent does own the resource.  The Agent wants to put the assertion directly on the resource without using the AnnotationPage. 
+### Example 2 
+In this example, the Agent does own the resource.  The Agent wants to put the assertion directly on the resource without using the AnnotationPage. 
 ``` json-doc
 {
    "id":"https://example.org/iiif/book1/canvas/p2",
@@ -140,7 +140,7 @@ In Presentation API 3, there is a conflict with the "type" field.
 
 # Presentation API 2
 ### Example 1
-## In this example, the Agent does not own the resource and it attempting a third party assertion.  This can be done using an AnnotationList.
+In this example, the Agent does not own the resource and it attempting a third party assertion.  This can be done using an AnnotationList.
 ``` json-doc
 {
  "@id":"http://example.org/annolist/123",
@@ -173,7 +173,7 @@ In Presentation API 3, there is a conflict with the "type" field.
 ```
 
 ### Example 2
-## In this example, the Agent does own the resource.  The Agent still wants to use Annotation to describe the resource and wants to put that Annotation directly on the resource.  This can be done using an AnnotationList.
+In this example, the Agent does own the resource.  The Agent still wants to use Annotation to describe the resource and wants to put that Annotation directly on the resource.  This can be done using an AnnotationList.
 ``` json-doc
 {
    "@context":"http://iiif.io/api/presentation/2/context.json",
@@ -219,7 +219,7 @@ In Presentation API 3, there is a conflict with the "type" field.
 ```
 
 ### Example 3
-## In this example, the Agent does own the resource.  The Agent wants to put the assertion directly on the resource without using the AnnotationPage. 
+In this example, the Agent does own the resource.  The Agent wants to put the assertion directly on the resource without using the AnnotationPage. 
 ``` json-doc
 {
    "@context":"http://iiif.io/api/presentation/2/context.json",
