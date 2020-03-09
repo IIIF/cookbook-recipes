@@ -1,5 +1,5 @@
 ﻿{
-   "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/canvasAndService.json",
+   "id":"{{ id.url }}",
    "type":"Canvas",
    "@context":"http://iiif.io/api/presentation/3/context.json",
    "label":{

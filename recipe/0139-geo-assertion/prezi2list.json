@@ -1,5 +1,5 @@
 ﻿{
-   "@id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/prezi2list.json",
+   "@id":"{{ id.url }}",
    "@type":"sc:AnnotationList",
    "@context":"http://iiif.io/api/presentation/2/context.json",
    "resources":[
@@ -7,7 +7,7 @@
          "@type":"oa:Annotation",
          "motivation":"geocode",
          "resource":{
-            "@id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/geo.json",
+            "@id":"{{ id.path }}/geo.json",
             "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
             "@type":"Feature",
             "properties":{
@@ -22,7 +22,7 @@
                ]
             }
          },
-         "on":"https://iiif.example.org/canvas/123"
+         "on":"{{ id.path }}/canvas.json"
       }// and so on
    ]
 }

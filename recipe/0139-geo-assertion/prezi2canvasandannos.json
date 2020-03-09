@@ -1,5 +1,5 @@
 ﻿{
-   "@id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/prezi2canvasandannos.json",
+   "@id":"{{ id.url }}",
    "@type":"sc:Canvas",
    "@context":"http://iiif.io/api/presentation/2/context.json",
    "label":"p. 1",
@@ -8,7 +8,7 @@
    "images":[],
    "otherContent":[
       {
-         "@id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/prezi2list.json",
+         "@id":"{{ id.path }}/prezi2list.json",
          "@context":"http://iiif.io/api/presentation/2/context.json",
          "@type":"sc:AnnotationList",
          "resources":[
@@ -16,7 +16,7 @@
                "@type":"oa:Annotation",
                "motivation":"geocode",
                "resource":{
-                  "@id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/geo.json",
+                  "@id":"{{ id.path }}/geo.json",
                   "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
                   "@type":"Feature",
                   "properties":{
@@ -31,7 +31,7 @@
                      ]
                   }
                },
-               "on":"https://iiif.example.org/canvas/123"
+               "on":"{{ id.url }}"
             }//and so on
          ]
       }

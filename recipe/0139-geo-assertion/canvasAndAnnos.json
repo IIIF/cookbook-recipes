@@ -1,5 +1,5 @@
 ﻿{
-   "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/canvasAndAnnos.json",
+   "id":"{{ id.url }}",
    "type":"Canvas",
    "@context":"http://iiif.io/api/presentation/3/context.json",
    "label":{
@@ -13,16 +13,16 @@
    "annotations":[
       {
          "@context":"http://iiif.io/api/presentation/3/context.json",
-         "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/annoPage.json",
+         "id":"{{ id.path }}/annoPage.json",
          "type":"AnnotationPage",
          "items":[
             {
-               "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/anno.json",
+               "id":"{{ id.path }}/anno.json",
                "type":"Annotation",
                "@context":"http://iiif.io/api/presentation/3/context.json",
                "motivation":"geocode",
                "body":{
-                  "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/geo.json",
+                  "id":"{{ id.path }}/geo.json",
                   "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
                   "type":"Feature",
                   "properties":{
@@ -37,7 +37,7 @@
                      ]
                   }
                },
-               "target":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/canvasAndAnnos.json"
+               "target":"{{ id.url }}"
             }//and so on
          ]
       }

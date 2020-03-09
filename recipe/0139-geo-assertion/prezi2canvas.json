@@ -1,5 +1,5 @@
 ﻿{
-   "@id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0139-geo-assertion/prezi2canvas.json",
+   "@id":"{{ id.url }}",
    "@type":"sc:Canvas",
    "@context":"http://iiif.io/api/presentation/2/context.json",
    "label":"p. 1",
