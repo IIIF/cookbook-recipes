@@ -32,12 +32,12 @@ See Presentation API 3 Example 3.
 In this example, the agent does not own the resource and it attempting multiple third party assertion.  This can be done using Annotations.
 ``` json-doc
 {
-   "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0140-multiple-geo-assertions/anno.json",
+   "id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/anno.json",
    "type":"Annotation",
    "@context":"http://iiif.io/api/presentation/3/context.json",
    "motivation":"geocode",
    "body":{
-      "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0140-multiple-geo-assertions/geo.json",
+      "id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/geo.json",
       "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
       "type":"Feature",
       "properties":{
@@ -52,7 +52,7 @@ In this example, the agent does not own the resource and it attempting multiple 
          ]
       }
    },
-   "target":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0140-multiple-geo-assertions/canvas.json"
+   "target":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/canvas.json"
 }
 ```
 
@@ -63,7 +63,7 @@ You can target the same resource with many of these Annotations that represent s
 In this example, the agent does own the resource.  The agent still wants to use Annotations to describe the resource and wants to put those Annotations directly on the resource.  This can be done using an AnnotationPage.
 ``` json-doc
 {
-   "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0140-multiple-geo-assertions/canvasAndAnnos.json",
+   "id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/canvasAndAnnos.json",
    "type":"Canvas",
    "@context":"http://iiif.io/api/presentation/3/context.json",
    "label":{
@@ -77,16 +77,16 @@ In this example, the agent does own the resource.  The agent still wants to use 
    "annotations":[
       {
          "@context":"http://iiif.io/api/presentation/3/context.json",
-         "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0140-multiple-geo-assertions/annoPage.json",
+         "id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/annoPage.json",
          "type":"AnnotationPage",
          "items":[
             {
-               "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0140-multiple-geo-assertions/anno.json",
+               "id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/anno.json",
                "type":"Annotation",
                "@context":"http://iiif.io/api/presentation/3/context.json",
                "motivation":"geocode",
                "body":{
-                  "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0140-multiple-geo-assertions/geo.json",
+                  "id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/geo.json",
                   "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
                   "type":"Feature",
                   "properties":{
@@ -101,7 +101,7 @@ In this example, the agent does own the resource.  The agent still wants to use 
                      ]
                   }
                },
-               "target":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0140-multiple-geo-assertions/canvasAndAnnos.json"
+               "target":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/canvasAndAnnos.json"
             }//and so on
          ]
       }
@@ -113,7 +113,7 @@ In this example, the agent does own the resource.  The agent still wants to use 
 In this example, the agent does own the resource.  The agent wants to put the assertion directly on the resource without using the AnnotationPage. 
 ``` json-doc
 {
-   "id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0140-multiple-geo-assertions/canvasAndService.json",
+   "id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/canvasAndService.json",
    "type":"Canvas",
    "@context":"http://iiif.io/api/presentation/3/context.json",
    "label":{
@@ -154,15 +154,15 @@ This has a small issue with how type clashes, but we can handle that within prop
 In this example, the agent does not own the resource and is attempting to make multiple third party assertion.  This can be done using an AnnotationList.
 ``` json-doc
 {
-   "@id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0140-multiple-geo-assertions/prezi2list.json",
-   "@context":"http://iiif.io/api/presentation/2/context.json",
+   "@id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/prezi2list.json",
    "@type":"sc:AnnotationList",
+   "@context":"http://iiif.io/api/presentation/2/context.json",
    "resources":[
       {
          "@type":"oa:Annotation",
          "motivation":"geocode",
          "resource":{
-            "@id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0140-multiple-geo-assertions/geo.json",
+            "@id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/geo.json",
             "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
             "@type":"Feature",
             "properties":{
@@ -187,16 +187,16 @@ In this example, the agent does not own the resource and is attempting to make m
 In this example, the agent does own the resource.  The agent still wants to use Annotations to describe the resource and wants to put those Annotations directly on the resource.  This can be done using an AnnotationList.
 ``` json-doc
 {
-   "@id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0140-multiple-geo-assertions/prezi2canvasandannos.json",
-   "@context":"http://iiif.io/api/presentation/2/context.json",
+   "@id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/prezi2canvasandannos.json",
    "@type":"sc:Canvas",
+   "@context":"http://iiif.io/api/presentation/2/context.json",
    "label":"p. 1",
    "height":1000,
    "width":750,
    "images":[],
    "otherContent":[
       {
-         "@id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0140-multiple-geo-assertions/prezi2list.json",
+         "@id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/prezi2list.json",
          "@context":"http://iiif.io/api/presentation/2/context.json",
          "@type":"sc:AnnotationList",
          "resources":[
@@ -204,7 +204,7 @@ In this example, the agent does own the resource.  The agent still wants to use 
                "@type":"oa:Annotation",
                "motivation":"geocode",
                "resource":{
-                  "@id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0140-multiple-geo-assertions/geo.json",
+                  "@id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/geo.json",
                   "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
                   "@type":"Feature",
                   "properties":{
@@ -231,9 +231,9 @@ In this example, the agent does own the resource.  The agent still wants to use 
 In this example, the agent does own the resource.  The agent wants to put the assertion directly on the resource.  It is a bit different since service is not an array. That means your service will need to return a single FeatureCollection containing all the geographic data Features.
 ``` json-doc
 {
-   "@id":"https://preview.iiif.io/cookbook/0139-geoassertion/recipe/0140-multiple-geo-assertions/prezi2canvasandservice.json",
-   "@context":"http://iiif.io/api/presentation/2/context.json",
+   "@id":"https://preview.iiif.io/cookbook/0140-multigeoassertion/recipe/0140-multiple-geo-assertions/prezi2canvasandservice.json",
    "@type":"sc:Canvas",
+   "@context":"http://iiif.io/api/presentation/2/context.json",
    "label":"p. 1",
    "height":1000,
    "width":750,
