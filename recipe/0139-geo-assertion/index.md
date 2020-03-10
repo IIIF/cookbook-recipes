@@ -19,7 +19,9 @@ Geographical knowledge of a IIIF resource is obtained. There is the need to asse
 ### Restrictions
 In Presentation API 3, there is a minor conflict with the `type` field. See Presentation API 3 Example 3.
 
+
 # [Presentation API 3](https://iiif.io/api/presentation/3.0/)
+
 ### Example 1: third party annotation
 In this example, the agent does not own the resource and it attempting a third party assertion. This can be done using an Annotation.
 [JSON-LD](anno.json)
@@ -27,6 +29,7 @@ In this example, the agent does not own the resource and it attempting a third p
 {: .line-numbers data-download-link data-download-link-label="Download me" data-src="anno.json" }
 ```json
 ```
+
 ### Example 2: embedded annotation
 In this example, the agent does own the resource. The agent still wants to use Annotation to describe the resource and wants to put that Annotation directly on the resource. This can be done using an AnnotationPage.
 [JSON-LD](canvasAndAnnos.json)
@@ -34,6 +37,7 @@ In this example, the agent does own the resource. The agent still wants to use A
 {: .line-numbers data-download-link data-download-link-label="Download me" data-src="canvasAndAnnos.json" }
 ```json
 ```
+
 ### Example 3: GeoJSON service
 In this example, the agent does own the resource. The agent wants to put the assertion directly on the resource without using the AnnotationPage. 
 [JSON-LD](canvasAndService.json)
@@ -42,6 +46,7 @@ In this example, the agent does own the resource. The agent wants to put the ass
 ```json
 ```
 **NOTE:** this GeoJSON had to type itself as a "Feature" inside its own `properties` field. This is because `type` is a required key descriptor for a service which causes a conflict between IIIF Presentation API 3 and GeoJSON standards.
+
 
 # [Presentation API 2](https://iiif.io/api/presentation/2.1/)
 If an older API must be supported, note that the object structure is slightly different and some containers, like `AnnotationPage` are not available.
@@ -53,6 +58,7 @@ In this example, the agent does not own the resource and it attempting a third p
 {: .line-numbers data-download-link data-download-link-label="Download me" data-src="prezi2list.json" }
 ```json
 ```
+
 ### Example 2: embedded AnnotationList
 In this example, the agent does own the resource. The agent still wants to use Annotation to describe the resource and wants to put that Annotation directly on the resource. This can be done using an AnnotationList within `otherContent`.
 [JSON-LD](prezi2canvasandannos.json)
@@ -60,6 +66,7 @@ In this example, the agent does own the resource. The agent still wants to use A
 {: .line-numbers data-download-link data-download-link-label="Download me" data-src="prezi2canvasandannos.json" }
 ```json
 ```
+
 ### Example 3: GeoJSON service
 In this example, the agent does own the resource. The agent wants to put the assertion directly on the resource without using the AnnotationPage. 
 [JSON-LD](prezi2canvasandservice.json)
@@ -68,6 +75,7 @@ In this example, the agent does own the resource. The agent wants to put the ass
 ```json
 ```
 **NOTE:** this GeoJSON had to type itself as a "Feature" inside its own `properties` field. This is because `type` is a [required key descriptor for a service](https://iiif.io/api/presentation/3.0/#service) which causes a conflict between IIIF Presentation API 3 and GeoJSON standards.
+
 
 ## Related IIIF Stories
 * [https://github.com/IIIF/iiif-stories/issues/116](https://github.com/IIIF/iiif-stories/issues/116)
