@@ -1,4 +1,4 @@
-﻿{
+{
    "@id":"{{ id.url }}",
    "@type":"sc:Canvas",
    "@context":"http://iiif.io/api/presentation/2/context.json",
