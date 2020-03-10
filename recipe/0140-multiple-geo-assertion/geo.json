@@ -1,4 +1,4 @@
-﻿{
+{
    "id":"{{ id.url }}",
    "type":"Feature",
    "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
