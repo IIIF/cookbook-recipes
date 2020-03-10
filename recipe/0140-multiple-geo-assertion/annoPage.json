@@ -1,4 +1,4 @@
-﻿{
+{
          "id":"{{ id.url }}",
          "type":"AnnotationPage",
          "@context":"http://iiif.io/api/presentation/3/context.json",
