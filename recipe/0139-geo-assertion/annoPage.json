@@ -1,5 +1,5 @@
 ﻿{
-         "id":"{{ id.url }}",
+          "id":"{{ id.url }}",
          "type":"AnnotationPage",
          "@context":"http://iiif.io/api/presentation/3/context.json",
          "items":[
@@ -27,4 +27,4 @@
                "target":"{{ id.path }}/canvasAndAnnos.json"
             }//and so on
          ]
-      }
+}
