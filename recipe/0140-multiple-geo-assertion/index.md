@@ -38,7 +38,7 @@ In this example, the agent does own the resource. The agent still wants to use A
 ```
 ### Example 3 : GeoJSON service
 In this example, the agent does own the resource.  The agent wants to put the assertions directly on the resource without using the AnnotationPage. 
-[JSON-LD](canavsAndService.json)
+[JSON-LD](canvasAndService.json)
 
 {: .line-numbers data-download-link data-download-link-label="Download me" data-src="canvasAndService.json" }
 ```json
