@@ -40,7 +40,7 @@ In this example, the agent does own the resource. The agent still wants to use A
 In this example, the agent does own the resource.  The agent wants to put the assertions directly on the resource without using the AnnotationPage. 
 [JSON-LD](canavsAndService.json)
 
-{: .line-numbers data-download-link data-download-link-label="Download me" data-src="canvasAndAnnos.json" }
+{: .line-numbers data-download-link data-download-link-label="Download me" data-src="canvasAndService.json" }
 ```json
 ```
 **NOTE:** this GeoJSON had to type itself as a "Feature" inside its own `properties` field. This is because `type` is a [required key descriptor for a service](https://iiif.io/api/presentation/3.0/#service) which causes a conflict between IIIF Presentation API 3 and GeoJSON standards.  A consequence is that a FeatureCollection must not be returned by the service.  [FeatureCollections must not have properties](https://tools.ietf.org/html/rfc7946#section-7.1). There would be no way to reconcile the `type` conflict. It is paramount the service return an array of Features here instead of a FeatureCollection.
