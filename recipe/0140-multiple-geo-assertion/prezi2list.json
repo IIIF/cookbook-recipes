@@ -23,6 +23,8 @@
             }
          },
          "on":"{{ id.url }}"
-      }// and so on
+      },
+      {"@type":"oa:Annotation"},
+      {"@type":"oa:Annotation"}
    ]
 }

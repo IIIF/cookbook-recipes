@@ -27,7 +27,9 @@
                   2.34
                ]
             }
-         }//and so on
+         },
+         {"@type":"Feature"},
+         {"@type":"Feature"}
       ]
    }
 }

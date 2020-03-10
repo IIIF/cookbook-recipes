@@ -29,6 +29,8 @@
                   2.34
                ]
             }
-      }//and so on
+      },
+      {"type":"GeoJSON_Service"},
+      {"type":"GeoJSON Service"}
    ]
 }

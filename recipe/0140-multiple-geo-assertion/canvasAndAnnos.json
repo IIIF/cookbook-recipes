@@ -38,7 +38,9 @@
                   }
                },
                "target":"{{ id.url }}"
-            }//and so on
+            },
+            {"type":"Annotation"},
+            {"type":"Annotation"}
          ]
       }
    ]
