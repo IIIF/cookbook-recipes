@@ -45,7 +45,7 @@ In this example, the agent does own the resource. The agent wants to put the ass
 {: .line-numbers data-download-link data-download-link-label="Download me" data-src="canvasAndService.json" }
 ```json
 ```
-**NOTE:** this GeoJSON had to type itself as a "Feature" inside its own `properties` field. This is because `type` is a [required key descriptor for a service](https://iiif.io/api/presentation/3.0/#service) which causes a conflict between IIIF Presentation API 3 and GeoJSON standards.
+**NOTE:** this GeoJSON had to type itself as a "Feature" inside its own `properties` field. This is because `type` is a [required key descriptor for a service](https://iiif.io/api/presentation/3.0/#service), a collision between IIIF Presentation API 3 and GeoJSON standards.
 
 
 # [Presentation API 2](https://iiif.io/api/presentation/2.1/)
@@ -74,7 +74,6 @@ In this example, the agent does own the resource. The agent wants to put the ass
 {: .line-numbers data-download-link data-download-link-label="Download me" data-src="prezi2canvasandservice.json" }
 ```json
 ```
-**NOTE:** this GeoJSON had to type itself as a "Feature" inside its own `properties` field. This is because `type` is a [required key descriptor for a service](https://iiif.io/api/presentation/3.0/#service) which causes a conflict between IIIF Presentation API 3 and GeoJSON standards.
 
 
 ## Related IIIF Stories
