@@ -68,10 +68,10 @@ In this example, the agent does own the resource.  The agent wants to put the as
 ```
 
 ## Related IIIF Stories
-* [https://github.com/IIIF/iiif-stories/issues/116] [0116]
-* [https://github.com/IIIF/iiif-stories/issues/119] [0119]
-* [https://github.com/IIIF/iiif-stories/issues/125] [0125]
-* [https://github.com/IIIF/iiif-stories/issues/135] [0135]
+* [https://github.com/IIIF/iiif-stories/issues/116](https://github.com/IIIF/iiif-stories/issues/116)
+* [https://github.com/IIIF/iiif-stories/issues/119](https://github.com/IIIF/iiif-stories/issues/119)
+* [https://github.com/IIIF/iiif-stories/issues/125](https://github.com/IIIF/iiif-stories/issues/125)
+* [https://github.com/IIIF/iiif-stories/issues/135](https://github.com/IIIF/iiif-stories/issues/135)
 
 ## Related Recipes
 * [Geographical Assertions] [0TBD] - It is the same problem, only with a single assertion instead of multiple.
