@@ -50,8 +50,8 @@ In this example, the agent does own the resource.  The agent wants to put the as
 
 
 # [Presentation API 2](https://iiif.io/api/presentation/2.1/)
-
 If an older API must be supported, note that the object structure is slightly different and some containers, like `AnnotationPage` are not available.
+
 ### Example 1
 In this example, the agent does not own the resource and is attempting to make multiple third party assertion.  This can be done using an AnnotationList.
 [JSON-LD](prezi2list.json)
