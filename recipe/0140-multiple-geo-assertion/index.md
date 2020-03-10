@@ -23,6 +23,7 @@ In Presentation API 3, there is a minor conflict with the `type` field. See Pres
 ### Example 1: third party annotation
 In this example, the agent does not own the resource and its attempting multiple third party assertions.  This can be done using Annotations.
 [JSON-LD](anno.json)
+
 {: .line-numbers data-download-link data-download-link-label="Download me" data-src="anno.json" }
 ```json
 ```
