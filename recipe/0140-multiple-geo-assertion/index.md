@@ -32,13 +32,14 @@ You can target the same resource with many of these Annotations that represent s
 ### Example 2: embdedded annotations
 In this example, the agent does own the resource. The agent still wants to use Annotation to describe the resource and wants to put that Annotation directly on the resource. This can be done using an AnnotationPage.
 [JSON-LD](canvasAndAnnos.json)
+
 {: .line-numbers data-download-link data-download-link-label="Download me" data-src="canvasAndAnnos.json" }
 ```json
 ```
-
 ### Example 3 : GeoJSON service
 In this example, the agent does own the resource.  The agent wants to put the assertions directly on the resource without using the AnnotationPage. 
 [JSON-LD](canavsAndService.json)
+
 {: .line-numbers data-download-link data-download-link-label="Download me" data-src="canvasAndAnnos.json" }
 ```json
 ```
@@ -50,24 +51,24 @@ If an older API must be supported, note that the object structure is slightly di
 ### Example 1
 In this example, the agent does not own the resource and is attempting to make multiple third party assertion.  This can be done using an AnnotationList.
 [JSON-LD](prezi2list.json)
+
 {: .line-numbers data-download-link data-download-link-label="Download me" data-src="prezi2list.json" }
 ```json
 ```
-
 ### Example 2
 In this example, the agent does own the resource.  The agent still wants to use Annotations to describe the resource and wants to put those Annotations directly on the resource.  This can be done using an AnnotationList.
 [JSON-LD](prezi2canvasandannos.json)
+
 {: .line-numbers data-download-link data-download-link-label="Download me" data-src="prezi2canvasandannos.json" }
 ```json
 ```
-
 ### Example 3
 In this example, the agent does own the resource.  The agent wants to put the assertions directly on the resource.  [Presentation API 2 handles `service` as a block](https://iiif.io/api/presentation/2.1/#service).  The `service` block would include multiple links to external sources to gather each Feature.  This poses verbosity that is best avoided and this recipe preferences the `service` return a single FeatureCollection containing all the geographic data Features.
 [JSON-LD](prezi2canvasandservice.json)
+
 {: .line-numbers data-download-link data-download-link-label="Download me" data-src="prezi2canvasandservice.json" }
 ```json
 ```
-
 ## Related IIIF Stories
 * [https://github.com/IIIF/iiif-stories/issues/116](https://github.com/IIIF/iiif-stories/issues/116)
 * [https://github.com/IIIF/iiif-stories/issues/119](https://github.com/IIIF/iiif-stories/issues/119)
