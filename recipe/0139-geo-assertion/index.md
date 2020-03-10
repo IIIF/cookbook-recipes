@@ -66,10 +66,10 @@ In this example, the agent does own the resource. The agent wants to put the ass
 **NOTE:** this GeoJSON had to type itself as a "Feature" inside its own `properties` field. This is because `type` is a [required key descriptor for a service](https://iiif.io/api/presentation/3.0/#service) which causes a conflict between IIIF Presentation API 3 and GeoJSON standards.
 
 ## Related IIIF Stories
-* [https://github.com/IIIF/iiif-stories/issues/116] [0116]
-* [https://github.com/IIIF/iiif-stories/issues/119] [0119]
-* [https://github.com/IIIF/iiif-stories/issues/125] [0125]
-* [https://github.com/IIIF/iiif-stories/issues/135] [0135]
+* [https://github.com/IIIF/iiif-stories/issues/116](https://github.com/IIIF/iiif-stories/issues/116)
+* [https://github.com/IIIF/iiif-stories/issues/119](https://github.com/IIIF/iiif-stories/issues/119)
+* [https://github.com/IIIF/iiif-stories/issues/125](https://github.com/IIIF/iiif-stories/issues/125)
+* [https://github.com/IIIF/iiif-stories/issues/135](https://github.com/IIIF/iiif-stories/issues/135)
 
 ## Related Recipes
 * [Multiple Geographical Assertions] [0TBD] - It is the same problem, only multiple assertions instead of a single assertion.
