@@ -23,7 +23,7 @@ In Presentation API 3, there is a minor collision with the `type` field. See Pre
 # [Presentation API 3](https://iiif.io/api/presentation/3.0/)
 
 ### Example 1: third party annotation
-In this example, the agent does not own the resource and its attempting multiple third party assertions.  This can be done using Annotations.
+In this example, the agent does not own the resource and is attempting multiple third party assertions.  This can be done using Annotations.
 [JSON-LD](anno.json)
 
 {: .line-numbers data-download-link data-download-link-label="Download me" data-src="anno.json" }
