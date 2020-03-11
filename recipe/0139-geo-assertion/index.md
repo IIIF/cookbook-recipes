@@ -17,7 +17,7 @@ Geographical knowledge of a IIIF resource is obtained. There is the need to asse
 * [`target` values can include hash or SVG selectors. This would allow someone to annotate a fragment of a resource.](https://iiif.io/api/annex/openannotation/#selectors)
 
 ### Restrictions
-In Presentation API 3, there is a minor conflict with the `type` field. See Presentation API 3 Example 3.
+In Presentation API 3, there is a minor collision with the `type` field. See Presentation API 3 Example 3.
 
 
 # [Presentation API 3](https://iiif.io/api/presentation/3.0/)
