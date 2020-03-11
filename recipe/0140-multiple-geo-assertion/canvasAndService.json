@@ -13,7 +13,7 @@
    "service":[
       {
          "id":"https://example.org/geo/service/point(48.86,2.34)&format=geojson",
-         "type":"GeoJSON_Serivce",
+         "type":"GeoJSON_Service",
          "profile":"http://geojson.org/geojson-spec.html",
          "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
          "properties":{
