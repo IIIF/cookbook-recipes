@@ -69,7 +69,7 @@ In this example, the agent does own the resource.  The agent still wants to use 
 ```
 
 ### Example 3: GeoJSON service
-In this example, the agent does own the resource.  The agent wants to put the assertions directly on the resource.  [Presentation API 2 handles `service` as a block](https://iiif.io/api/presentation/2.1/#service).  The `service` block would include multiple links to external sources to gather each Feature.  This poses verbosity that is best avoided and this recipe preferences the `service` return a single FeatureCollection containing all the geographic data Features.
+In this example, the agent does own the resource.  The agent wants to put the assertions directly on the resource.  [Presentation API 2 handles `service` as a block](https://iiif.io/api/presentation/2.1/#service).  The `service` block would include multiple links to external sources to gather each Feature.  This confronts complexity that is not explicitly handled by Presentation 2 API and so this recipe preferences the `service` return a single FeatureCollection containing all the geographic data Features.
 [JSON-LD](prezi2canvasandservice.json)
 
 {: .line-numbers data-download-link data-download-link-label="Download me" data-src="prezi2canvasandservice.json" }
