@@ -17,7 +17,7 @@ Geographical knowledge of a IIIF resource is obtained. There is the need to make
 * [`target` values can include hash or SVG selectors. This would allow someone to annotate a fragment of a resource.](https://iiif.io/api/annex/openannotation/#selectors)
 
 ### Restrictions
-In Presentation API 3, there is a minor conflict with the `type` field. See Presentation API 3 Example 3.
+In Presentation API 3, there is a minor collision with the `type` field. See Presentation API 3 Example 3.
 
 
 # [Presentation API 3](https://iiif.io/api/presentation/3.0/)
@@ -46,7 +46,7 @@ In this example, the agent does own the resource.  The agent wants to put the as
 {: .line-numbers data-download-link data-download-link-label="Download me" data-src="canvasAndService.json" }
 ```json
 ```
-**NOTE:** This GeoJSON had to type itself as a "Feature" inside its own `properties` field. This is because `type` is a [required key descriptor for a service](https://iiif.io/api/presentation/3.0/#service), a collision between IIIF Presentation API 3 and GeoJSON standards.  A consequence is that a FeatureCollection must not be returned by the service.  [FeatureCollections must not have properties](https://tools.ietf.org/html/rfc7946#section-7.1). There would be no way to reconcile the `type` conflict. It is paramount the service return an array of Features here instead of a FeatureCollection.
+**NOTE:** This GeoJSON had to type itself as a "Feature" inside its own `properties` field. This is because `type` is a [required key descriptor for a service](https://iiif.io/api/presentation/3.0/#service), a collision between IIIF Presentation API 3 and GeoJSON standards.  A consequence is that a FeatureCollection must not be returned by the service.  [FeatureCollections must not have properties](https://tools.ietf.org/html/rfc7946#section-7.1). There would be no way to reconcile the `type` collision. It is paramount the service return an array of Features here instead of a FeatureCollection.
 
 
 # [Presentation API 2](https://iiif.io/api/presentation/2.1/)
