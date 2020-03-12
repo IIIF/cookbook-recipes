@@ -23,6 +23,6 @@
             }
          },
          "on":"{{ id.path }}/canvas.json"
-      }// and so on
+      }
    ]
 }

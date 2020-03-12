@@ -38,7 +38,7 @@
                   }
                },
                "target":"{{ id.url }}"
-            }//and so on
+            }
          ]
       }
    ]
