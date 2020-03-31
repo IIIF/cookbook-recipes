@@ -31,7 +31,7 @@ None known
 
 [JSON-LD](manifest.json) | View in X | View in Y 
 
-{: .line-numbers data-download-link data-download-link-label="Download me" data-src="manifest.json" }
+{: .line-numbers data-download-link data-download-link-label="Download me" data-line="6" data-src="manifest.json" }
 ```json
 ```
 
