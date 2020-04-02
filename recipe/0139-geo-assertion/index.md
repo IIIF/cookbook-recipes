@@ -84,8 +84,8 @@ In this example, the agent does own the resource. The agent wants to put the ass
 
 ## Related Recipes
 * [Multiple Geographical Assertions] [0TBD] - It is the same problem, only multiple assertions instead of a single assertion.
-* [Annotation Specific Resources] [0023] - The same Annotation techniques seen here will work on specific resources.
-* [Transcription/Translation] [0092] - The same Annotation aggregates AnnotationList and AnnotationPage combined with motivation will achieve this
+* [Annotation Specific Resources] [0023](https://github.com/IIIF/cookbook-recipes/tree/master/recipe/0023-annotating-specific-resources) - The same Annotation techniques seen here will work on specific resources.
+* [Transcription/Translation] [0092](https://github.com/IIIF/cookbook-recipes/tree/master/recipe/0092-transcription-translation) - The same Annotation aggregates AnnotationList and AnnotationPage combined with motivation will achieve this
 
 {% include acronyms.md %}
 {% include links.md %}
