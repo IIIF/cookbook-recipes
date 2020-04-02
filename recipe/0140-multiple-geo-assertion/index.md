@@ -46,7 +46,7 @@ In this example, the agent owns the resource. The agent wants to put the asserti
 {: .line-numbers data-download-link data-download-link-label="Download me" data-src="canvasAndService.json" }
 ```json
 ```
-**NOTE:** This GeoJSON had to type itself as a "Feature" inside its own `properties` field. This is because `type` is a [required key descriptor] for a service(https://iiif.io/api/presentation/3.0/#service), a collision between IIIF Presentation API 3 and GeoJSON standards. A consequence is that a FeatureCollection must not be returned by the service. FeatureCollections [must not have properties](https://tools.ietf.org/html/rfc7946#section-7.1). There would be no way to reconcile the `type` collision. It is paramount the service return an array of Features here instead of a FeatureCollection.
+**NOTE:** This GeoJSON had to type itself as a "Feature" inside its own `properties` field. This is because `type` is a [required key descriptor for a service](https://iiif.io/api/presentation/3.0/#service), a collision between IIIF Presentation API 3 and GeoJSON standards. A consequence is that a FeatureCollection must not be returned by the service. FeatureCollections [must not have properties](https://tools.ietf.org/html/rfc7946#section-7.1). There would be no way to reconcile the `type` collision. It is paramount the service return an array of Features here instead of a FeatureCollection.
 
 
 # [Presentation API 2](https://iiif.io/api/presentation/2.1/)
@@ -85,8 +85,8 @@ In this example, the agent owns the resource. The agent wants to put the asserti
 
 ## Related Recipes
 * [Geographical Assertions] [0TBD] - It is the same problem, only with a single assertion instead of multiple.
-* [Annotation Specific Resources] [0023] - The same Annotation techniques seen here will work on specific resources.
-* [Transcription/Translation] [0092] - The same Annotation aggregates AnnotationList and AnnotationPage combined with motivation will achieve this
+* [Annotation Specific Resources] [0023](https://github.com/IIIF/cookbook-recipes/tree/master/recipe/0023-annotating-specific-resources) - The same Annotation techniques seen here will work on specific resources.
+* [Transcription/Translation] [0092](https://github.com/IIIF/cookbook-recipes/tree/master/recipe/0092-transcription-translation) - The same Annotation aggregates AnnotationList and AnnotationPage combined with motivation will achieve this
 
 {% include acronyms.md %}
 {% include links.md %}
