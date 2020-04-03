@@ -1,2 +1,3 @@
 jsonschema
 requests
+jsonpath_rw
