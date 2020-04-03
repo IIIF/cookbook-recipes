@@ -7,4 +7,4 @@ if [ ! -d "scripts/schema" ]; then
 fi
 
 cd scripts
-python ./validate.py
+python3 ./validate.py
