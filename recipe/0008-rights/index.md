@@ -22,7 +22,7 @@ If user visibility of the information or a publisher-defined label is paramount,
 
 Because the `rights` property may not necessarily be visible to the user, it should be considered primarily machine-oriented. Therefore, URIs in this property should use target entities' machine-actionable URIs and their appropriate protocols. In the cases of Creative Commons licenses or RightsStatements.org statements, those protocols are HTTP, not HTTPS. Note, though, that clients may rewrite the content to use HTTPS if and as the URIs are made visible to users.
 
-Conversely, since `requiredStatment` values must be displayed or easily displayable to the user, URIs in this property should use target entities' human-readable URIs. For Creative Commons licenses or RightsStatements.org statements, URIs for human-readable content use HTTPS.
+Conversely, since `requiredStatement` values must be displayed or easily displayable to the user, URIs in this property should use target entities' human-readable URIs. For Creative Commons licenses or RightsStatements.org statements, URIs for human-readable content use HTTPS.
 
 ## Restrictions
 
