@@ -3,12 +3,12 @@ title: Book (viewingDirection variations)
 id: 10
 layout: recipe
 tags: image, text, layout
-summary: "A sample manifest for informing a client how the canvases should be displayed to the viewer in order to read the contents authentically in accordance with the script used or other reading practice."
+summary: "A sample manifest for informing a client how the canvases should be displayed to the viewer in order to read the contents authentically in accordance with the script used, object layout, or reading practice."
 ---
 
 ## Use Case
 
-A sample manifest for informing a client how the canvases should be displayed to the viewer in order to read the contents authentically in accordance with the script used or other reading practice.
+A sample manifest for informing a client how the canvases should be displayed to the viewer in order to read the contents authentically in accordance with the script used, object layout, or reading practice.
 
 The `viewingDirection` property tells a presentation client one part of how to display a sequence of resources to a viewer. It is permissible for IIIF `Collection`, `Manifest`, and `Range` resources, but is an invalid property on other types of resources. Clients should process the property when it is part of a `Collection` or `Manifest`, may process it when part of a `Range`, and should ignore it if used other resource types.
 
@@ -16,7 +16,7 @@ Possible values for `viewingDirection` are `left-to-right` (the default if the p
 
 The `viewingDirection` property can inform a client of the appropriate presentation order and navigational cues for a variety of resource arrangements. Some examples include a sequence of pages within a manuscript, all views of a scroll, or a set of multiple books.
 
-Though the example manifest below uses the `items` property for a list of IIIF Canvases, representing the ordered sequence of views that make up a book, in principle the `viewingDirection` property, when appropriately placed in a manifest, should be given greater weight than the manifest order of views. 
+Though the example manifests below use the `items` property to contain Canvases representing the reading sequence of views that make up an object, the `viewingDirection` property should be given greater weight than the manifest order of views.
 
 ## Implementation notes
 
@@ -27,9 +27,17 @@ In addition to `viewingDirection`, you may want to use the `behavior` property (
 
 None known
 
-## Example
+## Example 1: `viewingDirection` `right-to-left`
 
-[JSON-LD](manifest.json) | View in X | View in Y 
+[JSON-LD](manifest-rtl.json) | View in X | View in Y 
+
+{: .line-numbers data-download-link data-download-link-label="Download me" data-line="6" data-src="manifest.json" }
+```json
+```
+
+## Example 2: `viewingDirection` `top-to-bottom`
+
+[JSON-LD](manifest-ttb.json) | View in X | View in Y 
 
 {: .line-numbers data-download-link data-download-link-label="Download me" data-line="6" data-src="manifest.json" }
 ```json
