@@ -1,0 +1,64 @@
+{
+  "@context": ["http://iiif.io/api/presentation/3/context.json"],
+  "id": "{{ id.url }}",
+  "type": "Manifest",
+  "label": { "en": [ "Simplest Manifest - Multiple Related Images (Book, etc.)" ] },
+  "items": [
+    {
+      "id": "{{ id.path }}/canvas/p1",
+      "type": "Canvas",
+      "label": { "en": [ "Image 1" ] },
+      "width": 1200,
+      "height": 1800,
+      "items": [
+        {
+          "id": "{{ id.path }}/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "image": {
+                "id": "https://iiif.io/api/presentation/2.1/example/fixtures/resources/page1-full.png",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1200,
+                "height": 1800
+              },
+              "target": "{{ id.path }}/canvas/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "{{ id.path }}/canvas/p2",
+      "type": "Canvas",
+      "label": { "en": [ "Image 2" ] },
+      "width": 1200,
+      "height": 1800,
+      "items": [
+        {
+          "id": "{{ id.path }}/page/p2/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/annotation/p0002-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "image": {
+                "id": "https://iiif.io/api/presentation/2.1/example/fixtures/resources/page2-full.png",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 1200,
+                "height": 1800
+              },
+              "target": "{{ id.path }}/canvas/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
