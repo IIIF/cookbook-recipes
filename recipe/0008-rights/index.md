@@ -30,7 +30,8 @@ None known.
 
 ## Example
 
-[JSON-LD](manifest.json) | View in X | View in Y 
+[JSON-LD](manifest.json)  
+[View in Universal Viewer](http://universalviewer.io/examples/#?manifest=https%3A%2F%2Fpreview.iiif.io%2Fcookbook%2F0008-rights%2Frecipe%2F0008-rights%2Fmanifest.json)
 
 {: .line-numbers data-download-link data-download-link-label="Download me" data-line="15-27" data-src="manifest.json" }
 ```json
