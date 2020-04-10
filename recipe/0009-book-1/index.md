@@ -13,14 +13,16 @@ The simplest viable Manifest for an object composed of a set of images. If you h
 
 The manifest's `items` property contains the list of canvases representing the ordered sequence of views that make up the digital object. By default, the included canvases are distinct views that should only be presented individually in the order they appear in `items`.
 
-In the example below, there are two canvases and each canvas is filled with the full size image of a particular view of the object. The `label` property on a canvas is the human readable label for that view. This property is recommended since it helps users to distinguish between the different images. The `label` property can be fully internationalized (see also [Text in Multiple Languages][0006]).
+The sample manifest below represents the digital surrogate of a part of a printed book, comprised of a frontispiece and a title page. It contains two canvases and each canvas is filled with the full size image of a page. In this case we have one view per page, but depending on the type of object and how it has been digitized, you could also have one view per double page spread or one view per side.
 
+The `label` property on a canvas is recommended: it is the human readable label for a given view and thus allows users to distinguish between the different images. It usually gives the page or folio numbers, or any other appropriate term to identify a particular view within the object. The `label` property can be fully internationalized (see also [Text in Multiple Languages][0006]).
 
 
 ## Implementation notes
 
-Depending on the expected user experience and the nature of the physical object and its digital surrogate, you may use different hints to inform a client of the appropriate presentation order or layout behavior. The Presentation 3.0 specification defines features like `viewingDirection` (see also [Book (viewingDirection variations)][0010] recipe) and `behavior` (see also [Book (paging variations)][0011] recipe) that will affect the presentation of the object in a user interface.
+Depending on the expected user experience and the nature of the physical object and its digital surrogate, you may use several hints to inform a client of the appropriate presentation order and layout behavior. The Presentation 3.0 specification defines features like `viewingDirection` (see also [Book (viewingDirection variations)][0010] recipe) and `behavior` (see also [Book (paging variations)][0011] recipe) that will affect the presentation of the object in a user interface.
 
+You should also consider providing a [thumbnail][[prezi3-thumbnail]] for each canvas, so that a client can render a grid view or a thumbnail strip efficiently, thus helping users to navigate within the object. This is a general good practice and it is especially recommended if you do not provide a IIIF Image API service for your images.
 
 
 ## Example
