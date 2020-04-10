@@ -7,7 +7,7 @@
     {
       "id": "{{ id.path }}/canvas/p1",
       "type": "Canvas",
-      "label": { "en": [ "Image 1" ] },
+      "label": { "en": [ "Frontispiece" ] },
       "width": 1200,
       "height": 1800,
       "items": [
@@ -35,7 +35,7 @@
     {
       "id": "{{ id.path }}/canvas/p2",
       "type": "Canvas",
-      "label": { "en": [ "Image 2" ] },
+      "label": { "en": [ "Title page" ] },
       "width": 1200,
       "height": 1800,
       "items": [
