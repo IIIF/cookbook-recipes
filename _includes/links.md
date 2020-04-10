@@ -6,3 +6,4 @@
 
 [prezi3]: https://iiif.io/api/presentation/3 "IIIF Presentation API"
 [prezi3-languages]: https://iiif.io/api/presentation/3.0/#language-of-property-values "Language of Property Values"
+[prezi3-thumbnail]: https://iiif.io/api/presentation/3.0/#thumbnail "Thumbnail"
