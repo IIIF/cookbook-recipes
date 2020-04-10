@@ -24,7 +24,8 @@ None known.
 
 ## Example
 
-[JSON-LD](manifest.json) | View in X | View in Y 
+[JSON-LD](manifest.json)  
+[View in Universal Viewer](http://universalviewer.io/examples/#?manifest=https%3A%2F%2Fpreview.iiif.io%2Fcookbook%2F0007-embedding-html%2Frecipe%2F0007-string-formats%2Fmanifest.json)
 
 {: .line-numbers data-download-link data-download-link-label="Download me" data-line="7,12,24,38" data-src="manifest.json" }
 ```json
