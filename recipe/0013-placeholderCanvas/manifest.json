@@ -7,33 +7,33 @@
       {
         "id": "{{ id.path }}/podcast1/canvas/segment1",
         "type": "Canvas",
-        "duration": 3600,
+        "duration": 1985.024,
         "placeholderCanvas": {
-	        "id": "{{ id.path }}/podcast/canvas/segment1/placeholder",
-        	"type": "Canvas",
-        	"height": 3024,
-        	"width": 4032,
-        	"items": [
-        		{
-			        "id": "{{ id.path }}/podcast1/canvas/segment1/placeholder/page",
-							"type": "AnnotationPage",
-							"items": [
-								{
-					        "id": "{{ id.path }}/podcast1/canvas/segment1/placeholder/image",
-									"type": "Annotation",
-									"motivation": "painting",
-									"body": {
-										"id": "https://fixtures.iiif.io/images/Glen/photos/gottingen.jpg",
-										"type": "Image",
-										"format": "image/jpeg",
-										"height": 3024,
-										"width": 4032
-									},
-					        "target": "{{ id.path }}/canvas/segment1"
-								}
-							]
-        		}
-        	]
+          "id": "{{ id.path }}/podcast1/canvas/segment1/placeholder",
+          "type": "Canvas",
+          "height": 3024,
+          "width": 4032,
+          "items": [
+            {
+              "id": "{{ id.path }}/podcast1/canvas/segment1/placeholder/page",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "{{ id.path }}/podcast1/canvas/segment1/placeholder/image",
+                  "type": "Annotation",
+                  "motivation": "painting",
+                  "body": {
+                      "id": "https://fixtures.iiif.io/images/Glen/photos/gottingen.jpg",
+                      "type": "Image",
+                      "format": "image/jpeg",
+                      "height": 3024,
+                      "width": 4032
+                  },
+                  "target": "{{ id.path }}/podcast1/canvas/segment1"
+                }
+              ]
+            }
+          ]
         },
         "items": [
           {
@@ -55,7 +55,6 @@
             ]
           }
         ]
-      }    
+      }
     ]
-  }
-  
+}
