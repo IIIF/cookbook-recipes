@@ -38,10 +38,12 @@ None known
 
 ## Example 2: `viewingDirection` `top-to-bottom`
 
+Note that as of the writing of this recipe, the `behavior` value of `continuous` has no noticable effect in the Universal Viewer demonstration linked below. However, for forward compatibility it is a part of the manifest.
+
 [JSON-LD](manifest-ttb.json)  
 [View in Universal Viewer](https://universalviewer.io/examples/#?manifest={{ id.path }}/manifest-ttb.json)
 
-{: .line-numbers data-download-link data-download-link-label="Download me" data-line="15" data-src="manifest-ttb.json" }
+{: .line-numbers data-download-link data-download-link-label="Download me" data-line="15-18" data-src="manifest-ttb.json" }
 ```json
 ```
 
