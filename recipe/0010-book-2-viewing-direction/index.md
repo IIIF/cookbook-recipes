@@ -29,17 +29,19 @@ None known
 
 ## Example 1: `viewingDirection` `right-to-left`
 
-[JSON-LD](manifest-rtl.json) | View in X | View in Y 
+[JSON-LD](manifest-rtl.json)  
+[View in Universal Viewer](https://universalviewer.io/examples/#?manifest={{ id.path }}/manifest-rtl.json)
 
-{: .line-numbers data-download-link data-download-link-label="Download me" data-line="6" data-src="manifest.json" }
+{: .line-numbers data-download-link data-download-link-label="Download me" data-line="15" data-src="manifest-rtl.json" }
 ```json
 ```
 
 ## Example 2: `viewingDirection` `top-to-bottom`
 
-[JSON-LD](manifest-ttb.json) | View in X | View in Y 
+[JSON-LD](manifest-ttb.json)  
+[View in Universal Viewer](https://universalviewer.io/examples/#?manifest={{ id.path }}/manifest-ttb.json)
 
-{: .line-numbers data-download-link data-download-link-label="Download me" data-line="6" data-src="manifest.json" }
+{: .line-numbers data-download-link data-download-link-label="Download me" data-line="15" data-src="manifest-ttb.json" }
 ```json
 ```
 
