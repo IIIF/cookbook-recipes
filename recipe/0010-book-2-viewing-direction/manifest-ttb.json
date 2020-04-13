@@ -3,15 +3,16 @@
   "id": "{{ id.url }}",
   "type": "Manifest",
   "label": { "en": [ "Scroll with Top-to-Bottom Viewing Direction" ] },
+  "summary": { "en": ["A magical scroll with magical prayers against epilepsy and also prayers for the binding of demons. Text in black ink. Some words and divine and owner's names in red ink. Illustrations: Two images in ink and color of angels and one magical drawing. The scroll was written for Walata Eyasus (her secular name is Berenash)."] },
   "viewingDirection": "top-to-bottom",
   "behavior": ["continuous"],
   "items": [
     {
       "id": "{{ id.path }}/canvas/v1",
       "type": "Canvas",
-      "label": { "en": [ "scroll view 1" ] },
-      "width": 1200,
-      "height": 1800,
+      "label": { "en": [ "image 1" ] },
+      "width": 3497,
+      "height": 4823,
       "items": [
         {
           "id": "{{ id.path }}/page/v1/1",
@@ -21,12 +22,12 @@
               "id": "{{ id.path }}/annotation/v0001-image",
               "type": "Annotation",
               "motivation": "painting",
-              "image": {
-                "id": "https://iiif.io/api/presentation/2.1/example/fixtures/resources/page1-full.png",
+              "body": {
+                "id": "https://fixtures.iiif.io/images/UCLA/ethiopic_ms46_scroll/ucla_ethiopic46_1_21198-zz001nwtnn_1870024_master.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": 1200,
-                "height": 1800
+                "width": 3497,
+                "height": 4823
               },
               "target": "{{ id.path }}/canvas/v1"
             }
@@ -37,9 +38,9 @@
     {
       "id": "{{ id.path }}/canvas/v2",
       "type": "Canvas",
-      "label": { "en": [ "scroll view 2" ] },
-      "width": 1200,
-      "height": 1800,
+      "label": { "en": [ "image 2" ] },
+      "width": 6062,
+      "height": 4804,
       "items": [
         {
           "id": "{{ id.path }}/page/v2/1",
@@ -49,14 +50,70 @@
               "id": "{{ id.path }}/annotation/v0002-image",
               "type": "Annotation",
               "motivation": "painting",
-              "image": {
-                "id": "https://iiif.io/api/presentation/2.1/example/fixtures/resources/page2-full.png",
+              "body": {
+                "id": "https://fixtures.iiif.io/images/UCLA/ethiopic_ms46_scroll/ucla_ethiopic46_2_21198-zz001nwtm4_1870027_master.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": 1200,
-                "height": 1800
+                "width": 6062,
+                "height": 4804
               },
               "target": "{{ id.path }}/canvas/v2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "{{ id.path }}/canvas/v3",
+      "type": "Canvas",
+      "label": { "en": [ "image 3" ] },
+      "width": 3096,
+      "height": 13736,
+      "items": [
+        {
+          "id": "{{ id.path }}/page/v3/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/annotation/v0003-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://fixtures.iiif.io/images/UCLA/ethiopic_ms46_scroll/ucla_ethiopic46_3_21198-zz001nwtkm_1870030_master.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3096,
+                "height": 13736
+              },
+              "target": "{{ id.path }}/canvas/v3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "{{ id.path }}/canvas/v4",
+      "type": "Canvas",
+      "label": { "en": [ "image 4" ] },
+      "width": 2880,
+      "height": 13680,
+      "items": [
+        {
+          "id": "{{ id.path }}/page/v4/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/annotation/v0004-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://fixtures.iiif.io/images/UCLA/ethiopic_ms46_scroll/ucla_ethiopic46_4_21198-zz001nwtj3_1870033_master.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 2880,
+                "height": 13680
+              },
+              "target": "{{ id.path }}/canvas/v4"
             }
           ]
         }
