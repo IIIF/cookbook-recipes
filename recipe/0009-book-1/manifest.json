@@ -20,7 +20,7 @@
               "id": "{{ id.path }}/annotation/p0001-image",
               "type": "Annotation",
               "motivation": "painting",
-              "image": {
+              "body": {
                 "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f19/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
@@ -55,7 +55,7 @@
               "id": "{{ id.path }}/annotation/p0002-image",
               "type": "Annotation",
               "motivation": "painting",
-              "image": {
+              "body": {
                 "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f20/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
@@ -90,7 +90,7 @@
               "id": "{{ id.path }}/annotation/p0003-image",
               "type": "Annotation",
               "motivation": "painting",
-              "image": {
+              "body": {
                 "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f21/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
@@ -125,7 +125,7 @@
               "id": "{{ id.path }}/annotation/p0004-image",
               "type": "Annotation",
               "motivation": "painting",
-              "image": {
+              "body": {
                 "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f22/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
