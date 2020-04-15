@@ -1,28 +1,28 @@
 ---
-title: Simplest Manifest - Multiple Related Images (Book, etc.)
+title: Multiple Related Images (Book, etc.)
 id: 9
 layout: recipe
 tags: [image, presentation]
-summary: "The simplest viable manifest for an object composed of a set of images (book, etc.)."
+summary: "A sample manifest for an object composed of a set of images (book, etc.)."
 ---
 
 
 ## Use Case
 
-The simplest viable Manifest for an object composed of a set of images. If you have an object consisting of multiple related images, this pattern turns it into a valid IIIF Presentation resource. In practice it could be any kind of compound object that may comprise a series of pages, surfaces or views (pages of a book, the two sides of a postcard, four cardinal views of a statue etc.).
+A sample Manifest for an object composed of a set of images (book, etc.). If you have an object consisting of a sequence of multiple related images, this pattern turns it into a valid IIIF Presentation resource. In practice it could be any kind of compound object that may comprise a series of pages, surfaces or views (pages of a book, the two sides of a postcard, four cardinal views of a statue etc.).
 
-The manifest's `items` property contains the list of canvases representing the ordered sequence of views that make up the digital object. By default, the included canvases are distinct views that should only be presented individually in the order they appear in `items`.
-
-The sample manifest below represents the digital surrogate of a part of a printed book, comprised of a frontispiece and a title page. It contains two canvases and each canvas is filled with the full size image of a page. In this case we have one view per page, but depending on the type of object and how it has been digitized, you could also have one view per double page spread or one view per side.
-
-The `label` property on a canvas is recommended: it is the human readable label for a given view and thus allows users to distinguish between the different images. It usually gives the page or folio numbers, or any other appropriate term to identify a particular view within the object. The `label` property can be fully internationalized (see also [Text in Multiple Languages][0006]).
+The sample manifest below represents the digital surrogate of a part of a printed book, starting with a frontispiece and a title page. It contains four canvases and each canvas is filled with the full size image of a page. In this case we have one view per page, but depending on the type of object and how it has been digitized, you could also have one view per double page spread or one view per side.
 
 
 ## Implementation notes
 
-Depending on the expected user experience and the nature of the physical object and its digital surrogate, you may use several hints to inform a client of the appropriate presentation order and layout behavior. The Presentation 3.0 specification defines features like `viewingDirection` (see also [Book (viewingDirection variations)][0010] recipe) and `behavior` (see also [Book (paging variations)][0011] recipe) that will affect the presentation of the object in a user interface.
+Since this manifest is meant to represent a printed book, it has the `behavior` value `paged`, thus indicating that it can be presented in a page-turning interface. But depending on the expected user experience and the nature of the physical object and its digital surrogate, you may use other hints to inform a client of the appropriate presentation order and layout behavior. The Presentation 3.0 specification defines other values for `behavior` (see also [Book (paging variations)][0011] recipe) and a `viewingDirection` property (see also [Book (viewingDirection variations)][0010] recipe) that will both affect the presentation of the object in a user interface.
 
-You should also consider providing a [thumbnail][[prezi3-thumbnail]] for each canvas, so that a client can render a grid view or a thumbnail strip efficiently, thus helping users to navigate within the object. This is a general good practice and it is especially recommended if you do not provide a IIIF Image API service for your images.
+The manifest's `items` property contains the list of canvases representing the ordered sequence of views that make up the digital object. Each Canvas conveys the correct aspect ratio for that view, whatever it is. The most common case for a book is to have one view per page, thus resulting in one image per Canvas.
+
+The `label` property on a canvas is recommended: it is the human readable label for a given view and thus allows users to distinguish between the different images. It usually gives the page or folio numbers, or any other appropriate term to identify a particular view within the object. The `label` property can be fully internationalized (see also [Text in Multiple Languages][0006]).
+
+As in the sample manifest below, you should also consider providing a [thumbnail][[prezi3-thumbnail]] for each canvas, so that a client can render a grid view or a thumbnail strip efficiently, thus helping users to navigate within the object. This is a general good practice and it is especially recommended if you do not provide a IIIF Image API service for your images.
 
 
 ## Example
