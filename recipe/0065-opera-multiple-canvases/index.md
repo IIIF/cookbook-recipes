@@ -13,7 +13,7 @@ An opera performance can be long and split across multiple physical tapes, reels
 
 ## Implementation Notes
 
-Implementation is identical to the [opera on one canvas recipe][0064] except that the two files, one for each act, each have their own canvas and are referenced as such in the structures.
+Implementation is identical to the [opera on one canvas recipe][0064] except that the two files, one for each act, each have their own canvas and are referenced as such in the structures.  With two canvases the viewer will show the duration of only the currently playing file and the time will start at zero again when switching between files.  This may be helpful when you have time references within files instead of the opera as a whole.
 
 ## Example
 
