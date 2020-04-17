@@ -20,7 +20,7 @@ The issues of the [Cookbook Recipes repository](https://github.com/IIIF/cookbook
 
 # Contributing
 
-Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advice and support can be received from the IIIF Cookbook channel on the IIIF Slack. For detailed information on how to contribute please see the [Recipe process](recipe/).
+Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advice and support can be received from the IIIF Cookbook channel on the IIIF Slack. For detailed information on how to contribute please see the [Cookbook process](recipe/).
 
 # The Recipes
 
