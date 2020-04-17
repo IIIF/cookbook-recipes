@@ -12,17 +12,29 @@ The [IIIF Presentation API][prezi3] specifies a standardised way to describe com
 * enable client software developers to support these patterns, for consistency of user experience (when desirable);
 * demonstrate the applicability of IIIF to a broad range of use cases.
 
+The cookbook will eventually be part of the main iiif.io site, but is currently a separate previewable site:
+
+[https://preview.iiif.io/cookbook/master/recipe/](https://preview.iiif.io/cookbook/master/recipe/)
+
+The cookbook-recipes repository is a Jekyll website, like the main IIIF site, with [some additions](https://github.com/IIIF/cookbook-recipes/#jekyll-variables) to make it easier to manage recipes and their dependent parts. In the IIIF specifications site, JSON-LD examples are embedded snippets in the page markdown. But in the recipes repository, code must be complete and standalone - we need our recipes to be complete working examples, not just extracts for guidance. Typically a recipe will include an entire manifest, as a separate JSON-LD file, that points to real assets, that works in a viewer. 
+
 # Process
 
 Anyone can submit a recipe to the cookbook. The community process is as follows:
 
 * The proposer creates an issue for the recipe on GitHub.
-* The initial discussion of the recipe is conducted in comments on the issue. This may result in the recipe being modified, or abandoned.
+* The initial discussion of the recipe is conducted in comments on the issue and through the Cookbook channel on the [IIIF Slack](). This may result in the recipe being modified, or abandoned.
 * If there is broad agreement that the recipe is valuable, the proposer, or another community member assigns the issue to themselves. 
   * To get permission to assign issues please contact the IIIF Staff at admin@iiif.io who will add you to the iiif-recipes Github team. 
-* The assignee will then create a pull request containing the recipe.
-* The pull request is reviewed by the Technical Review Committee as part of its regular work.
-* If approved, the pull request is merged, and the recipe becomes part of the published cookbook.
+* Clone the cookbook repository
+* Create a new branch locally to work on your recipe
+* The assignee will then create a draft pull request
+  * If you host the branch on the IIIF/cookbook repository the pull request build process will build a preview site. 
+* Once the assignee has completed their work on the pull request they will move it to a public pull request 
+* Review process
+  * Informal review by Cookbook group (announce on Cookbook slack channel)
+  * First review by Cookbook Editors group
+  * Final approval by the Technical Review Committee and after this the pull request will be merged to master)
 
 Recipes should not be substantially the same as an existing recipe (though may demonstrate an extension of an existing recipe, and therefore reproduce it).
 
@@ -30,14 +42,24 @@ A recipe must have the following features:
 
 * A short and clear name.
 * A use case (why the pattern is important to include).
-* Implementation notes, with references to the specifcation and other recipes;
-* All referenced content resources, external annotations and other links should resolve: they must exist on the web or be included in the submitted recipe. Any client that implements support for a recipe should expect the published recipe to work. Where possible the content resources should be hosted on the iiif.io web site, rather than at third party locations. 
+* Implementation notes, with references to the specification and other recipes;
+* All referenced content resources, external annotations and other links should resolve: they must exist on the web and ideally for content resources be located in the IIIF Fixtures site. Any client that implements support for a recipe should expect the published recipe to work. Where possible the content resources should be hosted on the iiif.io web site, rather than at third party locations. 
 * Restrictions (optional): where this pattern is usable or not usable, with explanation of why
 * A full example, comprising:
     * a prose description;
     * code samples (JSON-LD representation, following the formatting instructions below)
 * See also: similar or otherwise related recipes. This recipe may build on other recipes, or may be a building block in subsequent recipes.
+* It must be a IIIF version 3.0 implementation 
 
+
+# Fixtures
+While all JSON-LD (Manifests, Collections, Annotation pages, etc) should be part of the recipe pull request on GitHub, any binary assets such as images, audio and video should be uploaded to the fixtures Amazon S3 bucket. Please contact Glen Robson, IIIF Technical Coordinator to get login credentials to be able to add assets to this s3 bucket. 
+
+The following fixtures site provides a front end to view the existing fixture assets - you may be able to use an existing image or video sample rather than supplying your own. Image assets in the fixtures have a IIIF Image API endpoint available, which you can also use in your recipe.
+
+[https://fixtures.iiif.io/](https://fixtures.iiif.io/) 
+
+The first page allows you to navigate the assets by format; image, audio and video. Once you have found an asset click on the file to be taken to a page showing information on this asset including duration, spatial dimensions and in the case of images a IIIF Image API endpoint. 
 
 # The Recipes
 
