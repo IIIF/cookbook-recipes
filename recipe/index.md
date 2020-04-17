@@ -1,6 +1,6 @@
 ---
 title: IIIF Cookbook Process
-layout: default
+layout: recipe
 ---
 
 The cookbook-recipes repository is a Jekyll website, like the main IIIF site, with [some additions](https://github.com/IIIF/cookbook-recipes/#jekyll-variables) to make it easier to manage recipes and their dependent parts. In the IIIF specifications site, JSON-LD examples are embedded snippets in the page markdown. But in the recipes repository, code must be complete and standalone - we need our recipes to be complete working examples, not just extracts for guidance. Typically a recipe will include an entire manifest, as a separate JSON-LD file, that points to real assets, that works in a viewer. 
