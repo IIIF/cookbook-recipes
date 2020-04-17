@@ -29,6 +29,8 @@ None known
 
 ## Example 1: `viewingDirection` `right-to-left`
 
+This manifest shows the playbill for "Akiba gongen kaisen-banashi," "Futatsu chōchō kuruwa nikki", and "Godairiki koi no fūjime", kabuki performances at the Chikugo Theater in Osaka from the fifth month of Kaei 2 (May, 1849).
+
 [JSON-LD](manifest-rtl.json)  
 [View in Universal Viewer](https://universalviewer.io/examples/#?manifest={{ id.path }}/manifest-rtl.json)
 
@@ -38,7 +40,9 @@ None known
 
 ## Example 2: `viewingDirection` `top-to-bottom`
 
-Note that as of the writing of this recipe, the `behavior` value of `continuous` has no noticable effect in the Universal Viewer demonstration linked below. However, for forward compatibility it is a part of the manifest.
+This manifest represents an Ethiopian scroll, written in Gez for Walata Eyasus (secular name Berenash), that contains prayers to guard against epilepsy and for the binding of demons. Its full length is 2.245m and is roughly .11m wide over its length.
+
+Note that as of the writing of this recipe, the `behavior` value of `continuous` has no noticeable effect in the Universal Viewer demonstration linked below. However, for forward compatibility it is a part of the manifest.
 
 [JSON-LD](manifest-ttb.json)  
 [View in Universal Viewer](https://universalviewer.io/examples/#?manifest={{ id.path }}/manifest-ttb.json)
