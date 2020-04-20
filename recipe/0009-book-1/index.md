@@ -27,7 +27,8 @@ As in the sample manifest below, you should also consider providing a [thumbnail
 
 ## Example
 
-[JSON-LD](manifest.json) | [View in Universal Viewer](https://universalviewer.io/uv.html?manifest={{id.path}}/manifest.json) 
+[JSON-LD](manifest.json)
+ | [View in Universal Viewer](https://universalviewer.io/uv.html?manifest={{ site.url }}{{ site.baseurl }}{{ page.url }}manifest.json) 
 
 {: .line-numbers data-download-link data-download-link-label="Download me" data-src="manifest.json" }
 ```json
