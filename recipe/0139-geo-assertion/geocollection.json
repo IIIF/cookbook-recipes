@@ -1,0 +1,25 @@
+{
+   "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
+   "id":"{{ id.url }}",
+   "type":"FeatureCollection",
+   "features":[
+      {
+         "id":"{{ id.path }}/geo.json",
+         "type":"Feature",
+         "properties":{
+            "label":{
+               "en":[
+                  "Location For Handwritten Letters Binder"
+               ]
+            }
+         },
+         "geometry":{
+            "type":"Point",
+            "coordinates":[
+               48.86,
+               2.34
+            ]
+         }
+      }
+   ]
+}
