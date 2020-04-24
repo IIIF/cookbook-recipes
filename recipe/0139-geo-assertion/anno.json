@@ -15,7 +15,6 @@
       "id":"{{ id.path }}/geo.json",
       "type":"Feature",
       "properties":{},
-      "purpose":"geocode",
       "geometry":{
          "type":"Point",
          "coordinates":[
