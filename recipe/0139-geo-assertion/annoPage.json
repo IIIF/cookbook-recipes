@@ -7,7 +7,7 @@
    "type":"AnnotationPage",
    "items":[
       {
-         "id":"{{ id.path }}/anno.hson",
+         "id":"{{ id.path }}/anno.json",
          "type":"Annotation",
          "motivation":"geocode",
          "label":{
