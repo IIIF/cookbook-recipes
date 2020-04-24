@@ -18,11 +18,23 @@ A correspondence between friends in Paris was discovered.  There is the desire t
 ### The Transcription Text
 [Text](transcription.txt)
 
+{: .line-numbers data-download-link data-download-link-label="Download me" data-src="transcription.txt" }
+```json
+```
+
 ### The Annotation
 [JSON-LD](anno.json)
 
+{: .line-numbers data-download-link data-download-link-label="Download me" data-src="anno.json" }
+```json
+```
+
 ### In an AnnotationPage
 [JSON-LD](annoPage.json)
+
+{: .line-numbers data-download-link data-download-link-label="Download me" data-src="annoPage.json" }
+```json
+```
 
 ## Related IIIF Stories
 * [https://github.com/IIIF/iiif-stories/issues/116](https://github.com/IIIF/iiif-stories/issues/116)
