@@ -1,9 +1,9 @@
 ---
-title: Geographical Assertion Service
+title: navPlace Extension
 id: 997
 layout: recipe
 tags: [maps, geocode, annotation]
-summary: "Make a geographical assertion about a IIIF resource via service block."
+summary: "Make a geographical assertion about a IIIF resource via the navPlace extension."
 ---
 
 ### Use Case
@@ -15,16 +15,16 @@ Geographical knowledge of a IIIF resource is obtained. There is the need to asse
 * [`geometry` can be more than just a `Point`.](https://tools.ietf.org/html/rfc7946#section-3.1)
 
 ### Restrictions
-In [Presentation API 3](https://iiif.io/api/presentation/3.0/), there is a minor collision with the `type` field.
+This extension has not yet been implemented and as such is not valid at this time.
 
-### Manifest With GeoJSON Service
-In this example, the agent does own the resource. The agent wants to put the assertion directly on the resource without using the AnnotationPage. 
-[JSON-LD](manifestAndService.json)
+### Manifest With navPlace Extension
+In this example, the navPlace extension was used to place the geographic assertion directly on the resource.
+[JSON-LD](manifestWithNavPlace.json)
 
-{: .line-numbers data-download-link data-download-link-label="Download me" data-src="manifestAndService.json" }
+{: .line-numbers data-download-link data-download-link-label="Download me" data-src="manifestWithnavPlace.json" }
 ```json
 ```
-**NOTE:** The `type` is represented as an array to include the required GeoJSON type "Feature" and required IIIF [service type descriptor](https://iiif.io/api/presentation/3.0/#service).  The recipe includes a scoped context at the top level to describe this so it can be both a GeoJSON Feature and a described Service. 
+
 
 ## Related IIIF Stories
 * [https://github.com/IIIF/iiif-stories/issues/116](https://github.com/IIIF/iiif-stories/issues/116)
@@ -33,9 +33,9 @@ In this example, the agent does own the resource. The agent wants to put the ass
 * [https://github.com/IIIF/iiif-stories/issues/135](https://github.com/IIIF/iiif-stories/issues/135)
 
 ## Related Recipes
-* [Geographical Assertions via Service] [0TBD]() -
-* [Geographical Assertions via Annotation] [0TBD]() -
-* [Geographical Assertion via Annotation] [0TBD]() -
+* [0TBD]() -
+* [0TBD]() -
+* [0TBD]() -
 
 {% include acronyms.md %}
 {% include links.md %}
