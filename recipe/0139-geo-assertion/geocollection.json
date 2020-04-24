@@ -6,13 +6,7 @@
       {
          "id":"{{ id.path }}/geo.json",
          "type":"Feature",
-         "properties":{
-            "label":{
-               "en":[
-                  "Location For Handwritten Letters Binder"
-               ]
-            }
-         },
+         "properties":{},
          "geometry":{
             "type":"Point",
             "coordinates":[

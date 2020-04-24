@@ -8,13 +8,14 @@
    "motivation":"geocode",
    "label":{
       "en":[
-         "Location For Handwritten Letters Binder"
+         "The word 'Paris' to note as Paris, France."
       ]
    },
    "body":{
       "id":"{{ id.path }}/geo.json",
       "type":"Feature",
       "properties":{},
+      "purpose":"geocode",
       "geometry":{
          "type":"Point",
          "coordinates":[
@@ -23,5 +24,11 @@
          ]
       }
    },
-   "target":"{{ id.path }}/manifestAndAnno.json"
+   "target" : {
+    "source" : "{{ id.path }}/transcription.txt",
+    "selector": {
+      "type": "TextQuoteSelector",
+      "exact": "Paris"
+    }
+  }
 }

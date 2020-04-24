@@ -7,20 +7,19 @@
    "type":"AnnotationPage",
    "items":[
       {
-         "id":"{{ id.path }}/anno.json",
+         "id":"{{ id.path }}/anno.hson",
          "type":"Annotation",
          "motivation":"geocode",
          "label":{
             "en":[
-               "Location For Handwritten Letters Binder"
+               "The word 'Paris' to note as Paris, France."
             ]
          },
          "body":{
             "id":"{{ id.path }}/geo.json",
             "type":"Feature",
-            "properties":{
-               
-            },
+            "properties":{},
+            "purpose":"geocode",
             "geometry":{
                "type":"Point",
                "coordinates":[
@@ -29,7 +28,13 @@
                ]
             }
          },
-         "target":"{{ id.path }}/manifestAndAnno.json"
+         "target" : {
+          "source" : "{{ id.path }}/transcription.txt",
+          "selector": {
+            "type": "TextQuoteSelector",
+            "exact": "Paris"
+          }
+        }
       }
    ]
 }
