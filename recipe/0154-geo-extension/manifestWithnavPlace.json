@@ -56,7 +56,7 @@
    ],
    "navPlace_ex2":{
       "id":"{{ id.path }}/geocollection.json",
-      "type":"FeatureCullection",
+      "type":"FeatureCollection",
       "features":[
          {
             "id":"{{ id.path }}/geo.json",

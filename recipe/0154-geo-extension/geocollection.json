@@ -1,7 +1,7 @@
 {
    "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
    "id":"{{ id.url }}",
-   "type":"FeatureCullection",
+   "type":"FeatureCollection",
    "features":[
       {
          "id":"{{ id.path }}/geo.json",
