@@ -12,7 +12,7 @@
          "motivation":"geocode",
          "label":{
             "en":[
-               "The word 'Paris' to note as Paris, France."
+               "The word 'Paris' to note as Paris, France.  This will link the geographic point for Paris to the word Paris in the transcription."
             ]
          },
          "body":{
