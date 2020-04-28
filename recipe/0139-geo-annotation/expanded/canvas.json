@@ -1,0 +1,96 @@
+{
+   "@context":[
+      "http://iiif.io/api/presentation/3/context.json",
+      "http://geojson.org/geojson-ld/geojson-context.jsonld"
+   ],
+   "id":"{{ id.url }}",
+   "type":"Canvas",
+   "label":{
+      "en":[
+         "A canvas with an image of a handwritten correspondence between friends."
+      ]
+   },
+   "items":[
+      {
+         "id":"{{ id.path }}/contentPage.json",
+         "type":"AnnotationPage",
+         "items":[
+            {
+               "id":"{{ id.path }}/content.json",
+               "type":"Annotation",
+               "motivation":"painting",
+               "label":{
+                  "en":[
+                     "The JPEG file of the original handwritten letter."
+                  ]
+               },
+               "body":{
+                  "id":"{{ id.path }}/correspondence.jpg",
+                  "type":"Image"
+               },
+               "target":"{{ id.url }}"
+            }
+         ]
+      }
+   ],
+   "annotations":[
+      {
+         "id":"{{ id.path }}/supplementingPage.json",
+         "type":"AnnotationPage",
+         "items":[
+            {
+               "id":"{{ id.path }}/supplementingAnno.json",
+               "type":"Annotation",
+               "motivation":"supplementing",
+               "label":{
+                  "en":[
+                     "The transcription of this handwritten French correspondence between friends."
+                  ]
+               },
+               "body":{
+                  "id":"{{ id.path }}/transcription.txt",
+                  "format":"text/plain",
+                  "language":"en"
+               },
+               "target":{
+                  "id":"{{ id.url }}",
+                  "type":"Image"
+               },
+               "annotations":[
+                  {
+                     "id":"{{ id.path }}/geoAnno.json",
+                     "type":"Annotation",
+                     "motivation":"geocode",
+                     "label":{
+                        "en":[
+                           "The word 'Paris' to note as Paris, France.  This will link the geographic point for Paris to the word Paris in the transcription."
+                        ]
+                     },
+                     "body":{
+                        "id":"{{ id.path }}/geo.json",
+                        "type":"Feature",
+                        "properties":{
+
+                        },
+                        "geometry":{
+                           "type":"Point",
+                           "coordinates":[
+                              48.86,
+                              2.34
+                           ]
+                        }
+                     },
+                     "target":{
+                        "source":"{{ id.path }}/supplementingAnno.json",
+                        "selector":{
+                           "type":"TextQuoteSelector",
+                           "exact":"Paris"
+                        }
+                     }
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

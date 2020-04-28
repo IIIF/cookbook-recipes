@@ -1,0 +1,16 @@
+{
+   "@context":"http://iiif.io/api/presentation/3/context.json",
+   "id":"{{ id.url }}",
+   "type":"Annotation",
+   "motivation":"painting",
+   "label":{
+      "en":[
+         "The JPEG file of the original handwritten letter."
+      ]
+   },
+   "body":{
+      "id":"{{ id.path }}/correspondence.jpg",
+      "type":"Image"
+   },
+   "target": "{{ id.path }}/canvas.json"
+}

@@ -1,0 +1,35 @@
+{
+   "@context":[
+      "http://iiif.io/api/presentation/3/context.json",
+      "http://geojson.org/geojson-ld/geojson-context.jsonld"
+   ],
+   "id":"{{ id.url }}",
+   "type":"Annotation",
+   "motivation":"geocode",
+   "label":{
+      "en":[
+         "The word 'Paris' to note as Paris, France.  This will link the geographic point for Paris to the word Paris in the transcription."
+      ]
+   },
+   "body":{
+      "id":"{{ id.path }}/geo.json",
+      "type":"Feature",
+      "properties":{
+
+      },
+      "geometry":{
+         "type":"Point",
+         "coordinates":[
+            48.86,
+            2.34
+         ]
+      }
+   },
+   "target":{
+      "source":"{{ id.path }}/supplementingAnno.json",
+      "selector":{
+         "type":"TextQuoteSelector",
+         "exact":"Paris"
+      }
+   }
+}
