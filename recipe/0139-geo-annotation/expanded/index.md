@@ -15,24 +15,32 @@ A correspondence between friends in Paris was discovered.  There is the desire t
 * [`geometry` can be more than just a `Point`.](https://tools.ietf.org/html/rfc7946#section-3.1)
 
 
-### The Transcription Text
-[Text](transcription.txt)
+### The Canvas containing a jpeg for which transcription text was written which has the word 'Paris' in the transcription text is geocoded to Paris, France.  
+[JSON-LD](canvas.json)
 
-{: .line-numbers data-download-link data-download-link-label="Download me" data-src="transcription.txt" }
+{: .line-numbers data-download-link data-download-link-label="Download me" data-src="canvas.json" }
 ```json
 ```
 
-### The Annotation
-[JSON-LD](anno.json)
+# Break-Down Of The Important Parts
+### The Canvas Content
+[JSON-LD](contentPage.json)
 
-{: .line-numbers data-download-link data-download-link-label="Download me" data-src="anno.json" }
+{: .line-numbers data-download-link data-download-link-label="Download me" data-src="content.json" }
 ```json
 ```
 
-### In an AnnotationPage
-[JSON-LD](annoPage.json)
+### The Canvas Supplementing Data to further describe the content
+[Text](supplementingPage.json)
 
-{: .line-numbers data-download-link data-download-link-label="Download me" data-src="annoPage.json" }
+{: .line-numbers data-download-link data-download-link-label="Download me" data-src="supplementingPage.json" }
+```json
+```
+
+### The geocoding Annotation which geocodes the supplemeting transcription text.  
+[JSON-LD](geoAnno.json)
+
+{: .line-numbers data-download-link data-download-link-label="Download me" data-src="geoAnno.json" }
 ```json
 ```
 
