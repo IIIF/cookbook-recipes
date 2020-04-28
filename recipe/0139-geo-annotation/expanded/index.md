@@ -15,7 +15,7 @@ A correspondence between friends in Paris was discovered.  There is the desire t
 * [`geometry` can be more than just a `Point`.](https://tools.ietf.org/html/rfc7946#section-3.1)
 
 
-### The Canvas containing a jpeg for which transcription text was written which has the word 'Paris' in the transcription text is geocoded to Paris, France.  
+### The Canvas containing a jpeg for which transcription text was written which has the word 'Paris' in the transcription text geocoded to Paris, France.  
 [JSON-LD](canvas.json)
 
 {: .line-numbers data-download-link data-download-link-label="Download me" data-src="canvas.json" }

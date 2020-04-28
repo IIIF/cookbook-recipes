@@ -22,14 +22,7 @@ A correspondence between friends in Paris was discovered.  There is the desire t
 ```json
 ```
 
-### The Annotation
-[JSON-LD](anno.json)
-
-{: .line-numbers data-download-link data-download-link-label="Download me" data-src="anno.json" }
-```json
-```
-
-### In an AnnotationPage
+### The Annotation in an AnnotationPage
 [JSON-LD](annoPage.json)
 
 {: .line-numbers data-download-link data-download-link-label="Download me" data-src="annoPage.json" }
