@@ -22,7 +22,7 @@ The Manifest's `items` property contains the list of Canvases representing the o
 
 The `label` property on a Canvas is recommended: it is the human readable label for a given view and thus allows users to distinguish between the different images. It usually gives the page or folio numbers, or any other appropriate term to identify a particular view within the object. The `label` property can be fully internationalized (see also [Text in Multiple Languages][0006]).
 
-As in the sample Manifest below, you should also consider providing a [thumbnail][[prezi3-thumbnail]] for each Canvas, so that a client can render a grid view or a thumbnail strip efficiently, thus helping users to navigate within the object. This is a general good practice and it is especially recommended if you do not provide a IIIF Image API service for your images.
+As in the sample Manifest below, you should also consider providing a [thumbnail][prezi3-thumbnail] for each Canvas, so that a client can render a grid view or a thumbnail strip efficiently, thus helping users to navigate within the object. This is a general good practice and it is especially recommended if you do not provide a IIIF Image API service for your images.
 
 
 ## Example
