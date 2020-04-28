@@ -10,6 +10,8 @@
          "A canvas with an image of a handwritten correspondence between friends."
       ]
    },
+   "width": 1000,
+   "height": 1500,
    "items":[
       {
          "id":"{{ id.path }}/contentPage.json",
@@ -26,7 +28,9 @@
                },
                "body":{
                   "id":"{{ id.path }}/correspondence.jpg",
-                  "type":"Image"
+                  "type":"Image",
+                  "width": 1000,
+                  "height": 1500
                },
                "target":"{{ id.url }}"
             }
@@ -52,10 +56,7 @@
                   "format":"text/plain",
                   "language":"en"
                },
-               "target":{
-                  "id":"{{ id.url }}",
-                  "type":"Image"
-               },
+               "target":"{{ id.url }}",
                "annotations":[
                   {
                      "id":"{{ id.path }}/geoAnno.json",
