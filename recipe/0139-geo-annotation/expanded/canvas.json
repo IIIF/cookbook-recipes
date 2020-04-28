@@ -29,6 +29,7 @@
                "body":{
                   "id":"{{ id.path }}/correspondence.jpg",
                   "type":"Image",
+                  "format": "image/jpeg",
                   "width": 1000,
                   "height": 1500
                },
