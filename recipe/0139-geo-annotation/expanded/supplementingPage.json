@@ -16,10 +16,7 @@
       "format":"text/plain",
       "language":"en"
    },
-   "target":{
-      "id":"{{ id.url }}",
-      "type":"Image"
-   },
+   "target": "{{ id.path }}/canvas.json",
    "annotations":[
       {
          "id":"{{ id.path }}/geoAnno.json",
