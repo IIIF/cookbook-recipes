@@ -57,40 +57,38 @@
                   "format":"text/plain",
                   "language":"en"
                },
-               "target":"{{ id.url }}",
-               "annotations":[
-                  {
-                     "id":"{{ id.path }}/geoAnno.json",
-                     "type":"Annotation",
-                     "motivation":"geocode",
-                     "label":{
-                        "en":[
-                           "The word 'Paris' to note as Paris, France.  This will link the geographic point for Paris to the word Paris in the transcription."
-                        ]
-                     },
-                     "body":{
-                        "id":"{{ id.path }}/geo.json",
-                        "type":"Feature",
-                        "properties":{
+               "target":"{{ id.url }}"
+            },
+            {
+               "id":"{{ id.path }}/geoAnno.json",
+               "type":"Annotation",
+               "motivation":"geocode",
+               "label":{
+                  "en":[
+                     "The word 'Paris' to note as Paris, France.  This will link the geographic point for Paris to the word Paris in the transcription."
+                  ]
+               },
+               "body":{
+                  "id":"{{ id.path }}/geo.json",
+                  "type":"Feature",
+                  "properties":{
 
-                        },
-                        "geometry":{
-                           "type":"Point",
-                           "coordinates":[
-                              48.86,
-                              2.34
-                           ]
-                        }
-                     },
-                     "target":{
-                        "source":"{{ id.path }}/supplementingAnno.json",
-                        "selector":{
-                           "type":"TextQuoteSelector",
-                           "exact":"Paris"
-                        }
-                     }
+                  },
+                  "geometry":{
+                     "type":"Point",
+                     "coordinates":[
+                        48.86,
+                        2.34
+                     ]
                   }
-               ]
+               },
+               "target":{
+                  "source":"{{ id.path }}/transcription.txt",
+                  "selector":{
+                     "type":"TextQuoteSelector",
+                     "exact":"Paris"
+                  }
+               }
             }
          ]
       }
