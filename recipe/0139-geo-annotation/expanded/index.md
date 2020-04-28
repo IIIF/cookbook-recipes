@@ -9,6 +9,9 @@ summary: "Make a geographical assertion about the word Paris in some transcripti
 ### Use Case
 A correspondence between friends in Paris was discovered.  There is the desire to link all mentions of 'Paris' to Paris, France. 
 
+### Implementation Abstract
+An example of a Canvas that has a transcription where the word 'Paris' is goecoded to Paris, France.  The transcription could be a resource of its own, but in IIIF the most abundant use case is that the transcription is a supplement to some canvas with an image the transcription was derived from.  It is imagined this Canvas is part of some Manifest that aggregates many of the letters between these individuals.
+
 ### Implementation Notes
 * `geocode` was used as the motivation throughout. The IIIF-Maps group is working on proper motivation extensions for the various kinds of assertions that could be made. The three main categories are `geocode`, `georeference` and `co-locate`.
 * GeoJSON `properties` is a very generic field and [can be nearly anything](https://tools.ietf.org/html/rfc7946#section-3.2). If, for example, the targeted resource has a `label` and the `properties` field contains a `label`, the consuming interface must make a choice on which to preference for presentation purposes. This community should establish conventions to inject, override or extend resource properties.
