@@ -7,7 +7,7 @@
    "type":"Manifest",
    "label":{
       "en":[
-         "Geographic Annotation Example"
+         "Geographic Annotation Example Targeting 'Paris' on the Cover Page of Le Scarabée D'or"
       ]
    },
    "items":[
@@ -16,7 +16,7 @@
          "type":"Canvas",
          "label":{
             "fr":[
-               "Le Scarabée D'or"
+               "Page de Couverture du Le Scarabée D'or"
             ]
          },
          "width":3204,
