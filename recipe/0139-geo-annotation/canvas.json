@@ -10,8 +10,8 @@
          "Illustrations en Coloures et en Noir"
       ]
    },
-   "width": 3204,
-   "height": 4613,
+   "width":3204,
+   "height":4613,
    "items":[
       {
          "id":"{{ id.path }}/contentPage.json",
@@ -27,34 +27,33 @@
                   ]
                },
                "body":{
-                 "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f20/full/max/0/default.jpg",
-                 "profile": "level1",
-                 "protocol": "http://iiif.io/api/image",
-                 "extraFormats": [
-                   "jpg",
-                   "png"
-                 ],
-                 "extraQualities": [
-                   "default",
-                   "color",
-                   "gray"
-                 ],
-                 "width": 3204,
-                 "height": 4613,
-                 "tiles": [
-                   {
-                     "height": 512,
-                     "scaleFactors": [
-                       1,
-                       2,
-                       4,
-                       8
-                     ],
-                     "width": 512
-                   }
-                 ],
-                 "type": "ImageService3",
-                 
+                  "id":"https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f20/full/max/0/default.jpg",
+                  "profile":"level1",
+                  "protocol":"http://iiif.io/api/image",
+                  "extraFormats":[
+                     "jpg",
+                     "png"
+                  ],
+                  "extraQualities":[
+                     "default",
+                     "color",
+                     "gray"
+                  ],
+                  "width":3204,
+                  "height":4613,
+                  "tiles":[
+                     {
+                        "height":512,
+                        "scaleFactors":[
+                           1,
+                           2,
+                           4,
+                           8
+                        ],
+                        "width":512
+                     }
+                  ],
+                  "type":"ImageService3"
                },
                "target":"{{ id.url }}"
             }
@@ -82,7 +81,9 @@
                "body":{
                   "id":"{{ id.path }}/geo.json",
                   "type":"Feature",
-                  "properties":{},
+                  "properties":{
+
+                  },
                   "geometry":{
                      "type":"Point",
                      "coordinates":[
