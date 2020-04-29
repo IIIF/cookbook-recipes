@@ -7,7 +7,7 @@
    "type":"AnnotationPage",
    "items":[
       {
-         "id":"{{ id.path }}/supplementingAnno.json",
+         "id":"{{ id.path }}/transcriptionAnno.json",
          "type":"Annotation",
          "target":"{{ id.path }}/canvas.json#xywh=1300,3370,250,100"
       },
