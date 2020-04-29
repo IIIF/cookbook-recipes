@@ -1,5 +1,8 @@
 {
-   "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
+   "@context":[
+      "http://geojson.org/geojson-ld/geojson-context.jsonld",
+      "http://iiif.io/api/presentation/3/context.json"
+   ],
    "id":"{{ id.url }}",
    "type":"Manifest",
    "label":{
@@ -9,10 +12,6 @@
    },
    "items":[
       {
-         "@context":[
-            "http://iiif.io/api/presentation/3/context.json",
-            "http://geojson.org/geojson-ld/geojson-context.jsonld"
-         ],
          "id":"{{ id.path }}/canvas.json",
          "type":"Canvas",
          "label":{
