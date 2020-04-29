@@ -17,6 +17,7 @@ An example of a Canvas that has a transcription where the word 'Paris' is goecod
 * GeoJSON `properties` is a very generic field and [can be nearly anything](https://tools.ietf.org/html/rfc7946#section-3.2). If, for example, the targeted resource has a `label` and the `properties` field contains a `label`, the consuming interface must make a choice on which to preference for presentation purposes. This community should establish conventions to inject, override or extend resource properties.
 * [`geometry` can be more than just a `Point`.](https://tools.ietf.org/html/rfc7946#section-3.1)
 * Any place a `Feature` is used could instead be a [`FeatureCollection`](geocollection.json) containing one or more `Features`.
+* The annotation transcribing the fragment with the word "Paris" is deprioritized and thus is not embedded fully in the related data artifacts. 
 
 
 ### The Canvas containing a jpeg that has a word of interest to geocode.
@@ -41,7 +42,7 @@ An example of a Canvas that has a transcription where the word 'Paris' is goecod
 ```json
 ```
 
-### The specific Annotation which geocodes the region with the word 'Paris' to Paris, France.
+### The specific Annotation which geocodes the region of the image with the word 'Paris' to Paris, France.
 [JSON-LD](geoAnno.json)
 
 {: .line-numbers data-download-link data-download-link-label="Download me" data-src="geoAnno.json" }

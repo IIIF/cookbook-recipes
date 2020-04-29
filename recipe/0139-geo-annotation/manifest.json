@@ -76,7 +76,8 @@
                "items":[
                   {
                      "id":"{{ id.path }}/supplementingAnno.json",
-                     "type":"Annotation"
+                     "type":"Annotation",
+                     "target":"{{ id.path }}/canvas.json#xywh=1300,3370,250,100"
                   },
                   {
                      "id":"{{ id.path }}/geoAnno.json",
