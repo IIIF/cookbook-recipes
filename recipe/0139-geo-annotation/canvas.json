@@ -53,7 +53,18 @@
             {
                "id":"{{ id.path }}/transcriptionAnno.json",
                "type":"Annotation",
-               "target":"{{ id.url }}#xywh=1300,3370,250,100"
+               "motivation":"supplementing",
+               "label":{
+                  "en":[
+                     "Transcription text for this region of the canvas."
+                  ]
+               },
+               "body":{
+                  "type":"TextualBody",
+                  "value":"Paris",
+                  "purpose":"transcribing"
+               },
+               "target":"{{ id.path }}/canvas.json#xywh=1300,3370,250,100"
             },
             {
                "id":"{{ id.path }}/geoAnno.json",
