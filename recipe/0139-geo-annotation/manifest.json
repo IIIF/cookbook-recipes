@@ -90,7 +90,11 @@
                         "id":"{{ id.path }}/geo.json",
                         "type":"Feature",
                         "properties":{
-
+                           "label":{
+                              "en":[
+                                 "Paris, France"
+                              ]
+                           }
                         },
                         "geometry":{
                            "type":"Point",

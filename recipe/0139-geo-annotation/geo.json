@@ -2,7 +2,13 @@
   "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
   "id":"{{ id.url }}",
   "type":"Feature",
-  "properties":{},
+  "properties":{
+    "label":{
+      "en":[
+         "Paris, France"
+      ]
+    }
+  },
   "geometry":{
      "type":"Point",
      "coordinates":[
