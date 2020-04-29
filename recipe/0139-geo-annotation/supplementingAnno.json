@@ -1,0 +1,17 @@
+{
+   "@context":"http://iiif.io/api/presentation/3/context.json",
+   "id":"{{ id.url }}",
+   "type":"Annotation",
+   "motivation":"supplementing",
+   "label":{
+      "en":[
+         "Transcription text for this region of the canvas."
+      ]
+   },
+   "body":{
+    "type" : "TextualBody",
+    "value" : "Paris",
+    "purpose" : "transcribing"
+   },
+   "target" : "{{ id.path }}/canvas.json#xywh=1300,3370,250,100"
+}

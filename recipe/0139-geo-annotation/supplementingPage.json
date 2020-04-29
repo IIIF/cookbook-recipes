@@ -7,12 +7,16 @@
    "type":"AnnotationPage",
    "items":[
       {
-         "id":"{{ id.path }}/anno.json",
+         "id":"{{ id.path }}/supplementingAnno.json",
+         "type":"Annotation"
+      },
+      {
+         "id":"{{ id.path }}/geoAnno.json",
          "type":"Annotation",
          "motivation":"geocode",
          "label":{
             "en":[
-               "The word 'Paris' to note as Paris, France.  This will link the geographic point for Paris to the word Paris in the transcription."
+               "The piece of the image containing the word 'Paris' geocoded to Paris, France."
             ]
          },
          "body":{
@@ -27,13 +31,7 @@
                ]
             }
          },
-         "target" : {
-          "source" : "{{ id.path }}/transcription.txt",
-          "selector": {
-            "type": "TextQuoteSelector",
-            "exact": "Paris"
-          }
-        }
+         "target":"{{ id.path }}/canvas.json#xywh=1300,3370,250,100"
       }
    ]
 }

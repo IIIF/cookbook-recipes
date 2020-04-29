@@ -6,12 +6,12 @@
    "id":"{{ id.url }}",
    "type":"Canvas",
    "label":{
-      "en":[
-         "A canvas with an image of a handwritten correspondence between friends."
+      "fr":[
+         "Illustrations en Coloures et en Noir"
       ]
    },
-   "width": 1000,
-   "height": 1500,
+   "width": 3204,
+   "height": 4613,
    "items":[
       {
          "id":"{{ id.path }}/contentPage.json",
@@ -23,15 +23,38 @@
                "motivation":"painting",
                "label":{
                   "en":[
-                     "The JPEG file of the original handwritten letter."
+                     "The cover page."
                   ]
                },
                "body":{
-                  "id":"{{ id.path }}/correspondence.jpg",
-                  "type":"Image",
-                  "format": "image/jpeg",
-                  "width": 1000,
-                  "height": 1500
+                 "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f20/full/max/0/default.jpg",
+                 "profile": "level1",
+                 "protocol": "http://iiif.io/api/image",
+                 "extraFormats": [
+                   "jpg",
+                   "png"
+                 ],
+                 "extraQualities": [
+                   "default",
+                   "color",
+                   "gray"
+                 ],
+                 "width": 3204,
+                 "height": 4613,
+                 "tiles": [
+                   {
+                     "height": 512,
+                     "scaleFactors": [
+                       1,
+                       2,
+                       4,
+                       8
+                     ],
+                     "width": 512
+                   }
+                 ],
+                 "type": "ImageService3",
+                 
                },
                "target":"{{ id.url }}"
             }
@@ -45,19 +68,7 @@
          "items":[
             {
                "id":"{{ id.path }}/supplementingAnno.json",
-               "type":"Annotation",
-               "motivation":"supplementing",
-               "label":{
-                  "en":[
-                     "The transcription of this handwritten French correspondence between friends."
-                  ]
-               },
-               "body":{
-                  "id":"{{ id.path }}/transcription.txt",
-                  "format":"text/plain",
-                  "language":"en"
-               },
-               "target":"{{ id.url }}"
+               "type":"Annotation"
             },
             {
                "id":"{{ id.path }}/geoAnno.json",
@@ -65,15 +76,13 @@
                "motivation":"geocode",
                "label":{
                   "en":[
-                     "The word 'Paris' to note as Paris, France.  This will link the geographic point for Paris to the word Paris in the transcription."
+                     "The piece of the image containing the word 'Paris' geocoded to Paris, France."
                   ]
                },
                "body":{
                   "id":"{{ id.path }}/geo.json",
                   "type":"Feature",
-                  "properties":{
-
-                  },
+                  "properties":{},
                   "geometry":{
                      "type":"Point",
                      "coordinates":[
@@ -82,13 +91,7 @@
                      ]
                   }
                },
-               "target":{
-                  "source":"{{ id.path }}/transcription.txt",
-                  "selector":{
-                     "type":"TextQuoteSelector",
-                     "exact":"Paris"
-                  }
-               }
+               "target":"{{ id.url }}#xywh=1300,3370,250,100"
             }
          ]
       }
