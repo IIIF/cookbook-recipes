@@ -42,7 +42,7 @@ An example of a Canvas that has a transcription where the word 'Paris' is goecod
 ```json
 ```
 
-### The specific Annotation which geocodes the region of the image with the word 'Paris' to Paris, France.
+### The specific Annotation which geocodes the region of the canvas with the word 'Paris' to Paris, France.
 [JSON-LD](geoAnno.json)
 
 {: .line-numbers data-download-link data-download-link-label="Download me" data-src="geoAnno.json" }
