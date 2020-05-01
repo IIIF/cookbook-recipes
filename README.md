@@ -6,7 +6,39 @@ This repository is the source location for the IIIF 3.0 recipes. The aim is to s
 
 Please see the [Cookbook Process](recipe/index.md).
 
-## Jekyll Variables
+## Jekyll Variables and Templates
+
+### In Jekyll .md files:
+
+There are some includes that are helpful to ensure a consistent style between recipes. These include:
+
+___Link to Viewers___: This provides a standard link to the JSON and also to viewers. A full example is as follows:
+
+```
+{% include manifest_links.html viewers="UV, Mirador, Tify, Curation" manifest="manifest.json" %}
+```
+
+and this would produce the following line:
+
+[JSON-LD]() | [View in Universal Viewer]() | [View in Mirador]() | [View in Tify]() | [View in IIIF Curation Viewer]()
+
+The `manifest` parameter allows you to pass a relative link to the manifest and the `viewers` parameter is a list of Viewer links to show. Delete any viewers that don't support the recipe and remove the `viewers` parameter entirely if no viewers support the recipe. 
+
+___Link to embed JSON Viewer___: this will embed a JavaScript JSON viewer which will show line numbers and format the JSON. A basic example is as follows:
+
+```
+{% include jsonviewer.html src="manifest.json" %}
+```
+
+Where `src` is the relative path to the JSON file. It is also possible to add a `config` parameter if you would like to customise the view further. An example of this is to highlight the first 5 lines: 
+
+```
+{% include jsonviewer.html src="manifest.json" config='data-line="1-4"' %}
+```
+
+See the [prism.js](https://prismjs.com/#plugins) website for a full list of configuration options. 
+
+### In JSON files:
 
 To make the process of making the manifests resolvable during all stages of the deployment (local, test and preview deployment) there are a number of Jekyll variables available for use in JSON files. These include:
 
