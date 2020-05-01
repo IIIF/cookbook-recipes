@@ -12,7 +12,7 @@ Please see the [Cookbook Process](recipe/index.md).
 
 There are some includes that are helpful to ensure a consistent style between recipes. These include:
 
-#### Link to Viewers
+#### Include link to Viewers
 This provides a standard link to the JSON and also to viewers. A full example is as follows:
 
 ```
@@ -25,7 +25,7 @@ and this would produce the following line:
 
 The `manifest` parameter allows you to pass a relative link to the manifest and the `viewers` parameter is a list of Viewer links to show. Delete any viewers that don't support the recipe and remove the `viewers` parameter entirely if no viewers support the recipe. 
 
-#### Link to embed JSON Viewer
+#### Include JSON Viewer
 This will embed a JavaScript JSON viewer which will show line numbers and format the JSON. A basic example is as follows:
 
 ```
