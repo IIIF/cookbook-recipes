@@ -19,15 +19,13 @@ The implementation is identical to the [image example][0001], except that the co
 
 This example shows a Manifest with a single Canvas that lasts for 3600 seconds, or exactly one hour. It has a single audio file (audio-sample.mp4) which is associated with it. The mp4 also has a duration of exactly one hour.
 
-[JSON-LD](manifest.json)
+{% include manifest_links.html viewers="UV" manifest="manifest.json" %}
 
-{: .line-numbers data-download-link data-download-link-label="Download me" data-src="manifest.json" }
-```json
-```
+{% include jsonviewer.html src="manifest.json" %}
 
 ## Related Recipes
 
-* [Simple Image Manifest][0001]
+* [Simplest Manifest - Image][0001] and [Simplest Manifest - Video][0003] are equivalent to this example.
 
 {% include acronyms.md %}
 {% include links.md %}
