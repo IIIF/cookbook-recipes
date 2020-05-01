@@ -11,10 +11,11 @@ before_script:
   - pip3 install --upgrade pip
 script:
   - bundle exec jekyll clean && bundle exec jekyll build  --baseurl /cookbook/$TRAVIS_BRANCH
-  - chmod 755 $TRAVIS_BUILD_DIR/scripts/validate.py && pip3 install --user -r $TRAVIS_BUILD_DIR/scripts/requirements.txt && $TRAVIS_BUILD_DIR/scripts/validate.py
+  - chmod 755 $TRAVIS_BUILD_DIR/scripts/validate.py && pip3 install --user -r $TRAVIS_BUILD_DIR/scripts/requirements.txt && $TRAVIS_BUILD_DIR/scripts/validate.sh
 
-install:
+after_success:
   - chmod 755 $TRAVIS_BUILD_DIR/scripts/updatePullRequest.sh && export iiifsite=cookbook && $TRAVIS_BUILD_DIR/scripts/updatePullRequest.sh;
+
 deploy:
   provider: s3
   access_key_id:
@@ -30,3 +31,4 @@ deploy:
   upload-dir: cookbook/$TRAVIS_BRANCH
   on:
     all_branches: true
+
