@@ -22,15 +22,13 @@ The `items` property of the Canvas is a list of annotation pages, in this case t
 
 ## Example
 
-[JSON-LD](manifest.json) | View in X | View in Y 
+{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
-{: .line-numbers data-download-link data-download-link-label="Download me" data-src="manifest.json" }
-```json
-```
+{% include jsonviewer.html src="manifest.json" %}
 
-# Related recipes
+# Related Recipes
 
-* [Simplest Manifest - Audio] and [Simplest Manifest - Video] are equivalent to this example.
+* [Simplest Manifest - Audio][0002] and [Simplest Manifest - Video][0003] are equivalent to this example.
 * [Image different size to canvas] shows a canvas with dimensions different from the pixel dimensions of its content.
 * [Multiple values and languages] demonstrates language map variations, for multiple values and multiple languages. 
 
