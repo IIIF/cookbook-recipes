@@ -2,7 +2,7 @@
 
 if [ "$TRAVIS_PULL_REQUEST" != "false" ] ; then
     URL="https://preview.iiif.io/$iiifsite/$TRAVIS_PULL_REQUEST_BRANCH"
-    COMMENT="(Automated comment): Branch aviliable for testing at"
+    COMMENT="(Automated comment): Branch available for testing at"
     echo "Checking if https://api.github.com/repos/${TRAVIS_REPO_SLUG}/issues/${TRAVIS_PULL_REQUEST}/comments already has a link to the preview site..."
     curl -H "Authorization: token $GITHUB_TOKEN" https://api.github.com/repos/${TRAVIS_REPO_SLUG}/issues/${TRAVIS_PULL_REQUEST}/comments |grep "$COMMENT";
     if [ $? -eq 1 ]; then
