@@ -28,4 +28,4 @@
 {% else %}    
     {% capture default_text %}Unknown Viewer type '{{ include.type}}'{% endcapture %}
     {% capture viewer_url %}{{manifest_url |strip}}{% endcapture %}
-{% endif %}[{{ include.text | default: default_text }}]({{ viewer_url | strip }})
+{% endif %}<a href="{{ viewer_url | strip }}" target="_blank">{{ include.text | default: default_text }}</a>
