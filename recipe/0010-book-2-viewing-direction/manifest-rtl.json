@@ -30,7 +30,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://fixtures.iiif.io/images/UCLA/kabuki_ezukushi_rtl/ucla_bib1987273_no001_rs_001.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 4823,
@@ -62,7 +62,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://fixtures.iiif.io/images/UCLA/kabuki_ezukushi_rtl/ucla_bib1987273_no001_rs_002.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_002/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 6062,
@@ -94,7 +94,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://fixtures.iiif.io/images/UCLA/kabuki_ezukushi_rtl/ucla_bib1987273_no001_rs_003.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_003/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 6127,
@@ -126,7 +126,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://fixtures.iiif.io/images/UCLA/kabuki_ezukushi_rtl/ucla_bib1987273_no001_rs_004.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_004/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
 								"width": 6124,
@@ -158,7 +158,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://fixtures.iiif.io/images/UCLA/kabuki_ezukushi_rtl/ucla_bib1987273_no001_rs_005.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_005/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3510,
