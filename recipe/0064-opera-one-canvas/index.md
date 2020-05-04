@@ -17,11 +17,8 @@ This implementation builds upon the [opera table of contents recipe][0026] but u
 
 ## Example
 
-[JSON-LD](manifest.json)  |  [View in Universal Viewer](https://universalviewer.io/examples/#?manifest={{ site.url }}{{ site.baseurl }}{{ page.url }}manifest.json)
-
-{: .line-numbers data-download-link data-download-link-label="Download me" data-src="manifest.json" }
-```json
-```
+{% include manifest_links.html viewers="UV" manifest="manifest.json" %}
+{% include jsonviewer.html src="manifest.json" %}
 
 ## Related Recipes
 

@@ -25,11 +25,8 @@ Overlapping ranges are avoided because they cause the overlapping part to be pla
 
 The opera covers the whole length of the canvas and is divided into two ranges for the two acts.  Act I has a range for the prelude and first song and then a range for the remainder of the act.  Act II has not been subdivided into ranges for simplicity of this example.
 
-[JSON-LD](manifest.json)  |  [View in Universal Viewer](https://universalviewer.io/examples/#?manifest={{ site.url }}{{ site.baseurl }}{{ page.url }}manifest.json)
-
-{: .line-numbers data-download-link data-download-link-label="Download me" data-src="manifest.json" }
-```json
-```
+{% include manifest_links.html viewers="UV" manifest="manifest.json" %}
+{% include jsonviewer.html src="manifest.json" %}
 
 ## Related Recipes
 

@@ -17,11 +17,8 @@ Implementation is identical to the [opera on one canvas recipe][0064] except tha
 
 ## Example
 
-[JSON-LD](manifest.json)
-
-{: .line-numbers data-download-link data-download-link-label="Download me" data-src="manifest.json" }
-```json
-```
+{% include manifest_links.html manifest="manifest.json" %}
+{% include jsonviewer.html src="manifest.json" %}
 
 ## Related Recipes
 
