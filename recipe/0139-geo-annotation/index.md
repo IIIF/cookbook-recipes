@@ -7,18 +7,17 @@ summary: "Make a geographical assertion about the word Paris in some transcripti
 ---
 
 ### Use Case
-A correspondence between friends in Paris was discovered.  There is the desire to link all mentions of 'Paris' to Paris, France. 
+There is a region of interest on a canvas that could be further described by known Earth coordinates.  That region is to be geocoded.
 
 ### Implementation Abstract
-An example of a Canvas that has a transcription where the word 'Paris' is goecoded to Paris, France.  The transcription could be a resource of its own, but in IIIF the most abundant use case is that the transcription is a supplement to some canvas with an image the transcription was derived from.  It is imagined this Canvas is part of some Manifest that aggregates many of the letters between these individuals.
+An example of a Manifest that has a Canvas fragment geocoded to Paris, France.  The image used on this Canvas is a hosted IIIF Image API 3 fixture image supplied by the BnF.  The Canvas has the same dimensions as the image.  The word 'Paris' appears on the image and the region containing the word is targeted by 2 Annotations.  One Annotation supplements the fragment with the word 'Paris'.  The other Annotation geocodes the fragment to Paris, France so that the fragment is not confused with any other city named Paris in the word (ex. Paris, Illinois, U.S.A.)
 
 ### Implementation Notes
 * `geocode` was used as the motivation throughout. The IIIF-Maps group is working on proper motivation extensions for the various kinds of assertions that could be made. The three main categories are `geocode`, `georeference` and `co-locate`.
 * GeoJSON `properties` is a very generic field and [can be nearly anything](https://tools.ietf.org/html/rfc7946#section-3.2). If, for example, the targeted resource has a `label` and the `properties` field contains a `label`, the consuming interface must make a choice on which to preference for presentation purposes. This community should establish conventions to inject, override or extend resource properties.
 * [`geometry` can be more than just a `Point`.](https://tools.ietf.org/html/rfc7946#section-3.1)
 * Any place a `Feature` is used could instead be a [`FeatureCollection`](geocollection.json) containing one or more `Features`.
-* The annotation transcribing the fragment with the word "Paris" is deprioritized and thus is not embedded fully in the related data artifacts. 
-
+* Without knowing the specific reason for the assertion of 'Paris' and the assertion of coordinates, it was best to leave them as two separate Annotations instead of one Annotation with two bodies.  This choice is the most agnostic allowing for the greatest functionality applied to these bodies as two distinct data nodes tracked with two distinct identifiers and the liklihood of being detected by the greatest spread of UIs.  The Annotations can be combined into one Annotation with two bodies, so long as you understand the implications for your use case.  
 
 ### The Canvas containing a jpeg that has a word of interest to geocode.
 [JSON-LD](canvas.json)
