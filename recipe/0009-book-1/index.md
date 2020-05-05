@@ -27,13 +27,10 @@ As in the sample Manifest below, you should also consider providing a [thumbnail
 
 ## Example
 
-[JSON-LD](manifest.json)
- | [View in Universal Viewer](https://universalviewer.io/uv.html?manifest={{ site.url }}{{ site.baseurl }}{{ page.url }}manifest.json) 
+{% include manifest_links.html viewers="UV" manifest="manifest.json" %}
 
-{: .line-numbers data-download-link data-download-link-label="Download me" data-src="manifest.json" }
-```json
-```
-```
+{% include jsonviewer.html src="manifest.json" %}
+
 
 # Related recipes
 
