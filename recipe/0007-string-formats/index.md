@@ -16,11 +16,10 @@ You may include minimal HTML markup only in the `summary` property and the `valu
 
 To alert a consuming application that your content is HTML, the first character in your string must be ‘<’ and the last character must be ‘>’. If your content is plain text but happens to start and end with angle brackets as described above, add an additional whitespace character to the end of the value.
 
-For security reasons, clients allow only `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, and `sup` tags, and may remove any or all of those. For more details of permitted and prohibited markup, see [the specification](https://iiif.io/api/presentation/3.0/#45-html-markup-in-property-values).
-
 ## Restrictions
 
-None known.
+For security reasons, clients allow only `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, and `sup` tags, and may remove any or all of those. For more details of permitted and prohibited markup, see [the specification](https://iiif.io/api/presentation/3.0/#45-html-markup-in-property-values).
+
 
 ## Example
 
