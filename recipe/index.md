@@ -1,159 +1,71 @@
 ---
-title: IIIF Cookbook
-layout: default
+title: IIIF Cookbook Process
+layout: recipe
 ---
 
-# Cookbook of IIIF Recipes
+The cookbook-recipes repository is a Jekyll website, like the main IIIF site, with [some additions](https://github.com/IIIF/cookbook-recipes/#jekyll-variables) to make it easier to manage recipes and their dependent parts. In the IIIF specifications site, JSON-LD examples are embedded snippets in the page markdown. But in the recipes repository, code must be complete and standalone - we need our recipes to be complete working examples, not just extracts for guidance. Typically a recipe will include an entire manifest, as a separate JSON-LD file, that points to real assets, that works in a viewer. 
 
-The [IIIF Presentation API][prezi3] specifies a standardised way to describe complex digital objects. The resource types and properties of the specification are the building blocks of interoperable representations, for rendering by viewers and other software clients. This cookbook gathers together many examples of these representations (usually IIIF Manifests), in order to:
-
-* provide many more examples than the specification alone can do, for reference and learning;
-* encourage publishers to adopt common patterns in modelling classes of complex objects;
-* enable client software developers to support these patterns, for consistency of user experience (when desirable);
-* demonstrate the applicability of IIIF to a broad range of use cases.
-
-# Process
-
-Anyone can submit a recipe to the cookbook. The community process is as follows:
-
-* The proposer creates an issue for the recipe on GitHub.
-* The initial discussion of the recipe is conducted in comments on the issue. This may result in the recipe being modified, or abandoned.
-* If there is broad agreement that the recipe is valuable, the proposer, or another community member assigns the issue to themselves. 
-  * To get permission to assign issues please contact the IIIF Staff at admin@iiif.io who will add you to the iiif-recipes Github team. 
-* The assignee will then create a pull request containing the recipe.
-* The pull request is reviewed by the Technical Review Committee as part of its regular work.
-* If approved, the pull request is merged, and the recipe becomes part of the published cookbook.
+Recipes start with an issue in the [Cookbook Repository](https://github.com/IIIF/cookbook-recipes/issues) and anyone can submit a recipe to the cookbook. Sometimes the person who raises the recipe issue then goes on to write the recipe, but this doesn't have to be the case. The need for a recipe may be expressed before its form is known; the comments on the recipe issue are where the recipe is discussed and elaborated.
 
 Recipes should not be substantially the same as an existing recipe (though may demonstrate an extension of an existing recipe, and therefore reproduce it).
+
+Each issue has a corresponding directory in the Cookbook repository (the recipe issue number is the directory name). Under this directory, index.md is the home page of the issue. The recipe should be accompanied by complete JSON-LD files, with working links to content and other resources. Large binary resources such as videos can be uploaded to the shared recipe fixtures S3 bucket. Where a working Image Service is required, the reference image server may be used and details of this service can be found in the discussion of fixtures below.
 
 A recipe must have the following features:
 
 * A short and clear name.
 * A use case (why the pattern is important to include).
-* Implementation notes, with references to the specifcation and other recipes;
-* All referenced content resources, external annotations and other links should resolve: they must exist on the web or be included in the submitted recipe. Any client that implements support for a recipe should expect the published recipe to work. Where possible the content resources should be hosted on the iiif.io web site, rather than at third party locations. 
+* Implementation notes, with references to the specification and other recipes;
+* All referenced content resources, external annotations and other links should resolve: they must exist on the web and resolve. 
+    * Any client that implements support for a recipe should expect the published recipe to work. 
+    * As much as possible the content resources should be hosted on the fixtures.iiif.io web site, rather than at third party locations. 
 * Restrictions (optional): where this pattern is usable or not usable, with explanation of why
 * A full example, comprising:
     * a prose description;
     * code samples (JSON-LD representation, following the formatting instructions below)
 * See also: similar or otherwise related recipes. This recipe may build on other recipes, or may be a building block in subsequent recipes.
+* Finally recipes must be linked to from the `index.md` page and be present in the `links.md` file. 
 
+**Note**: all recipes should show IIIF version 3.0 features.
 
-# The Recipes
+For a completed example see:
 
-## Building a manifest in stages, adding more complexity at each stage
+[Simplest Manifest - Single Image File](https://github.com/IIIF/cookbook-recipes/tree/master/recipe/0001-mvm-image)
 
-_The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..(3,5)_
+Once you have created a recipe and created a pull request. This will be evaluated by the Cookbook community, Cookbook editors and the [Technical Review Committee](https://iiif.io/community/trc/). Comments will be fed back to the author at all stages and once the Technical Review Committee has approved it, the pull request will be merged to the master branch. 
 
-* [Simplest Manifest - Image][0001] (1) (use static image as content resource, w.h)
-* [Simplest Manifest - Audio][0002] (1) (use single audio as content resource, d)
-* [Simplest Manifest - Video][0003] (1) (use single video as content resource, w,h,d)
-* Image different size to canvas (26)
-* Image Service for single image (24,25)
-* Multiple values and languages (3,4,6)
-* [Embedding HTML][0007] (64) (use HTML in property values)
-* Rights statement(s) (7)
-* Book (simplest, > 1 canvas) (19)
-* Book (viewingDirection variations) (11,12,13,14)
-* Book (paging variations) (15,16,17) 
-* thumbnail algorithm / discussion
-* placeholderCanvas
-* accompanyingCanvas
-* start (65)
+# Full process
 
-## Textual and other supplementary content
+* The proposer creates an issue for the recipe on GitHub.
+* The initial discussion of the recipe is conducted in comments on the issue and through the Cookbook channel on the [IIIF Slack](http://bit.ly/iiif-slack). This may result in the recipe being modified, or abandoned.
+* If there is broad agreement that the recipe is valuable, the proposer, or another community member assigns the issue to themselves. 
+  * To get permission to assign issues please contact the IIIF Staff at admin@iiif.io who will add you to the _iiif-recipes_ Github team. 
+* Clone the cookbook repository
+* Create a new branch locally to work on your recipe
+* Push this branch to the [IIIF/Cookbook](https://github.com/IIIF/cookbook-recipes) repository 
+  * This will ensure later deployment preview functionality will run
+* The assignee will then create a draft pull request with this new branch
+* Once the assignee has completed their work on the pull request they move the pull request out of draft by clicking 'Ready for Review'
+* Review process
+  * Informal review by Cookbook group (announce on Cookbook slack channel)
+    * Pull requests out of draft
+  * First review by Cookbook Editors group
+    * Pull request marked with _ready-for-editors_
+  * Final approval by the Technical Review Committee and after this the pull request will be merged to master)
+    * Pull requests marked with _ready-for-trc_
+  * If approved pull request is merged with the master  
 
-* Transcription of image-based content - various examples gathered (43,44,45,46,47,48)
-* Transcription of audio and video
-* Transcription of content into XML, with XPaths to select a segment
+Note if there are a large amount of changes requested, the pull requests maybe sent back to community review state
 
-## Other kinds of annotations 
-_(leading on to segmentation examples later)_
+# Fixtures
 
-* comments - various examples (51,52,54)
-* Fragment selectors (61)
-* tagging
-* hotspot linking
-* Annotation in the context of a particular content resource https://github.com/IIIF/iiif-stories/issues/101
+While all JSON-LD (Manifests, Collections, Annotation pages, etc) should be part of the recipe pull request on GitHub, any binary assets such as images, audio and video should be uploaded to the fixtures Amazon S3 bucket. Please contact Glen Robson, IIIF Technical Coordinator to get login credentials to be able to add assets to this s3 bucket. 
 
-## Internal structure
+The fixtures site provides a front end to view the fixture that are in the fixtures s3 bucket. Image assets in the fixtures site have a IIIF Image API endpoint available for use in your recipe.
 
-* table of contents (ranges) - book chapters
-* table of contents (ranges) - articles in a newspaper
-* table of contents (ranges) - acts of an opera
-* Alternative Sequence (via `sequence` Range) (20,22,23)
-* `sequence` Range with partial canvases
-* metadata on any resource (21)
+[https://fixtures.iiif.io/](https://fixtures.iiif.io/) 
 
-## Higher-level structure
-
-* multi-volume work
-* bound multi-volume work
-* paged Collections (from #1343)
-
-## Segmentation and complex resources
-
-* Choice (simplest) (28)
-* Choice - multispectral flavoured example, with image services (29)
-* foldouts, etc (Choice or non-paged interlude (flaps vs maps))? 
-* [Multiple images (master/detail)][detail-image] (30,31)
-* Multiple images and multiple choices (32,33,34)
-* [Annotating part of an image to a Canvas][recipe-segment-image-part] (e.g., crop out scanner) (35,36,37,38)
-* Image with CSS Rotation (39)
-* Reusing an image service (ImageApiSelector) (41)
-* non-rectangular segmentation
-* temporal segmentation
-* Audio only from video (and other xxxContentSelector scenarios)
-* canvas on canvas (#1191)
-* CSS styling 
-
-## Linking
-
-* alternative representations (rendering (?))
-* Homepage
-* Linking from Image API to Presentation API (via partOf as per #600, #1507)
-* Linking from Image API to external metadata
-* Linking from external metadata to Image API
-* Linking from external metadata to Presentation API
-* Linking between Presentation API representations
-* seeAlso scenarios (incl other manifests) (8)
-
-## Technical 
-
-* extensions (18)
-* services (9,10)
-* Mixed version scenarios (Prezi 3+Image 2)
-* Publishing v2 and v3 versions
-
-## Real-world complex objects (ideally taken from actual collections)
-
-* An Image gallery
-* museum object (fwd ref to renderings)
-* A complex printed work with foldouts and choice
-* A music album's audio resources
-* ...and its image resoures
-* ...combined to demonstrate _together_
-* An opera on one Canvas
-* An opera on multiple Canvases
-* Adaptive bit rate AV examples
-* A field recording
-* A newspaper
-* Example with extensions and services 
-* A manuscript with multiple orderings
-* a Sammelband
-* Archival collection (hierarchy, paging)
-* Thumbnail range for video navigation
-* Video with captions in multiple languages
-* Mixed Image Service references (a mashup, with img2 and img3 services)
-* Glenn Gould - score and performance scenarios (transcribing)
-
-## Access Control 
-_this might be in a separate auth cookbook_
-
-* probe service for simple resource
-* auth for adaptive bit rate media (MPEG-DASH)
-* [Anyone can deep zoom, auth reqd for hi-res download](https://digirati-co-uk.github.io/iiif-auth-client/?image=https://iiifauth.digtest.co.uk/img/11_kitty_joyner.jpg/info.json)
-
+The first page allows you to navigate the assets by format; image, audio and video. Once you have found an asset click on the file to be taken to a page showing information on this asset including duration, spatial dimensions and in the case of images a IIIF Image API endpoint. 
 
 {% include acronyms.md %}
 {% include links.md %}
