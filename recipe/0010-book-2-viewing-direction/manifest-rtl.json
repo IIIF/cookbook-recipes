@@ -20,6 +20,13 @@
       },
       "width": 3497,
       "height": 4823,
+      "thumbnail": [
+				{
+					"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001/full/,166/0/default.jpg",
+					"type": "Image",
+					"format": "image/jpeg"
+				}
+			],
       "items": [
         {
           "id": "{{ id.path }}/page/p1/1",
@@ -54,11 +61,9 @@
       "height": 4804,
       "thumbnail": [
 				{
-					"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_002/full/209,166/0/default.jpg",
+					"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_002/full/,166/0/default.jpg",
 					"type": "Image",
-					"format": "image/jpeg",
-					"width": 209,
-					"height": 166
+					"format": "image/jpeg"
 				}
 			],
       "items": [
@@ -95,11 +100,9 @@
       "height": 4776,
       "thumbnail": [
 				{
-					"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_003/full/213,166/0/default.jpg",
+					"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_003/full/,166/0/default.jpg",
 					"type": "Image",
-					"format": "image/jpeg",
-					"width": 213,
-					"height": 166
+					"format": "image/jpeg"
 				}
 			],
       "items": [
@@ -136,11 +139,9 @@
       "height": 4751,
       "thumbnail": [
 				{
-					"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_004/full/214,166/0/default.jpg",
+					"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_004/full/,166/0/default.jpg",
 					"type": "Image",
-					"format": "image/jpeg",
-					"width": 214,
-					"height": 166
+					"format": "image/jpeg"
 				}
 			],
       "items": [
@@ -177,11 +178,9 @@
 			"height": 4808,
       "thumbnail": [
 				{
-					"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_005/full/121,166/0/default.jpg",
+					"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_005/full/,166/0/default.jpg",
 					"type": "Image",
-					"format": "image/jpeg",
-					"width": 121,
-					"height": 166
+					"format": "image/jpeg"
 				}
 			],
       "items": [
