@@ -1,52 +1,49 @@
 ---
-title: Start - Time-based media
+title: The 'Start' Property - Time-based media
 id: 15
 layout: recipe
-tags: [tbc]
-summary: "tbc"
+tags: [audio, video]
+summary: "This manifest uses the 'start' property to specify a point in an audio or video object where a client application should begin playback."
 ---
-
 
 ## Use Case
 
-Where should the viewer start playing when a user opens this resource? Often an audio or video resource will have content that is part of the object but not significant, such as a microphone check, or audience noise before the start of a performance, or a test card. The `start` property allows the publisher to specify where a client application should start playback from. 
+Often an audio or video resource will have content that is part of the object but not significant, such as a microphone check, or audience noise before the start of a performance, or a test card. The `start` property allows the publisher to specify a point where a client application should begin playback.
 
 ## Implementation notes
 
-This recipe extends _Simplest Manifest - Video_[link] by adding the information required by a client to start playback at a particular point. This is done by adding the `start` property to the Manifest with the start time in seconds. 
+This recipe extends [Simplest Manifest - Audio][0002] by adding the information required by a client to start playback at a particular point. This is done by adding the `start` property to the Manifest with the start time in seconds.
 
-The value of the `start` property is either a Canvas, or if a particular point in time within a Canvas. If the latter, the `start` property value is a `PointSelector` that identifies the timepoint within a particular canvas.
+In this use case, the value of the `start` property is a `PointSelector` that identifies a timepoint within a particular canvas.
 
-TODO - link to spec:
+### About selector classes:
 
-https://preview.iiif.io/api/image-prezi-rc2/api/presentation/3.0/#start
+Selectors in Annotations are used to describe how to retrieve a given part of a resource. There are currently three Selector classes:
+* `ImageApiSelector` describes the properties/operations available to retrieve a particular image presentation, such as region, size, rotation, etc.
+* `PointSelector` describes the properties available to select a specific point either spatially or temporally (`x`, `y`, or `t`).
+* Content Selectors, `AudioContentSelector` and `VisualContentSelector`, allow the publisher to refer to only one aspect of the content, either audio or visual. This can be used to refer to visual content from one resource and audio content from another.
 
-TODO - explain additional selector classes and what they are for:
+For more on Selectors, see: [https://preview.iiif.io/api/image-prezi-rc2/api/annex/openannotation/](https://preview.iiif.io/api/image-prezi-rc2/api/annex/openannotation/)
 
-https://preview.iiif.io/api/image-prezi-rc2/api/annex/openannotation/
-
+For more on the `start` property, see: [https://preview.iiif.io/api/image-prezi-rc2/api/presentation/3.0/#start](https://preview.iiif.io/api/image-prezi-rc2/api/presentation/3.0/#start)
 
 ## Restrictions
 
-You can't use a PointSelector on a w,h Canvas
-
-When is this pattern is usable / not usable? Is it deprecated? If it uses multiple specifications, which versions are needed, etc.? (Not present if not needed.)
+`PointSelector` cannot be used on a w,h Canvas. (?)
 
 ## Example
 
-[JSON-LD](manifest.json)
+This example shows a Manifest with a single Canvas that lasts for 1801.055 seconds. It has a single video file (30-minute-clock.mp4) which is associated with it. The `start` property specifies a start point of 120.5 seconds into the playback.
 
-{: .line-numbers data-download-link data-download-link-label="Download me" data-src="manifest.json" }
-```json
-```
+{% include manifest_links.html viewers="UV" manifest="manifest.json" %}
+
+{% include jsonviewer.html src="manifest.json" %}
 
 # Related recipes
 
-Link to recipe 3
-link to spatial `start` recipe
-(explain why, if not obvious...)
+* [Simplest Manifest - Video][0003] shows a manifest for a simple video resource.
+* [The 'Start' Property - Spatial] demonstrates the `start` property with a spatial (map) resource.
 
 
 {% include acronyms.md %}
 {% include links.md %}
-
