@@ -20,15 +20,11 @@ To alert a consuming application that your content is HTML, the first character 
 
 For security reasons, clients allow only `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, and `sup` tags, and may remove any or all of those. For more details of permitted and prohibited markup, see [the specification](https://iiif.io/api/presentation/3.0/#45-html-markup-in-property-values).
 
-
 ## Example
 
-[JSON-LD](manifest.json)  
-[View in Universal Viewer](http://universalviewer.io/examples/#?manifest=https%3A%2F%2Fpreview.iiif.io%2Fcookbook%2F0007-embedding-html%2Frecipe%2F0007-string-formats%2Fmanifest.json)
+{% include manifest_links.html viewers="UV" manifest="manifest.json" %}
 
-{: .line-numbers data-download-link data-download-link-label="Download me" data-line="7,12,24,38" data-src="manifest.json" }
-```json
-```
+{% include jsonviewer.html src="manifest.json" config='data-line="7,12,24,38"' %}
 
 # Related recipes
 
