@@ -11,8 +11,15 @@
       "id": "{{ id.path }}/canvas/v1",
       "type": "Canvas",
       "label": { "en": [ "image 1" ] },
-      "width": 3497,
-      "height": 4823,
+			"width": 2912,
+			"height": 14080,
+      "thumbnail": [
+				{
+					"id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_1_21198-zz001nwtnn_1870024_master/full/200,/0/default.jpg#xywh=0,0,200,166",
+					"type": "Image",
+					"format": "image/jpeg"
+				}
+			],
       "items": [
         {
           "id": "{{ id.path }}/page/v1/1",
@@ -23,11 +30,12 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://fixtures.iiif.io/images/UCLA/ethiopic_ms46_scroll/ucla_ethiopic46_1_21198-zz001nwtnn_1870024_master.jpg",
+                "id":                
+"https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_1_21198-zz001nwtnn_1870024_master/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": 3497,
-                "height": 4823
+                "width": 2912,
+                "height": 14080
               },
               "target": "{{ id.path }}/canvas/v1"
             }
@@ -41,6 +49,13 @@
       "label": { "en": [ "image 2" ] },
       "width": 6062,
       "height": 4804,
+      "thumbnail": [
+				{
+					"id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_2_21198-zz001nwtm4_1870027_master/full/max/0/default.jpg#xywh=0,0,200,166",
+					"type": "Image",
+					"format": "image/jpeg"
+				}
+			],
       "items": [
         {
           "id": "{{ id.path }}/page/v2/1",
@@ -51,7 +66,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://fixtures.iiif.io/images/UCLA/ethiopic_ms46_scroll/ucla_ethiopic46_2_21198-zz001nwtm4_1870027_master.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_2_21198-zz001nwtm4_1870027_master/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 6062,
@@ -69,6 +84,13 @@
       "label": { "en": [ "image 3" ] },
       "width": 3096,
       "height": 13736,
+      "thumbnail": [
+				{
+					"id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_3_21198-zz001nwtkm_1870030_master/full/max/0/default.jpg#xywh=0,0,200,166",
+					"type": "Image",
+					"format": "image/jpeg"
+				}
+			],
       "items": [
         {
           "id": "{{ id.path }}/page/v3/1",
@@ -79,7 +101,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://fixtures.iiif.io/images/UCLA/ethiopic_ms46_scroll/ucla_ethiopic46_3_21198-zz001nwtkm_1870030_master.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_3_21198-zz001nwtkm_1870030_master/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3096,
@@ -97,6 +119,13 @@
       "label": { "en": [ "image 4" ] },
       "width": 2880,
       "height": 13680,
+      "thumbnail": [
+				{
+					"id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_4_21198-zz001nwtj3_1870033_master/full/max/0/default.jpg#xywh=0,0,200,166",
+					"type": "Image",
+					"format": "image/jpeg"
+				}
+			],
       "items": [
         {
           "id": "{{ id.path }}/page/v4/1",
@@ -107,7 +136,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://fixtures.iiif.io/images/UCLA/ethiopic_ms46_scroll/ucla_ethiopic46_4_21198-zz001nwtj3_1870033_master.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_4_21198-zz001nwtj3_1870033_master/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 2880,
