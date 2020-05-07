@@ -47,8 +47,8 @@
       "id": "{{ id.path }}/canvas/v2",
       "type": "Canvas",
       "label": { "en": [ "image 2" ] },
-      "width": 6062,
-      "height": 4804,
+      "width": 3016,
+      "height": 13808,
       "thumbnail": [
 				{
 					"id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_2_21198-zz001nwtm4_1870027_master/full/max/0/default.jpg#xywh=0,0,200,166",
@@ -69,8 +69,8 @@
                 "id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_2_21198-zz001nwtm4_1870027_master/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": 6062,
-                "height": 4804
+								"width": 3016,
+								"height": 13808
               },
               "target": "{{ id.path }}/canvas/v2"
             }
