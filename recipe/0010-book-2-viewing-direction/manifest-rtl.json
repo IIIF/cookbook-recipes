@@ -20,13 +20,6 @@
       },
       "width": 3497,
       "height": 4823,
-      "thumbnail": [
-				{
-					"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001/full/,166/0/default.jpg",
-					"type": "Image",
-					"format": "image/jpeg"
-				}
-			],
       "items": [
         {
           "id": "{{ id.path }}/page/p1/1",
@@ -47,7 +40,16 @@
             }
           ]
         }
-      ]
+      ],
+      "thumbnail": [
+				{
+					"id": "https://fixtures.iiif.io/images/UCLA/kabuki_ezukushi_rtl/ucla_bib1987273_no001_rs_001.jpg",
+					"type": "Image",
+					"format": "image/jpeg",
+					"width": 120,
+					"height": 166
+				}
+			]
     },
     {
       "id": "{{ id.path }}/canvas/p2",
@@ -102,7 +104,14 @@
 				{
 					"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_003/full/,166/0/default.jpg",
 					"type": "Image",
-					"format": "image/jpeg"
+					"format": "image/jpeg",
+					"service": [
+						{
+							"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_003",
+							"type": "ImageService3",
+							"profile": "level1"
+						}
+					]
 				}
 			],
       "items": [
