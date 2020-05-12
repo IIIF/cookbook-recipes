@@ -11,10 +11,10 @@ summary: "A sample Manifest for an object composed of a set of images (book, etc
 
 A sample Manifest for an object composed of a set of images (book, etc.). If you have an object consisting of a sequence of multiple related images, this pattern turns it into a valid IIIF Presentation resource. In practice it could be any kind of compound object that may comprise a series of pages, surfaces or views (pages of a book, the two sides of a postcard, four cardinal views of a statue etc.).
 
-The sample Manifest below represents the digital surrogate of a part of a printed book, starting with a frontispiece and a title page. It contains four Canvases and each Canvas is filled with the full size image of a page. In this case we have one view per page, but depending on the type of object and how it has been digitized, you could also have one view per double page spread or one view per side.
-
 
 ## Implementation notes
+
+The sample Manifest below represents the digital surrogate of a part of a printed book, starting with a frontispiece and a title page. It contains four Canvases and each Canvas is filled with the full size image of a page. In this case we have one view per page, but depending on the type of object and how it has been digitized, you could also have one view per double page spread or one view per side.
 
 Since this Manifest is meant to represent a printed book, it has the `behavior` value `paged`, thus indicating that it can be presented in a page-turning interface. But depending on the expected user experience and the nature of the physical object and its digital surrogate, you may use other hints to inform a client of the appropriate presentation order and layout behavior. The Presentation 3.0 specification defines other values for `behavior` (see also [Book (paging variations)][0011] recipe) and a `viewingDirection` property (see also [Book (viewingDirection variations)][0010] recipe) that will both affect the presentation of the object in a user interface.
 
@@ -35,8 +35,10 @@ As in the sample Manifest below, you should also consider providing a [thumbnail
 # Related recipes
 
 * [Simplest Manifest - Single Image File][0001]
+* [Simple Manifest - Image with IIIF Image API Service][0005]
 * [Book (viewingDirection variations)][0010]
 * [Book (paging variations)][0011]
+* [Thumbnails][0012]
 
 {% include acronyms.md %}
 {% include links.md %}

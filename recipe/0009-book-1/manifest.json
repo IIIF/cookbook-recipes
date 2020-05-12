@@ -25,7 +25,14 @@
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3186,
-                "height": 4612
+                "height": 4612,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f19",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
               },
               "target": "{{ id.path }}/canvas/p1"
             }
@@ -38,7 +45,14 @@
           "type": "Image",
           "format": "image/jpeg",
           "width": 138,
-          "height": 200
+          "height": 200,
+          "service": [
+            {
+              "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f19",
+              "type": "ImageService3",
+              "profile": "level1"
+            }
+          ]
         }
       ]
     },
@@ -62,7 +76,14 @@
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3204,
-                "height": 4613
+                "height": 4613,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f20",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
               },
               "target": "{{ id.path }}/canvas/p2"
             }
@@ -75,7 +96,14 @@
           "type": "Image",
           "format": "image/jpeg",
           "width": 139,
-          "height": 200
+          "height": 200,
+          "service": [
+            {
+              "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f20",
+              "type": "ImageService3",
+              "profile": "level1"
+            }
+          ]
         }
       ]
     },
@@ -99,7 +127,14 @@
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3174,
-                "height": 4578
+                "height": 4578,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f21",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
               },
               "target": "{{ id.path }}/canvas/p3"
             }
@@ -112,7 +147,14 @@
           "type": "Image",
           "format": "image/jpeg",
           "width": 139,
-          "height": 200
+          "height": 200,
+          "service": [
+            {
+              "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f21",
+              "type": "ImageService3",
+              "profile": "level1"
+            }
+          ]
         }
       ]
     },
@@ -136,7 +178,14 @@
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3198,
-                "height": 4632
+                "height": 4632,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f22",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
               },
               "target": "{{ id.path }}/canvas/p4"
             }
@@ -149,7 +198,14 @@
           "type": "Image",
           "format": "image/jpeg",
           "width": 138,
-          "height": 200
+          "height": 200,
+          "service": [
+            {
+              "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f22",
+              "type": "ImageService3",
+              "profile": "level1"
+            }
+          ]
         }
       ]
     }
