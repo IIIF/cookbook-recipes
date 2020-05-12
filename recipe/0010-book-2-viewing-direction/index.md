@@ -31,12 +31,9 @@ None known
 
 This manifest shows the playbill for "Akiba gongen kaisen-banashi," "Futatsu chōchō kuruwa nikki", and "Godairiki koi no fūjime", kabuki performances at the Chikugo Theater in Osaka from the fifth month of Kaei 2 (May, 1849).
 
-[JSON-LD](manifest-rtl.json)  
-[View in Universal Viewer](https://universalviewer.io/examples/#?manifest={{ site.url }}{{ site.baseurl }}{{ page.url }}manifest-rtl.json)
+{% include manifest_links.html viewers="UV, Mirador" manifest="manifest-rtl.json" %}
 
-{: .line-numbers data-download-link data-download-link-label="Download me" data-line="15" data-src="manifest-rtl.json" }
-```json
-```
+{% include jsonviewer.html src="manifest-rtl.json" config='data-line="15"' %}
 
 ## Example 2: `viewingDirection` `top-to-bottom`
 
@@ -44,12 +41,9 @@ This manifest represents an Ethiopian scroll, written in Gez for Walata Eyasus (
 
 Note that as of the writing of this recipe, the `behavior` value of `continuous` has no noticeable effect in the Universal Viewer demonstration linked below. However, for forward compatibility it is a part of the manifest.
 
-[JSON-LD](manifest-ttb.json)  
-[View in Universal Viewer](https://universalviewer.io/examples/#?manifest={{ site.url }}{{ site.baseurl }}{{ page.url }}manifest-ttb.json)
+{% include manifest_links.html viewers="UV, Mirador" manifest="manifest-ttb.json" %}
 
-{: .line-numbers data-download-link data-download-link-label="Download me" data-line="15-18" data-src="manifest-ttb.json" }
-```json
-```
+{% include jsonviewer.html src="manifest-ttb.json" config='data-line="15–18"' %}
 
 # Related recipes
 
