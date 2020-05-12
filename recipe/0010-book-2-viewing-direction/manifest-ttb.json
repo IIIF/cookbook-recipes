@@ -13,13 +13,6 @@
       "label": { "en": [ "image 1" ] },
 			"width": 2912,
 			"height": 14080,
-      "thumbnail": [
-				{
-					"id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_1_21198-zz001nwtnn_1870024_master/full/200,/0/default.jpg#xywh=0,0,200,166",
-					"type": "Image",
-					"format": "image/jpeg"
-				}
-			],
       "items": [
         {
           "id": "{{ id.path }}/page/v1/1",
@@ -41,7 +34,14 @@
             }
           ]
         }
-      ]
+      ],
+      "thumbnail": [
+				{
+					"id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_1_21198-zz001nwtnn_1870024_master/0,1000,2912,4000/,166/0/default.jpg",
+					"type": "Image",
+					"format": "image/jpeg"
+				}
+			]
     },
     {
       "id": "{{ id.path }}/canvas/v2",
@@ -49,13 +49,6 @@
       "label": { "en": [ "image 2" ] },
       "width": 3016,
       "height": 13808,
-      "thumbnail": [
-				{
-					"id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_2_21198-zz001nwtm4_1870027_master/full/max/0/default.jpg#xywh=0,0,200,166",
-					"type": "Image",
-					"format": "image/jpeg"
-				}
-			],
       "items": [
         {
           "id": "{{ id.path }}/page/v2/1",
@@ -76,7 +69,14 @@
             }
           ]
         }
-      ]
+      ],
+			"thumbnail": [
+				{
+					"id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_2_21198-zz001nwtm4_1870027_master/0,1000,3016,4000/,166/0/default.jpg",
+					"type": "Image",
+					"format": "image/jpeg"
+				}
+			]
     },
     {
       "id": "{{ id.path }}/canvas/v3",
@@ -84,13 +84,6 @@
       "label": { "en": [ "image 3" ] },
       "width": 3096,
       "height": 13736,
-      "thumbnail": [
-				{
-					"id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_3_21198-zz001nwtkm_1870030_master/full/max/0/default.jpg#xywh=0,0,200,166",
-					"type": "Image",
-					"format": "image/jpeg"
-				}
-			],
       "items": [
         {
           "id": "{{ id.path }}/page/v3/1",
@@ -111,7 +104,14 @@
             }
           ]
         }
-      ]
+      ],
+      "thumbnail": [
+				{
+					"id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_3_21198-zz001nwtkm_1870030_master/0,1000,3096,4000/,166/0/default.jpg",
+					"type": "Image",
+					"format": "image/jpeg"
+				}
+			]
     },
     {
       "id": "{{ id.path }}/canvas/v4",
@@ -121,7 +121,7 @@
       "height": 13680,
       "thumbnail": [
 				{
-					"id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_4_21198-zz001nwtj3_1870033_master/full/max/0/default.jpg#xywh=0,0,200,166",
+					"id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_4_21198-zz001nwtj3_1870033_master/0,1000,2880,4000/,166/0/default.jpg",
 					"type": "Image",
 					"format": "image/jpeg"
 				}
