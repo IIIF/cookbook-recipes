@@ -119,13 +119,6 @@
       "label": { "en": [ "image 4" ] },
       "width": 2880,
       "height": 13680,
-      "thumbnail": [
-				{
-					"id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_4_21198-zz001nwtj3_1870033_master/0,1000,2880,4000/,166/0/default.jpg",
-					"type": "Image",
-					"format": "image/jpeg"
-				}
-			],
       "items": [
         {
           "id": "{{ id.path }}/page/v4/1",
@@ -146,7 +139,14 @@
             }
           ]
         }
-      ]
+      ],
+      "thumbnail": [
+				{
+					"id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_4_21198-zz001nwtj3_1870033_master/0,1000,2880,4000/,166/0/default.jpg",
+					"type": "Image",
+					"format": "image/jpeg"
+				}
+			]
     }
   ]
 }
