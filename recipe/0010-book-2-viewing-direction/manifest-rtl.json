@@ -43,11 +43,9 @@
       ],
       "thumbnail": [
 				{
-					"id": "https://fixtures.iiif.io/images/UCLA/kabuki_ezukushi_rtl/ucla_bib1987273_no001_rs_001.jpg",
+					"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001/full/,166/0/default.jpg",
 					"type": "Image",
-					"format": "image/jpeg",
-					"width": 120,
-					"height": 166
+					"format": "image/jpeg"
 				}
 			]
     },
@@ -61,13 +59,6 @@
       },
       "width": 6062,
       "height": 4804,
-      "thumbnail": [
-				{
-					"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_002/full/,166/0/default.jpg",
-					"type": "Image",
-					"format": "image/jpeg"
-				}
-			],
       "items": [
         {
           "id": "{{ id.path }}/page/p2/1",
@@ -88,7 +79,14 @@
             }
           ]
         }
-      ]
+      ],
+      "thumbnail": [
+				{
+					"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_002/full/,166/0/default.jpg",
+					"type": "Image",
+					"format": "image/jpeg"
+				}
+			]
     },
     {
       "id": "{{ id.path }}/canvas/p3",
@@ -100,20 +98,6 @@
       },
       "width": 6127,
       "height": 4776,
-      "thumbnail": [
-				{
-					"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_003/full/,166/0/default.jpg",
-					"type": "Image",
-					"format": "image/jpeg",
-					"service": [
-						{
-							"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_003",
-							"type": "ImageService3",
-							"profile": "level1"
-						}
-					]
-				}
-			],
       "items": [
         {
           "id": "{{ id.path }}/page/p3/1",
@@ -134,7 +118,14 @@
             }
           ]
         }
-      ]
+      ],
+      "thumbnail": [
+				{
+					"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_003/full/,166/0/default.jpg",
+					"type": "Image",
+					"format": "image/jpeg"
+				}
+			]
     },
     {
       "id": "{{ id.path }}/canvas/p4",
@@ -146,13 +137,6 @@
       },
       "width": 6124,
       "height": 4751,
-      "thumbnail": [
-				{
-					"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_004/full/,166/0/default.jpg",
-					"type": "Image",
-					"format": "image/jpeg"
-				}
-			],
       "items": [
         {
           "id": "{{ id.path }}/page/p4/1",
@@ -173,7 +157,14 @@
             }
           ]
         }
-      ]
+      ],
+      "thumbnail": [
+				{
+					"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_004/full/,166/0/default.jpg",
+					"type": "Image",
+					"format": "image/jpeg"
+				}
+			]
     },
     {
       "id": "{{ id.path }}/canvas/p5",
@@ -185,13 +176,6 @@
       },
 			"width": 3510,
 			"height": 4808,
-      "thumbnail": [
-				{
-					"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_005/full/,166/0/default.jpg",
-					"type": "Image",
-					"format": "image/jpeg"
-				}
-			],
       "items": [
         {
           "id": "{{ id.path }}/page/p5/1",
@@ -212,7 +196,14 @@
             }
           ]
         }
-      ]
+      ],
+      "thumbnail": [
+				{
+					"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_005/full/,166/0/default.jpg",
+					"type": "Image",
+					"format": "image/jpeg"
+				}
+			]
     }
   ]
 }
