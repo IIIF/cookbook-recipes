@@ -1,10 +1,18 @@
 {
-   "@context":"http://iiif.io/api/presentation/3/context.json",
+   "@context":[
+      "http://iiif.io/api/example/extension/geographic/context.json"
+      "http://iiif.io/api/presentation/3/context.json"
+   ],
    "id":"{{ id.url }}",
    "type":"Manifest",
    "label":{
       "en":[
          "Handwritten Medieval Letters"
+      ]
+   },
+   "summary":{
+      "en":[
+         "An example IIIF Manifest to demonstrate the possible uses of a geographic focused IIIF extension ('navPlace').  A geographic JSON-LD context file is included as an example only."
       ]
    },
    "viewingDirection":"left-to-right",
@@ -25,15 +33,9 @@
          }
       }
    ],
-   "items":[
-
-   ],
-   "structures":[
-
-   ],
-   "annotations":[
-
-   ],
+   "items":[],
+   "structures":[],
+   "annotations":[],
    "navPlace_ex1":[
       {
          "id":"{{ id.path }}/geo.json",
@@ -41,7 +43,7 @@
          "properties":{
             "label":{
                "en":[
-                  "Location For Handwritten Letters Binder"
+                  "Location For Handwritten Letters Binder (Paris, France)"
                ]
             }
          },
@@ -64,7 +66,7 @@
             "properties":{
                "label":{
                   "en":[
-                     "Location For Handwritten Letters Binder"
+                     "Location For Handwritten Letters Binder (Paris, France)"
                   ]
                }
             },
