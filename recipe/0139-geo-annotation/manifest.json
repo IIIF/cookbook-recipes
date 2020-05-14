@@ -7,7 +7,12 @@
    "type":"Manifest",
    "label":{
       "en":[
-         "Geographic Annotation Example Targeting 'Paris' on the Cover Page of Le Scarabée D'or"
+         "Geographic Annotation Example Manifest"
+      ]
+   },
+   "summary":{
+      "en":[
+         "A Manifest containing GeoJSON-LD Web Annotations to target the word 'Paris' on the Cover Page of Le Scarabée D'or in order to transcribe it and geocode it."
       ]
    },
    "items":[
