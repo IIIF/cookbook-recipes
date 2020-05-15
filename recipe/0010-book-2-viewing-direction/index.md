@@ -28,7 +28,7 @@ None known
 
 ## Example 1: `viewingDirection` `right-to-left`
 
-This Manifest shows the playbill for "Akiba gongen kaisen-banashi," "Futatsu chōchō kuruwa nikki", and "Godairiki koi no fūjime", kabuki performances at the Chikugo Theater in Osaka from the fifth month of Kaei 2 (May, 1849).
+This Manifest shows the playbill for "Akiba gongen kaisen-banashi," "Futatsu chōchō kuruwa nikki", and "Godairiki koi no fūjime", kabuki performances at the Chikugo Theater in Osaka, from the fifth month of Kaei 2 (May, 1849).
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest-rtl.json" %}
 
@@ -40,7 +40,7 @@ This Manifest represents an Ethiopian scroll, written in Gez for Walata Eyasus (
 
 Note that as of the writing of this recipe, the `behavior` value of `continuous` has no noticeable effect in the Universal Viewer demonstration linked below. However, for forward compatibility it is a part of the Manifest.
 
-{% include manifest_links.html viewers="UV, Mirador" manifest="manifest-ttb.json" %}
+{% include manifest_links.html viewers="UV" manifest="manifest-ttb.json" %}
 
 {% include jsonviewer.html src="manifest-ttb.json" config='data-line="15–18"' %}
 
