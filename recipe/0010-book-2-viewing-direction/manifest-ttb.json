@@ -28,7 +28,14 @@
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 2912,
-                "height": 14080
+                "height": 14080,
+                "service": [
+                	{
+                		"id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_1_21198-zz001nwtnn_1870024_master",
+                		"type": "ImageService3",
+                		"profile": "level1"
+                	}
+                ]
               },
               "target": "{{ id.path }}/canvas/v1"
             }
@@ -63,7 +70,14 @@
                 "type": "Image",
                 "format": "image/jpeg",
 								"width": 3016,
-								"height": 13808
+								"height": 13808,
+                "service": [
+                	{
+                		"id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_2_21198-zz001nwtm4_1870027_master",
+                		"type": "ImageService3",
+                		"profile": "level1"
+                	}
+                ]
               },
               "target": "{{ id.path }}/canvas/v2"
             }
@@ -98,7 +112,14 @@
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 3096,
-                "height": 13736
+                "height": 13736,
+                "service": [
+                	{
+                		"id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_3_21198-zz001nwtkm_1870030_master",
+                		"type": "ImageService3",
+                		"profile": "level1"
+                	}
+                ]
               },
               "target": "{{ id.path }}/canvas/v3"
             }
@@ -133,7 +154,14 @@
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 2880,
-                "height": 13680
+                "height": 13680,
+                "service": [
+                	{
+                		"id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_4_21198-zz001nwtj3_1870033_master",
+                		"type": "ImageService3",
+                		"profile": "level1"
+                	}
+                ]
               },
               "target": "{{ id.path }}/canvas/v4"
             }
