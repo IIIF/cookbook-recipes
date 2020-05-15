@@ -42,7 +42,7 @@ Note that as of the writing of this recipe, the `behavior` value of `continuous`
 
 {% include manifest_links.html viewers="UV" manifest="manifest-ttb.json" %}
 
-{% include jsonviewer.html src="manifest-ttb.json" config='data-line="15–18"' %}
+{% include jsonviewer.html src="manifest-ttb.json" config='data-line="15-18"' %}
 
 # Related recipes
 
