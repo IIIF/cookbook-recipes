@@ -20,8 +20,7 @@ Though the example Manifests below use the `items` property to contain Canvases 
 
 ## Implementation notes
 
-In addition to `viewingDirection`, you may want to use the `behavior` property (see also [Book (paging variations)][0011] recipe) depending on the expected user experience for viewing your resource(s) or the specificities of the physical object and its digital surrogate. The most common `behavior` value for a book is `paged`. Interactions between `viewingDirection` and `behavior`, especially when they are set on multiple and/or hierarchized resources, need special attention. You are recommended to read [the Presentation 3.0 spec on `behavior`](https://iiif.io/api/presentation/3.0/#behavior) carefully and to keep current with future releases.
-
+In addition to `viewingDirection`, you may want to use the `behavior` property (see also the [Book (paging variations)][0011] recipe) depending on the expected user experience for viewing your resource(s) or the specificities of the physical object and its digital surrogate. The most common `behavior` value for a book is `paged`. Interactions between `viewingDirection` and `behavior`, especially when they are set on multiple and/or hierarchically ordered resources, need special attention. You are recommended to read [the Presentation 3.0 spec on `behavior`](https://iiif.io/api/presentation/3.0/#behavior) carefully and to keep current with future releases.
 
 ## Restrictions
 
