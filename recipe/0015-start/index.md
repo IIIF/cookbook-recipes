@@ -1,5 +1,5 @@
 ---
-title: The 'Start' Property - Time-based media
+title: Begin playback at a specific point - Time-based media
 id: 15
 layout: recipe
 tags: [audio, video]
