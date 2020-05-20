@@ -2,7 +2,7 @@
     {% if include.manifest contains 'http' %}
         {{ include.manifest }}
     {% else %}
-        {{ site.url }}{{ site.baseurl }}{{ page.url}}manifest.json
+        {{ site.url }}{{ site.baseurl }}{{ page.url}}{{ include.manifest }}
     {% endif %}
 {% endcapture %}
 {% if include.type == 'UV' %}
