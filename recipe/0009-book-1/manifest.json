@@ -26,11 +26,13 @@
                 "format": "image/jpeg",
                 "height": 4613,
                 "width": 3204,
-                "service": {
-                  "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f18",
-                  "type": "ImageService3",
-                  "profile": "level1"
-                }
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f18",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
               },
               "target": "{{ id.path }}/canvas/p1"
             }
