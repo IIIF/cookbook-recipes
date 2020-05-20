@@ -8,9 +8,9 @@
     {
       "id": "{{ id.path }}/canvas/p1",
       "type": "Canvas",
-      "label": { "en": [ "Frontispiece" ] },
-      "width": 3186,
-      "height": 4612,
+      "label": { "en": [ "Blank page" ] },
+      "height": 4613,
+      "width": 3204,
       "items": [
         {
           "id": "{{ id.path }}/page/p1/1",
@@ -18,6 +18,57 @@
           "items": [
             {
               "id": "{{ id.path }}/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f18/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4613,
+                "width": 3204,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f18",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "{{ id.path }}/canvas/p1"
+            }
+          ]
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f18/full/,200/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 139,
+          "height": 200,
+          "service": [
+            {
+              "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f18",
+              "type": "ImageService3",
+              "profile": "level1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "{{ id.path }}/canvas/p2",
+      "type": "Canvas",
+      "label": { "en": [ "Frontispiece" ] },
+      "width": 3186,
+      "height": 4612,
+      "items": [
+        {
+          "id": "{{ id.path }}/page/p2/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/annotation/p0002-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -34,7 +85,7 @@
                   }
                 ]
               },
-              "target": "{{ id.path }}/canvas/p1"
+              "target": "{{ id.path }}/canvas/p2"
             }
           ]
         }
@@ -57,18 +108,18 @@
       ]
     },
     {
-      "id": "{{ id.path }}/canvas/p2",
+      "id": "{{ id.path }}/canvas/p3",
       "type": "Canvas",
       "label": { "en": [ "Title page" ] },
       "width": 3204,
       "height": 4613,
       "items": [
         {
-          "id": "{{ id.path }}/page/p2/1",
+          "id": "{{ id.path }}/page/p3/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "{{ id.path }}/annotation/p0002-image",
+              "id": "{{ id.path }}/annotation/p0003-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -85,7 +136,7 @@
                   }
                 ]
               },
-              "target": "{{ id.path }}/canvas/p2"
+              "target": "{{ id.path }}/canvas/p3"
             }
           ]
         }
@@ -108,18 +159,18 @@
       ]
     },
     {
-      "id": "{{ id.path }}/canvas/p3",
+      "id": "{{ id.path }}/canvas/p4",
       "type": "Canvas",
       "label": { "en": [ "Blank page" ] },
       "width": 3174,
       "height": 4578,
       "items": [
         {
-          "id": "{{ id.path }}/page/p3/1",
+          "id": "{{ id.path }}/page/p4/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "{{ id.path }}/annotation/p0003-image",
+              "id": "{{ id.path }}/annotation/p0004-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -136,7 +187,7 @@
                   }
                 ]
               },
-              "target": "{{ id.path }}/canvas/p3"
+              "target": "{{ id.path }}/canvas/p4"
             }
           ]
         }
@@ -159,18 +210,18 @@
       ]
     },
     {
-      "id": "{{ id.path }}/canvas/p4",
+      "id": "{{ id.path }}/canvas/p5",
       "type": "Canvas",
       "label": { "en": [ "Bookplate" ] },
       "width": 3198,
       "height": 4632,
       "items": [
         {
-          "id": "{{ id.path }}/page/p4/1",
+          "id": "{{ id.path }}/page/p5/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "{{ id.path }}/annotation/p0004-image",
+              "id": "{{ id.path }}/annotation/p0005-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -187,7 +238,7 @@
                   }
                 ]
               },
-              "target": "{{ id.path }}/canvas/p4"
+              "target": "{{ id.path }}/canvas/p5"
             }
           ]
         }
