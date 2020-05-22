@@ -2,7 +2,7 @@
     "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "{{ id.url }}",
     "type": "Manifest",
-    "label": { "en": [ "Placeholder Canvas Example 1" ] },
+    "label": { "en": [ "Poster image displayed before interaction" ] },
     "items": [
       {
         "id": "{{ id.path }}/podcast1/canvas/segment1",
