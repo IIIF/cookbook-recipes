@@ -1,5 +1,5 @@
 ---
-title: Book (viewingDirection variations)
+title: Navigation Direction (viewingDirection variations)
 id: 10
 layout: recipe
 tags: image, text, layout
