@@ -40,7 +40,7 @@ This Manifest represents an Ethiopian scroll, written in Gez for Walata Eyasus (
 
 Note that as of the writing of this recipe, the `behavior` value of `continuous` has no noticeable effect in the Universal Viewer demonstration linked below. However, for forward compatibility it is a part of the Manifest.
 
-{% include manifest_links.html viewers="UV" manifest="manifest-ttb.json" %}
+{% include manifest_links.html viewers="UV, Mirador" manifest="manifest-ttb.json" %}
 
 {% include jsonviewer.html src="manifest-ttb.json" config='data-line="15-18"' %}
 
