@@ -2,17 +2,16 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "{{ id.url }}",
   "type": "Manifest",
-  "label": { "en": [ "Scroll with Top-to-Bottom Viewing Direction" ] },
-  "summary": { "en": ["A magical scroll with magical prayers against epilepsy and also prayers for the binding of demons. Text in black ink. Some words and divine and owner's names in red ink. Illustrations: Two images in ink and color of angels and one magical drawing. The scroll was written for Walata Eyasus (her secular name is Berenash)."] },
+  "label": { "en": [ "Diary with Top-to-Bottom Viewing Direction" ] },
+  "summary": { "en": ["William Lewis Sachtleben was an American long-distance cyclist who rode across Asia from Istanbul to Peking in 1891 to 1892 with Thomas Gaskell Allen Jr., his classmate from Washington University. This was part of a longer journey that began the day after they had graduated from college, when they travelled to New York and on to Liverpool; in all they travelled 15,044 miles by bicycle, 'the longest continuous land journey ever made around the world' as reported in their book <cite>Across Asia on a bicycle</cite> (1895). Sachtleben documented his travels with photographs and diaries, the latter of which he numbered sequentially. The diary of notebook 'No. 10' covers a portion of their journey through the Armenian area of Turkey from April 12 to May 9 (there is a 2-page reading list at the end). During this time they rode from Ankara (Angora in the diary) to Sivas, where they stayed for ten days while Allen had a bout of typhoid fever, and the first half of a ten-day excursion to Merzifon (Mersovan in the diary), taken by Sachtleben to give Allen additional time to recover."] },
   "viewingDirection": "top-to-bottom",
-  "behavior": ["continuous"],
   "items": [
     {
       "id": "{{ id.path }}/canvas/v1",
       "type": "Canvas",
       "label": { "en": [ "image 1" ] },
-			"width": 2912,
-			"height": 14080,
+			"width": 2251,
+			"height": 3152,
       "items": [
         {
           "id": "{{ id.path }}/page/v1/1",
@@ -24,14 +23,14 @@
               "motivation": "painting",
               "body": {
                 "id":                
-"https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_1_21198-zz001nwtnn_1870024_master/full/max/0/default.jpg",
+"https://iiif.io/api/image/3.0/example/reference/9ee11092dfd2782634f5e8e2c87c16d5-uclamss_1841_diary_07_02/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": 2912,
-                "height": 14080,
+                "width": 2251,
+                "height": 3152,
                 "service": [
                 	{
-                		"id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_1_21198-zz001nwtnn_1870024_master",
+                		"id": "https://iiif.io/api/image/3.0/example/reference/9ee11092dfd2782634f5e8e2c87c16d5-uclamss_1841_diary_07_02",
                 		"type": "ImageService3",
                 		"profile": "level1"
                 	}
@@ -41,21 +40,14 @@
             }
           ]
         }
-      ],
-      "thumbnail": [
-				{
-					"id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_1_21198-zz001nwtnn_1870024_master/0,1000,2912,4000/,166/0/default.jpg",
-					"type": "Image",
-					"format": "image/jpeg"
-				}
-			]
+      ]
     },
     {
       "id": "{{ id.path }}/canvas/v2",
       "type": "Canvas",
       "label": { "en": [ "image 2" ] },
-      "width": 3016,
-      "height": 13808,
+      "width": 2268,
+      "height": 3135,
       "items": [
         {
           "id": "{{ id.path }}/page/v2/1",
@@ -66,14 +58,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_2_21198-zz001nwtm4_1870027_master/full/max/0/default.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/9ee11092dfd2782634f5e8e2c87c16d5-uclamss_1841_diary_07_03/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-								"width": 3016,
-								"height": 13808,
+								"width": 2268,
+								"height": 3135,
                 "service": [
                 	{
-                		"id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_2_21198-zz001nwtm4_1870027_master",
+                		"id": "https://iiif.io/api/image/3.0/example/reference/9ee11092dfd2782634f5e8e2c87c16d5-uclamss_1841_diary_07_03",
                 		"type": "ImageService3",
                 		"profile": "level1"
                 	}
@@ -83,21 +75,14 @@
             }
           ]
         }
-      ],
-			"thumbnail": [
-				{
-					"id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_2_21198-zz001nwtm4_1870027_master/0,1000,3016,4000/,166/0/default.jpg",
-					"type": "Image",
-					"format": "image/jpeg"
-				}
-			]
+      ]
     },
     {
       "id": "{{ id.path }}/canvas/v3",
       "type": "Canvas",
       "label": { "en": [ "image 3" ] },
-      "width": 3096,
-      "height": 13736,
+      "width": 2274,
+      "height": 3135,
       "items": [
         {
           "id": "{{ id.path }}/page/v3/1",
@@ -108,14 +93,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_3_21198-zz001nwtkm_1870030_master/full/max/0/default.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/9ee11092dfd2782634f5e8e2c87c16d5-uclamss_1841_diary_07_04/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": 3096,
-                "height": 13736,
+                "width": 2274,
+                "height": 3135,
                 "service": [
                 	{
-                		"id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_3_21198-zz001nwtkm_1870030_master",
+                		"id": "https://iiif.io/api/image/3.0/example/reference/9ee11092dfd2782634f5e8e2c87c16d5-uclamss_1841_diary_07_04",
                 		"type": "ImageService3",
                 		"profile": "level1"
                 	}
@@ -125,21 +110,14 @@
             }
           ]
         }
-      ],
-      "thumbnail": [
-				{
-					"id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_3_21198-zz001nwtkm_1870030_master/0,1000,3096,4000/,166/0/default.jpg",
-					"type": "Image",
-					"format": "image/jpeg"
-				}
-			]
+      ]
     },
     {
       "id": "{{ id.path }}/canvas/v4",
       "type": "Canvas",
       "label": { "en": [ "image 4" ] },
-      "width": 2880,
-      "height": 13680,
+      "width": 2268,
+      "height": 3135,
       "items": [
         {
           "id": "{{ id.path }}/page/v4/1",
@@ -150,14 +128,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_4_21198-zz001nwtj3_1870033_master/full/max/0/default.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/9ee11092dfd2782634f5e8e2c87c16d5-uclamss_1841_diary_07_05/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": 2880,
-                "height": 13680,
+                "width": 2268,
+                "height": 3135,
                 "service": [
                 	{
-                		"id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_4_21198-zz001nwtj3_1870033_master",
+                		"id": "https://iiif.io/api/image/3.0/example/reference/9ee11092dfd2782634f5e8e2c87c16d5-uclamss_1841_diary_07_05",
                 		"type": "ImageService3",
                 		"profile": "level1"
                 	}
@@ -167,14 +145,7 @@
             }
           ]
         }
-      ],
-      "thumbnail": [
-				{
-					"id": "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_4_21198-zz001nwtj3_1870033_master/0,1000,2880,4000/,166/0/default.jpg",
-					"type": "Image",
-					"format": "image/jpeg"
-				}
-			]
+      ]
     }
   ]
 }
