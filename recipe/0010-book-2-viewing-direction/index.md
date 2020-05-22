@@ -36,13 +36,11 @@ This Manifest shows the playbill for "Akiba gongen kaisen-banashi," "Futatsu ch≈
 
 ## Example 2: `viewingDirection` `top-to-bottom`
 
-This Manifest represents an Ethiopian scroll, written in Gez for Walata Eyasus (secular name Berenash), that contains prayers to guard against epilepsy and for the binding of demons. Its full length is 2.245m and is roughly .11m wide over its length.
-
-Note that as of the writing of this recipe, the `behavior` value of `continuous` has no noticeable effect in the Universal Viewer demonstration linked below. However, for forward compatibility it is a part of the Manifest.
+This Manifest represents a portion of the diary of William Lewis Sachtleben, an American long-distance cyclist who rode across Asia from Istanbul to Peking in 1891 to 1892 with Thomas Gaskell Allen Jr., his classmate from Washington University.
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest-ttb.json" %}
 
-{% include jsonviewer.html src="manifest-ttb.json" config='data-line="15-18"' %}
+{% include jsonviewer.html src="manifest-ttb.json" config='data-line="15"' %}
 
 # Related recipes
 
