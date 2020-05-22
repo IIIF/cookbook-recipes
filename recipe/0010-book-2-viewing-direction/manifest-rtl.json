@@ -47,16 +47,7 @@
             }
           ]
         }
-      ],
-      "thumbnail": [
-				{
-					"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001/full/120,166/0/default.jpg",
-					"type": "Image",
-					"format": "image/jpeg",
-					"width": 120,
-					"height": 166
-				}
-			]
+      ]
     },
     {
       "id": "{{ id.path }}/canvas/p2",
@@ -95,16 +86,7 @@
             }
           ]
         }
-      ],
-      "thumbnail": [
-				{
-					"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_002/full/209,166/0/default.jpg",
-					"type": "Image",
-					"format": "image/jpeg",
-					"width": 209,
-					"height": 166
-				}
-			]
+      ]
     },
     {
       "id": "{{ id.path }}/canvas/p3",
@@ -143,16 +125,7 @@
             }
           ]
         }
-      ],
-      "thumbnail": [
-				{
-					"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_003/full/213,166/0/default.jpg",
-					"type": "Image",
-					"format": "image/jpeg",
-					"width": 213,
-					"height": 166
-				}
-			]
+      ]
     },
     {
       "id": "{{ id.path }}/canvas/p4",
@@ -191,16 +164,7 @@
             }
           ]
         }
-      ],
-      "thumbnail": [
-				{
-					"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_004/full/214,166/0/default.jpg",
-					"type": "Image",
-					"format": "image/jpeg",
-					"width": 214,
-					"height": 166
-				}
-			]
+      ]
     },
     {
       "id": "{{ id.path }}/canvas/p5",
@@ -239,16 +203,7 @@
             }
           ]
         }
-      ],
-      "thumbnail": [
-				{
-					"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_005/full/121,166/0/default.jpg",
-					"type": "Image",
-					"format": "image/jpeg",
-					"width": 121,
-					"height": 166
-				}
-			]
+      ]
     }
   ]
 }
