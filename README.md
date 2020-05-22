@@ -61,9 +61,7 @@ https://fixtures.iiif.io/
 
 The cookbook site is available at:
 
-https://preview.iiif.io/cookbook/master
-
-**Note:** in the future this will be merged into the https://iiif.io website. 
+https://iiif.io/api/cookbook/
 
 ## To build locally:
 
