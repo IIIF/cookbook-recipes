@@ -14,16 +14,16 @@ Often an audio or video resource will have content that is part of the object bu
 
 This recipe extends [Simplest Manifest - Video][0003] by adding the information required by a client to start playback at a particular point. This is done by adding the `start` property to the Manifest with the start time in seconds.
 
-In this use case, the value of the `start` property is a `PointSelector` that identifies a timepoint within a particular canvas.
+In this use case, the value of the `start` property is a `PointSelector` that identifies a timepoint within a particular Canvas.
 
 ### About selector classes:
 
 Selectors in Annotations are used to describe how to retrieve a given part of a resource. There are three Selector classes defined in the IIIF specification:
 * `ImageApiSelector` describes the properties/operations available to retrieve a particular image presentation, such as region, size, rotation, etc.
-* `PointSelector` describes the properties available to select a specific point either spatially or temporally (`x`, `y`, or `t`).
+* `PointSelector` describes the properties available to select a specific point either spatially (`x`, `y`) or temporally (`t`).
 * Content Selectors, `AudioContentSelector` and `VisualContentSelector`, allow the publisher to refer to only one aspect of the content, either audio or visual. This can be used to refer to visual content from one resource and audio content from another.
 
-For more on the above Selectors, see: [IIIF Open/Web Annotation Extensions](https://iiif.io/api/annex/openannotation/). For additional Selectors, see the [WC3 Web Annotation Selectors](https://www.w3.org/TR/annotation-model/#selectors) (in particular, the Fragment Selector).
+For more on the above Selectors, see: [IIIF Open/Web Annotation Extensions](https://iiif.io/api/annex/openannotation/). For additional Selectors, see the [WC3 Web Annotation Selectors](https://www.w3.org/TR/annotation-model/#selectors) (in particular, the FragmentSelector).
 
 For more on the `start` property, see: [https://iiif.io/api/presentation/3.0/#start](https://iiif.io/api/presentation/3.0/#start)
 
