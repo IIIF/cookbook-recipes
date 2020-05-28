@@ -1,3 +1,4 @@
+Prezi 3 Manifest with annos moving forward right now
 {
    "@context":[
       "http://geojson.org/geojson-ld/geojson-context.jsonld",
@@ -12,7 +13,7 @@
    },
    "summary":{
       "en":[
-         "A Manifest containing GeoJSON-LD Web Annotations to target the word 'Paris' on the Cover Page of Le Scarabée D'or in order to transcribe it and geocode it."
+         "A Manifest containing GeoJSON-LD Web Annotations to target the word 'Paris' on the Cover Page of Le Scarabée D'or in order to transcribe it and geocode it to Paris, France."
       ]
    },
    "items":[
