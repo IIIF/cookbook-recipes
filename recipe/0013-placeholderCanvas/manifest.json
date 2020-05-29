@@ -5,31 +5,33 @@
     "label": { "en": [ "Poster image displayed before interaction" ] },
     "items": [
       {
-        "id": "{{ id.path }}/canvas/segment1",
+        "id": "{{ id.path }}/canvas/donizetti",
         "type": "Canvas",
-        "duration": 1985.024,
+				"duration": 7278.466,
+				"width": 640,
+				"height": 360,
         "placeholderCanvas": {
-          "id": "{{ id.path }}/canvas/segment1/placeholder",
+          "id": "{{ id.path }}/canvas/donizetti/placeholder",
           "type": "Canvas",
-          "height": 3024,
-          "width": 4032,
+					"width": 640,
+					"height": 360,
           "items": [
             {
-              "id": "{{ id.path }}/canvas/segment1/placeholder/page",
+              "id": "{{ id.path }}/canvas/donizetti/placeholder/1",
               "type": "AnnotationPage",
               "items": [
                 {
-                  "id": "{{ id.path }}/canvas/segment1/placeholder/image",
+                  "id": "{{ id.path }}/canvas/donizetti/placeholder/1-image",
                   "type": "Annotation",
                   "motivation": "painting",
                   "body": {
-                      "id": "https://fixtures.iiif.io/images/Glen/photos/gottingen.jpg",
+                      "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/act1-thumbnail.png",
                       "type": "Image",
-                      "format": "image/jpeg",
-                      "height": 3024,
-                      "width": 4032
+                      "format": "image/png",
+											"width": 640,
+											"height": 360
                   },
-                  "target": "{{ id.path }}/canvas/segment1"
+                  "target": "{{ id.path }}/canvas/donizetti/placeholder"
                 }
               ]
             }
@@ -37,20 +39,22 @@
         },
         "items": [
           {
-            "id": "{{ id.path }}/annotation/segment1/page",
+            "id": "{{ id.path }}/donizetti/1",
             "type": "AnnotationPage",
             "items": [
               {
-                "id": "{{ id.path }}/annotation/segment1-audio",
+                "id": "{{ id.path }}/donizetti/1-video",
                 "type": "Annotation",
                 "motivation": "painting",
                 "body": {
-                  "id": "https://fixtures.iiif.io/audio/indiana/mahler-symphony-3/CD1/high/320Kbps.mp4",
-                  "type": "Sound",
-                  "format": "audio/mp4",
-                  "duration": 1985.024
+                  "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/vae0637_accessH264_low.mp4",
+                "type": "Video",
+                "duration": 7278.466,
+                "width": 640,
+                "height": 360,
+                "format": "video/mp4"
                 },
-                "target": "{{ id.path }}/canvas/segment1"
+                "target": "{{ id.path }}/canvas/donizetti"
               }
             ]
           }
