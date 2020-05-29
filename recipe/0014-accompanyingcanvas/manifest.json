@@ -1,0 +1,72 @@
+{
+	"@context": "http://iiif.io/api/presentation/3/context.json",
+	"id": "{{ id.url }}",
+	"type": "Manifest",
+	"label": { "en": [ "Audio playable during interaction" ] },
+	"items": [
+		{
+			"id": "{{ id.path }}/canvas/p1",
+			"type": "Canvas",
+			"label": {
+				"en": [
+					"front cover"
+				]
+			},
+			"width": 3497,
+			"height": 4823,
+        "accompanyingCanvas": {
+          "id": "{{ id.path }}/canvas/segment1/placeholder",
+          "type": "Canvas",
+	        "duration": 1985.024,
+						"items": [
+							{
+								"id": "{{ id.path }}/annotation/segment1/page",
+								"type": "AnnotationPage",
+								"items": [
+									{
+										"id": "{{ id.path }}/annotation/segment1-audio",
+										"type": "Annotation",
+										"motivation": "painting",
+										"body": {
+											"id": "https://fixtures.iiif.io/audio/indiana/mahler-symphony-3/CD1/medium/128Kbps.mp4",
+										"type": "Sound",
+										"duration": 1985.024,
+										"format": "video/mp4"
+										},
+										"target": "{{ id.path }}/canvas/p1"
+									}
+								]
+							}
+						]
+        },
+			"items": [
+				{
+					"id": "{{ id.path }}/page/p1/1",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "{{ id.path }}/annotation/p0001-image",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001/full/max/0/default.jpg",
+								"type": "Image",
+								"width": 3497,
+								"height": 4823,
+								"format": "image/jpeg",
+								"service": [
+									{
+										"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001",
+										"type": "ImageService3",
+										"profile": "level1"
+									}
+								]
+							},
+							"target": "{{ id.path }}/canvas/p1"
+						}
+					]
+				}
+			]
+		}
+	]
+}
