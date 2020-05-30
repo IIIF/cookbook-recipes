@@ -7,7 +7,7 @@ summary: "Make a geographical assertion about the word Paris in some transcripti
 ---
 
 ### Use Case
-There is a region of interest on a canvas that could be further described by known Earth coordinates.  That region is to be geocoded.
+There is a region of interest on a Canvas that could be further described by known Earth coordinates.  That region is to be geocoded.
 
 ### Implementation Abstract
 An example of a Manifest that has a Canvas fragment geocoded to Paris, France.  The image used on this Canvas is a hosted IIIF Image API 3 fixture image supplied by the BnF.  The Canvas has the same dimensions as the image.  The word 'Paris' appears on the image and the region containing the word is targeted by 2 Annotations.  One Annotation supplements the fragment with the word 'Paris'.  The other Annotation geocodes the fragment to Paris, France so that the fragment is not confused with any other city named Paris in the word (ex. Paris, Illinois, U.S.A.)
