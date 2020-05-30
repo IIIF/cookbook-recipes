@@ -1,7 +1,7 @@
 {
    "@context":[
-      "http://iiif.io/api/presentation/3/context.json",
-      "http://geojson.org/geojson-ld/geojson-context.jsonld"
+      "http://geojson.org/geojson-ld/geojson-context.jsonld",
+      "http://iiif.io/api/presentation/3/context.json"
    ],
    "id":"{{ id.url }}",
    "type":"Canvas",
