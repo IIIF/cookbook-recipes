@@ -17,34 +17,17 @@ An example of a Manifest that has a Canvas fragment geocoded to Paris, France.  
 * GeoJSON `properties` is a very generic field and [can be nearly anything](https://tools.ietf.org/html/rfc7946#section-3.2). If, for example, the targeted resource has a `label` and the `properties` field contains a `label`, the consuming interface must make a choice on which to preference for presentation purposes. This community should establish conventions to inject, override or extend resource properties.
 * [`geometry` can be more than just a `Point`.](https://tools.ietf.org/html/rfc7946#section-3.1)
 * Any place a `Feature` is used could instead be a [`FeatureCollection`](geocollection.json) containing one or more `Features`.
-* Without knowing the specific reason for the assertion of 'Paris' and the assertion of coordinates, it was best to leave them as two separate Annotations instead of one Annotation with two bodies.  This choice is the most agnostic allowing for the greatest functionality applied to these bodies as two distinct data nodes tracked with two distinct identifiers and the liklihood of being detected by the greatest spread of UIs.  The Annotations can be combined into one Annotation with two bodies, so long as you understand the implications for your use case.  
+* Without knowing the specific reason for the assertion of 'Paris' and the assertion of coordinates, it was best to leave them as two separate Annotations instead of one Annotation with two bodies.  This choice is the most agnostic allowing for the greatest functionality applied to these bodies as two distinct data nodes tracked with two distinct identifiers.  This choice also elevates the liklihood of being detected by the greatest spread of UIs.  The Annotations can be combined into one Annotation with two bodies, so long as you understand the implications for your use case.  
 
-### The Canvas containing a jpeg that has a word of interest to geocode.
-[JSON-LD](canvas.json)
+### Restrictions
+Nested GeoJSON coordinate arrays are incompatible with the processing model of JSON-LD 1.0. The JSON-LD 1.1 processing model does not have this restriction.  
 
-{: .line-numbers data-download-link data-download-link-label="Download me" data-src="canvas.json" }
-```json
-```
+### The Manifest
+In this example, a Manifest contains one Canvas with one Image.  The word “Paris” appears on the Image. The Canvas is supplemented with an AnnotationList containing two Annotations targeting this region of the Canvas using the [#xywh Fragment Selector syntax](https://www.w3.org/TR/annotation-model/#fragment-selector).  One Annotation asserts the textual word "Paris".  The second Annotation asserts the geographic coordinates for Paris, France.  
 
-# Break-Down Of The Important Parts
-### The Canvas Content
-[JSON-LD](contentPage.json)
+[JSON-LD](manifest.json)
 
-{: .line-numbers data-download-link data-download-link-label="Download me" data-src="content.json" }
-```json
-```
-
-### The Canvas supplementing data to further describe the content
-[Text](supplementingPage.json)
-
-{: .line-numbers data-download-link data-download-link-label="Download me" data-src="supplementingPage.json" }
-```json
-```
-
-### The specific Annotation which geocodes the region of the canvas with the word 'Paris' to Paris, France.
-[JSON-LD](geoAnno.json)
-
-{: .line-numbers data-download-link data-download-link-label="Download me" data-src="geoAnno.json" }
+{: .line-numbers data-download-link data-download-link-label="Download me" data-src="manifest.json" }
 ```json
 ```
 
