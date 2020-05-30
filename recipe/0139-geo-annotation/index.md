@@ -13,7 +13,7 @@ There is a region of interest on a Canvas that could be further described by kno
 An example of a Manifest that has a Canvas fragment geocoded to Paris, France.  The image used on this Canvas is a hosted IIIF Image API 3 fixture image supplied by the BnF.  The Canvas has the same dimensions as the image.  The word 'Paris' appears on the image and the region containing the word is targeted by 2 Annotations.  One Annotation supplements the fragment with the word 'Paris'.  The other Annotation geocodes the fragment to Paris, France so that the fragment is not confused with any other city named Paris in the word (ex. Paris, Illinois, U.S.A.)
 
 ### Implementation Notes
-* All individual items within the Manifest, as well as the Manifest, are resolvable at the URIs seen in the example.
+* All individual items within the Manifest, as well as the Manifest, are resolvable at the URIs seen in the example.  
 * `geocode` was used as the Annotation motivation throughout as a means of letting the processor know the Annotation has a body containing coordinates. The IIIF-Maps group is working on proper motivation extensions for the various kinds of geographic assertions that could be made. The three main categories are `geocode`, `georeference` and `co-locate`.  
 * The Annotation could also have the `supplementing` motivation where the [Annotation body notes a purpose](https://www.w3.org/TR/annotation-model/#purpose-for-external-web-resources) of `geocode`.  
 * GeoJSON `properties` is a very generic field and [can be nearly anything](https://tools.ietf.org/html/rfc7946#section-3.2). If, for example, the targeted resource has a `label` and the `properties` field contains a `label`, the consuming interface must make a choice on which to preference for presentation purposes. This community should establish conventions to inject, override or extend resource properties.
@@ -25,7 +25,7 @@ An example of a Manifest that has a Canvas fragment geocoded to Paris, France.  
 Nested GeoJSON coordinate arrays are incompatible with the processing model of JSON-LD 1.0. The JSON-LD 1.1 processing model does not have this restriction.  
 
 ### The Manifest
-In this example, a Manifest contains one Canvas with one Image.  The word “Paris” appears on the Image. The Canvas is supplemented with an AnnotationList containing two Annotations targeting this region of the Canvas using the [#xywh Fragment Selector syntax](https://www.w3.org/TR/annotation-model/#fragment-selector).  One Annotation asserts the textual word "Paris".  The second Annotation asserts the geographic coordinates for Paris, France.  
+In this example, a Manifest contains one Canvas with one Image.  The word “Paris” appears on the Image. The Canvas is supplemented with an AnnotationList containing two Annotations targeting this region of the Canvas using the [#xywh Fragment Selector syntax](https://www.w3.org/TR/annotation-model/#fragment-selector).  One Annotation asserts the textual word "Paris".  The second Annotation asserts the geographic coordinates for Paris, France.  Since the Image used is a IIIF Fixture image following [IIIF Image API 3.0](https://iiif.io/api/image/3.0/), you can see the targeted fragment of the image by supplying [the values used in the #xywh selector in the Image URL](https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f20/1300,3370,250,100/max/0/default.jpg). 
 
 [JSON-LD](manifest.json)
 
