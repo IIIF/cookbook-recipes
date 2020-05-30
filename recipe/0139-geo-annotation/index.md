@@ -27,7 +27,7 @@ Nested GeoJSON coordinate arrays are incompatible with the processing model of J
 ### The Manifest
 In this example, a Manifest contains one Canvas with one Image.  The word “Paris” appears on the Image. The Canvas is supplemented with an AnnotationList containing two Annotations targeting this region of the Canvas using the [#xywh Fragment Selector syntax](https://www.w3.org/TR/annotation-model/#fragment-selector).  One Annotation asserts the textual word "Paris".  The second Annotation asserts the geographic coordinates for Paris, France.  Since the Image used is a IIIF Fixture image following [IIIF Image API 3.0](https://iiif.io/api/image/3.0/), you can see the targeted fragment of the image by supplying [the values used in the #xywh selector in the Image URL](https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f20/1300,3370,250,100/max/0/default.jpg). 
 
-{% include jsonviewer.html src="manifest.json" config='data-line="86-113"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="85-113"' %}
 
 ## Related IIIF Stories
 * [https://github.com/IIIF/iiif-stories/issues/116](https://github.com/IIIF/iiif-stories/issues/116)
