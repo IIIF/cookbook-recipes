@@ -20,6 +20,11 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
+    - name: Setup ruby
+    - uses: actions/setup-ruby@v1
+      with:
+        ruby-version: '2.6'
+      run: gem install bundler  
 
     - uses: actions/cache@v1
       with:
@@ -55,12 +60,10 @@ jobs:
         DEST_DIR: "api/cookbook"
     - name: Update deployment status
       uses: bobheadxi/deployments@v0.4.1
-      if: success()
+      if: always()
       with:
         step: finish
         token: ${{ secrets.GITHUB_TOKEN }}
         status: ${{ job.status }}
         deployment_id: ${{ steps.deployment.outputs.deployment_id }}
         env_url: "https://iiif.io/api/cookbook/"
-
-
