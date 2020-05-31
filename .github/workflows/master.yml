@@ -55,7 +55,7 @@ jobs:
         DEST_DIR: "api/cookbook"
     - name: Update deployment status
       uses: bobheadxi/deployments@v0.4.1
-      if: always()
+      if: success()
       with:
         step: finish
         token: ${{ secrets.GITHUB_TOKEN }}
