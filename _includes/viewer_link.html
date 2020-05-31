@@ -5,7 +5,6 @@
         {{ site.url }}{{ site.baseurl }}{{ page.url}}{{ include.manifest }}
     {% endif %}
 {% endcapture %}
-
 {% if include.type == 'UV' %}
     {% capture viewer_url %}
         https://uv.netlify.app/#?c=&amp;m=&amp;s=&amp;cv=&amp;manifest={{manifest_url |strip}}
