@@ -2,9 +2,10 @@
     {% if include.manifest contains 'http' %}
         {{ include.manifest }}
     {% else %}
-        {{ site.url }}{{ site.baseurl }}{{ page.url}}manifest.json
+        {{ site.url }}{{ site.baseurl }}{{ page.url}}{{ include.manifest }}
     {% endif %}
 {% endcapture %}
+
 {% if include.type == 'UV' %}
     {% capture viewer_url %}
         https://uv.netlify.app/#?c=&amp;m=&amp;s=&amp;cv=&amp;manifest={{manifest_url |strip}}
@@ -28,4 +29,4 @@
 {% else %}    
     {% capture default_text %}Unknown Viewer type '{{ include.type}}'{% endcapture %}
     {% capture viewer_url %}{{manifest_url |strip}}{% endcapture %}
-{% endif %}[{{ include.text | default: default_text }}]({{ viewer_url | strip }})
+{% endif %}<a href="{{ viewer_url | strip }}" target="_blank">{{ include.text | default: default_text }}</a>
