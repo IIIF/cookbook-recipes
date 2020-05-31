@@ -43,11 +43,15 @@ module Jekyll
             FileUtils.mkdir_p(File.dirname(dest_path))
             FileUtils.rm(dest_path) if File.exist?(dest_path)
             file = File.open path
-            data = JSON.load file
-            processHash(data, replacements)
-            File.open(dest_path,"w") do |f|
-              f.write(JSON.pretty_generate(data))
-            end
+            begin
+                data = JSON.load file
+                processHash(data, replacements)
+                File.open(dest_path,"w") do |f|
+                  f.write(JSON.pretty_generate(data))
+                end
+            rescue JSON::ParserError => e
+                raise 'Failed to load JSON File ' + path + ' due to parse error.'
+            end    
 		end
         def processHash(hash, replacements)
           hash.each do |key,value|

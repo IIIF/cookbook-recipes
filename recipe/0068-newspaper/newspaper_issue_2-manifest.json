@@ -1,0 +1,200 @@
+{
+  "@context": [
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "type": "Manifest",
+  "id": "{{ id.url }}",
+  "partOf": [
+    {
+      "id": "{{ id.path }}/newspaper_title-collection.json",
+      "type": "Collection"
+    }
+  ],
+  "label": {
+    "de": [
+      "Berliner Tageblatt - 1925-03-13"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "type"
+        ]
+      },
+      "value": {
+        "none": [
+          "http://schema.org/PublicationIssue",
+          "http://data.europeana.eu/concept/base/18"
+        ],
+        "en": [
+          "Analytic serial",
+          "Newspaper",
+          "Newspaper Issue"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "language"
+        ]
+      },
+      "value": {
+        "none": ["de"],
+        "en": [
+          "German"
+        ]
+      }
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://api.europeana.eu/api/v2/thumbnail-by-url.json?uri=https%3A%2F%2Fiiif.europeana.eu%2Fimage%2F3UU6R3RRZZGU2VNISCQX7N474GR7X4VMGYBTIWV2SNCBRGSR2WAA%2Fpresentation_images%2Fea1ba210-ffd3-11e5-b68d-fa163e60dd72%2Fnode-2%2Fimage%2FSBB%2FBerliner_Tageblatt%2F1925%2F03%2F13%2F0%2FF_SBB_00001_19250313_054_123_0_001%2Ffull%2Ffull%2F0%2Fdefault.jpg&type=TEXT",
+      "type": "Image",
+      "format": "image/jpeg"
+    }
+  ],
+  "navDate": "1925-03-13T00:00:00Z",
+  "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ]
+    },
+    "value": {
+      "en": [
+        "Berliner Tageblatt - https://www.europeana.eu/portal/record/9200355/BibliographicResource_3000096302605.html. Staatsbibliothek zu Berlin - Preußischer Kulturbesitz. Public Domain Mark - http://creativecommons.org/publicdomain/mark/1.0/"
+      ]
+    }
+  },
+  "provider": [{
+    "id": "https://www.europeana.eu/",
+    "type": "Agent",
+    "label": { "en": [ "Europeana" ] },
+    "logo": [
+        {
+          "id": "https://style.europeana.eu/images/europeana-logo-default.png",
+          "type": "Image",
+          "format": "image/png",
+          "height": 310,
+          "width": 100
+        }
+    ]
+  }],
+  "seeAlso": [
+    {
+      "id": "https://www.europeana.eu/api/v2/record/9200355/BibliographicResource_3000096302516.json-ld",
+      "type": "Dataset",
+      "format": "application/ld+json",
+      "profile": "http://www.europeana.eu/schemas/edm/"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302516/canvas/p1",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "p. 1"
+        ]
+      },
+      "seeAlso": [
+          {
+            "id":"{{ id.path }}/newspaper_issue_2-alto_p1.xml",
+            "type": "Text",
+            "format":"application/xml",
+            "profile": "http://www.loc.gov/standards/alto/",
+            "label": { "en": ["ALTO XML"] }
+          }
+      ],
+      "height": 5000,
+      "width": 3602,
+      "items": [
+        {
+          "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302516/annotation_page_painting/ap1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302516/annotation/p1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.europeana.eu/image/3UU6R3RRZZGU2VNISCQX7N474GR7X4VMGYBTIWV2SNCBRGSR2WAA/presentation_images/ea1ba210-ffd3-11e5-b68d-fa163e60dd72/node-2/image/SBB/Berliner_Tageblatt/1925/03/13/0/F_SBB_00001_19250313_054_123_0_001/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "@id": "https://iiif.europeana.eu/image/3UU6R3RRZZGU2VNISCQX7N474GR7X4VMGYBTIWV2SNCBRGSR2WAA/presentation_images/ea1ba210-ffd3-11e5-b68d-fa163e60dd72/node-2/image/SBB/Berliner_Tageblatt/1925/03/13/0/F_SBB_00001_19250313_054_123_0_001",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level1.json"
+                  }
+                ]
+              },
+              "target": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302516/canvas/p1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ id.path }}/newspaper_issue_2-anno_p1.json",
+          "type": "AnnotationPage"
+        }
+      ]
+    },
+    {
+      "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302516/canvas/p2",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "p. 2"
+        ]
+      },
+      "seeAlso": [
+        {
+            "id":"{{ id.path }}/newspaper_issue_2-alto_p2.xml",
+            "type": "Text",
+            "format":"application/xml",
+            "profile": "http://www.loc.gov/standards/alto/",
+            "label": { "en": ["ALTO XML"] }
+        }
+      ],
+      "height": 5000,
+      "width": 3602,
+      "items": [
+        {
+          "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302516/annotation_page_painting/ap2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302516/annotation/p2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.europeana.eu/image/3UU6R3RRZZGU2VNISCQX7N474GR7X4VMGYBTIWV2SNCBRGSR2WAA/presentation_images/ea1ba210-ffd3-11e5-b68d-fa163e60dd72/node-2/image/SBB/Berliner_Tageblatt/1925/03/13/0/F_SBB_00001_19250313_054_123_0_002/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "@id": "https://iiif.europeana.eu/image/3UU6R3RRZZGU2VNISCQX7N474GR7X4VMGYBTIWV2SNCBRGSR2WAA/presentation_images/ea1ba210-ffd3-11e5-b68d-fa163e60dd72/node-2/image/SBB/Berliner_Tageblatt/1925/03/13/0/F_SBB_00001_19250313_054_123_0_002",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level1.json"
+                  }
+                ]
+              },
+              "target": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302516/canvas/p2"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ id.path }}/newspaper_issue_2-anno_p2.json",
+          "type": "AnnotationPage"
+        }
+      ]
+    }
+  ]
+}
