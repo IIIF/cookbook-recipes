@@ -42,14 +42,14 @@ jobs:
 
     # Deploy to live site
     - name: Create GitHub deployment
-      uses: bobheadxi/deployments@v0.4.1
+      uses: glenrobson/deployments@v0.4.1
       id: deployment
       with:
         step: start
         token: ${{ secrets.GITHUB_TOKEN }}
         env: production
     - name: Deploy to S3
-      uses: jakejarvis/s3-sync-action@v0.5.1
+      uses: glenrobson/s3-sync-action@v0.5.1
       with:
         args: --acl public-read 
       env:
@@ -60,7 +60,7 @@ jobs:
         SOURCE_DIR: "_site"
         DEST_DIR: "api/cookbook"
     - name: Update deployment status
-      uses: bobheadxi/deployments@v0.4.1
+      uses: glenrobson/deployments@v0.4.1
       if: always()
       with:
         step: finish
