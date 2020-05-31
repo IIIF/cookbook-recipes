@@ -116,7 +116,7 @@ _(leading on to segmentation examples later)_
 * An opera on multiple Canvases
 * Adaptive bit rate AV examples
 * A field recording
-* A newspaper
+* [A newspaper][0068]
 * Example with extensions and services 
 * A manuscript with multiple orderings
 * a Sammelband
