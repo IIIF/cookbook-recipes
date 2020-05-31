@@ -7,8 +7,8 @@ name: Deploy-live
 on:
     push:
         branches:
-            - master
-
+            - deploy-live
+# testing non master branch
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
