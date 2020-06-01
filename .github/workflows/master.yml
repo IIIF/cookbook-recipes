@@ -38,7 +38,8 @@ jobs:
     - name: Build Jekyll
       run: .github/bin/build_jekyll.sh
       env:
-        BASE_URL: "/api/cookbook"
+        BASE_URL: "/api/fix_extensions/api/cookbook"
+        #BASE_URL: "/api/cookbook"
 
     # Deploy to live site
     - name: Create GitHub deployment
