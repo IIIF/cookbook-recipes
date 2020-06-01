@@ -13,3 +13,5 @@ kramdown:
 webrick:
   headers:
     Access-Control-Allow-Origin: "*"
+
+exclude: scripts
