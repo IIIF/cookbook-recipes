@@ -39,6 +39,7 @@ jobs:
       run: .github/bin/build_jekyll.sh
       env:
         BASE_URL: "/api/fix_extensions/api/cookbook"
+        CONFIG: "--config _config.yml, _config_prod.yml"
         #BASE_URL: "/api/cookbook"
 
     # Deploy to live site

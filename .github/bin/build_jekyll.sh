@@ -12,7 +12,7 @@ if [ $? -eq 1 ];then
     exit 1
 fi
 
-bundle exec jekyll build  --baseurl $BASE_URL
+bundle exec jekyll build  --baseurl $BASE_URL $CONFIG
 if [ $? -eq 1 ];then
     echo "Failed jekyll build"
     exit 1

@@ -5,7 +5,7 @@ defaults:
     values:
       layout: "recipe"
       livesite: "https://iiif.io"
-
+url: https://preview.iiif.io
 markdown: kramdown
 kramdown:
    syntax_highlighter_opts:
