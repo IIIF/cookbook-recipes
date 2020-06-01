@@ -38,22 +38,6 @@
             }
           ]
         }
-      ],
-      "thumbnail": [
-        {
-          "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f18/full/,200/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "width": 139,
-          "height": 200,
-          "service": [
-            {
-              "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f18",
-              "type": "ImageService3",
-              "profile": "level1"
-            }
-          ]
-        }
       ]
     },
     {
@@ -86,22 +70,6 @@
                 ]
               },
               "target": "{{ id.path }}/canvas/p2"
-            }
-          ]
-        }
-      ],
-      "thumbnail": [
-        {
-          "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f19/full/,200/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "width": 138,
-          "height": 200,
-          "service": [
-            {
-              "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f19",
-              "type": "ImageService3",
-              "profile": "level1"
             }
           ]
         }
@@ -140,22 +108,6 @@
             }
           ]
         }
-      ],
-      "thumbnail": [
-        {
-          "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f20/full/,200/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "width": 139,
-          "height": 200,
-          "service": [
-            {
-              "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f20",
-              "type": "ImageService3",
-              "profile": "level1"
-            }
-          ]
-        }
       ]
     },
     {
@@ -191,22 +143,6 @@
             }
           ]
         }
-      ],
-      "thumbnail": [
-        {
-          "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f21/full/,200/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "width": 139,
-          "height": 200,
-          "service": [
-            {
-              "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f21",
-              "type": "ImageService3",
-              "profile": "level1"
-            }
-          ]
-        }
       ]
     },
     {
@@ -239,22 +175,6 @@
                 ]
               },
               "target": "{{ id.path }}/canvas/p5"
-            }
-          ]
-        }
-      ],
-      "thumbnail": [
-        {
-          "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f22/full/,200/0/default.jpg",
-          "type": "Image",
-          "format": "image/jpeg",
-          "width": 138,
-          "height": 200,
-          "service": [
-            {
-              "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f22",
-              "type": "ImageService3",
-              "profile": "level1"
             }
           ]
         }
