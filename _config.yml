@@ -15,4 +15,4 @@ webrick:
     Access-Control-Allow-Origin: "*"
 
 exclude: 
-    - scripts
+    - ./scripts
