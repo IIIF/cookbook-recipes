@@ -13,4 +13,4 @@ kramdown:
 webrick:
   headers:
     Access-Control-Allow-Origin: "*"
-exclude: [scripts]    
+exclude: ["scripts", "Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
