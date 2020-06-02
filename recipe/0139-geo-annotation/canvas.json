@@ -71,10 +71,10 @@
             {
                "id":"{{ id.path }}/geoAnno.json",
                "type":"Annotation",
-               "motivation":"geocode",
+               "motivation":"geolocate",
                "label":{
                   "en":[
-                     "The piece of the canvas containing the word 'Paris' geocoded to Paris, France."
+                     "The piece of the canvas containing the word 'Paris' geolocated to Paris, France."
                   ]
                },
                "body":{

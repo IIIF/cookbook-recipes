@@ -12,7 +12,7 @@
    },
    "summary":{
       "en":[
-         "A Manifest containing GeoJSON-LD Web Annotations to target the word 'Paris' on the Cover Page of Le Scarabée D'or in order to transcribe it and geocode it to Paris, France."
+         "A Manifest containing GeoJSON-LD Web Annotations to target the word 'Paris' on the Cover Page of Le Scarabée D'or in order to transcribe it and geolocate it to Paris, France."
       ]
    },
    "items":[
@@ -85,10 +85,10 @@
                   {
                      "id":"{{ id.path }}/geoAnno.json",
                      "type":"Annotation",
-                     "motivation":"geocode",
+                     "motivation":"geolocate",
                      "label":{
                         "en":[
-                           "The piece of the canvas containing the word 'Paris' geocoded to Paris, France."
+                           "The piece of the canvas containing the word 'Paris' geolocated to Paris, France."
                         ]
                      },
                      "body":{
