@@ -14,7 +14,7 @@ An example of a Manifest that has a Canvas fragment geolocated to Paris, France.
 
 ### Implementation Notes
 * All individual items within the Manifest, as well as the Manifest, are resolvable at the URIs seen in the example.  
-* `geolocate` was used as the Annotation motivation throughout as a means of letting the processor know the Annotation has a body containing coordinates. The IIIF-Maps group is working on proper motivation extensions for the various kinds of geographic assertions that could be made. The three main categories are `geolocate`, `georeference` and `co-locate`.  
+* `geolocate` was used as the Annotation motivation throughout as a means of letting the processor know the Annotation has a body containing coordinates. The IIIF-Maps group is working on proper motivation extensions for the various kinds of geographic assertions that could be made. The main categories are `geocode`, `georeference`, `geolocate` and `co-locate`.
 * The Annotation could also have the `supplementing` motivation where the [Annotation body notes a purpose](https://www.w3.org/TR/annotation-model/#purpose-for-external-web-resources) of `geolocate`.  
 * GeoJSON `properties` is a very generic field and [can be nearly anything](https://tools.ietf.org/html/rfc7946#section-3.2). If, for example, the targeted resource has a `label` and the `properties` field contains a `label`, the consuming interface must make a choice on which to preference for presentation purposes. This community should establish conventions to inject, override or extend resource properties.
 * [`geometry` can be more than just a `Point`.](https://tools.ietf.org/html/rfc7946#section-3.1)
