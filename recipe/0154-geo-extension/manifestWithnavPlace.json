@@ -40,6 +40,7 @@
       {
          "id":"{{ id.path }}/geo.json",
          "type":"Feature",
+         "purpose":"geolocate",
          "properties":{
             "label":{
                "en":[
@@ -63,6 +64,7 @@
          {
             "id":"{{ id.path }}/geo.json",
             "type":"Feature",
+            "purpose":"geolocate",
             "properties":{
                "label":{
                   "en":[
