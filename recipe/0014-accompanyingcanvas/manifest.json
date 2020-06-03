@@ -33,7 +33,7 @@
 										"duration": 1985.024,
 										"format": "video/mp4"
 										},
-										"target": "{{ id.path }}/canvas/p1"
+										"target": "{{ id.path }}/canvas/segment1/placeholder"
 									}
 								]
 							}
