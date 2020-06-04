@@ -24,7 +24,7 @@ None known.
 
 **[FPO content]** In the example, the main content is a video and the `placeholderCanvas` is a promotional artwork for the video.
 
-{% include manifest_links.html viewers="UV" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV,Mirador" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config="data-line='15-46'"%}
 
