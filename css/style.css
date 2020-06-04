@@ -1,0 +1,6 @@
+.limit-height  {
+    max-height: 30em;
+}
+.compact-list + ol {
+    margin: 0px 0px 0px 0px;
+}
