@@ -1,5 +1,5 @@
 ---
-title: Table of contents (ranges) - acts of an opera
+title: Table of contents for A/V content
 id: 26
 layout: recipe
 tags: [video, presentation, opera]
@@ -9,7 +9,7 @@ summary: "Complex nested table of contents for an opera."
 
 ## Use Case
 
-An opera's table of contents can be hierarchically divided into acts, scenes, and arias.
+(Why does AV content have ToC? Navigation.  Opera is a good example.  Want to get to famous aria but need to jump to specific point using only slider is hard so ToC makes this easier.)  An opera's table of contents can be hierarchically divided into acts, scenes, and arias.
 
 ## Implementation Notes
 
@@ -19,7 +19,7 @@ Ranges in the structure target different portions of the same canvas using tempo
 
 ## Restrictions
 
-Overlapping ranges are avoided because they cause the overlapping part to be played twice.
+(Leaf range nodes in a structure are player linearly so for good UX they should be contiguous (no-gaps) and not overlapping.  Point to recipes that explain when you might want them.)  Overlapping ranges are avoided because they cause the overlapping part to be played twice.
 
 ## Example
 
@@ -34,6 +34,7 @@ The opera covers the whole length of the canvas and is divided into two ranges f
 * [Simplest Manifest - Video][0003]
 * [Opera One Canvas][0064] - The same opera from this example but expanded into a real world example.
 * [Opera Multiple Canvases][0065] - The same opera from this example but expanded into a real world example in audio format split across multiple canvases.
+* [Text in Multiple Languages][0006] - Recipe explaining the use of multiple languages in text like in the label for this opera.
 
 
 {% include acronyms.md %}

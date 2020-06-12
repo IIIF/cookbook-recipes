@@ -1,9 +1,9 @@
 ---
-title: An opera on one Canvas
+title: A video with table of contents on one Canvas
 id: 64
 layout: recipe
 tags: [video, presentation, opera]
-summary: "A real world example of a video recording of an opera on one canvas."
+summary: "A video recording of an opera on one canvas."
 ---
 
 
