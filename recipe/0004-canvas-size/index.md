@@ -28,9 +28,7 @@ None known.
 
 This example shows a Manifest with a single Canvas that has a height and width which is double the size of the image, as the image height and width are less than 1000 pixels.
 
-{: .line-numbers data-src="manifest.json" }
-```json
-```
+{% include jsonviewer.html src="manifest.json" config="data-line='14-15,29-30'"%}
 
 # Related recipes
 
