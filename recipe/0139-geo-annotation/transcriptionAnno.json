@@ -12,8 +12,7 @@
       "type":"TextualBody",
       "value":"Paris",
       "format":"text/plain",
-      "language": "en",
-      "purpose":"transcribing"
+      "language": "en"
    },
    "target":"{{ id.path }}/canvas.json#xywh=1300,3370,250,100"
 }
