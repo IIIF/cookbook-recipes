@@ -27,7 +27,7 @@ You should also consider providing a [thumbnail][prezi3-thumbnail] for each Canv
 
 ## Example
 
-{% include manifest_links.html viewers="UV" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 
