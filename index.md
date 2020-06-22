@@ -63,7 +63,7 @@ _(leading on to segmentation examples later)_
 
 * table of contents (ranges) - book chapters
 * table of contents (ranges) - articles in a newspaper
-* [Table of contents (ranges) - acts of an opera][0026] (26)
+* [Table of contents for A/V content][0026] (26)
 * Alternative Sequence (via `sequence` Range) (20,22,23)
 * `sequence` Range with partial canvases
 * metadata on any resource (21)
@@ -116,8 +116,8 @@ _(leading on to segmentation examples later)_
 * A music album's audio resources
 * ...and its image resoures
 * ...combined to demonstrate _together_
-* [An opera on one Canvas][0064] (64)
-* [An opera on multiple Canvases][0065] (65)
+* [Table of Contents for Multiple A/V files on a Single Canvas][0064] (64)
+* [Table of Contents for Multiple A/V files on Multiple Canvases][0065] (65)
 * Adaptive bit rate AV examples
 * A field recording
 * A newspaper
