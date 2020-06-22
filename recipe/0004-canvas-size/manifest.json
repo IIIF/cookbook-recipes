@@ -2,7 +2,7 @@
     "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "{{ id.url }}",
     "type": "Manifest",
-    "label": { "en": [ "Image With Different Size From Canvas" ] },
+    "label": { "en": [ "Different Size Image and Canvas" ] },
     "items": [
       {
         "id": "{{ id.path }}/canvas/p1",
