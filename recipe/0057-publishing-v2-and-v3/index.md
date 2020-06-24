@@ -9,30 +9,122 @@ summary: "tbc"
 
 ## Use Case
 
-Why is this pattern is important?
+This recipe describes publishing IIIF v2 and v3 resources (both Presentation and Image API) at the same URL by using
+Content Negotiation. It is presented as an alternative approach to publishing version-specific URLs for retrieving 
+these resources.
+
+Using Content Negotiation is useful in cases where changing the location of these resources would cause annotations 
+targeting those resources, particularly those created and stored by third-party users, to no longer work. For example, 
+an annotation targeting a region of a canvas that relies on resolving that canvas and any media (image, video, or audio)
+to show to end users.
+
+This recipe only applies to IIIF resources that vary according to the different specifications. It is not necessary,
+for example, to use v2 or v3-specific requests for images or video.
 
 ## Implementation notes
 
-How does one implement the pattern?
+[Content Negotiation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation) is an established method of requesting varying responses from a server. In this case, the server will
+be asked to vary its response for either a version 2 or version 3 formatted JSON-LD. This can be accomplished by using
+the `Accept` HTTP header. The value of this header contains a `profile` section that varies according to the IIIF 
+version that is desired. Servers that implement this method should also provide a default response 
+if the request does not contain these values. The examples below illustrate this process.
+
+The IIIF API specifications give the values for the header. It follows a straightforward format:
+
+`application/ld+json;profile="http://iiif.io/api/presentation/{VERSION}/context.json"`
+
+If successful, the server should respond with a value in the `Content-Type` header that mirrors
+the requested value. If the server is unable to respond as requested--for example, it does not support v3
+manifests--then it may either choose to return its default response (a v2 manifest), or it may choose to return a
+`406 Not Acceptable` status code. 
 
 ## Restrictions
 
-When is this pattern is usable / not usable? Is it deprecated? If it uses multiple specifications, which versions are needed, etc.? (Not present if not needed.)
+There are several notable restrictions to using this pattern. Perhaps the most notable is that web browsers do
+not allow clients to vary their `Accept` headers, so viewing the IIIF resources in a browser is restricted to viewing 
+the server's default response. To view varying responses, the user must have the ability to control the HTTP request 
+headers. This is available in tools such as [Postman](https://www.postman.com/).
+
+Choosing what type of response to return if the server is unable to fulfill the request is largely up to the
+service provider, and is based on their expected uses. Returning a different IIIF response than was requested is a robust 
+method, but it may lead to problems where clients are unable to parse a response. Returning a 406 status code
+is a much more unambiguous response, but it may lead to your service appearing "broken" to clients
+that are not Content Negotiation aware.
+
+This is an active area of work in web specifications. The W3C has a current working group looking
+at [Content Negotiation by Profile](https://www.w3.org/TR/2019/WD-dx-prof-conneg-20191126/). This specification
+offers dedicated `Accept-Profile` and `Content-Profile` headers. This specification is still in Draft, however.
+
+A more practical method of Content Negotiation in browsers can be found by varying the query parameters in the
+URL to define the response type:
+
+    http://example.com/path/to/resource/a?_profile=prof-01
+    
+This provides an actionable method for viewing resources in the browser without needing special
+tools. While this is convenient for some purposes, it is worth noting that query parameters 
+
 
 ## Example
 
-Describe in prose and provide examples, e.g.: 
+These examples will use the `cURL` command-line HTTP client to control the request and view the response from
+the server. The `-H` flag controls the value of the request header. The `-v` flag makes the process "verbose" so
+that the response headers can be inspected. The leading `$` is used to illustrate a prompt and is not part of the command.
 
-``` json-doc
-{
-  "@context": [
-    "http://www.w3.org/ns/anno.jsonld",
-    "http://iiif.io/api/presentation/{{ page.major }}/context.json"
-  ],
-  "id": "https://example.org/iiif/book1/manifest",
-  "type": "Manifest" 
-}
-```
+The first example shows a basic request to an HTTP service, but with an explicitly-set `Accept` header:
+
+    $ curl -v -H "Accept: application/ld+json" "https://iiif.bodleian.ox.ac.uk/iiif/manifest/7c99ac4d-c4db-43d3-97e4-40fee56fedf4.json"
+
+This provides a default response of a IIIF v2 manifest. Looking at the request (`>`) and response (`<`) (truncated for 
+clarity):
+
+    > GET /iiif/manifest/7c99ac4d-c4db-43d3-97e4-40fee56fedf4.json HTTP/2
+    > Host: iiif.bodleian.ox.ac.uk
+    > User-Agent: curl/7.64.1
+    > Accept: application/ld+json
+    >
+
+    < HTTP/2 200
+    < server: nginx/1.18.0
+    < date: Wed, 24 Jun 2020 06:21:42 GMT
+    < content-type: application/json; charset=utf-8
+    < content-length: 465435
+
+To request a IIIF v3 manifest for the same resource the `Accept` header value can be adjusted:
+
+    $ curl -v -H "Accept: application/ld+json;profile="http://iiif.io/api/presentation/3/context.json"" "https://iiif.bodleian.ox.ac.uk/iiif/manifest/7c99ac4d-c4db-43d3-97e4-40fee56fedf4.json"
+
+The response has varied accordingly:
+
+    > GET /iiif/manifest/7c99ac4d-c4db-43d3-97e4-40fee56fedf4.json HTTP/2
+    > Host: iiif.bodleian.ox.ac.uk
+    > User-Agent: curl/7.64.1
+    > Accept: application/ld+json;profile=http://iiif.io/api/presentation/3/context.json
+    >
+
+    < HTTP/2 200
+    < server: nginx/1.18.0
+    < date: Wed, 24 Jun 2020 06:29:39 GMT
+    < content-type: application/ld+json;profile="http://iiif.io/api/presentation/3/context.json"
+    < content-length: 607063
+
+To illustrate the case where a server is unable to fulfil a request, a "sequence" resource is requested with
+a version 3 Accept header. This resource type is available in version 2 manifests, but was removed in version 3.
+
+    $ curl -v -H "Accept: application/ld+json;profile="http://iiif.io/api/presentation/3/context.json"" "https://iiif.bodleian.ox.ac.uk/iiif/sequence/7c99ac4d-c4db-43d3-97e4-40fee56fedf4_default.json"
+
+    > GET /iiif/sequence/7c99ac4d-c4db-43d3-97e4-40fee56fedf4_default.json HTTP/2
+    > Host: iiif.bodleian.ox.ac.uk
+    > User-Agent: curl/7.64.1
+    > Accept: application/ld+json;profile=http://iiif.io/api/presentation/3/context.json
+    >
+    * Connection state changed (MAX_CONCURRENT_STREAMS == 128)!
+    < HTTP/2 406
+    < server: nginx/1.18.0
+    < date: Wed, 24 Jun 2020 06:34:54 GMT
+    < content-type: text/plain; charset=utf-8
+    < content-length: 61
+
+    The requested resource is not available as a IIIFv3 response.
 
 # Related recipes
 
