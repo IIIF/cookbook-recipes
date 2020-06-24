@@ -6,7 +6,7 @@ tags: [maps, geolocate, annotation]
 summary: "Make a geographical assertion about the word Paris in some transcription text."
 ---
 
-### Use Case
+### Use Case 
 There is a region of interest on a Canvas that could be further described by known Earth coordinates.  That region is to be geolocated.
 
 ### Implementation Abstract
