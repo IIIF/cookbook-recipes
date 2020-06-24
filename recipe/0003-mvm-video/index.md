@@ -13,11 +13,11 @@ The simplest viable manifest for video content. This pattern presents a single v
 
 ## Implementation Notes
 
-The implementation is identical to the [image example][0001], except that the content is video and the canvas has a duration instead of a height and width.
+The implementation is identical to the [image example][0001], except that the content is video and the canvas has a duration as well as a height and width.
 
 ## Example
 
-This example shows a Manifest with a single Canvas that lasts for 3600 seconds, or exactly one hour. It has a single video file (video-sample.mp4) which is associated with it. The mp4 also has a duration of exactly one hour.
+This example shows a Manifest with a single Canvas that lasts for 1801 seconds, or just over 30 minutes. It has a single video file (30-minute-clock.mp4) which is associated with it. The mp4 also has a duration of 30 minutes.
 
 {% include manifest_links.html viewers="UV" manifest="manifest.json" %}
 
