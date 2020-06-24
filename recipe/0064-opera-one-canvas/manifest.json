@@ -2,15 +2,15 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "{{ id.url }}",
   "type": "Manifest",
-  "label": { "it": [ "L'elisir d'amore" ], "en": [ "The elixir of love" ] },
+  "label": { "it": ["L'elisir d'amore"], "en": ["The elixir of love"] },
   "metadata": [
     {
-      "label": { "en": [ "Date Issued" ] },
-      "value": { "en": [ "2019" ] }
+      "label": { "en": ["Date Issued"] },
+      "value": { "en": ["2019"] }
     },
     {
-      "label": { "en": [ "Publisher" ] },
-      "value": { "en": [ "Indiana University Jacobs School of Music" ] }
+      "label": { "en": ["Publisher"] },
+      "value": { "en": ["Indiana University Jacobs School of Music"] }
     }
   ],
   "items": [
@@ -29,7 +29,7 @@
               "id": "{{ id.path }}/canvas/1/annotation_page/1/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "{{ id.path }}/canvas/1",
+              "target": "{{ id.path }}/canvas/1#t=0",
               "body": {
                 "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/vae0637_accessH264_low.mp4",
                 "type": "Video",
@@ -49,7 +49,7 @@
               "id": "{{ id.path }}/canvas/1/annotation_page/1/annotation/2",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "{{ id.path }}/canvas/1",
+              "target": "{{ id.path }}/canvas/1#t=3971.24",
               "body": {
                 "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/vae0637_accessH264_low_act_2.mp4",
                 "type": "Video",
@@ -74,17 +74,21 @@
     {
       "type": "Range",
       "id": "{{ id.path }}/range/1",
-      "label": { "it": [ "Gaetano Donizetti, L'Elisir D'Amore" ] },
+      "label": { "it": ["Gaetano Donizetti, L'Elisir D'Amore"] },
       "items": [
         {
           "type": "Range",
           "id": "{{ id.path }}/range/2",
-          "label": { "it": [ "Atto Primo" ] },
+          "label": { "it": ["Atto Primo"] },
           "items": [
             {
               "type": "Range",
               "id": "{{ id.path }}/range/3",
-              "label": { "it": [ "Preludio e Coro d'introduzione – Bel conforto al mietitore" ] },
+              "label": {
+                "it": [
+                  "Preludio e Coro d'introduzione – Bel conforto al mietitore"
+                ]
+              },
               "items": [
                 {
                   "type": "Canvas",
@@ -95,7 +99,7 @@
             {
               "type": "Range",
               "id": "{{ id.path }}/range/4",
-              "label": { "en": [ "Remainder of Act I" ] },
+              "label": { "en": ["Remainder of Act I"] },
               "items": [
                 {
                   "type": "Canvas",
@@ -108,7 +112,7 @@
         {
           "type": "Range",
           "id": "{{ id.path }}/range/5",
-          "label": { "it": [ "Atto Secondo" ] },
+          "label": { "it": ["Atto Secondo"] },
           "items": [
             {
               "type": "Canvas",
