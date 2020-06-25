@@ -2,7 +2,7 @@
 title: Publishing v2 and v3 versions
 id: 57
 layout: recipe
-tags: [tbc]
+tags: [implementation_note]
 summary: "tbc"
 ---
 
