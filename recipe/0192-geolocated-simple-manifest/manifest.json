@@ -66,11 +66,13 @@
                "body":{
                   "id":"{{ id.path }}/geo.json",
                   "type":"Feature",
-                  "properties":{},
+                  "properties":{
+
+                  },
                   "geometry":{
                      "type":"Point",
                      "coordinates":[
-                        51.533451, 
+                        51.533451,
                         9.937855
                      ]
                   }

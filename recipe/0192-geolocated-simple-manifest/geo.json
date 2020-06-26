@@ -1,14 +1,15 @@
 {
-  "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
-  "id":"{{ id.url }}",
-  "type":"Feature",
-  "properties":{
-   "label":{},
-  "geometry":{
-     "type":"Point",
-     "coordinates":[
-         51.533451, 
+   "@context":"http://geojson.org/geojson-ld/geojson-context.jsonld",
+   "id":"{{ id.url }}",
+   "type":"Feature",
+   "properties":{
+
+   },
+   "geometry":{
+      "type":"Point",
+      "coordinates":[
+         51.533451,
          9.937855
-     ]
-  }
+      ]
+   }
 }
