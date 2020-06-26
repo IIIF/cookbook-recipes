@@ -1,9 +1,9 @@
 ---
 title: Geographical Assertion Annotation 
-id: 999
+id: 139
 layout: recipe
 tags: [maps, geolocate, annotation]
-summary: "Make a geographical assertion about the word Paris in some transcription text."
+summary: "Make a geographic Web Annotation to provide geolocation information about a fragment of a Canvas.  "
 ---
 
 ### Use Case 
