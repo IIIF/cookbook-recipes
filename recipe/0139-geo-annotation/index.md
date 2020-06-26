@@ -10,7 +10,7 @@ summary: "Make a geographic Web Annotation to provide geolocation information ab
 There is a region of interest on a Canvas that could be further described by known Earth coordinates.  That region is to be geolocated.
 
 ### Implementation Abstract
-An example of a Manifest that has a Canvas fragment geolocated to Paris, France.  The Image used on this Canvas is a hosted IIIF Image API 3 fixture image.  The Canvas has the same dimensions as the image.  The word "Paris" appears on the Image and the region containing the word is targeted by 2 Annotations.  One Annotation supplements the fragment with the text 'Paris'.  The other Annotation supplies the coordinates centered on Paris, France to circumvent confusion with any other city named Paris (ex. Paris, Illinois, U.S.A.).
+An example of a Manifest that has a Canvas fragment geolocated to a point in Paris, France.  The word "Paris" appears on the image and the region containing the word is targeted by two Annotations.  One Annotation supplements the fragment with the text 'Paris'.  The other Annotation supplies the coordinates centered on Paris, France in order to supply a geographic reference.  
 
 ### Implementation Notes
 * All individual items within the Manifest, as well as the Manifest, are resolvable at the URIs seen in the example.  
@@ -25,7 +25,7 @@ An example of a Manifest that has a Canvas fragment geolocated to Paris, France.
 Nested GeoJSON coordinate arrays are incompatible with the processing model of JSON-LD 1.0. The JSON-LD 1.1 processing model does not have this restriction.  
 
 ### The Manifest
-In this example, a Manifest contains one Canvas with one Image.  The word “Paris” appears on the Image. The Canvas is supplemented with an AnnotationList containing two Annotations targeting this region of the Canvas using the [#xywh Fragment Selector syntax](https://www.w3.org/TR/annotation-model/#fragment-selector).  One Annotation asserts the textual word "Paris".  The second Annotation asserts the geographic coordinates for Paris, France.  Since the Image used is a IIIF Fixture image following [IIIF Image API 3.0](https://iiif.io/api/image/3.0/), you can see the targeted fragment of the image by supplying [the values used in the #xywh selector in the Image URL](https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f20/1300,3370,250,100/max/0/default.jpg). 
+In this example, a Manifest contains one Canvas with one Image.  The word “Paris” appears on the Image. The Canvas is supplemented with an AnnotationPage containing two Annotations targeting this region of the Canvas using the [#xywh Fragment Selector syntax](https://www.w3.org/TR/annotation-model/#fragment-selector).  One Annotation asserts the textual word "Paris".  The second Annotation asserts the geographic coordinates for Paris, France.  Since the Image used is a IIIF Fixture image following [IIIF Image API 3.0](https://iiif.io/api/image/3.0/), you can see the targeted fragment of the image by supplying [the values used in the #xywh selector in the Image URL](https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f20/1300,3370,250,100/max/0/default.jpg). 
 
 {% include jsonviewer.html src="manifest.json" config='data-line="85-111"' %}
 
