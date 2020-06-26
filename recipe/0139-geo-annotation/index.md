@@ -36,9 +36,8 @@ In this example, a Manifest contains one Canvas with one Image.  The word “Par
 * [https://github.com/IIIF/iiif-stories/issues/135](https://github.com/IIIF/iiif-stories/issues/135)
 
 ## Related Recipes
-* [0TBD]()
-* [0TBD]()
-* [0TBD]()
+* [Geographic Extension]()
+* [Geolocated Simple Manifest]()
 
 {% include acronyms.md %}
 {% include links.md %}
