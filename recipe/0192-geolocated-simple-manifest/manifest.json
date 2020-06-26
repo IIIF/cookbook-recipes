@@ -1,5 +1,8 @@
 {
-   "@context":"http://iiif.io/api/presentation/3/context.json",
+   "@context":[
+      "http://geojson.org/geojson-ld/geojson-context.jsonld",
+      "http://iiif.io/api/presentation/3/context.json"
+   ],
    "id":"https://preview.iiif.io/cookbook/0008-rights/recipe/0008-rights/manifest.json",
    "type":"Manifest",
    "label":{
@@ -13,6 +16,10 @@
       ]
    },
    "rights":"http://creativecommons.org/licenses/by-sa/3.0/",
+   "requiredStatement": {
+      "label": { "en": [ "Attribution" ] },
+      "value": { "en": [ "<span>Glen Robson, IIIF Technical Coordinator. <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a> <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" title\"CC BY-SA 3.0\"><img src=\"https://licensebuttons.net/l/by-sa/3.0/88x31.png\"/></a></span>" ] }
+    },
    "items":[
       {
          "id":"https://preview.iiif.io/cookbook/0008-rights/recipe/0008-rights/canvas/p1",
@@ -42,7 +49,7 @@
                            }
                         ]
                      },
-                     "target":"https://preview.iiif.io/cookbook/0008-rights/recipe/0008-rights/canvas/p1"
+                     "target":"{{ id.path }}/canvas.json"
                   }
                ]
             }
