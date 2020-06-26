@@ -30,13 +30,13 @@
    },
    "items":[
       {
-         "id":"https://preview.iiif.io/cookbook/0008-rights/recipe/0008-rights/canvas/p1",
+         "id":"{{ id.path }}/canvas.json",
          "type":"Canvas",
          "height":3024,
          "width":4032,
          "items":[
             {
-               "id":"https://preview.iiif.io/cookbook/0008-rights/recipe/0008-rights/page/p1/1",
+               "id":"{{ id.path }}/contentPage.json",
                "type":"AnnotationPage",
                "items":[
                   {
