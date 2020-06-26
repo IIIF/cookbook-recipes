@@ -3,18 +3,10 @@
       "http://geojson.org/geojson-ld/geojson-context.jsonld",
       "http://iiif.io/api/presentation/3/context.json"
    ],
-   "id":"https://preview.iiif.io/cookbook/0008-rights/recipe/0008-rights/manifest.json",
+   "id":"{{ id.url }}",
    "type":"Manifest",
-   "label":{
-      "en":[
-         "Picture of Göttingen taken during the 2019 IIIF Conference"
-      ]
-   },
-   "summary":{
-      "en":[
-         "An example of a simple Manifest that is geolocated."
-      ]
-   },
+   "label": { "en": [ "Picture of Göttingen taken during the 2019 IIIF Conference" ] },
+   "summary": { "en": [ "<p>Picture taken by the <a href=\"https://github.com/glenrobson\">IIIF Technical Coordinator</a></p>" ] },
    "rights":"http://creativecommons.org/licenses/by-sa/3.0/",
    "requiredStatement": {
       "label": { "en": [ "Attribution" ] },
@@ -73,9 +65,7 @@
                "body":{
                   "id":"{{ id.path }}/geo.json",
                   "type":"Feature",
-                  "properties":{
-
-                  },
+                  "properties":{},
                   "geometry":{
                      "type":"Point",
                      "coordinates":[
