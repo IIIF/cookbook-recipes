@@ -38,7 +38,7 @@ This Manifest shows the playbill for "Akiba gongen kaisen-banashi," "Futatsu ch�
 
 This Manifest represents a portion of the diary of William Lewis Sachtleben, an American long-distance cyclist who rode across Asia from Istanbul to Peking in 1891 to 1892 with Thomas Gaskell Allen Jr., his classmate from Washington University.
 
-{% include manifest_links.html viewers="UV" manifest="manifest-ttb.json" %}
+{% include manifest_links.html viewers="UV, Mirador" manifest="manifest-ttb.json" %}
 
 {% include jsonviewer.html src="manifest-ttb.json" config='data-line="15"' %}
 
@@ -48,7 +48,6 @@ Provide a bulleted list of related recipes and why they are relevant.
 
 * [Book (simplest)][0009]
 * [Book (paging variations)][0011] — The objects shown here are `paged`, but other viewing compositions are possible, including `continuous` for scrolls and rolls.
-* [Multi-volume work][0030] — Not only is this page range a selection from one diary, it is also from one volume of many that make up the complete Sachtleben diaries.
 
 {% include acronyms.md %}
 {% include links.md %}
