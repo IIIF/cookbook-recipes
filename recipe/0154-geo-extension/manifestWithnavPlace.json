@@ -1,6 +1,6 @@
 {
    "@context":[
-      "http://iiif.io/api/example/extension/geographic/context.json"
+      "http://iiif.io/api/example/extension/geographic/context.json",
       "http://iiif.io/api/presentation/3/context.json"
    ],
    "id":"{{ id.url }}",
