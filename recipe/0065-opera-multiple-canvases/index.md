@@ -30,7 +30,6 @@ Given the need for the player to switch context when moving from one file to the
 - [Table of Contents for Multiple A/V files on a Single Canvas][0064] - The same opera from this example but in video format on one canvas.
 - [Simple Manifest - Video][0003]
 - [Thumbnails][0012]
-- [Metadata on any Resource][0029]
 
 {% include acronyms.md %}
 {% include links.md %}
