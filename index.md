@@ -32,7 +32,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * Multiple values and languages (3,4,6)
 * Multiple formats of strings (text, html, markdown...?) (64)
 * Rights statement(s) (7)
-* Book (simplest, > 1 canvas) (19)
+* [Multiple Related Images (Book, etc.)][0009] (19)
 * Book (viewingDirection variations) (11,12,13,14)
 * Book (paging variations) (15,16,17) 
 * thumbnail algorithm / discussion
