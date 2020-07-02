@@ -76,7 +76,7 @@ jobs:
       with:
         step: start
         token: ${{ secrets.GITHUB_TOKEN }}
-        env: production
+        env: stagging
     - name: Deploy to S3
       uses: glenrobson/s3-sync-action@v0.5.1
       with:
