@@ -7,7 +7,7 @@
 {% endcapture %}
 {% if include.type == 'UV' %}
     {% capture viewer_url %}
-        https://uv.netlify.app/#?c=&amp;m=&amp;s=&amp;cv=&amp;manifest={{manifest_url |strip}}
+        https://uv-v3.netlify.app/#?c=&amp;m=&amp;s=&amp;cv=&amp;manifest={{manifest_url |strip}}
     {% endcapture %}
     {% assign default_text="View in Universal Viewer" %}
 {% elsif include.type == 'Mirador' %}
