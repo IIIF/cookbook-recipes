@@ -7,5 +7,7 @@
 [0064]: {{site.baseurl}}/recipe/0064-opera-one-canvas/ "An opera on one Canvas"
 [0065]: {{site.baseurl}}/recipe/0065-opera-multiple-canvases/ "An opera on multiple Canvases"
 
+[0068]: {{site.baseurl}}/recipe/0068-newspaper/ "A newspaper"
+
 [prezi3]: https://iiif.io/api/presentation/3 "IIIF Presentation API"
 [prezi3-languages]: https://iiif.io/api/presentation/3.0/#language-of-property-values "Language of Property Values"
