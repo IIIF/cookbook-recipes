@@ -36,7 +36,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * Book (viewingDirection variations) (11,12,13,14)
 * Book (paging variations) (15,16,17) 
 * thumbnail algorithm / discussion
-* placeholderCanvas
+* [Posters: placeholderCanvas][0013]
 * accompanyingCanvas
 * start (65)
 
