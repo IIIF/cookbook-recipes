@@ -22,7 +22,7 @@ For security reasons, clients allow only `a`, `b`, `br`, `i`, `img`, `p`, `small
 
 ## Example
 
-{% include manifest_links.html viewers="UV" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV,Mirador" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="7,12,24,38"' %}
 
