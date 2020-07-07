@@ -22,7 +22,7 @@ None known.
 
 ## Example
 
-**[FPO content]** In the example, the main content is a video and the `placeholderCanvas` is a promotional artwork for the video.
+In the example, the main content is a video of Donizetti's "L'elisir d'amore" and the `placeholderCanvas` is a stillframe from the video, useful if the video itself is taking a long time to load for the site visitor.
 
 {% include manifest_links.html viewers="UV,Mirador" manifest="manifest.json" %}
 
