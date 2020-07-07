@@ -30,7 +30,7 @@ None known.
 
 ## Example
 
-{% include manifest_links.html viewers="UV" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="15-27"' %}
 
