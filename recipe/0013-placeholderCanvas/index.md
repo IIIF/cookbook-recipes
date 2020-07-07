@@ -30,7 +30,7 @@ None known.
 
 # Related recipes
 
-* [Additional optional accompanying content] describes how to use `accompanyingCanvas`, a similar property to this one.
+* [Additional optional accompanying content][0014] describes how to use `accompanyingCanvas`, a similar property to this one.
 
 {% include acronyms.md %}
 {% include links.md %}
