@@ -10,11 +10,13 @@
 				"duration": 7278.466,
 				"width": 640,
 				"height": 360,
+				"summary": "Video recording of Act 1 of a performance of Donizetti's <cite>L'elisir d'amore</cite>",
         "placeholderCanvas": {
           "id": "{{ id.path }}/canvas/donizetti/placeholder",
           "type": "Canvas",
 					"width": 640,
 					"height": 360,
+					"summary": "Still image from Act 1 of a performance of Donizetti's <cite>L'elisir d'amore</cite>, which should be playable shortly",
           "items": [
             {
               "id": "{{ id.path }}/canvas/donizetti/placeholder/1",
