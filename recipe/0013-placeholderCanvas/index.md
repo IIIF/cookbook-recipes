@@ -26,7 +26,7 @@ In the example, the main content is a video of a performance of Donizetti's _L'e
 
 {% include manifest_links.html viewers="UV,Mirador" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config="data-line='18-45'"%}
+{% include jsonviewer.html src="manifest.json" config="data-line='22-53'"%}
 
 # Related recipes
 
