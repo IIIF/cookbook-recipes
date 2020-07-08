@@ -24,7 +24,7 @@ Each instance of `placeholderCanvas` may only contain one Canvas, and as such ma
 
 In the example, the main content is a video of a performance of Donizetti's _L'elisir d'amore_ and the `placeholderCanvas` is a still frame from the video. For a site visitor with limited bandwidth, it could be helpful to show them the still frame as an implicit notice that the video is downloading.
 
-{% include manifest_links.html viewers="UV,Mirador" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config="data-line='22-53'"%}
 
