@@ -32,7 +32,7 @@ Describe in prose and provide examples, e.g.:
 
 # Related recipes
 
-* [Posters: placeholderCanvas][0013], for presenting content ahead of with another resource.
+* [Posters: placeholderCanvas][0013], for presenting content ahead of another resource.
 
 {% include acronyms.md %}
 {% include links.md %}
