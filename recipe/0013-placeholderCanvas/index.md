@@ -18,7 +18,7 @@ Always keep in mind the wide latitude given conforming clients: It is up to the 
 
 ## Restrictions
 
-Each instance of `placeholderCanvas` may only contain one Canvas, and as such may specifically not contain an additional `placeholderCanvas` or an `accopanyingCanvas`.
+Each instance of `placeholderCanvas` may only contain one Canvas, and as such may specifically not contain an additional `placeholderCanvas` or an `accompanyingCanvas`.
 
 ## Example
 
