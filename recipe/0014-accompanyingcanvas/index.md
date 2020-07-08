@@ -34,13 +34,7 @@ Describe in prose and provide examples, e.g.:
 
 # Related recipes
 
-Provide a bulleted list of related recipes and why they are relevant.
-
+* [Posters: placeholderCanvas][0013], for presenting content ahead of with another resource.
 
 {% include acronyms.md %}
 {% include links.md %}
-
-* [Book (simplest)][0009]
-* Audio (simplest)
-* Video (simplest)
-* [Posters: placeholderCanvas][0013]
