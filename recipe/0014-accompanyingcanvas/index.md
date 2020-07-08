@@ -2,13 +2,13 @@
 title: "Posters: accompanyingCanvas"
 id: 14
 layout: recipe
-tags: [tbc]
+tags: [audio,image]
 summary: "Provide the user with something to look at before they choose to start interacting with the main content, and/or while they wait for it to load/buffer, and/or while interacting with the main content."
 ---
 
 ## Use Case
 
-You have content you'd like to provide to the user to enrich the presentation or experience of the main content. It could be something to experience before the user chooses to start interacting with the main content and/or something additional to consider while interacting with the main content. You might want to have an image available while an audio-only Canvas is playing or period- or theme-appropriate audio to play while a user is navigating an image-only Manifest.
+You have content you'd like to provide to the user to enrich the presentation or experience of the main content. It could be something to experience before the user chooses to start interacting with the main content and/or something additional to consider while interacting with the main content. You might want to have an image available while an audio-only Canvas is playing or, conversely, audio available while a user is navigating an image-only Manifest.
 
 ## Implementation notes
 
