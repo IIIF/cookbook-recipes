@@ -12,7 +12,7 @@ There is a photo taken from an event being encoded as a IIIF Presentation API 3.
 ### Implementation Notes
 * All individual items within the Manifest, as well as the Manifest, are resolvable at the URIs seen in the example.
 * The Manifest used was taken from the [rights](https://github.com/IIIF/cookbook-recipes/issues/8) recipe. If you have any questions about the Manifest, visit that recipe to learn more.
-* The third party GeoJSON-LD context is included alongside the IIIF Presentation 3 context.  This supplies the vocabulary terms for the GeoJSON-LD Annotation bodies. The field `@context` can be an array, and when it is the Presentation API 3 context must be the last item in the array.  
+* The third party GeoJSON-LD context is included alongside the IIIF Presentation 3 context. This supplies the vocabulary terms for the GeoJSON-LD Annotation bodies since the the IIIF Presentation 3 context does not describe those terms. The field `@context` can be an array, and when it is the Presentation API 3 context must be the last item in the array.  
 
 ### Restrictions
 Nested GeoJSON coordinate arrays are incompatible with the processing model of JSON-LD 1.0. The JSON-LD 1.1 processing model does not have this restriction.  
