@@ -3,7 +3,7 @@ title: Geolocated Simple Manifest
 id: 182
 layout: recipe
 tags: [maps, geolocate, annotation]
-summary: "Geolocate a simple Manifest"
+summary: "Geolocate a Manifest"
 ---
 
 ### Use Case 
@@ -23,10 +23,13 @@ Nested GeoJSON coordinate arrays are incompatible with the processing model of J
 http://geo.rerum.io/geolocate/viewAnnotations.html?manifest=https://raw.githubusercontent.com/IIIF/cookbook-recipes/0182-geolocated-simple-manifest/recipe/0182-geolocated-simple-manifest/manifest.json
 
 ## Related IIIF Stories
-* 
+[https://github.com/IIIF/iiif-stories/issues/116](https://github.com/IIIF/iiif-stories/issues/116)
+[https://github.com/IIIF/iiif-stories/issues/119](https://github.com/IIIF/iiif-stories/issues/119)
+[https://github.com/IIIF/iiif-stories/issues/125](https://github.com/IIIF/iiif-stories/issues/125)
+[https://github.com/IIIF/iiif-stories/issues/135](https://github.com/IIIF/iiif-stories/issues/135)
 
 ## Related Recipes
-* [Geolocating Assertion](https://github.com/IIIF/cookbook-recipes/issues/139)
+* [Geolocate Canvas Fragment](https://github.com/IIIF/cookbook-recipes/issues/139)
 
 {% include acronyms.md %}
 {% include links.md %}
