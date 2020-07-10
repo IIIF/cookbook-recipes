@@ -31,7 +31,7 @@ Nested GeoJSON coordinate arrays are incompatible with the processing model of J
 * [https://github.com/IIIF/iiif-stories/issues/135](https://github.com/IIIF/iiif-stories/issues/135)
 
 ## Related Recipes
-* [Geolocate Canvas Fragment](https://github.com/IIIF/cookbook-recipes/issues/139)
+* [Geolocated Canvas Fragment](https://github.com/IIIF/cookbook-recipes/issues/139)
 
 {% include acronyms.md %}
 {% include links.md %}
