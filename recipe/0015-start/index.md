@@ -14,7 +14,9 @@ Often an audio or video resource will have content that is part of the object bu
 
 This recipe extends [Simplest Manifest - Video][0003] by adding the information required by a client to start playback at a particular point. This is done by adding the `start` property to the Manifest with the start time in seconds.
 
-Referencing the start point is much like is much the same as referencing part of a Canvas in Ranges, the value of which must be a JSON object with `id` and `type` properties. In this use case, the value of the `start` property is a `PointSelector` that identifies a timepoint within a particular Canvas.
+Referencing the start point is much the same as referencing part of a Canvas in Ranges. The value of `start` must be a JSON object with `id` and `type` properties and can be either a Canvas or a Specific Resource with a Selector.
+
+In this use case, the `type` is a Specific Resource with a `PointSelector` that identifies a timepoint within a particular Canvas (the `source`).
 
 ### About selector classes:
 
