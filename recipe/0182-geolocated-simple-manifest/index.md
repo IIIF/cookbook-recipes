@@ -17,7 +17,7 @@ There is a photo taken from an event being encoded as a IIIF Presentation API 3.
 Nested GeoJSON coordinate arrays are incompatible with the processing model of JSON-LD 1.0. The JSON-LD 1.1 processing model does not have this restriction.  
 
 ### Manifest
-{% include jsonviewer.html src="manifest.json" config='data-line=""' %}
+{% include jsonviewer.html src="manifest.json" %}
 
 ### Demo UI For This Recipe Manifest
 [Manifest Corrdinates in Leaflet](http://geo.rerum.io/geolocate/viewAnnotations.html?manifest=https://raw.githubusercontent.com/IIIF/cookbook-recipes/0182-geolocated-simple-manifest/recipe/0182-geolocated-simple-manifest/manifest.json)
