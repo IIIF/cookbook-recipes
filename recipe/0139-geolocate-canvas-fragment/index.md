@@ -1,5 +1,5 @@
 ---
-title: Geographical Assertion Annotation 
+title: Geolocated Canvas Fragment
 id: 139
 layout: recipe
 tags: [maps, geolocate, annotation]
