@@ -13,7 +13,8 @@ There is a region of interest on a Canvas that could be further described by kno
 An example of a Manifest that has a Canvas fragment geolocated via a geographic point. The word "Paris" appears on the image and the region containing the word is targeted by two Annotations. One Annotation supplements the fragment with the text "Paris". The other Annotation supplies coordinates centered on Paris, France in order to supply a geographic reference.
 
 ### Implementation Notes
-* All individual items within the Manifest, as well as the Manifest, are resolvable at the URIs seen in the example.  
+* All individual items within the Manifest, as well as the Manifest, are resolvable at the URIs seen in the example. 
+* The third party GeoJSON-LD context is included alongside the IIIF Presentation 3 context. This supplies the vocabulary terms for the GeoJSON-LD Annotation bodies since the the IIIF Presentation 3 context does not describe those terms. The field `@context` can be an array, and when it is the Presentation API 3 context must be the last item in the array. 
 * `supplementing` was used as the Annotation motivation throughout. The IIIF-Maps group is working on proper motivation extensions for the various kinds of geographic assertions that could be made. The proposed motivations are `geocode`, `georeference`, `geolocate`, `georectify`, and `co-locate`.
 * The Annotation could also keep the `supplementing` motivation and the [Annotation body could note a purpose](https://www.w3.org/TR/annotation-model/#purpose-for-external-web-resources).  Usually, purpose is used to represent multiple motivations.  
 * GeoJSON `properties` is a very generic field and [can be nearly anything](https://tools.ietf.org/html/rfc7946#section-3.2). If, for example, the targeted resource has a `label` and the `properties` field contains a `label`, the consuming interface must make a choice on which to preference for presentation purposes.
