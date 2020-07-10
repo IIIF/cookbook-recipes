@@ -36,8 +36,8 @@ This Manifest contains one Canvas with one Image, and the Canvas has the same si
 * [https://github.com/IIIF/iiif-stories/issues/135](https://github.com/IIIF/iiif-stories/issues/135)
 
 ## Related Recipes
-* [Geographic Extension]()
-* [Geolocated Simple Manifest]()
+* [Geographic Extension][]
+* [Geolocate Manifest][]
 
 {% include acronyms.md %}
 {% include links.md %}
