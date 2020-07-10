@@ -2,8 +2,12 @@
     "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "{{ id.url }}",
     "type": "Manifest",
-    "label": { "en": [ "The 'Start' Property - Time-based media" ] },
+    "label": {
+      "en": [ "The 'Start' Property - Time-based media"
+        ]
+    },
     "start": {
+        "id": "{{ id.path }}/canvas-start/segment1",
         "type": "SpecificResource",
         "source": "{{ id.path }}/canvas/segment1",
         "selector": {

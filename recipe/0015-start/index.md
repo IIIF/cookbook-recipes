@@ -14,14 +14,14 @@ Often an audio or video resource will have content that is part of the object bu
 
 This recipe extends [Simplest Manifest - Video][0003] by adding the information required by a client to start playback at a particular point. This is done by adding the `start` property to the Manifest with the start time in seconds.
 
-In this use case, the value of the `start` property is a `PointSelector` that identifies a timepoint within a particular Canvas.
+Referencing the start point is much like is much the same as referencing part of a Canvas in Ranges, the value of which must be a JSON object with `id` and `type` properties. In this use case, the value of the `start` property is a `PointSelector` that identifies a timepoint within a particular Canvas.
 
 ### About selector classes:
 
 Selectors in Annotations are used to describe how to retrieve a given part of a resource. There are three Selector classes defined in the IIIF specification:
-* `ImageApiSelector` describes the properties/operations available to retrieve a particular image presentation, such as region, size, rotation, etc.
-* `PointSelector` describes the properties available to select a specific point either spatially (`x`, `y`) or temporally (`t`).
-* Content Selectors, `AudioContentSelector` and `VisualContentSelector`, allow the publisher to refer to only one aspect of the content, either audio or visual. This can be used to refer to visual content from one resource and audio content from another.
+* [`ImageApiSelector`](https://iiif.io/api/annex/openannotation/#iiif-image-api-selector) describes the properties/operations available to retrieve a particular image presentation, such as region, size, rotation, etc.
+* [`PointSelector`](https://iiif.io/api/annex/openannotation/#point-selector) describes the properties available to select a specific point either spatially (`x`, `y`) or temporally (`t`).
+* [Content Selectors](https://iiif.io/api/annex/openannotation/#content-selectors), `AudioContentSelector` and `VisualContentSelector`, allow the publisher to refer to only one aspect of the content, either audio or visual. This can be used to refer to visual content from one resource and audio content from another.
 
 For more on the above Selectors, see: [IIIF Open/Web Annotation Extensions](https://iiif.io/api/annex/openannotation/). For additional Selectors, see the [WC3 Web Annotation Selectors](https://www.w3.org/TR/annotation-model/#selectors) (in particular, the FragmentSelector).
 
@@ -33,7 +33,7 @@ This example shows a Manifest with a single Canvas that lasts for 1801.055 secon
 
 {% include manifest_links.html viewers="UV" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" %}
+{% include jsonviewer.html src="manifest.json" config='data-line="10-17"' %}
 
 # Related recipes
 
