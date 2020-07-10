@@ -94,7 +94,8 @@ The response has varied accordingly:
     < date: Wed, 24 Jun 2020 06:29:39 GMT
     < content-type: application/ld+json;profile="http://iiif.io/api/presentation/3/context.json"
 
-The response should be a v3 manifest:
+The response should be a v3 manifest. Note that the value of the `id` field remains the same as the v2
+response:
 
 {% include jsonviewer.html src="manifest-v3.json" %}
 
