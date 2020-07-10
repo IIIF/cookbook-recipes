@@ -16,7 +16,7 @@ This recipe extends [Simplest Manifest - Video][0003] by adding the information 
 
 Referencing the start point is much the same as referencing part of a Canvas in Ranges. The value of `start` must be a JSON object with `id` and `type` properties and can be either a Canvas or a Specific Resource with a Selector.
 
-In this use case, `type` is a Specific Resource with a `PointSelector` that identifies a timepoint within a particular Canvas (the `source`).
+In this use case, `type` is a SpecificResource with the Selector `type` `PointSelector` that identifies a timepoint within the `source`.
 
 ### About selector classes:
 
