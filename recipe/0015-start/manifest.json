@@ -9,7 +9,7 @@
     "start": {
         "id": "{{ id.path }}/canvas-start/segment1",
         "type": "SpecificResource",
-        "source": "{{ id.path }}/canvas/segment1",
+        "source": "{{ id.path }}/annotation/segment1-video",
         "selector": {
             "type": "PointSelector",
             "t": 120.5
