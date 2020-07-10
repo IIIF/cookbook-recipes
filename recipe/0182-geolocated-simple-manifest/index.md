@@ -1,5 +1,5 @@
 ---
-title: Geolocated Simple Manifest
+title: Geolocated Manifest
 id: 182
 layout: recipe
 tags: [maps, geolocate, annotation]
