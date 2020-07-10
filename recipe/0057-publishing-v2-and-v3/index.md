@@ -98,29 +98,6 @@ The response should be a v3 manifest:
 
 {% include jsonviewer.html src="manifest-v3.json" %}
 
-To illustrate the case where a server is unable to fulfil a request, a "sequence" resource is requested with
-a version 3 Accept header. This resource type is available in version 2 manifests, but was removed in version 3.
-
-    $ curl -v -H "Accept: application/ld+json;profile="http://iiif.io/api/presentation/3/context.json"" "https://iiif.bodleian.ox.ac.uk/iiif/sequence/7c99ac4d-c4db-43d3-97e4-40fee56fedf4_default.json"
-
-    > GET /iiif/sequence/7c99ac4d-c4db-43d3-97e4-40fee56fedf4_default.json HTTP/2
-    > Host: iiif.bodleian.ox.ac.uk
-    > User-Agent: curl/7.64.1
-    > Accept: application/ld+json;profile=http://iiif.io/api/presentation/3/context.json
-    >
-    < HTTP/2 406
-    < server: nginx/1.18.0
-    < date: Wed, 24 Jun 2020 06:34:54 GMT
-    < content-type: text/plain; charset=utf-8
-    < content-length: 61
-
-    The requested resource is not available as a IIIFv3 response.
-
-# Related recipes
-
-Provide a bulleted list of related recipes and why they are relevant.
-
-
 {% include acronyms.md %}
 {% include links.md %}
 
