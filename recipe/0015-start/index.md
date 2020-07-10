@@ -14,7 +14,7 @@ Often an audio or video resource will have content that is part of the object bu
 
 This recipe extends [Simplest Manifest - Video][0003] by adding the information required by a client to start playback at a particular point. This is done by adding the `start` property to the Manifest with the start time in seconds.
 
-Referencing the start point is much the same as referencing part of a Canvas in Ranges. The value of `start` must be a JSON object with `id` and `type` properties and can be either a Canvas or a Specific Resource with a Selector.
+The target of `start` must be a JSON object with `id` and `type` properties and can be either a Canvas, or a Specific Resource with a Selector and a `source` property where the value is a Canvas.
 
 In this use case, `type` is a SpecificResource with the Selector `type` `PointSelector` that identifies a timepoint within the `source`.
 
@@ -31,7 +31,7 @@ For more on the `start` property, see: [https://iiif.io/api/presentation/3.0/#st
 
 ## Example
 
-This example shows a Manifest with a single Canvas that lasts for 1801.055 seconds. It has a single video file (30-minute-clock.mp4) which is associated with it. The `start` property specifies a start point of 120.5 seconds into the playback.
+This example shows a Manifest with a single Canvas that lasts for 1801.055 seconds. It has a single video file (30-minute-clock.mp4) which is associated with it. The `start` property specifies a start point of 120.5 seconds into the playback. *Note: The `start` property for time-based objects is not yet supported in viewers.*
 
 {% include manifest_links.html viewers="UV" manifest="manifest.json" %}
 
