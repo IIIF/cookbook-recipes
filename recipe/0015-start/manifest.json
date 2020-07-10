@@ -9,7 +9,7 @@
     "start": {
         "id": "{{ id.path }}/canvas-start/segment1",
         "type": "SpecificResource",
-        "source": "https://fixtures.iiif.io/video/indiana/30-minute-clock/medium/30-minute-clock.mp4",
+        "source": "{{ id.path }}/annotation/segment1-video",
         "selector": {
             "type": "PointSelector",
             "t": 120.5
