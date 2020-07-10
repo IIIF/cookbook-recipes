@@ -12,10 +12,6 @@ The [IIIF Presentation API][prezi3] specifies a standardised way to describe com
 * enable client software developers to support these patterns, for consistency of user experience (when desirable);
 * demonstrate the applicability of IIIF to a broad range of use cases.
 
-The cookbook will eventually be part of the main [iiif.io](https://iiif.io) site, but is currently a separate previewable site:
-
-[https://preview.iiif.io/cookbook/master/recipe/](https://preview.iiif.io/cookbook/master/recipe/)
-
 The issues of the [Cookbook Recipes repository](https://github.com/IIIF/cookbook-recipes/issues) are used to identify and discuss cookbook recipes, prior to their inclusion in the final cookbook site. 
 
 # Contributing
@@ -120,7 +116,7 @@ _(leading on to segmentation examples later)_
 * An opera on multiple Canvases
 * Adaptive bit rate AV examples
 * A field recording
-* A newspaper
+* [A newspaper][0068]
 * Example with extensions and services 
 * A manuscript with multiple orderings
 * a Sammelband
