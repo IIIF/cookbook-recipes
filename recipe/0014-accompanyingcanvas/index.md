@@ -24,14 +24,13 @@ Each instance of `accompanyingCanvas` may only contain one Canvas, and as such m
 
 ## Example
 
-Describe in prose and provide examples, e.g.: 
-
 {% include manifest_links.html viewers="UV" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config="data-line='15-53'"%}
 
 # Related recipes
 
+* [Simplest Manifest - Video][0003]
 * [Posters: placeholderCanvas][0013], for presenting content ahead of another resource.
 
 {% include acronyms.md %}
