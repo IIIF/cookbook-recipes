@@ -24,6 +24,8 @@ Each instance of `accompanyingCanvas` may only contain one Canvas, and as such m
 
 ## Example
 
+In the example, the main content is audio of a performance of Gustav Mahler's __ and the `accompanyingCanvas` is an image of a page from the score. _Note: The `accompanyingCanvas` property for time-based objects is not yet supported in viewers._
+
 {% include manifest_links.html viewers="UV" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config="data-line='15-53'"%}
