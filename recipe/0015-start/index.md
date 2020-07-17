@@ -16,11 +16,11 @@ This recipe extends [Simplest Manifest - Video][0003] by adding the information 
 
 The target of `start` must be a JSON object with `id` and `type` properties and can be either a Canvas, or a Specific Resource with a Selector and a `source` property where the value is a Canvas.
 
-In this use case, `type` is a Specific Resource with the Selector `PointSelector` that identifies a timepoint within the `source`.
+In this use case, the target `type` property is a Specific Resource (`"type": "SpecificResource"`), and the Selector `type` property is a Point Selector (`"type": "PointSelector"`) that identifies a starting timepoint (`"t": 120.5`) within the `source`.
 
 ### About selector classes:
 
-Selectors in Annotations are used to describe how to retrieve a given part of a resource. There are three Selector classes defined in the IIIF specification:
+Selectors in Annotation targets are used to describe how to retrieve a given part of a resource. There are three Selector classes defined in the IIIF specification:
 * [`ImageApiSelector`](https://iiif.io/api/annex/openannotation/#iiif-image-api-selector) describes the properties/operations available to retrieve a particular image presentation, such as region, size, rotation, etc.
 * [`PointSelector`](https://iiif.io/api/annex/openannotation/#point-selector) describes the properties available to select a specific point either spatially (`x`, `y`) or temporally (`t`).
 * [Content Selectors](https://iiif.io/api/annex/openannotation/#content-selectors), `AudioContentSelector` and `VisualContentSelector`, allow the publisher to refer to only one aspect of the content, either audio or visual. This can be used to refer to visual content from one resource and audio content from another.
@@ -31,7 +31,9 @@ For more on the `start` property, see: [https://iiif.io/api/presentation/3.0/#st
 
 ## Example
 
-This example shows a Manifest with a single Canvas that lasts for 1801.055 seconds. It has a single video file (30-minute-clock.mp4) which is associated with it. The `start` property specifies a start point of 120.5 seconds into the playback. *Note: The `start` property for time-based objects is not yet supported in viewers.*
+This example shows a Manifest with a single Canvas with a duration of 1801.055 seconds. It has a single video file (30-minute-clock.mp4) which is associated with it. The `start` property specifies a start point of 120.5 seconds into the playback.
+
+*Note: As of the writing of this recipe, playback of video content is supported by some viewers (Universal Viewer), but the `start` property for time-based objects is not yet supported in viewers.*
 
 {% include manifest_links.html viewers="UV" manifest="manifest.json" %}
 
@@ -40,7 +42,7 @@ This example shows a Manifest with a single Canvas that lasts for 1801.055 secon
 # Related recipes
 
 * [Simplest Manifest - Video][0003] shows a manifest for a simple video resource.
-* [The 'Start' Property - Spatial] demonstrates the `start` property with a spatial (map) resource.
+<!-- * [The 'Start' Property - Spatial] demonstrates the `start` property with a spatial (map) resource. -->
 
 
 {% include acronyms.md %}
