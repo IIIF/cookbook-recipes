@@ -22,7 +22,7 @@ Each instance of `placeholderCanvas` may only contain one Canvas, and as such ma
 
 ## Example
 
-In the example, the main content is a video of a performance of Donizetti's _L'elisir d'amore_ and the `placeholderCanvas` is a still frame from the video. For a site visitor with limited bandwidth, showing the still frame allows them to get an advance look at performance aspects such as costuming, staging, and set design.
+In the example, the main content is a video of a performance of Donizetti's _L'elisir d'amore_ and the `placeholderCanvas` is a still frame from the video. For a site visitor with limited bandwidth, showing the still frame allows them to get an advance look at performance aspects such as costuming, staging, and set design. _Note: The `placeholderCanvas` property for time-based objects is not yet supported in viewers._
 
 {% include manifest_links.html viewers="UV" manifest="manifest.json" %}
 
