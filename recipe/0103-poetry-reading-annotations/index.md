@@ -26,7 +26,7 @@ There is a third use case where manifests are unaware of annotations on them, bu
 
 1. This implementation builds off of the [audio example][0002], but adds Web Annotations.
 
-2. This recipe shows two variations of referencing annotations from within a manifest.  The first has the annotations embedded within the manifest file.  The second has a reference to annotations in a separate file.
+2. This recipe shows one variation of referencing annotations from within a manifest, referencing annotations in a separate file.  Note that annotations may also be embedded within the manifest file.
 
 3. Where we use "RangeSelector" for the annotation target, we could instead use a Media Fragment like "#t=1.23,2.23" appended to the canvas URL. Instead of "source" you'd condense it into the "target" field.  For example:
 
@@ -59,19 +59,13 @@ There is a third use case where manifests are unaware of annotations on them, bu
 
 ## Example
 
-A manifest for the poem "Her Kind" read by Anne Sexton in 1974.  The recording is 107 seconds long.  Annotations are included in the manifest and show both a point annotation (at a particular time) and a range annotation (covering a time range).
-
-{: .line-numbers data-src="manifest1.json" }
-```json
-```
-
-The same manifest, but with a reference to annotations in a separate file.  The annotation file is included below the manifest. 
+A manifest for the poem "Her Kind" read by Anne Sexton in 1974.  The recording is 107 seconds long.  The manifest references in a separate file.  (The annotation file is included below the manifest.)
 
 {: .line-numbers data-src="manifest2.json" }
 ```json
 ```
 
-The annotations in a separate file.
+The annotations are in a separate file, showing both a point annotation (at a particular time) and a range annotation (covering a time range)..
 
 {: .line-numbers data-src="annotations.json" }
 ```json
