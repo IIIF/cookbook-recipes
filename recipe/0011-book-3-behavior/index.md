@@ -34,12 +34,9 @@ None known
 
 This manifest shows the playbill for "Akiba gongen kaisen-banashi," "Futatsu chōchō kuruwa nikki", and "Godairiki koi no fūjime", kabuki performances at the Chikugo Theater in Osaka from the fifth month of Kaei 2 (May, 1849).
 
-[JSON-LD](manifest-paged.json)
-[View in Universal Viewer](https://universalviewer.io/examples/#?manifest={{ site.url }}{{ site.baseurl }}{{ page.url }}manifest-paged.json)
+{% include manifest_links.html viewers="UV, Mirador" manifest="manifest-paged.json" %}
 
-{: .line-numbers data-download-link data-download-link-label="Download me" data-line="15" data-src="manifest-paged.json" }
-```json
-```
+{% include jsonviewer.html src="manifest-paged.json" config='data-line="15"' %}
 
 ## Example 2: `behavior` `continuous`
 
@@ -47,24 +44,19 @@ This manifest represents an Ethiopian scroll, written in Gez for Walata Eyasus (
 
 Note that as of the writing of this recipe, the `behavior` value of `continuous` has no noticeable effect in the Universal Viewer demonstration linked below. However, for forward compatibility it is a part of the manifest.
 
-[JSON-LD](manifest-continuous.json)
-[View in Universal Viewer](https://universalviewer.io/examples/#?manifest={{ site.url }}{{ site.baseurl }}{{ page.url }}manifest-continuous.json)
+{% include manifest_links.html viewers="UV, Mirador" manifest="manifest-continuous.json" %}
 
-{: .line-numbers data-download-link data-download-link-label="Download me" data-line="15-18" data-src="manifest-continuous.json" }
-```json
-```
+{% include jsonviewer.html src="manifest-continuous.json" config='data-line="15"' %}
+
 ## Example 3: `behavior` `individuals`
 
 This manifest represents an Ethiopian scroll, written in Gez for Walata Eyasus (secular name Berenash), that contains prayers to guard against epilepsy and for the binding of demons. Its full length is 2.245m and is roughly .11m wide over its length.
 
 Note that as of the writing of this recipe, the `behavior` value of `continuous` has no noticeable effect in the Universal Viewer demonstration linked below. However, for forward compatibility it is a part of the manifest.
 
-[JSON-LD](manifest-individuals.json)
-[View in Universal Viewer](https://universalviewer.io/examples/#?manifest={{ site.url }}{{ site.baseurl }}{{ page.url }}manifest-individuals.json)
+{% include manifest_links.html viewers="UV, Mirador" manifest="manifest-individuals.json" %}
 
-{: .line-numbers data-download-link data-download-link-label="Download me" data-line="15-18" data-src="manifest-individuals.json" }
-```json
-```
+{% include jsonviewer.html src="manifest-indivisuals.json" config='data-line="15"' %}
 
 # Related recipes
 
