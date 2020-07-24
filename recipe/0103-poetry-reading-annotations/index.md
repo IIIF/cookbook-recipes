@@ -54,7 +54,7 @@ There is a third use case where manifests are unaware of annotations on them, bu
 
     Both are correct.
 
-    4.  Because the annotations are pointing out features of the audio, rather than transcriptions, the "motivation" for each annotation is "commenting" not "supplementing".  (If the annotations were transcriptions, their motivation would be "supplementing".)
+4.  Because the annotations are pointing out features of the audio, rather than transcriptions, the "motivation" for each annotation is "commenting" not "supplementing".  (If the annotations were transcriptions, their motivation would be "supplementing".)
 
 
 ## Example
