@@ -2,10 +2,11 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "{{ id.url }}",
   "type": "Manifest",
-  "label": { "en": [ "Scroll with Top-to-Bottom Viewing Direction" ] },
+  "label": { "en": [ "Scroll with 'Continuous' Behavior" ] },
   "summary": { "en": ["A magical scroll with magical prayers against epilepsy and also prayers for the binding of demons. Text in black ink. Some words and divine and owner's names in red ink. Illustrations: Two images in ink and color of angels and one magical drawing. The scroll was written for Walata Eyasus (her secular name is Berenash)."] },
-  "viewingDirection": "top-to-bottom",
+
   "behavior": ["continuous"],
+
   "items": [
     {
       "id": "{{ id.path }}/canvas/v1",
@@ -23,7 +24,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id":                
+                "id":
 "https://iiif.io/api/image/3.0/example/reference/1744f1ad7504a10186177898779bb78e-ucla_ethiopic46_1_21198-zz001nwtnn_1870024_master/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
