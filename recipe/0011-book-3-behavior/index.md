@@ -3,7 +3,7 @@ title: Book (paging and other behavior variations)
 id: 11
 layout: recipe
 tags: [image, text, layout]
-summary: "These manifests use the 'behavior' property to specify how the canvases should be displayed in the viewer in relation to one another, such as paged for a book or continuous for a scroll."
+summary: "These manifests use the 'behavior' property to specify how the Canvases should be displayed in the viewer in relation to one another, such as paged for a book or continuous for a scroll."
 ---
 
 ## Use Cases
