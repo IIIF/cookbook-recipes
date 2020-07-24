@@ -10,9 +10,9 @@ summary: "These manifests use the 'behavior' property to specify how the canvase
 
 ... inform a client of the appropriate presentation configuration and navigational cues for a variety of Canvas relationships. Some examples include book view layout for books imaged with one image per page, or if imaged with one image per 2-page spread; images that can be stitched together in the viewer for a continuous view, such as a scroll imaged in multiple shots; or individual items such as inserts, foldouts, etc. This recipe provides examples for three different use cases:
 
-Use case 1: A book object that has the concept of recto and verso,  are paged.
+Use case 1: A book object that has the concept of recto and verso,  with one image per page that is best presented in book view, with two facing pages displaying next to one another.
 
-Use case 2: I have a scroll object
+Use case 2: A scroll object
 
 Use case 3: I have a book object... shot two up -OR- manuscript fragments from a single manuscript (I have objects that are photographed in different ways (one image per page, one image per pair of open pages, etc).)
 
@@ -67,8 +67,6 @@ Note that as of the writing of this recipe, the `behavior` value of `continuous`
 ```
 
 # Related recipes
-
-Provide a bulleted list of related recipes and why they are relevant.
 
 * [Book (simplest)][0009]
 * [Book (paging variations)][0011]
