@@ -11,28 +11,21 @@ summary: "The simplest viable manifest for video content. This pattern presents 
 
 The simplest viable manifest for video content. This pattern presents a single video file in a IIIF Presentation resource.
 
-## Implementation notes
+## Implementation Notes
 
-The implementation is identical to the [image example][0001], except that the content is audio and the canvas has a duration instead of a height and width.
-
-## Restrictions
-
-None known.
+The implementation is identical to the [image example][0001], except that the content is video and the canvas has a duration as well as a height and width.
 
 ## Example
 
+This example shows a Manifest with a single Canvas that lasts for 1801 seconds, or just over 30 minutes. It has a single video file (30-minute-clock.mp4) which is associated with it. The mp4 also has a duration of 30 minutes.
 
-This example shows a Manifest with a single Canvas that lasts for 3600 seconds, or exactly one hour. It has a single audio file (audio-sample.mp4) which is associated with it. The mp4 also has a duration of exactly one hour.
+{% include manifest_links.html viewers="UV" manifest="manifest.json" %}
 
-{: .line-numbers data-src="manifest.json" }
-```json
-```
+{% include jsonviewer.html src="manifest.json" %}
 
-# Related recipes
+# Related Recipes
 
-Provide a bulleted list of related recipes and why they are relevant.
-
+* [Simplest Manifest - Image][0001] and [Simplest Manifest - Audio][0002] are equivalent to this example.
 
 {% include acronyms.md %}
 {% include links.md %}
-

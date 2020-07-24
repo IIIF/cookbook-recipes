@@ -1,8 +1,7 @@
 ---
-title: Automated recipe list
-layout: default
+title: Full recipe list
+layout: recipe
 ---
-
 
 <ul>
   {% assign recipes = site.pages | where_exp:"recipe","recipe.id > 0" %}
