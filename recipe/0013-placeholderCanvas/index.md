@@ -33,7 +33,7 @@ _Note: The `placeholderCanvas` property for time-based objects is not yet suppor
 # Related recipes
 
 * [Simplest Manifest - Video][0003]
-* [Posters: placeholderCanvas][0014], for presenting content simultaneously with another resource.
+* [Audio Presentation with Accompanying Image][0014], using `accompanyingCanvas` to present one resource simultaneously with another.
 
 {% include acronyms.md %}
 {% include links.md %}
