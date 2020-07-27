@@ -1,5 +1,5 @@
 ---
-title: "Posters: placeholderCanvas"
+title: "Load a Preview Image Before the Main Content"
 id: 13
 layout: recipe
 tags: video, audio, image, av
@@ -26,7 +26,7 @@ In the example, the main content is a video of a performance of Donizetti's _L'e
 
 _Note: The `placeholderCanvas` property for time-based objects is not yet supported in viewers._
 
-{% include manifest_links.html viewers="UV" manifest="manifest.json" %}
+{% include manifest_links.html viewers="" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config="data-line='22-53'"%}
 
