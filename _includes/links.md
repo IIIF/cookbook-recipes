@@ -3,7 +3,7 @@
 [0001]: {{site.baseurl}}/recipe/0001-mvm-image/ "Simplest Manifest - Image"
 [0002]: {{site.baseurl}}/recipe/0002-mvm-audio/ "Simplest Manifest - Audio"
 [0003]: {{site.baseurl}}/recipe/0003-mvm-video/ "Simplest Manifest - Video"
-[0014]: {{site.baseurl}}/recipe/0014-accompanyingcanvas/ "Posters: accompanyingCanvas"
+[0014]: {{site.baseurl}}/recipe/0014-accompanyingcanvas/ "Audio Presentation with Accompanying Image"
 
 [0068]: {{site.baseurl}}/recipe/0068-newspaper/ "A newspaper"
 

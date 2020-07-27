@@ -35,7 +35,7 @@ _Note: The `accompanyingCanvas` property for time-based objects is not yet suppo
 # Related recipes
 
 * [Simplest Manifest - Video][0003]
-* [Posters: placeholderCanvas][0013], for presenting content ahead of another resource.
+* [Load a Preview Image Before the Main Content][0013], using `placeholderCanvas` to present one resource ahead of another.
 
 {% include acronyms.md %}
 {% include links.md %}
