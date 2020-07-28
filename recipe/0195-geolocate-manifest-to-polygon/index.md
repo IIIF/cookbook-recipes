@@ -7,7 +7,7 @@ summary: "Geolocate a Manifest to a Polygonal area on Earth."
 ---
 
 ### Use Case 
-There is a photo taken from an event being encoded as a IIIF Presentation API 3.0 Manifest. The Manifest needs to be geolocated to the bounding area of Göttingen, Germany where the event ook place.  Unfortunately, the exact Point coordinates are not known.  
+There is a photo taken from an event being encoded as a IIIF Presentation API 3.0 Manifest. The Manifest needs to be geolocated to the bounding area of Göttingen, Germany where the event took place.  Unfortunately, the exact Point coordinates are not known.  
 
 ### Implementation Notes
 * This Manifest extends the Manifest used in the [rights](https://github.com/IIIF/cookbook-recipes/issues/8) recipe. If you have any questions about the Manifest, visit that recipe to learn more.
