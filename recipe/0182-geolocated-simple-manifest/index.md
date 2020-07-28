@@ -1,13 +1,13 @@
 ---
-title: Geolocated Manifest
+title: Geolocated Manifest to a Point
 id: 182
 layout: recipe
 tags: [maps, geolocate, annotation]
-summary: "Geolocate a Manifest"
+summary: "Geolocate a Manifest to specific Point coordinates."
 ---
 
 ### Use Case 
-There is a photo taken from an event being encoded as a IIIF Presentation API 3.0 Manifest. The Manifest needs to be geolocated to the event's main building using coordinates.  
+There is a photo taken from an event being encoded as a IIIF Presentation API 3.0 Manifest. The Manifest needs to be geolocated to the event's main building using Point coordinates.  
 
 ### Implementation Notes
 * This Manifest extends the Manifest used in the [rights](https://github.com/IIIF/cookbook-recipes/issues/8) recipe. If you have any questions about the Manifest, visit that recipe to learn more.
