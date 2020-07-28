@@ -21,7 +21,7 @@ Nested GeoJSON coordinate arrays are incompatible with the processing model of J
 {% include jsonviewer.html src="manifest.json" config='data-line="68-97"'  %}
 
 ### Interface Example For This Recipe Manifest
-[Manifest Coordinates in Leaflet](http://geo.rerum.io/geolocate/viewAnnotations.html?manifest=https://preview.iiif.io/cookbook/0182-geolocated-simple-manifest/recipe/0182-geolocated-simple-manifest/manifest.json)
+[Manifest Coordinates in Leaflet](http://geo.rerum.io/geolocate/viewAnnotations.html?manifest=https://preview.iiif.io/cookbook/0195-geolocate-manifest-to-polygon/recipe/0195-geolocate-manifest-to-polygon/manifest.json)
 
 ## Related IIIF Stories
 * [https://github.com/IIIF/iiif-stories/issues/116](https://github.com/IIIF/iiif-stories/issues/116)
