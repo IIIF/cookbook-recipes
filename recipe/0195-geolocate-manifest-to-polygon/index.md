@@ -1,13 +1,13 @@
 ---
-title: Geolocated Manifest
-id: 182
+title: Geolocate Manifest to a Polygon
+id: 195
 layout: recipe
 tags: [maps, geolocate, annotation]
-summary: "Geolocate a Manifest"
+summary: "Geolocate a Manifest to a Polygonal area on Earth."
 ---
 
 ### Use Case 
-There is a photo taken from an event being encoded as a IIIF Presentation API 3.0 Manifest. The Manifest needs to be geolocated to the event's main building using coordinates.  
+There is a photo taken from an event being encoded as a IIIF Presentation API 3.0 Manifest. The Manifest needs to be geolocated to the city in which the event is taking place since the exact coordinates are not known.  
 
 ### Implementation Notes
 * This Manifest extends the Manifest used in the [rights](https://github.com/IIIF/cookbook-recipes/issues/8) recipe. If you have any questions about the Manifest, visit that recipe to learn more.
@@ -31,6 +31,7 @@ Nested GeoJSON coordinate arrays are incompatible with the processing model of J
 
 ## Related Recipes
 * [Geolocated Canvas Fragment](https://github.com/IIIF/cookbook-recipes/issues/139)
+* [Geolocate Manifest to a Point](https://github.com/IIIF/cookbook-recipes/issues/139)
 
 {% include acronyms.md %}
 {% include links.md %}
