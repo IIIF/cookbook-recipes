@@ -1,5 +1,5 @@
 ---
-title: Geolocated Canvas Fragment to a Point
+title: Geolocate Canvas Fragment to a Point
 id: 139
 layout: recipe
 tags: [maps, geolocate, annotation]
