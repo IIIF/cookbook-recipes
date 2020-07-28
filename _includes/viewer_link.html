@@ -1,0 +1,31 @@
+{% capture manifest_url %}
+    {% if include.manifest contains 'http' %}
+        {{ include.manifest }}
+    {% else %}
+        {{ site.url }}{{ site.baseurl }}{{ page.url}}{{ include.manifest }}
+    {% endif %}
+{% endcapture %}
+{% if include.type == 'UV' %}
+    {% capture viewer_url %}
+        https://uv-v3.netlify.app/#?c=&amp;m=&amp;s=&amp;cv=&amp;manifest={{manifest_url |strip}}
+    {% endcapture %}
+    {% assign default_text="View in Universal Viewer" %}
+{% elsif include.type == 'Mirador' %}
+    {% capture viewer_url %}
+        https://projectmirador.org/embed/?iiif-content={{manifest_url |strip}}
+    {% endcapture %}
+    {% assign default_text="View in Mirador" %}
+{% elsif include.type == 'Tify' %}
+    {% capture viewer_url %}
+        https://demo.tify.rocks/demo.html?manifest={{manifest_url |strip}}
+    {% endcapture %}
+    {% assign default_text="View in Tify" %}
+{% elsif include.type == 'Curation' %}
+    {% capture viewer_url %}
+        http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest={{manifest_url |strip}}
+    {% endcapture %}
+    {% assign default_text="View in IIIF Curation Viewer" %}
+{% else %}    
+    {% capture default_text %}Unknown Viewer type '{{ include.type}}'{% endcapture %}
+    {% capture viewer_url %}{{manifest_url |strip}}{% endcapture %}
+{% endif %}<a href="{{ viewer_url | strip }}" target="_blank">{{ include.text | default: default_text }}</a>

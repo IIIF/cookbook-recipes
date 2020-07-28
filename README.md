@@ -1,24 +1,83 @@
-# IIIF cookbook recipes
+# IIIF cookbook recipes repository
 
-The issues of this repository are used to identify and discuss cookbook recipes, prior to their inclusion in the cookbook section of the API repository. 
+This repository is the source location for the IIIF 3.0 recipes. The aim is to show how to model various use cases in workable IIIF presentation assets.
 
-[See all issues](https://github.com/IIIF/cookbook-recipes/issues)
+## Contributing
 
-Anyone is welcome to submit a recipe idea. Sometimes the person who raises the recipe issue then goes on to write the recipe, but this doesn't have to be the case. The need for a recipe may be expressed before its form is known; the comments on the recipe issue are where the recipe is discussed and elaborated.
+Please see the [Cookbook Process](recipe/index.md).
 
-For further details, see the _[Process](https://preview.iiif.io/api/image-prezi-rc2/api/cookbook/#process)_ section of the API site.
+## Jekyll Variables and Templates
 
-Before a pull request to the API repository is opened, the recipe is developed in this cookbook-recipes repository. This allows for a greater number of committers and easier tracking of recipe development through project boards and milestones.
+### In Jekyll .md files:
 
-Each issue has a corresponding directory in this repository (the recipe issue number is the directory name). Under this directory, index.md is the home page of the issue. The recipe should be accompanied by complete JSON-LD files, with working links to content and other resources. Large binary resources such as videos can be uploaded to the shared recipe S3 bucket. Where a working Image Service is required, the _reference image server_ may be used (TBC).
+There are some includes that are helpful to ensure a consistent style between recipes. These include:
 
-These issues should only be candidate recipes. Issues about the cookbook itself (e.g., format, how it works) should be raised and discussed in the regular API repository.
+#### Include link to Viewers
+This provides a standard link to the JSON and also to viewers. A full example is as follows:
 
-## Suggested recipe checklist
+```
+{% include manifest_links.html viewers="UV, Mirador, Tify, Curation" manifest="manifest.json" %}
+```
 
-This checklist can be added to the issues and new issue template:
+and this would produce the following line:
 
-- [ ] Use case clear
-- [ ] Example(s) pass validation
-- [ ] Example(s) Presentation resources and annotations are available as referenced JSON in recipe directory
-- [ ] All linked resources are dereferenceable; static images may be included with recipe JSON, but video and audio are in S3 bucket
+[JSON-LD]() | [View in Universal Viewer]() | [View in Mirador]() | [View in Tify]() | [View in IIIF Curation Viewer]()
+
+The `manifest` parameter allows you to pass a relative link to the manifest and the `viewers` parameter is a list of Viewer links to show. Delete any viewers that don't support the recipe and remove the `viewers` parameter entirely if no viewers support the recipe. 
+
+#### Include JSON Viewer
+This will embed a JavaScript JSON viewer which will show line numbers and format the JSON. A basic example is as follows:
+
+```
+{% include jsonviewer.html src="manifest.json" %}
+```
+
+Where `src` is the relative path to the JSON file. It is also possible to add a `config` parameter if you would like to customise the view further. An example of this is to highlight the first 5 lines: 
+
+```
+{% include jsonviewer.html src="manifest.json" config='data-line="1-4"' %}
+```
+
+See the [prism.js](https://prismjs.com/#plugins) website for a full list of configuration options. 
+
+### In JSON files:
+
+To make the process of making the manifests resolvable during all stages of the deployment (local, test and preview deployment) there are a number of Jekyll variables available for use in JSON files. These include:
+
+ * `id.url` - the current resolvable URL for this resource e.g. https://preview.iiif.io/cookbook/master/recipe/0001-mvm-image/manifest.json
+ * `id.path` - the URL to the current directory of the file e.g. https://preview.iiif.io/cookbook/master/recipe/0001-mvm-image/. This can be useful for linking to annotation or collection JSON in the current directory. 
+
+For an example of these variables in practice please see:
+
+https://github.com/IIIF/cookbook-recipes/blob/master/recipe/0001-mvm-image/manifest.json
+
+## Fixtures
+
+There are a number of fixtures held centrally to help assist you in creating a recipe. This includes Audio and Video files and also a IIIF Image server. To see details of these fixtures please go to:
+
+https://fixtures.iiif.io/
+
+## Live site
+
+The cookbook site is available at:
+
+https://iiif.io/api/cookbook/
+
+## To build locally:
+
+```bundle install```
+
+```bundle exec jekyll serve```
+
+Then connect to [http://localhost:4000/](http://localhost:4000/)
+
+## Preview links
+
+This repository can be viewed using the following pattern:
+
+```https://preview.iiif.io/cookbook/<branch_name>/```
+
+for all branches but master. For example to see the themed version:
+
+[https://preview.iiif.io/cookbook/themed/](https://preview.iiif.io/cookbook/themed/)
+

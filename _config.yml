@@ -1,0 +1,16 @@
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "recipe"
+      livesite: "https://iiif.io"
+url: https://preview.iiif.io
+markdown: kramdown
+kramdown:
+   syntax_highlighter_opts:
+      disable : true
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
+exclude: ["scripts", "Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]

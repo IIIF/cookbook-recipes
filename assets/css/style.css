@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+    font-size: 14pt;
+    line-height: 19pt;
+}
+
+header.inner {
+    border-bottom: 1px solid gray;
+}
+
+.outer {
+    width: 100%;
+}
+
+.inner {
+    position: relative;
+    padding: 20px 150px;
+    margin: 0 auto;
+}
