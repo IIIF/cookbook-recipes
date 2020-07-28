@@ -1,5 +1,5 @@
 ---
-title: Geolocated Manifest to a Point
+title: Geolocate Manifest to a Point
 id: 182
 layout: recipe
 tags: [maps, geolocate, annotation]
