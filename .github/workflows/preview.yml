@@ -76,6 +76,7 @@ jobs:
       with:
         step: start
         token: ${{ secrets.GITHUB_TOKEN }}
+        auto_inactive: 'false'
         env: staging
     - name: Deploy to S3
       uses: glenrobson/s3-sync-action@v0.5.1
@@ -93,6 +94,7 @@ jobs:
       if: always()
       with:
         step: finish
+        auto_inactive: 'false'
         token: ${{ secrets.GITHUB_TOKEN }}
         status: ${{ job.status }}
         deployment_id: ${{ steps.deployment.outputs.deployment_id }}
