@@ -1,5 +1,5 @@
 ---
-title: Publishing v2 and v3 versions
+title: Making IIIF Presentation API v2 and v3 manifests available at the same URL
 id: 57
 layout: recipe
 tags: [implementation_note]
