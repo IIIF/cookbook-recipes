@@ -5,35 +5,35 @@
   "label": { "en": [ "Simple Manifest - Single Image with IIIF Image API Service" ] },
   "items": [
     {
-      "id": "{{ id.path }}/canvas",
+      "id": "{{ id.path }}/canvas/p1",
       "type": "Canvas",
       "label":  { "en": [ "Canvas with a single IIIF image" ] },
 			"height": 3024,
 			"width": 4032,
       "items": [
         {
-          "id": "{{ id.path }}/canvas/page",
+					"id": "{{ id.path }}/page/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "{{ id.path }}/canvas/page/annotation/p0001-image",
+							"id": "{{ id.path }}/annotation/p0001-image",
               "type": "Annotation",
               "motivation": "painting",
-              "body": {
-                "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "service": [
-                    {
-                        "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/",
-                        "type": "ImageService3",
-                        "profile": "level1"
-                    }
-                ],
-                "height": 3024,
-                "width": 4032
-              },
-              "target": "{{ id.path }}/canvas"
+							"body": {
+								"id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg",
+								"type": "Image",
+								"format": "image/jpeg",
+								"height": 3024,
+								"width": 4032,
+								"service": [
+									{
+									"id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
+									"profile": "level1",
+									"type": "ImageService3"
+									}
+								]
+							},
+              "target": "{{ id.path }}/canvas/p1"
             }
           ]
         }
