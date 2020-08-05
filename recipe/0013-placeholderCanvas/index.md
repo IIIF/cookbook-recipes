@@ -12,7 +12,9 @@ You have an exceptionally large video to present to site visitors. As each visit
 
 ## Implementation notes
 
-Across a Manifest and its resources, you may use more than one `placeholderCanvas`, allowing you to have an authentic `placeholderCanvas` for each appropriate resource (Collection, Manifest, Canvas, and Range). 
+Across a Manifest and its resources, you may use more than one `placeholderCanvas`, allowing you to have an authentic `placeholderCanvas` for each appropriate resource (Collection, Manifest, Canvas, and Range).
+
+The target of the Annotation of a `placeholderCanvas` should have as its value the id of the `placeholderCanvas`, not the id of the resource that has the `placeholderCanvas`.
 
 Always keep in mind the wide latitude given conforming clients: It is up to the client whether and in what sort of UI to display content you place in a `placeholderCanvas` property. Do not use this property for content that must be displayed. On the other hand, placing content in a `placeholderCanvas` does communicate to a conforming client that the content, if displayed, should be displayed before the resource to which it is attached.
 
