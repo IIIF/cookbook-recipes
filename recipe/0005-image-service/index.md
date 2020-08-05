@@ -1,5 +1,5 @@
 ---
-title: Recipe - Simple Manifest - Image with IIIF Image API Service
+title: Basic Use of an Image Service
 id: 5
 layout: recipe
 tags: [annex, service, services, specifications]
