@@ -20,12 +20,9 @@ In this use case, the target `type` property is a Specific Resource (`"type": "S
 
 ### About selector classes:
 
-Selectors in Annotation targets are used to describe how to retrieve a given part of a resource. There are three Selector classes defined in the IIIF specification:
-* [`ImageApiSelector`](https://iiif.io/api/annex/openannotation/#iiif-image-api-selector) describes the properties/operations available to retrieve a particular image presentation, such as region, size, rotation, etc.
-* [`PointSelector`](https://iiif.io/api/annex/openannotation/#point-selector) describes the properties available to select a specific point either spatially (`x`, `y`) or temporally (`t`).
-* [Content Selectors](https://iiif.io/api/annex/openannotation/#content-selectors), `AudioContentSelector` and `VisualContentSelector`, allow the publisher to refer to only one aspect of the content, either audio or visual. This can be used to refer to visual content from one resource and audio content from another.
+Selectors in Annotation targets are used to describe how to retrieve a given part of a resource. There are three Selector classes defined in the IIIF specification, but only one that is appropriate for this use case - [`PointSelector`](https://iiif.io/api/annex/openannotation/#point-selector). The `PointSelector` defines a specific point either spatially (`x`, `y`) or temporally (`t`).
 
-For more on the above Selectors, see: [IIIF Open/Web Annotation Extensions](https://iiif.io/api/annex/openannotation/). For additional Selectors, see the [WC3 Web Annotation Selectors](https://www.w3.org/TR/annotation-model/#selectors) (in particular, the FragmentSelector).
+For more information on other Selector classes, see: [IIIF Open/Web Annotation Extensions](https://iiif.io/api/annex/openannotation/) and [WC3 Web Annotation Selectors](https://www.w3.org/TR/annotation-model/#selectors).
 
 For more on the `start` property, see: [https://iiif.io/api/presentation/3.0/#start](https://iiif.io/api/presentation/3.0/#start)
 
