@@ -20,7 +20,7 @@ In this use case, the target `type` property is a Specific Resource (`"type": "S
 
 ### About selector classes:
 
-Selectors in Annotation targets are used to describe how to retrieve a given part of a resource. There are three Selector classes defined in the IIIF specification, but only one that is appropriate for this use case - [`PointSelector`](https://iiif.io/api/annex/openannotation/#point-selector). The `PointSelector` defines a specific point either spatially (`x`, `y`) or temporally (`t`).
+Selectors in Annotation targets are used to describe how to retrieve a given part of a resource. There are three Selector classes defined in the IIIF specification, but only the [`PointSelector`](https://iiif.io/api/annex/openannotation/#point-selector) class is appropriate for this use case. The `PointSelector` class defines a specific point either spatially (`x`, `y`) and/or temporally (`t`).
 
 For more information on other Selector classes, see: [IIIF Open/Web Annotation Extensions](https://iiif.io/api/annex/openannotation/) and [WC3 Web Annotation Selectors](https://www.w3.org/TR/annotation-model/#selectors).
 
@@ -39,6 +39,8 @@ This example shows a Manifest with a single Canvas with a duration of 1801.055 s
 # Related recipes
 
 * [Simplest Manifest - Video][0003] shows a manifest for a simple video resource.
+* [Simplest Manifest - Audio][0002] shows a manifest for a simple audio resource.
+<!-- * [The 'Start' Property - Image] demonstrates the `start` property with an image resource. -->
 <!-- * [The 'Start' Property - Spatial] demonstrates the `start` property with a spatial (map) resource. -->
 
 
