@@ -20,43 +20,29 @@ Use case 3: I have a book object... shot two up -OR- manuscript fragments from a
 
 The `behavior` property tells a presentation client one part of how to display a sequence of resources to a viewer.
 
-The property is permissible for all resource types, but some values (`unordered`, `individuals`, `continuous`, `paged`) are permissible only for `Collection`, `Manifest`, and `Range`, while others (`facing-pages`, `non-paged`) are permissible only on `Canvas`. Clients should process the property on any resource type.
-
 The default `behavior` value, if not specified, is `individuals` for Layout Behaviors (as opposed to Temporal, Collection, Range, and Miscellaneous Behaviors).
 
-In addition to `behavior`, you may want to use the `viewingDirection` property (see also [Book (paging variations)][0010] recipe), for example `right-to-left` or `top-to-bottom`, depending on the expected user experience for viewing your resource(s) or the specificities of the physical object and its digital surrogate. Interactions between `viewingDirection` and `behavior`, especially when they are set on multiple and/or hierarchical resources, need special attention. You are recommended to read [the Presentation 3.0 spec on `behavior`](https://iiif.io/api/presentation/3.0/#behavior) carefully and to keep current with future releases.
+In addition to `behavior`, you may want to use the `viewingDirection` property (see also [Book (paging variations)][0010] recipe), for example `right-to-left` or `top-to-bottom`, depending on the expected user experience for viewing your resource or the specificities of the physical object and its digital surrogate. Interactions between `viewingDirection` and `behavior`, especially when they are set on multiple and/or hierarchical resources, need special attention. You are recommended to read [the Presentation 3.0 spec on `behavior`](https://iiif.io/api/presentation/3.0/#behavior) carefully and to keep current with future releases.
 
 ## Restrictions
 
-None known
+The property is permissible for all resource types, but some values (`unordered`, `individuals`, `continuous`, `paged`) are permissible only for `Collection`, `Manifest`, and `Range`, while others (`facing-pages`, `non-paged`) are permissible only on `Canvas`. Clients should process the property on any resource type.
 
-## Example 1: `behavior` `paged`
-
-This manifest shows the playbill for "Akiba gongen kaisen-banashi," "Futatsu chōchō kuruwa nikki", and "Godairiki koi no fūjime", kabuki performances at the Chikugo Theater in Osaka from the fifth month of Kaei 2 (May, 1849).
-
-{% include manifest_links.html viewers="UV, Mirador" manifest="manifest-paged.json" %}
-
-{% include jsonviewer.html src="manifest-paged.json" config='data-line="15"' %}
-
-## Example 2: `behavior` `continuous`
+## Example 1: `behavior` `continuous`
 
 This manifest represents an Ethiopian scroll, written in Gez for Walata Eyasus (secular name Berenash), that contains prayers to guard against epilepsy and for the binding of demons. Its full length is 2.245m and is roughly .11m wide over its length.
 
-Note that as of the writing of this recipe, the `behavior` value of `continuous` has no noticeable effect in the Universal Viewer demonstration linked below. However, for forward compatibility it is a part of the manifest.
+Note that as of the writing of this recipe, the `behavior` value of `continuous` has no noticeable effect in the Universal Viewer demonstration linked below, but you can see it in practice with IIIF Presentation API 2 here: . For forward compatibility, it is a part of the manifest.
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest-continuous.json" %}
 
 {% include jsonviewer.html src="manifest-continuous.json" config='data-line="15"' %}
 
-## Example 3: `behavior` `individuals`
-
-This manifest represents an Ethiopian scroll, written in Gez for Walata Eyasus (secular name Berenash), that contains prayers to guard against epilepsy and for the binding of demons. Its full length is 2.245m and is roughly .11m wide over its length.
-
-Note that as of the writing of this recipe, the `behavior` value of `continuous` has no noticeable effect in the Universal Viewer demonstration linked below. However, for forward compatibility it is a part of the manifest.
+## Example 2: `behavior` `individuals`
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest-individuals.json" %}
 
-{% include jsonviewer.html src="manifest-indivisuals.json" config='data-line="15"' %}
+{% include jsonviewer.html src="manifest-individuals.json" config='data-line="15"' %}
 
 # Related recipes
 
