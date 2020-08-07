@@ -30,12 +30,12 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * Image different size to canvas (26)
 * Image Service for single image (24,25)
 * Multiple values and languages (3,4,6)
-* Multiple formats of strings (text, html, markdown...?) (64)
+* [Embedding HTML in descriptive properties][0007] (64)
 * Rights statement(s) (7)
+* thumbnail algorithm / discussion
 * [Multiple Related Images (Book, etc.)][0009] (19)
 * Book (viewingDirection variations) (11,12,13,14)
 * Book (paging variations) (15,16,17) 
-* thumbnail algorithm / discussion
 * placeholderCanvas
 * accompanyingCanvas
 * start (65)

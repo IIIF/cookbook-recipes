@@ -3,6 +3,7 @@
 [0001]: {{site.baseurl}}/recipe/0001-mvm-image/ "Simplest Manifest - Image"
 [0002]: {{site.baseurl}}/recipe/0002-mvm-audio/ "Simplest Manifest - Audio"
 [0003]: {{site.baseurl}}/recipe/0003-mvm-video/ "Simplest Manifest - Video"
+[0007]: {{site.baseurl}}/recipe/0007-string-formats/ "Embedding HTML"
 [0009]: {{site.baseurl}}/recipe/0009-book-1/ "Multiple Related Images (Book, etc.)"
 
 [0068]: {{site.baseurl}}/recipe/0068-newspaper/ "A newspaper"
