@@ -49,10 +49,14 @@ Once you have created a recipe and created a pull request. This will be evaluate
 * Review process
   * Informal review by Cookbook group (announce on Cookbook slack channel)
     * Pull requests out of draft
+    * Ensure branch is up to date with master
   * First review by Cookbook Editors group
     * Pull request marked with _ready-for-editors_
+    * Ensure branch is up to date with master
   * Final approval by the Technical Review Committee and after this the pull request will be merged to master)
     * Pull requests marked with _ready-for-trc_
+    * Ensure branch is up to date with master
+    * Note changes to Master should be paused while issues are under review by the TRC
   * If approved pull request is merged with the master  
 
 Note if there are a large amount of changes requested, the pull requests maybe sent back to community review state
