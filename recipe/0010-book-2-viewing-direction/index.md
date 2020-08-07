@@ -44,8 +44,6 @@ This Manifest represents a portion of the diary of William Lewis Sachtleben, an 
 
 # Related recipes
 
-Provide a bulleted list of related recipes and why they are relevant.
-
 * [Book (simplest)][0009]
 * [Book (paging variations)][0011] — The objects shown here are `paged`, but other viewing compositions are possible, including `continuous` for scrolls and rolls.
 
