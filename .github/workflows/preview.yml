@@ -71,7 +71,7 @@ jobs:
 
     # Deploy to live site
     - name: Create GitHub deployment
-      uses: glenrobson/deployments@v0.4.1
+      uses: glenrobson/deployments@v0.4.2
       id: deployment
       with:
         step: start
@@ -90,7 +90,7 @@ jobs:
         SOURCE_DIR: "_site"
         DEST_DIR: "cookbook/${BRANCH_NAME}"
     - name: Update deployment status
-      uses: glenrobson/deployments@v0.4.1
+      uses: glenrobson/deployments@v0.4.2
       if: always()
       with:
         step: finish
