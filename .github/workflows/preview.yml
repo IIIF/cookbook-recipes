@@ -71,12 +71,13 @@ jobs:
 
     # Deploy to live site
     - name: Create GitHub deployment
-      uses: glenrobson/deployments@v0.4.1
+      uses: glenrobson/deployments@v0.4.2
       id: deployment
       with:
         step: start
         token: ${{ secrets.GITHUB_TOKEN }}
-        env: stagging
+        auto_inactive: 'false'
+        env: staging
     - name: Deploy to S3
       uses: glenrobson/s3-sync-action@v0.5.1
       with:
@@ -89,10 +90,11 @@ jobs:
         SOURCE_DIR: "_site"
         DEST_DIR: "cookbook/${BRANCH_NAME}"
     - name: Update deployment status
-      uses: glenrobson/deployments@v0.4.1
+      uses: glenrobson/deployments@v0.4.2
       if: always()
       with:
         step: finish
+        auto_inactive: 'false'
         token: ${{ secrets.GITHUB_TOKEN }}
         status: ${{ job.status }}
         deployment_id: ${{ steps.deployment.outputs.deployment_id }}
