@@ -40,7 +40,7 @@ This example shows a Manifest with a single Canvas with a duration of 1801.055 s
 
 * [Simplest Manifest - Video][0003] shows a manifest for a simple video resource.
 * [Simplest Manifest - Audio][0002] shows a manifest for a simple audio resource.
-* [Load Manifest Beginning with a Specific Canvas][202] uses the `start` property to load at a specific canvas. -->
+* [Load Manifest Beginning with a Specific Canvas][202] uses the `start` property to load at a specific canvas.
 
 {% include acronyms.md %}
 {% include links.md %}
