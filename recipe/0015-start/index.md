@@ -18,13 +18,13 @@ The target of `start` must be a JSON object with `id` and `type` properties and 
 
 In this use case, the target `type` property is a Specific Resource (`"type": "SpecificResource"`), and the Selector `type` property is a Point Selector (`"type": "PointSelector"`) that identifies a starting timepoint (`"t": 120.5`) within the `source`.
 
+For more on the `start` property, see: [https://iiif.io/api/presentation/3.0/#start](https://iiif.io/api/presentation/3.0/#start)
+
 ### About selector classes:
 
 Selectors in Annotation targets are used to describe how to retrieve a given part of a resource. There are three Selector classes defined in the IIIF specification, but only the [`PointSelector`](https://iiif.io/api/annex/openannotation/#point-selector) class is appropriate for this use case. The `PointSelector` class defines a specific point either spatially (`x`, `y`) and/or temporally (`t`).
 
 For more information on other Selector classes, see: [IIIF Open/Web Annotation Extensions](https://iiif.io/api/annex/openannotation/) and [WC3 Web Annotation Selectors](https://www.w3.org/TR/annotation-model/#selectors).
-
-For more on the `start` property, see: [https://iiif.io/api/presentation/3.0/#start](https://iiif.io/api/presentation/3.0/#start)
 
 ## Example
 
@@ -40,9 +40,7 @@ This example shows a Manifest with a single Canvas with a duration of 1801.055 s
 
 * [Simplest Manifest - Video][0003] shows a manifest for a simple video resource.
 * [Simplest Manifest - Audio][0002] shows a manifest for a simple audio resource.
-<!-- * [The 'Start' Property - Image] demonstrates the `start` property with an image resource. -->
-<!-- * [The 'Start' Property - Spatial] demonstrates the `start` property with a spatial (map) resource. -->
-
+* [Load Manifest Beginning with a Specific Canvas][202] uses the `start` property to load at a specific canvas. -->
 
 {% include acronyms.md %}
 {% include links.md %}
