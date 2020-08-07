@@ -37,7 +37,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * Book (paging variations) (15,16,17) 
 * thumbnail algorithm / discussion
 * placeholderCanvas
-* [Posters: accompanyingCanvas][0014]
+* [Audio Presentation with Accompanying Image][0014]
 * start (65)
 
 ## Textual and other supplementary content
