@@ -32,10 +32,10 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * Multiple values and languages (3,4,6)
 * [Embedding HTML in descriptive properties][0007] (64)
 * Rights statement(s) (7)
+* thumbnail algorithm / discussion
 * Book (simplest, > 1 canvas) (19)
 * Book (viewingDirection variations) (11,12,13,14)
 * Book (paging variations) (15,16,17) 
-* thumbnail algorithm / discussion
 * placeholderCanvas
 * accompanyingCanvas
 * start (65)
