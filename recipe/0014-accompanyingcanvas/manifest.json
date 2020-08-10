@@ -12,8 +12,8 @@
 				"id": "{{ id.path }}/canvas/accompanying",
 				"type": "Canvas",
 				"label": { "en": [ "Page from an 1893 sketch of Mahler's Symphony No. 3" ] },
-				"height": 6867,
-				"width": 5315,
+				"height": 998,
+				"width": 772,
 				"items": [
 					{
 						"id": "{{ id.path }}/canvas/accompanying/annotation/page",
@@ -24,16 +24,16 @@
 								"type": "Annotation",
 								"motivation": "painting",
 								"body": {
-									"id": "https://stacks.stanford.edu/image/iiif/pd896kc2802%2Fpd896kc2802_00_0001/full/,1024/0/default.jpg",
+									"id": "https://iiif.io/api/image/3.0/example/reference/4b45bba3ea612ee46f5371ce84dbcd89-mahler-0/full/,998/0/default.jpg",
 									"type": "Image",
 									"format": "image/jpeg",
-									"height": 1024,
-									"width": 793,
+									"height": 998,
+									"width": 772,
 									"service": [
 										{
-											"id": "https://stacks.stanford.edu/image/iiif/pd896kc2802%2Fpd896kc2802_00_0001",
+											"id": "https://iiif.io/api/image/3.0/example/reference/4b45bba3ea612ee46f5371ce84dbcd89-mahler-0",
 											"type": "ImageService3",
-											"profile": "level2"
+											"profile": "level1"
 										}
 									]
 								},
