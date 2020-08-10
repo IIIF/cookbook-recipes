@@ -3,14 +3,14 @@ title: Geolocate Canvas Fragment to a Point
 id: 139
 layout: recipe
 tags: [maps, geolocate, annotation]
-summary: "Make a geographic Web Annotation to provide geolocation information about a fragment of a Canvas."
+summary: "Make a geographic Web Annotation to provide geolocation information about a fragment of a IIIF Presentation API 3 Canvas."
 ---
 
 ### Use Case 
-There is a region of interest on a Canvas that could be further described by coordinates. The region contains the word "Paris", and that region is to be supplemented with geolocation information of a central point in Paris, France.
+There is a region of interest on a Canvas that could be further described by coordinates. The region contains the word "Paris", and that region is to be supplemented with coordinates of a central point in Paris, France.
 
 ### Implementation Abstract
-An example of a Manifest that has a Canvas fragment geolocated via a geographic point. The word "Paris" appears on the image and the region containing the word is targeted by two Annotations. One Annotation supplements the fragment with the text "Paris". The other Annotation supplies coordinates in order to supply a geographic reference.
+An example of a Manifest that has a Canvas fragment geolocated via a geographic point. The word "Paris" appears on the image and the region containing the word is targeted by two Annotations. One Annotation supplements the fragment with the text "Paris". The other Annotation supplements the fragment with a geographic point in central Paris, France.
 
 ### Implementation Notes
 * The third party [GeoJSON-LD](https://geojson.org/geojson-ld/) context is included alongside the IIIF Presentation 3 context. This supplies the vocabulary terms for the GeoJSON-LD Annotation bodies since the IIIF Presentation 3 context does not describe those terms. The field `@context` can be an array, and when it is the Presentation API 3 context must be the last item in the array. 

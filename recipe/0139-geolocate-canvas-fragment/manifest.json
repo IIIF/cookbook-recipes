@@ -7,7 +7,7 @@
    "type":"Manifest",
    "label":{
       "en":[
-         "A recipe for geolocating a IIIF Manifest to a geographic point using GeoJSON-LD in a Web Annotation."
+         "Geolocated Canvas Fragment"
       ]
    },
    "summary":{
@@ -87,7 +87,7 @@
                      "motivation":"supplementing",
                      "label":{
                         "en":[
-                           "The piece of the canvas containing the word \"Paris\" geolocated to Paris, France."
+                           "Geographic Annotation"
                         ]
                      },
                      "body":{

@@ -12,7 +12,7 @@
          "motivation":"supplementing",
          "label":{
             "en":[
-               "Transcription text for this region of the canvas."
+               "Transcription Annotation"
             ]
          },
          "body":{
@@ -29,7 +29,7 @@
          "motivation":"supplementing",
          "label":{
             "en":[
-               "The piece of the canvas containing the word \"Paris\" geolocated to Paris, France."
+               "Geographic Annotation"
             ]
          },
          "body":{
