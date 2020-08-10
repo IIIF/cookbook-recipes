@@ -37,7 +37,7 @@
                      "motivation":"painting",
                      "label":{
                         "en":[
-                           "The cover page."
+                           "Cover Page"
                         ]
                      },
                      "body":{
@@ -70,7 +70,7 @@
                      "motivation":"supplementing",
                      "label":{
                         "en":[
-                           "Transcription text for this region of the canvas."
+                           "Transcription Annotation"
                         ]
                      },
                      "body":{
