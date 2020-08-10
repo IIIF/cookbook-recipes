@@ -3,7 +3,7 @@ title: Geolocate Manifest to a Polygonal Area
 id: 195
 layout: recipe
 tags: [maps, geolocate, annotation]
-summary: "Make a geographic Web Annotation to geolocate a Presentation API 3 Manifest to a Polygonal geographic area."
+summary: "Make a geographic Web Annotation to geolocate a Presentation API 3 Manifest to a polygonal geographic area."
 ---
 
 ### Use Case 
