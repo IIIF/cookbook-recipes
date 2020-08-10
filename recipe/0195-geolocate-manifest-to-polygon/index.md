@@ -31,7 +31,7 @@ Nested GeoJSON coordinate arrays are incompatible with the processing model of J
 
 ## Related Recipes
 * [Geolocate Canvas Fragment to a Point][TBD]
-* [Geolocate Manifest to a Polygonal Area][TBD]
+* [Geolocate Manifest to a Point][TBD]
 * [Rights][0008]
 
 {% include acronyms.md %}
