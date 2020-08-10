@@ -1,9 +1,9 @@
 ---
-title: Geolocate Manifest to a Polygon
+title: Geolocate Manifest to a Polygonal Area
 id: 195
 layout: recipe
 tags: [maps, geolocate, annotation]
-summary: "Geolocate a Manifest to a Polygonal area."
+summary: "Geolocate a Manifest to a Polygonal geographic area."
 ---
 
 ### Use Case 
