@@ -8,7 +8,7 @@ summary: "Sample Manifests for informing a client how the Canvases should be dis
 
 ## Use Case
 
-Sample Manifests for informing a client how the Canvases should be displayed to the viewer in order to read the contents authentically in accordance with the script used, object layout, or reading practice.
+You have a Japanese-language text that in-person would be typically read from right to left (with the binding on the reader's right), or you have a diary notebook written across the long dimension of the paper and therefore read top to bottom (with the binding away from the reader). By using `viewingDirection` you can communicate the reading direction to a conforming client, allowing it to present the content to the reader from right to left and from top to bottom, respectively.
 
 The `viewingDirection` property tells a presentation client one part of how to display a sequence of resources to a viewer. It is permissible for IIIF `Collection`, `Manifest`, and `Range` resources, but is an invalid property on other types of resources. Clients should process the property when it is part of a `Collection` or `Manifest`, may process it when part of a `Range`, and should ignore it if used other resource types.
 
