@@ -3,7 +3,7 @@ title: Geolocate Canvas Fragment to a Point
 id: 139
 layout: recipe
 tags: [maps, geolocate, annotation]
-summary: "Make a geographic Web Annotation to provide geolocation information about a fragment of a IIIF Presentation API 3 Canvas."
+summary: "Make a geographic Web Annotation to provide geolocation information about a fragment of a IIIF Presentation API 3.0 Canvas."
 ---
 
 ### Use Case 
@@ -13,7 +13,7 @@ There is a region of interest on a Canvas that could be further described by coo
 An example of a Manifest that has a Canvas fragment geolocated via a geographic point. The word "Paris" appears on the image and the region containing the word is targeted by two Annotations. One Annotation supplements the fragment with the text "Paris". The other Annotation supplements the fragment with a geographic point in central Paris, France.
 
 ### Implementation Notes
-* The third party [GeoJSON-LD](https://geojson.org/geojson-ld/) context is included alongside the IIIF Presentation 3 context. This supplies the vocabulary terms for the GeoJSON-LD Annotation bodies since the IIIF Presentation 3 context does not describe those terms. The field `@context` can be an array, and when it is the Presentation API 3 context must be the last item in the array. 
+* The third party [GeoJSON-LD](https://geojson.org/geojson-ld/) context is included alongside the IIIF Presentation 3 context. This supplies the vocabulary terms for the GeoJSON-LD Annotation bodies since the IIIF Presentation 3 context does not describe those terms. The field `@context` can be an array, and when it is the IIIF Presentation API 3.0 context must be the last item in the array. 
 * `supplementing` was used as the Annotation motivation throughout. The IIIF Technical Specification Group is working on proper motivation extensions for the various kinds of geographic assertions that could be made. The proposed motivations are `geocode`, `georeference`, `geolocate`, `georectify`, and `co-locate`.
 * The Annotation could also keep the `supplementing` motivation and the [Annotation body could note a purpose](https://www.w3.org/TR/annotation-model/#purpose-for-external-web-resources). Usually, purpose is used to represent multiple motivations.  
 * GeoJSON `properties` is a very generic field and [can be nearly anything](https://tools.ietf.org/html/rfc7946#section-3.2). If, for example, the targeted resource has a `label` and the `properties` field contains a `label`, the consuming interface must make a choice on which to preference for presentation purposes.
