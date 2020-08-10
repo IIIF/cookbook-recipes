@@ -6,12 +6,12 @@
 		{
 			"id": "{{ id.path }}/canvas/p1",
 			"type": "Canvas",
-			"label": { "en": [ "Mahler, Symphony No. 3, CD 1" ] },
+			"label": { "en": [ "Gustav Mahler, Symphony No. 3, CD 1" ] },
 			"duration": 1985.024,
 			"accompanyingCanvas": {
 				"id": "{{ id.path }}/canvas/accompanying",
 				"type": "Canvas",
-				"label": { "en": [ "Page from an 1893 sketch of Mahler's Symphony No. 3" ] },
+				"label": { "en": [ "First page of score for Gustav Mahler, Symphony No. 3" ] },
 				"height": 998,
 				"width": 772,
 				"items": [
