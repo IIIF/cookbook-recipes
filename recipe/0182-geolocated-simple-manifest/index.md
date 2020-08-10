@@ -15,6 +15,7 @@ There is a photo that was taken during an IIIF event. The exact coordinates for 
 
 ### Restrictions
 Nested GeoJSON coordinate arrays are incompatible with the processing model of JSON-LD 1.0. The JSON-LD 1.1 processing model does not have this restriction.
+
 ### Manifest
 
 {% include jsonviewer.html src="manifest.json" config='data-line="68-97"' %}
