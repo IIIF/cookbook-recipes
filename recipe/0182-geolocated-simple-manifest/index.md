@@ -3,7 +3,7 @@ title: Geolocate Manifest to a Point
 id: 182
 layout: recipe
 tags: [maps, geolocate, annotation]
-summary: "Geolocate a Manifest to specific Point coordinates."
+summary: "Make a geographic Web Annotation to geolocate a Presentation API 3 Manifest to a geographic point."
 ---
 
 ### Use Case 
