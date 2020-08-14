@@ -12,9 +12,9 @@ You want to give a conforming client additional information about your image or 
 
 ## Implementation Notes
 
-This property may attach to any IIIF resource type. The annotation structure follows that of the [Simplest Manifest - Image][0001] recipe. Within the `body` of the image annotation, specify the IIIF Image API service using the `service` property. The (required) `id` of the service is the base URI of the associated IIIF Image API service.  
+This property may attach to any IIIF resource type, and requires the use of `id` and `type`. The annotation structure follows that of the [Simplest Manifest - Image][0001] recipe. Within the `body` of the image annotation, specify the IIIF Image API service using the `service` property. The service's `id` property is the base URI of that IIIF Image API service.  
 
-The `type` property is also required, to tell the client what version of the Image API (1, 2, or 3) you are referencing. Values for `type` are defined in [the Presentation API][prezi3].  
+The `type` tells the client what version of the IIIF Image API (1, 2, or 3) you are referencing. Values for `type` are defined in [the Presentation API][prezi3].  
 
 Version 3 of the IIIF Presentation specification permits using these properties in their version 2 format: `@id` and `@type`. The latter property includes values for compatibility with other IIIF APIs. See [the specification](https://iiif.io/api/presentation/3.0/#service) for more information.
 
