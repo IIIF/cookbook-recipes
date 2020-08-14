@@ -27,7 +27,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Simplest Manifest - Image][0001] (1) (use static image as content resource, w.h)
 * [Simplest Manifest - Audio][0002] (1) (use single audio as content resource, d)
 * [Simplest Manifest - Video][0003] (1) (use single video as content resource, w,h,d)
-* [Image with Different Size from Canvas][0004] (26)
+* [Image and Canvas with Differing Dimensions][0004] (26)
 * Image Service for single image (24,25)
 * Multiple values and languages (3,4,6)
 * [Embedding HTML in descriptive properties][0007] (64)

@@ -1,5 +1,5 @@
 ---
-title: Image with Different Size from Canvas
+title: Image and Canvas with Differing Dimensions
 id: 4
 layout: recipe
 tags: [image, presentation, canvas]

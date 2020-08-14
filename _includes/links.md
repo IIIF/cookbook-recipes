@@ -3,7 +3,7 @@
 [0001]: {{site.baseurl}}/recipe/0001-mvm-image/ "Simplest Manifest - Image"
 [0002]: {{site.baseurl}}/recipe/0002-mvm-audio/ "Simplest Manifest - Audio"
 [0003]: {{site.baseurl}}/recipe/0003-mvm-video/ "Simplest Manifest - Video"
-[0004]: {{site.baseurl}}/recipe/0004-canvas-size/ "Image with Different Size from Canvas"
+[0004]: {{site.baseurl}}/recipe/0004-canvas-size/ "Image and Canvas with Differing Dimensions"
 [0007]: {{site.baseurl}}/recipe/0007-string-formats/ "Embedding HTML"
 [0008]: {{site.baseurl}}/recipe/0008-rights/ "Rights"
 
