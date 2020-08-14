@@ -4,6 +4,7 @@
 [0002]: {{site.baseurl}}/recipe/0002-mvm-audio/ "Simplest Manifest - Audio"
 [0003]: {{site.baseurl}}/recipe/0003-mvm-video/ "Simplest Manifest - Video"
 [0007]: {{site.baseurl}}/recipe/0007-string-formats/ "Embedding HTML"
+[0008]: {{site.baseurl}}/recipe/0008-rights/ "Rights"
 
 [0015]: {{site.baseurl}}/recipe/0015-start/ "Begin playback at a specific point - Time-based media"
 
