@@ -1,6 +1,6 @@
 ---
 title: Book with Table of contents (ranges)
-id: -1
+id: 24
 layout: recipe
 tags: [tbc]
 summary: "tbc"
@@ -8,8 +8,7 @@ summary: "tbc"
 
 ## Use Case
 
-Describe the use case that the pattern is intended to solve.
-Why is this pattern important?
+How do I convey the logical structure of a book?
 
 ## Implementation Notes
 

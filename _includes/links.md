@@ -6,6 +6,8 @@
 [0007]: {{site.baseurl}}/recipe/0007-string-formats/ "Embedding HTML"
 [0008]: {{site.baseurl}}/recipe/0008-rights/ "Rights"
 
+[0024]: {{site.baseurl}}/recipe/0024-book-4-toc/ "Book with Table of contents (ranges)"
+
 [0068]: {{site.baseurl}}/recipe/0068-newspaper/ "A newspaper"
 
 [prezi3]: https://iiif.io/api/presentation/3 "IIIF Presentation API"
