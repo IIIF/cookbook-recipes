@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "{{ id.url }}",
   "type": "Manifest",
-  "label": { "en": [ "Simple Manifest - Single Image with IIIF Image API Service" ] },
+	"label": { "en": [ "Picture of Göttingen taken during the 2019 IIIF Conference" ] },
   "items": [
     {
       "id": "{{ id.path }}/canvas/p1",
