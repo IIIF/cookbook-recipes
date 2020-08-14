@@ -3,9 +3,9 @@
 [0001]: {{site.baseurl}}/recipe/0001-mvm-image/ "Simplest Manifest - Image"
 [0002]: {{site.baseurl}}/recipe/0002-mvm-audio/ "Simplest Manifest - Audio"
 [0003]: {{site.baseurl}}/recipe/0003-mvm-video/ "Simplest Manifest - Video"
-[0026]: {{site.baseurl}}/recipe/0026-toc-opera/ "Table of contents (ranges) - acts of an opera"
-[0064]: {{site.baseurl}}/recipe/0064-opera-one-canvas/ "An opera on one Canvas"
-[0065]: {{site.baseurl}}/recipe/0065-opera-multiple-canvases/ "An opera on multiple Canvases"
+[0026]: {{site.baseurl}}/recipe/0026-toc-opera/ "Table of Contents for A/V Content"
+[0064]: {{site.baseurl}}/recipe/0064-opera-one-canvas/ "Table of Contents for Multiple A/V Files on a Single Canvas"
+[0065]: {{site.baseurl}}/recipe/0065-opera-multiple-canvases/ "Table of Contents for Multiple A/V Files on Multiple Canvases"
 
 [0068]: {{site.baseurl}}/recipe/0068-newspaper/ "A newspaper"
 

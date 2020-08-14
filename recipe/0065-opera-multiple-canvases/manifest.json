@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "{{ id.url }}",
   "type": "Manifest",
-  "label": { "it": [ "L'elisir d'amore" ], "en": [ "The elixir of love" ] },
+  "label": { "it": [ "L'Elisir D'Amore" ], "en": [ "The Elixir of Love" ] },
   "metadata": [
     {
       "label": { "en": [ "Date Issued" ] },
@@ -96,7 +96,7 @@
         {
           "type": "Range",
           "id": "{{ id.path }}/range/2",
-          "label": { "it": [ "Atto Primo" ] },
+          "label": { "en": [ "Act I" ] },
           "items": [
             {
               "type": "Range",
@@ -125,7 +125,7 @@
         {
           "type": "Range",
           "id": "{{ id.path }}/range/5",
-          "label": { "it": [ "Atto Secondo" ] },
+          "label": { "en": [ "Act II" ] },
           "items": [
             {
               "type": "Canvas",
