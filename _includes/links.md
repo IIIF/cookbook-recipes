@@ -11,3 +11,6 @@
 
 [prezi3]: https://iiif.io/api/presentation/3 "IIIF Presentation API"
 [prezi3-languages]: https://iiif.io/api/presentation/3.0/#language-of-property-values "Language of Property Values"
+[prezi3-start]: https://iiif.io/api/presentation/3.0/#start "Start Property"
+[prezi3-pointselector]: https://iiif.io/api/annex/openannotation/#point-selector "PointSelector"
+[prezi3-openannotation]: https://iiif.io/api/annex/openannotation "IIIF Open/Web Annotation Extensions"
