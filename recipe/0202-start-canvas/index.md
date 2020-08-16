@@ -8,7 +8,7 @@ summary: "tbc"
 
 ## Use Case
 
-I have a book with a lot of front matter (binding, blank pages, color calibration images) that most readers would like to skip and would like the viewer to load at the first page with textual content.
+In some cases, a book object will have front matter, such as a significant number of blank pages (or perhaps shots of the binding and other non-textual views or color calibration images), that most users would like to skip. In this use case, we use the `start` property to tell the presentation client to skip the blank pages and load at the first canvas with textual content designated with the `start` property.
 
 ## Implementation Notes
 
