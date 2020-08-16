@@ -8,35 +8,30 @@ summary: "tbc"
 
 ## Use Case
 
-In some cases, a book object will have front matter, such as blank pages (or perhaps shots of the binding and other non-textual views or color calibration images), that most users would like to skip. In this use case, we use the `start` property to tell the presentation client to skip the initial blank page and load at the first canvas with content.
+In some cases, a book object will have front matter, such as blank pages (or perhaps shots of the binding and other non-textual views or color calibration images), that most users would like to skip. In this use case, we use the `start` property to tell the presentation client to skip the initial Canvas that contains a blank page and load at the second Canvas where the content begins.
 
 ## Implementation Notes
 
-What do you need to know to use this pattern?
-How do you implement the pattern?
+This recipe extends [Multiple Related Images (Book, etc.)][0009] by adding the information required by a client to load the Manifest at a specific Canvas. This is done by adding the `start` property to the Manifest and specifying the Canvas the client should display on loading.
 
-## Restrictions
+The target of `start` must be a JSON object with `id` and `type` properties and can be either a Canvas, or a Specific Resource with a Selector and a source property where the value is a Canvas.
 
-When is this pattern is usable / not usable? Is it deprecated? If it uses multiple specifications, which versions are needed, etc.?
+In this use case, the target type property is a Canvas ("type": "Canvas").
 
-Delete this section if it is not needed.
-If you don't know what the restrictions might be initially, just leave the following line:
-**Unknown - Help Needed**
+For an example of the `start` property using the target type property Specific Resource, see [Begin playback at a specific point - Time-based media][0015]. For more on the start property, see: [Start Property][prezi3-start].
 
 ## Example
 
-Describe the solution in prose and provide an example.
-The example json document must be an external document, and imported with the following:
+This example shows a Manifest with multiple Canvases for a book object. The start property specifies loading the Manifest at the second Canvas.
 
 {% include manifest_links.html viewers="UV, Mirador, Tify, Curation" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 
-The direct link to the fixture is a useful convenience.
-
 ## Related Recipes
 
-Provide a bulleted list of related recipes and why they are relevant.
+* [Begin playback at a specific point - Time-based media][0015]
+* [Multiple Related Images (Book, etc.)][0009]
 
 {% include acronyms.md %}
 {% include links.md %}
