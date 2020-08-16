@@ -24,7 +24,7 @@ For an example of the `start` property using the target type property Specific R
 
 This example shows a Manifest with multiple Canvases for a book object. The start property specifies loading the Manifest at the second Canvas.
 
-{% include manifest_links.html viewers="UV, Mirador, Tify, Curation" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="10-12"'%}
 
