@@ -26,7 +26,7 @@ This example shows a Manifest with multiple Canvases for a book object. The star
 
 {% include manifest_links.html viewers="UV, Mirador, Tify, Curation" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="6"'%}
+{% include jsonviewer.html src="manifest.json" config='data-line="10-12"'%}
 
 ## Related Recipes
 
