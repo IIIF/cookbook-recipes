@@ -8,13 +8,13 @@ summary: "tbc"
 
 ## Use Case
 
-In some cases, a book object will have front matter, such as blank pages (or perhaps shots of the binding and other non-textual views or color calibration images), that most users would like to skip. In this use case, we use the `start` property to tell the presentation client to skip the initial Canvas that contains a blank page and load at the second Canvas where the content begins.
+In some cases, a book object will have front matter, such as blank pages (or perhaps shots of the binding and other non-textual views or color calibration images), that most users would like to skip. In this use case, we use the `start` property to tell the presentation client to skip the initial Canvas that contains a blank page and instead load at the second Canvas where the content begins.
 
 ## Implementation Notes
 
 This recipe extends [Multiple Related Images (Book, etc.)][0009] by adding the information required by a client to load the Manifest at a specific Canvas. This is done by adding the `start` property to the Manifest and specifying the Canvas the client should display on loading.
 
-The target of `start` must be a JSON object with `id` and `type` properties and can be either a Canvas, or a Specific Resource with a Selector and a source property where the value is a Canvas.
+The target of `start` must be a JSON object with `id` and `type` properties and can be either a Canvas or a Specific Resource with a Selector.
 
 In this use case, the target type property is a Canvas ("type": "Canvas").
 
@@ -22,7 +22,7 @@ For an example of the `start` property using the target type property Specific R
 
 ## Example
 
-This example shows a Manifest with multiple Canvases for a book object. The start property specifies loading the Manifest at the second Canvas.
+This example shows a Manifest with multiple Canvases for a book object. The `start` property specifies loading the Manifest at the second Canvas.
 
 {% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
 
