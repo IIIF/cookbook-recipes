@@ -14,9 +14,7 @@ In some cases, a book object will have front matter, such as blank pages (or per
 
 This recipe extends [Multiple Related Images (Book, etc.)][0009] by adding the information required by a client to load the Manifest at a specific Canvas. This is done by adding the `start` property to the Manifest and specifying the Canvas the client should display on loading.
 
-The target of `start` must be a JSON object with `id` and `type` properties and can be either a Canvas or a Specific Resource with a Selector.
-
-In this use case, the target type property is a Canvas ("type": "Canvas").
+The target of `start` must be a JSON object with `id` and `type` properties, where `type` can be either a Canvas or a Specific Resource with a Selector. In this use case, the target type property is a Canvas ("type": "Canvas").
 
 For an example of the `start` property using the target type property Specific Resource, see [Begin playback at a specific point - Time-based media][0015]. For more on the start property, see: [Start Property][prezi3-start].
 
