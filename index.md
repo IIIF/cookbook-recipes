@@ -36,7 +36,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * Book (simplest, > 1 canvas) (19)
 * Book (viewingDirection variations) (11,12,13,14)
 * Book (paging variations) (15,16,17) 
-* placeholderCanvas
+* [Load a Preview Image Before the Main Content][0013]
 * [Audio Presentation with Accompanying Image][0014]
 * start (65)
 
