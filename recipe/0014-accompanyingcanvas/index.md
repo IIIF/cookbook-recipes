@@ -24,7 +24,7 @@ Each instance of `accompanyingCanvas` may only contain one Canvas, and as such m
 
 ## Example
 
-In the example, the main `Canvas` contains audio of a performance of Gustav Mahler's Symphony No. 3 and the `accompanyingCanvas` contains an image of a page from the score.
+In the example, the main Canvas contains audio of a performance of Gustav Mahler's Symphony No. 3 and the `accompanyingCanvas` contains an image of a page from the score.
 
 _Note: The `accompanyingCanvas` property is not yet supported in viewers._
 
