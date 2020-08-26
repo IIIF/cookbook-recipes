@@ -28,7 +28,7 @@ Though a version 3 manifest may specify a service using the version 2 `@id` and 
 
 {% include manifest_links.html viewers="UV,Mirador" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" %}
+{% include jsonviewer.html src="manifest.json" config='data-line="36-42"' %}
 
 # Related recipes
 
