@@ -2,27 +2,27 @@
 title: Basic Use of an Image Service
 id: 5
 layout: recipe
-tags: [image, annex, service, services, specifications]
+tags: [image, annex, service, services, specifications, transitional]
 summary: "Paint a Canvas using an image with an associated IIIF Image API service."
 ---
 
 ## Use Case
 
-You want to give a conforming client additional information about your image or allow it to exercise additional functionality with your image. With a sophisticated digital image, it makes sense to allow viewers the opportunity to study the image in many possible ways, a process facilitated by feeding the client specific data rather than relying on the client to discover the data. For instance, you might be able to note additional image sizes (for automatically generating a thumbnail, for instance) or to indicate additional image renderings such as grayscale or infrared.
+You have a rare or special object in your collection that you'd like to make available for research to a large audience, including those without the ability to be present at your institution to examine the object in person. Presenting a medium-resolution flat digital image of the object using IIIF is [possible][0001], but if you have implemented a IIIF Image API service, you have significantly enhanced interaction possibilities for research and engagement. Specifying a IIIF Image API service in your presentation manifest allows for, among other features, proper deep zooming of large high-resolution images, client generation of derivatives, annotation of and external reference to image fragments, and more. In turn, this permits researchers more sophisticated inspection of the object and more possibilities for stable, durable, and discoverable image-based scholarship.
 
 ## Implementation Notes
 
-This property may attach to any IIIF resource type, and requires the use of `id` and `type`. The annotation structure follows that of the [Simplest Manifest - Image][0001] recipe. Within the `body` of the image annotation, specify the IIIF Image API service using the `service` property. The service's `id` property is the base URI of that IIIF Image API service.  
+This property may attach to any IIIF resource type, and requires the use of `id` and `type`. The annotation structure follows that of the [Simplest Manifest - Image][0001] recipe. Within the `body` of the image annotation, specify the IIIF Image API service using the `service` property. The service's `id` property value is the base URI of that IIIF Image API service. 
 
-The `type` tells the client what version of the IIIF Image API (1, 2, or 3) you are referencing. Values for `type` are defined in [the Presentation API][prezi3].  
-
-Version 3 of the IIIF Presentation specification permits using these properties in their version 2 format: `@id` and `@type`. The latter property includes values for compatibility with other IIIF APIs. See [the specification](https://iiif.io/api/presentation/3.0/#service) for more information.
+The `type` tells the client what version of the IIIF Image API (1, 2, or 3) you are referencing. Values for `type` are defined in [the IIIF Registry of Services][service-registry] and include values for compatibility with other IIIF APIs. See [the service property in the IIIF Presentation specification][prezi3-service] for more information.
 
 Image service properties should include a `profile` property, with a value representing the service's level of compliance with the IIIF Image specification. You may read more about service compliance level in the [Image API Compliance](https://iiif.io/api/image/3.0/compliance/) specification.
 
+Depending on your IIIF Image Service's stabilty, you can put the content of the image's `info.json` (excluding any context property) as the content of the service sections of your manifest. Doing so allows clients to take selected actions, such as choosing an appropriate thumbnail, without making separate requests to the service.
+
 ## Restrictions
 
-None known.
+Though a version 3 manifest may specify a service using the version 2 `@id` and `@type` property formats, these are only to be used when you are specifying an image service that itself is version 2. See [recipe 75][0075] for more on this topic.
 
 ## Example
 
@@ -33,6 +33,16 @@ None known.
 # Related recipes
 
 * [Simplest Manifest - Image][0001] demonstrates use of an image without a IIIF Image API service.
+* [Add Image Thumbnail][0117] discusses {how to work with thumbnail images}
+* [Presentation version 3 manifest containing images on a version 2 service][00XX] forms part of the recipes connected with upgrading your offerings from v2 to v3.
+* [Services][0055]
+* [Choice - multispectral flavoured example, with image services][0034]
+* [Reusing an image service (ImageApiSelector)][0040]
+* [Linking from Image API to Presentation API][0048]
+* [Linking from Image API to external metadata][0049]
+* [Example with extensions and services][0069]
+* [Mixed Image Service References][0075]
+* [Geolocating A Canvas Fragment][0139]
 
 {% include acronyms.md %}
 {% include links.md %}
