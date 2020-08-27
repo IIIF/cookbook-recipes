@@ -8,7 +8,7 @@ summary: "tbc"
 
 ## Use Case
 
-In some cases, a book object will have front matter, such as blank pages (or perhaps shots of the binding and other non-textual views or color calibration images), that most users would like to skip. In this use case, we use the `start` property to tell the presentation client to skip the initial Canvas that contains a blank page and instead display the second Canvas where the content begins when loading the resource.
+In some cases, a book object will have front matter, such as blank pages (or perhaps shots of the binding and other non-textual views or color calibration images), that most users would like to skip. In this use case, we use the `start` property to tell the presentation client to skip the initial Canvas (a blank page) and instead display the second Canvas (where the content begins) when loading the resource.
 
 ## Implementation Notes
 
