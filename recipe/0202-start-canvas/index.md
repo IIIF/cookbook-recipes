@@ -8,7 +8,7 @@ summary: "tbc"
 
 ## Use Case
 
-In some cases, a book object will have front matter, such as blank pages (or perhaps shots of the binding and other non-textual views or color calibration images), that most users would like to skip. In this use case, we use the `start` property to tell the presentation client to skip the initial Canvas that contains a blank page and instead load at the second Canvas where the content begins.
+In some cases, a book object will have front matter, such as blank pages (or perhaps shots of the binding and other non-textual views or color calibration images), that most users would like to skip. In this use case, we use the `start` property to tell the presentation client to skip the initial Canvas that contains a blank page and instead display the second Canvas where the content begins when loading the resource.
 
 ## Implementation Notes
 
@@ -20,7 +20,7 @@ For an example of the `start` property using the target type property Specific R
 
 ## Example
 
-This example shows a Manifest with multiple Canvases for a book object. The `start` property specifies loading the Manifest at the second Canvas.
+This example shows a Manifest with multiple Canvases for a book object. The `start` property specifies loading the Manifest at the second Canvas. Note, the user is still able to navigate back to the first Canvas within the viewer.
 
 {% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
 
