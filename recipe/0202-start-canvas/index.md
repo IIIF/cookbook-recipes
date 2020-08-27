@@ -2,11 +2,11 @@
 title: Load manifest beginning with a specific canvas
 id: 202
 layout: recipe
-tags: [tbc]
-summary: "tbc"
+tags: [image]
+summary: "This manifest uses the 'start' property to specify which Canvas the client should display on initialization of the resource."
 ---
 
-## Use Case
+## Use Cas
 
 In some cases, a book object will have front matter, such as blank pages (or perhaps shots of the binding and other non-textual views or color calibration images), that most users would like to skip. In this use case, we use the `start` property to tell the presentation client to skip the initial Canvas (a blank page) and instead display the second Canvas (where the content begins) when loading the resource.
 
