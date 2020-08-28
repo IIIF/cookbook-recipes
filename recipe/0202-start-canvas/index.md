@@ -6,9 +6,9 @@ tags: [image]
 summary: "This manifest uses the 'start' property to specify which Canvas the client should display on initialization of the resource."
 ---
 
-## Use Cas
+## Use Case
 
-In some cases, a book object will have front matter, such as blank pages (or perhaps shots of the binding and other non-textual views or color calibration images), that most users would like to skip. In this use case, we use the `start` property to tell the presentation client to skip the initial Canvas (a blank page) and instead display the second Canvas (where the content begins) when loading the resource.
+In some cases, a book object will have front matter that most users would like to skip, such as blank pages (or perhaps shots of the binding and other non-textual views or color calibration images). In this recipe, we demonstrate using the `start` property to tell the presentation client to skip the initial Canvas (a blank page) and instead display the second Canvas (where the content begins) when loading the resource.
 
 ## Implementation Notes
 
@@ -16,7 +16,7 @@ This recipe extends [Multiple Related Images (Book, etc.)][0009] by adding the i
 
 The target of `start` must be a JSON object with `id` and `type` properties, where `type` can be either a Canvas or a Specific Resource with a Selector. In this use case, the target type property is a Canvas (`"type": "Canvas"`).
 
-For an example of the `start` property using the target type property Specific Resource, see [Begin playback at a specific point - Time-based media][0015]. For more on the start property, see: [Start Property][prezi3-start].
+For an example of the `start` property using a Specific Resource with a Selector, see [Begin playback at a specific point - Time-based media][0015]. For more on the start property, see: [Start Property][prezi3-start].
 
 ## Example
 
