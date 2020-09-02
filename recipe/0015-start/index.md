@@ -34,7 +34,7 @@ This example shows a Manifest with a single Canvas with a duration of 1801.055 s
 
 {% include manifest_links.html viewers="UV" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="10-17"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="10-18"' %}
 
 # Related recipes
 
