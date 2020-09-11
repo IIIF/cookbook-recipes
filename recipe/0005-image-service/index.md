@@ -1,5 +1,5 @@
 ---
-title: Basic Use of an Image Service
+title: Support Deep Viewing with Basic Use of a IIIF Image Service
 id: 5
 layout: recipe
 tags: [image, annex, service, services, specifications, transitional]
