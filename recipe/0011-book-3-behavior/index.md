@@ -8,15 +8,15 @@ summary: "These manifests use the 'behavior' property to specify how the Canvase
 
 ## Use Cases
 
-The `behavior` property tells a presentation client one part of how to display a sequence of resources to a viewer -- specifically, how the canvases should display in relation to one another such as paged (two-up) for a book-view layout, continuous (stitched together) for a scroll, or as individual images where a book-view layout is not appropriate.
+The `behavior` property tells a presentation client one part of how to display a sequence of resources to a viewer; specifically, how the canvases should display in relation to one another such as paged (two-up) for a book-view layout, continuous (stitched together) for a scroll, or as individual images where a book-view layout is not appropriate.
 
 Most book objects that have a standard codex format with the concept of recto and verso (assuming one image per page) are best presented in book-view, with two facing pages displaying next to one another. In this case, the `behavior` property value used is `paged`. For an example manifest, see the [Book (simplest)][0009] recipe.
 
-Not all books (or their digital surrogates) are created equal, so the standard offers a few different behavior options. In this recipe we provide manifests for two use cases:
+Not all books (or their digital surrogates) are created equal, so the IIIF Presentation API defines a few different behavior options. In this recipe we demonstrate example manifests for two use cases:
 
-Use case 1: A scroll object where the scroll was imaged by capturing each segment using multiple shots, allowing the scroll to be stitched together in the viewer for a single continuous view. In this case, the manifest will use the `behavior` property `continuous`.
+Use case 1: A scroll object where the scroll has been imaged by capturing each segment through multiple shots, allowing the scroll to be "stitched together" in the viewer for a single continuous view. In this example, the manifest will use the `behavior` property `continuous`.
 
-Use case 2: A book (codex) object, but the page images were captured with one image per 2-page spread. In this case, the manifest will use the `behavior` property `individuals`.
+Use case 2: A book (codex) object where the page images were captured with one image per 2-page spread. In this example, the manifest will use the `behavior` property `individuals`.
 
 ## Implementation notes
 
@@ -38,7 +38,7 @@ Note that as of the writing of this recipe, the `behavior` value of `continuous`
 
 {% include jsonviewer.html src="manifest-continuous.json" config='data-line="15"' %}
 
-## Example 2: Book with page spread images (`individuals`)
+## Example 2: Book imaged as 2-page spreads (`individuals`)
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest-individuals.json" %}
 
