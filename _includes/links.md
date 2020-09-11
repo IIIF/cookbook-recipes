@@ -6,7 +6,7 @@
 [0007]: {{site.baseurl}}/recipe/0007-string-formats/ "Embedding HTML"
 [0008]: {{site.baseurl}}/recipe/0008-rights/ "Rights"
 [0013]: {{site.baseurl}}/recipe/0013-placeholderCanvas/ "Load a Preview Image Before the Main Content"
-[0202]: {{site.baseurl}}/recipe/0202-start-canvas/ "Load manifest beginning with a specific canvas"
+[0202]: {{site.baseurl}}/recipe/0202-start-canvas/ "Load Manifest Beginning with a Specific Canvas"
 
 [0068]: {{site.baseurl}}/recipe/0068-newspaper/ "A newspaper"
 

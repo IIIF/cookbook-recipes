@@ -1,5 +1,5 @@
 ---
-title: Load manifest beginning with a specific canvas
+title: Load Manifest Beginning with a Specific Canvas
 id: 202
 layout: recipe
 tags: [image]
