@@ -24,7 +24,7 @@ This example shows a Manifest with multiple Canvases for a book object. The `sta
 
 {% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="10-12"'%}
+{% include jsonviewer.html src="manifest.json" config='data-line="10-13"'%}
 
 ## Related Recipes
 
