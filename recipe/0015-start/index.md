@@ -24,7 +24,7 @@ For more on the `start` property, see: [Start Property][prezi3-start].
 
 Selectors in Annotation targets are used to describe how to retrieve a given part of a resource. There are three Selector classes defined in the IIIF specification, but only the [`PointSelector`][prezi3-pointselector] class is appropriate for this use case. The `PointSelector` class defines a specific point either spatially (`x`, `y`) and/or temporally (`t`).
 
-For more information on other Selector classes, see: [IIIF Open/Web Annotation Extensions][prezi3-openannotation] and [WC3 Web Annotation Selectors](https://www.w3.org/TR/annotation-model/#selectors).
+For more information on other Selector classes, see: [IIIF Open/Web Annotation Extensions][prezi3-openannotation] and [W3C Web Annotation Selectors](https://www.w3.org/TR/annotation-model/#selectors).
 
 ## Example
 
