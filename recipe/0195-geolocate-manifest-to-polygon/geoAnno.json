@@ -8,15 +8,13 @@
    "motivation":"supplementing",
    "label":{
       "en":[
-         "The coordinates outlining Göttingen, Germany."
+         "The coordinates outlining Göttingen, Germany"
       ]
    },
    "body":{
       "id":"{{ id.path }}/geo.json",
       "type":"Feature",
-      "properties":{
-
-      },
+      "properties":{},
       "geometry":{
          "type":"Polygon",
          "coordinates":[
