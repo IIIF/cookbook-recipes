@@ -10,28 +10,15 @@
          "Picture of Göttingen taken during the 2019 IIIF Conference"
       ]
    },
-   "summary":{
-      "en":[
-         "<p>Picture taken by the <a href=\"https://github.com/glenrobson\">IIIF Technical Coordinator</a></p>"
-      ]
-   },
-   "rights":"http://creativecommons.org/licenses/by-sa/3.0/",
-   "requiredStatement":{
-      "label":{
-         "en":[
-            "Attribution"
-         ]
-      },
-      "value":{
-         "en":[
-            "<span>Glen Robson, IIIF Technical Coordinator. <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a> <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" title\"CC BY-SA 3.0\"><img src=\"https://licensebuttons.net/l/by-sa/3.0/88x31.png\"/></a></span>"
-         ]
-      }
-   },
    "items":[
       {
          "id":"{{ id.path }}/canvas.json",
          "type":"Canvas",
+         "label":{
+            "en":[
+               "Canvas with a single IIIF image"
+            ]
+         },
          "height":3024,
          "width":4032,
          "items":[
@@ -75,7 +62,7 @@
                "motivation":"supplementing",
                "label":{
                   "en":[
-                     "Polygonal coordinates encapsulating Göttingen, Germany where the event took place."
+                     "The coordinates known from the photograph."
                   ]
                },
                "body":{
@@ -83,17 +70,15 @@
                   "type":"Feature",
                   "properties":{},
                   "geometry":{
-                     "type":"Polygon",
+                     "type":"Point",
                      "coordinates":[
-                        [
-                           [9.809430, 51.570156],
-                           [9.850628, 51.579117],
-                           [10.030529, 51.590637], 
-                           [10.056962, 51.532347], 
-                           [9.948829, 51.481692],
-                           [9.905576, 51.513933],
-                           [9.804273, 51.524557]
-                        ]
+                        [9.809430, 51.570156],
+                        [9.850628, 51.579117],
+                        [10.030529, 51.590637], 
+                        [10.056962, 51.532347], 
+                        [9.948829, 51.481692],
+                        [9.905576, 51.513933],
+                        [9.804273, 51.524557]
                      ]
                   }
                },

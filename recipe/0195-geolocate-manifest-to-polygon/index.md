@@ -7,10 +7,10 @@ summary: "Make a geographic Web Annotation to geolocate a Presentation API 3 Man
 ---
 
 ### Use Case 
-There is a photo that was taken during an IIIF event. A IIIF Presentation API 3.0 Manifest will created using the photograph. The Manifest is to be geolocated to the bounding area of Göttingen, Germany where the event took place. Unfortunately, the exact coordinates are not known.  
+You have a special photograph taken during an event that you have encoded inside a IIIF Presentation 3.0 Manifest. You would like to geolocate the Manifest to the outiline of the city in which the event took place.  You want the geographic coordinates to render in an open source mapping tool, such as Leaflet. The Manifest is to be geolocated to coordinates outlining Göttingen, Germany.
 
 ### Implementation Notes
-* This Manifest extends the Manifest used in the [rights recipe][0008]. If you have any questions about the Manifest, please see the rights recipe for more information. 
+* This Manifest extends the Manifest used in the [simple image service recipe][0005]. See that recipe for more information about the Manifest.
 * The third party [GeoJSON-LD](https://geojson.org/geojson-ld/) context is included alongside the IIIF Presentation API 3.0 context. This supplies the vocabulary terms for the GeoJSON-LD Annotation bodies since the IIIF Presentation API 3.0 context does not describe those terms. The field `@context` can be an array, and when it is the Presentation API 3 context must be the last item in the array.  
 
 ### Restrictions
@@ -18,16 +18,10 @@ Nested GeoJSON coordinate arrays are incompatible with the processing model of J
 
 ### Manifest
 
-{% include jsonviewer.html src="manifest.json" config='data-line="68-123"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="59-86"' %}
 
 ### Interface Example For This Recipe Manifest
-[Manifest Coordinates in Leaflet](http://geo.rerum.io/geolocate/viewAnnotations.html?manifest=https://preview.iiif.io/cookbook/0195-geolocate-manifest-to-polygon/recipe/0195-geolocate-manifest-to-polygon/manifest.json)
-
-## Related IIIF Stories
-* [https://github.com/IIIF/iiif-stories/issues/116](https://github.com/IIIF/iiif-stories/issues/116)
-* [https://github.com/IIIF/iiif-stories/issues/119](https://github.com/IIIF/iiif-stories/issues/119)
-* [https://github.com/IIIF/iiif-stories/issues/125](https://github.com/IIIF/iiif-stories/issues/125)
-* [https://github.com/IIIF/iiif-stories/issues/135](https://github.com/IIIF/iiif-stories/issues/135)
+There are robust viewers that support IIIF entities and the Annotations that supplement them. However, these viewers have not yet taken into account rendering coordinate assertions beyond the plain text understanding of their bodies. The IIIF Maps Community Group is considering the possibility of plugins to support coordinate rendering systems, such as Leaflet embedded in viewing windows. For now, you can see the coordinate Annotation on the Manifest [render directly in a leaflet viewer](http://geo.rerum.io/geolocate/viewAnnotations.html?manifest=https://preview.iiif.io/cookbook/0195-geolocate-manifest-to-polygon/recipe/0195-geolocate-manifest-to-polygon/manifest.json).
 
 ## Related Recipes
 * [Geolocate Canvas Fragment to a Point][TBD]
