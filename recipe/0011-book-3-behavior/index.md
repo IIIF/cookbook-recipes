@@ -28,7 +28,9 @@ In addition to `behavior`, you may want to use the `viewingDirection` property (
 
 The property is permissible for all resource types, but some values (`unordered`, `individuals`, `continuous`, `paged`) are permissible only for `Collection`, `Manifest`, and `Range`, while others (`facing-pages`, `non-paged`) are permissible only on `Canvas`. Clients should process the property on any resource type.
 
-## Example 1: Scroll (`continuous`)
+## Examples
+
+### Use case 1: Scroll (`continuous`)
 
 This Manifest represents an Ethiopian scroll,
 
@@ -38,7 +40,7 @@ Note that as of the writing of this recipe, the `behavior` value of `continuous`
 
 {% include jsonviewer.html src="Manifest-continuous.json" config='data-line="15"' %}
 
-## Example 2: Book imaged as 2-page spreads (`individuals`)
+### Use case 2: Book imaged as 2-page spreads (`individuals`)
 
 {% include Manifest_links.html viewers="UV, Mirador" Manifest="Manifest-individuals.json" %}
 
