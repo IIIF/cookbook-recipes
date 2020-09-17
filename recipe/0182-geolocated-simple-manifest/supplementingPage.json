@@ -18,9 +18,7 @@
          "body":{
             "id":"{{ id.path }}/geo.json",
             "type":"Feature",
-            "properties":{
-
-            },
+            "properties":{},
             "geometry":{
                "type":"Point",
                "coordinates":[

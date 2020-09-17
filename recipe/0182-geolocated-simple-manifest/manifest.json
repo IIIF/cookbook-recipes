@@ -1,8 +1,5 @@
 {
-   "@context":[
-      "http://geojson.org/geojson-ld/geojson-context.jsonld",
-      "http://iiif.io/api/presentation/3/context.json"
-   ],
+   "@context":"http://iiif.io/api/presentation/3/context.json",
    "id":"{{ id.url }}",
    "type":"Manifest",
    "label":{
@@ -10,28 +7,15 @@
          "Picture of Göttingen taken during the 2019 IIIF Conference"
       ]
    },
-   "summary":{
-      "en":[
-         "<p>Picture taken by the <a href=\"https://github.com/glenrobson\">IIIF Technical Coordinator</a></p>"
-      ]
-   },
-   "rights":"http://creativecommons.org/licenses/by-sa/3.0/",
-   "requiredStatement":{
-      "label":{
-         "en":[
-            "Attribution"
-         ]
-      },
-      "value":{
-         "en":[
-            "<span>Glen Robson, IIIF Technical Coordinator. <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a> <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" title\"CC BY-SA 3.0\"><img src=\"https://licensebuttons.net/l/by-sa/3.0/88x31.png\"/></a></span>"
-         ]
-      }
-   },
    "items":[
       {
          "id":"{{ id.path }}/canvas.json",
          "type":"Canvas",
+         "label":{
+            "en":[
+               "Canvas with a single IIIF image"
+            ]
+         },
          "height":3024,
          "width":4032,
          "items":[
