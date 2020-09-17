@@ -26,7 +26,6 @@ There are robust viewers that support IIIF entities and the Annotations that sup
 ## Related Recipes
 * [Geolocate Canvas Fragment to a Point][TBD]
 * [Geolocate Manifest to a Polygonal Area][TBD]
-* [Rights][0008]
 
 {% include acronyms.md %}
 {% include links.md %}
