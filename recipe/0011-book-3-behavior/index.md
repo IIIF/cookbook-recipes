@@ -36,9 +36,9 @@ This Manifest represents an Ethiopian scroll,
 
 Note that as of the writing of this recipe, the `behavior` value of `continuous` has no noticeable effect in the Universal Viewer demonstration linked below, but you can see it in practice with IIIF Presentation API 2 here: . For forward compatibility, it is a part of the Manifest.
 
-{% include Manifest_links.html viewers="UV, Mirador" Manifest="Manifest-continuous.json" %}
+{% include manifest_links.html viewers="UV, Mirador" manifest="manifest-continuous.json" %}
 
-{% include jsonviewer.html src="Manifest-continuous.json" config='data-line="15"' %}
+{% include jsonviewer.html src="manifest-continuous.json" config='data-line="15"' %}
 
 ### Use case 2: Book imaged as 2-page spreads (`individuals`)
 
