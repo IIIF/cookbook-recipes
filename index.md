@@ -12,7 +12,7 @@ The [IIIF Presentation API][prezi3] specifies a standardised way to describe com
 * enable client software developers to support these patterns, for consistency of user experience (when desirable);
 * demonstrate the applicability of IIIF to a broad range of use cases.
 
-The issues of the [Cookbook Recipes repository](https://github.com/IIIF/cookbook-recipes/issues) are used to identify and discuss cookbook recipes, prior to their inclusion in the final cookbook site. 
+The issues of the [Cookbook Recipes repository](https://github.com/IIIF/cookbook-recipes/issues) are used to identify and discuss cookbook recipes, prior to their inclusion in the final cookbook site.
 
 # Contributing
 
@@ -38,7 +38,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * Book (paging variations) (15,16,17) 
 * [Load a Preview Image Before the Main Content][0013]
 * accompanyingCanvas
-* start (65)
+* [Begin playback at a specific point - Time-based media][0015] (65)
 
 ## Textual and other supplementary content
 
@@ -46,7 +46,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * Transcription of audio and video
 * Transcription of content into XML, with XPaths to select a segment
 
-## Other kinds of annotations 
+## Other kinds of annotations
 _(leading on to segmentation examples later)_
 
 * comments - various examples (51,52,54)
@@ -74,7 +74,7 @@ _(leading on to segmentation examples later)_
 
 * Choice (simplest) (28)
 * Choice - multispectral flavoured example, with image services (29)
-* foldouts, etc (Choice or non-paged interlude (flaps vs maps))? 
+* foldouts, etc (Choice or non-paged interlude (flaps vs maps))?
 * [Multiple images (master/detail)][detail-image] (30,31)
 * Multiple images and multiple choices (32,33,34)
 * [Annotating part of an image to a Canvas][recipe-segment-image-part] (e.g., crop out scanner) (35,36,37,38)
@@ -84,7 +84,7 @@ _(leading on to segmentation examples later)_
 * temporal segmentation
 * Audio only from video (and other xxxContentSelector scenarios)
 * canvas on canvas (#1191)
-* CSS styling 
+* CSS styling
 
 ## Linking
 
@@ -97,7 +97,7 @@ _(leading on to segmentation examples later)_
 * Linking between Presentation API representations
 * seeAlso scenarios (incl other manifests) (8)
 
-## Technical 
+## Technical
 
 * extensions (18)
 * services (9,10)
@@ -117,7 +117,7 @@ _(leading on to segmentation examples later)_
 * Adaptive bit rate AV examples
 * A field recording
 * [A newspaper][0068]
-* Example with extensions and services 
+* Example with extensions and services
 * A manuscript with multiple orderings
 * a Sammelband
 * Archival collection (hierarchy, paging)
@@ -126,7 +126,7 @@ _(leading on to segmentation examples later)_
 * Mixed Image Service references (a mashup, with img2 and img3 services)
 * Glenn Gould - score and performance scenarios (transcribing)
 
-## Access Control 
+## Access Control
 _this might be in a separate auth cookbook_
 
 * probe service for simple resource
