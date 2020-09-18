@@ -28,8 +28,9 @@ The `items` property of the Canvas is a list of annotation pages, in this case t
 
 # Related Recipes
 
-* [Simplest Manifest - Audio][0002] and [Simplest Manifest - Video][0003] are equivalent to this example.
-* [Image different size to canvas] shows a canvas with dimensions different from the pixel dimensions of its content.
+* [Simplest Manifest - Audio][0002] and [Simplest Manifest - Video][0003] are equivalent to this example but for other media.
+* [Support Deep Viewing with Basic Use of a IIIF Image Service][0005] shows a basic manifest for use with a IIIF Image server.
+* [Image different size to canvas][0004] shows a canvas with dimensions different from the pixel dimensions of its content.
 * [Multiple values and languages] demonstrates language map variations, for multiple values and multiple languages. 
 
 
