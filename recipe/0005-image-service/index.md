@@ -22,7 +22,7 @@ Depending on your IIIF Image Service's stabilty, you can put the content of the 
 
 ## Restrictions
 
-Though a version 3 manifest may specify a service using the version 2 `@id` and `@type` property formats, these are only to be used when you are specifying an image service that itself is version 2. See [recipe 75][0075] for more on this topic.
+Though a version 3 Manifest may specify a service using the version 2 `@id` and `@type` property formats, these are only to be used when you are specifying an image service that itself is version 2. See [recipe 75][0075] for more on this topic.
 
 ## Example
 
