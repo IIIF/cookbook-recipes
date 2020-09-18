@@ -12,7 +12,7 @@ You have an image ready for annotating that is expected to be replaced later by 
 
 ## Implementation notes
 
-This recipe demonstrates the importance of thinking about a Canvas as a coordinate space, not as absolute pixel or display dimensions. The Canvas dimensions (unit-less values of width and height) need not be related to the (pixel) dimensions of the content painted onto the Canvas. This recipe shows the Canvas dimensions differing from the image dimensions and the image filling the Canvas completely. A more complex but not uncommon case (with a recipe linked below in Related Recipes) is to have multiple images on the same Canvas, where each image might have a different pixel-based resolution but must be reconciled into the same Canvas coordinate space.
+This recipe demonstrates the importance of thinking about a Canvas as a coordinate space, not as absolute pixel or display dimensions. The Canvas dimensions (unit-less values of width and height) need not be related to the (pixel) dimensions of the content painted onto the Canvas. This recipe shows the Canvas dimensions differing from the image dimensions, yet the image fills the Canvas completely. A more complex but not uncommon case (with a recipe linked below in Related Recipes) is to have multiple images on the same Canvas, where each image might have a different pixel-based resolution but must be reconciled into the same Canvas coordinate space.
 
 By making the Canvas coordinate space larger than the pixel space of an image:
 + You have the leeway to not know what your replacement image dimensions will be,
@@ -20,6 +20,8 @@ By making the Canvas coordinate space larger than the pixel space of an image:
 + Drawing annotation regions on the smaller version will be facilitated by having more screen space.
 
 For a future replacement image of unknown dimensions, a good starting point is to make each Canvas dimension at least twice the corresponding pixel dimension of the current image as long as each Canvas dimension is over 1000.
+
+Finally, if the image dimensions are larger than the Canvas, the image will be scaled to fit the Canvas.
 
 ## Restrictions
 
