@@ -42,9 +42,9 @@ Note that as of the writing of this recipe, the `behavior` value of `continuous`
 
 ### Use case 2: Book imaged as 2-page spreads (`individuals`)
 
-{% include Manifest_links.html viewers="UV, Mirador" Manifest="Manifest-individuals.json" %}
+{% include manifest_links.html viewers="UV, Mirador" manifest="manifest-individuals.json" %}
 
-{% include jsonviewer.html src="Manifest-individuals.json" config='data-line="15"' %}
+{% include jsonviewer.html src="manifest-individuals.json" config='data-line="15"' %}
 
 # Related recipes
 
