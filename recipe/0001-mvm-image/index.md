@@ -9,7 +9,7 @@ summary: "The simplest viable manifest for image content. If all you have for an
 
 ## Use Case
 
-The simplest viable manifest for image content. If all you have for an object is one image on the web and a label to go along with it, this pattern turns it into a IIIF Presentation resource.
+You have one large image or a small number of them hosted on the web, but not on a IIIF-compatible image server. You'd like to allow viewing of your images in a conforming IIIF image viewer, though, to allow people to examine it closely in a standard interface. This recipe will help you create a descriptive document for it and so use it as a IIIF Presentation resource.
 
 ## Implementation Notes
 
