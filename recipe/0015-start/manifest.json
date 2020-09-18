@@ -3,7 +3,7 @@
     "id": "{{ id.url }}",
     "type": "Manifest",
     "label": {
-      "en": [ "The 'Start' Property - Time-based media"
+      "en": [ "Video of a 30-minute digital clock"
         ]
     },
     "start": {

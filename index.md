@@ -37,8 +37,10 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * Book (viewingDirection variations) (11,12,13,14)
 * [Book behavior (paging) variations][0011] (15,16,17) 
 * [Load a Preview Image Before the Main Content][0013]
-* accompanyingCanvas
+* [Audio Presentation with Accompanying Image][0014]
 * start (65)
+* accompanyingCanvas
+* [Begin playback at a specific point - Time-based media][0015] (65)
 
 ## Textual and other supplementary content
 
