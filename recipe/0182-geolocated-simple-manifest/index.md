@@ -21,7 +21,7 @@ Nested GeoJSON coordinate arrays are incompatible with the processing model of J
 {% include jsonviewer.html src="manifest.json" config='data-line="59-82"' %}
 
 ### Interface Example For This Recipe Manifest
-There are robust viewers that support IIIF resource types and the Annotations that describe them.  However, these viewers have not yet taken into account rendering coordinate assertions beyond the plain text understanding of the Annotation bodies. The [IIIF Maps Community Group](https://iiif.io/community/groups/maps/) is considering plugins to support coordinate rendering systems, such as Leaflet embedded in viewing windows. For now, you can see the coordinates in the body of the Annotation on the Manifest [render in a Leaflet viewer](http://geo.rerum.io/geolocate/viewAnnotations.html?manifest=https://preview.iiif.io/cookbook/0182-geolocated-simple-manifest/recipe/0182-geolocated-simple-manifest/manifest.json).
+There are robust viewers that support IIIF resource types and the Annotations that describe them. However, these viewers have not yet taken into account rendering coordinate assertions beyond the plain text understanding of the Annotation bodies. The [IIIF Maps Community Group](https://iiif.io/community/groups/maps/) is considering plugins to support coordinate rendering systems, such as Leaflet embedded in viewing windows. For now, you can see the coordinates in the body of the Annotation on the Manifest [render in a Leaflet viewer](http://geo.rerum.io/geolocate/viewAnnotations.html?manifest=https://preview.iiif.io/cookbook/0182-geolocated-simple-manifest/recipe/0182-geolocated-simple-manifest/manifest.json).
 
 ## Related Recipes
 * [Geolocate Canvas Fragment to a Point][TBD]
