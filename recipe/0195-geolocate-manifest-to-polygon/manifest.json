@@ -70,7 +70,7 @@
                   "type":"Feature",
                   "properties":{},
                   "geometry":{
-                     "type":"Point",
+                     "type":"Polygon",
                      "coordinates":[
                         [9.809430, 51.570156],
                         [9.850628, 51.579117],
