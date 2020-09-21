@@ -59,7 +59,7 @@
             {
                "id":"{{ id.path }}/geoAnno.json",
                "type":"Annotation",
-               "motivation":"supplementing",
+               "motivation":"tagging",
                "label":{
                   "en":[
                      "The coordinates known from the photograph"

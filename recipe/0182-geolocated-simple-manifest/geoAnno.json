@@ -5,7 +5,7 @@
    ],
    "id":"{{ id.url }}",
    "type":"Annotation",
-   "motivation":"supplementing",
+   "motivation":"tagging",
    "label":{
       "en":[
          "The coordinates known from the photograph"
