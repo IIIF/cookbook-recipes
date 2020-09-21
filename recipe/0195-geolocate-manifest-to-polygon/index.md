@@ -7,7 +7,7 @@ summary: "Make a geographic Web Annotation to geolocate a Presentation API 3 Man
 ---
 
 ### Use Case 
-You have a special photograph taken during an event that you have encoded inside a IIIF Presentation API 3 Manifest. You would like to geolocate the Manifest to the outiline of the city in which the event took place (Göttingen, Germany). You want the geographic coordinates to render in open source mapping systems, such as [Leaflet](https://leafletjs.com/).  You would like to geolocate the Manifest to the outline of Göttingen, Germany [using software that generates IIIF Presentation API 3.0 Annotations](http://geo.rerum.io/geolocate/annotate.html).
+You have a special photograph taken during an event that you have encoded inside a IIIF Presentation API 3 Manifest. You would like to geolocate the Manifest to an outiline of the city in which the event took place (Göttingen, Germany). You want the geographic coordinates to render in open source mapping systems, such as [Leaflet](https://leafletjs.com/).  You would like to geolocate the Manifest [using software that generates IIIF Presentation API 3.0 Annotations](http://geo.rerum.io/geolocate/annotate.html).
 
 ### Implementation Notes
 * This Manifest extends the Manifest used in the [simple image service recipe][0005]. See that recipe for more information about the Manifest.
