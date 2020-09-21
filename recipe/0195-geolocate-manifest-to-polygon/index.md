@@ -12,6 +12,7 @@ You have a special photograph taken during an event that you have encoded inside
 ### Implementation Notes
 * This Manifest extends the Manifest used in the [simple image service recipe][0005]. See that recipe for more information about the Manifest.
 * The third party [GeoJSON-LD](https://geojson.org/geojson-ld/) context is included alongside the IIIF Presentation API 3.0 context. This supplies the vocabulary terms for the GeoJSON-LD Annotation bodies since the IIIF Presentation API 3 context does not describe those terms. The field `@context` can be an array, and when it is the Presentation API 3 context must be the last item in the array.  
+* The GeoJSON specification states that [the coordinates for the type Polygon must be a linear ring](https://tools.ietf.org/html/rfc7946#section-3.1.6). A linear ring is a closed LineString with four or more positions. The first and last positions are equivalent, and they must contain identical values.
 
 ### Restrictions
 Nested GeoJSON coordinate arrays are incompatible with the processing model of JSON-LD 1.0. The JSON-LD 1.1 processing model does not have this restriction.  
