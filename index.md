@@ -35,11 +35,11 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * thumbnail algorithm / discussion
 * Book (simplest, > 1 canvas) (19)
 * Book (viewingDirection variations) (11,12,13,14)
-* Book (paging variations) (15,16,17)
-* placeholderCanvas
-* accompanyingCanvas
-* start (65)
+* Book (paging variations) (15,16,17) 
+* [Load a Preview Image Before the Main Content][0013]
+* [Audio Presentation with Accompanying Image][0014]
 * [Load Manifest Beginning with a Specific Canvas][0202]
+* [Begin playback at a specific point - Time-based media][0015] (65)
 
 ## Textual and other supplementary content
 
