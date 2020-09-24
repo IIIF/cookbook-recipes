@@ -25,7 +25,7 @@ Finally, if the image dimensions are larger than the Canvas, the image will be s
 
 ## Restrictions
 
-None known.
+The aspect ratio should be consistend between your source image and Canvas. Otherwise, you'll see unpredictable stretching and/or distorting.
 
 ## Example
 
@@ -37,7 +37,7 @@ This example shows a Manifest with a single Canvas that has height and width dim
 # Related recipes
 
 * [Simple Image Manifest][0001]
-* [Multi Image Multi Choice][0037]
+* [A/V Content and the Behavior Property][0000]
 
 {% include acronyms.md %}
 {% include links.md %}
