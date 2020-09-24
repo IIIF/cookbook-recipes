@@ -8,7 +8,7 @@ summary: "Paint a Canvas using an image with an associated IIIF Image API servic
 
 ## Use Case
 
-You have a rare or special object in your collection that you'd like to make available for research to a large audience, including those without the ability to be present at your institution to examine the object in person. Presenting a medium-resolution flat digital image of the object using IIIF is [possible][0001], but if you have implemented a IIIF Image API service, you have significantly enhanced interaction possibilities for research and engagement. Specifying a IIIF Image API service in your presentation manifest allows for, among other features, proper deep zooming of large high-resolution images, client generation of derivatives, annotation of and external reference to image fragments, and more. In turn, this permits researchers more sophisticated inspection of the object and more possibilities for stable, durable, and discoverable image-based scholarship.
+You have a rare or special object in your collection that you'd like to make available for research to a large audience, including those without the ability to be present at your institution to examine the object in person. Presenting a medium-resolution flat digital image of the object using IIIF is [possible][0001], but if you have implemented a [IIIF Image API](https://iiif.io/api/image/) service, you have significantly enhanced interaction possibilities for research and engagement. Specifying a IIIF Image API service in your presentation manifest allows for, among other features, proper deep zooming of large high-resolution images, client generation of derivatives, annotation of and external reference to image fragments, image rotation, choice of colors, creation of image fragments for annotation, and more. In turn, this permits researchers more sophisticated inspection of the object and more possibilities for stable, durable, and discoverable image-based scholarship.
 
 ## Implementation Notes
 
@@ -18,7 +18,7 @@ The `type` tells the client what version of the IIIF Image API (1, 2, or 3) you 
 
 Image service properties should include a `profile` property, with a value representing the service's level of compliance with the IIIF Image specification. You may read more about service compliance level in the [Image API Compliance](https://iiif.io/api/image/3.0/compliance/) specification.
 
-Depending on your IIIF Image Service's stabilty, you can put the content of the image's `info.json` (excluding any context property) as the content of the service sections of your manifest. Doing so allows clients to take selected actions, such as choosing an appropriate thumbnail, without making separate requests to the service.
+As an optimisation you may want to include all of the info.json content (excluding the @context) as the content of the service sections of your manifest. Doing so allows clients to take selected actions, such as choosing an appropriate thumbnail, without making separate requests to the service.
 
 ## Restrictions
 
@@ -36,13 +36,9 @@ Though a version 3 Manifest may specify a service using the version 2 `@id` and 
 * [Add Image Thumbnail][0117] discusses {how to work with thumbnail images}
 * [Presentation version 3 manifest containing images on a version 2 service][00XX] forms part of the recipes connected with upgrading your offerings from v2 to v3.
 * [Services][0055]
-* [Choice - multispectral flavoured example, with image services][0034]
-* [Reusing an image service (ImageApiSelector)][0040]
-* [Linking from Image API to Presentation API][0048]
-* [Linking from Image API to external metadata][0049]
-* [Example with extensions and services][0069]
-* [Mixed Image Service References][0075]
-* [Geolocating A Canvas Fragment][0139]
+
+
+
 
 {% include acronyms.md %}
 {% include links.md %}
