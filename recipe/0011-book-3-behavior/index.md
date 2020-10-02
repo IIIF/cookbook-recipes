@@ -30,7 +30,7 @@ The property is permissible for all resource types, but some values (`unordered`
 
 ### Use case 1: Accordion book (`continuous`)
 
-This Manifest represents an Ethiopian accordion book with a continuous layout running left-to-right. It has four images that, when using the `"behavior": "continuous"` property, will display as a single continuous image in the viewer.
+This Manifest represents an Ethiopic accordion book with a continuous layout running left-to-right. It has four images that, when using the `"behavior": "continuous"` property, will display as a single continuous image in the viewer.
 
 _Note: As of the writing of this recipe, the `behavior` value of `continuous` has no noticeable effect in the Universal Viewer demonstration linked below, but you can see it in practice with IIIF Presentation API 2 here: . For forward compatibility, it is a part of the recipe._
 
