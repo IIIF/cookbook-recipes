@@ -7,26 +7,9 @@
    "type":"AnnotationPage",
    "items":[
       {
-         "id":"{{ id.path }}/transcriptionAnno.json",
-         "type":"Annotation",
-         "motivation":"supplementing",
-         "label":{
-            "en":[
-               "Transcription Annotation"
-            ]
-         },
-         "body":{
-            "type":"TextualBody",
-            "value":"Paris",
-            "format":"text/plain",
-            "language":"en"
-         },
-         "target":"{{ id.path }}/canvas.json#xywh=1300,3370,250,100"
-      },
-      {
          "id":"{{ id.path }}/geoAnno.json",
          "type":"Annotation",
-         "motivation":"supplementing",
+         "motivation":"tagging",
          "label":{
             "en":[
                "Geographic Annotation"
