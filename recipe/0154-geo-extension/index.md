@@ -6,33 +6,26 @@ tags: [maps, geolocate, annotation]
 summary: "Make a geographical assertion about a IIIF resource via the navPlace extension."
 ---
 
-### Use Case
-Geographical knowledge of a IIIF resource is obtained. There is the need to assert that geographical information about the resource.
+### Use Case 
+You have a special photograph taken during an event that you plan to encode inside a IIIF Presentation API 3 Manifest. You would like to geolocate the Manifest to the coordinates obtained from the photograph metadata. You want the coordinates to render in open source mapping systems, such as [Leaflet](https://leafletjs.com/).
 
 ### Implementation Notes
-* Note that these extension values are not Annotations.  This means there is no motivation or purpose.  Proper extensions will include @context vocabulary to describe the motivation and purpose for the extension.  You can see an example of this in the @context of the JSON Manifest below. The main motivations/purposes for the geographic extension are `geocode`, `georeference`, `geolocate`, `georectify`, and `co-locate`. 
-* GeoJSON `properties` is a very generic field and [can be nearly anything](https://tools.ietf.org/html/rfc7946#section-3.2). If, for example, the targeted resource has a `label` and the `properties` field contains a `label`, the consuming interface must make a choice on which to preference for presentation purposes. This community should establish conventions to inject, override or extend resource properties.
-* [`geometry` can be more than just a `Point`.](https://tools.ietf.org/html/rfc7946#section-3.1)
-* `navPlace_ex1` and `navPlace_ex2` are both proper examples of how the extension could be implemented.  The value for the extension key could either be an Object or an Array.  The types used in the Object or Array could be `Feature`s and/or `FeatureCollection`s.  A described object will not contains multiple `navPlace` values.
+* This Manifest extends the Manifest used in the [simple image service recipe][0005]. See that recipe for more information about the Manifest.
+* The third party [GeoJSON-LD](https://geojson.org/geojson-ld/) context is included alongside the IIIF Presentation 3 context. This supplies the vocabulary terms for the GeoJSON-LD Annotation bodies since the IIIF Presentation 3 context does not describe those terms. The field `@context` can be an array, and when it is the IIIF Presentation API 3 context must be the last item in the array.  
 
 ### Restrictions
-This extension has not yet been implemented yet.  @context and vocabulary do not exist for it. Therefore it is not valid at this time and merely exists for demonstration purposes.
+Nested GeoJSON coordinate arrays are incompatible with the processing model of JSON-LD 1.0. The JSON-LD 1.1 processing model does not have this restriction.
 
-### Manifest With navPlace Extension
-In this example, the navPlace extension was used to place the geographic assertion directly on the resource.
+### Manifest
 
-{% include jsonviewer.html src="manifestWithnavPlace.json" config='data-line="39-82"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="59-82"' %}
 
-## Related IIIF Stories
-* [https://github.com/IIIF/iiif-stories/issues/116](https://github.com/IIIF/iiif-stories/issues/116)
-* [https://github.com/IIIF/iiif-stories/issues/119](https://github.com/IIIF/iiif-stories/issues/119)
-* [https://github.com/IIIF/iiif-stories/issues/125](https://github.com/IIIF/iiif-stories/issues/125)
-* [https://github.com/IIIF/iiif-stories/issues/135](https://github.com/IIIF/iiif-stories/issues/135)
+### Interface Example For This Recipe Manifest
+There are robust viewers that support IIIF resource types and the Annotations that describe them. However, these viewers have not yet taken into account rendering coordinate assertions beyond the plain text understanding of the Annotation bodies. The [IIIF Maps Community Group](https://iiif.io/community/groups/maps/) is considering plugins to support coordinate rendering systems, such as Leaflet embedded in viewing windows. For now, you can see the coordinates in the body of the Annotation on the Manifest [render in a Leaflet viewer](http://geo.rerum.io/geolocate/viewAnnotations.html?manifest=https://preview.iiif.io/cookbook/0182-geolocated-simple-manifest/recipe/0182-geolocated-simple-manifest/manifest.json).
 
 ## Related Recipes
-* [0TBD]() -
-* [0TBD]() -
-* [0TBD]() -
+* [Geolocate Canvas Fragment to a Point][TBD]
+* [Geolocate Manifest to a Polygonal Area][TBD]
 
 {% include acronyms.md %}
 {% include links.md %}

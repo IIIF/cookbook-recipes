@@ -1,41 +1,56 @@
 {
    "@context":[
-      "http://iiif.io/api/example/extension/geographic/context.json",
+      "http://geojson.org/geojson-ld/geojson-context.jsonld",
       "http://iiif.io/api/presentation/3/context.json"
    ],
    "id":"{{ id.url }}",
    "type":"Manifest",
    "label":{
       "en":[
-         "Handwritten Medieval Letters"
+         "Picture of Göttingen taken during the 2019 IIIF Conference"
       ]
    },
-   "summary":{
-      "en":[
-         "An example IIIF Manifest to demonstrate the possible uses of a geographic focused IIIF extension ('navPlace').  A geographic JSON-LD context file is included as an example only."
-      ]
-   },
-   "viewingDirection":"left-to-right",
-   "behavior":[
-      "paged"
-   ],
-   "metadata":[
+   "items":[
       {
+         "id":"{{ id.path }}/canvas.json",
+         "type":"Canvas",
          "label":{
             "en":[
-               "Notes"
+               "Canvas with a single IIIF image"
             ]
          },
-         "value":{
-            "en":[
-               "I have not digitized the letters yet."
-            ]
-         }
+         "height":3024,
+         "width":4032,
+         "items":[
+            {
+               "id":"{{ id.path }}/contentPage.json",
+               "type":"AnnotationPage",
+               "items":[
+                  {
+                     "id":"{{ id.path }}/contentAnno.json",
+                     "type":"Annotation",
+                     "motivation":"painting",
+                     "body":{
+                        "id":"https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg",
+                        "type":"Image",
+                        "format":"image/jpeg",
+                        "height":3024,
+                        "width":4032,
+                        "service":[
+                           {
+                              "id":"https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
+                              "profile":"level1",
+                              "type":"ImageService3"
+                           }
+                        ]
+                     },
+                     "target":"{{ id.path }}/canvas.json"
+                  }
+               ]
+            }
+         ]
       }
    ],
-   "items":[],
-   "structures":[],
-   "annotations":[],
    "navPlace_ex1":[
       {
          "id":"{{ id.path }}/geo.json",
@@ -43,7 +58,7 @@
          "properties":{
             "label":{
                "en":[
-                  "Location For Handwritten Letters Binder (Paris, France)"
+                  "Picture of Göttingen"
                ]
             }
          },
@@ -66,7 +81,7 @@
             "properties":{
                "label":{
                   "en":[
-                     "Location For Handwritten Letters Binder (Paris, France)"
+                     "Picture of Göttingen"
                   ]
                }
             },
