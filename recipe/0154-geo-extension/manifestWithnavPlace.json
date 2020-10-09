@@ -58,15 +58,15 @@
          "properties":{
             "label":{
                "en":[
-                  "Picture of Göttingen"
+                  "The coordinates known from the photograph"
                ]
             }
          },
          "geometry":{
             "type":"Point",
             "coordinates":[
-               2.34,
-               48.86
+               9.937855,
+               51.533451
             ]
          }
       }
@@ -81,15 +81,15 @@
             "properties":{
                "label":{
                   "en":[
-                     "Picture of Göttingen"
+                     "The coordinates known from the photograph"
                   ]
                }
             },
             "geometry":{
                "type":"Point",
                "coordinates":[
-                  2.34,
-                  48.86
+                  9.937855,
+                  51.533451 
                ]
             }
          }
