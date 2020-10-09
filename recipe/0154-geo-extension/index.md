@@ -1,5 +1,5 @@
 ---
-title: navPlace Extension
+title: Geolocate Manifest to A Point with navPlace Extension
 id: 997
 layout: recipe
 tags: [maps, geolocate, annotation]
