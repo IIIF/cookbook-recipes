@@ -5,15 +5,15 @@
    "properties":{
       "label":{
          "en":[
-            "Location For Handwritten Letters Binder"
+            "Picture of Göttingen"
          ]
       }
    },
    "geometry":{
       "type":"Point",
       "coordinates":[
-         2.34,
-         48.86
+         9.937855,
+         51.533451 
       ]
    }
 }
