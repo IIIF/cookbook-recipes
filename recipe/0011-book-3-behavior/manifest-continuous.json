@@ -21,14 +21,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://iiif.io/api/image/3.0/example/reference/8c169124171e6b2253b698a22a938f07-21198-zz001hbmd9_1300412_master/full/max/0/default.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/8c169124171e6b2253b698a22a938f07-21198-zz001hbmd9_1300412_master/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 11368,
                 "height": 1592,
                 "service": [
                 	{
-                		"id": "http://iiif.io/api/image/3.0/example/reference/8c169124171e6b2253b698a22a938f07-21198-zz001hbmd9_1300412_master",
+                		"id": "https://iiif.io/api/image/3.0/example/reference/8c169124171e6b2253b698a22a938f07-21198-zz001hbmd9_1300412_master",
                 		"type": "ImageService3",
                 		"profile": "level1"
                 	}
@@ -56,14 +56,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://iiif.io/api/image/3.0/example/reference/8c169124171e6b2253b698a22a938f07-21198-zz001hbmft_1300418_master/full/max/0/default.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/8c169124171e6b2253b698a22a938f07-21198-zz001hbmft_1300418_master/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
 								"width": 11608,
 								"height": 1536,
                 "service": [
                 	{
-                		"id": "http://iiif.io/api/image/3.0/example/reference/8c169124171e6b2253b698a22a938f07-21198-zz001hbmft_1300418_master",
+                		"id": "https://iiif.io/api/image/3.0/example/reference/8c169124171e6b2253b698a22a938f07-21198-zz001hbmft_1300418_master",
                 		"type": "ImageService3",
                 		"profile": "level1"
                 	}
@@ -91,14 +91,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://iiif.io/api/image/3.0/example/reference/8c169124171e6b2253b698a22a938f07-21198-zz001hbmgb_1300426_master/full/max/0/default.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/8c169124171e6b2253b698a22a938f07-21198-zz001hbmgb_1300426_master/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 10576,
                 "height": 1504,
                 "service": [
                 	{
-                		"id": "http://iiif.io/api/image/3.0/example/reference/8c169124171e6b2253b698a22a938f07-21198-zz001hbmgb_1300426_master",
+                		"id": "https://iiif.io/api/image/3.0/example/reference/8c169124171e6b2253b698a22a938f07-21198-zz001hbmgb_1300426_master",
                 		"type": "ImageService3",
                 		"profile": "level1"
                 	}
@@ -126,14 +126,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "http://iiif.io/api/image/3.0/example/reference/8c169124171e6b2253b698a22a938f07-21198-zz001hbmhv_1300436_master/full/max/0/default.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/8c169124171e6b2253b698a22a938f07-21198-zz001hbmhv_1300436_master/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "width": 2488,
                 "height": 1464,
                 "service": [
                 	{
-                		"id": "http://iiif.io/api/image/3.0/example/reference/8c169124171e6b2253b698a22a938f07-21198-zz001hbmhv_1300436_master",
+                		"id": "https://iiif.io/api/image/3.0/example/reference/8c169124171e6b2253b698a22a938f07-21198-zz001hbmhv_1300436_master",
                 		"type": "ImageService3",
                 		"profile": "level1"
                 	}
