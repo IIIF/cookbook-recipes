@@ -2,8 +2,8 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "{{ id.url }}",
   "type": "Manifest",
-  "label": { "en": [ "Ms. 21 Māzemurā Dāwit, Asmat [መዝሙረ ዳዊት]" ] },
-  "behavior": "continuous",
+  "label": { "gez": [ "Ms. 21 Māzemurā Dāwit, Asmat [መዝሙረ ዳዊት]" ] },
+  "behavior": [ "continuous" ],
   "items": [
     {
       "id": "{{ id.path }}/canvas/s1",
