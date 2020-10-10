@@ -36,7 +36,7 @@ _Note: As of the writing of this recipe, the `behavior` value of `continuous` ha
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest-continuous.json" %}
 
-{% include jsonviewer.html src="manifest-continuous.json" config='data-line="10"' %}
+{% include jsonviewer.html src="manifest-continuous.json" config='data-line="10-12"' %}
 
 ### Use case 2: Book imaged as 2-page spreads (`individuals`)
 
