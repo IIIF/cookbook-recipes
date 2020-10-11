@@ -8,7 +8,9 @@ summary: "The 'behavior' property specifies how Canvases should be displayed in 
 
 ## Use Cases
 
-Book objects (and their digital surrogates) come in a variety of forms and layouts that affect how we might display a resource to users, such as codices with the concept of recto and verso, scrolls or accordion books that have a continuous layout, or a digitized codex that has been imaged as 2-page spreads. To tell a presentation client how to display a sequence of resources in relation to one another, IIIF uses the `behavior` property. For example, a standard codex might be best presented in book-view, with two facing pages displaying next to one another. In this case, the `behavior` property value used is `paged`. For an example Manifest using the `"behavior": "paged"` property, see the [Book (simplest)][0009] recipe.
+Book objects (and their digital surrogates) come in a variety of forms and layouts that affect how we might display a resource to users, such as codices with the concept of recto and verso, scrolls or accordion books that have a continuous layout, or a digitized codex that has been imaged as 2-page spreads.
+
+To tell a presentation client how to display a sequence of resources in relation to one another, IIIF uses the `behavior` property. For example, a standard codex might be best presented in book-view, with two facing pages displaying next to one another. In this case, the `behavior` property value used is `paged`. For an example Manifest using the `"behavior": "paged"` property, see the [Book (simplest)][0009] recipe.
 
 This recipe provides example Manifests demonstrating the use of the `behavior` property for two additional use cases:
 
@@ -32,7 +34,7 @@ The property is permissible for all resource types, but some values (`unordered`
 
 This Manifest represents an Ethiopic accordion book with a continuous layout running left-to-right. It has four images that, when using the `"behavior": "continuous"` property, will display as a single continuous image in the viewer.
 
-_Note: As of the writing of this recipe, the `behavior` value of `continuous` has no noticeable effect in the Universal Viewer demonstration linked below, but you can see it in practice with IIIF Presentation API 2 here: . For forward compatibility, it is a part of the recipe._
+_Note: As of the writing of this recipe, the `behavior` value of `continuous` has no noticeable effect in the Universal Viewer demonstration linked below, but you can see the continuous layout in Mirador 3. For forward compatibility, it is a part of the recipe._
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest-continuous.json" %}
 
@@ -40,11 +42,11 @@ _Note: As of the writing of this recipe, the `behavior` value of `continuous` ha
 
 ### Use case 2: Book imaged as 2-page spreads (`individuals`)
 
-This Manifest represents
+This Manifest represents a book codex imaged as 2-page spreads of the two facing pages. There are four images (spreads) that, when using the `"behavior": "continuous"` property, will display as individual images instead of as two images next to one another as in book-view.
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest-individuals.json" %}
 
-{% include jsonviewer.html src="manifest-individuals.json" config='data-line="15"' %}
+{% include jsonviewer.html src="manifest-individuals.json" config='data-line="10-12"' %}
 
 # Related recipes
 
