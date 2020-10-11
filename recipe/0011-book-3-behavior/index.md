@@ -34,7 +34,7 @@ The property is permissible for all resource types, but some values (`unordered`
 
 This Manifest represents an Ethiopic accordion book with a continuous layout running left-to-right. It has four images that, when using the `"behavior": "continuous"` property, will display as a single continuous image in the viewer.
 
-_Note: As of the writing of this recipe, the `behavior` value of `continuous` has no noticeable effect in the Universal Viewer demonstration linked below, but you can see the continuous layout in Mirador 3. For forward compatibility, it is a part of the recipe._
+_Note: The `"behavior": "continuous"` property currently has no noticeable effect in Universal Viewer. (Should we keep the UV link or remove it?)
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest-continuous.json" %}
 
