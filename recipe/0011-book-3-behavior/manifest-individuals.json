@@ -135,7 +135,7 @@
                 "height": 2250,
                 "service": [
                 	{
-                		"id": "http://iiif.io/api/image/3.0/example/reference/85a96c630f077e6ac6cb984f1b752bbf-3-21198-zz000228d4-1-master",
+                		"id": "https://iiif.io/api/image/3.0/example/reference/85a96c630f077e6ac6cb984f1b752bbf-3-21198-zz000228d4-1-master",
                 		"type": "ImageService3",
                 		"profile": "level1"
                 	}
