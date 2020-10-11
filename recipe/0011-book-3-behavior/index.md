@@ -42,7 +42,7 @@ _Note: The `"behavior": "continuous"` property currently has no noticeable effec
 
 ### Use case 2: Book imaged as 2-page spreads (`individuals`)
 
-This Manifest represents a book codex imaged as 2-page spreads of the two facing pages. There are four images (spreads) that, when using the `"behavior": "continuous"` property, will display as individual images instead of as two images next to one another as in book-view.
+This Manifest represents a book imaged as 2-page spreads (two facing pages in a single image). When using the `"behavior": "individuals"` property, the presentation client will force a one-at-a-time view and remove the "book view" option.
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest-individuals.json" %}
 
