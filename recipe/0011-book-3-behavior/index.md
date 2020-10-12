@@ -1,12 +1,12 @@
 ---
-title: Book 'behavior' variations (continuous, individuals)
+title: Book 'behavior' Variations (continuous, individuals)
 id: 11
 layout: recipe
 tags: [image, text, layout]
 summary: "The 'behavior' property specifies how Canvases should be displayed in the viewer in relation to one another, such as paged for book-view, continuous for a scroll or accordion book, or as individuals for a book imaged as full page spreads."
 ---
 
-## Use Cases
+## Use cases
 
 Book objects (and their digital surrogates) come in a variety of forms and layouts that affect how we might display a resource to users, such as codices with the concept of recto and verso, scrolls or accordion books that have a continuous layout, or a digitized codex that has been imaged as 2-page spreads.
 
