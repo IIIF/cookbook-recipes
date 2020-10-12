@@ -1,5 +1,5 @@
 ---
-title: Book with Table of contents (ranges)
+title: Book with Table of Contents (ranges)
 id: 24
 layout: recipe
 tags: [tbc]
