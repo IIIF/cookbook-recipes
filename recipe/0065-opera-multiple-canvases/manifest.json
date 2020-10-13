@@ -20,7 +20,7 @@
       "width": 1920,
       "height": 1080,
       "duration": 3971.24,
-      "label": { "en": [ "Act I" ] },
+      "label": { "en": [ "Atto Primo" ] },
       "items": [
         {
           "id": "{{ id.path }}/canvas/1/annotation_page/1",
@@ -56,7 +56,7 @@
       "width": 1920,
       "height": 1080,
       "duration": 3307.22,
-      "label": { "en": [ "Act II" ] },
+      "label": { "en": [ "Atto Secondo" ] },
       "items": [
         {
           "id": "{{ id.path }}/canvas/2/annotation_page/1",
@@ -96,7 +96,7 @@
         {
           "type": "Range",
           "id": "{{ id.path }}/range/2",
-          "label": { "en": [ "Act I" ] },
+          "label": { "en": [ "Atto Primo" ] },
           "items": [
             {
               "type": "Range",
@@ -112,7 +112,7 @@
             {
               "type": "Range",
               "id": "{{ id.path }}/range/4",
-              "label": { "en": [ "Remainder of Act I" ] },
+              "label": { "en": [ "Remainder of Atto Primo" ] },
               "items": [
                 {
                   "type": "Canvas",
@@ -125,7 +125,7 @@
         {
           "type": "Range",
           "id": "{{ id.path }}/range/5",
-          "label": { "en": [ "Act II" ] },
+          "label": { "en": [ "Atto Secondo" ] },
           "items": [
             {
               "type": "Canvas",

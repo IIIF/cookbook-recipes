@@ -11,7 +11,7 @@ summary: "Complex nested table of contents for an opera."
 
 Like books, A/V content can be divided into parts that constitute a unit of interest. It is important to provide users with easy access to these individual units so the structure of an A/V item is represented in a table of contents to facilitate navigation given that jumping to a specific point using only the player slider is hard.
 
-Opera is a form of theatre in which music has a leading role. A recording of an opera is a good example of structured A/V: an opera is composed of acts; an act is composed of scenes; a Scene may include multiple arias. Ranges are well suited to model the hierarchy of the components of an opera.
+Opera is a form of theatre in which music has a leading role. A recording of an opera is a good example of structured A/V: an opera is composed of acts; an act is composed of scenes; a scene may include multiple arias. Ranges are well suited to model the hierarchy of the components of an opera.
 
 ## Implementation Notes
 
@@ -27,7 +27,7 @@ Leaf Range nodes in a structure are played linearly so they should be contiguous
 
 ## Example
 
-The opera covers the whole length of the Canvas and is divided into two Ranges for the two acts. Act I has a Range for the prelude and first song and then a Range for the remainder of the act. Act II has not been subdivided into Ranges for simplicity of this example.
+The opera covers the whole length of the Canvas and is divided into two Ranges for the two acts. Atto Primo has a Range for the prelude and first song and then a Range for the remainder of the act. Atto Secondo has not been subdivided into Ranges for simplicity of this example.
 
 {% include manifest_links.html viewers="UV" manifest="manifest.json" %}
 {% include jsonviewer.html src="manifest.json" %}
