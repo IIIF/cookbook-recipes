@@ -14,7 +14,7 @@ To tell a presentation client how to display a sequence of resources in relation
 
 This recipe provides example Manifests demonstrating the use of the `behavior` property for two additional use cases:
 
-**Use case 1:** A accordion book (concertina) that has been imaged by capturing each segment through multiple shots, allowing the book to be "stitched together" in the viewer for a single continuous view. In this example, the Manifest will use the `behavior` property `continuous`.
+**Use case 1:** An accordion book that has been imaged by capturing each segment through multiple shots, allowing the book to be "stitched together" in the viewer for a single continuous view. In this example, the Manifest will use the `behavior` property `continuous`.
 
 **Use case 2:** A book (codex) object where the page images were captured with one image per 2-page spread. In this example, the Manifest will use the `behavior` property `individuals`.
 
@@ -22,7 +22,7 @@ This recipe provides example Manifests demonstrating the use of the `behavior` p
 
 The default `behavior` value, if not specified, is `individuals` for Layout Behaviors (as opposed to Temporal, Collection, Range, and Miscellaneous Behaviors).
 
-In addition to `behavior`, you may want to use the `viewingDirection` property (see [Book (paging variations)][0010] recipe), for example `right-to-left` or `top-to-bottom`, depending on the expected user experience for viewing the resource. Interactions between `viewingDirection` and `behavior`, especially when they are set on multiple and/or hierarchical resources, need special attention. For more information, consult [the Presentation 3.0 spec on `behavior`](https://iiif.io/api/presentation/3.0/#behavior) to keep current with future releases.
+In addition to `behavior`, you may want to use the `viewingDirection` property (see [Viewing direction and its effect on navigation][0010] recipe), for example `right-to-left` or `top-to-bottom`, depending on the expected user experience for viewing the resource. Interactions between `viewingDirection` and `behavior`, especially when they are set on multiple and/or hierarchical resources, need special attention. For more information, consult [the Presentation 3.0 spec on `behavior`](https://iiif.io/api/presentation/3.0/#behavior) to keep current with future releases.
 
 ## Restrictions
 
@@ -34,9 +34,7 @@ The property is permissible for all resource types, but some values (`unordered`
 
 This Manifest represents an Ethiopic accordion book with a continuous layout running left-to-right. It has four images that, when using the `"behavior": "continuous"` property, will display as a single continuous image in the viewer.
 
-_Note: The `"behavior": "continuous"` property currently has no noticeable effect in Universal Viewer. (Should we keep the UV link or remove it?)_
-
-{% include manifest_links.html viewers="UV, Mirador" manifest="manifest-continuous.json" %}
+{% include manifest_links.html viewers="Mirador" manifest="manifest-continuous.json" %}
 
 {% include jsonviewer.html src="manifest-continuous.json" config='data-line="10-12"' %}
 
