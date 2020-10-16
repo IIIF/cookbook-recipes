@@ -28,7 +28,7 @@ For more information on other Selector classes, see: [IIIF Open/Web Annotation E
 
 ## Example
 
-This example shows a Manifest with a single Canvas with a duration of 1801.055 seconds. It has a single video file (30-minute-clock.mp4) which is associated with it. The `start` property specifies a start point of 120.5 seconds into the playback.
+This example shows a Manifest with a single Canvas with a duration of 1801.055 seconds. It has a single video file (30-minute-clock.mp4) which is associated with it. The `start` property specifies a start point of 120.5 seconds into the playback. The video was created by [DrLex1](https://www.youtube.com/watch?v=Lsq0FiXjGHg) and was released using a [Creative Commons Attribution license](https://creativecommons.org/licenses/by/3.0/).
 
 *Note: As of the writing of this recipe, playback of video content is supported by some viewers (Universal Viewer), but the `start` property for time-based objects is not yet supported in viewers.*
 
