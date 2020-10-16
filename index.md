@@ -28,7 +28,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Simplest Manifest - Audio][0002] (1) (use single audio as content resource, d)
 * [Simplest Manifest - Video][0003] (1) (use single video as content resource, w,h,d)
 * Image different size to canvas (26)
-* Image Service for single image (24,25)
+* [Support Deep Viewing with Basic Use of a IIIF Image Service][0005] (24,25)
 * Multiple values and languages (3,4,6)
 * [Embedding HTML in descriptive properties][0007] (64)
 * [Rights statement\(s\)][0008] (7)
@@ -38,8 +38,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * Book (paging variations) (15,16,17) 
 * [Load a Preview Image Before the Main Content][0013]
 * [Audio Presentation with Accompanying Image][0014]
-* start (65)
-* accompanyingCanvas
+* [Load Manifest Beginning with a Specific Canvas][0202]
 * [Begin playback at a specific point - Time-based media][0015] (65)
 
 ## Textual and other supplementary content
