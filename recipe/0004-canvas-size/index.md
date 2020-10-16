@@ -25,7 +25,7 @@ Finally, if the image dimensions are larger than the Canvas, the image will be s
 
 ## Restrictions
 
-The aspect ratio should be consistend between your source image and Canvas. Otherwise, you'll see unpredictable stretching and/or distorting.
+The aspect ratio should be consistent between your source image and Canvas. Otherwise, you'll see unpredictable stretching and/or distorting.
 
 ## Example
 
