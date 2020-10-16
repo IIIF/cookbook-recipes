@@ -14,17 +14,39 @@
   },
   "thumbnail": [
     {
-      "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001/full/,300/0/default.jpg",
+      "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001/full/max/0/default.jpg",
       "type": "Image",
       "format": "image/jpeg",
       "height": 300,
       "width": 219,
       "service": [
-        {
-          "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001",
-          "type": "ImageService3",
-          "profile": "level1"
-        }
+		{
+		   "id":"http://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001",
+		   "type":"ImageService3",
+		   "profile":"level1",
+		   "extraFormats":[
+			  "jpg",
+			  "png"
+		   ],
+		   "extraQualities":[
+			  "default",
+			  "color",
+			  "gray"
+		   ],
+		   "protocol":"http://iiif.io/api/image",
+		   "tiles":[
+			  {
+				 "height":512,
+				 "scaleFactors":[
+					1,
+					2,
+					4,
+					8
+				 ],
+				 "width":512
+			  }
+		   ]
+		}
       ]
     }
   ],
