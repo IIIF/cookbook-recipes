@@ -9,6 +9,7 @@
 [0007]: {{site.baseurl}}/recipe/0007-string-formats/ "Embedding HTML"
 [0009]: {{site.baseurl}}/recipe/0009-book-1/ "Simple Manifest - Book"
 [0008]: {{site.baseurl}}/recipe/0008-rights/ "Rights"
+[0010]: {{site.baseurl}}/recipe/0010-book-2-viewing-direction "Viewing direction and its effect on navigation"
 [0013]: {{site.baseurl}}/recipe/0013-placeholderCanvas/ "Load a Preview Image Before the Main Content"
 [0202]: {{site.baseurl}}/recipe/0202-start-canvas/ "Load Manifest Beginning with a Specific Canvas"
 [0014]: {{site.baseurl}}/recipe/0014-accompanyingcanvas/ "Audio Presentation with Accompanying Image"
