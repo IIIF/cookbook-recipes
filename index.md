@@ -28,18 +28,17 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Simplest Manifest - Audio][0002] (1) (use single audio as content resource, d)
 * [Simplest Manifest - Video][0003] (1) (use single video as content resource, w,h,d)
 * Image different size to canvas (26)
-* Image Service for single image (24,25)
+* [Support Deep Viewing with Basic Use of a IIIF Image Service][0005] (24,25)
 * Multiple values and languages (3,4,6)
 * [Embedding HTML in descriptive properties][0007] (64)
 * [Rights statement\(s\)][0008] (7)
 * thumbnail algorithm / discussion
-* Book (simplest, > 1 canvas) (19)
+* [Simple Manifest - Book][0009] (19)
 * [Viewing direction and its effect on navigation][0010] (11,12,13,14)
 * Book (paging variations) (15,16,17) 
 * [Load a Preview Image Before the Main Content][0013]
 * [Audio Presentation with Accompanying Image][0014]
-* start (65)
-* accompanyingCanvas
+* [Load Manifest Beginning with a Specific Canvas][0202]
 * [Begin playback at a specific point - Time-based media][0015] (65)
 
 ## Textual and other supplementary content
@@ -61,7 +60,7 @@ _(leading on to segmentation examples later)_
 
 * table of contents (ranges) - book chapters
 * table of contents (ranges) - articles in a newspaper
-* table of contents (ranges) - acts of an opera
+* [Table of contents for A/V content][0026] (26)
 * Alternative Sequence (via `sequence` Range) (20,22,23)
 * `sequence` Range with partial canvases
 * metadata on any resource (21)
@@ -114,8 +113,8 @@ _(leading on to segmentation examples later)_
 * A music album's audio resources
 * ...and its image resoures
 * ...combined to demonstrate _together_
-* An opera on one Canvas
-* An opera on multiple Canvases
+* [Table of Contents for Multiple A/V files on a Single Canvas][0064] (64)
+* [Table of Contents for Multiple A/V files on Multiple Canvases][0065] (65)
 * Adaptive bit rate AV examples
 * A field recording
 * [A newspaper][0068]

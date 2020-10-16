@@ -9,7 +9,7 @@
         "type": "Canvas",
         "height": 360,
         "width": 640,
-        "duration": 1801.055,
+        "duration": 572.034,
         "items": [
           {
             "id": "{{ id.path }}/canvas/page",
@@ -20,11 +20,11 @@
                 "type": "Annotation",
                 "motivation": "painting",
                 "body": {
-                    "id": "https://fixtures.iiif.io/video/indiana/30-minute-clock/medium/30-minute-clock.mp4",
+                    "id": "https://fixtures.iiif.io/video/indiana/lunchroom_manners/high/lunchroom_manners_1024kb.mp4",
                     "type": "Video",
                     "height": 360,
-                    "width": 640,
-                    "duration": 1801.055,
+                    "width": 480,
+                    "duration": 572.034,
                     "format": "video/mp4"
                 },
                 "target": "{{ id.path }}/canvas"
