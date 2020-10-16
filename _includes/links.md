@@ -11,7 +11,7 @@
 [0015]: {{site.baseurl}}/recipe/0015-start/ "Begin playback at a specific point - Time-based media"
 
 [0068]: {{site.baseurl}}/recipe/0068-newspaper/ "A newspaper"
-[0117]: {{site.baseurl}}/recipe/0117-add-image-thumbnail/ "Content Thumbnails"
+[0117]: {{site.baseurl}}/recipe/0117-add-image-thumbnail/ "Manifest Thumbnail"
 
 [prezi3]: https://iiif.io/api/presentation/3 "IIIF Presentation API"
 [prezi3-languages]: https://iiif.io/api/presentation/3.0/#language-of-property-values "Language of Property Values"
