@@ -7,8 +7,8 @@
 [0007]: {{site.baseurl}}/recipe/0007-string-formats/ "Embedding HTML"
 [0008]: {{site.baseurl}}/recipe/0008-rights/ "Rights"
 [0013]: {{site.baseurl}}/recipe/0013-placeholderCanvas/ "Load a Preview Image Before the Main Content"
+[0202]: {{site.baseurl}}/recipe/0202-start-canvas/ "Load Manifest Beginning with a Specific Canvas"
 [0014]: {{site.baseurl}}/recipe/0014-accompanyingcanvas/ "Audio Presentation with Accompanying Image"
-
 [0015]: {{site.baseurl}}/recipe/0015-start/ "Begin playback at a specific point - Time-based media"
 
 [0068]: {{site.baseurl}}/recipe/0068-newspaper/ "A newspaper"
