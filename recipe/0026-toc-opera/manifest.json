@@ -1,0 +1,86 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "{{ id.url }}",
+  "type": "Manifest",
+  "label": { "it": [ "L'Elisir D'Amore" ], "en": [ "The Elixir of Love" ] },
+  "items": [
+    {
+      "id": "{{ id.path }}/canvas/1",
+      "type": "Canvas",
+      "width": 1920,
+      "height": 1080,
+      "duration": 7278.422,
+      "items": [
+        {
+          "id": "{{ id.path }}/canvas/1/annotation_page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/canvas/1/annotation_page/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "{{ id.path }}/canvas/1",
+              "body": {
+                "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/vae0637_accessH264_low.mp4",
+                "type": "Video",
+                "format": "video/mp4",
+                "height": 1080,
+                "width": 1920,
+                "duration": 7278.422
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "type": "Range",
+      "id": "{{ id.path }}/range/1",
+      "label": { "it": [ "Gaetano Donizetti, L'Elisir D'Amore" ] },
+      "items": [
+        {
+          "type": "Range",
+          "id": "{{ id.path }}/range/2",
+          "label": { "it": [ "Atto Primo" ] },
+          "items": [
+            {
+              "type": "Range",
+              "id": "{{ id.path }}/range/3",
+              "label": { "it": [ "Preludio e Coro d'introduzione – Bel conforto al mietitore" ] },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "{{ id.path }}/canvas/1#t=0,302.05"
+                }
+              ]
+            },
+            {
+              "type": "Range",
+              "id": "{{ id.path }}/range/4",
+              "label": { "en": [ "Remainder of Atto Primo" ] },
+              "items": [
+                {
+                  "type": "Canvas",
+                  "id": "{{ id.path }}/canvas/1#t=302.05,3971.24"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Range",
+          "id": "{{ id.path }}/range/5",
+          "label": { "it": [ "Atto Secondo" ] },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "{{ id.path }}/canvas/1#t=3971.24"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
