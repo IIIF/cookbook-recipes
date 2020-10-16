@@ -7,10 +7,7 @@ summary: "Make a geographic Web Annotation to provide geolocation information ab
 ---
 
 ### Use Case 
-There is a region of interest on a Canvas that could be further described by coordinates. The region contains the word "Paris", and so the coordinates should be of a central point in Paris, France.  You want the coordinates to render in open source mapping systems, such as [Leaflet](https://leafletjs.com/).
-
-### Implementation Abstract
-An example of a Manifest that has a Canvas fragment geolocated via a geographic point. The word "Paris" appears on the Image and the region containing the word is targeted by one Annotation with a GeoJSON-LD body representing a geographic point in central Paris, France.
+There is a region of interest on a Canvas that could be further described by geocoordinates. The region contains the word "Paris", and so the geocoordinates should be of a central point in Paris, France. You want the geocoordinates to render in open source mapping systems, such as [Leaflet](https://leafletjs.com/).
 
 ### Implementation Notes
 * The third party [GeoJSON-LD](https://geojson.org/geojson-ld/) context is included alongside the IIIF Presentation 3 context. This supplies the vocabulary terms for the GeoJSON-LD Annotation bodies since the IIIF Presentation 3 context does not describe those terms. The field `@context` can be an array, and when it is the IIIF Presentation API 3.0 context must be the last item in the array. 
@@ -20,8 +17,8 @@ An example of a Manifest that has a Canvas fragment geolocated via a geographic 
 ### Restrictions
 Nested GeoJSON coordinate arrays are incompatible with the processing model of JSON-LD 1.0. The JSON-LD 1.1 processing model does not have this restriction.
 
-### The Manifest
-This Manifest contains one Canvas with one Image, and the Canvas has the same size dimensions as the Image. The word “Paris” appears on the Image. The Canvas contains one Annotation Page with one Annotation targeting the region of interest on the Canvas using the [#xywh Fragment Selector syntax](https://www.w3.org/TR/annotation-model/#fragment-selector). Since the Image used is a IIIF Fixture following [IIIF Image API 3.0](https://iiif.io/api/image/3.0/), you can see the targeted fragment of the Image by supplying [the values used in the #xywh selector to the Image URL](https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f20/1300,3370,250,100/max/0/default.jpg). 
+### Example
+An example of a Manifest that has a Canvas fragment geolocated via a geographic point. The Manifest contains one Canvas with one Image, and the Canvas has the same size dimensions as the Image. The Canvas contains one Annotation Page with one Annotation targeting the region of interest where "Paris" appears using the [#xywh Fragment Selector syntax](https://www.w3.org/TR/annotation-model/#fragment-selector). Since the Image used is a IIIF Fixture following [IIIF Image API 3.0](https://iiif.io/api/image/3.0/), you can see the targeted fragment of the Image by supplying [the values used in the #xywh selector to the Image URL](https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f20/1300,3370,250,100/max/0/default.jpg). 
 
 {% include jsonviewer.html src="manifest.json" config='data-line="67-95"' %}
 
