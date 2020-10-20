@@ -26,7 +26,7 @@ In addition to `behavior`, you may want to use the `viewingDirection` property (
 
 ## Restrictions
 
-The property is permissible for all resource types, but some values (`unordered`, `individuals`, `continuous`, `paged`) are permissible only for `Collection`, `Manifest`, and `Range`, while others (`facing-pages`, `non-paged`) are permissible only on `Canvas`.
+The property is permissible for all resource types, but some values (`unordered`, `individuals`, `continuous`, `paged`) are permissible only for Collection, Manifest, and Range, while others (`facing-pages`, `non-paged`) are permissible only on Canvas.
 
 ## Examples
 
