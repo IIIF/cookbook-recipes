@@ -49,9 +49,7 @@ This Manifest represents a book imaged as 2-page spreads (two facing pages in a 
 # Related recipes
 
 * [Book (simplest)][0009]
-* [Book (paging variations)][0011]
-* [Thumbnails][0012]
-* [Table of contents (ranges) - book chapters][0024]
+* [Viewing direction and its effect on navigation][0010]
 
 {% include acronyms.md %}
 {% include links.md %}
