@@ -55,7 +55,7 @@ _(leading on to segmentation examples later)_
 * tagging
 * hotspot linking
 * Annotation in the context of a particular content resource https://github.com/IIIF/iiif-stories/issues/101
-* [Geographic coordinates][0139] (TBD, TBD, TBD)
+* [Geographic coordinates][0139]
 
 ## Internal structure
 
