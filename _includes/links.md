@@ -13,7 +13,7 @@
 [0202]: {{site.baseurl}}/recipe/0202-start-canvas/ "Load Manifest Beginning with a Specific Canvas"
 [0014]: {{site.baseurl}}/recipe/0014-accompanyingcanvas/ "Audio Presentation with Accompanying Image"
 [0015]: {{site.baseurl}}/recipe/0015-start/ "Begin playback at a specific point - Time-based media"
-[0139]: {{site.baseurl}}/recipe/0139-geo-annotation/ "Geolocate Canvas Fragment to a Point"
+[0139]: {{site.baseurl}}/recipe/0139-geo-canvas-fragment/ "Geolocate Canvas Fragment to a Point"
 
 [0026]: {{site.baseurl}}/recipe/0026-toc-opera/ "Table of Contents for A/V Content"
 [0064]: {{site.baseurl}}/recipe/0064-opera-one-canvas/ "Table of Contents for Multiple A/V Files on a Single Canvas"
