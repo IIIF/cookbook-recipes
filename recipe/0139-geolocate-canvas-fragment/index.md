@@ -22,7 +22,7 @@ Applications that strictly follow Linked Data practices will find that nested Ge
 ### Example
 An example of a Manifest that has a Canvas fragment geolocated to a geographic point. The Manifest contains one Canvas with one Image, and the Canvas has the same size dimensions as the Image. The Canvas contains one Annotation Page with one Annotation targeting the region of interest where "Paris" appears using the [#xywh Fragment Selector syntax](https://www.w3.org/TR/annotation-model/#fragment-selector). Since the image used is a IIIF Fixture following [IIIF Image API 3.0](https://iiif.io/api/image/3.0/), you can see the targeted fragment by supplying [the values used in the #xywh selector to the image URL](https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f20/1300,3370,250,100/max/0/default.jpg). 
 
-{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
+{% include manifest_links.html viewers="" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="67-95"' %}
 
