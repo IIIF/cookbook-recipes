@@ -8,7 +8,7 @@ summary: "Display a thumbnail image for a resource other than a Canvas, such tha
 
 ## Use Case
 
-You have images of a booklet, and you want to select one to use as the singular representation of the whole object for consuming clients. These clients range from object viewers such as Mirador or Universal Viewer to discovery services and other aggregators such as Spotlight or a homegrown solution. Absent a declared thumbnail for the Manifest, some clients will create a thumbnail from the first Canvas in the Manifest.
+You have images of a booklet, and you want to select one to use as the singular representation of the whole object for consuming clients. These clients range from object viewers such as Mirador or Universal Viewer to discovery services and other aggregators such as [Spotlight](https://github.com/projectblacklight/spotlight) or a homegrown solution. Absent a declared thumbnail for the Manifest, some clients will create a thumbnail from the first Canvas in the Manifest.
 
 ## Implementation Notes
 
@@ -24,7 +24,7 @@ None known.
 
 ## Example
 
-This example uses an image of the cover of the same kabuki performance program as in the recipe for [Viewing direction and its effect on navigation][0010]. This image, though, has a color bar and the Manifest contains an explicit `thumbnail` property for the Manifest. In this particular use case, because the image contains a color calibration bar, you can choose to declare a thumbnail image that doesn't have the calibration bar.
+This example uses an image of the cover of the same kabuki performance program as in the recipe for [Viewing direction and its effect on navigation][0010]. This image, though, has a color bar and the Manifest contains an explicit `thumbnail` property for the Manifest. In this particular use case, to avoid having a thumbnail image with a color calibration bar, you can choose to declare a thumbnail from a completely different image. In Mirador, the sole viewer that uses it as of this writing, the Manifest thumbnail only displays when the site visitor uses "Add a resource" to change the loaded or active Manifests.
 
 {% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
 
