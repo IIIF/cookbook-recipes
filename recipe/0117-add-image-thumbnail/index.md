@@ -8,7 +8,7 @@ summary: "Display a thumbnail image for a resource other than a Canvas, such tha
 
 ## Use Case
 
-You have images of a booklet, and you want to select one to use as the singular representation of the whole object for consuming clients. These clients range from object viewers such as Mirador or Universal Viewer to discovery services and other aggregators such as [Spotlight](https://github.com/projectblacklight/spotlight) or a homegrown solution. Absent a declared thumbnail for the Manifest, some clients will create a thumbnail from the first Canvas in the Manifest.
+You have images of a booklet, and you want to select one to use as the singular representation of the whole object for consuming clients. These clients range from object viewers such as Mirador or Universal Viewer to discovery services and other aggregators such as [Spotlight](https://spotlight.projectblacklight.org) or a homegrown solution. Absent a declared thumbnail for the Manifest, some clients will create a thumbnail from the first Canvas in the Manifest.
 
 ## Implementation Notes
 
