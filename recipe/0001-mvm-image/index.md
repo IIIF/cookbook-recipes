@@ -9,7 +9,7 @@ summary: "The simplest viable manifest for image content. If all you have for an
 
 ## Use Case
 
-The simplest viable manifest for image content. If all you have for an object is one image on the web and a label to go along with it, this pattern turns it into a IIIF Presentation resource. If you would like to enable deep zooming, you will need to use a IIIF Image server. For this, see [recipe #5][0005].
+The simplest viable manifest for image content. If all you have for an object is one image on the web and a label to go along with it, this pattern turns it into a IIIF Presentation resource. If you would like to enable deep zooming, you will need to use a IIIF Image server. For this, see the [Support Deep Viewing with Basic Use of a IIIF Image Service][0005] recipe.
 
 ## Implementation Notes
 
@@ -21,7 +21,7 @@ The `items` property of the Canvas is a list of annotation pages, in this case t
 
 ## Restrictions
 
-This recipe is not for large images or deep zoom functionality. For this, see [recipe #5][0005].
+This recipe is not for large images or deep zoom functionality. For this, see the [Support Deep Viewing with Basic Use of a IIIF Image Service][0005] recipe.
 
 ## Example
 
