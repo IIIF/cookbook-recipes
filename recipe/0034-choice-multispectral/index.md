@@ -1,5 +1,5 @@
 ---
-title: Choice - multispectral flavoured example, with image services
+title: Choice - multispectral flavored example, with image services
 id: 34
 layout: recipe
 tags: [tbc]
