@@ -5,10 +5,10 @@ tags: [tbc]
 summary: "tbc"
 ---
 
-The [IIIF Presentation API][prezi3] specifies a standardised way to describe complex digital objects. The resource types and properties of the specification are the building blocks of interoperable representations, for rendering by viewers and other software clients. This cookbook gathers together many examples of these representations (usually IIIF Manifests), in order to:
+The [IIIF Presentation API][prezi3] specifies a standardized way to describe complex digital objects. The resource types and properties of the specification are the building blocks of interoperable representations, for rendering by viewers and other software clients. This cookbook gathers together many examples of these representations (usually IIIF Manifests), in order to:
 
 * provide many more examples than the specification alone can do, for reference and learning;
-* encourage publishers to adopt common patterns in modelling classes of complex objects;
+* encourage publishers to adopt common patterns in modeling classes of complex objects;
 * enable client software developers to support these patterns, for consistency of user experience (when desirable);
 * demonstrate the applicability of IIIF to a broad range of use cases.
 
@@ -75,8 +75,8 @@ _(leading on to segmentation examples later)_
 ## Segmentation and complex resources
 
 * Choice (simplest) (28)
-* Choice - multispectral flavoured example, with image services (29)
-* foldouts, etc (Choice or non-paged interlude (flaps vs maps))?
+* Choice - multispectral flavored example, with image services (29)
+* foldouts, etc (Choice or non-paged interlude (flaps vs maps))? 
 * [Multiple images (master/detail)][detail-image] (30,31)
 * Multiple images and multiple choices (32,33,34)
 * [Annotating part of an image to a Canvas][recipe-segment-image-part] (e.g., crop out scanner) (35,36,37,38)
