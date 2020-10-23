@@ -12,7 +12,7 @@ The [IIIF Presentation API][prezi3] specifies a standardized way to describe com
 * enable client software developers to support these patterns, for consistency of user experience (when desirable);
 * demonstrate the applicability of IIIF to a broad range of use cases.
 
-The issues of the [Cookbook Recipes repository](https://github.com/IIIF/cookbook-recipes/issues) are used to identify and discuss cookbook recipes, prior to their inclusion in the final cookbook site. 
+The issues of the [Cookbook Recipes repository](https://github.com/IIIF/cookbook-recipes/issues) are used to identify and discuss cookbook recipes, prior to their inclusion in the final cookbook site.
 
 # Contributing
 
@@ -27,18 +27,19 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Simplest Manifest - Image][0001] (1) (use static image as content resource, w.h)
 * [Simplest Manifest - Audio][0002] (1) (use single audio as content resource, d)
 * [Simplest Manifest - Video][0003] (1) (use single video as content resource, w,h,d)
-* Image different size to canvas (26)
-* Image Service for single image (24,25)
+* [Image and Canvas with Differing Dimensions][0004] (26)
+* [Support Deep Viewing with Basic Use of a IIIF Image Service][0005] (24,25)
 * Multiple values and languages (3,4,6)
-* Multiple formats of strings (text, html, markdown...?) (64)
-* Rights statement(s) (7)
-* Book (simplest, > 1 canvas) (19)
-* Book (viewingDirection variations) (11,12,13,14)
-* Book (paging variations) (15,16,17) 
+* [Embedding HTML in descriptive properties][0007] (64)
+* [Rights statement\(s\)][0008] (7)
 * thumbnail algorithm / discussion
-* placeholderCanvas
-* accompanyingCanvas
-* start (65)
+* [Simple Manifest - Book][0009] (19)
+* [Viewing direction and its effect on navigation][0010] (11,12,13,14)
+* Book (paging variations) (15,16,17) 
+* [Load a Preview Image Before the Main Content][0013]
+* [Audio Presentation with Accompanying Image][0014]
+* [Load Manifest Beginning with a Specific Canvas][0202]
+* [Begin playback at a specific point - Time-based media][0015] (65)
 
 ## Textual and other supplementary content
 
@@ -46,7 +47,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * Transcription of audio and video
 * Transcription of content into XML, with XPaths to select a segment
 
-## Other kinds of annotations 
+## Other kinds of annotations
 _(leading on to segmentation examples later)_
 
 * comments - various examples (51,52,54)
@@ -59,7 +60,7 @@ _(leading on to segmentation examples later)_
 
 * table of contents (ranges) - book chapters
 * table of contents (ranges) - articles in a newspaper
-* table of contents (ranges) - acts of an opera
+* [Table of contents for A/V content][0026] (26)
 * Alternative Sequence (via `sequence` Range) (20,22,23)
 * `sequence` Range with partial canvases
 * metadata on any resource (21)
@@ -84,7 +85,7 @@ _(leading on to segmentation examples later)_
 * temporal segmentation
 * Audio only from video (and other xxxContentSelector scenarios)
 * canvas on canvas (#1191)
-* CSS styling 
+* CSS styling
 
 ## Linking
 
@@ -97,7 +98,7 @@ _(leading on to segmentation examples later)_
 * Linking between Presentation API representations
 * seeAlso scenarios (incl other manifests) (8)
 
-## Technical 
+## Technical
 
 * extensions (18)
 * services (9,10)
@@ -112,12 +113,12 @@ _(leading on to segmentation examples later)_
 * A music album's audio resources
 * ...and its image resoures
 * ...combined to demonstrate _together_
-* An opera on one Canvas
-* An opera on multiple Canvases
+* [Table of Contents for Multiple A/V files on a Single Canvas][0064] (64)
+* [Table of Contents for Multiple A/V files on Multiple Canvases][0065] (65)
 * Adaptive bit rate AV examples
 * A field recording
 * [A newspaper][0068]
-* Example with extensions and services 
+* Example with extensions and services
 * A manuscript with multiple orderings
 * a Sammelband
 * Archival collection (hierarchy, paging)
@@ -126,7 +127,7 @@ _(leading on to segmentation examples later)_
 * Mixed Image Service references (a mashup, with img2 and img3 services)
 * Glenn Gould - score and performance scenarios (transcribing)
 
-## Access Control 
+## Access Control
 _this might be in a separate auth cookbook_
 
 * probe service for simple resource
