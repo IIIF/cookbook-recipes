@@ -7,7 +7,7 @@ summary: "Make a geographic Web Annotation to provide geolocation information ab
 ---
 
 ### Use Case 
-There is a region of interest on a Canvas that could be further described by geocoordinates. The region contains the word "Paris", and so the geocoordinates should be of a central point in Paris, France. You want the geocoordinates to render in open source mapping systems, such as [Leaflet](https://leafletjs.com/).
+There is a region of interest on a Canvas that could be further described by geocoordinates. The region contains the word "Paris", and so the geocoordinates should be of a central point in Paris, France. You want to create geocoordinates that clients can use for representing the Canvas fragment in world map based user interfaces, such as [Leaflet](https://leafletjs.com/examples/geojson/) or [Google Maps](https://developers.google.com/maps/documentation/javascript/importing_data).
 
 ### Implementation Notes
 The third party [GeoJSON-LD](https://geojson.org/geojson-ld/) context is included alongside the IIIF Presentation 3 context. This supplies the vocabulary terms for the GeoJSON-LD Annotation bodies since the IIIF Presentation 3 context does not describe those terms. The field `@context` can be an array, and when it is the IIIF Presentation API 3.0 context must be the last item in the array. 
