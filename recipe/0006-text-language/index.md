@@ -20,10 +20,17 @@ A client will choose the appropriate value(s) by following the processing rules 
 
 
 ## Example
+Multiple values for the manifest label in different languages (lines 6-17)
 
-{% include manifest_links.html viewers="UV" manifest="manifest.json" %}
+In descriptive metadata, multiple languages for the key in the key/value pair (lines 22-27, 43-48)
 
-{% include jsonviewer.html src="manifest.json" config='data-line="6-17, 22-27, 30-32, 37-39, 43-48, 50-53"' %}
+Values with no specified language use "none" (lines 30-32, 51-53)
+
+Summary only in English (lines 37-39)
+
+{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
+
+{% include jsonviewer.html src="manifest.json" config='data-line="6-17, 22-27, 30-32, 37-39, 43-48, 51-53"' %}
 
 # Related recipes
 
