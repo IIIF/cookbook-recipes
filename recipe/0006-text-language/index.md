@@ -1,5 +1,5 @@
 ---
-title: Text in Multiple Languages
+title: Internationalization and Multi-lingual Labels
 id: 6
 layout: recipe
 tags: [i18n, text, presentation]
@@ -21,14 +21,10 @@ A client will choose the appropriate value(s) by following the processing rules 
 
 ## Example
 
+{% include manifest_links.html viewers="UV" manifest="manifest.json" %}
 
-{: .line-numbers data-src="manifest.json" }
-```json
-```
-
+{% include jsonviewer.html src="manifest.json" config='data-line="6-17, 22-27, 30-32, 37-39, 43-48, 50-53"' %}
 
 # Related recipes
 
 * [Simple Image Manifest][0001]
-
-
