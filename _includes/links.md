@@ -30,3 +30,4 @@
 [prezi3-pointselector]: https://iiif.io/api/annex/openannotation/#point-selector "PointSelector"
 [service-registry]: https://iiif.io/api/registry/services/ "the IIIF Registry of Services"
 [language-of-property-values]: https://iiif.io/api/presentation/3.0/#44-language-of-property-values "Language of Property Values"
+[bcp-47]: https://tools.ietf.org/html/bcp47 "BCP 47"
