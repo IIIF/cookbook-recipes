@@ -3,18 +3,23 @@ title: Internationalization and Multi-lingual Labels
 id: 6
 layout: recipe
 tags: [i18n, text, presentation]
-summary: "You have more than one label for a IIIF resource, and/or more than one language version of the label."
+summary: "An example of a IIIF Resource with labels/descriptions in multiple languages."
 ---
 
-## Use Case
-
-In some cases, a IIIF resource may have more than one label value, or there may be more than one language version of the label. This can be used for the statement that is required to be shown to the user, the summary of the content, and the metadata labels and values.
+## Use case
+In some cases, a IIIF resource may have a title or summary/abstract (`label` or `summary`) in more than one language; or, the publisher of the content may want to provide descriptive `metadata` labels in multiple languages, for example supplying the label for the "Creator" key/value pair in both English and French ("Creator"/"Auteur"). 
 
 ## Implementation notes
+A language may be specified for strings that are intended to be displayed to the user. T for the label and summary properties, plus the label and value properties of the metadata and requiredStatement objects.
 
+This can be used for the statement that is required to be shown to the user, the summary of the content, and the metadata labels and values.
+
+The values of these properties must be JSON objects, with the keys being the BCP 47 language code for the language, or if the language is either not known or the string does not have a language, then the key must be the string none.
 The value `none` indicates that the language value of the string is either unknown, or not applicable.
 
 A client will choose the appropriate value(s) by following the processing rules provided in https://iiif.io/api/presentation/3.0/#43-language-of-property-values
+
+##
 
 ## Example
 In this example, the content is an image of the painting *Whistler's Mother* by James Abbott McNeill Whistler. The painting is know by more than one title and is presented in both English and French. There are multiple examples within this manifest:
