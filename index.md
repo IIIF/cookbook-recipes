@@ -46,6 +46,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * Transcription of image-based content - various examples gathered (43,44,45,46,47,48)
 * Transcription of audio and video
 * Transcription of content into XML, with XPaths to select a segment
+* [Alternative Representations Through Rendering][0046]
 
 ## Other kinds of annotations
 _(leading on to segmentation examples later)_
