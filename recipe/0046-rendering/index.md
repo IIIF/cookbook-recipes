@@ -1,28 +1,20 @@
 ---
-title: Alternative representations through rendering
+title: Alternative Representations Through Rendering
 id: 46
 layout: recipe
-tags: [tbc]
-summary: "tbc"
+tags: [image, presentation, canvas]
+summary: "Linking to non-IIIF representations of the object, such as a PDF."
 ---
-
-https://iiif.io/api/presentation/3.0/#rendering
-
-A resource that is an alternative, non-IIIF representation of the resource that has the rendering property. Such representations typically cannot be painted onto a single Canvas, as they either include too many views, have incompatible dimensions, or are compound resources requiring additional rendering functionality. The rendering resource must be able to be displayed directly to a human user, although the presentation may be outside of the IIIF client. The resource must not have a splash page or other interstitial resource that mediates access to it. If access control is required, then the IIIF Authentication API is recommended. Examples include a rendering of a book as a PDF or EPUB, a slide deck with images of a building, or a 3D model of a statue.
-
-The value must be an array of JSON objects. Each item must have the id, type and label properties, and should have a format property.
-
-    Any resource type may have the rendering property with at least one item.
-    Clients should render rendering on a Collection, Manifest or Canvas, and may render rendering on other types of resource.
-
 
 ## Use Case
 
-HYou hjave a manuscript object for which you also have a PDF with a transcription and translation that you want to make available to researchers. The transcription can be made available through use of the `rendering` property.
+You have an archival object in IIIF format for which you would like to offer researchers the opportunity to download a PDF version. You know from previous experience that researchers using your collection like to have images and texts available for offline reading, or you know you have patrons with bandwidth concerns who need to minimize their time online, or other reasons such as wanting to provide transcriptions and translations of objects' text. Through use of the `rendering` property, you are able to alert conforming clients to the presence of this other format so they in turn can provide appropriate UX workflows to users.
 
 ## Implementation notes
 
 This property is used for pointing a researcher to a non-IIIF representation of the resource to which it is attached. This is the biggest distinction between this property and `accompanyingCanvas`, which might seem functionally similar. In addition, this property addresses additional representations of the same resource while `accompanyingCanvas` is used for content complementary to the main resource and rendered simultaneously.
+
+Any resource may have the `rendering` property. Each instance of it may have multiple items contained inside it, provided each has the `id`, `type`, and `label` properties at a minimum. Conforming clients should render this property in some way on a Collection, Manifest, or Canvas, but may on other resources. Keep in mind that the client's display of the property has no defined form.
 
 ## Restrictions
 
@@ -30,7 +22,7 @@ This property is not for use for presenting multiple IIIF views of the same reso
 
 ## Example
 
-{ Narrative }
+In this example, the PDF to be made available is for the program at a whole, and as such the `rendering` property is for the `Manifest`. If the PDFs were available for each view or page separately, each `Canvas` would be the logical place for the corresponding PDF.
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
