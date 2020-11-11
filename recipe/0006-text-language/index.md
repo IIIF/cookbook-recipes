@@ -1,5 +1,5 @@
 ---
-title: Internationalization and Multi-lingual Labels
+title: Internationalization and Multi-language Values
 id: 6
 layout: recipe
 tags: [i18n, text, presentation]
@@ -7,17 +7,16 @@ summary: "An example of a IIIF Resource with labels/descriptions in multiple lan
 ---
 
 ## Use case
-In some cases, a IIIF resource may have a title or summary/abstract (`label` or `summary`) in more than one language; or, the publisher of the content may want to provide descriptive `metadata` labels in multiple languages, for example supplying the label for the "Creator" key/value pair in both English and French ("Creator"/"Auteur"). 
+In some cases, a IIIF resource may have a title or summary/abstract (`label` or `summary`) in more than one language; or, the publisher of the content may want to provide descriptive `metadata` labels in multiple languages, for example supplying the label for the "Creator" key/value pair in both English and French ("Creator"/"Auteur").
 
 ## Implementation notes
-A language may be specified for strings that are intended to be displayed to the user. T for the label and summary properties, plus the label and value properties of the metadata and requiredStatement objects.
+IIIF allows a language to be specified for strings that are intended for display to the user. Languages are specified by forming a JSON key/value pair where the specified language is the key using the BCP 47 code for the language and the value is an array, for example `"en": ["Whistler's Mother"]`.
 
-This can be used for the statement that is required to be shown to the user, the summary of the content, and the metadata labels and values.
+A language key can be associated with Manifest `label` and `summary` properties, as well as the `label` and `value` properties of the `metadata` and `requiredStatement` objects.
 
-The values of these properties must be JSON objects, with the keys being the BCP 47 language code for the language, or if the language is either not known or the string does not have a language, then the key must be the string none.
-The value `none` indicates that the language value of the string is either unknown, or not applicable.
+If the language is either not known or the string does not have a language, then the key must be the string `none`.
 
-A client will choose the appropriate value(s) by following the processing rules provided in https://iiif.io/api/presentation/3.0/#43-language-of-property-values
+A client will choose the appropriate value(s) by following the processing rules provided in [language-of-property-values].
 
 ##
 
