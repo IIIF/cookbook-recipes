@@ -10,13 +10,13 @@ summary: "An example of a IIIF Resource with labels/descriptions in multiple lan
 In some cases, a IIIF resource may have a title or summary/abstract (`label` or `summary`) in more than one language; or, the publisher of the content may want to provide descriptive `metadata` labels in multiple languages, for example supplying the label for the "Creator" key/value pair in both English and French ("Creator"/"Auteur").
 
 ## Implementation notes
-IIIF allows a language to be specified for strings that are intended to be displayed to the user. Languages are specified by forming a JSON key/value pair where the specified language is the key using the [BCP 47][bcp-47] code for the language and the value is an array, for example `"en": ["Whistler's Mother"]`.
+IIIF allows a language to be specified for strings that are intended to be displayed to the user. Languages are specified by forming a JSON key/value pair where the specified language is the key using the [BCP 47](https://tools.ietf.org/html/bcp47) code for the language and the value is an array, for example `"en": ["Whistler's Mother"]`.
 
 A language key can be associated with Manifest `label` and `summary` properties, as well as the `label` and `value` properties of the `metadata` and `requiredStatement` objects.
 
 If the language is either not known or the string does not have a language, then the key must be the string `none`.
 
-A client will choose the appropriate value(s) by following the processing rules provided in the [Language of Property Values][language-of-property-values] section of the IIIF Presentation API 3.0 specification.
+A client will choose the appropriate value(s) by following the processing rules provided in the [Language of Property Values](https://iiif.io/api/presentation/3.0/#44-language-of-property-values) section of the IIIF Presentation API 3.0 specification.
 
 ## Restrictions
 Note that the implementation described here does not apply to embedded textual bodies in Annotations, which use the Web Annotation pattern of value and language as separate properties.
