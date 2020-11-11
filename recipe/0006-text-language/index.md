@@ -19,7 +19,7 @@ If the language is either not known or the string does not have a language, then
 A client will choose the appropriate value(s) by following the processing rules provided in the [Language of Property Values][language-of-property-values] section of the IIIF Presentation API 3.0 specification.
 
 ## Restrictions
-Note that the implementation here does not apply to embedded textual bodies in Annotations, which use the Web Annotation pattern of value and language as separate properties.
+Note that the implementation described here does not apply to embedded textual bodies in Annotations, which use the Web Annotation pattern of value and language as separate properties.
 
 ## Example
 In this example, the content is an image of the painting *Whistler's Mother* by James Abbott McNeill Whistler. The painting is know by more than one title and is presented in both English and French. There are multiple examples within this manifest:
