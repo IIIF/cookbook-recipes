@@ -9,7 +9,7 @@ summary: "You have more than one label for a IIIF resource, and/or more than one
 
 ## Use Case
 
-You have more than one label for a IIIF resource, and/or more than one language version of the label. This can be used for the statement that is required to be shown to the user, the summary of the content, and the metadata labels and values.
+In some cases, a IIIF resource may have more than one label value, or there may be more than one language version of the label. This can be used for the statement that is required to be shown to the user, the summary of the content, and the metadata labels and values.
 
 
 ## Implementation notes
