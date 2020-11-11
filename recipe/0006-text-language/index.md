@@ -7,7 +7,7 @@ summary: "An example of a IIIF Resource with labels/descriptions in multiple lan
 ---
 
 ## Use case
-In some cases, a IIIF resource may have a title or description (`label` or `summary`) in more than one language; or, the publisher of the content may want to provide descriptive `metadata` labels in multiple languages for different language audiences, for example supplying a label for a "Creator" field in both English and French ("Creator", "Auteur").
+In some cases, a IIIF resource may have a title or description (`label` or `summary`) in more than one language; or, the publisher of the content may want to provide descriptive `metadata` labels in multiple languages for different language audiences, for example supplying a `label` for a "Creator" field in both English and French ("Creator", "Auteur").
 
 ## Implementation notes
 In these cases, IIIF allows a language to be specified for strings that are intended to be displayed to the user. Languages are specified using a JSON key/value pair where the specified language is the key using the [BCP 47](https://tools.ietf.org/html/bcp47) code for the language and the value is an array, for example: `"en": ["Whistler's Mother"]`.
@@ -22,11 +22,11 @@ A client will choose the appropriate value(s) by following the processing rules 
 Note that the implementation described here does not apply to embedded textual bodies in Annotations, which use the Web Annotation pattern of value and language as separate properties.
 
 ## Example
-In this example, the content is an image of the painting *Whistler's Mother* by James Abbott McNeill Whistler. The Manifest `label` property has both the English and French titles, plus a value with no language specified (lines 6-14).
+In this example, the content is an image of the painting *Whistler's Mother* by James Abbott McNeill Whistler. The Manifest `label` property has both the English and French titles, plus a third title with no discernible language (lines 6-14).
 
-In the `metadata` and `required statement` properties (lines 19-24, 40-45), the label for the "Creator" and "Held by" fields is supplied in both English and French. Here, the values (lines 27-29, 48-50) have no specified language, so uses the value "none".
+In the `metadata` and `required statement` properties, the 'label's for the "Creator" and "Held by" fields (lines 19-24, 40-45) are supplied in both English and French. The values for these properties (lines 27-29, 48-50) have no specified language, so use the value "none".
 
-Finally, the `summary` property (lines 34-36) has a value only for English.
+Finally, the `summary` property (lines 34-36) has a value in English only.
 
 The image was sourced via Wikimedia Commons and is public domain.
 
