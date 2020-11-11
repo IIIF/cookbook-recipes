@@ -20,13 +20,17 @@ A client will choose the appropriate value(s) by following the processing rules 
 
 
 ## Example
-Multiple values for the manifest label in different languages (lines 6-17)
+In this example, the content is an image of the painting **Whistler's Mother** by James Abbott McNeill Whistler. The painting is know by more than one title and is presented in both English and French. There are multiple examples within this manifest:
 
-In descriptive metadata, multiple languages for the key in the key/value pair (lines 22-27, 43-48)
+- The Manifest label (lines 6-17) is provided in both English and French, and uses two arrays to list the variant titles
 
-Values with no specified language use "none" (lines 30-32, 51-53)
+- In the `metadata` and `required statement` properties (lines 22-27, 43-48), the label in the key/value pair is supplied in both English and French
 
-Summary only in English (lines 37-39)
+- The values in the `metadata` and `required statement` properties (lines 30-32, 51-53) have no specified language, so uses the value "none"
+
+- The `summary` property (lines 37-39) specifies a single language for the property value, English
+
+The image was sourced via Wikimedia Commons and is public domain.
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
