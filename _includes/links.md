@@ -5,7 +5,7 @@
 [0003]: {{site.baseurl}}/recipe/0003-mvm-video/ "Simplest Manifest - Video"
 [0004]: {{site.baseurl}}/recipe/0004-canvas-size/ "Image and Canvas with Differing Dimensions"
 [0005]: {{site.baseurl}}/recipe/0005-image-service/ "Support Deep Viewing with Basic Use of a IIIF Image Service"
-[0006]: {{site.baserul}}/recipe/0006-text-language/ "Internationalization and Multi-language Values"
+[0006]: {{site.baseurl}}/recipe/0006-text-language/ "Internationalization and Multi-language Values"
 [0007]: {{site.baseurl}}/recipe/0007-string-formats/ "Embedding HTML"
 [0009]: {{site.baseurl}}/recipe/0009-book-1/ "Simple Manifest - Book"
 [0008]: {{site.baseurl}}/recipe/0008-rights/ "Rights"
