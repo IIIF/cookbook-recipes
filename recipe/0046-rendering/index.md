@@ -26,7 +26,7 @@ In this example, the PDF to be made available is for the program at a whole, and
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="NN"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="16-27"' %}
 
 
 # Related recipes
