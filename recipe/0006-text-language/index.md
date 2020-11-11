@@ -22,17 +22,17 @@ A client will choose the appropriate value(s) by following the processing rules 
 Note that the implementation described here does not apply to embedded textual bodies in Annotations, which use the Web Annotation pattern of value and language as separate properties.
 
 ## Example
-In this example, the content is an image of the painting *Whistler's Mother* by James Abbott McNeill Whistler. The Manifest `label` property has both the English and French titles (lines 6-14).
+In this example, the content is an image of the painting *Whistler's Mother* by James Abbott McNeill Whistler. The Manifest `label` property has both the English and French titles, plus a value with no language specified (lines 6-14).
 
-In the `metadata` and `required statement` properties (lines 18-21, 31-34), the label for the "Creator" and "Held by" fields is supplied in both English and French. Here, the values (lines 22-24, 35-37) have no specified language, so uses the value "none".
+In the `metadata` and `required statement` properties (lines 19-24, 40-45), the label for the "Creator" and "Held by" fields is supplied in both English and French. Here, the values (lines 27-29, 48-50) have no specified language, so uses the value "none".
 
-Finally, the `summary` property (lines 27-29) has a value only for English.
+Finally, the `summary` property (lines 34-36) has a value only for English.
 
 The image was sourced via Wikimedia Commons and is public domain.
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="6-17, 22-27, 30-32, 37-39, 43-48, 51-53"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="6-14, 19-24, 27-29, 34-36, 40-45, 48-50"' %}
 
 # Related recipes
 
