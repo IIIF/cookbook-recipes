@@ -11,7 +11,7 @@
   "viewingDirection": "right-to-left",
 	"rendering": [
 		{
-			"id": "https://example.org/1.pdf",
+			"id": "https://fixtures.iiif.io/other/UCLA/kabuki_ezukushi_rtl.pdf",
 			"type": "Text",
 			"label": { "en": [ "Download a PDF of this program" ] },
 			"format": "application/pdf"
