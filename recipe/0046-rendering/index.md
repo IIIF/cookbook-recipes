@@ -18,7 +18,7 @@ Any resource may have the `rendering` property. Each instance of it may have mul
 
 ## Restrictions
 
-This property is not for use for presenting multiple IIIF views of the same resource, such as an infrared and natural light view of a painting. For that use case, you should use [].
+This property is not for use for presenting multiple IIIF versions of the same view, such as an infrared and natural light view of a painting. For that use case, you should use [Choice (simplest)][0033] or [Choice — multispectral flavoured example, with image services][0034].
 
 ## Example
 
