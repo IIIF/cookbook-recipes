@@ -31,8 +31,9 @@ In this example, the PDF to be made available is for the program at a whole, and
 
 # Related recipes
 
-Provide a bulleted list of related recipes and why they are relevant.
-
+* [seeAlso][0009] for data representations of the same object
+* [Choice (simplest)][0033] for showing multiple representations of the same view
+* [Choice — multispectral flavoured example, with image services][0034] for showing multiple representations of the same view with Image Services
 
 {% include acronyms.md %}
 {% include links.md %}
