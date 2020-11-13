@@ -34,8 +34,8 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Rights statement\(s\)][0008] (7)
 * thumbnail algorithm / discussion
 * [Simple Manifest - Book][0009] (19)
+* [Book behavior (paging) variations][0011] (15,16,17) 
 * [Viewing direction and its effect on navigation][0010] (11,12,13,14)
-* Book (paging variations) (15,16,17) 
 * [Load a Preview Image Before the Main Content][0013]
 * [Audio Presentation with Accompanying Image][0014]
 * [Load Manifest Beginning with a Specific Canvas][0202]
