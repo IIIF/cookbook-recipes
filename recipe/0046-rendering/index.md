@@ -24,7 +24,7 @@ This property is not for use for presenting multiple IIIF versions of the same v
 
 In this example, the PDF to be made available is for the program at a whole, and as such the `rendering` property is for the `Manifest`. If the PDFs were available for each view or page separately, each `Canvas` would be the logical place for the corresponding PDF.
 
-{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="16-27"' %}
 
