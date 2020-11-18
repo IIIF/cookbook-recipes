@@ -1,0 +1,94 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "{{ id.url }} ",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Playbill Cover with Manifest Thumbnail"
+    ]
+  },
+  "summary": {
+    "en": [
+      "Cover of playbill for \"Akiba gongen kaisen-banashi,\" \"Futatsu chōchō kuruwa nikki\" and \"Godairiki koi no fūjime\" performed at the Chikugo Theater in Osaka from the fifth month of Kaei 2 (May, 1849); main actors: Gadō Kataoka II, Ebizō Ichikawa VI, Kitō Sawamura II, Daigorō Mimasu IV and Karoku Nakamura I; on front cover: producer Mominosuke Ichikawa's crest."
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001/full/max/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "height": 300,
+      "width": 219,
+      "service": [
+		{
+		   "id":"https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001",
+		   "type":"ImageService3",
+		   "profile":"level1",
+		   "extraFormats":[
+			  "jpg",
+			  "png"
+		   ],
+		   "extraQualities":[
+			  "default",
+			  "color",
+			  "gray"
+		   ],
+		   "protocol":"http://iiif.io/api/image",
+		   "tiles":[
+			  {
+				 "height":512,
+				 "scaleFactors":[
+					1,
+					2,
+					4,
+					8
+				 ],
+				 "width":512
+			  }
+		   ]
+		}
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "{{ id.path }}/canvas/p0",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "front cover with color bar"
+        ]
+      },
+      "width": 4520,
+      "height": 5312,
+      "items": [
+        {
+          "id": "{{ id.path }}/page/p0/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/annotation/p0000-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001_full/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 5312,
+                "width": 4520,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001_full",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "{{ id.path }}/canvas/p0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
