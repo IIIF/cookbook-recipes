@@ -30,6 +30,8 @@ In the `metadata` and `requiredStatement` properties, the 'label' for both "Crea
 
 Finally, the `summary` property (lines 34-36) has a value in English only.
 
+To see the language choice in the linked viewers, open the settings menu (gear icon) and choose either English or French.
+
 The image was sourced via Wikimedia Commons and is public domain.
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
