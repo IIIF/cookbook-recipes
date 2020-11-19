@@ -19,7 +19,9 @@ If the language is not known or the string does not have a language, then the ke
 A client will choose the appropriate value(s) by following the processing rules provided in the [Language of Property Values](https://iiif.io/api/presentation/3.0/#44-language-of-property-values) section of the IIIF Presentation API 3.0 specification.
 
 ## Restrictions
-Note that the implementation described here does not apply to embedded textual bodies in Annotations, which use the Web Annotation pattern of value and language as separate properties.
+1. Note that the implementation described here does not apply to embedded textual bodies in Annotations, which use the Web Annotation pattern of value and language as separate properties.
+
+2. While IIIF allows for the use of language subtags to specify locale, script, etc. following the [BCP 47](https://tools.ietf.org/html/bcp47) standard in language maps, its use of hyphens breaks the . notation pattern. We recommend avoiding use of locale (en-us, en-gb) and script (en-latin) subtags until a solution is identified.
 
 ## Example
 In this example, the content is an image of the painting commonly known as *Whistler's Mother* by James Abbott McNeill Whistler. The Manifest `label` property has both the English and French titles, plus a third title with no assigned language (lines 6-14).
