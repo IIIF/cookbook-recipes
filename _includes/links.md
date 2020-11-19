@@ -7,9 +7,10 @@
 [0005]: {{site.baseurl}}/recipe/0005-image-service/ "Support Deep Viewing with Basic Use of a IIIF Image Service"
 [0006]: {{site.baseurl}}/recipe/0006-text-language/ "Internationalization and Multi-language Values"
 [0007]: {{site.baseurl}}/recipe/0007-string-formats/ "Embedding HTML"
-[0009]: {{site.baseurl}}/recipe/0009-book-1/ "Simple Manifest - Book"
 [0008]: {{site.baseurl}}/recipe/0008-rights/ "Rights"
+[0009]: {{site.baseurl}}/recipe/0009-book-1/ "Simple Manifest - Book"
 [0010]: {{site.baseurl}}/recipe/0010-book-2-viewing-direction "Viewing direction and its effect on navigation"
+[0011]: {{site.baseurl}}/recipe/0011-book-3-behavior/ "Book behavior (paging) variations"
 [0013]: {{site.baseurl}}/recipe/0013-placeholderCanvas/ "Load a Preview Image Before the Main Content"
 [0202]: {{site.baseurl}}/recipe/0202-start-canvas/ "Load Manifest Beginning with a Specific Canvas"
 [0014]: {{site.baseurl}}/recipe/0014-accompanyingcanvas/ "Audio Presentation with Accompanying Image"
@@ -20,6 +21,7 @@
 [0065]: {{site.baseurl}}/recipe/0065-opera-multiple-canvases/ "Table of Contents for Multiple A/V Files on Multiple Canvases"
 
 [0068]: {{site.baseurl}}/recipe/0068-newspaper/ "A newspaper"
+[0117]: {{site.baseurl}}/recipe/0117-add-image-thumbnail/ "Manifest Thumbnail"
 
 [prezi3]: https://iiif.io/api/presentation/3 "IIIF Presentation API"
 [prezi3-languages]: https://iiif.io/api/presentation/3.0/#language-of-property-values "Language of Property Values"
