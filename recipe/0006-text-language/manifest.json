@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "{{ id.url }}",
   "type": "Manifest",
-  "label": : {
+  "label": {
     "en": [
       "Whistler's Mother"
     ],
@@ -55,7 +55,7 @@
               "body": {
                 "id": "https://iiif.io/api/image/3.0/example/reference/329817fc8a251a01c393f517d8a17d87-Whistlers_Mother/full/max/0/default.jpg",
                 "type": "Image",
-                "format": "image/jpg",
+                "format": "image/jpeg",
                 "width": 1114,
                 "height": 991,
                 "service": [
