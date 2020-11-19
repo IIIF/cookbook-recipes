@@ -14,7 +14,7 @@ In these cases, IIIF allows a language to be specified for strings that are inte
 
 A language key can be associated with the Manifest `label` and `summary` properties, as well as the `label` and `value` properties of the `metadata` and `requiredStatement` descriptive properties.
 
-If the language is not known or the string does not have a language, then the key must be the string `none`.
+With IIIF Presentation API 3.0, the language map is mandatory. If the language is not known or the string does not have a language, then the key must be the string `none`.
 
 A client will choose the appropriate value(s) by following the processing rules provided in the [Language of Property Values](https://iiif.io/api/presentation/3.0/#44-language-of-property-values) section of the IIIF Presentation API 3.0 specification.
 
