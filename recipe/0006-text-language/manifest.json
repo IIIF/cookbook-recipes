@@ -45,7 +45,7 @@
       "height": 991,
       "items": [
         {
-          "id": "{{ id.path }}/canvas/p1/1",
+          "id": "{{ id.path }}/page/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
