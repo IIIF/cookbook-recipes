@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://example.org/iiif/text-language/manifest",
+    "id": "{{ id.url }}",
     "type": "Manifest",
     "label": {
       "en": [
@@ -39,25 +39,34 @@
 
     "items": [
       {
-        "id": "https://example.org/iiif/text-language/canvas1",
+        "id": "{{ id.path }}/canvas/p1",
         "type": "Canvas",
         "width": 1114,
         "height": 991,
         "items": [
           {
-            "id": "https://example.org/iiif/text-language/canvas1/page1",
+            "id": "{{ id.path }}/canvas/p1/1",
             "type": "AnnotationPage",
             "items": [
               {
-                "id": "https://example.org/iiif/text-language/canvas1/page1/annotation1",
+                "id": "{{ id.path }}/annotation/p0001-image",
                 "type": "Annotation",
                 "motivation": "painting",
                 "body": {
-                  "id": "https://iiif.io/api/image/3.0/example/reference/329817fc8a251a01c393f517d8a17d87-Whistlers_Mother/full/full/0/default.jpg",
+                  "id": "https://iiif.io/api/image/3.0/example/reference/329817fc8a251a01c393f517d8a17d87-Whistlers_Mother/full/max/0/default.jpg",
                   "type": "Image",
                   "format": "image/jpg"
+                  "width": 1114,
+                  "height": 991,
+                  "service": [
+  									{
+  									"id": "https://iiif.io/api/image/3.0/example/reference/329817fc8a251a01c393f517d8a17d87-Whistlers_Mother",
+  									"profile": "level1",
+  									"type": "ImageService3"
+  									}
+  								]
                 },
-                "target": "https://example.org/iiif/text-language/canvas1"
+                "target": "{{ id.path }}/canvas/p1"
               }
             ]
           }
