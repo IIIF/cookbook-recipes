@@ -24,10 +24,10 @@ An example of a Manifest that has a Canvas fragment geolocated to a geographic p
 
 ### Example Renderings
 
-##Leaflet
+## Leaflet
 <img src="./images/leaflet_example.png" />
 
-##MapML
+## MapML
 <img src="./images/mapML_example.png" />
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
