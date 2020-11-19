@@ -42,3 +42,6 @@ The image was sourced via Wikimedia Commons and is public domain.
 
 * [Simplest Manifest - Image][0001]
 * [Support Deep Viewing with Basic Use of a IIIF Image Service][0005]
+
+{% include acronyms.md %}
+{% include links.md %}
