@@ -26,10 +26,10 @@ An example of a Manifest that has a Canvas fragment geolocated to a geographic p
 
 {% include jsonviewer.html src="manifest.json" config='data-line="67-95"' %}
 
-### Leaflet Example
+### Leaflet Rendering
 <img style="max-height: 450px" src="./images/leaflet_example.png" />
 
-### MapML Example
+### MapML Rendering
 <img style="max-height: 450px" src="./images/mapML_example.png" />
 
 ## Related Recipes
