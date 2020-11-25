@@ -10,18 +10,16 @@ summary: "An example of a IIIF Resource with labels/descriptions in multiple lan
 In some cases, a IIIF resource may have a title or description (`label` or `summary`) in more than one language; or, the publisher of the content may want to provide descriptive `metadata` field labels in multiple languages for different language audiences, for example supplying a `label` for a creator field in both English and French ("Creator", "Auteur").
 
 ## Implementation notes
-In these cases, IIIF allows a language to be specified for strings that are intended to be displayed to the user. Languages are specified using a JSON key/value pair where the specified language is the key using the [BCP 47](https://tools.ietf.org/html/bcp47) code for the language and the value is an array, for example: `"en": ["Whistler's Mother"]`.
-
-A language key can be associated with the Manifest `label` and `summary` properties, as well as the `label` and `value` properties of the `metadata` and `requiredStatement` descriptive properties.
-
-With IIIF Presentation API 3.0, the language map is mandatory. If the language is not known or the string does not have a language, then the key must be the string `none`.
+With IIIF Presentation API 3.0, language maps are mandatory for strings that are intended to be displayed to the user. Languages are specified using a JSON key/value pair where the specified language is the key following [BCP 47](https://tools.ietf.org/html/bcp47) language codes and the value is an array, for example: `"en": ["Whistler's Mother"]`. If the language is not known or the string does not have a language, then the key must be the string `none`.
 
 A client will choose the appropriate value(s) by following the processing rules provided in the [Language of Property Values](https://iiif.io/api/presentation/3.0/#44-language-of-property-values) section of the IIIF Presentation API 3.0 specification.
+
+Language keys should be associated with the Manifest `label` and `summary` properties, as well as the `label` and `value` properties of the `metadata` and `requiredStatement` descriptive properties.
 
 ## Restrictions
 1. Note that the implementation described here does not apply to embedded textual bodies in Annotations, which use the Web Annotation pattern of value and language as separate properties.
 
-2. While IIIF allows for the use of language subtags to specify locale, script, etc. following the [BCP 47](https://tools.ietf.org/html/bcp47) standard in language maps, its use of hyphens breaks the . notation pattern. We recommend avoiding use of locale (en-us, en-gb) and script (en-latin) subtags until a solution is identified.
+2. It should be noted that BCP 47 allows hyphen breaks for locale and scripts (e.g. en-US); however, if you are processing these manifests with Javascript it will break the . notation features for navigating JSON objects so brackets for accessing language properties are recommended.
 
 ## Example
 In this example, the content is an image of the painting commonly known as *Whistler's Mother* by James Abbott McNeill Whistler. The Manifest `label` property has both the English and French titles, plus a third title with no assigned language (lines 6-14).
@@ -32,7 +30,7 @@ Finally, the `summary` property (lines 34-36) has a value in English only.
 
 To see the language choice in the linked viewers, open the settings menu (gear icon) and choose either English or French.
 
-The image was sourced via Wikimedia Commons and is public domain.
+The image in this example was sourced via Wikimedia Commons and is public domain
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
@@ -40,8 +38,8 @@ The image was sourced via Wikimedia Commons and is public domain.
 
 # Related recipes
 
-* [Simplest Manifest - Image][0001]
-* [Support Deep Viewing with Basic Use of a IIIF Image Service][0005]
+* [Rights][0008]
+* [Metadata][0029]
 
 {% include acronyms.md %}
 {% include links.md %}
