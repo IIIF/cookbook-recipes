@@ -1,5 +1,5 @@
 ---
-title: Providing Alternative Representations with `rendering`
+title: Providing Alternative Representations
 id: 46
 layout: recipe
 tags: [image, presentation, canvas]
