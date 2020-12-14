@@ -24,7 +24,7 @@ This property is not for use for presenting multiple IIIF versions of the same v
 
 In this example, the PDF to be made available is for the program as a whole, and as such the `rendering` property is on the Manifest. If PDFs were available for each view or page separately, each Canvas would be the logical place for the corresponding PDF.
 
-To see the property in actiono in Mirador, toggle the sidebar by activating the three-line ("hamburger") menu in the upper left-hand corner of the content window. You should then, in the "Related" area, see the link under the "Alternate formats" heading.
+To see the property in action in Mirador, toggle the sidebar by activating the three-line ("hamburger") menu in the upper left-hand corner of the content window. You should then, in the "Related" area, see the link under the "Alternate formats" heading.
 
 {% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
 
