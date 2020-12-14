@@ -13,7 +13,7 @@
 		{
 			"id": "https://fixtures.iiif.io/other/UCLA/kabuki_ezukushi_rtl.pdf",
 			"type": "Text",
-			"label": { "en": [ "PDF Download" ] },
+			"label": { "en": [ "PDF version" ] },
 			"format": "application/pdf"
 		}
 	],
