@@ -1,5 +1,5 @@
 ---
-title: Synchronised score and performance
+title: Synchronized score and performance
 id: 76
 layout: recipe
 tags: [tbc]
