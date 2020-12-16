@@ -24,7 +24,7 @@ The Manifest contains one Canvas with one Image, and the Canvas has the same siz
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="67-95"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="2-5, 67-95"' %}
 
 ### Leaflet Rendering
 <img style="max-height: 450px" src="./images/leaflet_example.png" />
