@@ -24,6 +24,8 @@ The Manifest contains one Annotation Page with one Annotation. The Annotation bo
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
+{% include jsonviewer.html src="manifest.json" config='data-line="54-197"' %}
+
 ## Related Recipes
 * [Geolocate Manifest to Multiple Polygons][TBD]
 * [Geolocate Manifest to a Point][TBD]
