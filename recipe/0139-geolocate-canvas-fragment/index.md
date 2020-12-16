@@ -29,7 +29,7 @@ The Manifest contains one Canvas with one Image, and the Canvas has the same siz
 ### Leaflet Rendering
 <img style="max-height: 450px" src="./images/leaflet_example.png" />
 
-### MapML Rendering
+### Web Annotation serialization to `<feature>` as a MapML Rendering
 <img style="max-height: 450px" src="./images/mapML_example.png" />
 
 ## Related Recipes
