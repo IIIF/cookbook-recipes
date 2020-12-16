@@ -66,6 +66,7 @@
                   ]
                },
                "body":{
+                  "id":"{{ id.path }}/geo.json",
                   "type":"Feature",
                   "properties":{
                      "label": {
