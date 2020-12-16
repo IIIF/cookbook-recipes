@@ -60,15 +60,20 @@
                "id":"{{ id.path }}/geoAnno.json",
                "type":"Annotation",
                "motivation":"tagging",
-               "label":{
-                  "en":[
-                     "The coordinates known from the photograph"
-                  ]
+               "label": {
+                "en": [
+                  "Geographic Annotation"
+                ]
                },
                "body":{
-                  "id":"{{ id.path }}/geo.json",
                   "type":"Feature",
-                  "properties":{},
+                  "properties":{
+                     "label": {
+                        "en": [
+                           "Point coordinates for \"Picture of Göttingen taken during the 2019 IIIF Conference\""
+                        ]
+                     }
+                  },
                   "geometry":{
                      "type":"Point",
                      "coordinates":[

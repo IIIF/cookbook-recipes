@@ -1,31 +1,35 @@
 ---
-title: Geolocate Manifest to a Point
+title: Represent Manifest as a Geometric Point on a Map
 id: 182
 layout: recipe
 tags: [maps, geolocate, annotation]
-summary: "Make a geographic Web Annotation to geolocate a IIIF Presentation API 3 Manifest to a geographic point."
+summary: "Make a geographic Web Annotation to provide geolocation information about an IIIF Presentation API 3 Manifest."
 ---
 
 ### Use Case 
-You have a special photograph taken during an event that you have encoded inside a IIIF Presentation API 3 Manifest. You would like to geolocate the Manifest to the coordinates obtained from the photograph metadata. You want the coordinates to render in open source mapping systems, such as [Leaflet](https://leafletjs.com/). You would like to geolocate the Manifest [using software that generates IIIF Presentation API 3.0 Annotations](http://geo.rerum.io/geolocate/annotate.html).
+You would like to see your IIIF Presentation API 3 Manifest represented on open source world map based user interfaces such as [Leaflet](https://leafletjs.com/examples/geojson/) or [Google Maps](https://developers.google.com/maps/documentation/javascript/importing_data). This could mean simply displaying a geometric shape on a map, but may include more data from the resource in connection with the geometric shape to facilitate robust functionality within the MapUI.
 
 ### Implementation Notes
-* This Manifest extends the Manifest used in the [simple image service recipe][0005]. See that recipe for more information about the Manifest.
-* The third party [GeoJSON-LD](https://geojson.org/geojson-ld/) context is included alongside the IIIF Presentation 3 context. This supplies the vocabulary terms for the GeoJSON-LD Annotation bodies since the IIIF Presentation 3 context does not describe those terms. The field `@context` can be an array, and when it is the IIIF Presentation API 3 context must be the last item in the array.  
+This Manifest extends the Manifest used in the [simple image service recipe][0005]. See that recipe for more information about the Manifest.
+
+The third party [GeoJSON-LD](https://geojson.org/geojson-ld/) context is included alongside the IIIF Presentation 3 context. This supplies the vocabulary terms for the GeoJSON-LD Annotation bodies since the IIIF Presentation 3 context does not describe those terms. The field `@context` can be an array, and when it is the IIIF Presentation API 3.0 context must be the last item in the array. 
+
+Note that [`geometry` can be more than just a `Point`.](https://tools.ietf.org/html/rfc7946#section-3.1)
 
 ### Restrictions
-Nested GeoJSON coordinate arrays are incompatible with the processing model of JSON-LD 1.0. The JSON-LD 1.1 processing model does not have this restriction.
+Applications that strictly follow Linked Data practices will find that nested GeoJSON coordinate arrays are incompatible with the processing model of JSON-LD 1.0. The JSON-LD 1.1 processing model does not have this restriction. Be aware if you plan to serialize JSON-LD into [other semantic data formats or markup languages](https://www.w3.org/TR/json-ld11/#relationship-to-other-linked-data-formats) such as RDF.  
 
-### Manifest
+### Example
+The Manifest contains one Annotation Page with one Annotation. The Annotation body is GeoJSON-LD, which is supported by a number of open source mapping systems. A client can parse out the Annotation from the Manifest and pass the Annotation body into MapUI systems resulting in rendered geometric shapes on a world map. Often, data from the resource such as an image URL, label or description is connected with those shapes via [`properties`](https://tools.ietf.org/html/rfc7946#section-3.2) in GeoJSON. You can see the coordinates in the body of the Annotation on the Manifest [render in a Leaflet viewer](http://geo.rerum.io/geolocate/leaflet_view.html?manifest=https://preview.iiif.io/cookbook/0182-geolocated-simple-manifest/recipe/0182-geolocated-simple-manifest/manifest.json). You can also see a serialization of these coordinates into `<feature>`s [render in a MapML implementation](http://geo.rerum.io/geolocate/mapML-view.html?manifest=https://preview.iiif.io/cookbook/0182-geolocated-simple-manifest/recipe/0182-geolocated-simple-manifest/manifest.json).  
+
+{% include manifest_links.html viewers="" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="59-82"' %}
 
-### Interface Example For This Recipe Manifest
-There are robust viewers that support IIIF resource types and the Annotations that describe them. However, these viewers have not yet taken into account rendering coordinate assertions beyond the plain text understanding of the Annotation bodies. The [IIIF Maps Community Group](https://iiif.io/community/groups/maps/) is considering plugins to support coordinate rendering systems, such as Leaflet embedded in viewing windows. For now, you can see the coordinates in the body of the Annotation on the Manifest [render in a Leaflet viewer](http://geo.rerum.io/geolocate/viewAnnotations.html?manifest=https://preview.iiif.io/cookbook/0182-geolocated-simple-manifest/recipe/0182-geolocated-simple-manifest/manifest.json).
-
 ## Related Recipes
-* [Geolocate Canvas Fragment to a Point][TBD]
+* [Geolocate Manifest to Multiple Points][TBD]
 * [Geolocate Manifest to a Polygonal Area][TBD]
+* [Tagging Annotation][0021]
 
 {% include acronyms.md %}
 {% include links.md %}
