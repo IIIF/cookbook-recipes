@@ -66,9 +66,14 @@
                   ]
                },
                "body":{
-                  "id":"{{ id.path }}/geo.json",
                   "type":"Feature",
-                  "properties":{},
+                  "properties":{
+                     "label": {
+                        "en": [
+                           "Polygonal coordinates for \"Picture of Göttingen taken during the 2019 IIIF Conference\""
+                        ]
+                     }
+                  },
                   "geometry":{
                      "type":"Polygon",
                      "coordinates":[
