@@ -56,9 +56,9 @@
          "id":"{{ id.path }}/geo.json",
          "type":"Feature",
          "properties":{
-            "label":{
-               "en":[
-                  "The coordinates known from the photograph"
+            "label": {
+               "en": [
+                  "Point coordinates for \"Picture of Göttingen taken during the 2019 IIIF Conference\""
                ]
             }
          },
@@ -79,9 +79,9 @@
             "id":"{{ id.path }}/geo.json",
             "type":"Feature",
             "properties":{
-               "label":{
-                  "en":[
-                     "The coordinates known from the photograph"
+               "label": {
+                  "en": [
+                     "Point coordinates for \"Picture of Göttingen taken during the 2019 IIIF Conference\""
                   ]
                }
             },
