@@ -2,7 +2,7 @@
 title: Represent Canvas Fragment as a Geometric Point on a Map
 id: 139
 layout: recipe
-tags: [maps, geolocate, annotation]
+tags: [maps, annotation]
 summary: "Make a geographic Web Annotation to provide geolocation information about a fragment of a IIIF Presentation API 3.0 Canvas."
 ---
 
@@ -33,9 +33,9 @@ The Manifest contains one Canvas with one Image, and the Canvas has the same siz
 <img style="max-height: 450px" src="./images/mapML_example.png" />
 
 ## Related Recipes
-* [Geolocate Canvas Fragment to Multiple Points][TBD]
-* [Geolocate Manifest to a Point][TBD]
-* [Geolocate Manifest to a Polygonal Area][TBD]
+* [Represent Canvas Fragment as Multiple Geometric Points on a Map][TBD]
+* [Represent Manifest as a Geometric Point on a Map][TBD]
+* [Represent Manifest as a Polygonal Area on a Map][TBD]
 * [Fragment Selectors][0020]
 * [Tagging Annotation][0021]
 
