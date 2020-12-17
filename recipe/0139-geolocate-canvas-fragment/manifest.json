@@ -7,7 +7,7 @@
    "type":"Manifest",
    "label":{
       "en":[
-         "Canvas Fragment Geolocated to a Point"
+         "Recipe Manifest for #139"
       ]
    },
    "summary":{
@@ -70,7 +70,7 @@
                      "motivation":"tagging",
                      "label":{
                         "en":[
-                           "Geographic Annotation"
+                           "Annotation containing GeoJSON-LD coordinates for central Paris, France"
                         ]
                      },
                      "body":{
