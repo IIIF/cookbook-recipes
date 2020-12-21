@@ -8,7 +8,7 @@ summary: "Linking to non-IIIF representations of the object, such as a PDF."
 
 ## Use Case
 
-You have an archival object in IIIF format for which you would like to offer researchers the opportunity to download a PDF version. You know from previous experience that researchers using your collection like to have images and texts available for offline reading, or you know you have patrons with bandwidth concerns who need to minimize their time online, or other reasons such as wanting to provide transcriptions and translations of objects' text. Through use of the `rendering` property, you are able to alert conforming clients to the presence of this other format (or yet other formats, such as ePub) so they in turn can provide appropriate UX workflows to users.
+You have a IIIF format resource for which you would like to offer researchers the opportunity to download a PDF version. You know from previous experience that researchers using your collection like to have images and texts available for offline reading, or you know you have patrons with bandwidth concerns who need to minimize their time online, or other reasons such as wanting to provide transcriptions and translations of objects' text. Through use of the `rendering` property, you are able to alert conforming clients to the presence of this other format (or yet other formats, such as ePub) so they in turn can provide appropriate UX workflows to users.
 
 ## Implementation notes
 
