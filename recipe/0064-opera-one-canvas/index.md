@@ -13,7 +13,7 @@ It is common to have A/V content split into multiple files. This recipe shows ho
 
 ## Implementation Notes
 
-This implementation builds upon the [Table of Contents for A/V Content][0026] recipe but uses two video files, one for each act of the opera used as example, annotated onto the same Canvas: Atto Primo targets #t=0, and Atto Secondo targets #t=3971.24, right after the end of Atto Primo, thus ensuring continuous playback.
+This implementation builds upon the [Table of Contents for A/V Content][0026] recipe but uses two video files, one for each act of the opera used as example, annotated onto the same Canvas: Atto Primo targets #t=0, and Atto Secondo targets #t=3971.24, right after the end of Atto Primo, thus ensuring continuous playback. Conceptually it makes more sense to include both acts as annotations on the same Annotation Page since they are both targeting the same Canvas. 
 
 The opera covers the whole length of the Canvas and is divided into two Ranges for the two acts. Atto Primo has a Range for the prelude and first song and then a Range for the remainder of the act. Atto Secondo has not been subdivided into Ranges for simplicity of this example.
 
