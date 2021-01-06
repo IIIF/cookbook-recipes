@@ -8,11 +8,11 @@ summary: "tbc"
 
 ## Use Case
 
-You have a IIIF format resource for which you would like to offer researchers the opportunity to download a PDF version. You know from previous experience that researchers using your collection like to have images and texts available for offline reading, or you know you have patrons with bandwidth concerns who need to minimize their time online, or other reasons such as wanting to provide transcriptions and translations of objects' text. Through use of the `rendering` property, you are able to alert conforming clients to the presence of this other format (or yet other formats, such as ePub) so they in turn can provide appropriate UX workflows to users.
+You have a IIIF format resource for which you would like to offer aggregators a machine-readable version. You know from previous experience that aggregators crawling your collection harvest best when handed structured metadata and are also then able to offer their readers faceting capabilities, making your resources amenable to focused discovery. Through use of the `seeAlso` property, you are able to alert an aggregator to the presence of a dataset so it in turn can provide appropriate and sophisticated information to users.
 
 ## Implementation Notes
 
-This property is used for pointing a viewer to a non-IIIF resource with information about IIIF resource to which it is attached. Most frequently, the non-IIIF resource will be structured metadata, and to be most effective, the target resource should be machine-readable.
+This property is used for pointing a viewer to the URI of a non-IIIF resource with information about the IIIF resource to which it is attached. Most frequently, the non-IIIF resource will be structured metadata, and to be most effective, the target resource should be machine-readable in a format such as Dublin Core, MODS, or RDF. The `type` value for `seeAlso` is usually "dataset".
 
 Three other properties may seem similar, so it's worth highlighting the differences. 
 
@@ -23,7 +23,7 @@ Where `rendering` presents an additional representation of the same resource, `h
 An `accompanyingCanvas` resource is a IIIF resource presented simultaneously with the main resource, where a target of `rendering` is not IIIF-compatible and must be viewed outside the main resource's viewer. In addition, `accompanyingCanvas` is used for content complementary to the main resource while `rendering` points to additional representations of the same resource.
 
 * `rendering` [(IIIF Presentation API reference)](https://iiif.io/api/presentation/3.0/#rendering)  
-Unlike `seeAlso`, the `rendering` property provides the URI of an alternate representation of the current resource, such as in PDF or ePub format.
+Unlike `seeAlso`, the `rendering` property provides the URI of an alternate representation of the current resource, such as a PDF or ePub version. The `type` values for `rendering` vary more widely than do those for `seeAlso`, in keeping with the variety of target formats possible.
 
 Any resource may have the `seeAlso` property. Each instance of it may have multiple items contained inside it, provided each has the `id` and `type` properties; `label`, `format`, and `profile` are strongly recommended properties. Conforming clients may process this property in some way, but the outcomes of a client's processing has no defined form.
 
