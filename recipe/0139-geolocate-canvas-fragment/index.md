@@ -7,7 +7,11 @@ summary: "Make Web Annotation to provide geocoordinates for a fragment of a IIIF
 ---
 
 ### Use Case 
-There is a region of interest on a Canvas that could be further described by geocoordinates. The region contains the word "Paris", and so the geocoordinates should be of a central point in Paris, France. You want the Canvas to contain geocoordinates that clients can use for representing the targeted fragment in world map based user interfaces, such as [Leaflet](https://leafletjs.com/examples/geojson/) or [Google Maps](https://developers.google.com/maps/documentation/javascript/importing_data).  This could mean simply displaying a geometric shape on a map, but may include more data from the resource in connection with the geometric shape to facilitate robust functionality within the MapUI.
+<img style="max-height: 450px" src="./images/leaflet_example.png" />
+
+There is a region of interest on a Canvas that will benefit from geographic data. The region contains the word "Paris", and so the geographic data is geocoordinates of a central point in Paris, France. You want the Canvas to contain geocoordinates that clients can use for representing the targeted fragment in world map based user interfaces, such as [Leaflet](https://leafletjs.com/examples/geojson/) or [Google Maps](https://developers.google.com/maps/documentation/javascript/importing_data). This could mean simply displaying a geometric shape on a map, but may include more data from the resource in connection with the geometric shape to facilitate robust functionality within the MapUI.
+
+There exists a multitude of real world resources that benefit from geographic data, many of which already exist in IIIF collections. New and old maps, travel journals, newspapers, manuscripts, and diaries are just a subset of the cultural heritage artifacts that contain geographic mentions. These mentions bring human context to the material and offer a recognizable, comfortable setting for discovering connections between disparate resources.
 
 ### Implementation Notes
 The third party [GeoJSON-LD](https://geojson.org/geojson-ld/) context is included alongside the IIIF Presentation API 3.0 context. This supplies the vocabulary terms for the GeoJSON-LD Annotation bodies since the IIIF Presentation API 3.0 context does not describe those terms. The field `@context` can be an array, and when it is the IIIF Presentation API 3.0 context must be the last item in the array. 
@@ -26,12 +30,6 @@ The Manifest contains one Canvas with one Image, and the Canvas has the same siz
 
 {% include jsonviewer.html src="manifest.json" config='data-line="2-5, 67-95"' %}
 
-### Leaflet Rendering
-<img style="max-height: 450px" src="./images/leaflet_example.png" />
-
-### Web Annotation [serialization to `<feature>`](https://maps4html.org/MapML/spec/#the-feature-element-0) as a MapML Rendering
-<img style="max-height: 450px" src="./images/mapML_example.png" />
-
 ## Related Recipes
 * [Represent Canvas Fragment as Multiple Geometric Points on a Map][TBD]
 * [Represent Manifest as a Geometric Point on a Map][TBD]
@@ -41,3 +39,7 @@ The Manifest contains one Canvas with one Image, and the Canvas has the same siz
 
 {% include acronyms.md %}
 {% include links.md %}
+
+<script type="text/javascript">
+	alert("HELLO!")
+</script>
