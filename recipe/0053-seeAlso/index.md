@@ -1,5 +1,5 @@
 ---
-title: Linking to Structured Metadata Through seeAlso
+title: Linking to Structured Metadata
 id: 53
 layout: recipe
 tags: [metadata,presentation]
