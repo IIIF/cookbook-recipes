@@ -18,8 +18,10 @@ Three other properties may seem similar, so it's worth highlighting the differen
 
 * `homepage` [(IIIF Presentation API reference)](https://iiif.io/api/presentation/3.0/#homepage)  
 Where `rendering` presents an additional representation of the same resource, `homepage` points to a webpage _about_ the object represented by the resource.
+
 * `accompanyingCanvas` [(IIIF Presentation API reference)](https://iiif.io/api/presentation/3.0/#accompanyingcanvas)  
 An `accompanyingCanvas` resource is a IIIF resource presented simultaneously with the main resource, where a target of `rendering` is not IIIF-compatible and must be viewed outside the main resource's viewer. In addition, `accompanyingCanvas` is used for content complementary to the main resource while `rendering` points to additional representations of the same resource.
+
 * `seeAlso` [(IIIF Presentation API reference)](https://iiif.io/api/presentation/3.0/#seealso)  
 Unlike `rendering`, the `seeAlso` property provides the URI of a machine-readable resource related to the current resource. In most cases and most effectively, this will be structured metadata in a format such as Dublin Core, MODS, or RDF. `seeAlso` contributes significantly to discovery, such as by providing an aggregator what it needs for faceting its content. The `type` value for `seeAlso` is usually "dataset", while `type` values for `rendering` vary more widely, in keeping with the variety of target formats possible.
 
