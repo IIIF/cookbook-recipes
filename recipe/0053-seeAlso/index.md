@@ -16,10 +16,10 @@ This property is used for pointing a viewer to a non-IIIF resource with informat
 
 Three other properties may seem similar, so it's worth highlighting the differences. 
 
-* homepage [(IIIF Presentation API reference)](https://iiif.io/api/presentation/3.0/#homepage)  
+* `homepage` [(IIIF Presentation API reference)](https://iiif.io/api/presentation/3.0/#homepage)  
 Where `rendering` presents an additional representation of the same resource, `homepage` points to a webpage _about_ the object represented by the resource.
 
-* accompanyingCanvas [(IIIF Presentation API reference)](https://iiif.io/api/presentation/3.0/#accompanyingcanvas)  
+* `accompanyingCanvas` [(IIIF Presentation API reference)](https://iiif.io/api/presentation/3.0/#accompanyingcanvas)  
 An `accompanyingCanvas` resource is a IIIF resource presented simultaneously with the main resource, where a target of `rendering` is not IIIF-compatible and must be viewed outside the main resource's viewer. In addition, `accompanyingCanvas` is used for content complementary to the main resource while `rendering` points to additional representations of the same resource.
 
 * `rendering` [(IIIF Presentation API reference)](https://iiif.io/api/presentation/3.0/#rendering)  
