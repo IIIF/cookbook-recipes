@@ -12,7 +12,7 @@ You have a IIIF format resource for which you would like to offer aggregators a 
 
 ## Implementation Notes
 
-This property is used for pointing a viewer to the URI of a non-IIIF resource with information about the IIIF resource to which it is attached. Most frequently, the non-IIIF resource will be structured metadata, and to be most effective, the target resource should be machine-readable in a format such as Dublin Core, MODS, or RDF. The `type` value for `seeAlso` is usually "dataset".
+This property is used for pointing a viewer to the URI of a non-IIIF resource with information about the IIIF resource to which it is attached. Most frequently, the non-IIIF resource will be structured metadata, and to be most effective, the target resource should be a machine-readable format such as Dublin Core, MODS, or RDF. The `type` value for `seeAlso` is usually `dataset`.
 
 Three other properties may seem similar, so it's worth highlighting the differences. 
 
