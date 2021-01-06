@@ -7,7 +7,7 @@ summary: "Make Web Annotation to provide geocoordinates for a fragment of a IIIF
 ---
 
 ### Use Case 
-<img style="max-height: 450px" src="./images/leaflet_example.png" />
+<img onclick="showBigImage()" style="max-height: 450px" src="./images/leaflet_example.png" />
 
 There is a region of interest on a Canvas that will benefit from geographic data. The region contains the word "Paris", and so the geographic data is geocoordinates of a central point in Paris, France. You want the Canvas to contain geocoordinates that clients can use for representing the targeted fragment in world map based user interfaces, such as [Leaflet](https://leafletjs.com/examples/geojson/) or [Google Maps](https://developers.google.com/maps/documentation/javascript/importing_data). This could mean simply displaying a geometric shape on a map, but may include more data from the resource in connection with the geometric shape to facilitate robust functionality within the MapUI.
 
@@ -40,12 +40,28 @@ The Manifest contains one Canvas with one Image, and the Canvas has the same siz
 {% include acronyms.md %}
 {% include links.md %}
 
+<div id="bigImage">
+	<div style="color:white;"> Click to Close </div>
+	<img onclick="hideBigImage()" style="max-height: 100%; max-width: 100%;" src="./images/leaflet_example.png" />
+</div>
+
 <style>
-	h1{
-		background-color: green;
+	#bigImg{
+		position: absolute;
+		top: 0;
+		left : 0;
+		height : 100em;
+		background-color: rgba(255,255,255,.2);
+		display:none;
+		margin : 0 auto;
 	}
 </style>
 
 <script type="text/javascript">
-	alert("HELLO!")
+	function showBigImage(){
+		document.getElementById("bigImage").style.display = "block"
+	}
+	function hideBigImage(){
+		document.getElementById("bigImage").style.display = "none"
+	}
 </script>
