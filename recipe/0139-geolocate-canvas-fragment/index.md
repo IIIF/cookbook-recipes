@@ -47,7 +47,7 @@ The Manifest contains one Canvas with one Image, and the Canvas has the same siz
 
 <style>
 	#bigImage{
-		position: absolute;
+		position: fixed;
 		top: 0;
 		left : 0;
 		height : 100em;
