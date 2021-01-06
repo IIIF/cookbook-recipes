@@ -16,13 +16,13 @@ This property is used for pointing a viewer to a non-IIIF resource with informat
 
 Three other properties may seem similar, so it's worth highlighting the differences. 
 
-### homepage
-Where `rendering` presents an additional representation of the same resource, [`homepage`](https://iiif.io/api/presentation/3.0/#homepage) points to a webpage _about_ the object represented by the resource.
+* homepage [(IIIF Presentation API reference)](https://iiif.io/api/presentation/3.0/#homepage)  
+Where `rendering` presents an additional representation of the same resource, `homepage` points to a webpage _about_ the object represented by the resource.
 
-### accompanyingCanvas
+* accompanyingCanvas [(IIIF Presentation API reference)](https://iiif.io/api/presentation/3.0/#accompanyingcanvas)  
 An `accompanyingCanvas` resource is a IIIF resource presented simultaneously with the main resource, where a target of `rendering` is not IIIF-compatible and must be viewed outside the main resource's viewer. In addition, `accompanyingCanvas` is used for content complementary to the main resource while `rendering` points to additional representations of the same resource.
 
-### rendering
+* `rendering` [(IIIF Presentation API reference)](https://iiif.io/api/presentation/3.0/#rendering)  
 Unlike `seeAlso`, the `rendering` property provides the URI of an alternate representation of the current resource, such as in PDF or ePub format.
 
 Any resource may have the `seeAlso` property. Each instance of it may have multiple items contained inside it, provided each has the `id` and `type` properties; `label`, `format`, and `profile` are strongly recommended properties. Conforming clients may process this property in some way, but the outcomes of a client's processing has no defined form.
