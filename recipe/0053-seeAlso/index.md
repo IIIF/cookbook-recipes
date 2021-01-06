@@ -29,20 +29,16 @@ Any resource may have the `seeAlso` property. Each instance of it may have multi
 
 ## Restrictions
 
-When is this pattern is usable / not usable? Is it deprecated? If it uses multiple specifications, which versions are needed, etc.? 
-
-Delete this section if it is not needed.
-If you don't know what the restrictions might be initially, just leave the following line:
-**Unknown - Help Needed**
+No known restrictions
 
 ## Example
 
 Describe the solution in prose and provide an example.
 The example json document must be an external document, and imported with the following:
 
-{% include manifest_links.html viewers="UV, Mirador, Tify, Curation" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" %}
+{% include jsonviewer.html src="manifest.json" config='data-line="1"' %}
 
 The direct link to the fixture is a useful convenience.
 
