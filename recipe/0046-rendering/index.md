@@ -42,11 +42,11 @@ To see the property in action in Mirador, toggle the sidebar by activating the t
 
 # Related recipes
 
-* [seeAlso][0009] for data representations of the same object
 * [Audio Presentation with Accompanying Image][0014], using `accompanyingCanvas` to present one IIIF resource simultaneously with another
 * [Choice (simplest)][0033] for showing multiple representations of the same view
 * [Choice — multispectral flavored example, with image services][0034] for showing multiple representations of the same view with Image Services
 * [homepage][0047] for pointing to a web page about the object represented by the current resource
+* [seeAlso][0053] for data representations of the same object
 * [A museum object][0059] for using `rendering` to provide a 3D model
 
 {% include acronyms.md %}
