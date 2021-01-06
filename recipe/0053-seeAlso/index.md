@@ -8,7 +8,7 @@ summary: "tbc"
 
 ## Use Case
 
-You have a IIIF format resource for which you would like to offer aggregators a machine-readable version. You know from previous experience that aggregators crawling your collection harvest best when handed structured metadata and are also then able to offer their readers faceting capabilities, making your resources amenable to focused discovery. Through use of the `seeAlso` property, you are able to alert an aggregator to the presence of a dataset so it in turn can provide appropriate and sophisticated information to users.
+You have a IIIF format resource for which you would like to offer aggregators a machine-readable version. You know from previous experience that aggregators crawling your collection harvest best when handed structured metadata and are also then able to offer their readers faceting capabilities, making your resources amenable to focused discovery. Through use of the `seeAlso` property, you are able to alert an aggregator to the presence of a dataset so the aggregator can provide appropriate and sophisticated information about your resource to the aggregator's users.
 
 ## Implementation Notes
 
