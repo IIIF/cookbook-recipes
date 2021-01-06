@@ -7,16 +7,16 @@ summary: "Make Web Annotation to provide geocoordinates for a fragment of a IIIF
 ---
 
 ### Use Case 
-There is a region of interest on a Canvas that will benefit from geographic data. The region contains the word "Paris", and so the geographic data is geocoordinates of a central point in Paris, France. You want the Canvas to contain geocoordinates that clients can use for representing the targeted fragment in world map based user interfaces, such as [Leaflet](https://leafletjs.com/examples/geojson/) or [Google Maps](https://developers.google.com/maps/documentation/javascript/importing_data). This could mean simply displaying a geometric shape on a map, but may include more data from the resource in connection with the geometric shape to facilitate robust functionality within the MapUI.
+A region of interest on a Canvas will benefit from geographic data. The region contains the word "Paris", and so the geographic data is geocoordinates of a central point in Paris, France. You want the Canvas to contain geocoordinates that clients can use for representing the targeted fragment in world map based user interfaces, such as [Leaflet](https://leafletjs.com/examples/geojson/) or [Google Maps](https://developers.google.com/maps/documentation/javascript/importing_data). This could mean simply displaying a geometric shape on a map, but may include more data from the resource in connection with the geometric shape to facilitate robust functionality within the MapUI.
 
-There exists a multitude of real world resources that benefit from geographic data, many of which already exist in IIIF collections. New and old maps, travel journals, newspapers, manuscripts, and diaries are just a subset of the cultural heritage artifacts that contain geographic mentions. These mentions bring human context to the material and offer a recognizable, comfortable setting for discovering connections between disparate resources.
+A multitude of real world resources benefit from geographic data, many of which are already represented in IIIF digital collections. New and old maps, travel journals, newspapers, manuscripts, poems and diaries are just a subset of cultural heritage artifacts that contain geographic mentions. These mentions bring human context to the material and offer a recognizable, comfortable setting for discovering connections between disparate resources.
 
 <img onclick="showBigImage()" style="max-height: 125px" src="./images/leaflet_example.png" />
 
 ### Implementation Notes
 The third party [GeoJSON-LD](https://geojson.org/geojson-ld/) context is included alongside the IIIF Presentation API 3.0 context. This supplies the vocabulary terms for the GeoJSON-LD Annotation bodies since the IIIF Presentation API 3.0 context does not describe those terms. The field `@context` can be an array, and when it is the IIIF Presentation API 3.0 context must be the last item in the array. 
 
-GeoJSON `properties` is a generic field and [can be nearly anything](https://tools.ietf.org/html/rfc7946#section-3.2). If, for example, the targeted resource has a `label` and the `properties` field contains a `label`, the consuming interface must make a choice on which to prioritize for presentation purposes.  In the example renderings, the label inside `properties` is used as opposed to the label from the Annotation or the Canvas.  
+GeoJSON `properties` is a generic field and [can be nearly anything](https://tools.ietf.org/html/rfc7946#section-3.2). If, for example, the targeted resource has a `label` and the `properties` field contains a `label`, the consuming interface must make a choice on which to prioritize for presentation purposes. In the example renderings, the label inside `properties` is used as opposed to the label from the Annotation or the Canvas.  
 
 Note that [`geometry` can be more than just a `Point`.](https://tools.ietf.org/html/rfc7946#section-3.1)
 
