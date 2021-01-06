@@ -40,6 +40,12 @@ The Manifest contains one Canvas with one Image, and the Canvas has the same siz
 {% include acronyms.md %}
 {% include links.md %}
 
+<style>
+	h1{
+		background-color: green;
+	}
+</style>
+
 <script type="text/javascript">
 	alert("HELLO!")
 </script>
