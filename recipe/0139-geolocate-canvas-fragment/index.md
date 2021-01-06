@@ -7,11 +7,11 @@ summary: "Make Web Annotation to provide geocoordinates for a fragment of a IIIF
 ---
 
 ### Use Case 
-<img onclick="showBigImage()" style="max-height: 250px" src="./images/leaflet_example.png" />
-
 There is a region of interest on a Canvas that will benefit from geographic data. The region contains the word "Paris", and so the geographic data is geocoordinates of a central point in Paris, France. You want the Canvas to contain geocoordinates that clients can use for representing the targeted fragment in world map based user interfaces, such as [Leaflet](https://leafletjs.com/examples/geojson/) or [Google Maps](https://developers.google.com/maps/documentation/javascript/importing_data). This could mean simply displaying a geometric shape on a map, but may include more data from the resource in connection with the geometric shape to facilitate robust functionality within the MapUI.
 
 There exists a multitude of real world resources that benefit from geographic data, many of which already exist in IIIF collections. New and old maps, travel journals, newspapers, manuscripts, and diaries are just a subset of the cultural heritage artifacts that contain geographic mentions. These mentions bring human context to the material and offer a recognizable, comfortable setting for discovering connections between disparate resources.
+
+<img onclick="showBigImage()" style="max-height: 125px" src="./images/leaflet_example.png" />
 
 ### Implementation Notes
 The third party [GeoJSON-LD](https://geojson.org/geojson-ld/) context is included alongside the IIIF Presentation API 3.0 context. This supplies the vocabulary terms for the GeoJSON-LD Annotation bodies since the IIIF Presentation API 3.0 context does not describe those terms. The field `@context` can be an array, and when it is the IIIF Presentation API 3.0 context must be the last item in the array. 
@@ -41,7 +41,7 @@ The Manifest contains one Canvas with one Image, and the Canvas has the same siz
 {% include links.md %}
 
 <div id="bigImage">
-	<div style="color:white;"> Click Image to Close </div>
+	<h4 style="color:white;"> Click Image to Close </h4>
 	<img onclick="hideBigImage()" style="max-height: 100%; max-width: 100%;" src="./images/leaflet_example.png" />
 </div>
 
@@ -55,6 +55,10 @@ The Manifest contains one Canvas with one Image, and the Canvas has the same siz
 		background-color: rgba(0,0,0,.8);
 		display:none;
 		text-align: center;
+		padding-top: 4em;
+	}
+	img{
+		cursor: pointer;
 	}
 </style>
 
