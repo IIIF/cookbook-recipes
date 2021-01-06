@@ -97,7 +97,7 @@ _(leading on to segmentation examples later)_
 * Linking from external metadata to Image API
 * Linking from external metadata to Presentation API
 * Linking between Presentation API representations
-* seeAlso scenarios (incl other manifests) (8)
+* [Linking to Structured Metadata][0053] (8)
 
 ## Technical
 
