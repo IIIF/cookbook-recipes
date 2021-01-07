@@ -3,7 +3,7 @@ title: Represent Canvas Fragment as a Geographic Point on a Web Map
 id: 139
 layout: recipe
 tags: [maps, annotation]
-summary: "Make Web Annotation to provide geocoordinates for a fragment of a IIIF Presentation API 3.0 Canvas."
+summary: "Use Web Annotation to provide geocoordinates for a fragment of a IIIF Presentation API 3.0 Canvas."
 ---
 
 ### Use Case 
@@ -55,7 +55,7 @@ The Manifest has one Canvas with one Image, and the Canvas has the same size dim
 		background-color: rgba(0,0,0,.8);
 		display:none;
 		text-align: center;
-		padding-top: 4em;
+		padding-top: 4px;
 	}
 	img{
 		cursor: pointer;
