@@ -29,7 +29,7 @@
               "id": "{{ id.path }}/canvas/1/annotation_page/1/annotation/1",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "{{ id.path }}/canvas/1#t=0",
+              "target": "{{ id.path }}/canvas/1#t=0,3971.24",
               "body": {
                 "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/vae0637_accessH264_low.mp4",
                 "type": "Video",
