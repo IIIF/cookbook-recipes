@@ -31,9 +31,9 @@ The Manifest contains one Canvas with one Image, and the Canvas has the same siz
 {% include jsonviewer.html src="manifest.json" config='data-line="2-5, 67-95"' %}
 
 ## Related Recipes
-* [Represent Canvas Fragment as Multiple Geometric Points on a Map][TBD]
-* [Represent Manifest as a Geometric Point on a Map][TBD]
-* [Represent Manifest as a Polygonal Area on a Map][TBD]
+* [Represent Canvas Fragment as Multiple Geographic Points on a Map][TBD]
+* [Represent Manifest as a Geographic Point on a Map][TBD]
+* [Represent Manifest as a Geographic Polygon on a Map][TBD]
 * [Fragment Selectors][0020]
 * [Tagging Annotation][0021]
 
