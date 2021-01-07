@@ -1,0 +1,51 @@
+{
+    "id": "http://dlib.indiana.edu/iiif_av/lunchroom_manners",
+    "type": "Manifest",
+    "label": "Lunchroom manners",
+    "description": "Beginning Reponsibility: Lunchroom Manners [motion picture] Coronet Films",
+    "sequences": [
+        {
+            "id": "http://dlib.indiana.edu/iiif_av/lunchroom_manners/sequence/1",
+            "type": "Sequence",
+            "canvases": [
+                {
+                    "id": "http://dlib.indiana.edu/iiif_av/lunchroom_manners/canvas/1",
+                    "type": "Canvas",
+                    "label": "Beginning Reponsibility: Lunchroom Manners [motion picture] Coronet Films",
+                    "description": "Lunchroom manners are taught by following a boy through his lunchroom experience",
+                    "height": 360, 
+                    "width": 480, 
+                    "duration": 660,
+                    "content": [
+                        {
+                            "id": "...",
+                            "type": "AnnotationPage",
+                            "items": [
+                                {
+                                    "id": "...",
+                                    "type": "Annotation",
+                                    "motivation": "painting",
+                                    "body": [
+                                        {
+                                            "id": "http://dlib.indiana.edu/iiif_av/lunchroom_manners/low/lunchroom_manners_256kb.mp4",
+                                            "type": "Video",
+                                            "label": "Low",
+                                            "format": "video/mp4"
+                                        },
+                                        {
+                                            "id": "http://dlib.indiana.edu/iiif_av/lunchroom_manners/lunchroom_manners.vtt",
+                                            "type": "Text",
+                                            "format": "text/vtt",
+                                            "language": "en"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "target": "http://dlib.indiana.edu/iiif_av/canvas/1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
