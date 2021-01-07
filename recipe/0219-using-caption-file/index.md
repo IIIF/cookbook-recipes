@@ -1,6 +1,6 @@
 ---
-title: Mixed Image Service references
-id: 75
+title: Using a Caption File with Video Content
+id: 219
 layout: recipe
 tags: [video, caption, subtitle, presentation]
 summary: "tbc"

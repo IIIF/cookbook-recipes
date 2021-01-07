@@ -21,7 +21,7 @@
 
 [0068]: {{site.baseurl}}/recipe/0068-newspaper/ "A newspaper"
 [0117]: {{site.baseurl}}/recipe/0117-add-image-thumbnail/ "Manifest Thumbnail"
-[0219]: {{site.baseurl}}/recipe/0219-using-caption-file/ "Using a caption file with A/V content"
+[0219]: {{site.baseurl}}/recipe/0219-using-caption-file/ "Using a Caption File with Video Content"
 
 [prezi3]: https://iiif.io/api/presentation/3 "IIIF Presentation API"
 [prezi3-languages]: https://iiif.io/api/presentation/3.0/#language-of-property-values "Language of Property Values"
