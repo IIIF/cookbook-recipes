@@ -1,5 +1,5 @@
 ---
-title: Represent Canvas Fragment as a Geometric Point on a Map
+title: Represent Canvas Fragment as a Geographic Point on a Map
 id: 139
 layout: recipe
 tags: [maps, annotation]
