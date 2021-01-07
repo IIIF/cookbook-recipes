@@ -16,7 +16,7 @@ A multitude of real world resources benefit from geographic data, many of which 
 ### Implementation Notes
 The third party [GeoJSON-LD](https://geojson.org/geojson-ld/) context is included in addition to the IIIF Presentation API 3.0 context. The GeoJSON-LD context supplies the vocabulary terms for the Annotation bodies since the IIIF Presentation API 3.0 context does not describe those terms. When the field `@context` is used as an array with multiple contexts, the IIIF Presentation API 3.0 context must be the last item in the array.
 
-The GeoJSON `properties` field is generic and [can be nearly anything](https://tools.ietf.org/html/rfc7946#section-3.2). This has implications on clients and parsers that must discern what data to use. For example, if the targeted resource has a `label` and the `properties` field has a `label`, the consuming interface must make a choice on which to prioritize for presentation purposes. In the image from the Use Case section, the "Label" uses the GeoJSON `properties` `label` (lines 80-83) instead of the 'label' property from the Annotation or Canvas.
+The GeoJSON `properties` field is generic and [can be nearly anything](https://tools.ietf.org/html/rfc7946#section-3.2). This has implications on clients and parsers that must discern what data to use. For example, if the targeted resource has a `label` and the `properties` field has a `label`, the consuming interface must make a choice on which to prioritize for presentation purposes. In the image from the Use Case section, the "Label" uses the GeoJSON `properties` `label` (lines 80-83) instead of the `label` property from the Annotation or Canvas.
 
 Note that [`geometry` can be more than just a `Point`.](https://tools.ietf.org/html/rfc7946#section-3.1)
 
