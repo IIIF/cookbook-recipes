@@ -7,7 +7,7 @@ summary: "Make Web Annotation to provide geocoordinates for a fragment of a IIIF
 ---
 
 ### Use Case 
-A Canvas has a region of interest that contains the place name "Paris". You would like to associate this instance of "Paris" with the geocoordinates for a central point in Paris, France that clients can use for representing the targeted fragment in world map based user interfaces, such as [Leaflet](https://leafletjs.com/examples/geojson/) or [Google Maps](https://developers.google.com/maps/documentation/javascript/importing_data). This could mean simply displaying a geometric shape on a map, but may include more data from the resource in connection with the geometric shape to facilitate robust functionality within the MapUI.
+A Canvas has a region of interest that contains the place name "Paris". You would like to associate this instance of "Paris" with the geocoordinates for a central point in Paris, France that clients can use for representing the targeted fragment in world map based user interfaces, such as [Leaflet](https://leafletjs.com/examples/geojson/) or [Google Maps](https://developers.google.com/maps/documentation/javascript/importing_data). This could mean simply showing a non-interactive point on a web map, but often more data from the resource is displayed in connection with the Point as a result of available functionality within the MapUI, such as a pop-up that appears showing metadata from the resource upon clicking the Point.
 
 A multitude of real world resources benefit from geographic data, many of which are already represented in IIIF digital collections. New and old maps, travel journals, newspapers, manuscripts, poems and diaries are just a subset of cultural heritage artifacts that have geographic mentions. These mentions bring human context to the material and offer a recognizable, comfortable setting for discovering connections between disparate resources.
 
@@ -16,7 +16,7 @@ A multitude of real world resources benefit from geographic data, many of which 
 ### Implementation Notes
 The third party [GeoJSON-LD](https://geojson.org/geojson-ld/) context is included in addition to the IIIF Presentation API 3.0 context. The GeoJSON-LD context supplies the vocabulary terms for the Annotation bodies since the IIIF Presentation API 3.0 context does not describe those terms. When the field `@context` is used as an array with multiple contexts, the IIIF Presentation API 3.0 context must be the last item in the array.
 
-The GeoJSON `properties` field is generic and [can be nearly anything](https://tools.ietf.org/html/rfc7946#section-3.2). This has implications on clients and parsers that must discern what data to use. For example, if the targeted resource has a `label` and the `properties` field has a `label`, the consuming interface must make a choice on which to prioritize for presentation purposes. In the image from the Use Case section, the "Label" uses the GeoJSON `properties` `label` (lines 80-83) instead of the `label` property from the Annotation or Canvas.
+The GeoJSON `properties` field is generic and [can be nearly anything](https://tools.ietf.org/html/rfc7946#section-3.2). It is used to pass metadata along with the geocoordinates. This has implications on clients and parsers that must discern what data to use. For example, if the targeted resource has a `label` and the `properties` field has a `label`, the consuming interface must make a choice on which to prioritize for presentation purposes. In the image from the Use Case section, the "Label" uses the GeoJSON `properties` `label` (lines 80-83) instead of the `label` property from the Annotation or Canvas.
 
 Note that [`geometry` can be more than just a `Point`.](https://tools.ietf.org/html/rfc7946#section-3.1)
 
@@ -31,9 +31,9 @@ The Manifest has one Canvas with one Image, and the Canvas has the same size dim
 {% include jsonviewer.html src="manifest.json" config='data-line="2-5, 67-95"' %}
 
 ## Related Recipes
-* [Represent Canvas Fragment as Multiple Geographic Points on a Map][TBD]
-* [Represent Manifest as a Geographic Point on a Map][TBD]
-* [Represent Manifest as a Geographic Polygon on a Map][TBD]
+* [Represent Canvas Fragment as Multiple Geographic Points on a Web Map][TBD]
+* [Represent Manifest as a Geographic Point on a Web Map][TBD]
+* [Represent Manifest as a Geographic Polygon on a Web Map][TBD]
 * [Fragment Selectors][0020]
 * [Tagging Annotation][0021]
 
