@@ -9,7 +9,7 @@ summary: "Representing the tight relationship between a video file and its capti
 
 ## Use Case
 
-Captions and/or subtitles may be available for your video content and you may want to enable them for your IIIF video resources. 
+Captions and subtitles may be available for your video content and you may want to enable them for your IIIF video resources. 
 
 ## Implementation notes
 
