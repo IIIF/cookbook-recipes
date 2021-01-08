@@ -3,7 +3,7 @@ title: Using a Caption File with Video Content
 id: 219
 layout: recipe
 tags: [video, caption, subtitle, presentation]
-summary: "tbc"
+summary: "Representing the tight relationship between a video file and its caption file."
 ---
 
 
@@ -15,13 +15,9 @@ Captions and/or subtitles may be available for your video content and you may wa
 
 Caption and subtitle file formats are used to mark up the external text track resources in connection with the HTML <track> element of a video file. The markup file formats use time tags that allow for time alignment of the video content and the captions or subtitles. 
 
-Offering the caption file as an Item in the same Annotation `body` that contains the media file itself enables us to express the tight relationship between the two. The file type clarifies the relationship.
+Offering the caption file as an Item in the same Annotation `body` that contains the media file itself enables us to express the tight relationship between the two. The Item `type` clarifies the relationship.
 
 The linking property of type `seeAlso` is not appropriate because captions and subtitles do not contain metadata about the resource. Neither are they an alternative representation of the resource, so the linking property of type `rendering` is also not appropriate.
-
-## Restrictions
-
-No restrictions.
 
 ## Example
 
