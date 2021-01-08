@@ -20,6 +20,8 @@
 
 [0068]: {{site.baseurl}}/recipe/0068-newspaper/ "A newspaper"
 
+[0118]: {{site.baseurl}}/recipe/0118_multivalue/ "Displaying Single and Multiple Values with Language Maps"
+
 [prezi3]: https://iiif.io/api/presentation/3 "IIIF Presentation API"
 [prezi3-languages]: https://iiif.io/api/presentation/3.0/#language-of-property-values "Language of Property Values"
 [prezi3-service]: https://iiif.io/api/presentation/3.0/#service "IIIF Presentation API service property"
@@ -28,4 +30,3 @@
 [prezi3-openannotation]: https://iiif.io/api/annex/openannotation "IIIF Open/Web Annotation Extensions"
 [prezi3-pointselector]: https://iiif.io/api/annex/openannotation/#point-selector "PointSelector"
 [service-registry]: https://iiif.io/api/registry/services/ "the IIIF Registry of Services"
-
