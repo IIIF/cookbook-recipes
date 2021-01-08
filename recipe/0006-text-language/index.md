@@ -22,7 +22,7 @@ Language keys should be associated with the Manifest `label` and `summary` prope
 2. It should be noted that BCP 47 allows hyphen breaks for locale and scripts (e.g. en-US); however, if you are processing these manifests with Javascript it will break the . notation features for navigating JSON objects so brackets for accessing language properties are recommended.
 
 ## Example
-In this example, the content is an image of the painting commonly known as *Whistler's Mother* by James Abbott McNeill Whistler. The Manifest `label` property has both the English and French titles, plus a third title with no assigned language (lines 6-14).
+In this example, the content is an image of the painting commonly known as *Whistler's Mother* by James Abbott McNeill Whistler. The Manifest `label` property has both the English and French titles (lines 6-11).
 
 In the `metadata` and `requiredStatement` properties, the 'label' for both "Creator" and "Held by" fields (lines 19-24, 40-45) is supplied in English and French. The values in each of these 'label' properties (lines 27-29, 48-50) have no specified language, so use the string "none".
 
@@ -30,7 +30,7 @@ Finally, the `summary` property (lines 34-36) has a value in English only.
 
 To see the language choice in the linked viewers, open the settings menu (gear icon) and choose either English or French.
 
-The image in this example was sourced via Wikimedia Commons and is public domain
+The image in this example was sourced via Wikimedia Commons and is public domain.
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
