@@ -31,7 +31,7 @@
               "motivation": "painting",
               "target": "{{ id.path }}/canvas/1#t=0,3971.24",
               "body": {
-                "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/vae0637_accessH264_low.mp4",
+                "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/vae0637_accessH264_low_act_1.mp4",
                 "type": "Video",
                 "format": "video/mp4",
                 "height": 1080,
