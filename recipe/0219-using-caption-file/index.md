@@ -28,7 +28,7 @@ No restrictions.
 In this example we use a caption file in the WebVTT (Web Video Text Tracks) format, but one could just as well use a subtitle file in the SRT format, or other text-based format used for the same purpose.
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
-{% include jsonviewer.html src="manifest.json" config='data-line'="31-36"%}
+{% include jsonviewer.html src="manifest.json" config='data-line="31-36"'%}
 
 # Related recipes
 
