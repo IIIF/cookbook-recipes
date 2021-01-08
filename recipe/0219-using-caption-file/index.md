@@ -1,5 +1,5 @@
 ---
-title: Using a Caption File with Video Content
+title: Using Captions and Subtitles with Video Content
 id: 219
 layout: recipe
 tags: [video, caption, subtitle, presentation]
@@ -23,7 +23,7 @@ The linking property of type `seeAlso` is not appropriate because captions and s
 
 In this example we use a caption file in the WebVTT (Web Video Text Tracks) format, but one could just as well use a subtitle file in the SRT format, or other text-based format used for the same purpose.
 
-{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
 {% include jsonviewer.html src="manifest.json" config='data-line="35-40"'%}
 
 # Related recipes

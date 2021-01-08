@@ -32,6 +32,7 @@
                         "id": "https://fixtures.iiif.io/video/indiana/lunchroom_manners/lunchroom_manners.vtt",
                         "type": "Text",
                         "format": "text/vtt",
+                        "label": {["en": [ "Captions in WebVTT format" ]]},
                         "language": "en"
                     }
                 ],
