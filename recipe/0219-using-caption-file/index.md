@@ -3,7 +3,7 @@ title: Using Captions and Subtitles with Video Content
 id: 219
 layout: recipe
 tags: [video, caption, subtitle, presentation]
-summary: "Representing the tight relationship between a video file and its caption file."
+summary: "Representing the tight relationship between a video file and its caption or subtitle file."
 ---
 
 
@@ -13,11 +13,15 @@ Captions and/or subtitles may be available for your video content and you may wa
 
 ## Implementation notes
 
-Caption and subtitle file formats are used to mark up the external text track resources in connection with the HTML <track> element of a video file. The markup file formats use time tags that allow for time alignment of the video content and the captions or subtitles. 
+Caption, subtitle, and transcription files are text-based files commonly associated with A/V content, each defined for a specific intended use. Caption and subtitle file formats are used to mark up the external text track resources in connection with the HTML <track> element of a video file. The markup file formats use time tags that allow for time alignment of the video content with the captions or subtitles. 
 
-Offering the caption file as an Item in the same Annotation `body` that contains the media file itself enables us to express the tight relationship between the two. The Item `type` clarifies the relationship.
+Offering the caption file as an Item in the same Annotation `body` that contains the media file itself enables us to express the tight relationship between the two. The `type` property of the Item clarifies the relationship.
 
-The linking property of type `seeAlso` is not appropriate because captions and subtitles do not contain metadata about the resource. Neither are they an alternative representation of the resource, so the linking property of type `rendering` is also not appropriate.
+A transcription file, on the other hand, is a text-based representation of an audio or video file. As an alternative representation of the main resource, a transcription should be added to a resource via a linking property of type `rendering` instead of using the pattern described here. See related recipe below.
+
+## Restrictions
+
+Formats other than WebVTT are supported in IIIF, but may not be as widely supported in viewers.
 
 ## Example
 
@@ -29,8 +33,9 @@ In this example we use a caption file in the WebVTT (Web Video Text Tracks) form
 # Related recipes
 
 - [Simplest Manifest - Video][0003]
-- [Transformation - WebVTT or OHMS XML to Annotations][0079] - Recipe using Annotations to express the captions of a video.
+- [Transcription of Audio and Video][0017]
+- [Providing Alternative Representations][0046]
+- [Transformation - WebVTT or OHMS XML to Annotations][0079]
 
 {% include acronyms.md %}
 {% include links.md %}
-
