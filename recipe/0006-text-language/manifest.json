@@ -13,11 +13,12 @@
   "metadata": [
     {
       "label": {
-        "en": ["Creator"],
-        "fr": ["Auteur"]
+        "en": ["Subject"],
+        "fr": ["Sujet"]
       },
       "value": {
-        "none": ["Whistler, James Abbott McNeill"]
+        "en": ["McNeill Anna Matilda, mother of Whistler (1804-1881)"],
+        "fr": ["McNeill Anna Matilda, mère de Whistler (1804-1881)"]
       }
     }
   ],
