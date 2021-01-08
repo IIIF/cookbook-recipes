@@ -30,12 +30,13 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Image and Canvas with Differing Dimensions][0004] (26)
 * [Support Deep Viewing with Basic Use of a IIIF Image Service][0005] (24,25)
 * Multiple values and languages (3,4,6)
+* [Displaying Single and Multiple Values with Language Maps][0118]
 * [Embedding HTML in descriptive properties][0007] (64)
 * [Rights statement\(s\)][0008] (7)
 * thumbnail algorithm / discussion
 * [Simple Manifest - Book][0009] (19)
 * [Viewing direction and its effect on navigation][0010] (11,12,13,14)
-* Book (paging variations) (15,16,17) 
+* Book (paging variations) (15,16,17)
 * [Load a Preview Image Before the Main Content][0013]
 * [Audio Presentation with Accompanying Image][0014]
 * [Load Manifest Beginning with a Specific Canvas][0202]
@@ -75,7 +76,7 @@ _(leading on to segmentation examples later)_
 
 * Choice (simplest) (28)
 * Choice - multispectral flavored example, with image services (29)
-* foldouts, etc (Choice or non-paged interlude (flaps vs maps))? 
+* foldouts, etc (Choice or non-paged interlude (flaps vs maps))?
 * [Multiple images (master/detail)][detail-image] (30,31)
 * Multiple images and multiple choices (32,33,34)
 * [Annotating part of an image to a Canvas][recipe-segment-image-part] (e.g., crop out scanner) (35,36,37,38)
