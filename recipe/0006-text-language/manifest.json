@@ -13,6 +13,15 @@
   "metadata": [
     {
       "label": {
+        "en": ["Creator"],
+        "fr": ["Auteur"]
+      },
+      "value": {
+        "none": ["Whistler, James Abbott McNeill"]
+      }
+    },
+    {
+      "label": {
         "en": ["Subject"],
         "fr": ["Sujet"]
       },
