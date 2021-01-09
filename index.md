@@ -5,10 +5,10 @@ tags: [tbc]
 summary: "tbc"
 ---
 
-The [IIIF Presentation API][prezi3] specifies a standardised way to describe complex digital objects. The resource types and properties of the specification are the building blocks of interoperable representations, for rendering by viewers and other software clients. This cookbook gathers together many examples of these representations (usually IIIF Manifests), in order to:
+The [IIIF Presentation API][prezi3] specifies a standardized way to describe complex digital objects. The resource types and properties of the specification are the building blocks of interoperable representations, for rendering by viewers and other software clients. This cookbook gathers together many examples of these representations (usually IIIF Manifests), in order to:
 
 * provide many more examples than the specification alone can do, for reference and learning;
-* encourage publishers to adopt common patterns in modelling classes of complex objects;
+* encourage publishers to adopt common patterns in modeling classes of complex objects;
 * enable client software developers to support these patterns, for consistency of user experience (when desirable);
 * demonstrate the applicability of IIIF to a broad range of use cases.
 
@@ -27,19 +27,20 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Simplest Manifest - Image][0001] (1) (use static image as content resource, w.h)
 * [Simplest Manifest - Audio][0002] (1) (use single audio as content resource, d)
 * [Simplest Manifest - Video][0003] (1) (use single video as content resource, w,h,d)
-* Image different size to canvas (26)
-* Image Service for single image (24,25)
+* [Image and Canvas with Differing Dimensions][0004] (26)
+* [Support Deep Viewing with Basic Use of a IIIF Image Service][0005] (24,25)
 * Multiple values and languages (3,4,6)
 * [Embedding HTML in descriptive properties][0007] (64)
 * [Rights statement\(s\)][0008] (7)
+* [Simple Manifest - Book][0009] (19)
+* [Book behavior (paging) variations][0011] (15,16,17) 
+* [Viewing direction and its effect on navigation][0010] (11,12,13,14)
+* [Manifest Thumbnail][0117]
 * thumbnail algorithm / discussion
-* Book (simplest, > 1 canvas) (19)
-* Book (viewingDirection variations) (11,12,13,14)
-* Book (paging variations) (15,16,17)
-* [Book with Table of Contents (ranges)][0024]
-* placeholderCanvas
-* accompanyingCanvas
-* start (65)
+* [Load a Preview Image Before the Main Content][0013]
+* [Audio Presentation with Accompanying Image][0014]
+* [Load Manifest Beginning with a Specific Canvas][0202]
+* [Begin playback at a specific point - Time-based media][0015] (65)
 
 ## Textual and other supplementary content
 
@@ -60,7 +61,7 @@ _(leading on to segmentation examples later)_
 
 * table of contents (ranges) - book chapters
 * table of contents (ranges) - articles in a newspaper
-* table of contents (ranges) - acts of an opera
+* [Table of contents for A/V content][0026] (26)
 * Alternative Sequence (via `sequence` Range) (20,22,23)
 * `sequence` Range with partial canvases
 * metadata on any resource (21)
@@ -74,8 +75,8 @@ _(leading on to segmentation examples later)_
 ## Segmentation and complex resources
 
 * Choice (simplest) (28)
-* Choice - multispectral flavoured example, with image services (29)
-* foldouts, etc (Choice or non-paged interlude (flaps vs maps))?
+* Choice - multispectral flavored example, with image services (29)
+* foldouts, etc (Choice or non-paged interlude (flaps vs maps))? 
 * [Multiple images (master/detail)][detail-image] (30,31)
 * Multiple images and multiple choices (32,33,34)
 * [Annotating part of an image to a Canvas][recipe-segment-image-part] (e.g., crop out scanner) (35,36,37,38)
@@ -113,8 +114,8 @@ _(leading on to segmentation examples later)_
 * A music album's audio resources
 * ...and its image resoures
 * ...combined to demonstrate _together_
-* An opera on one Canvas
-* An opera on multiple Canvases
+* [Table of Contents for Multiple A/V files on a Single Canvas][0064] (64)
+* [Table of Contents for Multiple A/V files on Multiple Canvases][0065] (65)
 * Adaptive bit rate AV examples
 * A field recording
 * [A newspaper][0068]

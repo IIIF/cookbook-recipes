@@ -3,7 +3,7 @@
     "id": "{{ id.url }}",
     "type": "Manifest",
     "label": {
-      "en": [ "The 'Start' Property - Time-based media"
+      "en": [ "Video of a 30-minute digital clock"
         ]
     },
     "start": {
@@ -13,6 +13,19 @@
         "selector": {
             "type": "PointSelector",
             "t": 120.5
+        }
+    },
+    "rights": "http://creativecommons.org/licenses/by/3.0/",
+    "requiredStatement": {
+        "label": {
+            "en": [
+                "Attribution"
+            ]
+        },
+        "value": {
+            "en": [
+                "<span>The video was created by <a href='https://www.youtube.com/watch?v=Lsq0FiXjGHg'>DrLex1</a> and was released using a <a href='https://creativecommons.org/licenses/by/3.0/'>Creative Commons Attribution license</a></span>"
+            ]
         }
     },
     "items": [
