@@ -9,14 +9,6 @@
   },
   "summary": { "en": ["Playbill for \"Akiba gongen kaisen-banashi,\" \"Futatsu chōchō kuruwa nikki\" and \"Godairiki koi no fūjime\" performed at the Chikugo Theater in Osaka from the fifth month of Kaei 2 (May, 1849); main actors: Gadō Kataoka II, Ebizō Ichikawa VI, Kitō Sawamura II, Daigorō Mimasu IV and Karoku Nakamura I; on front cover: producer Mominosuke Ichikawa's crest."] },
   "viewingDirection": "right-to-left",
-	"rendering": [
-		{
-			"id": "https://fixtures.iiif.io/other/UCLA/kabuki_ezukushi_rtl.pdf",
-			"type": "Text",
-			"label": { "en": [ "PDF version" ] },
-			"format": "application/pdf"
-		}
-	],
 	"seeAlso": [
 		{
 			"id": "{{ id.path }}/ezukushi.xml",
