@@ -38,7 +38,7 @@ The example json document must be an external document, and imported with the fo
 
 {% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="1"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="16-28"' %}
 
 The direct link to the fixture is a useful convenience.
 
