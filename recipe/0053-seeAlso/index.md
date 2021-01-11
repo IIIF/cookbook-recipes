@@ -49,7 +49,7 @@ The direct link to the fixture is a useful convenience.
 * [Choice (simplest)][0033] for showing multiple representations of the same view
 * [Choice — multispectral flavored example, with image services][0034] for showing multiple representations of the same view with Image Services
 * [homepage][0047] for pointing to a web page about the object represented by the current resource
-* [Providing Alternative Representations][0046] for data representations of the same object
+* [Providing Alternative Representations][0046] for alternate representations of the same object
 * [A museum object][0059] for using `rendering` to provide a 3D model
 
 {% include acronyms.md %}
