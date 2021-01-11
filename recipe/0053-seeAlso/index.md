@@ -33,8 +33,9 @@ No known restrictions
 
 ## Example
 
-Describe the solution in prose and provide an example.
-The example json document must be an external document, and imported with the following:
+In this example, a Dublin Core Metadata Initiative XML file is provided for the program as a whole, and as such the `seeAlso` property attaches to the Manifest. If such data files were available for each view or page separately, each Canvas would be a logical place for the corresponding `seeAlso` instance.
+
+To see the property in action in Mirador, toggle the sidebar by activating the three-line ("hamburger") menu in the upper left-hand corner of the content window. You should then, in the "Related" area, see the link in the "Related" section under the "See also" subheading.
 
 {% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
 
