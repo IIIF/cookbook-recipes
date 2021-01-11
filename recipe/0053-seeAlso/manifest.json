@@ -11,7 +11,7 @@
   "viewingDirection": "right-to-left",
 	"seeAlso": [
 		{
-			"id": "{{ id.path }}/ezukushi.xml",
+			"id": "https://fixtures.iiif.io/other/UCLA/kabuki_ezukushi_rtl.xml",
 			"type": "Dataset",
 			"label": { "en": [ "Dublin Core metadata" ] },
 			"format": "text/xml",
