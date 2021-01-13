@@ -3,26 +3,24 @@
     "id": "https://example.org/iiif/text-language/manifest",
     "type": "Manifest",
     "label": {
-      "en": [
-        "Whistler's Mother",
-        "Arrangement in Grey and Black No. 1"
-      ],
       "fr": [
-        "Arrangement en gris et noir no 1",
-        "Portrait de la mère de l'artiste",
-        "La Mère de Whistler"
+        "Arrangement en gris et noir no 1"
       ]
     },
-    "metadata": [ 
+    "metadata": [
       {
         "label": {
           "en": [
-            "Creator"
+            "Alternative titles"
           ]
         },
         "value": {
-          "none": [
-            "Whistler, James Abbott McNeill"
+          "en": [
+            "Whistler's Mother"
+          ],
+          "fr": [
+            "Portrait de la mère de l'artiste",
+            "La Mère de Whistler"
           ]
         }
       }
@@ -32,19 +30,6 @@
         "A painting in oil on canvas created by the American-born painter James McNeill Whistler, in 1871."
       ]
     },
-    "requiredStatement": {
-      "label": {
-        "en": [
-          "Held By"
-        ]
-      },
-      "value": {
-        "none": [
-          "Musée d'Orsay, Paris, France"
-        ]
-      }
-    },
-
     "items": [
       {
         "id": "https://example.org/iiif/text-language/canvas1",
