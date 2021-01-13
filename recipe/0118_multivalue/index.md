@@ -22,11 +22,11 @@ None
 
 ## Example
 
-In this example, the work has multiple titles in both English and French. The manifest `label` provides a single title in French within a single-value array (lines...). The alternative titles are provided in the `metadata` property in both English and French, each with multiple variants contained within two separate arrays -- one array for English (lines ...) and one for  French (lines ). In the `summary` property (lines ...) the value is included as single-string array.
+In this example, the work has multiple titles in both English and French. The manifest `label` provides a single title in French within a single-value array (lines 6-8). The alternative titles are provided in the `metadata` property in both English and French, each with variants contained within two separate arrays -- one array for English (lines 18-21) and one for French (lines 22-25). In the `summary` property (lines 30-32) the value is included as single-string array.
 
 {% include manifest_links.html viewers="UV, Mirador, Tify, Curation" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="6-9, 10-14, 18-27, 31-33, 36-45"'%}
+{% include jsonviewer.html src="manifest.json" config='data-line="6-8, 18-21, 22-25, 30-32"'%}
 
 ## Related Recipes
 
