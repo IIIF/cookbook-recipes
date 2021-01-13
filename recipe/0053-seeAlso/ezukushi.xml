@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document repository="default" id="1c26b425-97c3-42ba-8479-6cf2a6c45861">
-  <schema xmlns:dss="http://www.nuxeo.org/dam/schemas/documentsSizeStats/" name="documents_size_statistics">
-    <dss:innerSize><![CDATA[22255]]></dss:innerSize>
-    <dss:sizeTrash><![CDATA[0]]></dss:sizeTrash>
-    <dss:maxSize><![CDATA[-1]]></dss:maxSize>
-    <dss:totalSize><![CDATA[1953645454]]></dss:totalSize>
-    <dss:sizeVersions><![CDATA[44510]]></dss:sizeVersions>
-  </schema>
   <schema xmlns:dc="http://www.nuxeo.org/ecm/schemas/dublincore/" name="dublincore">
     <dc:creator><![CDATA[ucla_upload]]></dc:creator>
     <dc:modified><![CDATA[2019-07-30T20:28:37.000Z]]></dc:modified>
@@ -20,114 +13,6 @@
       <item><![CDATA[kdhanselman@gmail.com]]></item>
       <item><![CDATA[sjlargaespada@gmail.com]]></item>
     </dc:contributors>
-  </schema>
-  <schema xmlns:picture="http://www.nuxeo.org/ecm/schemas/picture" name="picture">
-    <picture:views>
-      <item>
-        <filename><![CDATA[empty_picture.png]]></filename>
-        <width><![CDATA[480]]></width>
-        <description><![CDATA[Small Size]]></description>
-        <tag><![CDATA[small]]></tag>
-        <title><![CDATA[Small]]></title>
-        <content>
-          <encoding></encoding>
-          <mime-type>image/png</mime-type>
-          <filename>empty_picture.png</filename>
-          <data>346c19f9.blob</data>
-          <digest>be1a7403018b6b893228afcf28e481a4</digest>
-        </content>
-        <height><![CDATA[330]]></height>
-        <info>
-          <depth><![CDATA[0]]></depth>
-          <width><![CDATA[0]]></width>
-          <height><![CDATA[0]]></height>
-        </info>
-      </item>
-      <item>
-        <filename><![CDATA[empty_picture.png]]></filename>
-        <width><![CDATA[480]]></width>
-        <description><![CDATA[Medium Size]]></description>
-        <tag><![CDATA[medium]]></tag>
-        <title><![CDATA[Medium]]></title>
-        <content>
-          <encoding></encoding>
-          <mime-type>image/png</mime-type>
-          <filename>empty_picture.png</filename>
-          <data>142d7b6c.blob</data>
-          <digest>be1a7403018b6b893228afcf28e481a4</digest>
-        </content>
-        <height><![CDATA[330]]></height>
-        <info>
-          <depth><![CDATA[0]]></depth>
-          <width><![CDATA[0]]></width>
-          <height><![CDATA[0]]></height>
-        </info>
-      </item>
-      <item>
-        <filename><![CDATA[empty_picture.png]]></filename>
-        <width><![CDATA[480]]></width>
-        <description><![CDATA[Thumbnail Size]]></description>
-        <tag><![CDATA[thumb]]></tag>
-        <title><![CDATA[Thumbnail]]></title>
-        <content>
-          <encoding></encoding>
-          <mime-type>image/png</mime-type>
-          <filename>empty_picture.png</filename>
-          <data>b3494346.blob</data>
-          <digest>be1a7403018b6b893228afcf28e481a4</digest>
-        </content>
-        <height><![CDATA[330]]></height>
-        <info>
-          <depth><![CDATA[0]]></depth>
-          <width><![CDATA[0]]></width>
-          <height><![CDATA[0]]></height>
-        </info>
-      </item>
-      <item>
-        <filename><![CDATA[empty_picture.png]]></filename>
-        <width><![CDATA[480]]></width>
-        <description><![CDATA[Original Picture in JPEG format]]></description>
-        <tag><![CDATA[originalJpeg]]></tag>
-        <title><![CDATA[OriginalJpeg]]></title>
-        <content>
-          <encoding></encoding>
-          <mime-type>image/png</mime-type>
-          <filename>empty_picture.png</filename>
-          <data>ed338955.blob</data>
-          <digest>be1a7403018b6b893228afcf28e481a4</digest>
-        </content>
-        <height><![CDATA[330]]></height>
-        <info>
-          <depth><![CDATA[0]]></depth>
-          <width><![CDATA[0]]></width>
-          <height><![CDATA[0]]></height>
-        </info>
-      </item>
-    </picture:views>
-    <picture:info/>
-  </schema>
-  <schema xmlns:nxtag="http://www.nuxeo.org/ecm/schemas/facetedTag/" name="facetedTag">
-    <nxtag:tags/>
-  </schema>
-  <schema xmlns:uid="http://project.nuxeo.com/geide/schemas/uid/" name="uid">
-    <uid:major_version><![CDATA[0]]></uid:major_version>
-    <uid:minor_version><![CDATA[3]]></uid:minor_version>
-  </schema>
-  <schema xmlns:imd="http://www.nuxeo.org/ecm/schemas/image-metadata" name="image_metadata"></schema>
-  <schema xmlns:file="http://www.nuxeo.org/ecm/schemas/file/" name="file">
-    <file:content>
-      <encoding></encoding>
-      <mime-type>image/png</mime-type>
-      <filename>empty_picture.png</filename>
-      <data>91be8856.blob</data>
-      <digest>be1a7403018b6b893228afcf28e481a4</digest>
-    </file:content>
-  </schema>
-  <schema xmlns:common="http://www.nuxeo.org/ecm/schemas/common/" name="common">
-    <common:icon><![CDATA[/img/picture_icon_sm.gif]]></common:icon>
-  </schema>
-  <schema xmlns:files="http://www.nuxeo.org/ecm/schemas/files/" name="files">
-    <files:files/>
   </schema>
   <schema xmlns:ucldc_schema="http://www.nuxeo.org/ecm/project/schemas/tingle-california-digita/ucldc_schema" name="ucldc_schema">
     <ucldc_schema:alternativetitle>
@@ -217,11 +102,5 @@
     <ucldc_schema:localidentifier>
       <item><![CDATA[PN2924.5 K3 K33 no.1]]></item>
     </ucldc_schema:localidentifier>
-  </schema>
-  <schema xmlns:relatedtext="http://www.nuxeo.org/ecm/schemas/relatedtext/" name="relatedtext">
-    <relatedtext:relatedtextresources/>
-  </schema>
-  <schema xmlns:extra_files="http://www.nuxeo.org/ecm/project/schemas/tingle-california-digita/extra_files" name="extra_files">
-    <extra_files:file/>
   </schema>
 </document>
