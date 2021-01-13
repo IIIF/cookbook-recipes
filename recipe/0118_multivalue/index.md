@@ -1,5 +1,5 @@
 ---
-title: Displaying Single and Multiple Values with Language Maps
+title: Displaying Multiple Values with Language Maps
 id: 118
 layout: recipe
 tags: [tbc]
@@ -8,11 +8,13 @@ summary: "The language map pattern requires that all values are supplied as an a
 
 ## Use Case
 
-The language map pattern requires that all values are supplied as an array, whether a single value string or a string of multiple values. For example, a work that is known by more than one title should include each title variation (within the same language) as a separate string within a single array; if the work has only a single title, the title would be included as a single-value array.
+In some cases, a work is known by more than one title (or has multiple authors, subject heading, etc.) that we would like to display to end users. In this case, our work has variant titles that we will include in the `metadata` property using the required arrays. This pattern can be applied to any property values that are intended to be displayed to end users.
 
 ## Implementation Notes
 
-Language maps are required of all strings that are intended to be displayed to the user (`label` and `summary` properties, as well as `label` and `value` properties of the `metadata` and `requiredStatement` objects), and all "associated values must be arrays of strings, where each item is the content in the given language." For more information, see the Presentation API
+Language maps are required of all strings that are intended to be displayed to the user (this includes the `label` and `summary` properties, as well as `label` and `value` properties within the `metadata` and `requiredStatement` properties). Furthermore, the language map pattern requires that all values are supplied as an array, whether a single value string or a string of multiple values. -- any strings values should include each title variation (within the same language) as a separate string within a single array; if the work has only a single title, the title would be included as a single-value array.
+
+all "associated values must be arrays of strings, where each item is the content in the given language." For more information, see the Presentation API
 [Language of Property Values](https://iiif.io/api/presentation/3.0/#44-language-of-property-values) section.
 
 ## Example
