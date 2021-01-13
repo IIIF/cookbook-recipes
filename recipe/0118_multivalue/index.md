@@ -12,9 +12,9 @@ In some cases, a work is known by more than one title (or has multiple authors, 
 
 ## Implementation Notes
 
-Language maps are required of all strings that are intended to be displayed to the user (this includes the `label` and `summary` properties, as well as `label` and `value` properties within the `metadata` and `requiredStatement` properties). Furthermore, the language map pattern requires that all values are supplied as an array, whether a single value string or a string of multiple values. For example, if the work in question has multiple values for a property, all values would be included as separate strings within a single array; if the property has only a single value, the value would be included as a single-value array.
+Language maps are required of all strings that are intended to be displayed to the user (this includes the `label` and `summary` properties, as well as `label` and `value` properties within the `metadata` and `requiredStatement` properties). Furthermore, the language map pattern requires that all values are supplied as an array, whether a single value or multiple value strings. For example, if the work in question has multiple values for a property, all values would be included as separate strings within a single array; if the property has only a single value, the value would be included as a single-value array.
 
-In the case of multiple languages, all associated values must be arrays of strings, with a separate array for each language. For more information, see the Presentation API [Language of Property Values](https://iiif.io/api/presentation/3.0/#44-language-of-property-values) section.
+In the case of multiple languages, all associated values must be arrays of strings with separate arrays for each language. For more information, see the Presentation API [Language of Property Values](https://iiif.io/api/presentation/3.0/#44-language-of-property-values) section.
 
 ## Restrictions
 
