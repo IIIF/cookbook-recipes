@@ -23,7 +23,7 @@
 [0068]: {{site.baseurl}}/recipe/0068-newspaper/ "A newspaper"
 [0117]: {{site.baseurl}}/recipe/0117-add-image-thumbnail/ "Manifest Thumbnail"
 
-[0118]: {{site.baseurl}}/recipe/0118_multivalue/ "Displaying Single and Multiple Values with Language Maps"
+[0118]: {{site.baseurl}}/recipe/0118_multivalue/ "Displaying Multiple Values with Language Maps"
 
 [prezi3]: https://iiif.io/api/presentation/3 "IIIF Presentation API"
 [prezi3-languages]: https://iiif.io/api/presentation/3.0/#language-of-property-values "Language of Property Values"
