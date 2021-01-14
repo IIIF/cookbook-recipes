@@ -9,7 +9,7 @@ summary: "tbc"
 
 ## Use Case
 
-Why is this pattern is important?
+I have interesting information to show at all levels of the IIIF model - how do I do that?
 
 ## Implementation notes
 
@@ -21,18 +21,11 @@ When is this pattern is usable / not usable? Is it deprecated? If it uses multip
 
 ## Example
 
-Describe in prose and provide examples, e.g.: 
+Describe in prose and provide examples, e.g.:
 
-``` json-doc
-{
-  "@context": [
-    "http://www.w3.org/ns/anno.jsonld",
-    "http://iiif.io/api/presentation/{{ page.major }}/context.json"
-  ],
-  "id": "https://example.org/iiif/book1/manifest",
-  "type": "Manifest" 
-}
-```
+{% include manifest_links.html viewers="UV" manifest="manifest.json" %}
+
+{% include jsonviewer.html src="manifest.json" config='data-line="10-18"' %}
 
 # Related recipes
 
@@ -41,4 +34,3 @@ Provide a bulleted list of related recipes and why they are relevant.
 
 {% include acronyms.md %}
 {% include links.md %}
-
