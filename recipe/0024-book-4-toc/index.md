@@ -8,7 +8,7 @@ summary: "Using Ranges to create a table of contents for a book"
 
 ## Use Case
 
-Many books have a logical structure, such as chapters and other sections or multiple works contained within an anthology or bound manuscript, that can be made navigable through a table of contents (ToC) or other wayfinding methods. IIIF uses Ranges to represent a book's structure and IIIF viewers can display this ToC in an index panel to aid users in navigating the book by chapter, section, work, etc.
+Many books have a logical structure, such as chapters and other sections or multiple works contained within an anthology or bound manuscript, that can be made navigable through a table of contents (ToC) or other wayfinding methods. IIIF uses Ranges to represent a book's structure and IIIF viewers can display this structure as a ToC in an index panel to aid users in navigating the book by chapter, section, work, etc.
 
 ## Implementation Notes
 
