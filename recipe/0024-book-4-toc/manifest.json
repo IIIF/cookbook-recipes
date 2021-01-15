@@ -3,15 +3,15 @@
   "id": "{{ id.url }}",
   "type": "Manifest",
   "label": {
-    "en": [ "..." ]
+    "en": [ "Ethiopic Ms 10" ]
   },
   "items": [
     {
       "id": "{{ id.path }}/canvas/p1",
       "type": "Canvas",
       "label": { "en": [ "f. 1r" ] },
-      "height": ...,
-      "width": ...,
+      "height": 2504,
+      "width": 1768,
       "items": [
         {
           "id": "{{ id.path }}/page/p1/1",
@@ -22,14 +22,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "...",
+                "id": "https://iiif.io/api/image/3.0/example/reference/d3bbf5397c6df6b894c5991195c912ab-1-21198-zz001d8m41_774608_master/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": ...,
-                "width": ...,
+                "height": 2504,
+                "width": 1768,
                 "service": [
                   {
-                    "id": "...",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/d3bbf5397c6df6b894c5991195c912ab-1-21198-zz001d8m41_774608_master",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -45,8 +45,8 @@
       "id": "{{ id.path }}/canvas/p2",
       "type": "Canvas",
       "label": { "en": [ "f. 1v" ] },
-      "width": ...,
-      "height": ...,
+      "height": 2512,
+      "width": 1792,
       "items": [
         {
           "id": "{{ id.path }}/page/p2/1",
@@ -57,14 +57,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "...",
+                "id": "https://iiif.io/api/image/3.0/example/reference/d3bbf5397c6df6b894c5991195c912ab-2-21198-zz001d8m5j_774612_master/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": ...,
-                "height": ...,
+                "height": 2512,
+                "width": 1792,
                 "service": [
                   {
-                    "id": "...",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/d3bbf5397c6df6b894c5991195c912ab-2-21198-zz001d8m5j_774612_master",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -80,8 +80,8 @@
       "id": "{{ id.path }}/canvas/p3",
       "type": "Canvas",
       "label": { "en": [ "f. 2r" ] },
-      "width": ...,
-      "height": ...,
+      "height": 2456,
+      "width": 1792,
       "items": [
         {
           "id": "{{ id.path }}/page/p3/1",
@@ -92,14 +92,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "...",
+                "id": "https://iiif.io/api/image/3.0/example/reference/d3bbf5397c6df6b894c5991195c912ab-3-21198-zz001d8tm5_775004_master/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": ...,
-                "height": ...,
+                "height": 2456,
+                "width": 1792,
                 "service": [
                   {
-                    "id": "...",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/d3bbf5397c6df6b894c5991195c912ab-3-21198-zz001d8tm5_775004_master",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -115,8 +115,8 @@
       "id": "{{ id.path }}/canvas/p4",
       "type": "Canvas",
       "label": { "en": [ "f. 2v" ] },
-      "width": ...,
-      "height": ...,
+      "height": 2440,
+      "width": 1760,
       "items": [
         {
           "id": "{{ id.path }}/page/p4/1",
@@ -127,14 +127,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "...",
+                "id": "https://iiif.io/api/image/3.0/example/reference/d3bbf5397c6df6b894c5991195c912ab-4-21198-zz001d8tnp_775007_master/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": ...,
-                "height": ...,
+                "height": 2440,
+                "width": 1760,
                 "service": [
                   {
-                    "id": "...",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/d3bbf5397c6df6b894c5991195c912ab-4-21198-zz001d8tnp_775007_master",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -150,8 +150,8 @@
       "id": "{{ id.path }}/canvas/p5",
       "type": "Canvas",
       "label": { "en": [ "f. 3r" ] },
-      "width": ...,
-      "height": ...,
+      "height": 2416,
+      "width": 1776,
       "items": [
         {
           "id": "{{ id.path }}/page/p5/1",
@@ -162,14 +162,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "...",
+                "id": "https://iiif.io/api/image/3.0/example/reference/d3bbf5397c6df6b894c5991195c912ab-5-21198-zz001d8v6f_775077_master/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": ...,
-                "height": ...,
+                "height": 2416,
+                "width": 1776,
                 "service": [
                   {
-                    "id": "...",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/d3bbf5397c6df6b894c5991195c912ab-5-21198-zz001d8v6f_775077_master",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -185,8 +185,8 @@
       "id": "{{ id.path }}/canvas/p6",
       "type": "Canvas",
       "label": { "en": [ "f. 3v" ] },
-      "width": ...,
-      "height": ...,
+      "height": 2416,
+      "width": 1776,
       "items": [
         {
           "id": "{{ id.path }}/page/p6/1",
@@ -197,14 +197,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "...",
+                "id": "https://iiif.io/api/image/3.0/example/reference/d3bbf5397c6df6b894c5991195c912ab-6-21198-zz001d8v7z_775085_master/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": ...,
-                "height": ...,
+                "height": 2416,
+                "width": 1776,
                 "service": [
                   {
-                    "id": "...",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/d3bbf5397c6df6b894c5991195c912ab-6-21198-zz001d8v7z_775085_master",
                     "type": "ImageService3",
                     "profile": "level1"
                   }

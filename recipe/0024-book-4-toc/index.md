@@ -22,11 +22,11 @@ None
 
 ## Example
 
-In this example, an Ethiopic manuscript contains multiple works and one of the works contains multiple sections. The manifest contains a Range to represent a table of contents listing each of the works, and another embedded range to represent the content sections of the second work, *Arede'et*.
+In this example, an Ethiopic manuscript contains multiple works, one of which contains multiple sections. The manifest contains a Range to represent the top-level structure (begins with lines 247-254), and another embedded Range to represent the content sections of the second work, *Arede'et* (begins with lines 275-282).
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="10-18"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="246-326, 247-254, 275-282"' %}
 
 ## Related Recipes
 
