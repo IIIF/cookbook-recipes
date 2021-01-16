@@ -7,7 +7,7 @@
 
   "items": [
     {
-      "id": "{{ id.path }}/manifest1",
+      "id": "https://iiif.library.ucla.edu/ark%3A%2F21198%2Fz1xs79gv/manifest?_ga=2.245142272.487715832.1610391136-698766943.1609441917",
       "type": "Manifest",
       "label": { "jp": [ "巻 1 [Vol. 1]" ] }
     },
