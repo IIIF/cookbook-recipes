@@ -1,0 +1,49 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "{{ id.url }}",
+  "type": "Collection",
+  "label": {
+    "en": [
+      "..."
+    ],
+  "behavior": ["multi-part"],
+
+  "items": [
+    {
+      "id": "{{ id.url }}/manifest1",
+      "type": "Manifest",
+      "label": { "en": [ "Vol. 1" ] },
+      "thumbnail": [
+        {
+          "id": "https://example.org/manifest1/thumbnail.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "{{ id.url }}/manifest2",
+      "type": "Manifest",
+      "label": { "en": [ "Vol. 2" ] },
+      "thumbnail": [
+        {
+          "id": "https://example.org/manifest1/thumbnail.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "{{ id.url }}/manifest3",
+      "type": "Manifest",
+      "label": { "en": [ "Vol. 3" ] },
+      "thumbnail": [
+        {
+          "id": "https://example.org/manifest1/thumbnail.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ]
+    }
+  ]
+}
