@@ -24,7 +24,7 @@ Describe in prose and provide examples, e.g.:
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="6-11"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="4, 10-12"' %}
 
 # Related recipes
 
