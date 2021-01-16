@@ -33,7 +33,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Embedding HTML in descriptive properties][0007] (64)
 * [Rights statement\(s\)][0008] (7)
 * [Simple Manifest - Book][0009] (19)
-* [Book behavior (paging) variations][0011] (15,16,17) 
+* [Book behavior (paging) variations][0011] (15,16,17)
 * [Viewing direction and its effect on navigation][0010] (11,12,13,14)
 * [Manifest Thumbnail][0117]
 * thumbnail algorithm / discussion
@@ -68,7 +68,7 @@ _(leading on to segmentation examples later)_
 
 ## Higher-level structure
 
-* multi-volume work
+* [Multi-volume Work][0030]
 * bound multi-volume work
 * paged Collections (from #1343)
 
