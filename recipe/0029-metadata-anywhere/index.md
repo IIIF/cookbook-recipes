@@ -3,12 +3,12 @@ title: Metadata on any resource
 id: 29
 layout: recipe
 tags: [tbc]
-summary: "tbc"
+summary: "Provide item metadata for displaying to users"
 ---
 
 ## Use Case
 
-Sometimes it is useful to provide descriptive metadata about an object, such as creators, dates, subject headings, and physical or contextual descriptions, that will be displayed to the end user by a client. This metadata might describe the overall object, but can also be applied at more granular levels to provide information on parts of the object, such as a single image or page, a region of a page, or an associated annotation.
+Sometimes it is useful to provide descriptive metadata about an object, such as information on creators, dates, subject headings, and physical or contextual descriptions, that will be displayed to the end user by a client. This metadata might describe the overall object, but may also be applied at more granular levels to provide information on parts of the object, such as a single image or page, a region of a page, or an associated annotation.
 
 ## Implementation notes
 
@@ -20,7 +20,7 @@ All descriptive properties intended for presentation to the user must use langua
 
 ## Example
 
-In this example, we have two Canvases, each with a different photograph of the same painting, one using natural light and the other an x-ray image. Metadata is provided at the Manifest level to convey information about the resource and additional metadata is provided on each Canvas to provide image-specific details.
+In this example, we have two Canvases, each with a different photograph of the same painting: one using natural light and the other an x-ray image. Metadata is provided at the Manifest level to convey information about the resource and additional metadata is provided on each Canvas to provide image-specific details.
 
 Credit: John Dee performing an experiment before Queen Elizabeth I. Oil painting by Henry Gillard Glindoni. Credit: Wellcome Collection. Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
@@ -30,10 +30,8 @@ Credit: John Dee performing an experiment before Queen Elizabeth I. Oil painting
 
 # Related recipes
 
-Provide a bulleted list of related recipes and why they are relevant.
-
 * [Internationalization and Multi-language Values][0006]
-* []
+* [Displaying Multiple Values with Language Maps][0118]
 
 {% include acronyms.md %}
 {% include links.md %}
