@@ -2,48 +2,19 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "{{ id.url }}",
   "type": "Collection",
-  "label": {
-    "en": [
-      "..."
-    ],
+  "label": { "jp": [ " 青楼絵本年中行事 [Seirō ehon nenjū gyōji]" ] },
   "behavior": ["multi-part"],
 
   "items": [
     {
-      "id": "{{ id.url }}/manifest1",
+      "id": "{{ id.path }}/manifest1",
       "type": "Manifest",
-      "label": { "en": [ "Vol. 1" ] },
-      "thumbnail": [
-        {
-          "id": "https://example.org/manifest1/thumbnail.jpg",
-          "type": "Image",
-          "format": "image/jpeg"
-        }
-      ]
+      "label": { "jp": [ "巻 1 [Vol. 1]" ] }
     },
     {
-      "id": "{{ id.url }}/manifest2",
+      "id": "{{ id.path }}/manifest2",
       "type": "Manifest",
-      "label": { "en": [ "Vol. 2" ] },
-      "thumbnail": [
-        {
-          "id": "https://example.org/manifest1/thumbnail.jpg",
-          "type": "Image",
-          "format": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "{{ id.url }}/manifest3",
-      "type": "Manifest",
-      "label": { "en": [ "Vol. 3" ] },
-      "thumbnail": [
-        {
-          "id": "https://example.org/manifest1/thumbnail.jpg",
-          "type": "Image",
-          "format": "image/jpeg"
-        }
-      ]
+      "label": { "jp": [ "巻 2 [Vol. 2]" ] }
     }
   ]
 }
