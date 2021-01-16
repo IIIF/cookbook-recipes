@@ -8,21 +8,19 @@ summary: "tbc"
 
 ## Use Case
 
-I have interesting information to show at all levels of the IIIF model - how do I do that?
+Sometimes it is useful to provide descriptive metadata about an object, such as creators, dates, subject headings, and physical or contextual descriptions, that will be displayed to the end user by a client. This metadata might describe the overall object, but can also be applied at more granular levels to provide information on parts of the object, such as a single image or page, a region of a page, or an associated annotation.
 
 ## Implementation notes
 
-An ordered list of descriptions to be displayed to the user when they interact with the resource, given as pairs of human readable label and value entries. The content of these entries is intended for presentation only; descriptive semantics should not be inferred. An entry might be used to convey information about the creation of the object, a physical description, ownership information, or other purposes.
-
-The value of the metadata property must be an array of JSON objects, where each item in the array has both label and value properties. The values of both label and value must be JSON objects, as described in the languages section.
+The `metadata` property is used to provide an ordered list of descriptive metadata as an array, with each entry given as a pair of human readable `label` and `value` arrays. The values of both the `label` and `value` properties must be JSON objects. These values will be displayed to the user as label/value pairs in the client. The content of these entries is intended for presentation only; descriptive semantics should not be inferred. For more information, see the IIIF Presentation API [Metadata](https://iiif.io/api/presentation/3.0/#metadata) section.
 
 ## Restrictions
 
-Language maps and arrays required... see...
+All descriptive properties intended for presentation to the user must use language maps and arrays as outlined in the [Language of Property Values](https://iiif.io/api/presentation/3.0/#language-of-property-values) section and demonstrated in the [Internationalization and Multi-language Values][0006] recipe.
 
 ## Example
 
-Describe in prose and provide examples, e.g.:
+In this example, we have two Canvases, each with a different photograph of the same painting, one using natural light and the other an x-ray image. Metadata is provided at the Manifest level to convey information about the resource and additional metadata is provided on each Canvas to provide image-specific details.
 
 Credit: John Dee performing an experiment before Queen Elizabeth I. Oil painting by Henry Gillard Glindoni. Credit: Wellcome Collection. Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
@@ -34,6 +32,8 @@ Credit: John Dee performing an experiment before Queen Elizabeth I. Oil painting
 
 Provide a bulleted list of related recipes and why they are relevant.
 
+* [Internationalization and Multi-language Values][0006]
+* []
 
 {% include acronyms.md %}
 {% include links.md %}
