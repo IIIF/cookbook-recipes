@@ -26,7 +26,7 @@ Credit: John Dee performing an experiment before Queen Elizabeth I. Oil painting
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="10-59, 84-97, 137-150"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="10-59, 83-96, 136-149"' %}
 
 # Related recipes
 
