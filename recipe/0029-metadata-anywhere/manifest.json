@@ -30,7 +30,6 @@
     "value": { "en": [ "Wellcome Collection. Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)" ] }
   },
 
-
   "items": [
     {
       "id": "{{ id.path }}/canvas/p1",
@@ -79,6 +78,12 @@
       "label":  { "en": [ "X-ray view of painting" ] },
       "height": 1271,
       "width": 2000,
+      "metadata": [
+        {
+          "label": { "en": [ "Description" ] },
+          "value": { "en": [ "The painting originally showed Dee standing in a circle of skulls on the floor, stretching from the floor area in front of the Queen (on the left) to the floor near Edward Kelly (on the right). The skulls were at an early stage painted over, but have since become visible. Another pentimento is visible in the tapestry on the right: shelves containing monstrous animals are visible behind it. The pentimenti were clarified when the painting was X-rayed in 2015." ] }
+        }
+      ],
       "items": [
         {
           "id": "{{ id.path }}/page/p2/1",
