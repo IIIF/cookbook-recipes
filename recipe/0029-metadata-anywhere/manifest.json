@@ -25,6 +25,10 @@
       "value": { "en": [ "Wellcome Library no. 47369i" ] }
     }
   ],
+  "requiredStatement": {
+    "label": { "en": [ "Attribution" ] },
+    "value": { "en": [ "Wellcome Collection. https://wellcomecollection.org/works/nydjbrr7" ] }
+  },
 
   "items": [
     {
