@@ -29,7 +29,7 @@
     "label": { "en": [ "Attribution" ] },
     "value": { "en": [ "Wellcome Collection. Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)" ] }
   },
-  
+
 
   "items": [
     {
@@ -38,6 +38,12 @@
       "label":  { "en": [ "Painting under natural light" ] },
       "height": 1271,
       "width": 2000,
+      "metadata": [
+        {
+          "label": { "en": [ "Description" ] },
+          "value": { "en": [ "The scene is the house at Mortlake of Dr John Dee (1527-1608). At the court of Queen Elizabeth I, Dee was revered for the range of his scientific knowledge, which embraced the fields of mathematics, navigation, geography, alchemy/chemistry, medicine and optics. In the painting he is showing the effect of combining two elements, either to cause combustion or to extinguish it. Behind him is his assistant Edward Kelly, wearing a long skullcap to conceal the fact that his ears had been cropped as a punishment for forgery." ] }
+        }
+      ],
       "items": [
         {
           "id": "{{ id.path }}/page/p1/1",
