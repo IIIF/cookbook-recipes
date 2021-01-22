@@ -8,15 +8,15 @@ summary: "Provide item metadata for displaying to users"
 
 ## Use Case
 
-Sometimes it is useful to provide descriptive metadata about an object, such as information on creators, dates, subject headings, and physical or contextual descriptions, that will be displayed to the end user by a client. This metadata might describe the over all object, but may also be applied at more granular levels to provide information on parts of the object, such as a single image or page, a region of a page, or an annotation.
+Often it is useful to provide descriptive metadata about a resource, such as information on creators, dates, subject headings, and physical or contextual descriptions, that will be displayed to the end user by a client. This metadata might describe the over all object, but may also be applied at more granular levels to provide information on parts of the object, such as a single image or page, a region of a page, or an annotation.
 
 ## Implementation notes
 
-The `metadata` property is used to provide an ordered list of descriptive metadata as an array, with each entry given as a pair of human readable `label` and `value` arrays. The values of both the `label` and `value` properties must be JSON objects. These values will be displayed to the user as label/value pairs in the client. The content of these entries is intended for presentation only; descriptive semantics should not be inferred. For more information, see the IIIF Presentation API [Metadata](https://iiif.io/api/presentation/3.0/#metadata) section.
+The `metadata` property is used to provide an ordered list of descriptive metadata as an array, with each entry given as a pair of human readable `label` and `value` arrays. The values of both the `label` and `value` properties must be JSON objects. These values will be displayed to the user as label/value pairs by the client. The content of these entries is intended for presentation only; descriptive semantics should not be inferred. For more information, see the IIIF Presentation API [Metadata](https://iiif.io/api/presentation/3.0/#metadata) section.
 
 ## Restrictions
 
-All descriptive properties intended for presentation to the user must use language maps and arrays as outlined in the [Language of Property Values](https://iiif.io/api/presentation/3.0/#language-of-property-values) section and demonstrated in the [Internationalization and Multi-language Values][0006] recipe.
+All descriptive properties intended for presentation to the user must use language maps as outlined in the [Language of Property Values](https://iiif.io/api/presentation/3.0/#language-of-property-values) section and demonstrated in the [Internationalization and Multi-language Values][0006] recipe.
 
 ## Example
 
