@@ -8,13 +8,13 @@ summary: "The language map pattern requires that all values are supplied as an a
 
 ## Use Case
 
-In some cases, a work is known by more than one title (or has multiple authors, subject heading, etc.) that we would like to display to end users. In this case, our work has variant titles that we will include in the `metadata` property using the required arrays. This pattern can be applied to any property values that are intended to be displayed to end users.
+In some cases, a work is known by more than one title (or has multiple authors, subject heading, etc.) that we would like to display to end users. In this case, our work has title variants that we will include in the `metadata` property using the required arrays. This pattern can be applied to any property values that are intended to be displayed to end users.
 
 ## Implementation Notes
 
-Language maps are required of all strings that are intended to be displayed to the user (this includes the `label` and `summary` properties, as well as `label` and `value` properties within the `metadata` and `requiredStatement` properties). Furthermore, the language map pattern requires that all values are supplied as an array, whether a single value or multiple value strings. For example, if the work in question has multiple values for a property, all values would be included as separate strings within a single array; if the property has only a single value, the value would be included as a single-value array.
+Language maps are required of all strings that are intended to be displayed to the user (this includes the `label` and `summary` properties, as well as `label` and `value` properties within the `metadata` and `requiredStatement` properties). Furthermore, the language map pattern requires that all values are supplied as an array, whether a single value or multiple value strings. For example, a work with multiple authors would include separate strings for each author within a single array: `["Picart, Bernard", "Bernard, Jean-Frédéric"]`; a work with only one author would have a single string also within an array: `["Whistler, James McNeill"]`.
 
-In the case of multiple languages, all associated values must be arrays of strings with separate arrays for each language. For more information, see the Presentation API [Language of Property Values](https://iiif.io/api/presentation/3.0/#44-language-of-property-values) section.
+In the case of multiple languages, each language is represented by its own "language code/array" pair. For more information on language maps and multi-language values, see the recipe [Internationalization and Multi-language Values][0006]. For more information on what clients are expected to do with language map properties and values in general, see the Presentation API [Language of Property Values](https://iiif.io/api/presentation/3.0/#44-language-of-property-values) section.
 
 ## Restrictions
 
