@@ -1,5 +1,5 @@
 ---
-title: Metadata on any resource
+title: Metadata on any Resource
 id: 29
 layout: recipe
 tags: [presentation]
@@ -8,7 +8,7 @@ summary: "Provide item metadata for displaying to users"
 
 ## Use Case
 
-Often it is useful to provide descriptive metadata about a resource, such as information on creators, dates, subject headings, and physical or contextual descriptions, that will be displayed to the end user by a client. This metadata might describe the over all object, but may also be applied at more granular levels to provide information on parts of the object, such as a single image or page, a region of a page, or an annotation.
+Often it is useful to provide descriptive metadata about a resource, such as information on creators, dates, subject headings, and physical or contextual descriptions, that a client will display to the end user. This metadata might describe the entire resource, but may also be applied at more granular levels to provide information on parts of the object, such as a single image or page, a region of a page, or an annotation.
 
 ## Implementation notes
 
