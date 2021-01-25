@@ -14,7 +14,7 @@ In some cases, a work is known by more than one title (or has multiple authors, 
 
 Language maps are required of all strings that are intended to be displayed to the user (this includes the `label` and `summary` properties, as well as `label` and `value` properties within the `metadata` and `requiredStatement` properties). Furthermore, the language map pattern requires that all values are supplied as an array, whether a single value or multiple value strings. For example, a work with multiple authors would include separate strings for each author within a single array: `["Picart, Bernard", "Bernard, Jean-Frédéric"]`; a work with only one author would have a single string also within an array: `["Whistler, James McNeill"]`.
 
-In the case of multiple languages, each language is represented by its own "language code/array" pair. For more information on language maps and multi-language values, see the recipe [Internationalization and Multi-language Values][0006]. For more information on what clients are expected to do with language map properties and values in general, see the Presentation API [Language of Property Values](https://iiif.io/api/presentation/3.0/#44-language-of-property-values) section.
+In the case of multiple languages, each language is represented by its own language map comprising a language key and an array. For more information on language maps and multi-language values, see the recipe [Internationalization and Multi-language Values][0006]. For more information on what clients are expected to do with language map properties and values in general, see the Presentation API [Language of Property Values](https://iiif.io/api/presentation/3.0/#44-language-of-property-values) section.
 
 ## Restrictions
 
