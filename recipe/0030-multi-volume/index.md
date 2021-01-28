@@ -26,6 +26,10 @@ Describe in prose and provide examples, e.g.:
 
 {% include jsonviewer.html src="manifest.json" config='data-line="4, 10-12"' %}
 
+{% include jsonviewer.html src="manifest_v1.json" %}
+
+{% include jsonviewer.html src="manifest_v2.json" %}
+
 # Related recipes
 
 * [][]
