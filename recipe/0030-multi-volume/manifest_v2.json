@@ -4,6 +4,8 @@
   "type": "Manifest",
   "label": { "en": [ "Seirō ehon nenjū gyōji : kan 2 | 青楼絵本年中行事 : 巻 2" ] },
   "behavior": ["individuals"],
+  "viewingDirection": "right-to-left",
+  
   "items": [
     {
       "id": "{{ id.path }}/canvas/p1",
