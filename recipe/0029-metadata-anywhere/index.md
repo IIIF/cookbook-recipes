@@ -8,11 +8,13 @@ summary: "Provide item metadata for displaying to users"
 
 ## Use Case
 
-Often it is useful to provide descriptive metadata about a resource, such as information on creators, dates, subject headings, and physical or contextual descriptions, that a client will display to the end user. This metadata might describe the entire resource, but may also be applied at more granular levels to provide information on parts of the object, such as a single image or page, a region of a page, or an annotation.
+Often it is useful to provide descriptive metadata about a resource, such as information on creators, dates, subject headings, and physical or contextual descriptions, that a client will display to the end user. This metadata might describe the entire resource, but may also be applied at more granular levels to provide information on parts of the resource, such as a single image or page, a region of a page, or an annotation.
 
 ## Implementation notes
 
-The `metadata` property is used to provide an ordered list of descriptive metadata as an array, with each entry given as a pair of human readable `label` and `value` arrays. The values of both the `label` and `value` properties must be JSON objects. These values will be displayed to the user as label/value pairs by the client. The content of these entries is intended for presentation only; descriptive semantics should not be inferred. For more information, see the IIIF Presentation API [Metadata](https://iiif.io/api/presentation/3.0/#metadata) section.
+The `metadata` property is used to provide an ordered list of descriptive metadata as an array, with each entry given as a pair of human readable `label` and `value` arrays. The values of both the `label` and `value` properties must be JSON objects. These values will be displayed to the user as label/value pairs by the client. For more information, see the IIIF Presentation API [Metadata](https://iiif.io/api/presentation/3.0/#metadata) section.
+
+The content of these entries is intended for presentation only; descriptive semantics should not be inferred. For information on how to include structured metadata that can support discovery, see the [Linking to Structured Metadata][0053] recipe.
 
 ## Restrictions
 
@@ -32,6 +34,7 @@ Credit: John Dee performing an experiment before Queen Elizabeth I. Oil painting
 
 * [Internationalization and Multi-language Values][0006]
 * [Displaying Multiple Values with Language Maps][0118]
+* [Linking to Structured Metadata][0053]
 
 {% include acronyms.md %}
 {% include links.md %}
