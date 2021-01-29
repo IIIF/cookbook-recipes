@@ -12,7 +12,7 @@
    },
    "summary":{
       "en":[
-         "A Manifest containing a GeoJSON-LD Web Annotation which targets a Canvas fragment."
+         "A IIIF Presentation API 3.0 Manifest containing a GeoJSON-LD Web Annotation which targets a Canvas fragment."
       ]
    },
    "items":[
