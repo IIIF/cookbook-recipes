@@ -8,11 +8,11 @@ summary: "tbc"
 
 ## Use Case
 
-You have a IIIF format resource for which you would like to offer aggregators a machine-readable version. You know from previous experience that aggregators crawling your collection harvest best when handed structured metadata and are also then able to offer their readers faceting capabilities, making your resources amenable to focused discovery. Through use of the `seeAlso` property, you are able to alert an aggregator to the presence of a dataset so the aggregator can provide appropriate and sophisticated information about your resource to the aggregator's users.
+You have a IIIF resource for which you would like to offer aggregators a machine-readable version. You know from previous experience that aggregators crawling your collection harvest best when handed structured metadata and are also then able to offer their readers faceting capabilities, making your resources amenable to focused discovery. Through use of the `seeAlso` property, you are able to alert an aggregator to the presence of a dataset so the aggregator can provide appropriate and sophisticated information about your resource to the aggregator's users.
 
 ## Implementation Notes
 
-This property is used for pointing a viewer to the URI of a non-IIIF resource with information about the IIIF resource to which it is attached. Most frequently, the non-IIIF resource will be structured metadata, and to be most effective, the target resource should be a machine-readable format such as Dublin Core, MODS, or RDF. The `type` value for `seeAlso` is usually `dataset`.
+This property is used for pointing a viewer to the URI of a non-IIIF resource with information about the IIIF resource to which it is attached. Most frequently, the non-IIIF resource will be structured metadata, and to be most effective, the target resource should be a machine-readable format such as XML, JSON, or RDF. The `type` value for `seeAlso` is usually `dataset`.
 
 Three other properties may seem similar, so it's worth highlighting the differences. 
 
@@ -33,7 +33,7 @@ No known restrictions
 
 ## Example
 
-In this example, a Dublin Core Metadata Initiative XML file is provided for the program as a whole, and as such the `seeAlso` property attaches to the Manifest. If such data files were available for each view or page separately, each Canvas would be a logical place for the corresponding `seeAlso` instance.
+In this example, a MODS XML file is provided for the program as a whole, and as such the `seeAlso` property attaches to the Manifest. If such data files were available for each view or page separately, each Canvas would be a logical place for the corresponding `seeAlso` instance.
 
 To see the property in action in Mirador, toggle the sidebar by activating the three-line ("hamburger") menu in the upper left-hand corner of the content window. You should then, in the "Related" area, see the link in the "Related" section under the "See also" subheading.
 
