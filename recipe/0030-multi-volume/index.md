@@ -20,7 +20,9 @@ When is this pattern is usable / not usable? Is it deprecated? If it uses multip
 
 ## Example
 
-Describe in prose and provide examples, e.g.:
+In this example, we have a Japanese book in two volumes. The first Manifest is a Collection Manifest with the `behavior` property value `multi-part` (line 8). The two Manifests for each volume are included in the `items` property (beginning with line 11).
+
+Following the Collection Manifest are the two book Manifests for vol. 1 and vol. 2 that are included in the `items` property of the Collection Manifest.
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
