@@ -100,7 +100,7 @@
                 "width": 7451,
                 "service": [
                   {
-                    "id": "hhttps://iiif.io/api/image/3.0/example/reference/5b0b39c2bf5591d21d807f9aadb437fa-uclaeal_wahon_A06_bib1974505_vol01_003",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/5b0b39c2bf5591d21d807f9aadb437fa-uclaeal_wahon_A06_bib1974505_vol01_003",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
