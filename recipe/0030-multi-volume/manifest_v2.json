@@ -5,14 +5,14 @@
   "label": { "en": [ "Seirō ehon nenjū gyōji : kan 2 | 青楼絵本年中行事 : 巻 2" ] },
   "behavior": ["individuals"],
   "viewingDirection": "right-to-left",
-  
+
   "items": [
     {
       "id": "{{ id.path }}/canvas/p1",
       "type": "Canvas",
       "label": { "en": [ "Front cover" ] },
-      "height": 4613,
-      "width": 3204,
+      "height": 5745,
+      "width": 4114,
       "items": [
         {
           "id": "{{ id.path }}/page/p1/1",
@@ -23,14 +23,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f18/full/max/0/default.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/ecbc73b7cd459faf609e54eb4305da1f-uclaeal_wahon_A06_bib1974505_vol02_001/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 4613,
-                "width": 3204,
+                "height": 5745,
+                "width": 4114,
                 "service": [
                   {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f18",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/ecbc73b7cd459faf609e54eb4305da1f-uclaeal_wahon_A06_bib1974505_vol02_001",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -46,8 +46,8 @@
       "id": "{{ id.path }}/canvas/p2",
       "type": "Canvas",
       "label": { "en": [ "Page spread 1" ] },
-      "width": 3186,
-      "height": 4612,
+      "height": 5745,
+      "width": 7253,
       "items": [
         {
           "id": "{{ id.path }}/page/p2/1",
@@ -58,14 +58,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f19/full/max/0/default.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/ecbc73b7cd459faf609e54eb4305da1f-uclaeal_wahon_A06_bib1974505_vol02_002/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": 3186,
-                "height": 4612,
+                "height": 5745,
+                "width": 7253,
                 "service": [
                   {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f19",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/ecbc73b7cd459faf609e54eb4305da1f-uclaeal_wahon_A06_bib1974505_vol02_002",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -81,8 +81,8 @@
       "id": "{{ id.path }}/canvas/p3",
       "type": "Canvas",
       "label": { "en": [ "Page spread 2" ] },
-      "width": 3204,
-      "height": 4613,
+      "height": 5745,
+      "width": 7253,
       "items": [
         {
           "id": "{{ id.path }}/page/p3/1",
@@ -93,14 +93,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f20/full/max/0/default.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/ecbc73b7cd459faf609e54eb4305da1f-uclaeal_wahon_A06_bib1974505_vol02_003/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": 3204,
-                "height": 4613,
+                "height": 5745,
+                "width": 7253,
                 "service": [
                   {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f20",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/ecbc73b7cd459faf609e54eb4305da1f-uclaeal_wahon_A06_bib1974505_vol02_003",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -116,8 +116,8 @@
       "id": "{{ id.path }}/canvas/p4",
       "type": "Canvas",
       "label": { "en": [ "Page spread 3" ] },
-      "width": 3174,
-      "height": 4578,
+      "height": 5745,
+      "width": 7253,
       "items": [
         {
           "id": "{{ id.path }}/page/p4/1",
@@ -128,14 +128,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f21/full/max/0/default.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/ecbc73b7cd459faf609e54eb4305da1f-uclaeal_wahon_A06_bib1974505_vol02_004/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": 3174,
-                "height": 4578,
+                "height": 5745,
+                "width": 7253,
                 "service": [
                   {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f21",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/ecbc73b7cd459faf609e54eb4305da1f-uclaeal_wahon_A06_bib1974505_vol02_004",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -151,8 +151,8 @@
       "id": "{{ id.path }}/canvas/p5",
       "type": "Canvas",
       "label": { "en": [ "Page spread 4" ] },
-      "width": 3198,
-      "height": 4632,
+      "height": 5745,
+      "width": 7253,
       "items": [
         {
           "id": "{{ id.path }}/page/p5/1",
@@ -163,14 +163,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f22/full/max/0/default.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/ecbc73b7cd459faf609e54eb4305da1f-uclaeal_wahon_A06_bib1974505_vol02_005/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": 3198,
-                "height": 4632,
+                "height": 5745,
+                "width": 7253,
                 "service": [
                   {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f22",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/ecbc73b7cd459faf609e54eb4305da1f-uclaeal_wahon_A06_bib1974505_vol02_005",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
