@@ -16,7 +16,7 @@ Ranges are used to represent a structure within a book object by grouping Canvas
 
 Ranges are contained within the `structures` property and require a `label` property to display in the ToC (`labels` are not inherited from a referenced Canvas, so you will need to explicitly include the `label` property in the Range). Within a Range, resources are included as an array of resources using the `items` property. These structures can be made hierarchical simply by nesting `items` within other `items`. This is useful when chapters might be sub-divided or in the case of multiple works where individual works may have chapters. This is a departure from the method defined by previous versions of the IIIF Presentation API.
 
-The `behavior` property can also be applied to Ranges. For more information on how `behavior` affects navigation in Ranges, see the [IIIF Presentation API on Ranges](https://iiif.io/api/presentation/3.0/#54-range).
+The `behavior` property can also be applied to Ranges. For more information on how `behavior` affects navigation in Ranges, see the [IIIF Presentation API on Ranges](https://iiif.io/api/presentation/3.0/#54-range) and the [Ranges and the `behavior` Property][229] recipe.
 
 ## Restrictions
 
