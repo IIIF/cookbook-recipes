@@ -41,8 +41,8 @@
                 "id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 4823,
                 "width": 3497,
+                "height": 4823,
                 "service": [
                 	{
                 		"id": "https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001",
