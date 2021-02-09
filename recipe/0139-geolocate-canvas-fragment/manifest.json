@@ -20,12 +20,12 @@
          "id":"{{ id.path }}/canvas.json",
          "type":"Canvas",
          "label":{
-            "fr":[
-               "Page de Couverture du Le Scarabée D'or"
+            "en":[
+               "Chesapeake and Ohio Canal Pamphlet"
             ]
          },
-         "width":3204,
-         "height":4613,
+         "width":5212,
+         "height":7072,
          "items":[
             {
                "id":"{{ id.path }}/contentPage.json",
@@ -37,22 +37,22 @@
                      "motivation":"painting",
                      "label":{
                         "en":[
-                           "Cover Page"
+                           "Pamphlet Cover"
                         ]
                      },
                      "body":{
-                        "id":"https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f20/full/max/0/default.jpg",
+                        "id":"https://tile.loc.gov/image-services/iiif/service:gmd:gmd384:g3842:g3842c:ct008615/full/full/0/default.jpg",
                         "type":"Image",
                         "format":"image/jpeg",
                         "service":[
                            {
-                              "id":"https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f20",
-                              "type":"ImageService3",
-                              "profile":"level1"
+                              "id":"https://tile.loc.gov/image-services/iiif/service:gmd:gmd384:g3842:g3842c:ct008615",
+                              "type":"ImageService2",
+                              "profile":"http://iiif.io/api/image/2/level2.json"
                            }
                         ],
-                        "width":3204,
-                        "height":4613
+                        "width":5212,
+                        "height":7072
                      },
                      "target":"{{ id.path }}/canvas.json"
                   }
@@ -67,10 +67,10 @@
                   {
                      "id":"{{ id.path }}/geoAnno.json",
                      "type":"Annotation",
-                     "motivation":"tagging",
+                     "motivation":"supplementing",
                      "label":{
                         "en":[
-                           "Annotation containing GeoJSON-LD coordinates for central Paris, France"
+                           "Annotation containing GeoJSON-LD coordinates that place the map depiction onto a Web Map."
                         ]
                      },
                      "body":{
@@ -79,19 +79,23 @@
                         "properties":{
                            "label":{
                               "en":[
-                                 "Targeted Text \"Paris\" from Page de Couverture du Le Scarabée D'or"
+                                 "Targeted Map from Chesapeake and Ohio Canal Pamphlet"
                               ]
                            }
                         },
                         "geometry":{
-                           "type":"Point",
+                           "type":"Polygon",
                            "coordinates":[
-                              2.34,
-                              48.86
+                              [
+                                 [-77.097847, 38.901359],
+                                 [-77.026940, 38.901359],
+                                 [-77.026940, 39.034040],
+                                 [-77.097847, 39.034040]
+                              ]
                            ]
                         }
                      },
-                     "target":"{{ id.path }}/canvas.json#xywh=1300,3370,250,100"
+                     "target":"{{ id.path }}/canvas.json#xywh=920,3600,1510,3000"
                   }
                ]
             }
