@@ -67,7 +67,7 @@
                   {
                      "id":"{{ id.path }}/geoAnno.json",
                      "type":"Annotation",
-                     "motivation":"supplementing",
+                     "motivation":"tagging",
                      "label":{
                         "en":[
                            "Annotation containing GeoJSON-LD coordinates that place the map depiction onto a Web Map."
