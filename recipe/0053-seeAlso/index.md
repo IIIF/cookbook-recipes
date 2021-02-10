@@ -8,7 +8,7 @@ summary: "tbc"
 
 ## Use Case
 
-You have a IIIF resource for which you would like to offer aggregators a machine-readable version. You know from previous experience that aggregators crawling your collection harvest best when handed structured metadata and are also then able to offer their readers faceting capabilities, making your resources amenable to focused discovery. Through use of the `seeAlso` property, you are able to alert an aggregator to the presence of a dataset so the aggregator can provide appropriate and sophisticated information about your resource to the aggregator's users.
+You have a IIIF manifest resource along with additional machine-readable metadata usable by aggregators and others that can process or index it via the `seeAlso` property. You know from previous experience that aggregators crawling your collection harvest best when handed structured metadata and are also then able to offer their readers faceting capabilities, making your resources amenable to focused discovery. Through use of the `seeAlso` property, you are able to alert an aggregator to the presence of a dataset so the aggregator can provide appropriate and sophisticated information about your resource to the aggregator's users.
 
 ## Implementation Notes
 
@@ -29,7 +29,7 @@ Any resource may have the `seeAlso` property. Each instance of it may have multi
 
 ## Restrictions
 
-No known restrictions
+None
 
 ## Example
 
@@ -45,12 +45,9 @@ The direct link to the fixture is a useful convenience.
 
 ## Related Recipes
 
-* [Audio Presentation with Accompanying Image][0014], using `accompanyingCanvas` to present one IIIF resource simultaneously with another
-* [Choice (simplest)][0033] for showing multiple representations of the same view
-* [Choice — multispectral flavored example, with image services][0034] for showing multiple representations of the same view with Image Services
 * [homepage][0047] for pointing to a web page about the object represented by the current resource
 * [Providing Alternative Representations][0046] for alternate representations of the same object
-* [A museum object][0059] for using `rendering` to provide a 3D model
+
 
 {% include acronyms.md %}
 {% include links.md %}
