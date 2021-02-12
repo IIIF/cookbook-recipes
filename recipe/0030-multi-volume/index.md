@@ -8,11 +8,13 @@ summary: "tbc"
 
 ## Use Case
 
-With multi-volume works, it is often desirable to group the volumes together as a single work while maintaining the user experience of separate volumes. For example, we might have separate Manifests for each volume, but maintain a single item record in our digital collection for the work as whole. We can group these individual volume Manifests using a IIIF Collection. A Collection is a IIIF resource type that embeds other Manifests and Collection within its `items` property.
+With multi-volume works, it is often desirable to group the volumes together as a single work while maintaining the user experience of separate volumes. For example, we might have separate Manifests for each volume, but maintain a single item record in our digital collection for the work as whole. Or we might want to include the multi-volume work in another Collection, but as a single work.
 
 ## Implementation notes
 
-How does one implement the pattern?
+To , we can group the individual volume Manifests using a IIIF Collection. A Collection is a IIIF resource type that embeds other Manifests and Collection within its `items` property. 
+
+An alternative approach might be to combine the volumes into a single Manifest and use Ranges to create a table of contents for navigating the multiple volumes. For this approach, consult the [Book with Table of Contents][0024] recipe.
 
 ## Restrictions
 
