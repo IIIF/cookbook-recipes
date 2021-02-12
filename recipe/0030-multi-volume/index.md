@@ -8,7 +8,7 @@ summary: "tbc"
 
 ## Use Case
 
-With multi-volume works, it is often desirable to group the volumes together as a single work while maintaining the user experience of separate volumes. For example, we might have separate Manifests for each volume, but maintain a single item record in our digital collection for the work as whole. We can group these individual volume Manifests using a IIIF Collection. A Collection is a IIIF resource type that embeds other Manifests and Collection within its `items` property. 
+With multi-volume works, it is often desirable to group the volumes together as a single work while maintaining the user experience of separate volumes. For example, we might have separate Manifests for each volume, but maintain a single item record in our digital collection for the work as whole. We can group these individual volume Manifests using a IIIF Collection. A Collection is a IIIF resource type that embeds other Manifests and Collection within its `items` property.
 
 ## Implementation notes
 
@@ -20,7 +20,7 @@ Collections may be embedded inline within other Collections, such as when the Co
 
 ## Example
 
-In this example, we have a Japanese book in two volumes. The first resource is a Collection representing the "work" with the `behavior` property value `multi-part` (line 8). The two Manifests for each volume are included in the `items` property (beginning with line 11).
+In this example, we have a Japanese book in two volumes. The first resource is a Collection representing the "work" with the `behavior` property value `multi-part` (lines 10-12). The two Manifests for each volume are included in the `items` property (beginning with line 13).
 
 Following the Collection resource are the two Manifests for vol. 1 and vol. 2 that are included in the `items` property of the Collection.
 
