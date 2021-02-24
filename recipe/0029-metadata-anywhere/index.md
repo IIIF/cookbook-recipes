@@ -16,7 +16,7 @@ The `metadata` property is used to provide an ordered list of descriptive metada
 
 ## Restrictions
 
-All descriptive properties intended for presentation to the user must use language maps as outlined in the [Language of Property Values](https://iiif.io/api/presentation/3.0/#language-of-property-values) section and demonstrated in the [Internationalization and Multi-language Values][0006] recipe.
+All descriptive properties intended for presentation to the user must use language maps as outlined in the [Language of Property Values](https://iiif.io/api/presentation/3.0/#44-language-of-property-values) section and demonstrated in the [Internationalization and Multi-language Values][0006] recipe.
 
 The content of these entries is intended for presentation only; descriptive semantics should not be inferred. For information on how to include structured metadata that can support discovery, see the [Linking to Structured Metadata][0053] recipe.
 
@@ -24,7 +24,7 @@ The content of these entries is intended for presentation only; descriptive sema
 
 In this example, we have two Canvases, each with a different photograph of the same painting: one using natural light and the other an x-ray image. Metadata is provided at the Manifest level to convey information about the resource and additional metadata is provided on each Canvas to provide image-specific details.
 
-Credit: John Dee performing an experiment before Queen Elizabeth I. Oil painting by Henry Gillard Glindoni. Credit: Wellcome Collection. Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+Credit: *John Dee performing an experiment before Queen Elizabeth I*. Oil painting by Henry Gillard Glindoni. Credit: Wellcome Collection. Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
