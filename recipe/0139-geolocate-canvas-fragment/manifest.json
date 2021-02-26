@@ -70,7 +70,7 @@
                      "motivation":"tagging",
                      "label":{
                         "en":[
-                           "Annotation containing GeoJSON-LD coordinates that place the map depiction onto a Web Map."
+                           "Annotation containing GeoJSON-LD coordinates that place the map depiction onto a Web Map"
                         ]
                      },
                      "body":{
