@@ -15,7 +15,7 @@ A Canvas has a region of interest that contains a map. You would like to associa
 	<a class="imagelink" target="_blank" href="https://fixtures.iiif.io/info.html?file=/images/loc/chesapeake_map/88695674.jpg"> image information </a>
 	<img onclick="showBigImage()" style="max-height: 125px" src="./images/leaflet_example.png" />
 </div>
-</br>
+<br>
 
 ### Implementation Notes
 The third party [GeoJSON-LD](https://geojson.org/geojson-ld/) context is included in addition to the IIIF Presentation API 3.0 context. The GeoJSON-LD context supplies the vocabulary terms for the Annotation bodies since the IIIF Presentation API 3.0 context does not describe those terms. When the `@context` property is used as an array with multiple contexts, the IIIF Presentation API 3.0 context must be the last item in the array.
