@@ -41,14 +41,14 @@
                         ]
                      },
                      "body":{
-                        "id":"https://tile.loc.gov/image-services/iiif/service:gmd:gmd384:g3842:g3842c:ct008615/full/full/0/default.jpg",
+                        "id":"https://iiif.io/api/image/3.0/example/reference/43153e2ec7531f14dd1c9b2fc401678a-88695674/full/max/0/default.jpg",
                         "type":"Image",
                         "format":"image/jpeg",
                         "service":[
                            {
-                              "id":"https://tile.loc.gov/image-services/iiif/service:gmd:gmd384:g3842:g3842c:ct008615",
-                              "type":"ImageService2",
-                              "profile":"http://iiif.io/api/image/2/level2.json"
+                              "id":"https://iiif.io/api/image/3.0/example/reference/43153e2ec7531f14dd1c9b2fc401678a-88695674",
+                              "type":"ImageService3",
+                              "profile":"level1"
                            }
                         ],
                         "width":5212,
