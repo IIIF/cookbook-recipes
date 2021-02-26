@@ -66,11 +66,11 @@ The Manifest has one Canvas with one Image, and the Canvas has the same size dim
 	}
 	.imagelink{
 	    display: block;
-    	text-decoration: none;
-    	border-bottom: none;
+    	text-decoration: none !important;
+    	border-bottom: none !important;
 	}
 	.imagelink:focus{
-    	outline: none;
+    	outline: none !important;
 	}
 </style>
 
