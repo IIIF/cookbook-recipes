@@ -69,6 +69,9 @@ The Manifest has one Canvas with one Image, and the Canvas has the same size dim
     	text-decoration: none;
     	border-bottom: none;
 	}
+	.imagelink:focus{
+    	outline: none;
+	}
 </style>
 
 <script type="text/javascript">
