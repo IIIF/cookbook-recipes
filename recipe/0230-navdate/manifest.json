@@ -1,8 +1,76 @@
 {
-    "@context": [ "http://iiif.io/api/presentation/3/context.json" ],
-    "id": "{{ id.url }} ",
-    "type": "Manifest",
-    "label": { 
-        "none": [""]
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "{{ id.url }}",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Chesapeake and Ohio Canal, Washington, D.C., Maryland, West Virginia, official map and guide"
+    ]
+  },
+  "items": [
+    {
+      "id": "{{ id.path }}/canvas/p1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Map, recto and verso, with a date of publication"
+        ]
+      },
+      "navDate": "1987-01-01T05:00:00Z",
+      "height": 7072,
+      "width": 5212,
+      "items": [
+        {
+          "id": "{{ id.path }}/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/43153e2ec7531f14dd1c9b2fc401678a-88695674/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 7072,
+                "width": 5212,
+                "service": [
+                  {
+                    "id": "http://iiif.io/api/image/3.0/example/reference/43153e2ec7531f14dd1c9b2fc401678a-88695674",
+                    "extraFormats": [
+                      "jpg",
+                      "png"
+                    ],
+                    "extraQualities": [
+                      "default",
+                      "color",
+                      "gray"
+                    ],
+                    "height": 7072,
+                    "profile": "level1",
+                    "protocol": "http://iiif.io/api/image",
+                    "tiles": [
+                      {
+                        "height": 512,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8
+                        ],
+                        "width": 512
+                      }
+                    ],
+                    "type": "ImageService3",
+                    "width": 5212
+                  }
+                ]
+              },
+              "target": "{{ id.path }}/canvas/p1"
+            }
+          ]
+        }
+      ]
     }
+  ]
 }
