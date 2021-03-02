@@ -41,6 +41,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Audio Presentation with Accompanying Image][0014]
 * [Load Manifest Beginning with a Specific Canvas][0202]
 * [Begin playback at a specific point - Time-based media][0015] (65)
+* [Chronology with navDate][0230]
 
 ## Textual and other supplementary content
 
