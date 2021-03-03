@@ -18,7 +18,7 @@ An alternative approach might be to combine the volumes into a single Manifest a
 
 ## Restrictions
 
-[Collections may be embedded inline within other Collections, such as when the Collection is used primarily to subdivide a larger one into more manageable pieces, however Manifests must not be embedded within Collections. An embedded Collection should also have its own URI from which the JSON description is available.]
+Collections may be embedded inline within other Collections, such as when the Collection is used primarily to subdivide a larger one into more manageable pieces, however Manifests must not be embedded within Collections. An embedded Collection should also have its own URI from which the JSON description is available.
 
 ## Example
 
@@ -26,11 +26,15 @@ In this example, we have a Japanese book in two volumes. The first resource is a
 
 Following the Collection resource are the two Manifests for vol. 1 and vol. 2 that are included in the `items` property of the Collection.
 
-{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador" manifest="collection.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="4, 10-12"' %}
 
+{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
+
 {% include jsonviewer.html src="manifest_v1.json" %}
+
+{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest_v2.json" %}
 
