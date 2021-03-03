@@ -34,12 +34,11 @@ The direct link to the fixture is a useful convenience.
 
 ## Related Recipes
 
-{ For sketching only: 
-* sequence Range behavior, insofar as this is a way to order and re-order Canvases
-* thumbnail-nav Range behavior for the same reason
-* start for similar reasons
-* [0006] newspaper
-}
+* [Table of Contents for Book Chapters][0024] demonstrates ordering resources with a Range
+* [Alternative Sequence (via `sequence` Range)][0027] demonstrates providing an order for resources different from the default
+* [A manuscript with multiple orderings][0070] demonstrates a real-world issue and how multiple ordering possibilities address it
+* [Thumbnail range for video navigation][0073] shows how to order thumbnails from a video resource for navigation
+* [Basic Newspaper][0068] demonstrates use of `navDate` with multiple Manifests
 
 {% include acronyms.md %}
 {% include links.md %}
