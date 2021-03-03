@@ -64,6 +64,7 @@ The Manifest has one Canvas with one Image, and the Canvas has the same size dim
 		cursor: pointer;
 	}
 	.imagelink{
+		margin-right: 1%;
 	    display: inline-block;
     	text-decoration: none !important;
     	border-bottom: none !important;
