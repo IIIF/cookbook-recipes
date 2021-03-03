@@ -8,7 +8,7 @@ summary: "tbc"
 
 ## Use Case
 
-You have one or more periodical articles (journal, magazine, etc.) in IIIF form and would like to communicate their dates to a consuming client for putting in a date-based interface. For instance, you might want to have the IIIF object in a client's timeline or calendar feature. Over the spread of a group of resources, consistent and accurate use of `navDate` allows for computational addressing of the collection as data and arrangement in chronological order.
+You have one or more IIIF resources that have dates associated with them, and would like to communicate their dates to a consuming client for putting in a date-based interface. For instance, you might want to have the IIIF object presented in a timeline or calendar feature. Over the spread of a group of resources, consistent use of `navDate` allows for computational addressing of the collection as data and arrangement in chronological order.
 
 ## Implementation Notes
 
