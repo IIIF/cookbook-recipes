@@ -12,7 +12,7 @@ A multitude of real world resources benefit from geographic data, many of which 
 A Canvas has a region of interest that contains a map. You would like to associate this map with modern geocoordinates that clients can use for representing the targeted region in world based Web Maps, such as [Leaflet](https://leafletjs.com/examples/geojson/) or [Google Maps](https://developers.google.com/maps/documentation/javascript/importing_data). This could mean simply showing a non-interactive shape on a Web Map, but often more data from the resource is displayed in connection with the shape as a result of available functionality. The example below shows a pop-up that appears upon clicking the shape. The pop-up includes the targeted map as well as other metadata from the resource.
 
 <p style="text-align: center;">
-	<a class="imageLink" target="_blank" href="https://fixtures.iiif.io/info.html?file=/images/loc/chesapeake_map/88695674.jpg"><img id="orig" onclick="" style="max-width: 11em;" src="./images/piece2.png" /></a>
+	<a class="imagelink" target="_blank" href="https://fixtures.iiif.io/info.html?file=/images/loc/chesapeake_map/88695674.jpg"><img id="orig" onclick="" style="max-width: 11em;" src="./images/piece2.png" /></a>
 	<img id="leaf" onclick="showBigImage()" style="max-height: 11em; max-width: 100%;" src="./images/leaflet_example.png" />
 </p>
 
