@@ -16,7 +16,7 @@ To create a single IIIF resource for a multi-volume work, we can group the indiv
 
 An alternative approach might be to combine the volumes into a single Manifest and use Ranges to create a table of contents for navigating the multiple volumes. The approach you choose will depend on your specific use case or context; For example, if the volumes are bound together or if the desired end result is a more unified viewing experience, the single Manifest approach might be the preferred option. For this approach, consult the [Book with Table of Contents][0024] recipe.
 
-*A note on metadata:* Since our Collection in this use case represents a single work with multiple volumes and the Collection is intended for display at the item level, the metadata describing the work is included in the Collection, with little metadata provided in the Manifests for the volumes. You could opt to include more metadata in the volume Manifests if the intended viewing experience necessitates it.
+*A note on metadata:* Since our Collection in this use case represents a single work with multiple volumes and the Collection is intended for display at the work level, the metadata describing the work is included in the Collection, with little metadata provided in the Manifests for the volumes. You could opt to include more metadata in the volume Manifests if the intended viewing experience necessitates it.
 
 ## Restrictions
 
