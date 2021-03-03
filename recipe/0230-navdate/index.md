@@ -16,7 +16,7 @@ The `navDate` property, somewhat as implied by its name, allows a manifest to id
 
 The value of the `navDate` property must be an [XSD dateTime literal](https://www.w3.org/TR/xmlschema11-2/#dateTime) with a timezone. The timezone should be in the UTC + "Z" format, but may instead have the difference from UTC given in the value in the "+hh:mm" format. If a Canvas using `navDate` also contains a `duration` property, the `navDate` for that Canvas is the date and time of the start of the resource's content. Use "01" for an unknown month or day, and "00" for any unknown time portion.
 
-Only Collections, Manifests, Ranges, and Canvases are permitted to contain a `navDate` property, and the property may appear only once within each resource. Conforming clients are directed to ignore `navDate` on other resources
+Only Collections, Manifests, Ranges, and Canvases are permitted to contain a `navDate` property, and the property may appear only once within each resource. Conforming clients are directed to ignore `navDate` on other resources.
 
 ## Restrictions
 
