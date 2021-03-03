@@ -13,7 +13,7 @@ A Canvas has a region of interest that contains a map. You would like to associa
 
 <p style="text-align: center;">
 	<a class="imageLink" target="_blank" href="https://fixtures.iiif.io/info.html?file=/images/loc/chesapeake_map/88695674.jpg"><img id="orig" onclick="" style="max-width: 11em;" src="./images/piece2.png" /></a>
-	<img id="leaf" onclick="showBigImage()" style="max-width: 24em; margin-left: 1%;" src="./images/leaflet_example.png" />
+	<img id="leaf" onclick="showBigImage()" style="max-width: 24em;" src="./images/leaflet_example.png" />
 </p>
 
 ### Implementation Notes
