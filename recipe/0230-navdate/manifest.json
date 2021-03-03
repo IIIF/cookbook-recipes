@@ -16,7 +16,7 @@
           "Map, recto and verso, with a date of publication"
         ]
       },
-      "navDate": "1987-01-01T05:00:00Z",
+      "navDate": "1987-01-01T00:00:00Z",
       "height": 7072,
       "width": 5212,
       "items": [
@@ -36,7 +36,7 @@
                 "width": 5212,
                 "service": [
                   {
-                    "id": "http://iiif.io/api/image/3.0/example/reference/43153e2ec7531f14dd1c9b2fc401678a-88695674",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/43153e2ec7531f14dd1c9b2fc401678a-88695674/",
                     "extraFormats": [
                       "jpg",
                       "png"
