@@ -12,14 +12,14 @@ A multitude of real world resources benefit from geographic data, many of which 
 A Canvas has a region of interest that contains a map. You would like to associate this map with modern geocoordinates that clients can use for representing the targeted region in world based Web Maps, such as [Leaflet](https://leafletjs.com/examples/geojson/) or [Google Maps](https://developers.google.com/maps/documentation/javascript/importing_data). This could mean simply showing a non-interactive shape on a Web Map, but often more data from the resource is displayed in connection with the shape as a result of available functionality. The example below shows a pop-up that appears upon clicking the shape. The pop-up includes the targeted map as well as other metadata from the resource.
 
 <p>
-	<a class="imagelink" target="_blank" href="https://fixtures.iiif.io/info.html?file=/images/loc/chesapeake_map/88695674.jpg"> image information </a>
-	<img onclick="showBigImage()" style="max-height: 125px" src="./images/leaflet_example.png" />
+	<a target="_blank" href="https://fixtures.iiif.io/info.html?file=/images/loc/chesapeake_map/88695674.jpg"><img id="orig" onclick="" style="max-height: 125px" src="./images/piece3.png" /></a>
+	<img id="leaf" onclick="showBigImage()" style="max-height: 125px" src="./images/leaflet_example.png" />
 </p>
 
 ### Implementation Notes
 The third party [GeoJSON-LD](https://geojson.org/geojson-ld/) context is included in addition to the IIIF Presentation API 3.0 context. The GeoJSON-LD context supplies the vocabulary terms for the Annotation bodies since the IIIF Presentation API 3.0 context does not describe those terms. When the `@context` property is used as an array with multiple contexts, the IIIF Presentation API 3.0 context must be the last item in the array.
 
-The GeoJSON `properties` object is generic and [can be nearly anything](https://tools.ietf.org/html/rfc7946#section-3.2). It is used to pass metadata along with the geocoordinates. This has implications on clients and parsers that must discern what data to use. For example, if the targeted resource has a `label` property and the `properties` object has a `label` property, the consuming interface must make a choice on which to prioritize for presentation purposes. In the image from the Use Case section, the "Label" uses the GeoJSON `properties` object's `label` property(lines 80-83) instead of the `label` property from the Annotation or Canvas.
+The GeoJSON `properties` object is generic and [can be nearly anything](https://tools.ietf.org/html/rfc7946#section-3.2). It is used to pass metadata along with the geocoordinates. This has implications on clients and parsers that must discern what data to use. For example, if the targeted resource has a `label` property and the `properties` object has a `label` property, the consuming interface must make a choice on which to prioritize for presentation purposes. In the image from the Use Case section, the "Label" uses the GeoJSON `properties` object's `label` property (lines 80-83) instead of the `label` property from the Annotation or Canvas.
 
 Note that [`geometry` has more types besides `Polygon`.](https://tools.ietf.org/html/rfc7946#section-3.1)
 
