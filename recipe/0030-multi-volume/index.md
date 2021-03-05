@@ -26,7 +26,7 @@ Collections may be embedded inline within other Collections, such as when the Co
 
 In this example, we have a Japanese book in two volumes. The first resource is a Collection representing the "work" with the `behavior` property value `multi-part` (lines 10-12). The two Manifests for each volume are included in the `items` property (beginning with line 13).
 
-Following the Collection resource are the two Manifests for vol. 1 and vol. 2 that are included in the `items` property of the Collection. Note that these Manifests use the `behavior` property value `individuals`. The book volumes were imaged as two-page spreads, so should not be presented as `paged`. The default `behavior` is `individuals`, so the property could be omitted. Including the property makes it clear that this is intentional. For more information on the `behavior` property, see the [Book behavior (paging) variations][0011] recipe.
+Following the Collection resource are the two Manifests for vol. 1 and vol. 2 that are included in the `items` property of the Collection. Note that these Manifests use the `behavior` property value `individuals`. The book volumes were imaged as two-page spreads, so should not be presented as `paged`. The default value of the `behavior` property is `individuals`, so the property could be omitted. Including the property makes it clear that this is intentional. For more information on the `behavior` property, see the [Book behavior (paging) variations][0011] recipe.
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="collection.json" %}
 
