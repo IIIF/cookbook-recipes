@@ -29,7 +29,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Simplest Manifest - Video][0003] (1) (use single video as content resource, w,h,d)
 * [Image and Canvas with Differing Dimensions][0004] (26)
 * [Support Deep Viewing with Basic Use of a IIIF Image Service][0005] (24,25)
-* Multiple values and languages (3,4,6)
+* [Internationalization and Multi-language Values][0006] (3,4,6)
 * [Embedding HTML in descriptive properties][0007] (64)
 * [Rights statement\(s\)][0008] (7)
 * [Simple Manifest - Book][0009] (19)
@@ -47,6 +47,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * Transcription of image-based content - various examples gathered (43,44,45,46,47,48)
 * Transcription of audio and video
 * Transcription of content into XML, with XPaths to select a segment
+* [Providing Alternative Representations][0046]
 
 ## Other kinds of annotations
 _(leading on to segmentation examples later)_
@@ -77,7 +78,7 @@ _(leading on to segmentation examples later)_
 
 * Choice (simplest) (28)
 * Choice - multispectral flavored example, with image services (29)
-* foldouts, etc (Choice or non-paged interlude (flaps vs maps))? 
+* foldouts, etc (Choice or non-paged interlude (flaps vs maps))?
 * [Multiple images (master/detail)][detail-image] (30,31)
 * Multiple images and multiple choices (32,33,34)
 * [Annotating part of an image to a Canvas][recipe-segment-image-part] (e.g., crop out scanner) (35,36,37,38)
