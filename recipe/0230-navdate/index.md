@@ -1,5 +1,5 @@
 ---
-title: Chronology with navDate
+title: Navigation by Chronology
 id: 230
 layout: recipe
 tags: [date]
