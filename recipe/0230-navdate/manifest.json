@@ -37,32 +37,8 @@
                 "service": [
                   {
                     "id": "https://iiif.io/api/image/3.0/example/reference/43153e2ec7531f14dd1c9b2fc401678a-88695674/",
-                    "extraFormats": [
-                      "jpg",
-                      "png"
-                    ],
-                    "extraQualities": [
-                      "default",
-                      "color",
-                      "gray"
-                    ],
-                    "height": 7072,
                     "profile": "level1",
-                    "protocol": "http://iiif.io/api/image",
-                    "tiles": [
-                      {
-                        "height": 512,
-                        "scaleFactors": [
-                          1,
-                          2,
-                          4,
-                          8
-                        ],
-                        "width": 512
-                      }
-                    ],
-                    "type": "ImageService3",
-                    "width": 5212
+                    "type": "ImageService3"
                   }
                 ]
               },
