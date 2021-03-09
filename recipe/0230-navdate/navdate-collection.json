@@ -1,0 +1,48 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "{{ id.url }}",
+  "type": "Collection",
+  "label": {
+    "en": [
+      "Chesapeake and Ohio Canal map and guide pamphlets"
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://iiif.io/api/image/3.0/example/reference/43153e2ec7531f14dd1c9b2fc401678a-88695674/full/max/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "height": 300,
+      "width": 221,
+      "service": [
+        {
+          "id": "https://iiif.io/api/image/3.0/example/reference/43153e2ec7531f14dd1c9b2fc401678a-88695674",
+          "profile": "level1",
+          "type": "ImageService3"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "{{ id.path }}/navdate_map_1-manifest.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+            "1988 Chesapeake and Ohio Canal, Washington, D.C., Maryland, West Virginia, official map and guide"
+        ]
+      },
+      "navDate": "1987-01-01T00:00:00Z"
+    },
+    {
+      "id": "{{ id.path }}/navdate_map_2-manifest.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+            "1988 Chesapeake and Ohio Canal, Washington, D.C., Maryland, West Virginia, official map and guide"
+        ]
+      },
+      "navDate": "1988-01-01T00:00:00Z"
+    }
+  ]
+}
