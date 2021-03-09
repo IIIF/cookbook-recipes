@@ -28,8 +28,13 @@ This recipe presents an imaginary Collection containing 2 instances from the run
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="navdate-collection.json" %}
 
+### Collection
 {% include jsonviewer.html src="navdate-collection.json" config='data-line="19"' %}
+
+### Map from 1987
 {% include jsonviewer.html src="navdate_map_1-manifest.json" config='data-line="10"' %}
+
+### Map from 1988
 {% include jsonviewer.html src="navdate_map_2-manifest.json" config='data-line="10"' %}
 
 The direct link to the fixture is a useful convenience.
