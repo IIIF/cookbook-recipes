@@ -24,7 +24,7 @@ None known.
 
 ## Example
 
-Note that this recipe presents merely one Canvas with a `navDate` property in part due to the lack of viewer support for single-manifest date-aware navigation at this time. In comparison with the [Newspaper][0068] recipe, you may expand this example with other maps in this series, available at the [US Library of Congress](https://www.loc.gov/maps/?q=Chesapeake+and+Ohio+Canal&fa=contributor%3Aunited+states.+national+park+service&st=list&c=100).
+This recipe presents an imaginary Collection containing 2 instances from the run of a particular national park map held at the United States' Library of Congress. If you want to expand this example locally, you may find other maps in this series, at the [Library of Congress website](https://www.loc.gov/maps/?q=Chesapeake+and+Ohio+Canal&fa=contributor%3Aunited+states.+national+park+service&st=list&c=100).
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="navdate-collection.json" %}
 
