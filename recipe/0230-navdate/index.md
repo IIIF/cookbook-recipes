@@ -29,8 +29,8 @@ Note that this recipe presents merely one Canvas with a `navDate` property in pa
 {% include manifest_links.html viewers="UV, Mirador" manifest="navdate-collection.json" %}
 
 {% include jsonviewer.html src="navdate-collection.json" config='data-line="19"' %}
-{% include jsonviewer.html src="navdate_map_1-manifest.json" config='data-line="19"' %}
-{% include jsonviewer.html src="navdate_map_2-manifest.json" config='data-line="19"' %}
+{% include jsonviewer.html src="navdate_map_1-manifest.json" config='data-line="10"' %}
+{% include jsonviewer.html src="navdate_map_2-manifest.json" config='data-line="10"' %}
 
 The direct link to the fixture is a useful convenience.
 
