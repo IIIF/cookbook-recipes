@@ -26,9 +26,11 @@ None known.
 
 Note that this recipe presents merely one Canvas with a `navDate` property in part due to the lack of viewer support for single-manifest date-aware navigation at this time. In comparison with the [Newspaper][0068] recipe, you may expand this example with other maps in this series, available at the [US Library of Congress](https://www.loc.gov/maps/?q=Chesapeake+and+Ohio+Canal&fa=contributor%3Aunited+states.+national+park+service&st=list&c=100).
 
-{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador" manifest="navdate-collection.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="19"' %}
+{% include jsonviewer.html src="navdate-collection.json" config='data-line="19"' %}
+{% include jsonviewer.html src="navdate_map_1-manifest.json" config='data-line="19"' %}
+{% include jsonviewer.html src="navdate_map_2-manifest.json" config='data-line="19"' %}
 
 The direct link to the fixture is a useful convenience.
 
