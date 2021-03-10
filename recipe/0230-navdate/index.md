@@ -32,15 +32,14 @@ This recipe presents an imaginary Collection containing 2 instances from the run
 
 {% include jsonviewer.html src="navdate-collection.json" config='data-line="19"' %}
 
+### 1986 Map
+
+{% include jsonviewer.html src="navdate_map_2-manifest.json" config='data-line="10"' %}
+
 ### 1987 Map
 
 {% include jsonviewer.html src="navdate_map_1-manifest.json" config='data-line="10"' %}
 
-### 1988 Map
-
-{% include jsonviewer.html src="navdate_map_2-manifest.json" config='data-line="10"' %}
-
-The direct link to the fixture is a useful convenience.
 
 ## Related Recipes
 

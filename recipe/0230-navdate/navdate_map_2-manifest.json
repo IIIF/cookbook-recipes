@@ -4,17 +4,17 @@
   "type": "Manifest",
   "label": {
     "en": [
-      "1988 Chesapeake and Ohio Canal, Washington, D.C., Maryland, West Virginia, official map and guide"
+      "1986 Chesapeake and Ohio Canal, Washington, D.C., Maryland, West Virginia, official map and guide"
     ]
   },
-  "navDate": "1988-01-01T00:00:00Z",
+  "navDate": "1986-01-01T00:00:00Z",
   "items": [
     {
       "id": "{{ id.path }}/canvas/p1",
       "type": "Canvas",
       "label": {
         "en": [
-          "1988 Map, recto and verso, with a date of publication"
+          "1986 Map, recto and verso, with a date of publication"
         ]
       },
       "height": 7072,
