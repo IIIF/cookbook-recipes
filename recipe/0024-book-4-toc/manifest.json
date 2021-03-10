@@ -254,7 +254,7 @@
               "id": "{{ id.path }}/range/r2/1",
               "type": "Range",
               "label": {
-                "gez": [ "Monday" ]
+                "en": [ "Monday" ]
               },
               "items": [
                 {
@@ -271,7 +271,7 @@
               "id": "{{ id.path }}/range/r2/2",
               "type": "Range",
               "label": {
-                "gez": [ "Tuesday" ]
+                "en": [ "Tuesday" ]
               },
               "items": [
                 {
