@@ -25,16 +25,6 @@
   ],
   "items": [
     {
-      "id": "{{ id.path }}/navdate_map_1-manifest.json",
-      "type": "Manifest",
-      "label": {
-        "en": [
-            "1987 Chesapeake and Ohio Canal, Washington, D.C., Maryland, West Virginia, official map and guide"
-        ]
-      },
-      "navDate": "1987-01-01T00:00:00Z"
-    },
-    {
       "id": "{{ id.path }}/navdate_map_2-manifest.json",
       "type": "Manifest",
       "label": {
@@ -43,6 +33,16 @@
         ]
       },
       "navDate": "1986-01-01T00:00:00Z"
+    },
+    {
+      "id": "{{ id.path }}/navdate_map_1-manifest.json",
+      "type": "Manifest",
+      "label": {
+        "en": [
+            "1987 Chesapeake and Ohio Canal, Washington, D.C., Maryland, West Virginia, official map and guide"
+        ]
+      },
+      "navDate": "1987-01-01T00:00:00Z"
     }
   ]
 }
