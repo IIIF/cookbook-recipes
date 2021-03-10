@@ -48,6 +48,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * Transcription of audio and video
 * [Using Caption and Subtitles with Video Content][0219]
 * Transcription of content into XML, with XPaths to select a segment
+* [Providing Alternative Representations][0046]
 
 ## Other kinds of annotations
 _(leading on to segmentation examples later)_
