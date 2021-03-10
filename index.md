@@ -30,6 +30,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Image and Canvas with Differing Dimensions][0004] (26)
 * [Support Deep Viewing with Basic Use of a IIIF Image Service][0005] (24,25)
 * [Internationalization and Multi-language Values][0006] (3,4,6)
+* [Displaying Multiple Values with Language Maps][0118]
 * [Embedding HTML in descriptive properties][0007] (64)
 * [Metadata on any Resource][0029] (21)
 * [Rights statement\(s\)][0008] (7)
@@ -61,7 +62,7 @@ _(leading on to segmentation examples later)_
 
 ## Internal structure
 
-* table of contents (ranges) - book chapters
+* [Table of Contents for Book Chapters][0024]
 * table of contents (ranges) - articles in a newspaper
 * [Table of contents for A/V content][0026] (26)
 * Alternative Sequence (via `sequence` Range) (20,22,23)
