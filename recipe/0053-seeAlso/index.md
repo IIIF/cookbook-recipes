@@ -8,7 +8,7 @@ summary: "tbc"
 
 ## Use Case
 
-You have a IIIF manifest resource along with additional machine-readable metadata usable by aggregators and others that can process or index it via the `seeAlso` property. You know from previous experience that aggregators crawling your collection harvest best when handed structured metadata and are also then able to offer their readers faceting capabilities, making your resources amenable to focused discovery. Through use of the `seeAlso` property, you are able to alert an aggregator to the presence of a dataset so the aggregator can provide appropriate and sophisticated information about your resource to the aggregator's users.
+You have a IIIF manifest resource along with additional machine-readable metadata usable by aggregators and others that can process or index it via the [`seeAlso`](https://iiif.io/api/presentation/3.0/#seealso) property. You know from previous experience that aggregators crawling your collection harvest best when handed structured metadata and are also then able to offer their readers faceting capabilities, making your resources amenable to focused discovery. Through use of the `seeAlso` property, you are able to alert an aggregator to the presence of a dataset so the aggregator can provide appropriate and sophisticated information about your resource to the aggregator's users.
 
 ## Implementation Notes
 
