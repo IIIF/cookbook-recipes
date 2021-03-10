@@ -21,11 +21,11 @@ A transcription file, on the other hand, is a text-based representation of an au
 
 ## Restrictions
 
-Formats other than WebVTT (Web Video Text Tracks) are supported in IIIF, but may not be as widely supported in viewers.
+Formats other than [WebVTT](https://w3c.github.io/webvtt/) (Web Video Text Tracks) are supported in IIIF, but may not be as widely supported in viewers.
 
 ## Example
 
-In this example we use a caption file in the WebVTT format, but one could just as well use a subtitle file in the SRT format, or other text-based format used for the same purpose.
+In this example we use a caption file in the WebVTT format, but one could just as well use a subtitle file in the [SRT](https://en.wikipedia.org/wiki/SubRip) or [TTML](https://www.w3.org/TR/2018/REC-ttml1-20181108/) formats, or other text-based format used for the same purpose.
 
 {% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
 {% include jsonviewer.html src="manifest.json" config='data-line="35-45"'%}
