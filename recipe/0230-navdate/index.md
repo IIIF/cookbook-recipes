@@ -12,7 +12,9 @@ You have one or more IIIF resources that have dates associated with them, and wo
 
 ## Implementation Notes
 
-The `navDate` property, somewhat as implied by its name, allows a manifest to identify a pertinent date associated with an IIIF resource in order to help viewers provide users with date-aware navigation. This property is intended for consumption only by computer agents. More descriptive date ranges, intended for display directly to humans, should be included in `metadata` property entries.
+The `navDate` property, somewhat as implied by its name, allows a manifest to identify a pertinent date associated with an IIIF resource in order to help viewers provide users with date-aware navigation. Clients are not required to make use of `navDate`, and clients that do have date-aware navigation available may not default to that navigation interface.
+
+This property is intended for consumption only by computer agents. More descriptive date ranges, intended for display directly to humans, should be included in `metadata` property entries.
 
 The value of the `navDate` property must be an [XSD dateTime literal](https://www.w3.org/TR/xmlschema11-2/#dateTime) with a timezone. The timezone should be in the UTC + "Z" format, but may instead have the difference from UTC given in the value in the "+hh:mm" format. If a Canvas using `navDate` also contains a `duration` property, the `navDate` for that Canvas is the date and time of the start of the resource's content. Use "01" for an unknown or inexact month or day, and "00" for any unknown or inexact time portion.
 
