@@ -32,6 +32,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Internationalization and Multi-language Values][0006] (3,4,6)
 * [Displaying Multiple Values with Language Maps][0118]
 * [Embedding HTML in descriptive properties][0007] (64)
+* [Metadata on any Resource][0029] (21)
 * [Rights statement\(s\)][0008] (7)
 * [Simple Manifest - Book][0009] (19)
 * [Book behavior (paging) variations][0011] (15,16,17)
@@ -66,7 +67,6 @@ _(leading on to segmentation examples later)_
 * [Table of contents for A/V content][0026] (26)
 * Alternative Sequence (via `sequence` Range) (20,22,23)
 * `sequence` Range with partial canvases
-* metadata on any resource (21)
 
 ## Higher-level structure
 
