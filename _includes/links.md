@@ -24,7 +24,7 @@
 
 [0068]: {{site.baseurl}}/recipe/0068-newspaper/ "A newspaper"
 [0117]: {{site.baseurl}}/recipe/0117-add-image-thumbnail/ "Manifest Thumbnail"
-[0230]: {{site.baseurl}}/recipe/0230-navdate/ "Chronology with navDate"
+[0230]: {{site.baseurl}}/recipe/0230-navdate/ "Navigation by Chronology"
 
 [prezi3]: https://iiif.io/api/presentation/3 "IIIF Presentation API"
 [prezi3-languages]: https://iiif.io/api/presentation/3.0/#language-of-property-values "Language of Property Values"
