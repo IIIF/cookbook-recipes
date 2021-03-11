@@ -30,10 +30,12 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Image and Canvas with Differing Dimensions][0004] (26)
 * [Support Deep Viewing with Basic Use of a IIIF Image Service][0005] (24,25)
 * [Internationalization and Multi-language Values][0006] (3,4,6)
+* [Displaying Multiple Values with Language Maps][0118]
 * [Embedding HTML in descriptive properties][0007] (64)
+* [Metadata on any Resource][0029] (21)
 * [Rights statement\(s\)][0008] (7)
 * [Simple Manifest - Book][0009] (19)
-* [Book behavior (paging) variations][0011] (15,16,17) 
+* [Book behavior (paging) variations][0011] (15,16,17)
 * [Viewing direction and its effect on navigation][0010] (11,12,13,14)
 * [Manifest Thumbnail][0117]
 * thumbnail algorithm / discussion
@@ -47,6 +49,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 
 * Transcription of image-based content - various examples gathered (43,44,45,46,47,48)
 * Transcription of audio and video
+* [Using Caption and Subtitles with Video Content][0219]
 * Transcription of content into XML, with XPaths to select a segment
 * [Providing Alternative Representations][0046]
 
@@ -61,12 +64,11 @@ _(leading on to segmentation examples later)_
 
 ## Internal structure
 
-* table of contents (ranges) - book chapters
+* [Table of Contents for Book Chapters][0024]
 * table of contents (ranges) - articles in a newspaper
 * [Table of contents for A/V content][0026] (26)
 * Alternative Sequence (via `sequence` Range) (20,22,23)
 * `sequence` Range with partial canvases
-* metadata on any resource (21)
 
 ## Higher-level structure
 
@@ -99,7 +101,7 @@ _(leading on to segmentation examples later)_
 * Linking from external metadata to Image API
 * Linking from external metadata to Presentation API
 * Linking between Presentation API representations
-* seeAlso scenarios (incl other manifests) (8)
+* [Linking to Structured Metadata][0053] (8)
 
 ## Technical
 

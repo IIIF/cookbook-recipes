@@ -16,23 +16,30 @@
 [0014]: {{site.baseurl}}/recipe/0014-accompanyingcanvas/ "Audio Presentation with Accompanying Image"
 [0015]: {{site.baseurl}}/recipe/0015-start/ "Begin playback at a specific point - Time-based media"
 
+[0024]: {{site.baseurl}}/recipe/0024-book-4-toc/ "Table of Contents for Book Chapters"
 [0026]: {{site.baseurl}}/recipe/0026-toc-opera/ "Table of Contents for A/V Content"
+[0029]: {{site.baseurl}}/recipe/0029-metadata-anywhere/ "Metadata on any Resource"
+[0053]: {{site.baseurl}}/recipe/0053-seeAlso/ "Linking to Structured Metadata"
 [0046]: {{site.baseurl}}/recipe/0046-rendering/ "Providing Alternative Representations"
-
 [0064]: {{site.baseurl}}/recipe/0064-opera-one-canvas/ "Table of Contents for Multiple A/V Files on a Single Canvas"
 [0065]: {{site.baseurl}}/recipe/0065-opera-multiple-canvases/ "Table of Contents for Multiple A/V Files on Multiple Canvases"
 
+[0024]: {{site.baseurl}}/recipe/0024-book-4-toc/ "Book with Table of contents (ranges)"
+
 [0068]: {{site.baseurl}}/recipe/0068-newspaper/ "A newspaper"
 [0117]: {{site.baseurl}}/recipe/0117-add-image-thumbnail/ "Manifest Thumbnail"
+[0118]: {{site.baseurl}}/recipe/0118_multivalue/ "Displaying Multiple Values with Language Maps"
+[0219]: {{site.baseurl}}/recipe/0219-using-caption-file/ "Using Captions and Subtitles with Video Content"
 [0230]: {{site.baseurl}}/recipe/0230-navdate/ "Navigation by Chronology"
 
 [prezi3]: https://iiif.io/api/presentation/3 "IIIF Presentation API"
 [prezi3-languages]: https://iiif.io/api/presentation/3.0/#language-of-property-values "Language of Property Values"
+[prezi3-metadata]: https://iiif.io/api/presentation/3.0/#metadata "Metadata"
 [prezi3-service]: https://iiif.io/api/presentation/3.0/#service "IIIF Presentation API service property"
 [prezi3-thumbnail]: https://iiif.io/api/presentation/3.0/#thumbnail "Thumbnail"
 [prezi3-start]: https://iiif.io/api/presentation/3.0/#start "Start Property"
 [prezi3-openannotation]: https://iiif.io/api/annex/openannotation "IIIF Open/Web Annotation Extensions"
 [prezi3-pointselector]: https://iiif.io/api/annex/openannotation/#point-selector "PointSelector"
+[prezi3-range]: https://iiif.io/api/presentation/3.0/#54-range "Range"
 [service-registry]: https://iiif.io/api/registry/services/ "the IIIF Registry of Services"
-[language-of-property-values]: https://iiif.io/api/presentation/3.0/#44-language-of-property-values "Language of Property Values"
 [bcp-47]: https://tools.ietf.org/html/bcp47 "BCP 47"
