@@ -17,8 +17,8 @@
           "1986 Map, recto and verso, with a date of publication"
         ]
       },
-      "height": 7072,
-      "width": 5212,
+      "height": 1765,
+      "width": 1286,
       "items": [
         {
           "id": "{{ id.path }}/page/p1/1",
@@ -29,14 +29,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.io/api/image/3.0/example/reference/43153e2ec7531f14dd1c9b2fc401678a-88695674/full/max/0/default.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/43153e2ec7531f14dd1c9b2fc401678a-87691274-1986/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 7072,
-                "width": 5212,
+                "height": 1765,
+                "width": 1286,
                 "service": [
                   {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/43153e2ec7531f14dd1c9b2fc401678a-88695674/",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/43153e2ec7531f14dd1c9b2fc401678a-87691274-1986/",
                     "profile": "level1",
                     "type": "ImageService3"
                   }
