@@ -28,17 +28,22 @@ None known.
 
 This recipe presents an imaginary Collection containing 2 instances from the run of a particular national park map held at the United States' Library of Congress. If you want to expand this example locally, you may find other maps in this series, at the [Library of Congress website](https://www.loc.gov/maps/?q=Chesapeake+and+Ohio+Canal&fa=contributor%3Aunited+states.+national+park+service&st=list&c=100).
 
-{% include manifest_links.html viewers="UV, Mirador" manifest="navdate-collection.json" %}
 
 ### Collection
+
+{% include manifest_links.html viewers="UV, Mirador" manifest="navdate-collection.json" %}
 
 {% include jsonviewer.html src="navdate-collection.json" config='data-line="19"' %}
 
 ### 1986 Map
 
+{% include manifest_links.html viewers="UV, Mirador" manifest="navdate_map_2-manifest.json" %}
+
 {% include jsonviewer.html src="navdate_map_2-manifest.json" config='data-line="10"' %}
 
 ### 1987 Map
+
+{% include manifest_links.html viewers="UV, Mirador" manifest="navdate_map_1-manifest.json" %}
 
 {% include jsonviewer.html src="navdate_map_1-manifest.json" config='data-line="10"' %}
 
