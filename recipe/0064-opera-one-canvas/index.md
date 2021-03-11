@@ -21,7 +21,6 @@ Metadata and thumbnail properties have been added for more context. Implementati
 
 ## Example
 
-{% include manifest_links.html viewers="UV" manifest="manifest.json" %}
 {% include jsonviewer.html src="manifest.json" %}
 
 ## Related Recipes
