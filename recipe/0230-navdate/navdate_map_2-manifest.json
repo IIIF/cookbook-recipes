@@ -7,7 +7,7 @@
       "1986 Chesapeake and Ohio Canal, Washington, D.C., Maryland, West Virginia, official map and guide"
     ]
   },
-  "navDate": "1986-01-01T00:00:00Z",
+  "navDate": "1986-01-01T00:00:00+00:00",
   "items": [
     {
       "id": "{{ id.path }}/canvas/p1",
