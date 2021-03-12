@@ -33,7 +33,7 @@ This recipe presents an imaginary Collection containing 2 instances from the run
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="navdate-collection.json" %}
 
-{% include jsonviewer.html src="navdate-collection.json" config='data-line="19"' %}
+{% include jsonviewer.html src="navdate-collection.json" config='data-line="35,45"' %}
 
 ### 1986 Map
 
