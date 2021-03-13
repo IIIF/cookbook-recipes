@@ -7,12 +7,14 @@ import sys
 import urllib.request, json 
 from jsonschema import Draft7Validator
 from jsonschema.exceptions import ValidationError, SchemaError
+from schema import schemavalidator
 
+ignore = ['scripts']
 def findFilesToValidate(dirname):
     validation_files = []
     for root,d_names,files in os.walk(dirname):
         for filename in files:
-            if filename.endswith('json'):
+            if filename.endswith('json') and not 'scripts' in root:
                 validation_files.append(os.path.join(root, filename))
     
 
@@ -31,49 +33,29 @@ def printPath(pathObj, fields):
     return path    
 
 
-def validate(schema, jsonData):
-    try:
-        validator = Draft7Validator(schema)
-        results = validator.iter_errors(jsonData)
-    except SchemaError as err:    
-        print('Problem with the supplied schema:\n')
-        print(err)
+def validate(jsonData, filepath):
+    print ('*************************')
+    print ('Testing: {}'.format(filepath))
+    result = schemavalidator.validate(json.dumps(jsonData), '3.0', filepath)
+    if result['okay'] != 1:
+        # Failed validation
+        for error in result['errorList']:
+            print ('# {}'.format(error['title']))
+            print ('Detail: {}'.format(error['detail']))
+            print ('Path: {}'.format(error['path']))
+            print ('Description: {}'.format(error['description']))
+            print ('context:')
+            print (json.dumps(error['context'], indent=4))
 
-
-    errors = sorted(results, key=lambda e: e.path)
-    if errors:
-        print('Validation Failed')
-        errorCount = 1
-        for err in errors:
-            print('Error {} of {}.\n Message: {}'.format(errorCount, len(errors), err.message))
-            if 'title' in err.schema:
-                print (' Test message: {}'.format(err.schema['title']))
-            if 'description' in err.schema:
-                print (' Test description: {}'.format(err.schema['description']))
-            print('\n Path for error: {}'.format(printPath(err.path, err.message)))
-            context = err.instance
-            if isinstance(context,dict): 
-                for key in context:
-                    if isinstance(context[key], list): 
-                        context[key] = '[ ... ]'
-                    elif isinstance(context[key], dict):
-                        context[key] = '{ ... }'
-
-            print (json.dumps(err.instance, indent=4))
-            errorCount += 1
-
-        return False
-    else:
-        return True
+    print ('*************************')
+    return result['okay'] == 1
 
 if __name__ == "__main__":
-    files = findFilesToValidate("_site")
+    files = findFilesToValidate("../_site")
     # Get JSON Schema
-    with urllib.request.urlopen("https://raw.githubusercontent.com/IIIF/presentation-validator/master/schema/iiif_3_0.json") as url:
-        schema = json.loads(url.read().decode())
     allPassed = True
     for jsonFilename in files:
-        errorJsonFilename = jsonFilename.replace('_site/','')
+        errorJsonFilename = jsonFilename.replace('../_site/','')
         with open(jsonFilename) as json_file:
             try:
                 jsonData = json.load(json_file)
@@ -83,12 +65,10 @@ if __name__ == "__main__":
 
             if 'type' in jsonData:
                 if jsonData['type'] in ['Manifest', 'Collection']:
-                    passed = validate(schema, jsonData)
+                    passed = validate(jsonData, jsonFilename)
                     if not passed:
-                        print ('{}: failed validation'.format(errorJsonFilename))
                         allPassed = False
-                    else:    
-                        print ('{}: passed validation'.format(errorJsonFilename))
+                    # else it passed    
                 else:
                     print ('{}: Do not know how to validate JSON with type: {}'.format(errorJsonFilename, jsonData['type']))
             else:
@@ -96,5 +76,5 @@ if __name__ == "__main__":
     if allPassed:
         sys.exit(0)
     else:
-        print ('Failed validation')
+        print ('Failing build due to validation error')
         sys.exit(1)
