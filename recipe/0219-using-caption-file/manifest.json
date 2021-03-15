@@ -16,7 +16,7 @@
             "type": "AnnotationPage",
             "items": [
               {
-                "id": "{{ id.path }}/canvas/page/annotation",
+                "id": "{{ id.path }}/canvas/page/annotation1",
                 "type": "Annotation",
                 "motivation": "painting",
                 "body": [
@@ -27,18 +27,25 @@
                         "width": 480,
                         "duration": 572.034,
                         "format": "video/mp4"
-                    },
-                    {
-                        "id": "https://fixtures.iiif.io/video/indiana/lunchroom_manners/lunchroom_manners.vtt",
-                        "type": "Text",
-                        "format": "text/vtt",
-                        "label": {"en": [ "Captions in WebVTT format" ]},
-                        "language": "en"
                     }
-                ],
-                "target": "{{ id.path }}/canvas"
+                ]
+              },
+              {
+                "id": "{{ id.path }}/canvas/page/annotation2",
+                "type": "Annotation",
+                "motivation": "supplementing",
+                "body": [
+                  {
+                    "id": "https://fixtures.iiif.io/video/indiana/lunchroom_manners/lunchroom_manners.vtt",
+                    "type": "Text",
+                    "format": "text/vtt",
+                    "label": {"en": [ "Captions in WebVTT format" ]},
+                    "language": "en"
+                  }
+                ]
               }
-            ]
+            ],
+            "target": "{{ id.path }}/canvas"
           }
         ]
       }    
