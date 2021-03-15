@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document repository="default" id="1c26b425-97c3-42ba-8479-6cf2a6c45861">
+  <schema xmlns:dc="http://www.nuxeo.org/ecm/schemas/dublincore/" name="dublincore">
+    <dc:creator><![CDATA[ucla_upload]]></dc:creator>
+    <dc:modified><![CDATA[2019-07-30T20:28:37.000Z]]></dc:modified>
+    <dc:lastContributor><![CDATA[ucla_upload]]></dc:lastContributor>
+    <dc:created><![CDATA[2017-02-18T17:48:36.570Z]]></dc:created>
+    <dc:title><![CDATA[秋葉権現廻船話 [Akiba gongen kaisen-banashi] ; 後狂言双蝶々曲輪日記 [atokyōgen Futatsu chōchō kuruwa nikki] ; 切狂言五大力恋緘 [kirikyōgen Godairiki koi no fūjime]]]></dc:title>
+    <dc:contributors>
+      <item><![CDATA[ucla_upload]]></item>
+      <item><![CDATA[scottreed@ucla.edu]]></item>
+      <item><![CDATA[dchildress@library.ucla.edu]]></item>
+      <item><![CDATA[kdhanselman@gmail.com]]></item>
+      <item><![CDATA[sjlargaespada@gmail.com]]></item>
+    </dc:contributors>
+  </schema>
+  <schema xmlns:ucldc_schema="http://www.nuxeo.org/ecm/project/schemas/tingle-california-digita/ucldc_schema" name="ucldc_schema">
+    <ucldc_schema:alternativetitle>
+      <item><![CDATA[]]></item>
+    </ucldc_schema:alternativetitle>
+    <ucldc_schema:type><![CDATA[text]]></ucldc_schema:type>
+    <ucldc_schema:date>
+      <item>
+        <date><![CDATA[嘉永2年閏4月 [May, 1849]]]></date>
+        <single><![CDATA[1849-05]]></single>
+        <datetype><![CDATA[created]]></datetype>
+        <inclusivestart><![CDATA[]]></inclusivestart>
+        <inclusiveend><![CDATA[]]></inclusiveend>
+      </item>
+    </ucldc_schema:date>
+    <ucldc_schema:extent><![CDATA[4 leaves (4-chō) on double leaves (pouch binding/fukurotoji) : illustrations ; 196 x 135 mm]]></ucldc_schema:extent>
+    <ucldc_schema:rightsstatement><![CDATA[Material in the public domain. No restrictions on use.]]></ucldc_schema:rightsstatement>
+    <ucldc_schema:subjectname/>
+    <ucldc_schema:place>
+      <item>
+        <name><![CDATA[筑後芝居 [Chikugo no Shibai] (Theater)]]></name>
+        <source><![CDATA[]]></source>
+      </item>
+    </ucldc_schema:place>
+    <ucldc_schema:rightsstatus><![CDATA[publicdomain]]></ucldc_schema:rightsstatus>
+    <ucldc_schema:accessrestrict><![CDATA[public]]></ucldc_schema:accessrestrict>
+    <ucldc_schema:rightsholder/>
+    <ucldc_schema:publisher>
+      <item><![CDATA[大坂 : 本清（本屋玉置清七） [Osaka : Honsei (Hon'ya Tamaki Seishichi)]]]></item>
+    </ucldc_schema:publisher>
+    <ucldc_schema:contributor>
+      <item>
+        <role><![CDATA[Producer/Zamoto]]></role>
+        <nametype><![CDATA[persname]]></nametype>
+        <name><![CDATA[市川巳之助 [Ichikawa, Minosuke], Producer]]></name>
+      </item>
+    </ucldc_schema:contributor>
+    <ucldc_schema:description>
+      <item>
+        <item><![CDATA[嘉永２年閏４月の筑後芝居における「秋葉権現廻船話」、「双蝶々曲輪日記」、 「五大力恋緘」の絵尽及び役割番付；主な役者：２代目片岡我童、６代目市川海老蔵、２代目沢村其答、４代目三枡大五郎、初代中村歌六；表表紙に座本市川巳之助の家紋あり。]]></item>
+        <type><![CDATA[scopecontent]]></type>
+      </item>
+      <item>
+        <item><![CDATA[Playbill for "Akiba gongen kaisen-banashi," "Futatsu chōchō kuruwa nikki" and "Godairiki koi no fūjime" performed at the Chikugo Theater in Osaka from the fifth month of Kaei 2 (May, 1849); main actors: Gadō Kataoka II, Ebizō Ichikawa VI, Kitō Sawamura II, Daigorō Mimasu IV and Karoku Nakamura I; on front cover: producer Mominosuke Ichikawa's crest.]]></item>
+        <type><![CDATA[scopecontent]]></type>
+      </item>
+    </ucldc_schema:description>
+    <ucldc_schema:language>
+      <item>
+        <language><![CDATA[Japanese]]></language>
+      </item>
+    </ucldc_schema:language>
+    <ucldc_schema:relatedresource>
+      <item><![CDATA[秋葉権現廻船話 [Akiba gongen kaisen-banashi]]]></item>
+      <item><![CDATA[双蝶々曲輪日記 [Futatsu chōchō kuruwa nikki]]]></item>
+      <item><![CDATA[五大力恋緘 [Godairiki koi no fūjime]]]></item>
+      <item><![CDATA[]]></item>
+    </ucldc_schema:relatedresource>
+    <ucldc_schema:formgenre>
+      <item>
+        <heading><![CDATA[絵尽 [ezukushi]]]></heading>
+        <source><![CDATA[local]]></source>
+      </item>
+      <item>
+        <heading><![CDATA[役割番付 [yakuwari banzuke]]]></heading>
+        <source><![CDATA[local]]></source>
+      </item>
+      <item>
+        <heading><![CDATA[合羽摺 [kappazuri]]]></heading>
+        <source><![CDATA[local]]></source>
+      </item>
+      <item>
+        <heading><![CDATA[woodcuts]]></heading>
+        <source><![CDATA[aat]]></source>
+      </item>
+      <item>
+        <heading><![CDATA[playbills]]></heading>
+        <source><![CDATA[aat]]></source>
+      </item>
+      <item>
+        <heading><![CDATA[stencil printing]]></heading>
+        <source><![CDATA[aat]]></source>
+      </item>
+    </ucldc_schema:formgenre>
+    <ucldc_schema:subjecttopic/>
+    <ucldc_schema:creator/>
+    <ucldc_schema:localidentifier>
+      <item><![CDATA[PN2924.5 K3 K33 no.1]]></item>
+    </ucldc_schema:localidentifier>
+  </schema>
+</document>
