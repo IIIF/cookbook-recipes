@@ -27,7 +27,6 @@ Formats other than [WebVTT](https://w3c.github.io/webvtt/) (Web Video Text Track
 
 In this example we use a caption file in the WebVTT format, but one could just as well use a subtitle file in the [SRT](https://en.wikipedia.org/wiki/SubRip) (SubRip Text) or [TTML](https://w3c.github.io/ttml3/index.html) (Timed Text Markup Language) formats, or other text-based format used for the same purpose.
 
-{% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
 {% include jsonviewer.html src="manifest.json" config='data-line="38-56"'%}
 
 # Related recipes
