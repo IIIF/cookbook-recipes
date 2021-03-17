@@ -2,8 +2,8 @@
 title: Video with captions in multiple languages
 id: 74
 layout: recipe
-tags: [tbc]
-summary: "tbc"
+tags: [video, caption, subtitle, presentation]
+summary: "Representing the  relationship between a video file and its caption or subtitle files for multiple languages."
 ---
 
 
@@ -21,23 +21,17 @@ When is this pattern is usable / not usable? Is it deprecated? If it uses multip
 
 ## Example
 
-Describe in prose and provide examples, e.g.: 
+In this example we use... [tbc] 
 
-``` json-doc
-{
-  "@context": [
-    "http://www.w3.org/ns/anno.jsonld",
-    "http://iiif.io/api/presentation/{{ page.major }}/context.json"
-  ],
-  "id": "https://example.org/iiif/book1/manifest",
-  "type": "Manifest" 
-}
-```
+{% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
+{% include jsonviewer.html src="manifest.json" config='data-line="35-45"'%}
 
 # Related recipes
 
-Provide a bulleted list of related recipes and why they are relevant.
-
+- [Simplest Manifest - Video][0003]
+- [Transcription of Audio and Video][0017]
+- [Transformation - WebVTT or OHMS XML to Annotations][0079]
+- [Using Captions and Subtitles with Video Content][0219]
 
 {% include acronyms.md %}
 {% include links.md %}
