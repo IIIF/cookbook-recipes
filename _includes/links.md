@@ -22,6 +22,9 @@
 [0068]: {{site.baseurl}}/recipe/0068-newspaper/ "A newspaper"
 [0117]: {{site.baseurl}}/recipe/0117-add-image-thumbnail/ "Manifest Thumbnail"
 
+[0234]: {{site.baseurl}}/recipe/0234-provider/ "Identify content contributor with `provider`"
+
+
 [prezi3]: https://iiif.io/api/presentation/3 "IIIF Presentation API"
 [prezi3-languages]: https://iiif.io/api/presentation/3.0/#language-of-property-values "Language of Property Values"
 [prezi3-service]: https://iiif.io/api/presentation/3.0/#service "IIIF Presentation API service property"
