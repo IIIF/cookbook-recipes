@@ -35,13 +35,13 @@ At a minimum, the `thumbnail` property requires the `id` and `type` properties. 
   }
 ]
 ```
-This configuration, however, is not ideal in most cases since it offers the client no size choice and the sizes provided might be too small to meet the client's thumbnail size requirements. This will have significant impact on processing time if the client if forced to do the resizing, since it is more efficient to downsize an image than to request the perfect size. Likewise, if the client has to upscale the image, it may introduce artefacts and looks pixelated.
+This configuration, however, is not ideal in most cases as it offers the client no size choice and, if the sizes provided are too small to meet the client's thumbnail size requirements, this will have significant impact on processing time if the client is forced to do the resizing since it is more efficient to downsize an image than to request the perfect size. Likewise, if the client is required to upscale the image, it may introduce artefacts and look pixelated.
 
 The above scenario would most likely be implemented when the image used for the thumbnail is not a IIIF-image, such as thumbnails for A/V materials where publishers may not have a IIIF image server just for thumbnails.
 
 ### Thumbnails with a IIIF image service (recommended)
 
-For instances where the thumbnail is derived from a IIIF image, it is recommended that a [IIIF Image API](https://iiif.io/api/image/3.0/) service be included to enable resizing. It is also possible to include additional [JSON image response](https://iiif.io/api/image/3.0/#51-image-information-request) properties, such as `sizes`, to optimize thumbnail generation and delivery. Below are three options, beginning with the most robust configuration.
+For instances where the thumbnail is derived from a IIIF image, it is recommended that a [IIIF Image API](https://iiif.io/api/image/3.0/) service be included to allow the client more flexibility in choosing a thumbnail which fits into their interface. It is also possible to include additional [JSON image response](https://iiif.io/api/image/3.0/#51-image-information-request) properties, such as `sizes`, to optimize thumbnail generation and delivery. Below are three options, beginning with the most robust configuration.
 
 *"Deep" IIIF service with an unspecified image service level*
 
