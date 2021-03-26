@@ -35,7 +35,9 @@ At a minimum, the `thumbnail` property requires the `id` and `type` properties. 
   }
 ]
 ```
-This configuration, however, is not ideal in most cases since it offers the client no size choice and the sizes provided might not fit the client's thumbnail size requirements. This will have significant impact on processing time if the client if forced to do the resizing. The above would most likely be implemented when the image used for the thumbnail is not a IIIF-image, such as thumbnails for A/V materials where publishers may not have a IIIF image server just for thumbnails.
+This configuration, however, is not ideal in most cases since it offers the client no size choice and the sizes provided might be too small to meet the client's thumbnail size requirements. This will have significant impact on processing time if the client if forced to do the resizing, since it is more efficient to downsize an image than to request the perfect size. Likewise, if the client has to upscale the image, it may introduce artefacts and looks pixelated.
+
+The above scenario would most likely be implemented when the image used for the thumbnail is not a IIIF-image, such as thumbnails for A/V materials where publishers may not have a IIIF image server just for thumbnails.
 
 ### Thumbnails with a IIIF image service (recommended)
 
