@@ -8,9 +8,15 @@ summary: "Implementation discussion for specifying thumbnails on Resources, such
 
 ## Use Case
 
-As a publisher of a Manifest, you may choose to declare thumbnail images on Canvases in order to optimize thumbnail generation and display by viewing clients, such as Mirador and Universal Viewer. While it is not necessary to declare a thumbnail on Canvases since clients SHOULD render thumbnails from the Resource, doing so can increase the efficiency with which thumbnails load in a viewer. This is especially noticeable in Manifests that have many Canvases, such as books and manuscripts with many high-resolution images.
+This implementation note describes several approaches to specifying thumbnail images on resources in a IIIF Manifest using the `thumbnail` property.
 
-This recipe outlines several different approaches to declaring thumbnails and discusses the benefits and limitations for each, and provides suggestions to clients for processing thumbnails. For a more general introduction to thumbnails, see the [Image Thumbnail for Manifest][0117] recipe.
+While it is not always necessary to declare a thumbnail on Canvases since clients SHOULD render thumbnails from the Resource, there are several scenarios that warrant thumbnails on Canvases and other resource types:
+* A thumbnail is desirable to represent a Collection or Manifest in a list (Collection)
+* A Canvas has multiple resources that make up the view
+* A content resource is an option in a Choice of resources
+* A Manifest has many Canvases with many high-resolution images and you wish to optimize thumbnail generation and display by viewing clients
+
+This discussion below outlines the benefits and limitations for the different approaches, and provides suggestions to clients for processing thumbnails. For a more general introduction to thumbnails, see the [Image Thumbnail for Manifest][0117] recipe.
 
 ## Implementation Notes
 
@@ -47,7 +53,7 @@ This configuration provides sizes that are "pre-cached"
   "width":100,
   "height":100,
   "service":{
-    "@id":"https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001",
+    "@id":"iiif_image_url",
     "type": "ImageService3",
     "profile": "level1",
     "width":5000,
@@ -73,7 +79,7 @@ This configuration provides sizes that are "pre-cached"
   "width":100,
   "height":100,
   "service":{
-      "@id":"iiif image url",
+      "@id":"iiif_image_url",
       "profile":"https://iiif.io/api/image/3/level0.json",
       "width":5000,
       "height":5000,
