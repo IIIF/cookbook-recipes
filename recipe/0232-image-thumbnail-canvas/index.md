@@ -1,5 +1,5 @@
 ---
-title: Implementation note: Thumbnails
+title: "Implementation note: Thumbnails"
 id: 232
 layout: recipe
 tags: [image, presentation]
