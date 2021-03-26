@@ -3,7 +3,7 @@ title: Implementation note: Thumbnails
 id: 232
 layout: recipe
 tags: [image, presentation]
-summary: "Display a thumbnail image for a Canvas resource, such that it can be used by clients to represent the object."
+summary: "Implementation discussion for specifying thumbnails on Resources, such that they can be used by clients to represent the object."
 ---
 
 ## Use Case
