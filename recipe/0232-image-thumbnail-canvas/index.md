@@ -91,7 +91,7 @@ This configuration provides sizes that are "pre-cached"
 }
 ```
 
-*"Shallow" IIIF service with an unspecified image service level*
+*"Shallow" IIIF service*
 
 ```json
 "thumbnail":{
