@@ -10,11 +10,13 @@ summary: "Display a thumbnail image for a Canvas resource, such that it can be u
 
 As a publisher of a Manifest, you may choose to declare thumbnail images on Canvases in order to optimize thumbnail generation and display by viewing clients, such as Mirador and Universal Viewer. While it is not necessary to declare a thumbnail on Canvases since clients SHOULD render thumbnails from the Resource, doing so can increase the efficiency with which thumbnails load in a viewer. This is especially noticeable in Manifests that have many Canvases, such as books and manuscripts with many high-resolution images.
 
-This recipe outlines several different approaches to declaring thumbnails and discusses the benefits, drawbacks, and requirements for each. For a more general introduction to thumbnails, see the [Image Thumbnail for Manifest][0117] recipe.
+This recipe outlines several different approaches to declaring thumbnails and discusses the benefits and limitations for each, and provides suggestions to clients for processing thumbnails. For a more general introduction to thumbnails, see the [Image Thumbnail for Manifest][0117] recipe.
 
 ## Implementation Notes
 
-At a minimum, the `thumbnail` property requires the `id` and `type` properties. It is highly recommended to include `format`, `height` and `width` properties.
+### Minimal thumbnail requirements
+
+At a minimum, the `thumbnail` property requires the `id` and `type` properties. It is highly recommended to include `format`, `height` and `width` properties as well.
 
 ```json
 "thumbnail": [
@@ -22,20 +24,24 @@ At a minimum, the `thumbnail` property requires the `id` and `type` properties. 
     "id": "https://example.org/img/thumb.jpg",
     "type": "Image",
     "format": "image/jpeg",
-    "width": 200,
-    "height": 300
+    "width": 100,
+    "height": 100
   }
 ]
 ```
+This configuration, however, is not ideal in most cases since it offers the client no size choice and the sizes provided might not fit the client's thumbnail size requirements. This will have significant impact on processing time if the client if forced to do the resizing. The above would most likely be implemented when the image used for the thumbnail is not a IIIF-image, such as thumbnails for A/V materials where publishers may not have a IIIF image server just for thumbnails.
 
+### Thumbnails with a IIIF image service (recommended)
 
-When the images are IIIF images, it is recommended that a [IIIF Image API](https://iiif.io/api/image/3.0/) service be included to enable resizing. It is also possible to include additional [JSON image response](https://iiif.io/api/image/3.0/#51-image-information-request) properties, such as `sizes` or `tiles`, to potentially optimize thumbnail generation and delivery.
+For instances where the thumbnail is derived from a IIIF image, it is recommended that a [IIIF Image API](https://iiif.io/api/image/3.0/) service be included to enable resizing. It is also possible to include additional [JSON image response](https://iiif.io/api/image/3.0/#51-image-information-request) properties, such as `sizes`, to optimize thumbnail generation and delivery. Below are three options, beginning with the most robust configuration.
 
-### Thumbnail with "deep" IIIF image service (recommended option when the thumbnail image is a IIIF image)
+*"Deep" IIIF service with an unspecified image service level*
+
+This configuration provides sizes that are "pre-cached"
 
 ```json
 "thumbnail":{
-  "@id":"https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001/full/max/0/default.jpg",
+  "@id":"url_to_image",
   "type": "Image",
   "format": "image/jpg",
   "width":100,
@@ -44,22 +50,61 @@ When the images are IIIF images, it is recommended that a [IIIF Image API](https
     "@id":"https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001",
     "type": "ImageService3",
     "profile": "level1",
-    "width":3497,
-    "height":4823,
+    "width":5000,
+    "height":5000,
     "sizes":[
       {
-         "width":,
-         "height":
+         "width":200,
+         "height":200
       },
       {
-         "width":,
-         "height":
+         "width":500,
+         "height":500
       }
     ]
   }
 },
 ```
+*"Deep" IIIF service with a level 0 image service*
 
+```json
+"thumbnail":{
+  "@id":"url_to_image",
+  "width":100,
+  "height":100,
+  "service":{
+      "@id":"iiif image url",
+      "profile":"https://iiif.io/api/image/3/level0.json",
+      "width":5000,
+      "height":5000,
+      "sizes":[
+         {
+            "width":200,
+            "height":200
+         },
+         {
+            "width":500,
+            "height":500
+         }
+       ]
+  }
+}
+```
+
+*"Shallow" IIIF service with an unspecified image service level*
+
+```json
+"thumbnail":{
+  "@id":"url_to_image",
+  "width":100,
+  "height":100,
+  "service":{
+     "@id":"iiif image url",
+     "width":5000,
+     "height":5000
+  }
+}
+```
 
 
 ## Restrictions

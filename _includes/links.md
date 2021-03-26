@@ -24,10 +24,9 @@
 [0064]: {{site.baseurl}}/recipe/0064-opera-one-canvas/ "Table of Contents for Multiple A/V Files on a Single Canvas"
 [0065]: {{site.baseurl}}/recipe/0065-opera-multiple-canvases/ "Table of Contents for Multiple A/V Files on Multiple Canvases"
 
-[0024]: {{site.baseurl}}/recipe/0024-book-4-toc/ "Book with Table of contents (ranges)"
-
 [0068]: {{site.baseurl}}/recipe/0068-newspaper/ "A newspaper"
 [0117]: {{site.baseurl}}/recipe/0117-add-image-thumbnail/ "Manifest Thumbnail"
+[0232]: {{site.baseurl}}/recipe/0232-image-thumbnail-canvas/ "Image Thumbnails on Canvases"
 [0219]: {{site.baseurl}}/recipe/0219-using-caption-file/ "Using Captions and Subtitles with Video Content"
 
 [0118]: {{site.baseurl}}/recipe/0118_multivalue/ "Displaying Multiple Values with Language Maps"

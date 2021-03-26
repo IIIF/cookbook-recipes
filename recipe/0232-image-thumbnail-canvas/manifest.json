@@ -4,17 +4,16 @@
   "type": "Manifest",
   "label": {
     "en": [
-      "Book with Right-to-Left Viewing Direction"
+      "..."
     ]
   },
-  "viewingDirection": "right-to-left",
   "items": [
     {
       "id": "{{ id.path }}/canvas/p1",
       "type": "Canvas",
       "label": {
         "en": [
-          "front cover"
+          "..."
         ]
       },
       "thumbnail":{
@@ -77,7 +76,7 @@
       "type": "Canvas",
       "label": {
         "en": [
-          "pages 1–2"
+          "..."
         ]
       },
       "width": 6062,
@@ -116,7 +115,7 @@
       "type": "Canvas",
       "label": {
         "en": [
-          "pages 3–4"
+          "..."
         ]
       },
       "width": 6127,
@@ -155,7 +154,7 @@
       "type": "Canvas",
       "label": {
         "en": [
-          "pages 5–6"
+          "..."
         ]
       },
       "width": 6124,
@@ -194,7 +193,7 @@
       "type": "Canvas",
       "label": {
         "en": [
-          "back cover"
+          "..."
         ]
       },
 			"width": 3510,
