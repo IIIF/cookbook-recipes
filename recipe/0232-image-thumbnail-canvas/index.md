@@ -119,6 +119,8 @@ Alternatively, we could change the image service profile to level 0, preventing 
 
 ## Example
 
+The Manifest below contains examples of the four options presented above: a Manifest thumbnail using the minimum recommended requirements, and three Canvases using the same source image, each with one of the three image service thumbnail configurations.
+
 {% include manifest_links.html viewers="Mirador, UV" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
