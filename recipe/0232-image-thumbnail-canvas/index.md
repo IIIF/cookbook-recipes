@@ -59,7 +59,7 @@ For instances where the thumbnail is derived from a IIIF image, it is recommende
 
 In this configuration, one would expect the viewing client to first attempt to use the given thumbnail size, then, if the image is too small, to use the IIIF image service. This approach might be a good option for Collection or Manifest thumbnails, but for Canvases this method would simply duplicate the image service for the Canvas resource and we gain nothing in terms of performance in cases where the client ignores the given thumbnail size in favor of the image service.
 
-Since adding a service alone doesn't gain us anything, we can take it a step further by including all or a selection of pre-cached sizes from the [JSON image response](https://iiif.io/api/image/3.0/#51-image-information-request). Advertising the appropriate pre-cached sizes ... level 0 image service ... optimize thumbnail generation and delivery.
+Since adding a service alone doesn't gain us anything, we can take it a step further by including all or a selection of pre-cached sizes from the [JSON image response](https://iiif.io/api/image/3.0/#51-image-information-request). Advertising the appropriate pre-cached sizes ...  ... optimize thumbnail generation and delivery.
 
 ```json
 "thumbnail":{
@@ -70,7 +70,7 @@ Since adding a service alone doesn't gain us anything, we can take it a step fur
   "height":100,
   "service":{
     "@id":"iiif_image_url",
-    "profile": "https://iiif.io/api/image/3/level0.json",
+    "profile": "https://iiif.io/api/image/3/level1.json",
     "width":5000,
     "height":5000,
     "sizes":[
@@ -86,9 +86,9 @@ Since adding a service alone doesn't gain us anything, we can take it a step fur
   }
 },
 ```
-In this configuration, one might expect the client to first try the given thumbnail size, then if too small, use the pre-cached image from the image service (choosing the best size, probably something just larger). If none of the pre-cached sizes are appropriate, then the client would ???
+In this configuration, one might expect the client to first try the given thumbnail size, then if too small, use the pre-cached image from the image service (choosing the best size, probably something just larger). If none of the pre-cached sizes are appropriate, then the client could request custom if needed. In this configuration, we are giving the client a few options to try before resorting to a custom image request.
 
-Alternatively, we could change the image service profile to level 1 or level 2 to allow the client to request custom sizes where needed...
+Alternatively, we could change the image service profile to level 0, preventing the client from requesting a custom size. This might be appropriate where the image service is level 0 or when we prefer to limit... (what would the client do? create it's own custom size? throw an error?)
 
 ```json
 "thumbnail":{
@@ -97,7 +97,7 @@ Alternatively, we could change the image service profile to level 1 or level 2 t
   "height":100,
   "service":{
       "@id":"iiif_image_url",
-      "profile":"https://iiif.io/api/image/3/level1.json",
+      "profile":"https://iiif.io/api/image/3/level0.json",
       "width":5000,
       "height":5000,
       "sizes":[
