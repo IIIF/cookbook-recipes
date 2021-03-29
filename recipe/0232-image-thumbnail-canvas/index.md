@@ -15,7 +15,7 @@ While it is not always necessary to declare a thumbnail, there are several scena
 * When a Canvas has multiple resources that make up the view
 * When a content resource is an option in a Choice of resources
 
-Additionally, while it is not necessary to declare a thumbnail on a Canvas since clients SHOULD render thumbnails from the Resource, doing so can increase the efficiency with which thumbnails load in a viewer. This is especially noticeable in Manifests that have many Canvases, such as books and manuscripts with many high-resolution images. In these cases, and where thumbnails are loaded into the viewer, the viewer is tasked with handling tile requests for all of the source images simultaneously – a resource-intensive task for any viewing client.
+Additionally, while it is not necessary to declare a thumbnail on a Canvas since clients SHOULD render thumbnails from the Resource, doing so can increase the efficiency with which thumbnails load in a viewer. This is especially noticeable in Manifests that have many Canvases, such as books and manuscripts with many high-resolution images. In these cases, and where thumbnails are loaded into the viewer, the viewer is tasked with handling tile requests for all of the source images simultaneously – a resource-intensive task for a viewing client.
 
 other options for mitigating performance issues, such as caching or pre-caching so the thumbnails are "pre-warmed" - but IIIF also allows publishers of Manifests to provide clues to the viewing client, directing it on how to process thumbnails. This implementation note focuses on outlining several approaches, especially in the context of Canvases, discussing their benefits and limitations, and providing recommendations to clients for processing thumbnails. For a more general introduction to thumbnails, see the [Image Thumbnail for Manifest][0117] recipe.
 
@@ -36,7 +36,7 @@ At a minimum, the `thumbnail` property requires the `id` and `type` properties. 
   }
 ]
 ```
-This configuration, however, is not ideal in most cases as it offers the client no size choice and, if the sizes provided are too small to meet the client's thumbnail requirements, this will have significant impact on processing time if the client is forced to do the resizing since it is more efficient to downsize an image than to request the perfect size. Likewise, if the client is required to upscale the image, it may introduce artefacts and look pixelated.
+This configuration is not ideal in most cases as it offers the client no size choice and, if the sizes provided are too small to meet the client's thumbnail requirements, this will have significant impact on processing time if the client is forced to do the resizing since it is more efficient to downsize an image than to request the perfect size. Likewise, if the client is required to upscale the image, it may introduce artefacts and look pixelated.
 
 The configuration above would be appropriate in cases where the image used for the thumbnail is not a IIIF-image, such as thumbnails for A/V materials where publishers may not have a IIIF image server just for thumbnails.
 
@@ -86,9 +86,9 @@ Since adding a service alone doesn't gain us anything, we can take it a step fur
   }
 },
 ```
-In this configuration, one might expect the client to first try the given thumbnail size, then if too small, use the pre-cached image from the image service (choosing the best size, probably something just larger). If none of the pre-cached sizes are appropriate, then the client could request custom if needed. In this configuration, we are giving the client a few options to try before resorting to a custom image request.
+In this configuration, one might expect the client to first try the given thumbnail size, then if too small, use the pre-cached image from the image service (choosing the best size, probably something just larger). If none of the pre-cached sizes are appropriate, then the client could request a custom size if needed. Here, we are giving the client a few options to try before resorting to a custom image request.
 
-Alternatively, we could change the image service profile to level 0, preventing the client from requesting a custom size. This might be appropriate where the image service is level 0 or when we prefer to limit... (what would the client do? create it's own custom size? throw an error?)
+Alternatively, we could change the image service profile to level 0, preventing the client from requesting a custom size. This might be appropriate where the image service is level 0 or where we do not want the client to request a custom size ... (what would the client do? create it's own custom size? throw an error?)
 
 ```json
 "thumbnail":{
