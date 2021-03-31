@@ -1,9 +1,9 @@
 ---
-title: Acknowledge Content Contributors with `provider`
+title: Acknowledge Content Contributors
 id: 234
 layout: recipe
-tags: [tbc]
-summary: "tbc"
+tags: provider
+summary: "Include a rich set of information for each content contributor so clients can make this information visible."
 ---
 
 ## Use Case
@@ -12,8 +12,14 @@ You have a IIIF resource for which you would like to include information about o
 
 ## Implementation Notes
 
-What do you need to know to use this pattern?
-How do you implement the pattern?
+So that a client can display one or more content contributors for a resource, the `provider` property conveys information in the form of an Agent resource. This resource must contain, at a minimum:
++ `id`, an authoritative and unique URI for the contributor,
++ `type`, always the string "Agent", and
++ `label`, a human-readable name for the contributor.
+
+In addition, `provider` is structured data, can contain multiple Agents, and can contain information about assets other than plain text, distinguishing it from [`requiredStatement`](https://iiif.io/api/presentation/3.0/#requiredstatement).
+
+To make the information more usable and interconnected for a reader, `provider` as an Agent is strongly recommended to have both [`homepage`](https://iiif.io/api/presentation/3.0/#homepage) and [`logo`](https://iiif.io/api/presentation/3.0/#logo) properties. These will allow a reader to go to the contributor's website and find more. Note that the `id` for the Agent may, but does not have to be, the same as the `id` for the `homepage`.
 
 ## Restrictions
 
@@ -21,17 +27,20 @@ None known.
 
 ## Example
 
-Describe the solution in prose and provide an example.
-The example json document must be an external document, and imported with the following:
+In this example, we reuse the front page of a kabuki playbill that was contributed to the IIIF Cookbook by UCLA Library Digital Collections. The `id` for them as an Agent is the US Library of Congress authority ID for the UCLA Library, the `homepage` is their actual homepage, the `logo` is also for the library as a whole, and the `seeAlso` is the US Library of Congress MADS/XML. In your use of this property, you might want to and be able to unify the information in the property differently.
 
-{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
+To see the information from `provider` in Mirador, use the "Add Resource" action or icon (white and blue plus-in-a-circle) to bring up the interface for adding a resource. The current resource should show information about the UCLA Library.
+
+{% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 
 ## Related Recipes
 
-* [FPO related recipe 01][0005]
-* [FPO related recipe 02][0005]
+* [homepage][0047] for demonstrating the use of `homepage`
+* [Add Identifying Graphic][0217] for demonstrating the use of `logo`
+* [Linking to Structured Metadata][0230] for demonstrating the use of `seeAlso`
+* [Rights][0008] for demonstrating use of `requiredStatement`
 
 {% include acronyms.md %}
 {% include links.md %}
