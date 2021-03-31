@@ -36,11 +36,11 @@
       ],
       "logo": [
         {
-          "id": "https://www.yale.edu/sites/all/themes/yale_blue/images/logo-print.png",
+          "id": "https://iiif.io/img/logo-iiif-34x30.png",
           "type": "Image",
           "format": "image/png",
-          "height": 76,
-          "width": 169
+          "height": 30,
+          "width": 34
         }
       ],
       "seeAlso": [
