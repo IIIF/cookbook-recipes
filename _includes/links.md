@@ -22,7 +22,7 @@
 [0068]: {{site.baseurl}}/recipe/0068-newspaper/ "A newspaper"
 [0117]: {{site.baseurl}}/recipe/0117-add-image-thumbnail/ "Manifest Thumbnail"
 
-[0234]: {{site.baseurl}}/recipe/0234-provider/ "Identify content contributor with `provider`"
+[0234]: {{site.baseurl}}/recipe/0234-provider/ "Acknowledge Content Contributors"
 
 
 [prezi3]: https://iiif.io/api/presentation/3 "IIIF Presentation API"
