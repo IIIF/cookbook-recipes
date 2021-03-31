@@ -4,23 +4,54 @@
   "type": "Manifest",
   "label": {
     "en": [
-      "Playbill Cover with Manifest Thumbnail"
+      "Playbill Cover"
     ]
   },
   "summary": {
     "en": [
-      "Cover of playbill for \"Akiba gongen kaisen-banashi,\" \"Futatsu chōchō kuruwa nikki\" and \"Godairiki koi no fūjime\" performed at the Chikugo Theater in Osaka from the fifth month of Kaei 2 (May, 1849); main actors: Gadō Kataoka II, Ebizō Ichikawa VI, Kitō Sawamura II, Daigorō Mimasu IV and Karoku Nakamura I; on front cover: producer Mominosuke Ichikawa's crest."
+      "Cover of playbill for \"Akiba gongen kaisen-banashi,\" \"Futatsu chōchō kuruwa nikki\" and \"Godairiki koi no fūjime\" performed at the Chikugo Theater in Osaka from the fifth month of Kaei 2 (May, 1849); main actors: Gadō Kataoka II, Ebizō Ichikawa VI, Kitō Sawamura II, Daigorō Mimasu IV, and Karoku Nakamura I; on front cover: producer Mominosuke Ichikawa's crest."
     ]
   },
   "provider": [
     {
-      "id": "https://ucla.edu",
+      "id": "https://id.loc.gov/authorities/n79055331",
       "type": "Agent",
       "label": {
         "en": [
-          "University of California at Los Angeles Library"
+          "UCLA Library"
         ]
-      }
+      },
+      "homepage": [
+        {
+          "id": "https://digital.library.ucla.edu/",
+          "type": "Text",
+          "label": {
+            "en": [
+              "UCLA Library Digital Collections"
+            ]
+          },
+          "format": "text/html",
+          "language": ["en"]
+        }
+      ],
+      "logo": [
+        {
+          "id": "https://www.yale.edu/sites/all/themes/yale_blue/images/logo-print.png",
+          "type": "Image",
+          "format": "image/png",
+          "height": 76,
+          "width": 169
+        }
+      ],
+      "seeAlso": [
+      	{
+      		"id": "https://id.loc.gov/authorities/names/n79055331.madsxml.xml",
+      		"type": "Dataset",
+      		"label": {"en": ["Wikidata about the UCLA Library"]},
+      		"format": "application/xml",
+      		"profile": "http://www.loc.gov/mads/v2"
+      	}
+      ]
     }
   ],
   "items": [
