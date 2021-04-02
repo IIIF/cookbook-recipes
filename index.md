@@ -60,6 +60,7 @@ _(leading on to segmentation examples later)_
 * tagging
 * hotspot linking
 * Annotation in the context of a particular content resource https://github.com/IIIF/iiif-stories/issues/101
+* [Geographic coordinates][0139]
 
 ## Internal structure
 
@@ -130,6 +131,7 @@ _(leading on to segmentation examples later)_
 * Video with captions in multiple languages
 * Mixed Image Service references (a mashup, with img2 and img3 services)
 * Glenn Gould - score and performance scenarios (transcribing)
+* A Map
 
 ## Access Control
 _this might be in a separate auth cookbook_
