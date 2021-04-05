@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "{{ id.url }}",
   "type": "Collection",
-  "label": { "jp": [ " 青楼絵本年中行事 [Seirō ehon nenjū gyōji]" ] },
+  "label": { "jp": [ "青楼絵本年中行事 [Seirō ehon nenjū gyōji]" ] },
   "behavior": ["multi-part"],
 
   "items": [

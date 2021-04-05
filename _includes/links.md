@@ -17,7 +17,7 @@
 [0015]: {{site.baseurl}}/recipe/0015-start/ "Begin playback at a specific point - Time-based media"
 
 [0026]: {{site.baseurl}}/recipe/0026-toc-opera/ "Table of Contents for A/V Content"
-[0030]: {{site.baseurl}}/recipe/0030-multi-volume/ "Multi-volume Work"
+[0030]: {{site.baseurl}}/recipe/0030-multi-volume/ "Multi-volume Work with Individually-bound Volumes"
 [0046]: {{site.baseurl}}/recipe/0046-rendering/ "Providing Alternative Representations"
 [0064]: {{site.baseurl}}/recipe/0064-opera-one-canvas/ "Table of Contents for Multiple A/V Files on a Single Canvas"
 [0065]: {{site.baseurl}}/recipe/0065-opera-multiple-canvases/ "Table of Contents for Multiple A/V Files on Multiple Canvases"

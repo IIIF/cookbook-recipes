@@ -1,5 +1,5 @@
 ---
-title: Multi-volume work
+title: Multi-volume Work with Individually-bound Volumes
 id: 30
 layout: recipe
 tags: [tbc]
@@ -28,13 +28,19 @@ In this example, we have a Japanese book in two volumes. The first resource is a
 
 Following the Collection resource are the two Manifests for vol. 1 and vol. 2 that are included in the `items` property of the Collection. Note that these Manifests use the `behavior` property value `individuals`. The book volumes were imaged as two-page spreads, so should not be presented as `paged`. The default value of the `behavior` property is `individuals`, so the property could be omitted. Including the property makes it clear that this is intentional. For more information on the `behavior` property, see the [Book behavior (paging) variations][0011] recipe.
 
+**Example Collection for the multi-volume work *青楼絵本年中行事 [Seirō ehon nenjū gyōji]*:**
+
 {% include manifest_links.html viewers="UV, Mirador" manifest="collection.json" %}
 
 {% include jsonviewer.html src="collection.json" config='data-line="4, 10-12"' %}
 
+**Example Manifest for vol. 1 of *青楼絵本年中行事 [Seirō ehon nenjū gyōji]*:**
+
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest_v1.json" %}
 
 {% include jsonviewer.html src="manifest_v1.json" %}
+
+**Example Manifest for vol. 2 of *青楼絵本年中行事 [Seirō ehon nenjū gyōji]*:**
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest_v2.json" %}
 
