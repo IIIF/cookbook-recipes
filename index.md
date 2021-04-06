@@ -73,7 +73,7 @@ _(leading on to segmentation examples later)_
 
 ## Higher-level structure
 
-* multi-volume work
+* [Multi-volume Work with Individually-bound Volumes][0030]
 * bound multi-volume work
 * paged Collections (from #1343)
 
