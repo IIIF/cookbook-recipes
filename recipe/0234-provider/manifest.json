@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "{{ id.url }} ",
+  "id": "{{ id.url }}",
   "type": "Manifest",
   "label": {
     "en": [
@@ -53,7 +53,7 @@
       	{
       		"id": "https://id.loc.gov/authorities/names/n79055331.madsxml.xml",
       		"type": "Dataset",
-      		"label": {"en": ["Wikidata about the UCLA Library"]},
+      		"label": {"en": ["US Library of Congress data about the UCLA Library"]},
       		"format": "application/xml",
       		"profile": "http://www.loc.gov/mads/v2"
       	}
