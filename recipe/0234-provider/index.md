@@ -8,7 +8,7 @@ summary: "Include a rich set of information for each content contributor so clie
 
 ## Use Case
 
-You have a IIIF resource for which you would like to include information about one or more organizations or people that contributed to providing the content of the resource. You want to include a rich set of information for each contributor so clients can make visible this information in a similarly robust way. The [`provider`](https://iiif.io/api/presentation/3.0/#provider) property allows you an elastic way to acknowledge contributions with as little as a name and as much as a name, `homepage`, one or more `logo`s, and a `seeAlso` machine-readable description for the contributor.
+You have a IIIF resource for which you would like to include information about one or more organizations or people that contributed to providing the content of the resource. You want to include a rich set of information for each contributor so clients can make visible this information in a similarly robust way. The [`provider`](https://iiif.io/api/presentation/3.0/#provider) property allows you an extensible way to acknowledge contributions with as little as a `label` and as much as a `label`, `homepage`, a `logo`, and a `seeAlso` machine-readable description for the contributor.
 
 ## Implementation Notes
 
@@ -29,9 +29,9 @@ None known.
 
 In this example, we reuse the front page of a kabuki playbill that was contributed to the IIIF Cookbook by UCLA Library Digital Collections. The `id` for them as an Agent is the US Library of Congress authority ID for the UCLA Library, the `homepage` is their actual homepage, the `logo` is also for the library as a whole, and the `seeAlso` is the US Library of Congress MADS/XML. In your use of this property, you might want to and be able to unify the information in the property differently.
 
-To see the information from `provider` in Mirador, use the "Add Resource" action or icon (white and blue plus-in-a-circle) to bring up the interface for adding a resource. The current resource should show information about the UCLA Library.
+No viewer currently implements `provider` sufficiently fully and correctly.
 
-{% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
+{% include manifest_links.html viewers="" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 
