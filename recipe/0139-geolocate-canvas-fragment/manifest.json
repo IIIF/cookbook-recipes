@@ -1,0 +1,105 @@
+{
+   "@context":[
+      "http://geojson.org/geojson-ld/geojson-context.jsonld",
+      "http://iiif.io/api/presentation/3/context.json"
+   ],
+   "id":"{{ id.url }}",
+   "type":"Manifest",
+   "label":{
+      "en":[
+         "Recipe Manifest for #139"
+      ]
+   },
+   "summary":{
+      "en":[
+         "A IIIF Presentation API 3.0 Manifest containing a GeoJSON-LD Web Annotation which targets a Canvas fragment."
+      ]
+   },
+   "items":[
+      {
+         "id":"{{ id.path }}/canvas.json",
+         "type":"Canvas",
+         "label":{
+            "en":[
+               "Chesapeake and Ohio Canal Pamphlet"
+            ]
+         },
+         "width":5212,
+         "height":7072,
+         "items":[
+            {
+               "id":"{{ id.path }}/contentPage.json",
+               "type":"AnnotationPage",
+               "items":[
+                  {
+                     "id":"{{ id.path }}/content.json",
+                     "type":"Annotation",
+                     "motivation":"painting",
+                     "label":{
+                        "en":[
+                           "Pamphlet Cover"
+                        ]
+                     },
+                     "body":{
+                        "id":"https://iiif.io/api/image/3.0/example/reference/43153e2ec7531f14dd1c9b2fc401678a-88695674/full/max/0/default.jpg",
+                        "type":"Image",
+                        "format":"image/jpeg",
+                        "service":[
+                           {
+                              "id":"https://iiif.io/api/image/3.0/example/reference/43153e2ec7531f14dd1c9b2fc401678a-88695674",
+                              "type":"ImageService3",
+                              "profile":"level1"
+                           }
+                        ],
+                        "width":5212,
+                        "height":7072
+                     },
+                     "target":"{{ id.path }}/canvas.json"
+                  }
+               ]
+            }
+         ],
+         "annotations":[
+            {
+               "id":"{{ id.path }}/supplementingPage.json",
+               "type":"AnnotationPage",
+               "items":[
+                  {
+                     "id":"{{ id.path }}/geoAnno.json",
+                     "type":"Annotation",
+                     "motivation":"tagging",
+                     "label":{
+                        "en":[
+                           "Annotation containing GeoJSON-LD coordinates that place the map depiction onto a Leaflet web map."
+                        ]
+                     },
+                     "body":{
+                        "id":"{{ id.path }}/geo.json",
+                        "type":"Feature",
+                        "properties":{
+                           "label":{
+                              "en":[
+                                 "Targeted Map from Chesapeake and Ohio Canal Pamphlet"
+                              ]
+                           }
+                        },
+                        "geometry":{
+                           "type":"Polygon",
+                           "coordinates":[
+                              [
+                                 [-77.097847, 38.901359],
+                                 [-77.026940, 38.901359],
+                                 [-77.026940, 39.034040],
+                                 [-77.097847, 39.034040]
+                              ]
+                           ]
+                        }
+                     },
+                     "target":"{{ id.path }}/canvas.json#xywh=920,3600,1510,3000"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

@@ -1,0 +1,47 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "{{ id.url }}",
+    "type": "Manifest",
+    "label": { "en": [ "Lunchroom Manners" ] },
+    "items": [
+      {
+        "id": "{{ id.path }}/canvas",
+        "type": "Canvas",
+        "height": 360,
+        "width": 480,
+        "duration": 572.034,
+        "items": [
+          {
+            "id": "{{ id.path }}/canvas/page",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "{{ id.path }}/canvas/page/annotation",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": [
+                    {
+                        "id": "https://fixtures.iiif.io/video/indiana/lunchroom_manners/high/lunchroom_manners_1024kb.mp4",
+                        "type": "Video",
+                        "height": 360,
+                        "width": 480,
+                        "duration": 572.034,
+                        "format": "video/mp4"
+                    },
+                    {
+                        "id": "https://fixtures.iiif.io/video/indiana/lunchroom_manners/lunchroom_manners.vtt",
+                        "type": "Text",
+                        "format": "text/vtt",
+                        "label": {"en": [ "Captions in WebVTT format" ]},
+                        "language": "en"
+                    }
+                ],
+                "target": "{{ id.path }}/canvas"
+              }
+            ]
+          }
+        ]
+      }    
+    ]
+  }
+  
