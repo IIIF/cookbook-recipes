@@ -37,15 +37,8 @@
 "logo": [
 
     {
-        "id": "https://stacks.stanford.edu/image/iiif/wy534zh7137%2FSULAIR_rosette/full/400,/0/default.jpg",
+        "id": "https://brand.ucla.edu/images/logos-and-marks/campus-logo.jpg",
         "type": "Image",
-        "service": [
-            {
-                "id": "https://stacks.stanford.edu/image/iiif/wy534zh7137%2FSULAIR_rosette",
-                "type": "ImageService2",
-                "profile": "http://iiif.io/api/image/2/level2.json"
-            }
-        ]
     }
 
 ],
