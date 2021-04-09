@@ -33,7 +33,7 @@ In this example we use a caption file in the WebVTT format, but one could just a
 # Related recipes
 
 - [Simplest Manifest - Video][0003]
-- [Transcription of Audio and Video][0017]
+- [Using Transcripts with A/V Content][0017]
 - [Providing Alternative Representations][0046]
 - [Transformation - WebVTT or OHMS XML to Annotations][0079]
 

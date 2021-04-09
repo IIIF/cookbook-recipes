@@ -15,6 +15,7 @@
 [0202]: {{site.baseurl}}/recipe/0202-start-canvas/ "Load Manifest Beginning with a Specific Canvas"
 [0014]: {{site.baseurl}}/recipe/0014-accompanyingcanvas/ "Audio Presentation with Accompanying Image"
 [0015]: {{site.baseurl}}/recipe/0015-start/ "Begin playback at a specific point - Time-based media"
+[0017]: {{site.baseurl}}/recipe/0017-using-transcripts/ "Using Transcripts with A/V Content"
 [0139]: {{site.baseurl}}/recipe/0139-geolocate-canvas-fragment/ "Represent Canvas Fragment as a Geographic Point on a Web Map"
 
 [0024]: {{site.baseurl}}/recipe/0024-book-4-toc/ "Table of Contents for Book Chapters"
