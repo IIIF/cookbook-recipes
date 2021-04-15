@@ -59,46 +59,46 @@
                   }
                ]
             }
-         ],
-         "navPlace":{
-            "type":"FeatureCollection",
-            "features":[
-               {
-                  "id":"https://preview.iiif.io/cookbook/0139-geo-annotation/recipe/0139-geolocate-canvas-fragment/geo.json",
-                  "type":"Feature",
-                  "properties":{
-                     "label":{
-                        "en":[
-                           "The Chesapeake and Ohio Canal"
-                        ]
-                     }
-                  },
-                  "geometry":{
-                     "type":"Polygon",
-                     "coordinates":[
-                        [
-                           [
-                              -77.097847,
-                              38.901359
-                           ],
-                           [
-                              -77.02694,
-                              38.901359
-                           ],
-                           [
-                              -77.02694,
-                              39.03404
-                           ],
-                           [
-                              -77.097847,
-                              39.03404
-                           ]
-                        ]
-                     ]
-                  }
-               }
-            ]
-         }
+         ]
       }
-   ]
+   ],
+   "navPlace":{
+      "type":"FeatureCollection",
+      "features":[
+         {
+            "id":"https://preview.iiif.io/cookbook/0139-geo-annotation/recipe/0139-geolocate-canvas-fragment/geo.json",
+            "type":"Feature",
+            "properties":{
+               "label":{
+                  "en":[
+                     "The Chesapeake and Ohio Canal"
+                  ]
+               }
+            },
+            "geometry":{
+               "type":"Polygon",
+               "coordinates":[
+                  [
+                     [
+                        -77.097847,
+                        38.901359
+                     ],
+                     [
+                        -77.02694,
+                        38.901359
+                     ],
+                     [
+                        -77.02694,
+                        39.03404
+                     ],
+                     [
+                        -77.097847,
+                        39.03404
+                     ]
+                  ]
+               ]
+            }
+         }
+      ]
+   }
 }
