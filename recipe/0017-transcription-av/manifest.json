@@ -2,27 +2,7 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "{{ id.url }}",
   "type": "Manifest",
-  "label": { "en": ["Volley Ball for Boys"] },
-  "metadata": [
-    {
-      "label": { "en": ["Title"] },
-      "value": { "en": ["Volley Ball for Boys"] }
-    },
-    {
-      "label": { "en": ["Creator"] },
-      "value": { "en": ["See Other Contributors"] }
-    },
-    {
-      "label": { "en": ["Date Issued"] },
-      "value": { "en": ["1941"] }
-    },
-    {
-      "label": { "en": ["Contributor"] },
-      "value": {
-        "en": ["Indiana University, Bloomington. Audio-Visual Center"]
-      }
-    }
-  ],
+  "label": { "en": ["Volleyball for Boys"] },
   "rendering": [
     {
       "id": "https://fixtures.iiif.io/video/indiana/volleyball/volleyball.txt",
@@ -33,21 +13,21 @@
   ],
   "items": [
     {
-      "id": "{{ id.path }}/canvas/1",
+      "id": "{{ id.path }}/canvas",
       "type": "Canvas",
       "width": 1920,
       "height": 1080,
       "duration": 662.037,
       "items": [
         {
-          "id": "{{ id.path }}/canvas/1/annotation_page/1",
+          "id": "{{ id.path }}/canvas/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "{{ id.path }}/canvas/1/annotation_page/1/annotation/1",
+              "id": "{{ id.path }}/canvas/page/annotation",
               "type": "Annotation",
               "motivation": "painting",
-              "target": "{{ id.path }}/canvas/1",
+              "target": "{{ id.path }}/canvas",
               "body": {
                 "id": "https://fixtures.iiif.io/video/indiana/volleyball/high/volleyball-for-boys.mp4",
                 "type": "Video",
