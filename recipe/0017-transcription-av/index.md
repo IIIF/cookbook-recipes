@@ -15,7 +15,7 @@ A/V is a common medium of making content available to researchers, scholars, and
 
 A transcription file is a text-based representation of an audio or video file, which may or may not be in a timed text format. As an alternative representation of the main resource, a transcription should be added to a resource via a linking property of type `rendering`.
 
-A transcript in a timed-text format on the other hand, provides the ability to be synchronized with A/V content, which is added using the `annotation` property. This is discussed in [Transformation - WebVTT or OHMS XML to Annotations][0079].
+A transcript in a timed-text format, however, provides the ability for clients to synchronize it with its A/V resource during playback. When that syncrhonization experience is desired, it can be accomplished using annotations as discussed in [Transformation - WebVTT or OHMS XML to Annotations][0079].
 
 ## Restrictions
 
