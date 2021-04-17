@@ -15,10 +15,12 @@
 [0202]: {{site.baseurl}}/recipe/0202-start-canvas/ "Load Manifest Beginning with a Specific Canvas"
 [0014]: {{site.baseurl}}/recipe/0014-accompanyingcanvas/ "Audio Presentation with Accompanying Image"
 [0015]: {{site.baseurl}}/recipe/0015-start/ "Begin playback at a specific point - Time-based media"
+[0139]: {{site.baseurl}}/recipe/0139-geolocate-canvas-fragment/ "Represent Canvas Fragment as a Geographic Point on a Web Map"
 
 [0024]: {{site.baseurl}}/recipe/0024-book-4-toc/ "Table of Contents for Book Chapters"
 [0026]: {{site.baseurl}}/recipe/0026-toc-opera/ "Table of Contents for A/V Content"
 [0029]: {{site.baseurl}}/recipe/0029-metadata-anywhere/ "Metadata on any Resource"
+[0030]: {{site.baseurl}}/recipe/0030-multi-volume/ "Multi-volume Work with Individually-bound Volumes"
 [0053]: {{site.baseurl}}/recipe/0053-seeAlso/ "Linking to Structured Metadata"
 [0046]: {{site.baseurl}}/recipe/0046-rendering/ "Providing Alternative Representations"
 [0064]: {{site.baseurl}}/recipe/0064-opera-one-canvas/ "Table of Contents for Multiple A/V Files on a Single Canvas"
@@ -26,10 +28,10 @@
 
 [0068]: {{site.baseurl}}/recipe/0068-newspaper/ "A newspaper"
 [0117]: {{site.baseurl}}/recipe/0117-add-image-thumbnail/ "Manifest Thumbnail"
+[0118]: {{site.baseurl}}/recipe/0118_multivalue/ "Displaying Multiple Values with Language Maps"
 [0232]: {{site.baseurl}}/recipe/0232-image-thumbnail-canvas/ "Implementation note: Thumbnails"
 [0219]: {{site.baseurl}}/recipe/0219-using-caption-file/ "Using Captions and Subtitles with Video Content"
-
-[0118]: {{site.baseurl}}/recipe/0118_multivalue/ "Displaying Multiple Values with Language Maps"
+[0230]: {{site.baseurl}}/recipe/0230-navdate/ "Navigation by Chronology"
 
 [prezi3]: https://iiif.io/api/presentation/3 "IIIF Presentation API"
 [prezi3-languages]: https://iiif.io/api/presentation/3.0/#language-of-property-values "Language of Property Values"
