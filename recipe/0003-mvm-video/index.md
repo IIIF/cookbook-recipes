@@ -19,7 +19,7 @@ The implementation is identical to the [image example][0001], except that the co
 
 This example shows a Manifest with a single Canvas that lasts for 572 seconds, or just under 10 minutes. It has a single video file (lunchroom_manners_1024kb.mp4) which is associated with it. The mp4 also has a duration of 572 seconds. 
 
-{% include manifest_links.html viewers="UV" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 

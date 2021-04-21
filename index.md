@@ -5,10 +5,10 @@ tags: [tbc]
 summary: "tbc"
 ---
 
-The [IIIF Presentation API][prezi3] specifies a standardised way to describe complex digital objects. The resource types and properties of the specification are the building blocks of interoperable representations, for rendering by viewers and other software clients. This cookbook gathers together many examples of these representations (usually IIIF Manifests), in order to:
+The [IIIF Presentation API][prezi3] specifies a standardized way to describe complex digital objects. The resource types and properties of the specification are the building blocks of interoperable representations, for rendering by viewers and other software clients. This cookbook gathers together many examples of these representations (usually IIIF Manifests), in order to:
 
 * provide many more examples than the specification alone can do, for reference and learning;
-* encourage publishers to adopt common patterns in modelling classes of complex objects;
+* encourage publishers to adopt common patterns in modeling classes of complex objects;
 * enable client software developers to support these patterns, for consistency of user experience (when desirable);
 * demonstrate the applicability of IIIF to a broad range of use cases.
 
@@ -27,25 +27,31 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Simplest Manifest - Image][0001] (1) (use static image as content resource, w.h)
 * [Simplest Manifest - Audio][0002] (1) (use single audio as content resource, d)
 * [Simplest Manifest - Video][0003] (1) (use single video as content resource, w,h,d)
-* Image different size to canvas (26)
+* [Image and Canvas with Differing Dimensions][0004] (26)
 * [Support Deep Viewing with Basic Use of a IIIF Image Service][0005] (24,25)
-* Multiple values and languages (3,4,6)
+* [Internationalization and Multi-language Values][0006] (3,4,6)
+* [Displaying Multiple Values with Language Maps][0118]
 * [Embedding HTML in descriptive properties][0007] (64)
+* [Metadata on any Resource][0029] (21)
 * [Rights statement\(s\)][0008] (7)
-* thumbnail algorithm / discussion
 * [Simple Manifest - Book][0009] (19)
+* [Book behavior (paging) variations][0011] (15,16,17)
 * [Viewing direction and its effect on navigation][0010] (11,12,13,14)
-* Book (paging variations) (15,16,17) 
+* [Manifest Thumbnail][0117]
+* thumbnail algorithm / discussion
 * [Load a Preview Image Before the Main Content][0013]
 * [Audio Presentation with Accompanying Image][0014]
 * [Load Manifest Beginning with a Specific Canvas][0202]
 * [Begin playback at a specific point - Time-based media][0015] (65)
+* [Navigation by Chronology][0230]
 
 ## Textual and other supplementary content
 
 * Transcription of image-based content - various examples gathered (43,44,45,46,47,48)
 * Transcription of audio and video
+* [Using Caption and Subtitles with Video Content][0219]
 * Transcription of content into XML, with XPaths to select a segment
+* [Providing Alternative Representations][0046]
 
 ## Other kinds of annotations
 _(leading on to segmentation examples later)_
@@ -55,26 +61,26 @@ _(leading on to segmentation examples later)_
 * tagging
 * hotspot linking
 * Annotation in the context of a particular content resource https://github.com/IIIF/iiif-stories/issues/101
+* [Geographic coordinates][0139]
 
 ## Internal structure
 
-* table of contents (ranges) - book chapters
+* [Table of Contents for Book Chapters][0024]
 * table of contents (ranges) - articles in a newspaper
 * [Table of contents for A/V content][0026] (26)
 * Alternative Sequence (via `sequence` Range) (20,22,23)
 * `sequence` Range with partial canvases
-* metadata on any resource (21)
 
 ## Higher-level structure
 
-* multi-volume work
+* [Multi-volume Work with Individually-bound Volumes][0030]
 * bound multi-volume work
 * paged Collections (from #1343)
 
 ## Segmentation and complex resources
 
 * Choice (simplest) (28)
-* Choice - multispectral flavoured example, with image services (29)
+* Choice - multispectral flavored example, with image services (29)
 * foldouts, etc (Choice or non-paged interlude (flaps vs maps))?
 * [Multiple images (master/detail)][detail-image] (30,31)
 * Multiple images and multiple choices (32,33,34)
@@ -96,7 +102,7 @@ _(leading on to segmentation examples later)_
 * Linking from external metadata to Image API
 * Linking from external metadata to Presentation API
 * Linking between Presentation API representations
-* seeAlso scenarios (incl other manifests) (8)
+* [Linking to Structured Metadata][0053] (8)
 
 ## Technical
 
@@ -126,6 +132,7 @@ _(leading on to segmentation examples later)_
 * Video with captions in multiple languages
 * Mixed Image Service references (a mashup, with img2 and img3 services)
 * Glenn Gould - score and performance scenarios (transcribing)
+* A Map
 
 ## Access Control
 _this might be in a separate auth cookbook_
