@@ -9,17 +9,19 @@ summary: "Transcripts as alternative representation of A/V content"
 
 ## Use Case
 
-A/V is a common medium of making content available to researchers, scholars, and others. Transcripts are used alongside A/V resources for a variety of reasons. To give some examples: as a means for making these resources more accessible; when understanding the content is impaired by audio quality or speaker accent; or to enable text-based search on the A/V content.
+A/V is a common medium for making content available to researchers, scholars, and others. Transcripts are used alongside A/V resources for a variety of reasons. To give some examples: when understanding the content is impaired by audio quality or speaker accent; to enable text-based search on the A/V content; or as a means for making A/V content consumable in a text format.
 
 ## Implementation notes
 
-A transcription file is a text-based representation of an audio or video file, which may or may not be in a timed text format. As an alternative representation of the main resource, a transcription should be added to a resource via a linking property of type `rendering`.
+A transcription file is a text-based representation of an audio or video file, which may or may not be in a timed-text format. As an alternative representation of the main resource, a transcription is added to a resource via a linking property `rendering`.
 
 A transcript in a timed-text format, however, provides the ability for clients to synchronize it with its A/V resource during playback. When that syncrhonization experience is desired, it can be accomplished using annotations as discussed in [Transformation - WebVTT or OHMS XML to Annotations][0079].
 
+For a discussion about differences between captions, subtitles, and transcripts see [Using Captions and Subtitles with Video Content][0219].
+
 ## Restrictions
 
-For a discussion about differences between captions, subtitles, and transcripts see [Using Captions and Subtitles with Video Content][0219].
+None
 
 ## Example
 
