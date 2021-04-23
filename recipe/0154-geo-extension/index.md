@@ -15,11 +15,11 @@ A Manifest contains information relating to one or multiple geographic areas. Yo
 </div>
 
 ### Implementation Notes
-You will notice multiple contexts used in the top level `@context` property.  The third party [GeoJSON-LD](https://geojson.org/geojson-ld/) context is included along with the IIIF Presentation API 3 navPlace extension and the IIIF Presentation API 3.0 context. This supplies the vocabulary terms for the GeoJSON-LD used in the value for `navPlace` and the `navPlace` term itself since the IIIF Presentation API 3.0 context does not describe those terms. When there are multiple contexts, the `@context` property can be an array which is processed as a set. Typically order does not matter for a set. However, when the IIIF context is used in these arrays it must be the last item in the set.
+You will notice multiple contexts used in the top level `@context` property.  The third party [GeoJSON-LD](https://geojson.org/geojson-ld/) context is included along with the navPlace extension and the IIIF Presentation API 3.0 contexts. Combined, these supplies the vocabulary terms for the GeoJSON-LD used in the value for `navPlace` and the "navPlace" term itself since the IIIF Presentation API 3.0 context alone does not describe those terms. When there are multiple contexts, the `@context` property can be an array which is processed as a set. Typically order does not matter for a set. However, when the IIIF context is used in these arrays it must be the last item in the set.
 
 GeoJSON `properties` is a generic field and [can be nearly anything](https://tools.ietf.org/html/rfc7946#section-3.2). If, for example, the targeted resource has a `label` and the `properties` field contains a `label`, the consuming interface must make a choice on which to prioritize for presentation purposes. In the example renderings, the label inside `properties` is used as opposed to the label from the Manifest.  
 
-Note that [`geometry` can be more than just a `Point`.](https://tools.ietf.org/html/rfc7946#section-3.1)
+Note that [`geometry` has more types besides `Polygon`.](https://tools.ietf.org/html/rfc7946#section-3.1)
 
 ### Restrictions
 Applications that strictly follow Linked Data practices will find that nested GeoJSON coordinate arrays are incompatible with the processing model of JSON-LD 1.0. The JSON-LD 1.1 processing model does not have this restriction. Be aware if you plan to serialize JSON-LD into [other semantic data formats or markup languages](https://www.w3.org/TR/json-ld11/#relationship-to-other-linked-data-formats) such as RDF.
