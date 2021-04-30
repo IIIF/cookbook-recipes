@@ -38,9 +38,6 @@
         {
           "id": "{{ id.path }}/canvas/1/page/annotation",
           "type": "AnnotationPage",
-          "label": {
-            "en": ["English"]
-          },
           "items": [
             {
               "id": "{{ id.path }}/canvas/1/page/annotation/1",
@@ -49,7 +46,8 @@
               "body": {
                 "type": "TextualBody",
                 "value": "Just before lunch one day, a puppet show was put on at school.",
-                "format": "text/plain"
+                "format": "text/plain",
+                "language": [ "en" ]
               },
               "target": "{{ id.path }}/canvas/1#t=22.2,26.6"
             }
