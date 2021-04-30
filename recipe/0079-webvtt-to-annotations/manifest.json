@@ -1,0 +1,61 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "{{ id.url }}",
+  "type": "Manifest",
+  "label": { "en": ["Lunchroom Manners"] },
+  "items": [
+    {
+      "id": "{{ id.path }}/canvas/1",
+      "type": "Canvas",
+      "height": 360,
+      "width": 480,
+      "duration": 572.034,
+      "items": [
+        {
+          "id": "{{ id.path }}/canvas/1/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/canvas/1/page/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": [
+                {
+                  "id": "https://fixtures.iiif.io/video/indiana/lunchroom_manners/high/lunchroom_manners_1024kb.mp4",
+                  "type": "Video",
+                  "height": 360,
+                  "width": 480,
+                  "duration": 572.034,
+                  "format": "video/mp4"
+                }
+              ],
+              "target": "{{ id.path }}/canvas/1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ id.path }}/canvas/1/page/annotation",
+          "type": "AnnotationPage",
+          "label": {
+            "en": ["English"]
+          },
+          "items": [
+            {
+              "id": "{{ id.path }}/canvas/1/page/annotation/1",
+              "type": "Annotation",
+              "motivation": ["supplementing"],
+              "body": {
+                "type": "TextualBody",
+                "value": "Just before lunch one day, a puppet show was put on at school.",
+                "format": "text/plain"
+              },
+              "target": "{{ id.path }}/canvas/1#t=22.2,26.6"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

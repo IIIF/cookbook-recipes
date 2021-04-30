@@ -1,11 +1,10 @@
 ---
-title: Transformation - WebVTT or OHMS XML to Annotations
+title: Using Annotations for Transcripts
 id: 79
 layout: recipe
 tags: [tbc]
-summary: "tbc"
+summary: 'tbc'
 ---
-
 
 ## Use Case
 
@@ -21,17 +20,14 @@ When is this pattern is usable / not usable? Is it deprecated? If it uses multip
 
 ## Example
 
-Describe in prose and provide examples, e.g.: 
+Describe in prose and provide examples, e.g.:
 
-{: .line-numbers data-src="manifest.json" }
-```json
-```
+{% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
+{% include jsonviewer.html src="manifest.json" %}
 
 # Related recipes
 
 Provide a bulleted list of related recipes and why they are relevant.
 
-
 {% include acronyms.md %}
 {% include links.md %}
-
