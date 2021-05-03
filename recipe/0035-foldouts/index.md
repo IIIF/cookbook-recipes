@@ -2,7 +2,7 @@
 title: Foldouts, flaps and maps
 id: 35
 layout: recipe
-tags: [multiple-images]
+tags: [images, choice, layers]
 summary: "Demonstrates how to model a foldout diagram or map."
 ---
 
@@ -11,13 +11,13 @@ summary: "Demonstrates how to model a foldout diagram or map."
 
 Books (and other objects) sometimes include foldout flaps or sheets, such as a map in a historical work. During digitization, the foldout might be captured in both its folded and unfolded state.
 
-In the previous example, [Choice](../0033-choice/), a flap is offered to users as a `Choice` of images for the same view. But consider this example:
+In the previous example, [Multiple choice of images in a single view][0033], a flap is offered to users as a `Choice` of images for the same view. But consider this example:
 
 ![](foldout.png)
 
-Here, the page has been captured folded and unfolded. Unlike the previous example, these are not the same **view**. There is no one single IIIF `Canvas` that would serve to represent both of these spatial extents - we can't logically place these two images on the same spatial view. 
+Here, the page has been captured folded and unfolded. Unlike the previous example, these are not the same **view**. There is no one single IIIF `Canvas` that would serve to represent both of these spatial extents - we can't logically place these two images on the same spatial view.
 
-While the present example and that given in [Choice](../0033-choice/) are clearly different, the modelling decision may not always be as obvious. There will be cases that could be modelled in either way, depending on what the publisher is trying to present.
+While the present example and that given in [Multiple choice of images in a single view][0033] are clearly different, the modelling decision may not always be as obvious. There will be cases that could be modelled in either way, depending on what the publisher is trying to present.
 
 
 ## Implementation notes
@@ -56,9 +56,8 @@ The sequence is:
 
 The following recipes are all about multiple image use cases, with different modelling approaches:
 
-* [Choice](../0033-choice/). Here the choice of images are within the same view, rather than two separate views as above.
+* [Multiple choice of images in a single view][0033]. Here the choice of images are within the same view, rather than two separate views as above.
 
 
 {% include acronyms.md %}
 {% include links.md %}
-

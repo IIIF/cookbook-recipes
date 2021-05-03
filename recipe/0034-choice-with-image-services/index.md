@@ -1,5 +1,5 @@
 ---
-title: Choice - multispectral flavoured example, with image services
+title: Choice: Multispectral-flavored Example, with Image Service
 id: 34
 layout: recipe
 tags: [multiple-images]
@@ -9,7 +9,7 @@ summary: "How to model multiple choices of images for the same view - e.g., laye
 
 ## Use Case
 
-This recipe is identical to the previous recipe, [Choice](../0033-choice/), except that the provided example includes IIIF Image API Services for the image choices. 
+This recipe is identical to the previous recipe, [Choice](../0033-choice/), except that the provided example includes IIIF Image API Services for the image choices.
 
 ## Implementation notes
 
@@ -31,4 +31,3 @@ Please refer to [Choice](../0033-choice/) for the full discussion. Note that in 
 
 {% include acronyms.md %}
 {% include links.md %}
-

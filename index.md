@@ -79,9 +79,9 @@ _(leading on to segmentation examples later)_
 
 ## Segmentation and complex resources
 
-* Choice (simplest) (28)
-* Choice - multispectral flavored example, with image services (29)
-* foldouts, etc (Choice or non-paged interlude (flaps vs maps))?
+* [Multiple choice of images in a single view][0033] (28)
+* [Choice: Multispectral-flavored Example, with Image Service][0034] (29)
+* [Foldouts, flaps and maps][0035]
 * [Multiple images (master/detail)][detail-image] (30,31)
 * Multiple images and multiple choices (32,33,34)
 * [Annotating part of an image to a Canvas][recipe-segment-image-part] (e.g., crop out scanner) (35,36,37,38)
