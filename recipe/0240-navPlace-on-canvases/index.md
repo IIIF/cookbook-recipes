@@ -3,11 +3,11 @@ title: Represent Manifest on a Map with navPlace Extension
 id: 154
 layout: recipe
 tags: [maps, geolocate, annotation]
-summary: "Use the navPlace extension to provide geolocation information about an IIIF Presentation API 3.0 Manifest."
+summary: "Use the navPlace extension to provide geolocation information for the Canvas items of an IIIF Presentation API 3.0 Manifest."
 ---
 
 ### Use Case 
-A Manifest contains information relating to one or multiple geographic areas. You would like to associate this Manifest with geographic coordinates for use in web mapping clients like Leaflet and OpenLayers. This could mean simply showing a non-interactive shape on a web map, but often more data from the resource is displayed in connection with the shape as a result of available functionality. The example below shows a pop-up that appears upon clicking the shape. The pop-up includes the targeted map as well as other metadata from the resource.
+A Manifest contains Canvas items that have unique geographic characteristics. You would like to associate each Canvas with geographic coordinates for use in web mapping clients like Leaflet and OpenLayers. You intend for each Canvas to be represented in the same interface. This could mean simply showing non-interactive shapes on a web map, but often more data from the resources is displayed in connection with the shapes as a result of available functionality. The example below shows a pop-up that appears upon clicking the shape. 
 
 <div id="bigImage">
 	<h4 style="color:white;"> Click Image to Close </h4>
@@ -15,11 +15,11 @@ A Manifest contains information relating to one or multiple geographic areas. Yo
 </div>
 
 ### Implementation Notes
-You will notice multiple contexts used in the top level `@context` property.  The third party [GeoJSON-LD](https://geojson.org/geojson-ld/) context is included along with the navPlace extension and the IIIF Presentation API 3.0 contexts. Combined, these supplies the vocabulary terms for the GeoJSON-LD used in the value for `navPlace` as well as the "navPlace" term itself since the IIIF Presentation API 3.0 context alone does not describe those terms. When there are multiple contexts, the `@context` property can be an array which is processed as a set. Typically order does not matter for a set. However, when the IIIF context is used in these arrays it must be the last item in the set.
+IIIF has a registered API extension called `navPlace` which is used to associate geographic coordinates with IIIF resource types, and it is leveraged here to meet the use case.  You will notice multiple contexts used in the top level `@context` property.  The third party [GeoJSON-LD](https://geojson.org/geojson-ld/) context is included along with the navPlace extension and the IIIF Presentation API 3.0 contexts. Combined, these supplies the vocabulary terms for the GeoJSON-LD used in the value for `navPlace` as well as the "navPlace" term itself since the IIIF Presentation API 3.0 context alone does not describe those terms. When there are multiple contexts, the `@context` property can be an array which is processed as a set. Typically order does not matter for a set. However, when the IIIF context is used in these arrays it must be the last item in the set.
 
 GeoJSON `properties` is a generic field and [can be nearly anything](https://tools.ietf.org/html/rfc7946#section-3.2). If, for example, the targeted resource has a `label` and the `properties` field contains a `label`, the consuming interface must make a choice on which to prioritize for presentation purposes. In the example renderings, the label inside `properties` is used as opposed to the label from the Manifest.  
 
-Note that [`geometry` has more types besides `Polygon`.](https://tools.ietf.org/html/rfc7946#section-3.1)
+Note that [`geometry` has more types besides `Point`.](https://tools.ietf.org/html/rfc7946#section-3.1)
 
 ### Restrictions
 Applications that strictly follow Linked Data practices will find that nested GeoJSON coordinate arrays are incompatible with the processing model of JSON-LD 1.0. The JSON-LD 1.1 processing model does not have this restriction. Be aware if you plan to serialize JSON-LD into [other semantic data formats or markup languages](https://www.w3.org/TR/json-ld11/#relationship-to-other-linked-data-formats) such as RDF.
@@ -33,6 +33,7 @@ Applications that strictly follow Linked Data practices will find that nested Ge
 
 ## Related Recipes
 * [Represent Canvas Fragment as a Geographic Area in a Web Mapping Client][0139]
+* [Provide Geographic Coordinates for a Manifest with navPlace][0154]
 
 {% include acronyms.md %}
 {% include links.md %}
