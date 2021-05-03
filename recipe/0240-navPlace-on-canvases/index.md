@@ -2,7 +2,7 @@
 title: Represent Manifest on a Map with navPlace Extension
 id: 154
 layout: recipe
-tags: [maps, geolocate, annotation]
+tags: [maps, geolocate, navPlace]
 summary: "Use the navPlace extension to provide geolocation information for the Canvas items of an IIIF Presentation API 3.0 Manifest."
 ---
 
