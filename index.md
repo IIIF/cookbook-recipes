@@ -43,6 +43,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Audio Presentation with Accompanying Image][0014]
 * [Load Manifest Beginning with a Specific Canvas][0202]
 * [Begin playback at a specific point - Time-based media][0015] (65)
+* [Navigation by Chronology][0230]
 
 ## Textual and other supplementary content
 
@@ -60,6 +61,7 @@ _(leading on to segmentation examples later)_
 * tagging
 * hotspot linking
 * Annotation in the context of a particular content resource https://github.com/IIIF/iiif-stories/issues/101
+* [Geographic coordinates][0139]
 
 ## Internal structure
 
@@ -71,7 +73,7 @@ _(leading on to segmentation examples later)_
 
 ## Higher-level structure
 
-* multi-volume work
+* [Multi-volume Work with Individually-bound Volumes][0030]
 * bound multi-volume work
 * paged Collections (from #1343)
 
@@ -130,6 +132,7 @@ _(leading on to segmentation examples later)_
 * Video with captions in multiple languages
 * Mixed Image Service references (a mashup, with img2 and img3 services)
 * Glenn Gould - score and performance scenarios (transcribing)
+* A Map
 
 ## Access Control
 _this might be in a separate auth cookbook_
