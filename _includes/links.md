@@ -23,7 +23,7 @@
 [0030]: {{site.baseurl}}/recipe/0030-multi-volume/ "Multi-volume Work with Individually-bound Volumes"
 [0033]: {{site.baseurl}}/recipe/0033-choice/ "Multiple choice of images in a single view"
 [0034]: {{site.baseurl}}/recipe/0034-choice-with-image-services/ "Choice: Multispectral-flavored Example, with Image Service"
-[0035]: {{site.baseurl}}/recipe/0035-foldouts/ "Foldouts, flaps and maps"
+[0035]: {{site.baseurl}}/recipe/0035-foldouts/ "Foldouts, Flaps and Maps"
 
 [0053]: {{site.baseurl}}/recipe/0053-seeAlso/ "Linking to Structured Metadata"
 [0046]: {{site.baseurl}}/recipe/0046-rendering/ "Providing Alternative Representations"
