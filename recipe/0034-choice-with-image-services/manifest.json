@@ -7,8 +7,8 @@
       {
         "id": "{{ id.path }}/canvas/p1",
         "type": "Canvas",
-        "height": 7656,
-        "width": 4867,
+        "height": 1271,
+        "width": 2000,
         "items": [
           {
             "id": "{{ id.path }}/page/p1/1",
@@ -21,8 +21,8 @@
                 "body": {
                   "type": "Choice",
                   "items": [
-                    {                        
-                        "id": "https://tomcrane.github.io/scratch/img/dee/small/dee-colour.jpg",
+                    {
+                        "id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-natural/full/max/0/default.jpg",
                         "type": "Image",
                         "format": "image/jpeg",
                         "width": 2000,
@@ -30,14 +30,14 @@
                         "label": { "en": [ "Natural Light" ] },
                         "service": [
                             {
-                                "@id": "https://dlcs.io/iiif-img/3/2/04fbbb28-d5a7-4408-b7da-800c4e65eda3",
-                                "@type": "ImageService2",
-                                "profile": "http://iiif.io/api/image/2/level2.json"
+                                "id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-natural",
+                                "type": "ImageService3",
+                                "profile": "level1"
                             }
                         ]
                     },
-                    {                        
-                        "id": "https://tomcrane.github.io/scratch/img/dee/small/dee-xray.jpg",
+                    {
+                        "id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-xray/full/max/0/default.jpg",
                         "type": "Image",
                         "format": "image/jpeg",
                         "width": 2000,
@@ -45,9 +45,9 @@
                         "label": { "en": [ "X-Ray" ] },
                         "service": [
                             {
-                                "@id": "https://dlcs.io/iiif-img/3/2/8034eb5b-9c90-4471-ad68-52124232ec0c",
-                                "@type": "ImageService2",
-                                "profile": "http://iiif.io/api/image/2/level2.json"
+                                "@id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-xray",
+                                "@type": "ImageService3",
+                                "profile": "level1"
                             }
                         ]
                     }
@@ -58,6 +58,6 @@
             ]
           }
         ]
-      }    
+      }
     ]
   }
