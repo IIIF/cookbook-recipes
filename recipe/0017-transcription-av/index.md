@@ -17,19 +17,19 @@ A transcription file is a text-based representation of an audio or video file, w
 
 A transcript in a timed-text format, however, provides the ability for clients to synchronize it with its A/V resource during playback. When that syncrhonization experience is desired, it can be accomplished using annotations as discussed in [Transformation - WebVTT or OHMS XML to Annotations][0079].
 
-For a discussion about differences between captions, subtitles, and transcripts see [Using Captions and Subtitles with Video Content][0219].
-
 ## Restrictions
 
-None
+While captions, subtitles, and transcripts each present some text interpretation of the A/V content, the ways they are consumed by the users differ from each other. For a more detailed discussion about these differences see [Using Captions and Subtitles with Video Content][0219].
 
 ## Example
 
-In this example, the Manifest is using a single A/V file therefore it is indifferent to link the transcript at the Manifest level or at the Canvas level.
+In this example, the Manifest is using a single A/V file, therefore it is equivalent to link the transcript at the Manifest level or at the Canvas level.
 
 In Mirador, a given transcript is made available within the sidebar menu, which can be toggled open by using the 'Sidebar toggle' (hamburger) button on the top left corner of the viewer.
 
-{% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
+In Universal Viewer, to access the transcript use the 'Download' link on bottom left corner of the viewer.
+
+{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 {% include jsonviewer.html src="manifest.json" config='data-line="10-21"'%}
 
 # Related recipes
