@@ -29,7 +29,7 @@ Applications that strictly follow Linked Data practices will find that nested Ge
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="61-99"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="65-103"' %}
 
 ## Related Recipes
 * [Represent Canvas Fragment as a Geographic Area in a Web Mapping Client][0139]
