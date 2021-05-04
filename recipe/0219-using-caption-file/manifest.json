@@ -34,7 +34,9 @@
                 }
               ],
               "target": "{{ id.path }}/canvas"
-            },
+            }
+          ],
+          "annotations": [
             {
               "id": "{{ id.path }}/canvas/page/annotation2",
               "type": "Annotation",
