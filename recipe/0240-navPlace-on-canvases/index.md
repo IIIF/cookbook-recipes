@@ -1,5 +1,5 @@
 ---
-title: Represent Manifest on a Map with navPlace Extension
+title: Represent Canavases in Manifest on a Map with navPlace Extension
 id: 154
 layout: recipe
 tags: [maps, geolocate, navPlace]
