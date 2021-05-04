@@ -35,32 +35,32 @@
               ],
               "target": "{{ id.path }}/canvas"
             }
-          ],
-          "annotations": [
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ id.path }}/canvas/page2",
+          "type": "AnnotationPage",
+          "items": [
             {
-              "id": "{{ id.path }}/canvas/page2",
-              "type": "AnnotationPage",
-              "items": [
+              "id": "{{ id.path }}/canvas/page2/a1",
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": [
                 {
-                  "id": "{{ id.path }}/canvas/page2/a1",
-                  "type": "Annotation",
-                  "motivation": "supplementing",
-                  "body": [
-                    {
-                      "id": "https://fixtures.iiif.io/video/indiana/lunchroom_manners/lunchroom_manners.vtt",
-                      "type": "Text",
-                      "format": "text/vtt",
-                      "label": {
-                        "en": [
-                          "Captions in WebVTT format"
-                        ]
-                      },
-                      "language": "en"
-                    }
-                  ],
-                  "target": "{{ id.path }}/canvas"
+                  "id": "https://fixtures.iiif.io/video/indiana/lunchroom_manners/lunchroom_manners.vtt",
+                  "type": "Text",
+                  "format": "text/vtt",
+                  "label": {
+                    "en": [
+                      "Captions in WebVTT format"
+                    ]
+                  },
+                  "language": "en"
                 }
-              ]
+              ],
+              "target": "{{ id.path }}/canvas"
             }
           ]
         }
