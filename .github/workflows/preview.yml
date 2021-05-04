@@ -67,7 +67,7 @@ jobs:
         pip install -r scripts/requirements.txt
 
     - name: validate      
-      run: scripts/validate.sh
+      #run: scripts/validate.sh
 
     # Deploy to live site
     - name: Create GitHub deployment
