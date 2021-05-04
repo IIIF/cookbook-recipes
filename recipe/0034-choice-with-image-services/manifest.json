@@ -45,8 +45,8 @@
                         "label": { "en": [ "X-Ray" ] },
                         "service": [
                             {
-                                "@id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-xray",
-                                "@type": "ImageService3",
+                                "id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-xray",
+                                "type": "ImageService3",
                                 "profile": "level1"
                             }
                         ]
