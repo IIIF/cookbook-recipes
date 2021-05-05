@@ -24,6 +24,7 @@
 [0033]: {{site.baseurl}}/recipe/0033-choice/ "Multiple choice of images in a single view"
 [0034]: {{site.baseurl}}/recipe/0034-choice-with-image-services/ "Choice: Multispectral-flavored Example, with Image Service"
 [0035]: {{site.baseurl}}/recipe/0035-foldouts/ "Foldouts, Flaps and Maps"
+[0036]: {{site.baseurl}}/recipe/0036-composition-from-multiple-images/ "Composition from Multiple Images"
 
 [0053]: {{site.baseurl}}/recipe/0053-seeAlso/ "Linking to Structured Metadata"
 [0046]: {{site.baseurl}}/recipe/0046-rendering/ "Providing Alternative Representations"
