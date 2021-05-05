@@ -17,8 +17,8 @@
         {
           "id": "{{ id.path }}/canvas/p1",
           "type": "Canvas",
-          "height": 4429,
-          "width": 2533,
+          "height": 1024,
+          "width": 586,
           "label": { "en": [ "Front cover" ] },
           "items": [
             {
@@ -45,8 +45,8 @@
         {
           "id": "{{ id.path }}/canvas/p2",
           "type": "Canvas",
-          "height": 4315,
-          "width": 2490,
+          "height": 1024,
+          "width": 586,
           "label": { "en": [ "Inside front cover" ] },
           "items": [
             {
@@ -73,8 +73,8 @@
         {
           "id": "{{ id.path }}/canvas/p3",
           "type": "Canvas",
-          "height": 4278,
-          "width": 2197,
+          "height": 1024,
+          "width": 586,
           "label": { "en": [ "Foldout, folded" ] },
           "items": [
             {
@@ -102,8 +102,8 @@
           "id": "{{ id.path }}/canvas/p4",
           "type": "Canvas",
           "behavior": ["non-paged"],
-          "height": 1968,
-          "width": 3688,
+          "height": 546,
+          "width": 1024,
           "label": { "en": [ "Foldout, unfolded" ] },
           "items": [
             {
@@ -130,8 +130,8 @@
         {
           "id": "{{ id.path }}/canvas/p5",
           "type": "Canvas",
-          "height": 4315,
-          "width": 2490,
+          "height": 1024,
+          "width": 591,
           "label": { "en": [ "Title page" ] },
           "items": [
             {
@@ -158,8 +158,8 @@
         {
           "id": "{{ id.path }}/canvas/p6",
           "type": "Canvas",
-          "height": 4315,
-          "width": 2490,
+          "height": 1024,
+          "width": 591,
           "label": { "en": [ "Back of title page" ] },
           "items": [
             {
@@ -186,8 +186,8 @@
         {
           "id": "{{ id.path }}/canvas/p7",
           "type": "Canvas",
-          "height": 4315,
-          "width": 2490,
+          "height": 1024,
+          "width": 591,
           "label": { "en": [ "Inside back cover" ] },
           "items": [
             {
@@ -214,8 +214,8 @@
         {
           "id": "{{ id.path }}/canvas/p8",
           "type": "Canvas",
-          "height": 4315,
-          "width": 2490,
+          "height": 1024,
+          "width": 591,
           "label": { "en": [ "Back cover" ] },
           "items": [
             {
@@ -238,6 +238,6 @@
               ]
             }
           ]
-        }    
+        }
     ]
   }

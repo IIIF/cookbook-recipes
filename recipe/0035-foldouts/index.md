@@ -11,53 +11,46 @@ summary: "Demonstrates how to model a foldout diagram or map."
 
 Books (and other objects) sometimes include foldout flaps or sheets, such as a map in a historical work. During digitization, the foldout might be captured in both its folded and unfolded state.
 
-In the previous example, [Multiple choice of images in a single view][0033], a flap is offered to users as a `Choice` of images for the same view. But consider this example:
+In the previous recipe, [Multiple choice of images in a single view][0033], a flap is offered to users as a Choice of images for the same view. But consider this example:
 
 ![](foldout.png)
 
-Here, the page has been captured folded and unfolded. Unlike the previous example, these are not the same **view**. There is no one single IIIF `Canvas` that would serve to represent both of these spatial extents - we can't logically place these two images on the same spatial view.
+Here, the page has been captured folded and unfolded. Unlike the example in the previous recipe, these are not the same **view**. There is no one single IIIF Canvas that would serve to represent both of these spatial extents - we can't logically place these two images on the same spatial view.
 
-While the present example and that given in [Multiple choice of images in a single view][0033] are clearly different, the modelling decision may not always be as obvious. There will be cases that could be modelled in either way, depending on what the publisher is trying to present.
-
+While the present example and that given in [Multiple choice of images in a single view][0033] are clearly different, the modeling decision may not always be as obvious. There will be cases that could be modeled in either way, depending on what the publisher is trying to present.
 
 ## Implementation notes
 
-The unfolded view is simply an additional canvas in the sequence given by `manifest.items`.
+The unfolded view is simply an additional Canvas in the sequence given by `manifest.items`.
 
-These pages are from a printed, paged book, which might have the `behavior` value of `paged`, so as to generate the correct recto-verso-recto-verso representation in a viewer that supports that behavior. If we insert an additional canvas into the manifest's `items`, we will break this sequence unless we introduce an additional `behavior` on the foldout, to indicate that it is not part of the paged sequence.
-
+These pages are from a printed, paged book, which might have the `behavior` value of `paged`, so as to generate the correct recto-verso-recto-verso representation in a viewer that supports this behavior. If we insert an additional Canvas into the Manifest's `items`, we will break this sequence unless we introduce an additional `behavior` property on the Canvas with the foldout using the value `non-paged` to indicate that it is not part of the paged sequence.
 
 ## Example
 
 This example has been adapted from [https://wellcomelibrary.org/iiif/b29346423/manifest](https://wellcomelibrary.org/iiif/b29346423/manifest) but in a much reduced form to convey the essential points.
 
-The manifest is given the behavior `paged`. With no other qualifiers, this indicates a left-to-right sequence with the first item _recto_.
+The Manifest is given the behavior `paged`. With no other qualifiers, this indicates a left-to-right sequence with the first item _recto_.
 
 The sequence is:
 
 * Front cover
 * Inside front cover
 * Foldout, folded
-* Foldout, unfolded (given the behavior `non-paged`, to indicate that it does not constitute part of the paged sequence of the manifest)
+* Foldout, unfolded (given the behavior `non-paged`, to indicate that it does not constitute part of the paged sequence of the Manifest)
 * Title page
-* _the normal run of pages would continue here; removed in this manifest for brevity_
+* _the normal run of pages would continue here; removed in this Manifest for brevity_
 * Back of title page
 * Inside back cover
 * Back Cover
 
-[JSON-LD](manifest.json)
+{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
-{: .line-numbers data-download-link data-download-link-label="Download me" data-src="manifest.json" }
-```json
-```
+{% include jsonviewer.html src="manifest.json" config='data-line="25-27, 128-130"' %}
 
+## Related recipes
 
-# Related recipes
-
-The following recipes are all about multiple image use cases, with different modelling approaches:
-
-* [Multiple choice of images in a single view][0033]. Here the choice of images are within the same view, rather than two separate views as above.
-
+* [Multiple choice of images in a single view][0033]. This is the same as this example, but without the image service (only static images are used).
+* [Composition of one view from multiple image sources][0036]. Care should be taken not to confuse _composition_ with the current recipe. Both involve multiple images, but composition is for building a scene from multiple images (and possibly other resources), where there is no requirement to offer the user choices _between_ those images.
 
 {% include acronyms.md %}
 {% include links.md %}

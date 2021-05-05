@@ -1,5 +1,5 @@
 ---
-title: Choice: Multispectral-flavored Example, with Image Service
+title: "Choice: Multispectral-flavored Example, with Image Service"
 id: 34
 layout: recipe
 tags: [multiple-images]
