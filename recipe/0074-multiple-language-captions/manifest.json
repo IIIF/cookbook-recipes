@@ -59,9 +59,9 @@
                                         "label": { "it": [ "Sottotitoli in formato SubRip (SRT)" ] },
                                         "language": "it"
                                     }
-                                ],
-                                "target": "https://preview.iiif.io/cookbook/0074-multiple-language-captions/recipe/0074-multiple-language-captions/canvas"
-                            }
+                                ]
+                            },
+                            "target": "https://preview.iiif.io/cookbook/0074-multiple-language-captions/recipe/0074-multiple-language-captions/canvas"
                         }
                     ]
                 }
