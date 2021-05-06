@@ -12,7 +12,7 @@ You have a IIIF resource for which you would like to include information about o
 
 ## Implementation Notes
 
-So that a client can display one or more content contributors for a resource, the `provider` property conveys information in the form of an Agent resource. This resource must contain, at a minimum:
+So that a client can display one or more content contributors for a resource, the `provider` property conveys information in the form of an [Agent](http://purl.org/dc/terms/Agent) resource. This resource must contain, at a minimum:
 + `id`, an authoritative and unique URI for the contributor,
 + `type`, always the string "Agent", and
 + `label`, a human-readable name for the contributor.
@@ -31,7 +31,7 @@ In this example, we reuse the front page of a kabuki playbill that was contribut
 
 No viewer currently implements `provider` sufficiently fully and correctly.
 
-{% include manifest_links.html viewers="" manifest="manifest.json" %}
+{% include manifest_links.html viewers="" manifest="manifest.json" config='data-line="15-59"' %}
 
 {% include jsonviewer.html src="manifest.json" %}
 
