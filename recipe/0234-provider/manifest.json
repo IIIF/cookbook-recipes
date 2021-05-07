@@ -31,47 +31,52 @@
             ]
           },
           "format": "text/html",
-          "language": ["en"]
+          "language": [
+            "en"
+          ]
         }
       ],
-"logo": [
-
-    {
-        "id": "https://iiif.library.ucla.edu/iiif/2/UCLA-Library-Logo-double-line-2/full/full/0/default.png",
-        "type": "Image"
-        "service": [
-			{
-				"id": "https://iiif.library.ucla.edu/iiif/2/UCLA-Library-Logo-double-line-2",
-				"type": "ImageService3",
-				"profile": "level2",
-				"width": 1200,
-				"height": 502,
-				"sizes": [
-					{
-						"width": 300,
-						"height": 126
-					},
-					{
-						"width": 600,
-						"height": 251
-					},
-					{
-						"width": 1200,
-						"height": 502
-					}
-				],
-			}
-        ]
-    }
-],
+      "logo": [
+        {
+          "id": "https://iiif.library.ucla.edu/iiif/2/UCLA-Library-Logo-double-line-2/full/full/0/default.png",
+          "type": "Image",
+          "service": [
+            {
+              "id": "https://iiif.library.ucla.edu/iiif/2/UCLA-Library-Logo-double-line-2",
+              "type": "ImageService3",
+              "profile": "level2",
+              "width": 1200,
+              "height": 502,
+              "sizes": [
+                {
+                  "width": 300,
+                  "height": 126
+                },
+                {
+                  "width": 600,
+                  "height": 251
+                },
+                {
+                  "width": 1200,
+                  "height": 502
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "seeAlso": [
-      	{
-      		"id": "https://id.loc.gov/authorities/names/n79055331.madsxml.xml",
-      		"type": "Dataset",
-      		"label": {"en": ["US Library of Congress data about the UCLA Library"]},
-      		"format": "application/xml",
-      		"profile": "http://www.loc.gov/mads/v2"
-      	}
+        {
+          "id": "https://id.loc.gov/authorities/names/n79055331.madsxml.xml",
+          "type": "Dataset",
+          "label": {
+            "en": [
+              "US Library of Congress data about the UCLA Library"
+            ]
+          },
+          "format": "application/xml",
+          "profile": "http://www.loc.gov/mads/v2"
+        }
       ]
     }
   ],
