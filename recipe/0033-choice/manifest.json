@@ -27,7 +27,14 @@
                         "format": "image/jpeg",
                         "width": 2000,
                         "height": 1271,
-                        "label": { "en": [ "Natural Light" ] }
+                        "label": { "en": [ "Natural Light" ] },
+                        "service": [
+                            {
+                                "id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-natural",
+                                "type": "ImageService3",
+                                "profile": "level1"
+                            }
+                        ]
                     },
                     {
                         "id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-xray/full/max/0/default.jpg",
@@ -35,7 +42,14 @@
                         "format": "image/jpeg",
                         "width": 2000,
                         "height": 1271,
-                        "label": { "en": [ "X-Ray" ] }
+                        "label": { "en": [ "X-Ray" ] },
+                        "service": [
+                            {
+                                "id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-xray",
+                                "type": "ImageService3",
+                                "profile": "level1"
+                            }
+                        ]
                     }
                   ]
                 },
