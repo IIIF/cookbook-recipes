@@ -1,0 +1,32 @@
+{
+    "@context": "http://preview.iiif.io/api/presentation/3/context.json",
+    "id": "https://preview.iiif.io/api/cookbook/recipe/0074-multiple-language-captions/subtitles_captions-page-files-srt.json",
+    "type": "AnnotationPage",
+    "items": [
+        {
+            "id": "https://preview.iiif.io/cookbook/recipe/0074-multiple-language-captions/canvas/subtitles_captions/subtitles_captions-files-srt",
+            "type": "Annotation",
+            "motivation": "supplementing",
+            "body": {
+                "type": "Choice",
+                "items": [
+                    {
+                        "id": "https://fixtures.iiif.io/video/europeana/Per_voi_signore_Modelli_francesi_en.srt",
+                        "type": "Text",
+                        "format": "text/plain",
+                        "label": { "en": [ "Captions in SubRip (SRT) format" ] },
+                        "language": "en"
+                    }, 
+                    {
+                        "id": "https://fixtures.iiif.io/video/europeana/Per_voi_signore_Modelli_francesi_it.srt",
+                        "type": "Text",
+                        "format": "text/plain",
+                        "label": { "it": [ "Sottotitoli in formato SubRip (SRT)" ] },
+                        "language": "it"
+                    }
+                ]
+            },
+            "target": "https://preview.iiif.io/cookbook/0074-multiple-language-captions/recipe/0074-multiple-language-captions/canvas"
+        }
+    ]
+}

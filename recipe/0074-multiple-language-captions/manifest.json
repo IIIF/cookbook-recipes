@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://preview.iiif.io/cookbook/0074-multiple-language-captions/recipe/0074-multiple-language-captions/manifest.json",
+    "id": "https://preview.iiif.io/cookbook/recipe/0074-multiple-language-captions/0074-multiple-language-captions/manifest.json",
     "type": "Manifest",
     "label": {
         "it": ["Per voi signore. Modelli francesi"],
@@ -12,16 +12,16 @@
       "value": { "en": [ "All rights reserved Cinecittà Luce spa" ] }
     },
     "items": [{
-            "id": "https://preview.iiif.io/cookbook/0074-multiple-language-captions/recipe/0074-multiple-language-captions/canvas",
+            "id": "https://preview.iiif.io/cookbook/recipe/0074-multiple-language-captions/canvas",
             "type": "Canvas",
             "height": 384,
             "width": 288,
             "duration": 65.0,
             "items": [{
-                    "id": "https://preview.iiif.io/cookbook/0074-multiple-language-captions/recipe/0074-multiple-language-captions/canvas/page",
+                    "id": "https://preview.iiif.io/cookbook/recipe/0074-multiple-language-captions/canvas/page",
                     "type": "AnnotationPage",
                     "items": [{
-                            "id": "https://preview.iiif.io/cookbook/0074-multiple-language-captions/recipe/0074-multiple-language-captions/canvas/page/annotation",
+                            "id": "https://preview.iiif.io/cookbook/recipe/0074-multiple-language-captions/canvas/page/annotation",
                             "type": "Annotation",
                             "motivation": "painting",
                             "body": {
@@ -32,38 +32,19 @@
                                 "duration": 572.034,
                                 "format": "video/mp4"
                             },
-                            "target": "https://preview.iiif.io/cookbook/0074-multiple-language-captions/recipe/0074-multiple-language-captions/canvas"
+                            "target": "https://preview.iiif.io/cookbook/recipe/0074-multiple-language-captions/canvas"
                         }
                     ]
                 }
             ],
-            "annotations": [{
-                    "id": "https://preview.iiif.io/cookbook/0074-multiple-language-captions/recipe/0074-multiple-language-captions/canvas/subtitles_captions",
-                    "type": "AnnotationPage",
-                    "items": [{
-                            "id": "https://preview.iiif.io/cookbook/0074-multiple-language-captions/recipe/0074-multiple-language-captions/canvas/subtitles_captions/subtitle_caption1",
-                            "type": "Annotation",
-                            "motivation": "supplementing",
-                            "body": {
-                                "type": "Choice",
-                                "items": [{
-                                        "id": "https://fixtures.iiif.io/video/europeana/Per_voi_signore_Modelli_francesi_en.srt",
-                                        "type": "Text",
-                                        "format": "text/plain",
-                                        "label": { "en": [ "Captions in SubRip (SRT) format" ] },
-                                        "language": "en"
-                                    }, {
-                                        "id": "https://fixtures.iiif.io/video/europeana/Per_voi_signore_Modelli_francesi_it.srt",
-                                        "type": "Text",
-                                        "format": "text/plain",
-                                        "label": { "it": [ "Sottotitoli in formato SubRip (SRT)" ] },
-                                        "language": "it"
-                                    }
-                                ]
-                            },
-                            "target": "https://preview.iiif.io/cookbook/0074-multiple-language-captions/recipe/0074-multiple-language-captions/canvas"
-                        }
-                    ]
+            "annotations": [
+                {
+                    "id": "https://preview.iiif.io/api/cookbook/recipe/0074-multiple-language-captions/subtitles_captions-page-files-vtt.json",
+                    "type": "AnnotationPage"
+                },
+                {
+                    "id": " {{the annotation page for substitles as full-text annotations}}",
+                    "type": "AnnotationPage"
                 }
             ]
         }
