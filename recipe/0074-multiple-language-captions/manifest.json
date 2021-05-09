@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://preview.iiif.io/cookbook/recipe/0074-multiple-language-captions/0074-multiple-language-captions/manifest.json",
+    "id": "{{ id.url }}",
     "type": "Manifest",
     "label": {
         "it": ["Per voi signore. Modelli francesi"],
@@ -9,8 +9,16 @@
     "rights": "http://rightsstatements.org/vocab/InC/1.0/",
     "requiredStatement": {
       "label": { "en": [ "Rights" ] },
-      "value": { "en": [ "All rights reserved Cinecitt√† Luce spa" ] }
+      "value": { "en": [ "All rights reserved Cinecitt‡† Luce spa" ] }
     },
+    "seeAlso": [
+	    {
+	      "id": "{{ id.path }}/metadata-edm.rdf",
+	      "type": "Dataset",
+	      "format": "application/rdf+xml",
+	      "profile": "http://www.europeana.eu/schemas/edm/"
+	    }
+    ],
     "items": [{
             "id": "https://preview.iiif.io/cookbook/recipe/0074-multiple-language-captions/canvas",
             "type": "Canvas",
@@ -25,7 +33,7 @@
                             "type": "Annotation",
                             "motivation": "painting",
                             "body": {
-                                "id": "https://fixtures.iiif.io/video/europeana/Per_voi_signore_Modelli_francesi.mp4",
+                                "id": "{{ id.path }}/Per_voi_signore_Modelli_francesi.mp4",
                                 "type": "Video",
                                 "height": 360,
                                 "width": 480,
@@ -39,11 +47,11 @@
             ],
             "annotations": [
                 {
-                    "id": "https://preview.iiif.io/api/cookbook/recipe/0074-multiple-language-captions/subtitles_captions-page-files-vtt.json",
+                    "id": "{{ id.path }}/subtitles_captions-page-files-vtt.json",
                     "type": "AnnotationPage"
                 },
                 {
-                    "id": " {{the annotation page for substitles as full-text annotations}}",
+                    "id": "{{ id.path }}/subtitles_captions-page-files-annotations.json",
                     "type": "AnnotationPage"
                 }
             ]

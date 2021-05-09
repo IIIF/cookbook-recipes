@@ -1,0 +1,28 @@
+{
+    "@context": "http://preview.iiif.io/api/presentation/3/context.json",
+    "id": "https://preview.iiif.io/api/cookbook/recipe/0074-multiple-language-captions/subtitles_captions-page-files-vtt.json",
+    "type": "AnnotationPage",
+    "items": [
+        {
+            "id": "https://preview.iiif.io/cookbook/recipe/0074-multiple-language-captions/canvas/subtitles_captions/subtitles_captions-files-vtt",
+            "type": "Annotation",
+            "motivation": "supplementing",
+            "body": {
+                "type": "Choice",
+                "items": [{
+					          "id": "{{ id.path }}/Per_voi_signore_Modelli_francesi-annotations_en.json",
+					          "type": "AnnotationPage",
+                                "label": { "en": [ "Captions in Web Annotation" ] },
+                                "language": "en"
+					        }, {
+					          "id": "{{ id.path }}/Per_voi_signore_Modelli_francesi-annotations_it.json",
+					          "type": "AnnotationPage",
+                                "label": { "it": [ "Sottotitoli in Web Annotation" ] },
+                                "language": "it"
+					        }
+                ]
+            },
+            "target": "https://preview.iiif.io/cookbook/0074-multiple-language-captions/recipe/0074-multiple-language-captions/canvas"
+        }
+    ]
+}
