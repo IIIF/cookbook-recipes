@@ -13,7 +13,7 @@
                 "language": "en",
                 "value": "At the fashionable game Canasta."
             },
-            "target": "#t=00:00:08.987,00:00:10.749"
+            "target": "{{id.path}}/canvas#t=00:00:08.987,00:00:10.749"
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a2",
@@ -25,7 +25,7 @@
                 "language": "en",
                 "value": "Jacques Fath names this model in blue\nvelvet \"flight of a dove\""
             },
-            "target": "#t=00:00:10.793,00:00:14.172"
+            "target": "{{id.path}}/canvas#t=00:00:10.793,00:00:14.172"
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a3",
@@ -37,7 +37,7 @@
                 "language": "en",
                 "value": "with green reflections."
             },
-            "target": "#t=00:00:14.207,00:00:15.363"
+            "target": "{{id.path}}/canvas#t=00:00:14.207,00:00:15.363"
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a4",
@@ -49,7 +49,7 @@
                 "language": "en",
                 "value": "A braid of the same fabric holds the robe."
             },
-            "target": "#t=00:00:15.396,00:00:17.792"
+            "target": "{{id.path}}/canvas#t=00:00:15.396,00:00:17.792"
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a5",
@@ -61,7 +61,7 @@
                 "language": "en",
                 "value": "Necklace under the diamond collar."
             },
-            "target": "#t=00:00:18.309,00:00:20.091"
+            "target": "{{id.path}}/canvas#t=00:00:18.309,00:00:20.091"
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a6",
@@ -73,7 +73,7 @@
                 "language": "en",
                 "value": "Light shades scale in this autumn collection."
             },
-            "target": "#t=00:00:22.408,00:00:24.815"
+            "target": "{{id.path}}/canvas#t=00:00:22.408,00:00:24.815"
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a7",
@@ -85,7 +85,7 @@
                 "language": "en",
                 "value": "White sequence."
             },
-            "target": "#t=00:00:24.847,00:00:26.219"
+            "target": "{{id.path}}/canvas#t=00:00:24.847,00:00:26.219"
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a8",
@@ -97,7 +97,7 @@
                 "language": "en",
                 "value": "Satin dress and cloak."
             },
-            "target": "#t=00:00:26.389,00:00:27.662"
+            "target": "{{id.path}}/canvas#t=00:00:26.389,00:00:27.662"
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a9",
@@ -109,7 +109,7 @@
                 "language": "en",
                 "value": "At the ball, it is the most imaginative as a line"
             },
-            "target": "#t=00:00:28.271,00:00:30.470"
+            "target": "{{id.path}}/canvas#t=00:00:28.271,00:00:30.470"
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a10",
@@ -121,7 +121,7 @@
                 "language": "en",
                 "value": "as it narrows to an hourglass on the knee."
             },
-            "target": "#t=00:00:30.491,00:00:33.069"
+            "target": "{{id.path}}/canvas#t=00:00:30.491,00:00:33.069"
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a11",
@@ -133,7 +133,7 @@
                 "language": "en",
                 "value": "After the ball."
             },
-            "target": "#t=00:00:33.619,00:00:34.536"
+            "target": "{{id.path}}/canvas#t=00:00:33.619,00:00:34.536"
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a12",
@@ -145,7 +145,7 @@
                 "language": "en",
                 "value": "Satin of a tender light blue,\nBurgundy red velvet cloak."
             },
-            "target": "#t=00:00:34.566,00:00:38.052"
+            "target": "{{id.path}}/canvas#t=00:00:34.566,00:00:38.052"
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a13",
@@ -157,7 +157,7 @@
                 "language": "en",
                 "value": "Salome, again satin and again white"
             },
-            "target": "#t=00:00:40.029,00:00:42.418"
+            "target": "{{id.path}}/canvas#t=00:00:40.029,00:00:42.418"
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a14",
@@ -169,7 +169,7 @@
                 "language": "en",
                 "value": "the fabric and the colour inspire the\nParisian tailor's imagination this time."
             },
-            "target": "#t=00:00:42.444,00:00:46.039"
+            "target": "{{id.path}}/canvas#t=00:00:42.444,00:00:46.039"
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a15",
@@ -181,7 +181,7 @@
                 "language": "en",
                 "value": "Giselle,"
             },
-            "target": "#t=00:00:46.248,00:00:47.360"
+            "target": "{{id.path}}/canvas#t=00:00:46.248,00:00:47.360"
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a16",
@@ -193,7 +193,7 @@
                 "language": "en",
                 "value": "novel heroine for young girls,\nwhite tulle."
             },
-            "target": "#t=00:00:47.467,00:00:49.978"
+            "target": "{{id.path}}/canvas#t=00:00:47.467,00:00:49.978"
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a17",
@@ -205,7 +205,7 @@
                 "language": "en",
                 "value": "The torso and the head emerge\nas from a rippled cloud."
             },
-            "target": "#t=00:00:50.172,00:00:53.136"
+            "target": "{{id.path}}/canvas#t=00:00:50.172,00:00:53.136"
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a18",
@@ -217,7 +217,7 @@
                 "language": "en",
                 "value": "The 7/8 cloak insists on these models."
             },
-            "target": "#t=00:00:54.620,00:00:57.146"
+            "target": "{{id.path}}/canvas#t=00:00:54.620,00:00:57.146"
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a19",
@@ -229,7 +229,7 @@
                 "language": "en",
                 "value": "Evening dresses stretched to the ground."
             },
-            "target": "#t=00:00:57.183,00:00:59.353"
+            "target": "{{id.path}}/canvas#t=00:00:57.183,00:00:59.353"
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a20",
@@ -241,7 +241,7 @@
                 "language": "en",
                 "value": "But the newer line is what Fath calls \"column.\""
             },
-            "target": "#t=00:00:59.591,00:01:02.668"
+            "target": "{{id.path}}/canvas#t=00:00:59.591,00:01:02.668"
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a21",
@@ -253,7 +253,7 @@
                 "language": "en",
                 "value": "We see it in tight-fitting clothes"
             },
-            "target": "#t=00:01:02.853,00:01:04.858"
+            "target": "{{id.path}}/canvas#t=00:01:02.853,00:01:04.858"
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a22",
@@ -265,7 +265,7 @@
                 "language": "en",
                 "value": "with at the end a brief\ncommemoration of the trail."
             },
-            "target": "#t=00:01:04.892,00:01:08.058"
+            "target": "{{id.path}}/canvas#t=00:01:04.892,00:01:08.058"
         }
     ]
 }

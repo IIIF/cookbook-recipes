@@ -1,10 +1,10 @@
 {
     "@context": "http://preview.iiif.io/api/presentation/3/context.json",
-    "id": "https://preview.iiif.io/api/cookbook/recipe/0074-multiple-language-captions/subtitles_captions-page-files-vtt.json",
+    "id": "{{id.url}}",
     "type": "AnnotationPage",
     "items": [
         {
-            "id": "https://preview.iiif.io/cookbook/recipe/0074-multiple-language-captions/canvas/subtitles_captions/subtitles_captions-files-vtt",
+            "id": "{{id.path}}/subtitles_captions-files-annotations",
             "type": "Annotation",
             "motivation": "supplementing",
             "body": {
@@ -22,7 +22,7 @@
 					        }
                 ]
             },
-            "target": "https://preview.iiif.io/cookbook/0074-multiple-language-captions/recipe/0074-multiple-language-captions/canvas"
+            "target": "{{id.path}}/canvas"
         }
     ]
 }

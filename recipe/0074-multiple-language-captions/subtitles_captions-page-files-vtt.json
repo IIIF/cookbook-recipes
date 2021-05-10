@@ -1,24 +1,24 @@
 {
     "@context": "http://preview.iiif.io/api/presentation/3/context.json",
-    "id": "https://preview.iiif.io/api/cookbook/recipe/0074-multiple-language-captions/subtitles_captions-page-files-vtt.json",
+    "id": "{{id.url}}",
     "type": "AnnotationPage",
     "items": [
         {
-            "id": "https://preview.iiif.io/cookbook/recipe/0074-multiple-language-captions/canvas/subtitles_captions/subtitles_captions-files-vtt",
+            "id": "{{id.url}}/subtitles_captions-files-vtt",
             "type": "Annotation",
             "motivation": "supplementing",
             "body": {
                 "type": "Choice",
                 "items": [
                     {
-                        "id": "https://fixtures.iiif.io/video/europeana/Per_voi_signore_Modelli_francesi_en.vtt",
+                        "id": "{{id.path}}/Per_voi_signore_Modelli_francesi_en.vtt",
                         "type": "Text",
                         "format": "text/vtt",
                         "label": { "en": [ "Captions in WebVTT format" ] },
                         "language": "en"
                     }, 
                     {
-                        "id": "https://fixtures.iiif.io/video/europeana/Per_voi_signore_Modelli_francesi_it.vtt",
+                        "id": "{{id.path}}/Per_voi_signore_Modelli_francesi_it.vtt",
                         "type": "Text",
                         "format": "text/vtt",
                         "label": { "it": [ "Sottotitoli in formato WebVTT" ] },
@@ -26,7 +26,7 @@
                     }
                 ]
             },
-            "target": "https://preview.iiif.io/cookbook/0074-multiple-language-captions/recipe/0074-multiple-language-captions/canvas"
+            "target": "{{id.path}}/canvas"
         }
     ]
 }
