@@ -4,7 +4,7 @@
     "type": "AnnotationPage",
     "items": [
         {
-            "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/4064152b11f7f5944acbd70097410d5e",
+            "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/it/a1",
             "type": "Annotation",
             "motivation": "supplementing",
             "body": {
@@ -16,7 +16,7 @@
             "target": "#t=00:00:08.987,00:00:10.749"
         },
         {
-            "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/4064152b11f7f5944acbd70097410d5e",
+            "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/it/a2",
             "type": "Annotation",
             "motivation": "supplementing",
             "body": {
@@ -28,7 +28,7 @@
             "target": "#t=00:00:10.793,00:00:14.172"
         },
         {
-            "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/4064152b11f7f5944acbd70097410d5e",
+            "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/it/a3",
             "type": "Annotation",
             "motivation": "supplementing",
             "body": {
@@ -40,7 +40,7 @@
             "target": "#t=00:00:14.207,00:00:15.363"
         },
         {
-            "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/4064152b11f7f5944acbd70097410d5e",
+            "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/it/a4",
             "type": "Annotation",
             "motivation": "supplementing",
             "body": {
@@ -52,7 +52,7 @@
             "target": "#t=00:00:15.396,00:00:17.792"
         },
         {
-            "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/4064152b11f7f5944acbd70097410d5e",
+            "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/it/a5",
             "type": "Annotation",
             "motivation": "supplementing",
             "body": {
@@ -64,7 +64,7 @@
             "target": "#t=00:00:18.309,00:00:20.091"
         },
         {
-            "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/4064152b11f7f5944acbd70097410d5e",
+            "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/it/a6",
             "type": "Annotation",
             "motivation": "supplementing",
             "body": {
@@ -76,7 +76,7 @@
             "target": "#t=00:00:22.408,00:00:24.815"
         },
         {
-            "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/4064152b11f7f5944acbd70097410d5e",
+            "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/it/a7",
             "type": "Annotation",
             "motivation": "supplementing",
             "body": {
@@ -88,7 +88,7 @@
             "target": "#t=00:00:24.847,00:00:26.219"
         },
         {
-            "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/4064152b11f7f5944acbd70097410d5e",
+            "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/it/a8",
             "type": "Annotation",
             "motivation": "supplementing",
             "body": {
@@ -100,7 +100,7 @@
             "target": "#t=00:00:26.389,00:00:27.662"
         },
         {
-            "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/4064152b11f7f5944acbd70097410d5e",
+            "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/it/a9",
             "type": "Annotation",
             "motivation": "supplementing",
             "body": {
@@ -112,7 +112,7 @@
             "target": "#t=00:00:28.271,00:00:30.470"
         },
         {
-            "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/4064152b11f7f5944acbd70097410d5e",
+            "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/it/a10",
             "type": "Annotation",
             "motivation": "supplementing",
             "body": {
@@ -124,7 +124,7 @@
             "target": "#t=00:00:30.491,00:00:33.069"
         },
         {
-            "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/4064152b11f7f5944acbd70097410d5e",
+            "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/it/a11",
             "type": "Annotation",
             "motivation": "supplementing",
             "body": {
@@ -136,7 +136,7 @@
             "target": "#t=00:00:33.619,00:00:34.536"
         },
         {
-            "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/4064152b11f7f5944acbd70097410d5e",
+            "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/it/a12",
             "type": "Annotation",
             "motivation": "supplementing",
             "body": {
@@ -148,7 +148,7 @@
             "target": "#t=00:00:34.566,00:00:38.052"
         },
         {
-            "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/4064152b11f7f5944acbd70097410d5e",
+            "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/it/a13",
             "type": "Annotation",
             "motivation": "supplementing",
             "body": {
@@ -160,7 +160,7 @@
             "target": "#t=00:00:40.029,00:00:42.418"
         },
         {
-            "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/4064152b11f7f5944acbd70097410d5e",
+            "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/it/a14",
             "type": "Annotation",
             "motivation": "supplementing",
             "body": {
@@ -172,7 +172,7 @@
             "target": "#t=00:00:42.444,00:00:46.039"
         },
         {
-            "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/4064152b11f7f5944acbd70097410d5e",
+            "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/it/a15",
             "type": "Annotation",
             "motivation": "supplementing",
             "body": {
@@ -184,7 +184,7 @@
             "target": "#t=00:00:46.248,00:00:47.360"
         },
         {
-            "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/4064152b11f7f5944acbd70097410d5e",
+            "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/it/a16",
             "type": "Annotation",
             "motivation": "supplementing",
             "body": {
@@ -196,7 +196,7 @@
             "target": "#t=00:00:47.467,00:00:49.978"
         },
         {
-            "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/4064152b11f7f5944acbd70097410d5e",
+            "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/it/a17",
             "type": "Annotation",
             "motivation": "supplementing",
             "body": {
@@ -208,7 +208,7 @@
             "target": "#t=00:00:50.172,00:00:53.136"
         },
         {
-            "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/4064152b11f7f5944acbd70097410d5e",
+            "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/it/a18",
             "type": "Annotation",
             "motivation": "supplementing",
             "body": {
@@ -220,7 +220,7 @@
             "target": "#t=00:00:54.620,00:00:57.146"
         },
         {
-            "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/4064152b11f7f5944acbd70097410d5e",
+            "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/it/a19",
             "type": "Annotation",
             "motivation": "supplementing",
             "body": {
@@ -232,7 +232,7 @@
             "target": "#t=00:00:57.183,00:00:59.353"
         },
         {
-            "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/4064152b11f7f5944acbd70097410d5e",
+            "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/it/a20",
             "type": "Annotation",
             "motivation": "supplementing",
             "body": {
@@ -244,7 +244,7 @@
             "target": "#t=00:00:59.591,00:01:02.668"
         },
         {
-            "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/4064152b11f7f5944acbd70097410d5e",
+            "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/it/a21",
             "type": "Annotation",
             "motivation": "supplementing",
             "body": {
@@ -256,7 +256,7 @@
             "target": "#t=00:01:02.853,00:01:04.858"
         },
         {
-            "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/4064152b11f7f5944acbd70097410d5e",
+            "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/it/a22",
             "type": "Annotation",
             "motivation": "supplementing",
             "body": {
