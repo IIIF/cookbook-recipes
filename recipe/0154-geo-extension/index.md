@@ -17,7 +17,7 @@ A Manifest contains a single Canvas item representing a photograph. You would li
 ### Implementation Notes
 IIIF has a registered API extension called `navPlace` which is used to associate geographic coordinates with IIIF resource types, and it is leveraged here to meet the use case.  You will notice multiple contexts used in the top level `@context` property.  The third party [GeoJSON-LD](https://geojson.org/geojson-ld/) context is included along with the navPlace extension and the IIIF Presentation API 3.0 contexts. Combined, these supplies the vocabulary terms for the GeoJSON-LD used in the value for `navPlace` as well as the "navPlace" term itself since the IIIF Presentation API 3.0 context alone does not describe those terms. When there are multiple contexts, the `@context` property can be an array which is processed as a set. Typically order does not matter for a set. However, when the IIIF context is used in these arrays it must be the last item in the set.
 
-GeoJSON `properties` is a generic field and [can be nearly anything](https://tools.ietf.org/html/rfc7946#section-3.2). If, for example, the targeted resource has a `label` and the `properties` field contains a `label`, the consuming interface must make a choice on which to prioritize for presentation purposes. In the example renderings, the label inside `properties` is used as opposed to the label from the Manifest.  
+GeoJSON `properties` is a generic field and [can be nearly anything](https://tools.ietf.org/html/rfc7946#section-3.2). If, for example, the targeted resource has a `label` and the `properties` field contains a `label`, the consuming interface must make a choice on which to prioritize for presentation purposes. In the example renderings, the label inside `properties` is used as opposed to the label from the Manifest or Canvas.  
 
 Note that [`geometry` has more types besides `Point`.](https://tools.ietf.org/html/rfc7946#section-3.1)
 
@@ -29,7 +29,7 @@ The Manifest below contains one Canvas with a photograph painted onto it. The Ma
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="2-6, 63-90, 135-163"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="2-6, 78-105"' %}
 
 ## Related Recipes
 * [Represent Canvas Fragment as a Geographic Area in a Web Mapping Client][0139]
