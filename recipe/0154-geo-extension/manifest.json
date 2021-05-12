@@ -8,97 +8,100 @@
    "type":"Manifest",
    "label":{
       "en":[
-         "Recipe Manifest for #154"
+         "Picture of Göttingen taken during the 2019 IIIF Conference"
       ]
    },
    "summary":{
       "en":[
-         "A IIIF Presentation API 3.0 Manifest leveraging the navPlace property."
+         "<p>Picture taken by the <a href=\"https://github.com/glenrobson\">IIIF Technical Coordinator</a></p>"
       ]
    },
-   "items":[
-      {
-         "id":"{{ id.path }}/canvas.json",
-         "type":"Canvas",
-         "label":{
-            "en":[
-               "Chesapeake and Ohio Canal Pamphlet"
-            ]
-         },
-         "width":5212,
-         "height":7072,
-         "items":[
-            {
-               "id":"{{ id.path }}/contentPage.json",
-               "type":"AnnotationPage",
-               "items":[
-                  {
-                     "id":"{{ id.path }}/content.json",
-                     "type":"Annotation",
-                     "motivation":"painting",
-                     "label":{
-                        "en":[
-                           "Pamphlet Cover"
-                        ]
-                     },
-                     "body":{
-                        "id":"https://iiif.io/api/image/3.0/example/reference/43153e2ec7531f14dd1c9b2fc401678a-88695674/full/max/0/default.jpg",
-                        "type":"Image",
-                        "format":"image/jpeg",
-                        "service":[
-                           {
-                              "id":"https://iiif.io/api/image/3.0/example/reference/43153e2ec7531f14dd1c9b2fc401678a-88695674",
-                              "type":"ImageService3",
-                              "profile":"level1"
-                           }
-                        ],
-                        "width":5212,
-                        "height":7072
-                     },
-                     "target":"{{ id.path }}/canvas.json"
-                  }
+   "rights":"http://creativecommons.org/licenses/by-sa/3.0/",
+   "requiredStatement":{
+      "label":{
+         "en":[
+            "Attribution"
+         ]
+      },
+      "value":{
+         "en":[
+            "<span>Glen Robson, IIIF Technical Coordinator. <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a> <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" title\"CC BY-SA 3.0\"><img src=\"https://licensebuttons.net/l/by-sa/3.0/88x31.png\"/></a></span>"
+         ]
+      },
+      "items":[
+         {
+            "id":"{{ id.path }}/canvas/p1",
+            "type":"Canvas",
+            "label":{
+               "en":[
+                  "Picture of Göttingen taken during the 2019 IIIF Conference"
                ]
+            },
+            "type":"Canvas",
+            "height":3024,
+            "width":4032,
+            "items":[
+               {
+                  "id":"{{ id.path }}/page/p1/1",
+                  "type":"AnnotationPage",
+                  "items":[
+                     {
+                        "id":"{{ id.path }}/annotation/p0001-image",
+                        "type":"Annotation",
+                        "motivation":"painting",
+                        "label":{
+                           "en":[
+                              "Picture of Göttingen"
+                           ]
+                        },
+                        "body":{
+                           "id":"https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg",
+                           "type":"Image",
+                           "format":"image/jpeg",
+                           "height":3024,
+                           "width":4032,
+                           "service":[
+                              {
+                                 "id":"https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
+                                 "profile":"level1",
+                                 "type":"ImageService3"
+                              }
+                           ]
+                        },
+                        "target":"{{ id.path }}/canvas/p1"
+                     }
+                  ]
+               }
+            ]
+         }
+      ],
+      "navPlace":{
+         "type":"FeatureCollection",
+         "features":[
+            {
+               "id":"{{ id.path }}/geo.json",
+               "type":"Feature",
+               "properties":{
+                  "label":{
+                     "en":[
+                        "Photograph from Göttingen, Germany"
+                     ]
+                  },
+                  "summary":{
+                     "en":[
+                        "Wilhelmspl. 3, 37073 Göttingen, Germany"
+                     ]
+                  }
+               },
+               "geometry":{
+                  "type":"Point",
+                  "coordinates":[
+                     -77.036871,
+                     38.907226
+                  ]
+               }
             }
          ]
       }
-   ],
-   "navPlace":{
-      "type":"FeatureCollection",
-      "features":[
-         {
-            "id":"https://preview.iiif.io/cookbook/0139-geo-annotation/recipe/0139-geolocate-canvas-fragment/geo.json",
-            "type":"Feature",
-            "properties":{
-               "label":{
-                  "en":[
-                     "The Chesapeake and Ohio Canal"
-                  ]
-               }
-            },
-            "geometry":{
-               "type":"Polygon",
-               "coordinates":[
-                  [
-                     [
-                        -77.097847,
-                        38.901359
-                     ],
-                     [
-                        -77.02694,
-                        38.901359
-                     ],
-                     [
-                        -77.02694,
-                        39.03404
-                     ],
-                     [
-                        -77.097847,
-                        39.03404
-                     ]
-                  ]
-               ]
-            }
-         }
-      ]
    }
 }

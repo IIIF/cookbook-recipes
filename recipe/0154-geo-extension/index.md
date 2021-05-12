@@ -1,5 +1,5 @@
 ---
-title: Represent Manifest on a Map with navPlace Extension
+title: Represent Manifest on a Web Map with navPlace Extension
 id: 154
 layout: recipe
 tags: [maps, geolocate, annotation]
@@ -7,7 +7,7 @@ summary: "Use the navPlace extension to provide geolocation information about an
 ---
 
 ### Use Case 
-A Manifest contains information relating to one or multiple geographic areas. You would like to associate this Manifest with geographic coordinates for use in web mapping clients like Leaflet and OpenLayers. This could mean simply showing a non-interactive shape on a web map, but often more data from the resource is displayed in connection with the shape as a result of available functionality. The example below shows a pop-up that appears upon clicking the shape. The pop-up includes the targeted map as well as other metadata from the resource.
+A Manifest contains a single Canvas item representing a photograph. You would like to associate the Manifest with geographic coordinates for use in web mapping clients like Leaflet and OpenLayers. Though using the `navPlace` property on the Canvas would be valid, the goal is to proof a web map as a Manifest browser. This could mean simply showing non-interactive shapes on a web map connecting back to the Manifest, but often more data from the resources is displayed in connection with the shapes as a result of available functionality. The example below shows a pop-up that appears upon clicking the shape. 
 
 <div id="bigImage">
 	<h4 style="color:white;"> Click Image to Close </h4>
@@ -19,20 +19,21 @@ IIIF has a registered API extension called `navPlace` which is used to associate
 
 GeoJSON `properties` is a generic field and [can be nearly anything](https://tools.ietf.org/html/rfc7946#section-3.2). If, for example, the targeted resource has a `label` and the `properties` field contains a `label`, the consuming interface must make a choice on which to prioritize for presentation purposes. In the example renderings, the label inside `properties` is used as opposed to the label from the Manifest.  
 
-Note that [`geometry` has more types besides `Polygon`.](https://tools.ietf.org/html/rfc7946#section-3.1)
+Note that [`geometry` has more types besides `Point`.](https://tools.ietf.org/html/rfc7946#section-3.1)
 
 ### Restrictions
 Applications that strictly follow Linked Data practices will find that nested GeoJSON coordinate arrays are incompatible with the processing model of JSON-LD 1.0. The JSON-LD 1.1 processing model does not have this restriction. Be aware if you plan to serialize JSON-LD into [other semantic data formats or markup languages](https://www.w3.org/TR/json-ld11/#relationship-to-other-linked-data-formats) such as RDF.
 
 ### Example
-`navPlace` contains GeoJSON-LD, which is supported by a number of open source mapping systems. A client can parse `navPlace` from a Manifest and pass the GeoJSON into a web map resulting in rendered geometric shapes on a world map. Often, data from the resource such as an image URL, label or description is connected with those shapes via [`properties`](https://tools.ietf.org/html/rfc7946#section-3.2) in GeoJSON.
+The Manifest below contains one Canvas with a photograph painted onto it. The Manifest contains the `navPlace` property which stores geographic information ascertained from the photograph. `navPlace` contains GeoJSON-LD, which is supported by a number of open source mapping systems. A client can parse `navPlace` from a Manifest and pass the GeoJSON into a web map resulting in rendered geometric shapes on a world map. Often, data from the resource such as an image URL, label or description is connected with those shapes via [`properties`](https://tools.ietf.org/html/rfc7946#section-3.2) in GeoJSON.
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="65-103"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="2-6, 63-90, 135-163"' %}
 
 ## Related Recipes
 * [Represent Canvas Fragment as a Geographic Area in a Web Mapping Client][0139]
+* [Provide Geographic Coordinates for a Manifest with navPlace][0154]
 
 {% include acronyms.md %}
 {% include links.md %}
