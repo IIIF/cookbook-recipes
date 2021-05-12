@@ -1,5 +1,5 @@
 ---
-title: Represent Canavases in Manifest on a Map with navPlace Extension
+title: Represent Canavases in Manifest on a Web Map with navPlace
 id: 154
 layout: recipe
 tags: [maps, geolocate, navPlace]
@@ -7,7 +7,7 @@ summary: "Use the navPlace extension to provide geolocation information for the 
 ---
 
 ### Use Case 
-A Manifest contains Canvas items that have unique geographic characteristics. You would like to associate each Canvas with geographic coordinates for use in web mapping clients like Leaflet and OpenLayers. You intend for each Canvas to be represented in the same interface. This could mean simply showing non-interactive shapes on a web map, but often more data from the resources is displayed in connection with the shapes as a result of available functionality. The example below shows a pop-up that appears upon clicking the shape. 
+A Manifest contains Canvas items with representing photographs taken at places of significance. You would like to associate each Canvas with geographic coordinates for use in web mapping clients like Leaflet and OpenLayers. You intend for each Canvas to be represented in the same interface. This could mean simply showing non-interactive shapes on a web map, but often more data from the resources is displayed in connection with the shapes as a result of available functionality. The example below shows a pop-up that appears upon clicking the shape. 
 
 <div id="bigImage">
 	<h4 style="color:white;"> Click Image to Close </h4>
@@ -25,7 +25,7 @@ Note that [`geometry` has more types besides `Point`.](https://tools.ietf.org/ht
 Applications that strictly follow Linked Data practices will find that nested GeoJSON coordinate arrays are incompatible with the processing model of JSON-LD 1.0. The JSON-LD 1.1 processing model does not have this restriction. Be aware if you plan to serialize JSON-LD into [other semantic data formats or markup languages](https://www.w3.org/TR/json-ld11/#relationship-to-other-linked-data-formats) such as RDF.
 
 ### Example
-`navPlace` contains GeoJSON-LD, which is supported by a number of open source mapping systems. A client can parse `navPlace` from a Manifest and pass the GeoJSON into a web map resulting in rendered geometric shapes on a world map. Often, data from the resource such as an image URL, label or description is connected with those shapes via [`properties`](https://tools.ietf.org/html/rfc7946#section-3.2) in GeoJSON.
+The Manifest below contains two Canvases.  Each Canvas has one Image with a photograph painted onti it.  Those Canvases also contain the `navPlace` property which stores geographic information about the photograph.  `navPlace` contains GeoJSON-LD, which is supported by a number of open source mapping systems. A client can parse `navPlace` from a Manifest and pass the GeoJSON into a web map resulting in rendered geometric shapes on a world map. Often, data from the resource such as an image URL, label or description is connected with those shapes via [`properties`](https://tools.ietf.org/html/rfc7946#section-3.2) in GeoJSON.
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 

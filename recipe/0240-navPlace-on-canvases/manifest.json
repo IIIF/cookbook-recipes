@@ -22,11 +22,11 @@
          "type":"Canvas",
          "label":{
             "en":[
-               "Chesapeake and Ohio Canal Pamphlet"
+               "Picture of Göttingen taken during the 2019 IIIF Conference"
             ]
          },
-         "width":5212,
-         "height":7072,
+         "width":3024,
+         "height":4032,
          "items":[
             {
                "id":"{{ id.path }}/contentPage.json",
@@ -38,22 +38,22 @@
                      "motivation":"painting",
                      "label":{
                         "en":[
-                           "Pamphlet Cover"
+                           "Picture of Göttingen"
                         ]
                      },
                      "body":{
-                        "id":"https://iiif.io/api/image/3.0/example/reference/43153e2ec7531f14dd1c9b2fc401678a-88695674/full/max/0/default.jpg",
+                        "id":"https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg",
                         "type":"Image",
                         "format":"image/jpeg",
                         "service":[
                            {
-                              "id":"https://iiif.io/api/image/3.0/example/reference/43153e2ec7531f14dd1c9b2fc401678a-88695674",
+                              "id":"https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
                               "type":"ImageService3",
                               "profile":"level1"
                            }
                         ],
-                        "width":5212,
-                        "height":7072
+                        "width":3024,
+                        "height":4032,
                      },
                      "target":"{{ id.path }}/canvas.json"
                   }
@@ -69,12 +69,12 @@
                   "properties":{
                      "label":{
                         "en":[
-                           "Chesapeake and Ohio Canal Pamphlet held at the Library of Congress, U.S.A."
+                           "Photograph from Göttingen, Germany"
                         ]
                      },
                      "summary":{
                         "en":[
-                           "101 Independence Ave SE, Washington, DC 20540"
+                           "Wilhelmspl. 3, 37073 Göttingen, Germany"
                         ]
                      } 
                   },
@@ -94,7 +94,7 @@
          "type":"Canvas",
          "label":{
             "en":[
-               "Cover Page of Le Scarabée d'or"
+               "Photograph from TODO, TODO"
             ]
          },
          "width":5212,
@@ -114,12 +114,12 @@
                         ]
                      },
                      "body":{
-                        "id":"https://iiif.io:80/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f20/full/max/0/default.jpg",
+                        "id":"https://iiif.io:80/api/image/3.0/example/reference/TODO/full/max/0/default.jpg",
                         "type":"Image",
                         "format":"image/jpeg",
                         "service":[
                            {
-                              "id":"https://iiif.io:80/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f20",
+                              "id":"https://iiif.io:80/api/image/3.0/example/reference/TODO",
                               "type":"ImageService3",
                               "profile":"level1"
                            }
@@ -141,12 +141,12 @@
                   "properties":{
                      "label":{
                         "en":[
-                           "Cover Page of Le Scarabée d'or held at the Bibliothèque nationale de France."
+                           "TODO TODO"
                         ]
                      },
                      "summary":{
-                        "fr":[
-                           "Bibliothèque François-Mitterrand Quai François Mauriac, 75706 Paris Cedex 13"
+                        "en":[
+                           "TODO TODO"
                         ]
                      } 
                   },
