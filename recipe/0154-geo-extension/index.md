@@ -7,7 +7,7 @@ summary: "Use the navPlace extension to provide geolocation information about an
 ---
 
 ### Use Case 
-A Manifest contains a single Canvas item representing a photograph. You would like to associate the Manifest with geographic coordinates for use in web mapping clients like Leaflet and OpenLayers. Though using the `navPlace` property on the Canvas would be valid, the goal is to proof a web map as a Manifest browser. This could mean simply showing non-interactive shapes on a web map connecting back to the Manifest, but often more data from the resources is displayed in connection with the shapes as a result of available functionality. The example below shows a pop-up that appears upon clicking the shape. 
+A Manifest contains a single Canvas item representing a photograph. You would like to associate the Manifest with geographic coordinates for use in web mapping clients like Leaflet and OpenLayers. Though using the `navPlace` property on the Canvas would be valid, the goal is to use a web map as a Manifest browser. This could mean simply showing non-interactive shapes on a web map connecting back to the Manifest, but often more data from the resources is displayed in connection with the shapes as a result of available functionality. The example below shows a pop-up that appears upon clicking the shape. 
 
 <div id="bigImage">
 	<h4 style="color:white;"> Click Image to Close </h4>
