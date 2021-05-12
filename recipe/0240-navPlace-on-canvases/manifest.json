@@ -18,22 +18,23 @@
    },
    "items":[
       {
-         "id":"{{ id.path }}/canvas.json",
+         "id":"{{ id.path }}/canvas/p1",
          "type":"Canvas",
          "label":{
             "en":[
                "Picture of Göttingen taken during the 2019 IIIF Conference"
             ]
          },
-         "width":3024,
-         "height":4032,
+         "type":"Canvas",
+         "height":3024,
+         "width":4032,
          "items":[
             {
-               "id":"{{ id.path }}/contentPage.json",
+               "id":"{{ id.path }}/page/p1/1",
                "type":"AnnotationPage",
                "items":[
                   {
-                     "id":"{{ id.path }}/content.json",
+                     "id":"{{ id.path }}/annotation/p0001-image",
                      "type":"Annotation",
                      "motivation":"painting",
                      "label":{
@@ -45,17 +46,17 @@
                         "id":"https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg",
                         "type":"Image",
                         "format":"image/jpeg",
+                        "height":3024,
+                        "width":4032,
                         "service":[
                            {
                               "id":"https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
-                              "type":"ImageService3",
-                              "profile":"level1"
+                              "profile":"level1",
+                              "type":"ImageService3"
                            }
-                        ],
-                        "width":3024,
-                        "height":4032,
+                        ]
                      },
-                     "target":"{{ id.path }}/canvas.json"
+                     "target":"{{ id.path }}/canvas/p1"
                   }
                ]
             }
@@ -76,12 +77,12 @@
                         "en":[
                            "Wilhelmspl. 3, 37073 Göttingen, Germany"
                         ]
-                     } 
+                     }
                   },
                   "geometry":{
                      "type":"Point",
                      "coordinates":[
-                        -77.036871, 
+                        -77.036871,
                         38.907226
                      ]
                   }
@@ -148,12 +149,12 @@
                         "en":[
                            "TODO TODO"
                         ]
-                     } 
+                     }
                   },
                   "geometry":{
                      "type":"Polygon",
                      "coordinates":[
-                        2.375780, 
+                        2.375780,
                         48.833791
                      ]
                   }
