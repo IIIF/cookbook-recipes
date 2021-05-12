@@ -111,7 +111,7 @@
                      "motivation":"painting",
                      "label":{
                         "en":[
-                           "Cover Page"
+                           "Lorem ipsum TODO"
                         ]
                      },
                      "body":{
@@ -152,7 +152,7 @@
                      }
                   },
                   "geometry":{
-                     "type":"Polygon",
+                     "type":"Point",
                      "coordinates":[
                         2.375780,
                         48.833791
