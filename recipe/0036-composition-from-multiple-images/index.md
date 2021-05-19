@@ -1,5 +1,5 @@
 ---
-title: Composition from multiple images
+title: Composition from Multiple Images
 id: 36
 layout: recipe
 tags: [segmentation, complex-canvas, multiple-images]
