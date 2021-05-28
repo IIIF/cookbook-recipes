@@ -1,43 +1,43 @@
 ---
-title: Tagging
-id: 21 
+title: Name of Recipe
+id: -1
 layout: recipe
 tags: [tbc]
 summary: "tbc"
 ---
 
-
 ## Use Case
 
-Why is this pattern is important?
+Describe the use case that the pattern is intended to solve.
+Why is this pattern important?
 
-## Implementation notes
+## Implementation Notes
 
-How does one implement the pattern?
+What do you need to know to use this pattern?
+How do you implement the pattern?
 
 ## Restrictions
 
-When is this pattern is usable / not usable? Is it deprecated? If it uses multiple specifications, which versions are needed, etc.? (Not present if not needed.)
+When is this pattern is usable / not usable? Is it deprecated? If it uses multiple specifications, which versions are needed, etc.? 
+
+Delete this section if it is not needed.
+If you don't know what the restrictions might be initially, just leave the following line:
+**Unknown - Help Needed**
 
 ## Example
 
-Describe in prose and provide examples, e.g.: 
+Describe the solution in prose and provide an example.
+The example json document must be an external document, and imported with the following:
 
-``` json-doc
-{
-  "@context": [
-    "http://www.w3.org/ns/anno.jsonld",
-    "http://iiif.io/api/presentation/{{ page.major }}/context.json"
-  ],
-  "id": "https://example.org/iiif/book1/manifest",
-  "type": "Manifest" 
-}
-```
+{% include manifest_links.html viewers="UV, Mirador, Tify, Curation" manifest="manifest.json" %}
 
-# Related recipes
+{% include jsonviewer.html src="manifest.json" %}
+
+The direct link to the fixture is a useful convenience.
+
+## Related Recipes
 
 Provide a bulleted list of related recipes and why they are relevant.
-
 
 {% include acronyms.md %}
 {% include links.md %}
