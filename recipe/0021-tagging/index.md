@@ -1,9 +1,9 @@
 ---
 title: Name of Recipe
-id: -1
+id: 21
 layout: recipe
-tags: [tbc]
-summary: "tbc"
+tags: [annotation]
+summary: "Tagging as a basic annotation"
 ---
 
 ## Use Case
@@ -29,7 +29,7 @@ If you don't know what the restrictions might be initially, just leave the follo
 Describe the solution in prose and provide an example.
 The example json document must be an external document, and imported with the following:
 
-{% include manifest_links.html viewers="UV, Mirador, Tify, Curation" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 
@@ -37,7 +37,7 @@ The direct link to the fixture is a useful convenience.
 
 ## Related Recipes
 
-Provide a bulleted list of related recipes and why they are relevant.
+* 
 
 {% include acronyms.md %}
 {% include links.md %}
