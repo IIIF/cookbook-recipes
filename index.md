@@ -58,7 +58,7 @@ _(leading on to segmentation examples later)_
 
 * comments - various examples (51,52,54)
 * Fragment selectors (61)
-* tagging
+* [Simple Annotation - Tagging][0021]
 * hotspot linking
 * Annotation in the context of a particular content resource https://github.com/IIIF/iiif-stories/issues/101
 * [Geographic coordinates][0139]
