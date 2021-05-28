@@ -1,5 +1,5 @@
 ---
-title: Name of Recipe
+title: Simple Annotation — Tagging
 id: 21
 layout: recipe
 tags: [annotation]
