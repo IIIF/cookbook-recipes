@@ -45,10 +45,8 @@
                 "type": "Annotation",
                 "motivation": "tagging",
                 "body": {
-                  "id": "{{ id.path }}/annotation/p0001-tag/text",
                   "type": "TextualBody",
-                  "value": "Germany",
-                  "purpose": "tagging"
+                  "value": "Germany"
                 },
                 "target": "{{ id.path }}/canvas/p1"
               }
