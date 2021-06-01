@@ -29,6 +29,7 @@
 [0024]: {{site.baseurl}}/recipe/0024-book-4-toc/ "Book with Table of contents (ranges)"
 
 [0068]: {{site.baseurl}}/recipe/0068-newspaper/ "A newspaper"
+[0079]: {{site.baseurl}}/recipe/0079-webvtt-to-annotations/ "Using Annotations for Transcripts"
 [0117]: {{site.baseurl}}/recipe/0117-add-image-thumbnail/ "Manifest Thumbnail"
 [0118]: {{site.baseurl}}/recipe/0118_multivalue/ "Displaying Multiple Values with Language Maps"
 [0219]: {{site.baseurl}}/recipe/0219-using-caption-file/ "Using Captions and Subtitles with Video Content"
