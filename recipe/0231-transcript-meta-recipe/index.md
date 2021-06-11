@@ -1,5 +1,5 @@
 ---
-title: Transcripts, Captions and Subtitles  - General Considerations
+title: Transcripts, Captions and Subtitles - General Considerations
 id: 231
 layout: recipe
 tags: [Transcripts, Captions, Subtitles]
@@ -31,7 +31,7 @@ There are 3 options for handling transcript files using the IIIF Presentation AP
 
     b. For an example in the A/V space, see [].
 
-3. Providing syncrhonized access to transcript and resource
+3. Providing synchronized access to transcript and resource
 
     When the transcript includes spatial and/or temporal information, one can use that information to enable synchronization of the display or streaming of the media and the display of the individual transcript fragments. To accomplish that, create one annotation for each transcript fragment, including its spatial and/or temporal information in the media fragment portion of the annotation target url. The motivation of the corresponding Annotation Page is `supplementing`.
 
