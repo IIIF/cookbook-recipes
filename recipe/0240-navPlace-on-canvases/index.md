@@ -29,7 +29,7 @@ The Manifest below contains two Canvases. Each Canvas has one Image with a photo
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="2-6, 63-91, 135-163"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="2-5, 62-89, 134-161"' %}
 
 ## Related Recipes
 * [Represent Canvas Fragment as a Geographic Area in a Web Mapping Client][0139]
