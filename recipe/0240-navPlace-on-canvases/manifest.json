@@ -1,6 +1,5 @@
 {
    "@context":[
-      "http://geojson.org/geojson-ld/geojson-context.jsonld",
       "http://iiif.io/api/extension/navPlace-context/context.json",
       "http://iiif.io/api/presentation/3/context.json"
    ],
