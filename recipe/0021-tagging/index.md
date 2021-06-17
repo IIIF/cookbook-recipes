@@ -8,13 +8,14 @@ summary: "Tagging as a basic annotation"
 
 ## Use Case
 
-Describe the use case that the pattern is intended to solve.
-Why is this pattern important?
+For a IIIF resource, you'd like to associate commentary with the resource. This commentary might call out a particular element or feature of an image
 
 ## Implementation Notes
 
 What do you need to know to use this pattern?
 How do you implement the pattern?
+
+It's worth noting that Annotations such as tags are permitted to use the `behavior` property with a value of `hidden` if viewers and other consuming clients should be told to not display the tag.
 
 ## Restrictions
 
@@ -26,17 +27,16 @@ If you don't know what the restrictions might be initially, just leave the follo
 
 ## Example
 
-Describe the solution in prose and provide an example.
-The example json document must be an external document, and imported with the following:
+In this manifest, we use the same photograph from the IIIF annual conference in [year] from some other basic recipes. The annotation to demonstrate tagging notes the statue on the top of a fountain, which in turn is a notable landmark of its city.
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" %}
-
-The direct link to the fixture is a useful convenience.
+{% include jsonviewer.html src="manifest.json" config='data-line="64-84"' %}
 
 ## Related Recipes
 
+* 0001
+* 0008 rights/required statement
 * 
 
 {% include acronyms.md %}
