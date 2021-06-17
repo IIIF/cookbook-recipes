@@ -61,30 +61,39 @@
       ]
     }
   ],
-  "annotations": {
-    "id": "{{ id.path }}/annotation/anno-tag-0001",
-    "type": "Annotation",
-    "motivation": "tagging",
-    "body": {
-      "type": "SpecificResource",
-      "selector": {
-      	"type": "FragmentSelector",
-      	"conformsTo": "http://www.w3.org/TR/media-frags/",
-      	"value": "xywh=749,1054,338,460"
-      },
-      "purpose": "tagging",
-      "source": {
-        "id": "https://www.wikidata.org/wiki/Q18624915",
-        "label": {
-          "en": [
-            "Goose Girl fountain"
-          ],
-          "de": [
-            "Gänsenliesel"
-          ]
+  "annotations": [
+    {
+      "id": "{{ id.path }}/page/p2/1",
+      "type": "AnnotationPage",
+      "items": [
+        {
+          "id": "{{ id.path }}/annotation/p0002-tag",
+          "type": "Annotation",
+          "motivation": "tagging",
+          "body": {
+          	"id": "{{ id.path }}/annotation/p0002-tag/tag1",
+            "type": "SpecificResource",
+            "selector": {
+              "type": "FragmentSelector",
+              "conformsTo": "http://www.w3.org/TR/media-frags/",
+              "value": "xywh=749,1054,338,460"
+            },
+            "purpose": "tagging",
+            "source": {
+              "id": "https://www.wikidata.org/wiki/Q18624915",
+              "label": {
+                "en": [
+                  "Goose Girl fountain"
+                ],
+                "de": [
+                  "Gänsenliesel"
+                ]
+              }
+            }
+          },
+          "target": "{{ id.path }}/canvas/p1"
         }
-      }
-    },
-    "target": "{{ id.path }}/canvas/p1"
-  }
+      ]
+    }
+  ]
 }
