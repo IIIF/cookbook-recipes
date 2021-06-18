@@ -31,7 +31,7 @@ In this manifest, we use the same photograph from the IIIF annual conference in 
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="64-84"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="64-98"' %}
 
 ## Related Recipes
 
