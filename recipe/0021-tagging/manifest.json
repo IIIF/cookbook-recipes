@@ -73,11 +73,6 @@
           "body": {
           	"id": "{{ id.path }}/annotation/p0002-tag/tag1",
             "type": "SpecificResource",
-            "selector": {
-              "type": "FragmentSelector",
-              "conformsTo": "http://www.w3.org/TR/media-frags/",
-              "value": "xywh=749,1054,338,460"
-            },
             "purpose": "tagging",
             "source": {
               "id": "https://www.wikidata.org/wiki/Q18624915",
@@ -91,7 +86,7 @@
               }
             }
           },
-          "target": "{{ id.path }}/canvas/p1"
+          "target": "{{ id.path }}/canvas/p1#xywh=749,1054,338,460"
         }
       ]
     }

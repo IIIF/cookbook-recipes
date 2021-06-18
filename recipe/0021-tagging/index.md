@@ -29,7 +29,7 @@ If you don't know what the restrictions might be initially, just leave the follo
 
 In this manifest, we use the same photograph from the IIIF annual conference in [year] from some other basic recipes. The annotation to demonstrate tagging notes the statue on the top of a fountain, which in turn is a notable landmark of its city.
 
-{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
+{% include manifest_links.html viewers="" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="64-98"' %}
 
