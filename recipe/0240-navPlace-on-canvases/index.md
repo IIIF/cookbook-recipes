@@ -11,7 +11,7 @@ A Manifest contains Canvas items which represent photographs taken at places of 
 
 <div id="bigImage">
 	<h4 style="color:white;"> Click Image to Close </h4>
-	<img onclick="hideBigImage()" style="max-height: 100%; max-width: 100%;" src="./images/leaflet_example.png" />
+	<img onclick="hideBigImage()" style="max-height: 100%; max-width: 100%;" src="./images/leaflet-example.png" />
 </div>
 
 ### Implementation Notes
