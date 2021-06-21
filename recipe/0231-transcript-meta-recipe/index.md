@@ -1,14 +1,14 @@
 ---
-title: Transcripts, Captions and Subtitles - General Considerations
+title: Transcripts, Captions, and Subtitles - General Considerations
 id: 231
 layout: recipe
 tags: [Transcripts, Captions, Subtitles]
-summary: "General Considerations for using Transcripts, Captions and Subtitles"
+summary: "General Considerations for using Transcripts, Captions, and Subtitles"
 ---
 
 ## Use Case
 
-This meta recipe describes options when using Transcripts, Captions and Subtitles with your resources considering desired user experience.
+This meta recipe describes options when using Transcripts, Captions, and Subtitles with your resources considering desired user experience.
 
 ## Transcripts
 
@@ -17,7 +17,7 @@ There are 3 options for handling transcript files using the IIIF Presentation AP
 
 1. Providing independent access to the transcript
 
-    When the transcript is considered an alternative representation of the resource and the intention is to enable using the transcript independently of the resource, a link to the transcript can be offered so that the user can download it or view it outside the client. This is accomplished via the `rendering` link option.
+    When the transcript is considered an alternative representation of the resource, a link to the transcript can be offered so that the user can download it or view it outside the client. This is accomplished via the `rendering` link option.
 
     a. For an example of this option in the book space, see [Providing Alternative Representations][0046].
 
@@ -25,7 +25,7 @@ There are 3 options for handling transcript files using the IIIF Presentation AP
 
 2. Providing access to the transcript alongside the resource
 
-    When the intention is to have the client display the transcript alongside the resource, one should follow the pattern used with other supplementing materials, i.e., via an annotation with the `supplementing` motivation associated with the corresponding canvas or at the manifest level. This transcript may or may not have time information; in the case it does, the information is not used by the client. Note that this option offers the transcript file as a single annotation.
+    When the intention is to have the client display the transcript alongside the resource, one should follow the pattern used with other supplementing materials, i.e., via an annotation with the `supplementing` motivation associated with the corresponding Canvas or at the Manifest level. Note that this option offers the transcript file as a single annotation.
 
     a. For an example in the newspaper space see [A basic newspaper][0068].
 
@@ -41,7 +41,9 @@ There are 3 options for handling transcript files using the IIIF Presentation AP
 
 ## Captions and Subtitles
 
-Captions and subtitles are used to optionally mark up the external text track resources in connection with the HTML element of a *video* file. They are available in various file formats such as [WebVTT](https://w3c.github.io/webvtt/) (Web Video Text Tracks) and [TTML](https://w3c.github.io/ttml3/index.html) (Timed Text Markup Language). These markup file formats include time tags that allow for time alignment of the captions or subtitles with the video content during playback.
+Captions and subtitles are used to optionally mark up the external text track resources in connection with the HTML element of a *video* file. They are available in various file formats such as [WebVTT](https://w3c.github.io/webvtt/) (Web Video Text Tracks) and [TTML](https://w3c.github.io/ttml3/index.html) (Timed Text Markup Language). These markup file formats include time tags that allow for time alignment of the captions or subtitles with the video content during playback. 
+
+The manifest for this case is identical to option 2 above but, given the support for these standard file formats by modern viewers, the text is presented on top of the video as it is expected for captions and subtitles, thus providing for a completely different viewing experience. 
 
 See [Using Captions and Subtitles with Video Content][0219] for implementation details.
 
