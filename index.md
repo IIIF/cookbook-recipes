@@ -49,9 +49,9 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 
 * [Transcription of image-based content][016]
 * [Providing Alternative Representations][0046]
-* [Using Annotations for Transcripts][0079]
-* [Using Caption and Subtitles with Video Content][0219]
 * [Transcripts, Captions, and Subtitles - General Considerations][0231]
+    * [Using Annotations for Transcripts][0079]
+    * [Using Caption and Subtitles with Video Content][0219]
 * Transcription of content into XML, with XPaths to select a segment
 
 ## Other kinds of annotations
