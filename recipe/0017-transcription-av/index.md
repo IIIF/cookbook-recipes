@@ -9,17 +9,17 @@ summary: "Transcripts as alternative representation of A/V content"
 
 ## Use Case
 
-A/V is a common medium for content made available to researchers, scholars, and other interested populations. Transcripts are used alongside A/V resources for a variety of reasons; for example, when understanding the content is impaired by audio quality or speaker accent; to enable text-based search on the A/V content; or as a means for making A/V content consumable in a text format.
+A/V is a common medium for content made available to researchers, scholars, and other interested populations. Transcripts are used with A/V resources for a variety of reasons; for example, when understanding the content is impaired by audio quality or speaker accent; to enable text-based search on the A/V content; or as a means for making A/V content consumable in a text format.
 
 ## Implementation notes
 
 A transcription file is a text-based representation of an audio or video file, which may or may not be in a timed-text format. As an alternative representation of the main resource, a transcription is added to a resource via the linking property `rendering`.
 
-A transcript in a timed-text format, however, provides the ability for clients to synchronize it with its A/V resource during playback. When that syncrhonization experience is desired, it can be accomplished using annotations as discussed in [Transformation - WebVTT or OHMS XML to Annotations][0079].
+A transcript in a timed-text format, however, provides the ability for clients to synchronize it with its A/V resource during playback. When that syncrhonization experience is desired, it can be accomplished using annotations as discussed in [Using Annotations for Transcripts][0079].
 
 ## Restrictions
 
-While captions, subtitles, and transcripts each present some text interpretation of the A/V content, the ways they are consumed by the users differ from each other. For a more detailed discussion about these differences see [Using Captions and Subtitles with Video Content][0219].
+While captions, subtitles, and transcripts each present some text interpretation of the A/V content, the ways they are consumed by the users differ from each other. For a more detailed discussion about these differences see [Transcripts, Captions, and Subtitles - General Considerations][0231].
 
 ## Example
 
@@ -36,8 +36,8 @@ In Universal Viewer, to access the transcript use the 'Download' link on bottom 
 
 - [Simplest Manifest - Video][0003]
 - [Providing Alternative Representations][0046]
-- [Transformation - WebVTT or OHMS XML to Annotations][0079]
-- [Using Captions and Subtitles with Video Content][0219]
+- [Using Annotations for Transcripts][0079]
+- [Transcripts, Captions, and Subtitles - General Considerations][0231]
 
 {% include acronyms.md %}
 {% include links.md %}
