@@ -9,10 +9,9 @@ summary: "Use the navPlace extension to provide geolocation information for the 
 ### Use Case 
 A Manifest contains Canvas items which represent photographs taken at places of significance. You would like to associate each Canvas with geographic coordinates for use in web mapping clients like Leaflet and OpenLayers. You intend for each Canvas to be represented in a web map so that the web map will work as a Canvas browser. This could mean simply showing non-interactive shapes on a web map, but often more data from the resources is displayed in connection with the shapes as a result of available functionality. The example below shows a pop-up that appears upon clicking the shape. 
 
-<div id="bigImage">
-	<h4 style="color:white;"> Click Image to Close </h4>
-	<img onclick="hideBigImage()" style="max-height: 100%; max-width: 100%;" src="./images/leaflet-example.png" />
-</div>
+<p style="text-align: center;">
+	<img id="leaf" onclick="showBigImage()" style="max-height: 11em; max-width: 100%;" src="./images/leaflet_example.png" />
+</p>
 
 ### Implementation Notes
 IIIF has a registered API extension called `navPlace` which is used to associate geographic coordinates with IIIF resource types, and it is leveraged here to meet the use case. You will notice multiple contexts used in the top level `@context` property. The navPlace extension has its own linked data context which is included prior to the IIIF Presentation API 3.0 context. It is important to note that the [GeoJSON-LD](https://geojson.org/geojson-ld/) context is scoped into the navPlace linked data context. Combined, these contexts suppliy the vocabulary terms for the GeoJSON-LD used in the value for `navPlace` as well as the `navPlace` term itself. When there are multiple contexts, the `@context` property can be an array which is processed as a set. Typically order does not matter for a set. However, when the IIIF context is used in these arrays it must be the last item in the set.
@@ -37,6 +36,11 @@ The Manifest below contains two Canvases. Each Canvas has one Image with a photo
 
 {% include acronyms.md %}
 {% include links.md %}
+
+<div id="bigImage">
+	<h4 style="color:white;"> Click Image to Close </h4>
+	<img onclick="hideBigImage()" style="max-height: 100%; max-width: 100%;" src="./images/leaflet_example.png" />
+</div>
 
 <style>
 	#bigImage{
