@@ -1,6 +1,6 @@
 ---
 title: Represent Canvases in Manifest on a Web Map with navPlace
-id: 154
+id: 240
 layout: recipe
 tags: [maps, geolocate, navPlace]
 summary: "Use the navPlace extension to provide geolocation information for the Canvas items of an IIIF Presentation API 3.0 Manifest."
