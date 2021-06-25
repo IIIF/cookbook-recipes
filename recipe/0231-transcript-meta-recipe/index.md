@@ -8,14 +8,14 @@ summary: "General Considerations for using Transcripts, Captions, and Subtitles"
 
 ## Use Case
 
-This meta recipe describes options when using Transcripts, Captions, and Subtitles with your resources considering desired user experience.
+This meta recipe describes options when using Transcripts, Captions, and Subtitles with your resources taking into consideration the desired user experience.
 
 ## Transcripts
 
 Transcripts are text-based representations of material originally presented in another medium such as newspapers and audio or video recordings.
 There are 3 options for handling transcript files using the IIIF Presentation API; which option to use depends on the desired user experience:
 
-1. Providing independent access to the transcript
+1. Providing independent access to the transcript via download
 
     When the transcript is considered an alternative representation of the resource, a link to the transcript can be offered so that the user can download it or view it outside the client. This is accomplished via the `rendering` link option.
 
@@ -28,8 +28,6 @@ There are 3 options for handling transcript files using the IIIF Presentation AP
     When the intention is to have the client display the transcript alongside the resource, one should follow the pattern used with other supplementing materials, i.e., via an annotation with the `supplementing` motivation associated with the corresponding Canvas or at the Manifest level. Note that this option offers the transcript file as a single annotation.
 
     a. For an example in the newspaper space see [A basic newspaper][0068].
-
-    b. For an example in the A/V space, see [].
 
 3. Providing synchronized access to transcript and resource
 
