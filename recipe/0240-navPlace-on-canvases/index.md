@@ -1,5 +1,5 @@
 ---
-title: Represent Canavases in Manifest on a Web Map with navPlace
+title: Represent Canvases in Manifest on a Web Map with navPlace
 id: 154
 layout: recipe
 tags: [maps, geolocate, navPlace]
