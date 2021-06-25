@@ -1,0 +1,165 @@
+{
+   "@context":[
+      "http://iiif.io/api/extension/navPlace-context/context.json",
+      "http://iiif.io/api/presentation/3/context.json"
+   ],
+   "id":"{{ id.url }}",
+   "type":"Manifest",
+   "label":{
+      "en":[
+         "Recipe Manifest for #240"
+      ]
+   },
+   "summary":{
+      "en":[
+         "A IIIF Presentation API 3.0 Manifest containing Canvases leveraging the navPlace property."
+      ]
+   },
+   "items":[
+      {
+         "id":"{{ id.path }}/canvas/p1",
+         "type":"Canvas",
+         "label":{
+            "en":[
+               "Picture of Göttingen taken during the 2019 IIIF Conference"
+            ]
+         },
+         "type":"Canvas",
+         "height":3024,
+         "width":4032,
+         "items":[
+            {
+               "id":"{{ id.path }}/page/p1/1",
+               "type":"AnnotationPage",
+               "items":[
+                  {
+                     "id":"{{ id.path }}/annotation/p0001-image",
+                     "type":"Annotation",
+                     "motivation":"painting",
+                     "label":{
+                        "en":[
+                           "Picture of Göttingen"
+                        ]
+                     },
+                     "body":{
+                        "id":"https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg",
+                        "type":"Image",
+                        "format":"image/jpeg",
+                        "height":3024,
+                        "width":4032,
+                        "service":[
+                           {
+                              "id":"https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
+                              "profile":"level1",
+                              "type":"ImageService3"
+                           }
+                        ]
+                     },
+                     "target":"{{ id.path }}/canvas/p1"
+                  }
+               ]
+            }
+         ],
+         "navPlace":{
+            "type":"FeatureCollection",
+            "features":[
+               {
+                  "id":"{{ id.path }}/geo.json",
+                  "type":"Feature",
+                  "properties":{
+                     "label":{
+                        "en":[
+                           "Photograph from Göttingen, Germany"
+                        ]
+                     },
+                     "summary":{
+                        "en":[
+                           "Wilhelmspl. 3, 37073 Göttingen, Germany"
+                        ]
+                     }
+                  },
+                  "geometry":{
+                     "type":"Point",
+                     "coordinates":[
+                        9.9374867,
+                        51.533450
+                     ]
+                  }
+               }
+            ]
+         }
+      },
+      {
+         "id":"{{ id.path }}/canvas2.json",
+         "type":"Canvas",
+         "label":{
+            "en":[
+               "Photograph from TODO, TODO"
+            ]
+         },
+         "width":5212,
+         "height":7072,
+         "items":[
+            {
+               "id":"{{ id.path }}/contentPage2.json",
+               "type":"AnnotationPage",
+               "items":[
+                  {
+                     "id":"{{ id.path }}/content2.json",
+                     "type":"Annotation",
+                     "motivation":"painting",
+                     "label":{
+                        "en":[
+                           "Lorem ipsum TODO"
+                        ]
+                     },
+                     "body":{
+                        "id":"https://iiif.io:80/api/image/3.0/example/reference/TODO/full/max/0/default.jpg",
+                        "type":"Image",
+                        "format":"image/jpeg",
+                        "service":[
+                           {
+                              "id":"https://iiif.io:80/api/image/3.0/example/reference/TODO",
+                              "type":"ImageService3",
+                              "profile":"level1"
+                           }
+                        ],
+                        "width":5212,
+                        "height":7072
+                     },
+                     "target":"{{ id.path }}/canvas2.json"
+                  }
+               ]
+            }
+         ],
+         "navPlace":{
+            "type":"FeatureCollection",
+            "features":[
+               {
+                  "id":"{{ id.path }}/geo2.json",
+                  "type":"Feature",
+                  "properties":{
+                     "label":{
+                        "en":[
+                           "TODO TODO"
+                        ]
+                     },
+                     "summary":{
+                        "en":[
+                           "TODO TODO"
+                        ]
+                     }
+                  },
+                  "geometry":{
+                     "type":"Point",
+                     "coordinates":[
+                        2.375780,
+                        48.833791
+                     ]
+                  }
+               }
+            ]
+         }
+      }
+   ]
+}
