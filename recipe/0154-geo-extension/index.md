@@ -32,7 +32,6 @@ The Manifest below contains one Canvas with a photograph painted onto it. The Ma
 
 ## Related Recipes
 * [Represent Canvas Fragment as a Geographic Area in a Web Mapping Client][0139]
-* [Provide Geographic Coordinates for a Manifest with navPlace][0154]
 * [Provide Geographic Coordinates for Canvases in a Manifest with navPlace][0240]
 
 {% include acronyms.md %}
