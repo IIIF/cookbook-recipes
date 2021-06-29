@@ -3,7 +3,7 @@ title: Using Captions and Subtitles with Video Content
 id: 219
 layout: recipe
 tags: [video, caption, subtitle, presentation]
-summary: "Representing the tight relationship between a video file and its caption or subtitle file."
+summary: "Providing a caption or subtitle file to a video resource."
 ---
 
 
@@ -15,7 +15,7 @@ Captions and subtitles may be available for your video content and you may want 
 
 Caption and subtitle file formats are used to mark up the external text track resources in connection with the HTML track element of a video file. The markup file formats use time tags that allow for time alignment of the video content with the captions or subtitles. 
 
-Offering the caption file as an annotation on the Canvas that contains the media file itself enables us to express the relationship between the two. The `type` and `format` properties of the Annotation can be used by the client to files in a format supported by the media player for captions. The `motivation` value of `supplementing` indicates the fact that processing this annotation is optional.
+Offering the caption file as an annotation on the Canvas that contains the media file itself enables us to express the relationship between the two. The `type` and `format` properties of the Annotation can be used by the client to identify files in a format supported by the media player for captions. The `motivation` value of `supplementing` indicates the fact that processing this annotation is optional.
 
 While captions, subtitles, and transcripts each present some text interpretation of the A/V content, the ways in which they are consumed by users differ. For a more detailed discussion about these differences see [Transcripts, Captions, and Subtitles - General Considerations][0231].
 
@@ -34,9 +34,9 @@ In this example we use a caption file in the WebVTT format, but one could just a
 # Related recipes
 
 - [Simplest Manifest - Video][0003]
-- [Using Transcripts with A/V Content][0017]
+- [Providing Access to Transcripts of A/V Content][0017]
 - [Providing Alternative Representations][0046]
-- [][0079]
+- [Using Annotations for Transcripts][0079]
 
 {% include acronyms.md %}
 {% include links.md %}
