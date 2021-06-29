@@ -3,20 +3,12 @@
   "id": "{{ id.url }}",
   "type": "Manifest",
   "label": { "en": ["Volleyball for Boys"] },
-  "rendering": [
-    {
-      "id": "https://fixtures.iiif.io/video/indiana/volleyball/volleyball.txt",
-      "type": "Text",
-      "label": { "en": ["Transcript"] },
-      "format": "text/txt"
-    }
-  ],
   "items": [
     {
       "id": "{{ id.path }}/canvas",
       "type": "Canvas",
-      "width": 1920,
       "height": 1080,
+      "width": 1920,
       "duration": 662.037,
       "items": [
         {
@@ -38,6 +30,14 @@
               }
             }
           ]
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://fixtures.iiif.io/video/indiana/volleyball/volleyball.txt",
+          "type": "Text",
+          "label": { "en": ["Transcript"] },
+          "format": "text/txt"
         }
       ]
     }

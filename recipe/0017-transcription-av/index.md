@@ -21,9 +21,11 @@ While transcripts, captions, and subtitles each present some text interpretation
 
 ## Restrictions
 
+None.
+
 ## Example
 
-In this example, the Manifest is using a single A/V file; therefore, it is equivalent to link the transcript at the Manifest level or at the Canvas level.
+In this example, the Manifest is using a single A/V file; therefore, it is equivalent to link the transcript at the Manifest level or at the Canvas level and we do it at the Canvas level to complement the example in [Providing Alternative Representations][0046].
 
 In Mirador, a given transcript is made available within the sidebar menu, which can be toggled open by using the 'Sidebar toggle' (hamburger) button on the top left corner of the viewer.
 
