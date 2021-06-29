@@ -149,7 +149,7 @@ __Note__:
 
 ### Linking to ALTO text
 
-As well as linking to annotations, it is a common use case with Newspapers to link to other formats of the OCR text including ALTO. This is achieved by using a `seeAlso` property within the canvas. For example:
+As well as linking to annotations, it is a common use case with Newspapers to link to other formats of the OCR text including ALTO. This is achieved by using a `rendering` property within the canvas. For example:
 
 Full JSON: [newspaper_issue_1-manifest.json](newspaper_issue_1-manifest.json)
 
@@ -163,7 +163,7 @@ Full JSON: [newspaper_issue_1-manifest.json](newspaper_issue_1-manifest.json)
       "p. 1"
     ]
   },
-  "seeAlso": [{
+  "rendering": [{
       "id":"https://../newspaper_issue_1-alto_p1.xml",
       "type": "Text",
       "format":"application/xml",
