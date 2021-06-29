@@ -48,7 +48,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 ## Textual and other supplementary content
 
 * Transcription of image-based content - various examples gathered (43,44,45,46,47,48)
-* Transcription of audio and video
+* [Using Transcripts with A/V Content][0017]
 * [Using Caption and Subtitles with Video Content][0219]
 * Transcription of content into XML, with XPaths to select a segment
 * [Providing Alternative Representations][0046]

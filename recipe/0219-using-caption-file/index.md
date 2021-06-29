@@ -13,11 +13,11 @@ Captions and subtitles may be available for your video content and you may want 
 
 ## Implementation notes
 
-Caption, subtitle, and transcription files are text-based files commonly associated with A/V content, each defined for a specific intended use. Caption and subtitle file formats are used to mark up the external text track resources in connection with the HTML <track> element of a video file. The markup file formats use time tags that allow for time alignment of the video content with the captions or subtitles. 
+Caption and subtitle file formats are used to mark up the external text track resources in connection with the HTML track element of a video file. The markup file formats use time tags that allow for time alignment of the video content with the captions or subtitles. 
 
-Offering the caption file as an Item in the same Annotation Page that contains the media file itself enables us to express the tight relationship between the two. The `type` and `format` properties of the Item clarifies the relationship and the `motivation` value of `supplementing` indicates the fact that rendering this annotation is optional.
+Offering the caption file as an annotation on the Canvas that contains the media file itself enables us to express the relationship between the two. The `type` and `format` properties of the Annotation can be used by the client to files in a format supported by the media player for captions. The `motivation` value of `supplementing` indicates the fact that processing this annotation is optional.
 
-A transcription file, on the other hand, is a text-based representation of an audio or video file. As an alternative representation of the main resource, a transcription should be added to a resource via a linking property of type `rendering` instead of using the pattern described here. See related recipe below.
+While captions, subtitles, and transcripts each present some text interpretation of the A/V content, the ways in which they are consumed by users differ. For a more detailed discussion about these differences see [Transcripts, Captions, and Subtitles - General Considerations][0231].
 
 ## Restrictions
 
@@ -34,9 +34,9 @@ In this example we use a caption file in the WebVTT format, but one could just a
 # Related recipes
 
 - [Simplest Manifest - Video][0003]
-- [Transcription of Audio and Video][0017]
+- [Using Transcripts with A/V Content][0017]
 - [Providing Alternative Representations][0046]
-- [Transformation - WebVTT or OHMS XML to Annotations][0079]
+- [][0079]
 
 {% include acronyms.md %}
 {% include links.md %}
