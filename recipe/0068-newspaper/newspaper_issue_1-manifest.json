@@ -100,7 +100,7 @@
           "p. 1"
         ]
       },
-      "seeAlso": [{
+      "rendering": [{
 		"id":"{{ id.path }}/newspaper_issue_1-alto_p1.xml",
         "type": "Text",
 		"format":"application/xml",
@@ -150,7 +150,7 @@
           "p. 2"
         ]
       },
-      "seeAlso": [{
+      "rendering": [{
 		"id":"{{ id.path }}/newspaper_issue_1-alto_p2.xml",
         "type": "Text",
 		"format":"application/xml",
