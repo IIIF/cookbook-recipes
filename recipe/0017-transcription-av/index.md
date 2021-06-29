@@ -40,6 +40,7 @@ In Universal Viewer, to access the transcript use the 'Download' link on the bot
 - [Providing Alternative Representations][0046]
 - [Using Annotations for Transcripts][0079]
 - [Transcripts, Captions, and Subtitles - General Considerations][0231]
+- [A side by side transcript of a video recording][0253]
 
 {% include acronyms.md %}
 {% include links.md %}
