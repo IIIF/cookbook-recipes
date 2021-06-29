@@ -37,7 +37,9 @@ There are 3 options for handling transcript files using the IIIF Presentation AP
 
     a. For an example in the image space see [Transcription of image-based content][016].
     
-    b. For an example in the A/V space see [Using Annotations for Transcripts][0079].
+    b. For an example in the newspaper space see [A basic newspaper][0068].
+    
+    c. For an example in the A/V space see [Using Annotations for Transcripts][0079].
 
 ## Captions and Subtitles
 
