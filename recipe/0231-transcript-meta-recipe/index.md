@@ -21,13 +21,15 @@ There are 3 options for handling transcript files using the IIIF Presentation AP
 
     a. For an example of this option in the book space, see [Providing Alternative Representations][0046].
 
-    b. For an example of using `rendering` in the A/V space, see [Using Transcripts with A/V content][0017].
+    b. For an example in the newspaper space see [A basic newspaper][0068].
+    
+    c. For an example in the A/V space, see [Providing Access to Transcripts with A/V Content][0017].
 
 2. Providing access to the transcript alongside the resource
 
     When the intention is to have the client display the transcript alongside the resource, one should follow the pattern used with other supplementing materials, i.e., via an annotation with the `supplementing` motivation associated with the corresponding Canvas or at the Manifest level. Note that this option offers the transcript file as a single annotation.
 
-    a. For an example in the newspaper space see [A basic newspaper][0068].
+    a. For an example of this option in the A/V space, see [A Side-by-side Transcript of a Video Recording][0253].
 
 3. Providing synchronized access to transcript and resource
 
@@ -35,7 +37,7 @@ There are 3 options for handling transcript files using the IIIF Presentation AP
 
     a. For an example in the image space see [Transcription of image-based content][016].
     
-    b. For an example in the A/V space see [Using annotations for transcripts][0079].
+    b. For an example in the A/V space see [Using Annotations for Transcripts][0079].
 
 ## Captions and Subtitles
 
@@ -48,7 +50,7 @@ See [Using Captions and Subtitles with Video Content][0219] for implementation d
 ## Related Recipes
 
 * [Providing Alternative Representations][0046]
-* [Using Transcripts with A/V content][0017]
+* [Providing Access to Transcripts of A/V Content][0017]
 * [A basic newspaper][0068]
 * [Transcription of image-based content][016]
 * [Using annotations for transcripts][0079]
