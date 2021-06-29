@@ -15,7 +15,7 @@ Captions and subtitles may be available for your video content and you may want 
 
 Caption and subtitle file formats are used to mark up the external text track resources in connection with the HTML track element of a video file. The markup file formats use time tags that allow for time alignment of the video content with the captions or subtitles. 
 
-Offering the caption file as an annotation on the Canvas that contains the media file itself enables us to express the relationship between the two. The `type` and `format` properties of the Annotation can be used by the client to identify files in a format supported by the media player for captions. The `motivation` value of `supplementing` indicates the fact that processing this annotation is optional.
+Offering the caption file as an Annotation on the Canvas that contains the media file itself enables us to express the relationship between the two. The `type` and `format` properties of the Annotation can be used by the client to identify files in a format supported by the media player for captions. The `motivation` value of `supplementing` indicates the fact that processing this Annotation is optional.
 
 While captions, subtitles, and transcripts each present some text interpretation of the A/V content, the ways in which they are consumed by users differ. For a more detailed discussion about these differences see [Transcripts, Captions, and Subtitles - General Considerations][0231].
 
