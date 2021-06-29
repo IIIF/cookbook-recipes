@@ -1,5 +1,5 @@
 ---
-title: Using Transcripts with A/V Content
+title: Providing Access to Transcripts of A/V Content
 id: 17
 layout: recipe
 tags: [audio, video, presentation, transcript]
