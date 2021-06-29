@@ -52,6 +52,7 @@ See [Using Captions and Subtitles with Video Content][0219] for implementation d
 * [Providing Alternative Representations][0046]
 * [Providing Access to Transcripts of A/V Content][0017]
 * [A basic newspaper][0068]
+* [A Side-by-side Transcript of a Video Recording][0253]
 * [Transcription of image-based content][016]
 * [Using annotations for transcripts][0079]
 * [Using Captions and Subtitles with Video Content][0219]
