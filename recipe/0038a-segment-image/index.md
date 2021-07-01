@@ -47,7 +47,7 @@ The client should not render the area of the image that is not selected by the a
               "body": {
                 "id": "https://iiif.io/api/presentation/3/example/fixtures/resources/image1.jpg#xywh=100,100,1000,1600",
                 "type": "Image",
-                "format": "image/jpg"
+                "format": "image/jpeg"
               },
               "target": "https://example.org/iiif/segment-image/canvas1"
             }           
