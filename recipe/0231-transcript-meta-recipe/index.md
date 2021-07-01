@@ -21,7 +21,7 @@ There are 3 options for handling transcript files using the IIIF Presentation AP
 
     a. For an example of this option in the book space, see [Providing Alternative Representations][0046].
 
-    b. For an example in the newspaper space see [A basic newspaper][0068].
+    b. For an example in the newspaper space see the ALTO example in [A basic newspaper][0068] recipe.
     
     c. For an example in the A/V space, see [Providing Access to Transcripts with A/V Content][0017].
 
@@ -37,7 +37,7 @@ There are 3 options for handling transcript files using the IIIF Presentation AP
 
     a. For an example in the image space see [Transcription of image-based content][016].
     
-    b. For an example in the newspaper space see [A basic newspaper][0068].
+    b. For an example in the newspaper space see the example annotations in a [A basic newspaper][0068] recipe.
     
     c. For an example in the A/V space see [Using Annotations for Transcripts][0079].
 
