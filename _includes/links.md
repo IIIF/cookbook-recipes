@@ -35,6 +35,9 @@
 [0230]: {{site.baseurl}}/recipe/0230-navdate/ "Navigation by Chronology"
 [0231]: {{site.baseurl}}/recipe/0231-transcript-meta-recipe/ "Transcripts, Captions, and Subtitles - General Considerations"
 
+[0234]: {{site.baseurl}}/recipe/0234-provider/ "Acknowledge Content Contributors"
+
+
 [prezi3]: https://iiif.io/api/presentation/3 "IIIF Presentation API"
 [prezi3-languages]: https://iiif.io/api/presentation/3.0/#language-of-property-values "Language of Property Values"
 [prezi3-metadata]: https://iiif.io/api/presentation/3.0/#metadata "Metadata"
