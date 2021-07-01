@@ -28,7 +28,7 @@ Because the statue is not the sole or dominant element of the photo, we've targe
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="64-98"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="64-93"' %}
 
 ## Related Recipes
 
