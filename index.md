@@ -44,6 +44,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Load Manifest Beginning with a Specific Canvas][0202]
 * [Begin playback at a specific point - Time-based media][0015] (65)
 * [Navigation by Chronology][0230]
+* [Acknowledge Content Contributors][0234]
 
 ## Textual and other supplementary content
 
