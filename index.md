@@ -1,6 +1,6 @@
 ---
 title: Cookbook of IIIF Recipes
-layout: default
+layout: page
 tags: [tbc]
 summary: "tbc"
 ---
