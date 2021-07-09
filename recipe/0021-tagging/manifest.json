@@ -71,20 +71,9 @@
           "type": "Annotation",
           "motivation": "tagging",
           "body": {
-          	"id": "{{ id.path }}/annotation/p0002-tag/tag1",
-            "type": "SpecificResource",
-            "purpose": "tagging",
-            "source": {
-              "id": "https://www.wikidata.org/wiki/Q18624915",
-              "label": {
-                "en": [
-                  "Goose Girl fountain"
-                ],
-                "de": [
-                  "Gänsenliesel"
-                ]
-              }
-            }
+            "type": "TextualBody",
+            "value": "Gänseliesel-Brunnen",
+            "language": [ "de" ]
           },
           "target": "{{ id.path }}/canvas/p1#xywh=749,1054,338,460"
         }
