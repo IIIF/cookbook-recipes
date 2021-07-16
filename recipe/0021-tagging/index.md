@@ -14,7 +14,7 @@ For a IIIF resource, you'd like to add a simple annotation to the resource. This
 
 This recipe demonstrates a simple way to use an Annotation to tag a IIIF resource or a portion of a IIIF resource: an Annotation with a `motivation` property of `tagging`. The foundation of tags in IIIF is the [W3 Web Annotation Data Model](http://w3.org/TR/annotation-model/), which you are encouraged to consult.
 
-Though it is not demonstrated here, it's worth noting that Annotations such as tags are permitted to use the `behavior` property with a value of `hidden`. With property so set, viewers and other consuming clients should not display the tag by default, but should allow the user to determine the tag's visibility.
+Though it is not demonstrated here, it's worth noting that Annotations such as tags are permitted to use the `behavior` property with a value of `hidden`. With that property so set, viewers and other consuming clients should not display the tag by default, but should allow the user to determine the tag's visibility.
 
 ## Restrictions
 
