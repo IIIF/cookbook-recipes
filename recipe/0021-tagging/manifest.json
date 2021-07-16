@@ -73,7 +73,7 @@
           "body": {
             "type": "TextualBody",
             "value": "Gänseliesel-Brunnen",
-            "language": [ "de" ]
+            "language": "de"
           },
           "target": "{{ id.path }}/canvas/p1#xywh=749,1054,338,460"
         }
