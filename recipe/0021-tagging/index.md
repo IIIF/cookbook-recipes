@@ -30,7 +30,7 @@ No current viewers support this form of annotation for IIIF Presentation v3 by d
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="64-84"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="64-82"' %}
 
 ## Related Recipes
 
