@@ -1,12 +1,16 @@
 ---
 layout: default
+hero:
+    image: "https://ids.si.edu/ids/iiif/NMAH-AC0396-0000007/131,1118,1840,1011/1500,/0/default.jpg"
+breadcrumbs:
+ - label: IIIF Cookbook
+   link: index.html
+
 ---
-<header>
-    <div class="wrapper">
-    </div>
-</header>
 <div class="content">
-    <h1>{% if page.title_override %}{{ page.title_override }}{% else %}{{ page.title }}{% endif %}</h1>
-    <a href='{{ "/" | prepend: site.baseurl }}'>Recipe home</a> | <a href='{{ "/recipe/all.html" | prepend: site.baseurl }}'>Recipe List</a>
+    <a href='{{ site.cookbook_url | absolute_url }}/'>Recipe home</a> | <a href='{{ site.cookbook_url | absolute_url }}/recipe/all/'>Recipe List</a>
     {{ content }}
 </div>  
+
+<link rel='stylesheet' href="{{ site.cookbook_url | absolute_url }}/css/prism.css"/>
+<script src='{{ site.cookbook_url | absolute_url }}/js/prism.js'></script>

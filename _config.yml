@@ -2,6 +2,7 @@ theme:          iiifc-theme
 permalink:      pretty
 root_url:       'https://preview.iiif.io/root/wireframe'
 api_url:        'https://preview.iiif.io/api/wireframe/api'
+cookbook_url:   ''
 
 plugins:
   - jekyll-data
