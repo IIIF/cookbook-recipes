@@ -7,6 +7,8 @@ hero:
     image: "https://ids.si.edu/ids/iiif/NMAH-AC0396-0000007/131,1118,1840,1011/1500,/0/default.jpg"
 ---
 
+## Background
+
 The [IIIF Presentation API][prezi3] specifies a standardized way to describe complex digital objects. The resource types and properties of the specification are the building blocks of interoperable representations, for rendering by viewers and other software clients. This cookbook gathers together many examples of these representations (usually IIIF Manifests), in order to:
 
 * provide many more examples than the specification alone can do, for reference and learning;
@@ -16,7 +18,7 @@ The [IIIF Presentation API][prezi3] specifies a standardized way to describe com
 
 The issues of the [Cookbook Recipes repository][cookbook-issues] are used to identify and discuss cookbook recipes, prior to their inclusion in the final cookbook site.
 
-## Contributing
+### Contributing a recipe to the cookbook 
 
 Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advice and support can be received from the IIIF Cookbook channel on the IIIF Slack. For detailed information on how to contribute please see the [Cookbook process][cookbook-process].
 
