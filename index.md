@@ -148,11 +148,11 @@ With multi-volume works, it is often desirable to group the volumes together as 
 
 #### foldouts, etc (Choice or non-paged interlude (flaps vs maps))?
 
-#### [Multiple images (master/detail)][detail-image]
+#### Multiple images (master/detail)
 
 #### Multiple images and multiple choices
 
-#### [Annotating part of an image to a Canvas][recipe-segment-image-part] (e.g., crop out scanner)
+#### Annotating part of an image to a Canvas (e.g., crop out scanner)
 
 #### Image with CSS Rotation
 
