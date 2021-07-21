@@ -116,7 +116,7 @@ _(leading on to segmentation examples later)_
 #### Annotation in the context of a particular content resource 
 https://github.com/IIIF/iiif-stories/issues/101
 
-#### [Geographic coordinates][0139]
+#### [Represent Canvas Fragment as a Geographic Area in a Web Mapping Client][0139]
 Use Web Annotation to provide geocoordinates for a fragment of an IIIF Presentation API 3.0 Canvas.
 
 ### Internal structure
