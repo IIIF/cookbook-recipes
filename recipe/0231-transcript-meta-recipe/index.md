@@ -23,7 +23,7 @@ There are 3 options for handling transcript files using the IIIF Presentation AP
 
     b. For an example in the newspaper space see the ALTO example in [A basic newspaper][0068] recipe.
     
-    c. For an example in the A/V space, see [Providing Access to Transcript Files with A/V Content][0017].
+    c. For an example in the A/V space, see [Providing Access to Transcript Files of A/V Content][0017].
 
 2. Providing access to the transcript alongside the resource
 
@@ -65,7 +65,7 @@ Captions and subtitles are used to optionally mark up the external text track re
 * [A basic newspaper][0068]
 * [A Side-by-side Transcript of a Video Recording][0253]
 * [Transcription of image-based content][016]
-* [Using annotations for transcripts][0079]
+* [Using annotations for Timed Text][0079]
 * [Using Captions and Subtitles with Video Content][0219]
 * [Serving HLS Files][0257]
 
