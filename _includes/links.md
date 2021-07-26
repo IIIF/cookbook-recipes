@@ -35,7 +35,7 @@
 [0230]: {{site.baseurl}}/recipe/0230-navdate/ "Navigation by Chronology"
 
 [0234]: {{site.baseurl}}/recipe/0234-provider/ "Acknowledge Content Contributors"
-
+[0261]: {{site.baseurl}}/recipe/0261-non-rectangular-commenting/ "Non-Rectangular Comment Polygon"
 
 [prezi3]: https://iiif.io/api/presentation/3 "IIIF Presentation API"
 [prezi3-languages]: https://iiif.io/api/presentation/3.0/#language-of-property-values "Language of Property Values"
