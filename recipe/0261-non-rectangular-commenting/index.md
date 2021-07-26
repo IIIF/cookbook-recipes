@@ -2,7 +2,7 @@
 title: Non-Rectangular Comment Polygon
 id: 261
 layout: recipe
-tags: images, commenting, annotation
+tags: [images, commenting, annotation]
 summary: "tbc"
 ---
 
