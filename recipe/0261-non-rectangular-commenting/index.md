@@ -1,8 +1,8 @@
 ---
-title: Name of Recipe
-id: -1
+title: Non-Rectangular Comment Polygon
+id: 261
 layout: recipe
-tags: [tbc]
+tags: images, commenting, annotation
 summary: "tbc"
 ---
 
