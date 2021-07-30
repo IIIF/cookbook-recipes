@@ -70,18 +70,23 @@
           "id": "{{ id.path }}/annotation/p0002-svg",
           "type": "Annotation",
           "motivation": "painting",
-          "resource": {
+          "body": {
+          	"language": "de",
+          	"type": "TextualBody",
+          	"value": "Gansenliessel"
+          },
+          "target": {
           	"type": "SpecificResource",
-          	"full": {
-          		"id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg",
-          		"type": "image/jpeg"
+          	"source": {
+          		"id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
+          		"type": "Image",
+          		"format": "image/jpeg"
           	 },
           	 "selector": {
           	 	"type": "SvgSelector",
           	 	"value": "<svg width='4032px' height='3024px' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><path d='M904.000000,1509.000000 L924.000000,1506.000000 L966.000000,1510.000000 L961.000000,1466.000000 L982.000000,1453.000000 L962.000000,1436.000000 L959.000000,1403.000000 L979.000000,1412.000000 L1004.000000,1411.000000 L1006.000000,1375.000000 L971.000000,1366.000000 L959.000000,1336.000000 L935.000000,1319.000000 L915.000000,1322.000000 L916.000000,1347.000000 L899.000000,1356.000000 L892.000000,1379.000000 L881.000000,1379.000000 L873.000000,1396.000000 L880.000000,1418.000000 L866.000000,1431.000000 L865.000000,1468.000000 L877.000000,1470.000000 L878.000000,1492.000000 L892.000000,1492.000000 L904.000000,1509.000000' stroke-linejoin='round' style='fill: none; stroke-width: 4.000000px; stroke: rgba(255, 204, 51, 1.000000);' fill='none' stroke='#FFCC33' stroke-width='4.000000' /></g></svg>"
           	  }
-            },
-          "target": "{{ id.path }}/canvas/p1#xywh=749,1054,338,460"
+            }
         }
       ]
     }
