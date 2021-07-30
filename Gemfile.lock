@@ -1,15 +1,17 @@
 GIT
   remote: git://github.com/mnyrop/iiifc-theme.git
-  revision: 39512fb2bf0217df3ce18404879b940fb89511ee
+  revision: 2f09bee68c958f1c9480cf94de259e83c773baec
   branch: main
   specs:
     iiifc-theme (0.1.0)
-      jekyll (>= 4.0, < 5.0)
+      html-proofer
+      jekyll (>= 4.0, < 4.2)
       jekyll-data
       jekyll-gzip
       jekyll-liquify
       jekyll-redirect-from
       jekyll-sitemap
+      rake
 
 GEM
   remote: https://rubygems.org/
@@ -73,7 +75,7 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.3)
-    listen (3.5.1)
+    listen (3.6.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)

@@ -2,6 +2,7 @@ theme:          iiifc-theme
 permalink:      pretty
 root_url:       'https://preview.iiif.io/root/wireframe'
 api_url:        'https://preview.iiif.io/api/wireframe/api'
+guides_url:     'https://preview.iiif.io/guides/wireframe'
 cookbook_url:   ''
 
 plugins:
@@ -10,7 +11,6 @@ plugins:
   - jekyll-redirect-from
   - jekyll-liquify
 
-url: https://preview.iiif.io
 webrick:
   headers:
     Access-Control-Allow-Origin: "*"
