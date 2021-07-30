@@ -3,3 +3,5 @@ _site
 .ruby-version
 presentation-validator
 scripts/schema
+.jekyll-cache
+vendor
