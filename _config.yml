@@ -11,6 +11,8 @@ plugins:
   - jekyll-redirect-from
   - jekyll-liquify
 
+highlighter: none
+
 webrick:
   headers:
     Access-Control-Allow-Origin: "*"

@@ -7,7 +7,14 @@ breadcrumbs:
    link: index.html
 
 ---
+<link rel='stylesheet' href="{{ site.cookbook_url | absolute_url }}/css/style.css"/>
+<link rel='stylesheet' href="{{ site.cookbook_url | absolute_url }}/css/prism.css"/>
+
 {{ content }}
 
-<link rel='stylesheet' href="{{ site.cookbook_url | absolute_url }}/css/prism.css"/>
 <script src='{{ site.cookbook_url | absolute_url }}/js/prism.js'></script>
+<script>
+    Prism.plugins.customClass.map({
+        number: 'prism-number'
+    });
+</script>
