@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/mnyrop/iiifc-theme.git
+  remote: https://github.com/mnyrop/iiifc-theme.git
   revision: 2f09bee68c958f1c9480cf94de259e83c773baec
   branch: main
   specs:
@@ -132,4 +132,4 @@ DEPENDENCIES
   rspec
 
 BUNDLED WITH
-   1.17.1
+   2.2.24
