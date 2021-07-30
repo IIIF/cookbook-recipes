@@ -8,26 +8,32 @@ summary: "tbc"
 
 ## Use Case
 
-Describe the use case that the pattern is intended to solve.
-Why is this pattern important?
+For a IIIF resource, you'd like to add a simple annotation to the resource, where the area of the resource you'd like to highlight is not a rectangle.
 
 ## Implementation Notes
 
-What do you need to know to use this pattern?
-How do you implement the pattern?
++ Need fragment to show where the SVG will go
++ Non-rectangular polygon described by SVG
++ Need to create SVG in 3rd party program
+
+/My questions for authors/
+
+SVG validation?
+
+Anything other than SVG?
+
+Viewer?
+
 
 ## Restrictions
 
-When is this pattern is usable / not usable? Is it deprecated? If it uses multiple specifications, which versions are needed, etc.? 
-
-Delete this section if it is not needed.
-If you don't know what the restrictions might be initially, just leave the following line:
-**Unknown - Help Needed**
+None known.
 
 ## Example
 
-Describe the solution in prose and provide an example.
-The example json document must be an external document, and imported with the following:
+In this manifest, we are highlighting the statue on the top of a fountain in Göttingen, and imagining that we want to be fairly precise in our highlight. We need to use the fragment selector syntax to describe a rectangle for the annotation's placement, but the annotation itself will not be a rectangle. The placement fragment should not show up on the image in any way.
+
+No current viewers support this form of annotation for IIIF Presentation v3 by default.
 
 {% include manifest_links.html viewers="UV, Mirador, Tify, Curation" manifest="manifest.json" %}
 
