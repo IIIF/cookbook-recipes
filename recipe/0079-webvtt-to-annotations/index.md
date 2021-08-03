@@ -1,5 +1,5 @@
 ---
-title: Using Annotations for Transcripts
+title: Using Annotations for Timed Text
 id: 79
 layout: recipe
 tags: [tbc]
@@ -8,11 +8,9 @@ summary: 'tbc'
 
 ## Use Case
 
-Why is this pattern is important?
+When timed-text (trancscript, caption, OHMS XML files) is available for A/V content, synchronizing the display of the text and the media playback can be accomplished by transforming the timed information into annotations.
 
 ## Implementation notes
-
-How does one implement the pattern?
 
 ## Restrictions
 

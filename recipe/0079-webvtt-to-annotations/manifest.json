@@ -42,7 +42,7 @@
             {
               "id": "{{ id.path }}/canvas/1/page/annotation/1",
               "type": "Annotation",
-              "motivation": ["supplementing"],
+              "motivation": "supplementing",
               "body": {
                 "type": "TextualBody",
                 "value": "Just before lunch one day, a puppet show was put on at school.",
