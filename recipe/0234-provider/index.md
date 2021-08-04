@@ -39,7 +39,7 @@ No viewer currently implements `provider` sufficiently fully and correctly.
 
 * [homepage][0047] for demonstrating the use of `homepage`
 * [Add Identifying Graphic][0217] for demonstrating the use of `logo`
-* [Linking to Structured Metadata][0230] for demonstrating the use of `seeAlso`
+* [Linking to Structured Metadata][0053] for demonstrating the use of `seeAlso`
 * [Rights][0008] for demonstrating use of `requiredStatement`
 
 {% include acronyms.md %}
