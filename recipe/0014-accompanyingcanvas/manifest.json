@@ -2,7 +2,7 @@
 	"@context": "http://iiif.io/api/presentation/3/context.json",
 	"id": "{{ id.url }}",
 	"type": "Manifest",
-	"label": [ { "en": "Partial audio recording of Gustav Mahler's _Symphony No. 3_" } ],
+	"label": { "en": ["Partial audio recording of Gustav Mahler's _Symphony No. 3_"] },
 	"items": [
 		{
 			"id": "{{ id.path }}/canvas/p1",
