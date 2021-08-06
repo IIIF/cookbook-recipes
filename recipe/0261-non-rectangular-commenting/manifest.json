@@ -76,6 +76,7 @@
             "value": "Gansenliessel"
           },
           "target": {
+          	"type": "SpecificResource",
             "source": "{{ id.path }}/canvas/p1",
           "selector": [
             {
