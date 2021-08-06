@@ -30,7 +30,7 @@ _Note: The `placeholderCanvas` property is not yet supported in viewers._
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config="data-line='12-38'"%}
+{% include jsonviewer.html src="manifest.json" config="data-line='17-43'"%}
 
 # Related recipes
 
