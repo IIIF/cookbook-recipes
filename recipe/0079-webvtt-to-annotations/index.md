@@ -1,19 +1,16 @@
 ---
-title: Transformation - WebVTT or OHMS XML to Annotations
+title: Using Annotations for Timed Text
 id: 79
 layout: recipe
 tags: [tbc]
-summary: "tbc"
+summary: 'tbc'
 ---
-
 
 ## Use Case
 
-Why is this pattern is important?
+When timed-text (trancscript, caption, OHMS XML files) is available for A/V content, synchronizing the display of the text and the media playback can be accomplished by transforming the timed information into annotations.
 
 ## Implementation notes
-
-How does one implement the pattern?
 
 ## Restrictions
 
@@ -21,17 +18,14 @@ When is this pattern is usable / not usable? Is it deprecated? If it uses multip
 
 ## Example
 
-Describe in prose and provide examples, e.g.: 
+Describe in prose and provide examples, e.g.:
 
-{: .line-numbers data-src="manifest.json" }
-```json
-```
+{% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
+{% include jsonviewer.html src="manifest.json" %}
 
 # Related recipes
 
 Provide a bulleted list of related recipes and why they are relevant.
 
-
 {% include acronyms.md %}
 {% include links.md %}
-
