@@ -35,7 +35,6 @@ No current viewers support this form of annotation for IIIF Presentation v3 by d
 ## Related Recipes
 
 * [Fragment Selectors][0020]
-* [Annotation in the context of a particular content resource][0023]
 
 {% include acronyms.md %}
 {% include links.md %}
