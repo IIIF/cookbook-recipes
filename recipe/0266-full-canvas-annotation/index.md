@@ -1,5 +1,5 @@
 ---
-title: Full Canvas Annotation
+title: Basic Annotation
 id: 266
 layout: recipe
 tags: [tbc]
@@ -8,7 +8,7 @@ summary: "tbc"
 
 ## Use Case
 
-I want to annotate the full canvas as a whole and add a comment or a tag.
+I want to annotate a canvas with some text either as a comment or a tag. In this recipe we annotating the full canvas but see [Simple Commenting Annotation][260] if you would like to target a specific part or region of the canvas.
 
 ## Implementation Notes
 
@@ -32,7 +32,7 @@ The semantic of annotating the full canvas as a whole can be specified by either
 
 This example manifest contains an embedded annotation containing the text "Göttinger Marktplatz mit Gänseliesel Brunnen" with the motivation commenting targeting the whole canvas. The Annotation is the single content of an AnnotationPage contained in the `annotations` property of the Canvas.
 
-{% include manifest_links.html viewers="UV, Mirador, Tify, Curation" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 

@@ -58,7 +58,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 _(leading on to segmentation examples later)_
 
 * comments - various examples (51,52,54)
-* [Full Canvas Annotation][0266]
+* [Basic Annotation][0266]
 * Fragment selectors (61)
 * tagging
 * hotspot linking
