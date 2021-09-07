@@ -26,9 +26,7 @@ In this manifest, we use a photograph of Göttingen from the 2019 IIIF annual co
 
 Because the statue is not the sole or dominant element of the photo, we've targeted the tag to a portion of the photo using fragment selector syntax.
 
-No current viewers support this form of annotation for IIIF Presentation v3 by default.
-
-{% include manifest_links.html viewers="" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="44-63"' %}
 
