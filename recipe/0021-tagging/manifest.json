@@ -7,24 +7,6 @@
       "Picture of Göttingen taken during the 2019 IIIF Conference"
     ]
   },
-  "summary": {
-    "en": [
-      "<p>Picture taken by the <a href=\"https://github.com/glenrobson\">IIIF Technical Coordinator</a></p>"
-    ]
-  },
-  "rights": "http://creativecommons.org/licenses/by-sa/3.0/",
-  "requiredStatement": {
-    "label": {
-      "en": [
-        "Attribution"
-      ]
-    },
-    "value": {
-      "en": [
-        "<span>Glen Robson, IIIF Technical Coordinator. <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a> <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" title\"CC BY-SA 3.0\"><img src=\"https://licensebuttons.net/l/by-sa/3.0/88x31.png\"/></a></span>"
-      ]
-    }
-  },
   "items": [
     {
       "id": "{{ id.path }}/canvas/p1",
@@ -58,26 +40,27 @@
             }
           ]
         }
-      ]
-    }
-  ],
-  "annotations": [
-    {
-      "id": "{{ id.path }}/page/p2/1",
-      "type": "AnnotationPage",
-      "items": [
-        {
-          "id": "{{ id.path }}/annotation/p0002-tag",
-          "type": "Annotation",
-          "motivation": "tagging",
-          "body": {
-            "type": "TextualBody",
-            "value": "Gänseliesel-Brunnen",
-            "language": "de"
-          },
-          "target": "{{ id.path }}/canvas/p1#xywh=749,1054,338,460"
-        }
-      ]
+      ],
+	  "annotations": [
+		{
+		  "id": "{{ id.path }}/page/p2/1",
+		  "type": "AnnotationPage",
+		  "items": [
+			{
+			  "id": "{{ id.path }}/annotation/p0002-tag",
+			  "type": "Annotation",
+			  "motivation": "tagging",
+			  "body": {
+				"type": "TextualBody",
+				"value": "Gänseliesel-Brunnen",
+				"language": "de",
+				"format": "text/plain"
+			  },
+			  "target": "{{ id.path }}/canvas/p1#xywh=749,1054,338,460"
+			}
+		  ]
+		}
+	  ]
     }
   ]
 }
