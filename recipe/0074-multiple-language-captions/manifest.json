@@ -47,13 +47,63 @@
             ],
             "annotations": [
                 {
-                    "id": "{{ id.path }}/subtitles_captions-page-files-vtt.json",
-                    "type": "AnnotationPage"
-                },
-                {
-                    "id": "{{ id.path }}/subtitles_captions-page-files-annotations.json",
-                    "type": "AnnotationPage"
-                }
+				    "id": "{{id.url}}/anno/page/1",
+				    "type": "AnnotationPage",
+				    "items": [
+				        {
+				            "id": "{{id.url}}/subtitles_captions-files-vtt",
+				            "type": "Annotation",
+				            "motivation": "supplementing",
+				            "body": {
+				                "type": "Choice",
+				                "items": [
+				                    {
+				                        "id": "{{id.path}}/Per_voi_signore_Modelli_francesi_en.vtt",
+				                        "type": "Text",
+				                        "format": "text/vtt",
+				                        "label": { "en": [ "Captions in WebVTT format" ] },
+				                        "language": "en"
+				                    }, 
+				                    {
+				                        "id": "{{id.path}}/Per_voi_signore_Modelli_francesi_it.vtt",
+				                        "type": "Text",
+				                        "format": "text/vtt",
+				                        "label": { "it": [ "Sottotitoli in formato WebVTT" ] },
+				                        "language": "it"
+				                    }
+				                ]
+				            },
+				            "target": "{{id.path}}/canvas"
+				        }
+				    ]
+				},
+				{
+				    "id": "{{id.url}}/anno/page/2",
+				    "type": "AnnotationPage",
+				    "items": [
+				        {
+				            "id": "{{id.path}}/subtitles_captions-files-annotations",
+				            "type": "Annotation",
+				            "motivation": "supplementing",
+				            "body": {
+				                "type": "Choice",
+				                "items": [{
+									          "id": "{{ id.path }}/Per_voi_signore_Modelli_francesi-annotations_en.json",
+									          "type": "AnnotationPage",
+				                                "label": { "en": [ "Captions in Web Annotation" ] },
+				                                "language": "en"
+									        }, {
+									          "id": "{{ id.path }}/Per_voi_signore_Modelli_francesi-annotations_it.json",
+									          "type": "AnnotationPage",
+				                                "label": { "it": [ "Sottotitoli in Web Annotation" ] },
+				                                "language": "it"
+									        }
+				                ]
+				            },
+				            "target": "{{id.path}}/canvas"
+				        }
+				    ]
+				}
             ]
         }
     ]
