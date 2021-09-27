@@ -31,9 +31,7 @@ This approach should not be used to describe non-rotated rectangular regions.
 
 In this manifest, we are highlighting the statue on the top of a fountain in Göttingen, and imagining that we want to be fairly precise in our highlight. Because we want to put the polygon in a particular place on the Canvas, we need to use the fragment selector syntax to describe its bounding box. The bounding box should not show up on the image in any way.
 
-No current viewers support this form of annotation for IIIF Presentation v3.
-
-{% include manifest_links.html manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 
