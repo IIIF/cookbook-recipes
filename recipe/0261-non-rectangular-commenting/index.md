@@ -18,9 +18,9 @@ The W3 data model requires non-rectangular polygonal annotations to be described
 
 When reviewing your SVG data, remove all styling and transformation features, per [the W3 data model](https://www.w3.org/TR/annotation-model/#svg-selector). To ensure your SVG is valid markup, you can use the [W3 validator](https://validator.w3.org/).
 
-Sizing and placement of the SVG polygon in relation to its `target` takes some special attention. It's best here to quote from the IIIF Presentatin 2 API:
+Sizing and placement of the SVG polygon in relation to its `target` takes some special attention. It's best here to quote from the IIIF Presentation 2 API, noting that references to particular manifest properties may have changed with 3.0:
 <blockquote>
-If the section of an image is mapped to part of a canvas, as in the example below, then the target in on must be the rectangular bounding box in which the SVG viewport should be placed. If the entire canvas is the target, then the SVG viewport is assumed to cover the entire canvas. If the dimensions of the viewport and the bounding box or canvas are not the same, then the SVG must be scaled such that it covers the region. This may result in different scaling ratios for the X and Y dimensions.
+If the section of an image is mapped to part of a canvas . . . then the target in <code>on</code> must be the rectangular bounding box in which the SVG viewport should be placed. If the entire canvas is the target, then the SVG viewport is assumed to cover the entire canvas. If the dimensions of the viewport and the bounding box or canvas are not the same, then the SVG must be scaled such that it covers the region. This may result in different scaling ratios for the X and Y dimensions.
 </blockquote>
 
 ## Restrictions
