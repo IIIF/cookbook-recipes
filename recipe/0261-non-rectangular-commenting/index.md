@@ -12,11 +12,11 @@ For a IIIF resource, you'd like to add a simple annotation to the resource, wher
 
 ## Implementation Notes
 
-The [prezi3][IIIF Presentation 3.0 API] does not itself discuss non-rectangular annotations, incorporating them from the [W3 Web Annotation Data Model](http://w3.org/TR/annotation-model/) by reference. For a full description of this and other web annotations used in IIIF annotations, we recommend you read that document.
+The [prezi3][IIIF Presentation 3.0 API] does not itself discuss non-rectangular annotations, incorporating them from the [W3C Web Annotation Data Model](http://w3.org/TR/annotation-model/) by reference. For a full description of this and other web annotations used in IIIF annotations, we recommend you read that document.
 
 The W3C data model requires non-rectangular polygonal annotations to be described as Scalable Vector Graphic (SVG) markup. This recipe is not the place to discuss how to create this markup, but we can note that many software tools exist that can handle it. Among others, third-party graphics editors may have this capability, as well as a Mirador instance properly configured. In each case, the creating engine may generate valid SVG that does not display as you wish in a client.
 
-When reviewing your SVG data, remove all styling and transformation features, per [the W3 data model](https://www.w3.org/TR/annotation-model/#svg-selector). To ensure your SVG is valid markup, you can use the [W3C validator](https://validator.w3.org/). Note that SVGs can be valid markup as absolute points in a coordinate space or as relative points along a path. 
+When reviewing your SVG data, remove all styling and transformation features, per [the W3C data model](https://www.w3.org/TR/annotation-model/#svg-selector). To ensure your SVG is valid markup, you can use the [W3C validator](https://validator.w3.org/). Note that SVGs can be valid markup as absolute points in a coordinate space or as relative points along a path. 
 
 Sizing and placement of the SVG polygon in relation to its `target` takes some special attention. It's best here to quote from the IIIF Presentation 2.1 API, noting that references to particular manifest properties may have changed with 3.0:
 <blockquote>
