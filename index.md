@@ -43,14 +43,19 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Audio Presentation with Accompanying Image][0014]
 * [Load Manifest Beginning with a Specific Canvas][0202]
 * [Begin playback at a specific point - Time-based media][0015] (65)
+* [Navigation by Chronology][0230]
+* [Acknowledge Content Contributors][0234]
 
 ## Textual and other supplementary content
 
-* Transcription of image-based content - various examples gathered (43,44,45,46,47,48)
-* Transcription of audio and video
-* [Using Caption and Subtitles with Video Content][0219]
-* Transcription of content into XML, with XPaths to select a segment
+* [Transcription of image-based content][016]
 * [Providing Alternative Representations][0046]
+* [Transcripts, Captions, and Subtitles - General Considerations][0231]
+    * [Providing Access to Transcript Files of A/V Content][0017]
+    * [Using Annotations for Timed Text][0079]
+    * [Using Captions and Subtitles with Video Content][0219]
+    * [A Side-by-side Transcript of a Video Recording][0253]
+* Transcription of content into XML, with XPaths to select a segment
 
 ## Other kinds of annotations
 _(leading on to segmentation examples later)_
@@ -60,6 +65,7 @@ _(leading on to segmentation examples later)_
 * tagging
 * hotspot linking
 * Annotation in the context of a particular content resource https://github.com/IIIF/iiif-stories/issues/101
+* [Geographic coordinates][0139]
 
 ## Internal structure
 
@@ -71,7 +77,7 @@ _(leading on to segmentation examples later)_
 
 ## Higher-level structure
 
-* multi-volume work
+* [Multi-volume Work with Individually-bound Volumes][0030]
 * bound multi-volume work
 * paged Collections (from #1343)
 
@@ -130,6 +136,7 @@ _(leading on to segmentation examples later)_
 * Video with captions in multiple languages
 * Mixed Image Service references (a mashup, with img2 and img3 services)
 * Glenn Gould - score and performance scenarios (transcribing)
+* A Map
 
 ## Access Control
 _this might be in a separate auth cookbook_

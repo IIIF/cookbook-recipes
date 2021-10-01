@@ -30,7 +30,7 @@ _Note: The `accompanyingCanvas` property is not yet supported in viewers._
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config="data-line='15-53'"%}
+{% include jsonviewer.html src="manifest.json" config="data-line='20-58'"%}
 
 # Related recipes
 

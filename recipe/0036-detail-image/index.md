@@ -51,7 +51,7 @@ A manifest with a single canvas that has two images painted on it. One is of the
               "body": {
                 "id": "https://iiif.io/api/presentation/3/example/fixtures/resources/image1.jpg",
                 "type": "Image",
-                "format": "image/jpg",
+                "format": "image/jpeg",
                 "height": 1800,
                 "width": 1200
               },
@@ -64,7 +64,7 @@ A manifest with a single canvas that has two images painted on it. One is of the
               "body": {
                 "id": "https://iiif.io/api/presentation/3/example/fixtures/resources/image-detail.jpg",
                 "type": "Image",
-                "format": "image/jpg",
+                "format": "image/jpeg",
                 "height": 300,
                 "width": 300
               },
