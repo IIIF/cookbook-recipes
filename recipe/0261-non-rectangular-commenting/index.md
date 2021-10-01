@@ -14,13 +14,13 @@ For a IIIF resource, you'd like to add a simple annotation to the resource, wher
 
 The [prezi3][IIIF Presentation 3.0 API] does not itself discuss non-rectangular annotations, incorporating them from the [W3 Web Annotation Data Model](http://w3.org/TR/annotation-model/) by reference. For a full description of this and other web annotations used in IIIF annotations, we recommend you read that document.
 
-The W3 data model requires non-rectangular polygonal annotations to be described as Scalable Vector Graphic (SVG) markup. This recipe is not the place to discuss how to create this markup, but we can note that many software tools exist that can handle it. Among others, third-party graphics editors may have this capability, as well as a Mirador instance properly configured.
+The W3C data model requires non-rectangular polygonal annotations to be described as Scalable Vector Graphic (SVG) markup. This recipe is not the place to discuss how to create this markup, but we can note that many software tools exist that can handle it. Among others, third-party graphics editors may have this capability, as well as a Mirador instance properly configured. In each case, the creating engine may generate valid SVG that does not display as you wish in a client.
 
-When reviewing your SVG data, remove all styling and transformation features, per [the W3 data model](https://www.w3.org/TR/annotation-model/#svg-selector). To ensure your SVG is valid markup, you can use the [W3 validator](https://validator.w3.org/).
+When reviewing your SVG data, remove all styling and transformation features, per [the W3 data model](https://www.w3.org/TR/annotation-model/#svg-selector). To ensure your SVG is valid markup, you can use the [W3C validator](https://validator.w3.org/). Note that SVGs can be valid markup as absolute points in a coordinate space or as relative points along a path. 
 
-Sizing and placement of the SVG polygon in relation to its `target` takes some special attention. It's best here to quote from the IIIF Presentation 2 API, noting that references to particular manifest properties may have changed with 3.0:
+Sizing and placement of the SVG polygon in relation to its `target` takes some special attention. It's best here to quote from the IIIF Presentation 2.1 API, noting that references to particular manifest properties may have changed with 3.0:
 <blockquote>
-If the section of an image is mapped to part of a canvas . . . then the target in <code>on</code> must be the rectangular bounding box in which the SVG viewport should be placed. If the entire canvas is the target, then the SVG viewport is assumed to cover the entire canvas. If the dimensions of the viewport and the bounding box or canvas are not the same, then the SVG must be scaled such that it covers the region. This may result in different scaling ratios for the X and Y dimensions.
+If the section of an image is mapped to part of a canvas . . . then the target in <code>on</code> MUST be the rectangular bounding box in which the SVG viewport should be placed. If the entire canvas is the target, then the SVG viewport is assumed to cover the entire canvas. If the dimensions of the viewport and the bounding box or canvas are not the same, then the SVG must be scaled such that it covers the region. This may result in different scaling ratios for the X and Y dimensions.
 </blockquote>
 
 ## Restrictions
@@ -29,7 +29,7 @@ This approach should not be used to describe non-rotated rectangular regions.
 
 ## Example
 
-In this manifest, we are highlighting the statue on the top of a fountain in Göttingen, and imagining that we want to be fairly precise in our highlight. Because we want to put the polygon in a particular place on the Canvas, we need to use the fragment selector syntax to describe its bounding box. The bounding box should not show up on the image in any way.
+In this Manifest, we are highlighting the statue on the top of a fountain in Göttingen, and imagining that we want to be fairly precise in our highlight. Because we want to put the polygon in a particular place on the Canvas, we need to use the fragment selector syntax to describe its bounding box. The bounding box should not show up on the image in any way.
 
 {% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
 
