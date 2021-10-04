@@ -56,7 +56,7 @@
 				"language": "de",
 				"format": "text/plain"
 			  },
-			  "target": "{{ id.path }}/canvas/p1#xywh=749,1054,338,460"
+			  "target": "{{ id.path }}/canvas/p1#xywh=265,661,1260,1239"
 			}
 		  ]
 		}
