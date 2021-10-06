@@ -36,7 +36,7 @@
 [0231]: {{site.baseurl}}/recipe/0231-transcript-meta-recipe/ "Transcripts, Captions, and Subtitles - General Considerations"
 
 [0234]: {{site.baseurl}}/recipe/0234-provider/ "Acknowledge Content Contributors"
-[0261]: {{site.baseurl}}/recipe/0261-non-rectangular-commenting/ "Non-Rectangular Comment Polygon"
+[0261]: {{site.baseurl}}/recipe/0261-non-rectangular-commenting/ "Annotation with a Non-Rectangular Polygon"
 
 [prezi3]: https://iiif.io/api/presentation/3 "IIIF Presentation API"
 [prezi3-languages]: https://iiif.io/api/presentation/3.0/#language-of-property-values "Language of Property Values"
