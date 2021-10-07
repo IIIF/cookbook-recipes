@@ -49,7 +49,7 @@ Captions and subtitles are used to optionally mark up the external text track re
     
     The manifest for this case is identical to option 2 above but, given the support for these standard file formats by modern viewers, the text is presented on top of the video as it is expected for captions and subtitles, thus providing for a completely different viewing experience. 
 
-    a. See [Using Captions and Subtitles with Video Content][0219] for implementation details.
+    a. See [Using Caption and Subtitle Files with Video Content][0219] for implementation details.
 
     b. See [Serving HLS Files][0257] for details on using segmented WebVTT with HLS content.
 
