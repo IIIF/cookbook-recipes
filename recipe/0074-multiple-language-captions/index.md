@@ -1,5 +1,5 @@
 ---
-title: Video with captions in multiple languages
+title: Using Captions and Subtitles Files in multiple languages with Video Content
 id: 74
 layout: recipe
 tags: [video, caption, subtitle, presentation]
