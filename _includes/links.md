@@ -18,6 +18,8 @@
 [0017]: {{site.baseurl}}/recipe/0017-transcription-av/ "Providing Access to Transcript Files of A/V Content"
 [0139]: {{site.baseurl}}/recipe/0139-geolocate-canvas-fragment/ "Represent Canvas Fragment as a Geographic Point on a Web Map"
 
+[0021]: {{site.baseurl}}/recipe/0021-tagging/ "Simple Annotation — Tagging"
+
 [0024]: {{site.baseurl}}/recipe/0024-book-4-toc/ "Table of Contents for Book Chapters"
 [0026]: {{site.baseurl}}/recipe/0026-toc-opera/ "Table of Contents for A/V Content"
 [0029]: {{site.baseurl}}/recipe/0029-metadata-anywhere/ "Metadata on any Resource"
