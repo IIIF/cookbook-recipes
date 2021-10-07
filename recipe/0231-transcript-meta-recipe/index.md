@@ -66,7 +66,7 @@ Captions and subtitles are used to optionally mark up the external text track re
 * [A Side-by-side Transcript of a Video Recording][0253]
 * [Transcription of image-based content][016]
 * [Using annotations for Timed Text][0079]
-* [Using Captions and Subtitles with Video Content][0219]
+* [Using Caption and Subtitle Files with Video Content][0219]
 * [Serving HLS Files][0257]
 
 

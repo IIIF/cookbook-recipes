@@ -1,5 +1,5 @@
 ---
-title: Using Captions and Subtitles with Video Content
+title: Using Caption and Subtitle Files with Video Content
 id: 219
 layout: recipe
 tags: [video, caption, subtitle, presentation]
