@@ -2,6 +2,7 @@
     "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "{{ id.url }}",
     "type": "Manifest",
+	"label": { "en": [ "Video recording of Donizetti's _The Elixer of Love_" ] },
     "items": [
       {
         "id": "{{ id.path }}/canvas/donizetti",
