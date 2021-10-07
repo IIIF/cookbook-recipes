@@ -15,6 +15,7 @@
 [0202]: {{site.baseurl}}/recipe/0202-start-canvas/ "Load Manifest Beginning with a Specific Canvas"
 [0014]: {{site.baseurl}}/recipe/0014-accompanyingcanvas/ "Audio Presentation with Accompanying Image"
 [0015]: {{site.baseurl}}/recipe/0015-start/ "Begin playback at a specific point - Time-based media"
+[0017]: {{site.baseurl}}/recipe/0017-transcription-av/ "Providing Access to Transcript Files of A/V Content"
 [0139]: {{site.baseurl}}/recipe/0139-geolocate-canvas-fragment/ "Represent Canvas Fragment as a Geographic Point on a Web Map"
 
 [0021]: {{site.baseurl}}/recipe/0021-tagging/ "Simple Annotation — Tagging"
@@ -35,6 +36,7 @@
 [0118]: {{site.baseurl}}/recipe/0118_multivalue/ "Displaying Multiple Values with Language Maps"
 [0219]: {{site.baseurl}}/recipe/0219-using-caption-file/ "Using Captions and Subtitles with Video Content"
 [0230]: {{site.baseurl}}/recipe/0230-navdate/ "Navigation by Chronology"
+[0231]: {{site.baseurl}}/recipe/0231-transcript-meta-recipe/ "Transcripts, Captions, and Subtitles - General Considerations"
 
 [0234]: {{site.baseurl}}/recipe/0234-provider/ "Acknowledge Content Contributors"
 
