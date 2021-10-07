@@ -49,6 +49,9 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 ## Textual and other supplementary content
 
 * [Transcription of image-based content][016]
+* [Using Transcripts with A/V Content][0017]
+* [Using Captions and Subtitles with Video Content][0219]
+* Transcription of content into XML, with XPaths to select a segment
 * [Providing Alternative Representations][0046]
 * [Transcripts, Captions, and Subtitles - General Considerations][0231]
     * [Providing Access to Transcript Files of A/V Content][0017]
