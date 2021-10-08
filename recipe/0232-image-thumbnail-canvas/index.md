@@ -48,7 +48,7 @@ This approach might be a good option for Collection or Manifest thumbnails, but 
 
 ### Thumbnails with a IIIF image service + JSON image response sizes
 
-Since adding a service alone doesn't gain us anything, we can take it a step further by including all or a selection of pre-cached sizes from the [JSON image response](https://iiif.io/api/image/3.0/#51-image-information-request) and setting the profile to level 0. Advertising the appropriate pre-cached sizes ...  ... optimize thumbnail generation and delivery.
+Since adding a service alone doesn't gain us anything, we can take it a step further by including all or a selection of pre-cached sizes from the [JSON image response](https://iiif.io/api/image/3.0/#51-image-information-request) and setting the profile to level 0. Advertising the appropriate pre-cached sizes provides the viewing client with a list of available size options that it can retrieve instead of using the image service, thereby optimizing thumbnail generation and delivery.
 
 ```json
 "thumbnail":{
