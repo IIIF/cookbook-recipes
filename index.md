@@ -45,21 +45,28 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Load Manifest Beginning with a Specific Canvas][0202]
 * [Begin playback at a specific point - Time-based media][0015] (65)
 * [Navigation by Chronology][0230]
+* [Acknowledge Content Contributors][0234]
 
 ## Textual and other supplementary content
 
-* Transcription of image-based content - various examples gathered (43,44,45,46,47,48)
-* Transcription of audio and video
-* [Using Caption and Subtitles with Video Content][0219]
+* [Transcription of image-based content][016]
+* [Using Transcripts with A/V Content][0017]
+* [Using Captions and Subtitles with Video Content][0219]
 * Transcription of content into XML, with XPaths to select a segment
 * [Providing Alternative Representations][0046]
+* [Transcripts, Captions, and Subtitles - General Considerations][0231]
+    * [Providing Access to Transcript Files of A/V Content][0017]
+    * [Using Annotations for Timed Text][0079]
+    * [Using Caption and Subtitle Files with Video Content][0219]
+    * [A Side-by-side Transcript of a Video Recording][0253]
+* Transcription of content into XML, with XPaths to select a segment
 
 ## Other kinds of annotations
 _(leading on to segmentation examples later)_
 
 * comments - various examples (51,52,54)
 * Fragment selectors (61)
-* tagging
+* [Simple Annotation - Tagging][0021]
 * hotspot linking
 * Annotation in the context of a particular content resource https://github.com/IIIF/iiif-stories/issues/101
 * [Geographic coordinates][0139]
