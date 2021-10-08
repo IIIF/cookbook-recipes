@@ -49,16 +49,16 @@
                 }
             ],
             "annotations": [{
-                    "id": "{{id.url}}/anno/page/1",
+                    "id": "{{ id.url }}/anno/page/1",
                     "type": "AnnotationPage",
                     "items": [{
-                            "id": "{{id.url}}/subtitles_captions-files-vtt",
+                            "id": "{{ id.url }}/subtitles_captions-files-vtt",
                             "type": "Annotation",
                             "motivation": "supplementing",
                             "body": {
                                 "type": "Choice",
                                 "items": [{
-                                        "id": "{{id.path}}/Per_voi_signore_Modelli_francesi_en.vtt",
+                                        "id": "{{ id.path }}/Per_voi_signore_Modelli_francesi_en.vtt",
                                         "type": "Text",
                                         "format": "text/vtt",
                                         "label": {
@@ -66,7 +66,7 @@
                                         },
                                         "language": "en"
                                     }, {
-                                        "id": "{{id.path}}/Per_voi_signore_Modelli_francesi_it.vtt",
+                                        "id": "{{ id.path }}/Per_voi_signore_Modelli_francesi_it.vtt",
                                         "type": "Text",
                                         "format": "text/vtt",
                                         "label": {
@@ -76,7 +76,7 @@
                                     }
                                 ]
                             },
-                            "target": "{{id.path}}/canvas"
+                            "target": "{{ id.path }}/canvas"
                         }
                     ]
                 }
