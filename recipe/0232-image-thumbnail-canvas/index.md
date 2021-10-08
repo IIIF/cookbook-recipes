@@ -17,7 +17,7 @@ While it is not always necessary to declare a thumbnail, there are several scena
 
 Presentation API 3.0 does not explicitly recommend the use of thumbnails for Canvases in general since most viewing clients render thumbnails from the resource; however, it can be advantageous to declare thumbnails on Canvases in order to increase the efficiency with which thumbnails load in a viewer. This is especially noticeable in Manifests that have many Canvases, such as books and manuscripts with many high-resolution images. In these cases, and where thumbnails are loaded into the viewer, the viewer is tasked with handling tile requests for all of the source images simultaneously – a resource-intensive task for the image server.
 
-There are other options for mitigating such performance issues, such as pre-caching select image sizes to make available "pre-warmed" thumbnail images, but the `thumbnail` property also allows publishers of Manifests to provide more explicit directions to the viewing client on how to process thumbnails. This implementation discussion focuses on outlining the most efficient methods for declaring thumbnails on Canvases in order to optimize processing and rendering. The recommendations here are intended to guide both publishers of Manifests and developers of viewing clients. For a more general introduction to thumbnails, see the [Image Thumbnail for Manifest][0117] recipe.
+There are options for mitigating such performance issues, such as pre-caching select image sizes to make available "pre-warmed" thumbnail images, and the `thumbnail` property allows publishers of Manifests to provide more explicit directions to the viewing client on how to process thumbnails. This implementation discussion focuses on outlining the most efficient methods for declaring thumbnails on Canvases in order to optimize processing and rendering. The recommendations here are intended to guide both publishers of Manifests and developers of viewing clients. While the examples here are intended to optimize processing of thumbnails on Canvases, they work equally well for other IIIF Resource types (Manifests, Collections, etc.). For a more general introduction to thumbnails, see the [Image Thumbnail for Manifest][0117] recipe.
 
 ## Implementation Notes
 
@@ -77,37 +77,14 @@ Since adding a service alone doesn't gain us anything, we can take it a step fur
 ```
 In this configuration, we might expect the client to first try the given thumbnail size (100x100), then if too small, use one of the pre-cached images from the image service (200x200 or 500x500). Since we are using level 0, the client ideally would choose the most appropriate size, probably something just larger, then downsize the image as needed to best fit the view.
 
-Alternatively, we could change the image service profile to level 1. In this case, if none of the pre-cached sizes are appropriate, then the client could still request a custom size where needed. Here, we are giving the client a few options to try before resorting to a custom image request, but ultimately the client may still request a custom image, in which case the `thumbnail` property is again essentially duplicating the service from the Canvas' Resource, but this option would ensure that an appropriate thumbnails size was selected in cases where the supplied sizes are not optimal for the thumbnail view.
-
-```json
-"thumbnail":{
-  "id":"url_to_image",
-  "width":100,
-  "height":100,
-  "service":{
-      "id":"iiif_image_url",
-      "profile":"https://iiif.io/api/image/3/level1.json",
-      "width":5000,
-      "height":5000,
-      "sizes":[
-         {
-            "width":200,
-            "height":200
-         },
-         {
-            "width":500,
-            "height":500
-         }
-       ]
-  }
-}
-```
+Alternatively, we could change the image service profile to level 1. In this case, if none of the pre-cached sizes are appropriate, then the client could still request a custom size where needed. Here, we are giving the client a few options to try before resorting to a custom image request, but ultimately the client may still request a custom image, in which case the `thumbnail` property is again essentially duplicating the service from the Canvas' Resource; however, this option would ensure that an appropriate thumbnail size was selected in cases where the supplied sizes are not optimal for the thumbnail view.
 
 ## Restrictions
+None
 
 ## Example
 
-The Manifest below contains examples of the four options presented above: a Manifest thumbnail using the minimum recommended requirements, and three Canvases using the same source image, each with one of the three image service thumbnail configurations.
+The Manifest below contains examples of the three options presented above: a Manifest thumbnail using the **Thumbnails with a IIIF image service** option, a video Canvas using the **Minimal thumbnail requirements** option, and an image Canvas using the **Thumbnails with a IIIF image service + JSON image response sizes** option. *Note: the image Canvas here specifies a level0 profile, but could be changed to a level1 profile if leaving it open for custom sizes is desirable.*
 
 {% include manifest_links.html viewers="Mirador, UV" manifest="manifest.json" %}
 
