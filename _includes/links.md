@@ -32,7 +32,7 @@
 [0068]: {{site.baseurl}}/recipe/0068-newspaper/ "A newspaper"
 [0117]: {{site.baseurl}}/recipe/0117-add-image-thumbnail/ "Manifest Thumbnail"
 [0118]: {{site.baseurl}}/recipe/0118_multivalue/ "Displaying Multiple Values with Language Maps"
-[0232]: {{site.baseurl}}/recipe/0232-image-thumbnail-canvas/ "Implementation note: Thumbnails"
+[0232]: {{site.baseurl}}/recipe/0232-image-thumbnail-canvas/ "Implementation discussion: Thumbnails"
 [0219]: {{site.baseurl}}/recipe/0219-using-caption-file/ "Using Captions and Subtitles with Video Content"
 [0219]: {{site.baseurl}}/recipe/0219-using-caption-file/ "Using Caption and Subtitle Files with Video Content"
 [0230]: {{site.baseurl}}/recipe/0230-navdate/ "Navigation by Chronology"
