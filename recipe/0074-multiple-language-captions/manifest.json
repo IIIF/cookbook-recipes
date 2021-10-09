@@ -12,16 +12,9 @@
             "en": ["Rights"]
         },
         "value": {
-            "en": ["All rights reserved Cinecittá Luce spa"]
+            "en": ["All rights reserved Cinecittà Luce spa"]
         }
     },
-    "seeAlso": [{
-            "id": "{{ id.path }}/metadata-edm.rdf",
-            "type": "Dataset",
-            "format": "application/rdf+xml",
-            "profile": "http://www.europeana.eu/schemas/edm/"
-        }
-    ],
     "items": [{
             "id": "{{ id.path }}/canvas",
             "type": "Canvas",
