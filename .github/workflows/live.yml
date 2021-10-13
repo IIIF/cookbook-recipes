@@ -19,6 +19,7 @@ jobs:
       BUNDLE_WITH: test jekyll_plugins
       SITE_ID:  'cookbook' # which iiif site this is
       LIVE_PATH: '/api/cookbook'
+      URL: 'https://beta.iiif.io'
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
