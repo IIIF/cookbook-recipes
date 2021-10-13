@@ -1,8 +1,8 @@
 theme:          iiifc-theme
 permalink:      pretty
-root_url:       'https://preview.iiif.io/root/wireframe'
-api_url:        'https://preview.iiif.io/api/wireframe/api'
-guides_url:     'https://preview.iiif.io/guides/wireframe'
+root_url:       'https://beta.iiif.io'
+api_url:        'https://beta.iiif.io/api'
+guides_url:     'https://beta.iiif.io/guides'
 cookbook_url:   ''
 
 plugins:
@@ -17,7 +17,7 @@ webrick:
   headers:
     Access-Control-Allow-Origin: "*"
 
-exclude: ["scripts", "Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+exclude: ["Rakefile", "scripts", "Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
 
 defaults:
   -
