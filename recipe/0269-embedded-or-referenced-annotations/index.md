@@ -27,12 +27,17 @@ If you don't know what the restrictions might be initially, just leave the follo
 
 ## Example
 
-Describe the solution in prose and provide an example.
-The example json document must be an external document, and imported with the following:
+TODO: Describe the solution in prose and provide an example.
 
-{% include manifest_links.html viewers="UV, Mirador, Tify, Curation" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
+
+### Manifest file
 
 {% include jsonviewer.html src="manifest.json" %}
+
+### Annotation Page file
+
+{% include jsonviewer.html src="annotationpage.json" %}
 
 ## Related Recipes
 
