@@ -49,7 +49,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 ## Textual and other supplementary content
 
 * [Transcription of image-based content][016]
-* [Using Transcripts with A/V Content][0017]
+* [Using Transcripts with A/V Content][0017]There aren't specific data formats for encoding transcriptions as they basically represent text documents most often without any styling. The only information needed to be conveyed is therefore the media resource from which the transcription was made and the actual transcribed text with the respective language(s).
 * [Using Captions and Subtitles with Video Content][0219]
 * Transcription of content into XML, with XPaths to select a segment
 * [Providing Alternative Representations][0046]
@@ -136,7 +136,7 @@ _(leading on to segmentation examples later)_
 * a Sammelband
 * Archival collection (hierarchy, paging)
 * Thumbnail range for video navigation
-* Video with captions in multiple languages
+* [Using Caption and Subtitle Files in Multiple Languages with Video Content][0074]
 * Mixed Image Service references (a mashup, with img2 and img3 services)
 * Glenn Gould - score and performance scenarios (transcribing)
 * A Map

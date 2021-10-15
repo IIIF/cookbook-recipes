@@ -32,6 +32,7 @@
 [0024]: {{site.baseurl}}/recipe/0024-book-4-toc/ "Book with Table of contents (ranges)"
 
 [0068]: {{site.baseurl}}/recipe/0068-newspaper/ "A newspaper"
+[0074]: {{site.baseurl}}/recipe/0074-multiple-language-captions/ "Using Caption and Subtitle Files in Multiple Languages with Video Content"
 [0117]: {{site.baseurl}}/recipe/0117-add-image-thumbnail/ "Manifest Thumbnail"
 [0118]: {{site.baseurl}}/recipe/0118_multivalue/ "Displaying Multiple Values with Language Maps"
 [0219]: {{site.baseurl}}/recipe/0219-using-caption-file/ "Using Caption and Subtitle Files with Video Content"
