@@ -40,6 +40,7 @@
 
 [0234]: {{site.baseurl}}/recipe/0234-provider/ "Acknowledge Content Contributors"
 
+[0269]: {{site.baseurl}}/recipe/0269-embedded-or-referenced-annotations/ "Embedded or Referenced Annotations"
 
 [prezi3]: https://iiif.io/api/presentation/3 "IIIF Presentation API"
 [prezi3-languages]: https://iiif.io/api/presentation/3.0/#language-of-property-values "Language of Property Values"
