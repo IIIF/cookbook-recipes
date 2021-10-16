@@ -86,7 +86,7 @@ None
 
 The Manifest below contains examples of the three options presented above: a Manifest thumbnail using the **Thumbnails with a IIIF image service** option, a video Canvas using the **Minimal thumbnail requirements** option, and an image Canvas using the **Thumbnails with a IIIF image service + JSON image response sizes** option. *Note: the image Canvas here specifies a level0 profile, but could be changed to a level1 profile if leaving it open for custom sizes is desirable.*
 
-{% include manifest_links.html viewers="Mirador, UV" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador, UV" manifest="manifest-av.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 
