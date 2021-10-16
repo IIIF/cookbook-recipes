@@ -28,11 +28,11 @@ At a minimum, the `thumbnail` property requires the `id` and `type` properties. 
 ```json
 "thumbnail": [
   {
-    "id": "https://example.org/img/thumb.jpg",
+    "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/act1-thumbnail.png",
     "type": "Image",
-    "format": "image/jpeg",
-    "width": 100,
-    "height": 100
+    "format": "image/png",
+    "height": 360,
+    "width": 640
   }
 ]
 ```
@@ -73,7 +73,7 @@ Since adding a service alone doesn't gain us anything, we can take it a step fur
       }
     ]
   }
-},
+}
 ```
 In this configuration, we might expect the client to first try the given thumbnail size (100x100), then if too small, use one of the pre-cached images from the image service (200x200 or 500x500). Since we are using level 0, the client ideally would choose the most appropriate size, probably something just larger, then downsize the image as needed to best fit the view.
 
