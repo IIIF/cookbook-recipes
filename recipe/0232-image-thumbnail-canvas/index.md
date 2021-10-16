@@ -84,11 +84,15 @@ None
 
 ## Example
 
-The Manifest below contains examples of the three options presented above: a Manifest thumbnail using the **Thumbnails with a IIIF image service** option, a video Canvas using the **Minimal thumbnail requirements** option, and an image Canvas using the **Thumbnails with a IIIF image service + JSON image response sizes** option. *Note: the image Canvas here specifies a level0 profile, but could be changed to a level1 profile if leaving it open for custom sizes is desirable.*
+The two Manifests below demonstrate the use of the `thumbnail` property on Canvases: the first specifies a thumbnail for an audio file following the **Minimal thumbnail requirements** option; the second a thumbnail for an image file using the **Thumbnails with a IIIF image service + JSON image response sizes** option. *Note: the image thumbnail here specifies a level0 profile, but could be changed to a level1 profile if leaving it open for custom sizes is desirable.*
 
 {% include manifest_links.html viewers="Mirador, UV" manifest="manifest-av.json" %}
 
-{% include jsonviewer.html src="manifest.json" %}
+{% include jsonviewer.html src="manifest-av.json" %}
+
+{% include manifest_links.html viewers="Mirador, UV" manifest="manifest-image.json" %}
+
+{% include jsonviewer.html src="manifest-image.json" %}
 
 ## Related Recipes
 
