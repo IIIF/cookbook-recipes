@@ -7,6 +7,7 @@
       {
         "id": "{{ id.path }}/canvas/donizetti",
         "type": "Canvas",
+        "label": { "en": [ "Video recording of Donizetti's _The Elixer of Love_" ] },
 				"duration": 7278.466,
 				"width": 640,
 				"height": 360,

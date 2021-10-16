@@ -84,7 +84,7 @@ None
 
 ## Example
 
-The two Manifests below demonstrate the use of the `thumbnail` property on Canvases: the first specifies a thumbnail for an audio file following the **Minimal thumbnail requirements** option; the second a thumbnail for an image file using the **Thumbnails with a IIIF image service + JSON image response sizes** option. *Note: the image thumbnail here specifies a level0 profile, but could be changed to a level1 profile if leaving it open for custom sizes is desirable.*
+The two Manifests below demonstrate the use of the `thumbnail` property on Canvases: the first specifies a thumbnail for a video file following the **Minimal thumbnail requirements** option; the second a thumbnail for an image file using the **Thumbnails with a IIIF image service + JSON image response sizes** option. *Note: the image thumbnail here specifies a level0 profile, but could be changed to a level1 profile if leaving it open for custom sizes is desirable.*
 
 {% include manifest_links.html viewers="Mirador, UV" manifest="manifest-av.json" %}
 
