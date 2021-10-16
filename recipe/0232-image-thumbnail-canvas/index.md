@@ -1,5 +1,5 @@
 ---
-title: "Implementation discussion: Thumbnails"
+title: "Implementation discussion: Thumbnails on Canvases"
 id: 232
 layout: recipe
 tags: [image, presentation]
