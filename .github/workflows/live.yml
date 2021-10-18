@@ -19,6 +19,7 @@ jobs:
       BUNDLE_WITH: test jekyll_plugins
       SITE_ID:  'cookbook' # which iiif site this is
       LIVE_PATH: '/api/cookbook'
+      # Required for ID substition in JSON manifests
       URL: 'https://beta.iiif.io'
 
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -27,7 +28,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Setup ruby
-      uses: actions/setup-ruby@v1
+      uses: ruby/setup-ruby@v1
       with:
         bundler-cache: true
     - run: gem install bundler && bundle
@@ -39,8 +40,8 @@ jobs:
       run: bundle exec rake test:html
     - name: Test internal links
       run: bundle exec rake test:links:internal
-#    - name: Test *iiif.io* links
-#      run: bundle exec rake test:links:iiif
+    - name: Test *iiif.io* links
+      run: bundle exec rake test:links:iiif
 
     # Validate
     - name: Set up Python 3.x
