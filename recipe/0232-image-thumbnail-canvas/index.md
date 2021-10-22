@@ -51,33 +51,36 @@ This approach might be a good option for Collection or Manifest thumbnails, but 
 Since adding a service alone doesn't gain us anything, we can take it a step further by including all or a selection of pre-cached sizes from the [JSON image response](https://iiif.io/api/image/3.0/#51-image-information-request) and setting the profile to level 0. Advertising the appropriate pre-cached sizes provides the viewing client with a list of available size options that it can retrieve instead of using the image service, thereby optimizing thumbnail generation and delivery.
 
 ```json
-"thumbnail":{
-  "id":"https://fixtures.iiif.io/other/level0/Glen/photos/gottingen/full/max/0/default.jpg",
-  "type": "Image",
-  "format": "image/jpg",
-  "width":252,
-  "height":189,
-  "service":{
-    "id":"https://fixtures.iiif.io/other/level0/Glen/photos/gottingen",
-    "profile": "level0",
-    "width":4032,
-    "height":3024,
-    "sizes":[
+"thumbnail": [
+  {
+    "id": "https://fixtures.iiif.io/other/level0/Glen/photos/gottingen/full/max/0/default.jpg",
+    "type": "Image",
+    "format": "image/jpg",
+    "width":252,
+    "height":189,
+    "service": [
       {
-        "width": 126,
-        "height": 95
-      },
-      {
-        "width": 252,
-        "height": 189
-      },
-      {
-        "width": 504,
-        "height": 378
+        "id":"https://fixtures.iiif.io/other/level0/Glen/photos/gottingen",
+        "profile": "level0",
+        "type": "ImageService3",
+        "sizes":[
+          {
+            "width": 126,
+            "height": 95
+          },
+          {
+            "width": 252,
+            "height": 189
+          },
+          {
+            "width": 504,
+            "height": 378
+          }
+        ]
       }
     ]
   }
-}
+]
 ```
 In this configuration, we might expect the client to first try the given thumbnail size (100x100), then if too small, use one of the pre-cached images from the image service (200x200 or 500x500). Since we are using level 0, the client ideally would choose the most appropriate size, probably something just larger, then downsize the image as needed to best fit the view.
 
@@ -96,7 +99,7 @@ The two Manifests below demonstrate the use of the `thumbnail` property on Canva
 
 {% include manifest_links.html viewers="Mirador, UV" manifest="manifest-image.json" %}
 
-{% include jsonviewer.html src="manifest-image.json" %}
+{% include jsonviewer.html src="manifest-image.json" config='data-line="21-50"' %}
 
 ## Related Recipes
 
