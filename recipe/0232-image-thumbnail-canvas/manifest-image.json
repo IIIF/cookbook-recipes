@@ -21,8 +21,7 @@
             {
               "id":"https://fixtures.iiif.io/other/level0/Glen/photos/gottingen",
               "profile": "level0",
-              "width":4032,
-              "height":3024,
+              "type": "ImageService3",
               "sizes":[
                 {
                   "width": 126,
