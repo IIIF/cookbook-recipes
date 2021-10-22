@@ -10,7 +10,7 @@
       "label":  { "en": [ "Canvas with a single IIIF image" ] },
 			"height": 3024,
 			"width": 4032,
-      "thumbnail":{
+      "thumbnail": [
         "id":"https://fixtures.iiif.io/other/level0/Glen/photos/gottingen/full/max/0/default.jpg",
         "type": "Image",
         "format": "image/jpg",
@@ -36,7 +36,7 @@
             }
           ]
         }
-      },
+      ],
       "items": [
         {
 					"id": "{{ id.path }}/page/p1/1",
