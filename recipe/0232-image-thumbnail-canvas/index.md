@@ -52,24 +52,28 @@ Since adding a service alone doesn't gain us anything, we can take it a step fur
 
 ```json
 "thumbnail":{
-  "id":"url_to_image",
+  "id":"https://fixtures.iiif.io/other/level0/Glen/photos/gottingen/full/max/0/default.jpg",
   "type": "Image",
   "format": "image/jpg",
-  "width":100,
-  "height":100,
+  "width":252,
+  "height":189,
   "service":{
-    "id":"iiif_image_url",
-    "profile": "https://iiif.io/api/image/3/level0.json",
-    "width":5000,
-    "height":5000,
+    "id":"https://fixtures.iiif.io/other/level0/Glen/photos/gottingen",
+    "profile": "level0",
+    "width":4032,
+    "height":3024,
     "sizes":[
       {
-         "width":200,
-         "height":200
+        "width": 126,
+        "height": 95
       },
       {
-         "width":500,
-         "height":500
+        "width": 252,
+        "height": 189
+      },
+      {
+        "width": 504,
+        "height": 378
       }
     ]
   }
