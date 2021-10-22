@@ -11,30 +11,32 @@
 			"height": 3024,
 			"width": 4032,
       "thumbnail": [
-        "id":"https://fixtures.iiif.io/other/level0/Glen/photos/gottingen/full/max/0/default.jpg",
-        "type": "Image",
-        "format": "image/jpg",
-        "width":252,
-        "height":189,
-        "service":{
-          "id":"https://fixtures.iiif.io/other/level0/Glen/photos/gottingen",
-          "profile": "level0",
-          "width":4032,
-          "height":3024,
-          "sizes":[
-            {
-              "width": 126,
-              "height": 95
-            },
-            {
-              "width": 252,
-              "height": 189
-            },
-            {
-              "width": 504,
-              "height": 378
-            }
-          ]
+        {
+          "id": "https://fixtures.iiif.io/other/level0/Glen/photos/gottingen/full/max/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpg",
+          "width":252,
+          "height":189,
+          "service":{
+            "id":"https://fixtures.iiif.io/other/level0/Glen/photos/gottingen",
+            "profile": "level0",
+            "width":4032,
+            "height":3024,
+            "sizes":[
+              {
+                "width": 126,
+                "height": 95
+              },
+              {
+                "width": 252,
+                "height": 189
+              },
+              {
+                "width": 504,
+                "height": 378
+              }
+            ]
+          }
         }
       ],
       "items": [
