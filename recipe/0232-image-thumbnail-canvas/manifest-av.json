@@ -2,12 +2,12 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "{{ id.url }}",
   "type": "Manifest",
-	"label": { "en": [ "Video recording of Donizetti's _The Elixer of Love_" ] },
+	"label": { "en": [ "Video recording of Donizetti's _The Elixir of Love_" ] },
     "items": [
       {
         "id": "{{ id.path }}/canvas/donizetti",
         "type": "Canvas",
-        "label": { "en": [ "The Elixer of Love" ] },
+        "label": { "en": [ "The Elixir of Love" ] },
 				"duration": 7278.466,
 				"width": 640,
 				"height": 360,
