@@ -31,8 +31,8 @@
                             "body": {
                                 "id": "https://fixtures.iiif.io/video/europeana/Per_voi_signore_Modelli_francesi.mp4",
                                 "type": "Video",
-                                "height": 360,
-                                "width": 480,
+                                "height": 384,
+                                "width": 288,
                                 "duration": 572.034,
                                 "format": "video/mp4"
                             },

@@ -15,13 +15,13 @@ Captions and subtitles may be available in multiple languages for video content 
 
 This recipe builds on the pattern for [Using Caption and Subtitle Files with Video Content][0219], extending it to represent the availability of captions and subtitles in multiple languages.
 
-Similarly to offering a single caption/subtitle file, the multiple subtitle/caption files are provided as a `supplementing` Annotation on the Canvas that contains the video file. In the case of multiple captions/subtitles, however, the Annotation provides all the available languages as choices. IIIF viewers are then able to offer to end-users the choice for displaying subtitles/captions in one of the available languages during the video playback.  
+Similarly to offering a single caption/subtitle file, the multiple subtitle/caption files are provided as a `supplementing` Annotation on the Canvas that contains the video file. In the case of multiple captions/subtitles, however, the Annotation provides all the available languages as choices. IIIF clients are then able to offer to end-users the choice for displaying subtitles/captions in one of the available languages during the video playback.  
 
-In addition to this implementation, one might consider to provide the captions/subtitles also as multiple timed annotations. Although redundant, providing both implementations will enable more IIIF viewers to display the captions/subtitles, since they may use whichever implementation they support. See [Using Annotations for Timed Text][0079].
+In addition to this implementation, one might consider to provide the captions/subtitles also as multiple timed annotations. Although redundant, providing both implementations will enable more IIIF clients to display the captions/subtitles, since they may use whichever implementation they support. See [Using Annotations for Timed Text][0079].
 
 ## Restrictions
 
-Formats other than WebVTT (Web Video Text Tracks) are supported by the [IIIF Presentation API 3.0](https://iiif.io/api/presentation/3.0/), but may not be supported in all viewers.
+Formats other than WebVTT (Web Video Text Tracks) are supported by the [IIIF Presentation API 3.0](https://iiif.io/api/presentation/3.0/), but current IIIF clients do not support the display of captions/subtitles. Nevertheless, WebVTT is the format most likely to be implemented. 
 
 When using segmented WebVTT with HLS (HTTP Live Streaming), see [Serving HLS Files][0257].
 
@@ -30,7 +30,7 @@ When using segmented WebVTT with HLS (HTTP Live Streaming), see [Serving HLS Fil
 In this example we represent a video with subtitles in two languages: English and Italian. 
 For expressing the availability of the subtitles in the two languages, we use an Annotation with a Choice body that contains two items, one for each language.
 
-In this example we use subtitle files in the WebVTT format. Other format options include SRT (SubRip Text) or TTML (Timed Text Markup Language), but these may not be as widely supported in IIIF viewers.
+In this example we use subtitle files in the WebVTT format. Other format options include SRT (SubRip Text) or TTML (Timed Text Markup Language), but these are less likely to not be supported in IIIF clients.
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
