@@ -33,7 +33,7 @@
                                 "type": "Video",
                                 "height": 384,
                                 "width": 288,
-                                "duration": 572.034,
+                                "duration": 65.0,
                                 "format": "video/mp4"
                             },
                             "target": "{{ id.path }}/canvas"
