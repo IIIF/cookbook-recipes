@@ -31,8 +31,8 @@ At a minimum, the `thumbnail` property requires the `id` and `type` properties. 
     "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/act1-thumbnail.png",
     "type": "Image",
     "format": "image/png",
-    "height": 360,
-    "width": 640
+    "width": 640,
+    "height": 360
   }
 ]
 ```
@@ -84,7 +84,7 @@ Since adding a service alone doesn't gain us anything, we can take it a step fur
 ```
 In this configuration, we might expect the client to first try the given thumbnail size (252x189), then if too small, use one of the pre-cached images from the image service (252x189 or 504x378). Since we are using level 0, the client ideally would choose the most appropriate size, probably something just larger, then downsize the image as needed to best fit the view.
 
-Alternatively, we could change the image service profile to level 1. In this case, if none of the pre-cached sizes are appropriate, then the client could still request a custom size where needed. Here, we are giving the client a few options to try before resorting to a custom image request, but ultimately the client may still request a custom image, in which case the `thumbnail` property is again essentially duplicating the service from the Canvas' Resource; however, this option would ensure that an appropriate thumbnail size was selected in cases where the supplied sizes are not optimal for the thumbnail view.
+Alternatively, we could change the image service profile to level 1 or 2. In this case, if none of the pre-cached sizes are appropriate, then the client could still request a custom size where needed. Here, we are giving the client a few options to try before resorting to a custom image request, but ultimately the client may still request a custom image, in which case the `thumbnail` property is again essentially duplicating the service from the Canvas' Resource; however, this option would ensure that an appropriate thumbnail size was selected in cases where the supplied sizes are not optimal for the thumbnail view.
 
 ## Restrictions
 None

@@ -8,8 +8,8 @@
       "id": "{{ id.path }}/canvas/p1",
       "type": "Canvas",
       "label":  { "en": [ "Canvas with a single IIIF image" ] },
-			"height": 3024,
 			"width": 4032,
+      "height": 3024,
       "thumbnail": [
         {
           "id": "https://fixtures.iiif.io/other/level0/Glen/photos/gottingen/full/max/0/default.jpg",
@@ -53,8 +53,8 @@
 								"id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg",
 								"type": "Image",
 								"format": "image/jpeg",
-								"height": 3024,
 								"width": 4032,
+                "height": 3024,
 								"service": [
 									{
 									"id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
