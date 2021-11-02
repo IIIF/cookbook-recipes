@@ -5,10 +5,10 @@
 	"label": { "en": [ "Video recording of Donizetti's _The Elixir of Love_" ] },
     "items": [
       {
-        "id": "{{ id.path }}/canvas/donizetti",
+        "id": "{{ id.path }}/canvas/donizetti/1",
         "type": "Canvas",
-        "label": { "en": [ "The Elixir of Love" ] },
-				"duration": 7278.466,
+        "label": { "en": [ "The Elixir of Love, Act 1" ] },
+				"duration": 3971.243,
 				"width": 640,
 				"height": 360,
         "thumbnail": [
@@ -22,22 +22,61 @@
         ],
         "items": [
           {
-            "id": "{{ id.path }}/donizetti/1",
+            "id": "{{ id.path }}/donizetti/1/1",
             "type": "AnnotationPage",
             "items": [
               {
-                "id": "{{ id.path }}/donizetti/1-video",
+                "id": "{{ id.path }}/donizetti/1/1-video",
                 "type": "Annotation",
                 "motivation": "painting",
                 "body": {
-                  "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/vae0637_accessH264_low.mp4",
+                  "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/vae0637_accessH264_low_act_1.mp4",
                 "type": "Video",
-                "duration": 7278.466,
+                "duration": 3971.243,
                 "width": 640,
                 "height": 360,
                 "format": "video/mp4"
                 },
-                "target": "{{ id.path }}/canvas/donizetti"
+                "target": "{{ id.path }}/canvas/donizetti/1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "{{ id.path }}/canvas/donizetti/2",
+        "type": "Canvas",
+        "label": { "en": [ "The Elixir of Love, Act 2" ] },
+        "duration": 3307.224,
+        "width": 640,
+        "height": 360,
+        "thumbnail": [
+          {
+            "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/act2-thumbnail.png",
+            "type": "Image",
+            "format": "image/png",
+            "width": 640,
+            "height": 360
+          }
+        ],
+        "items": [
+          {
+            "id": "{{ id.path }}/donizetti/2/1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "{{ id.path }}/donizetti/2/1-video",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/vae0637_accessH264_low_act_2.mp4",
+                "type": "Video",
+                "duration": 3307.224,
+                "width": 640,
+                "height": 360,
+                "format": "video/mp4"
+                },
+                "target": "{{ id.path }}/canvas/donizetti/2"
               }
             ]
           }
