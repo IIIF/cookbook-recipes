@@ -2,12 +2,12 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "{{ id.url }}",
   "type": "Manifest",
-	"label": { "en": [ "Gänselisel-Brunnen, Göttingen" ] },
+	"label": { "en": [ "Gänseliesel-Brunnen, Göttingen" ] },
   "items": [
     {
       "id": "{{ id.path }}/canvas/p1",
       "type": "Canvas",
-      "label":  { "en": [ "Photo of the Gänselisel-Brunnen taken at the 2019 IIIF Conference" ] },
+      "label":  { "en": [ "Photo of the Gänseliesel-Brunnen taken at the 2019 IIIF Conference" ] },
 			"width": 4032,
       "height": 3024,
       "thumbnail": [
@@ -72,7 +72,7 @@
     {
       "id": "{{ id.path }}/canvas/p2",
       "type": "Canvas",
-      "label":  { "en": [ "Gänselisel-Brunnen at Night" ] },
+      "label":  { "en": [ "Gänseliesel-Brunnen at Night" ] },
       "width": 3024,
       "height": 4032,
       "thumbnail": [
