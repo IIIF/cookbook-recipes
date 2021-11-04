@@ -41,6 +41,7 @@
 
 [0234]: {{site.baseurl}}/recipe/0234-provider/ "Acknowledge Content Contributors"
 
+[0266]: {{site.baseurl}}/recipe/0266-full-canvas-annotation/ "Simplest Annotation"
 
 [prezi3]: https://iiif.io/api/presentation/3 "IIIF Presentation API"
 [prezi3-languages]: https://iiif.io/api/presentation/3.0/#language-of-property-values "Language of Property Values"
