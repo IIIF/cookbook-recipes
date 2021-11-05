@@ -50,26 +50,18 @@
 					"id": "{{ id.path }}/annotation/anno/p0002-wikidata",
 					"type": "Annotation",
 					"motivation": "tagging",
-					"body": {
-					  "type": "SpecificResource",
-					  "selector": {
-						"type": "FragmentSelector",
-						"conformsTo": "http://www.w3.org/TR/media-frags/",
-						"value": "xywh=749,1054,338,460"
-					  },
-					  "purpose": "tagging",
-					  "source": {
-						"id": "https://www.wikidata.org/wiki/Q18624915",
-						"label": {
-						  "en": [
-							"Goose Girl fountain"
-						  ],
-						  "de": [
-							"Gänsenliesel-Brunnen"
-						  ]
+					"body": [
+						{
+							"type": "SpecificResource",
+							"source": "https://www.wikidata.org/wiki/Q18624915"
+						},
+						{
+							"type": "TextualBody",
+							"value": "Gänsenliesel-Brunnen",
+							"format": "text/plain",
+							"language": "de"
 						}
-					  }
-					},
+					],
 					"target": "{{ id.path }}/canvas/p1#xywh=749,1054,338,460"
 				}
 			]
