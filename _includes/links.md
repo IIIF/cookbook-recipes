@@ -35,7 +35,7 @@
 [0230]: {{site.baseurl}}/recipe/0230-navdate/ "Navigation by Chronology"
 
 [0234]: {{site.baseurl}}/recipe/0234-provider/ "Acknowledge Content Contributors"
-
+[0258]: {{site.baseurl}}/recipe/0258-tagging-external-resource/ "Tagging with an External Resource"
 
 [prezi3]: https://iiif.io/api/presentation/3 "IIIF Presentation API"
 [prezi3-languages]: https://iiif.io/api/presentation/3.0/#language-of-property-values "Language of Property Values"
