@@ -2,7 +2,7 @@
     {% if include.manifest contains 'http' %}
         {{ include.manifest }}
     {% else %}
-        {{ site.url }}{{ site.baseurl }}{{ page.url}}{{ include.manifest }}
+        {{ site.cookbook_url | absolute_url }}{{ page.url}}{{ include.manifest }}
     {% endif %}
 {% endcapture %}
 {% if include.type == 'UV' %}
