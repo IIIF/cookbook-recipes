@@ -34,6 +34,8 @@ jobs:
         bundler-cache: true
     - run: gem install bundler && bundle
 
+    - name: add URL to config
+      run: echo "url: $URL" >> _config.yml
      # build and test
     - name: Build live site
       run: bundle exec rake build:live
@@ -80,6 +82,7 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         auto_inactive: 'false'
         env: staging
+
     - name: Deploy to S3
       uses: glenrobson/s3-sync-action@v0.5.1
       with:
