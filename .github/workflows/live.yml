@@ -35,7 +35,8 @@ jobs:
     - run: gem install bundler && bundle
 
     - name: add URL to config
-      run: echo "url: $URL" >> _config.yml
+      run: .github/bin/addURL.sh
+
      # build and test
     - name: Build live site
       run: bundle exec rake build:live
