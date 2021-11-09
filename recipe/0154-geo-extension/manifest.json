@@ -1,7 +1,7 @@
 {
    "@context":[
       "http://iiif.io/api/extension/navPlace-context/context.json",
-      "http://iiif.io/api/presentation/3/context.json"
+      "http://iiif.io/api/presentation/3/context.json
    ],
    "id":"{{ id.url }}",
    "type":"Manifest",
