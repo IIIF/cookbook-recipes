@@ -41,8 +41,8 @@ jobs:
      # build and test
     - name: Build live site
       run: bundle exec rake build:live
-    - name: Test html
-      run: bundle exec rake test:html
+    #- name: Test html
+    #  run: bundle exec rake test:html
     - name: Test internal links
       run: bundle exec rake test:links:internal
     #- name: Test *iiif.io* links
