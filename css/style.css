@@ -4,3 +4,24 @@
 .compact-list + ol {
     margin: 0px 0px 0px 0px;
 }
+
+code {
+    color: black;
+    font-size: .875em;
+    font-weight: normal;
+    background-color: #f2f2f2;
+    padding: 1px 4px;
+    border-radius: 3px;
+}
+
+.token.prism-number {
+	color: #905;
+}
+
+#use-case {
+    margin-top: 0px;
+}
+
+.code-toolbar {
+    width: 70vw;
+}

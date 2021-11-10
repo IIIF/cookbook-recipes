@@ -1,5 +1,6 @@
 _site
 *.swp
-.ruby-version
 presentation-validator
 scripts/schema
+.jekyll-cache
+vendor
