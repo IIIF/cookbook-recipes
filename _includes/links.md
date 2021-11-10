@@ -1,5 +1,4 @@
 
-
 [0001]: {{ site.cookbook_url | absolute_url }}/recipe/0001-mvm-image/ "Simplest Manifest - Image"
 [0002]: {{ site.cookbook_url | absolute_url }}/recipe/0002-mvm-audio/ "Simplest Manifest - Audio"
 [0003]: {{ site.cookbook_url | absolute_url }}/recipe/0003-mvm-video/ "Simplest Manifest - Video"
@@ -40,6 +39,8 @@
 
 [0234]: {{ site.cookbook_url | absolute_url }}/recipe/0234-provider/ "Acknowledge Content Contributors"
 
+[0266]: {{ site.cookbook_url | absolute_url }}/recipe/0266-full-canvas-annotation/ "Simplest Annotation"
+
 [cookbook-process]: {{site.cookbook_url | absolute_url }}/recipe
 
 [trc]: {{ site.root_url | absolute_url }}/community/trc/
@@ -63,4 +64,5 @@
 
 [fixtures]: https://fixtures.iiif.io
 [iiif-slack]: http://bit.ly/iiif-slack
-[bcp-47]: https://tools.ietf.org/html/bcp47 "BCP 47"
+
+[[bcp-47]: https://tools.ietf.org/html/bcp47 "BCP 47"
