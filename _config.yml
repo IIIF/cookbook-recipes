@@ -1,8 +1,6 @@
 theme:          iiifc-theme
 permalink:      pretty
-root_url:       'https://beta.iiif.io'
-api_url:        'https://beta.iiif.io/api'
-guides_url:     'https://beta.iiif.io/guides'
+
 cookbook_url:   ''
 
 plugins:
