@@ -9,7 +9,7 @@ summary: "Representing the  relationship between a video file and its caption or
 
 ## Use Case
 
-Captions and subtitles may be available in multiple languages for video content and the IIIF Manifest of the video can give access to representations of all the available languages. Because users will likely want to see captions/subtitles in their preferred language, the available languages should be presented as options from which one should be chosen.
+Captions and subtitles may be available in multiple languages for video content and the IIIF Manifest representing the video can give access to representations of all the available languages. Because users will likely want to see captions/subtitles in their preferred language, the available languages should be presented as options from which one should be chosen.
 
 ## Implementation notes
 
@@ -21,14 +21,14 @@ In addition to this implementation, one might consider to provide the captions/s
 
 ## Restrictions
 
-Formats other than WebVTT (Web Video Text Tracks) are supported by the [IIIF Presentation API 3.0](https://iiif.io/api/presentation/3.0/), but current IIIF clients do not support the display of captions/subtitles. Nevertheless, WebVTT is the format most likely to be implemented. 
+Formats other than WebVTT (Web Video Text Tracks) are supported by the [Presentation API 3.0](https://iiif.io/api/presentation/3.0/), but current IIIF clients do not support the display of captions/subtitles. Nevertheless, WebVTT is the format most likely to be implemented. 
 
 When using segmented WebVTT with HLS (HTTP Live Streaming), see [Serving HLS Files][0257].
 
 ## Example
 
 In this example we represent a video with subtitles in two languages: English and Italian. 
-For expressing the availability of the subtitles in the two languages, we use an Annotation with a Choice body that contains two items, one for each language.
+For expressing the availability of the subtitles in the two languages, we use an Annotation with a Choice body that contains two items, one for each language. The language of each subtitle file is expressed with a `language` property  containing a [BCP 47](https://tools.ietf.org/html/bcp47) language code as specified by the [Presentation API 3.0](https://iiif.io/api/presentation/3.0/#language-of-property-values).    
 
 In this example we use subtitle files in the WebVTT format. Other format options include SRT (SubRip Text) or TTML (Timed Text Markup Language), but these are less likely to not be supported in IIIF clients.
 
