@@ -1,10 +1,8 @@
 ---
 title: IIIF Cookbook
 layout: page
-tags: [tbc]
-summary: "tbc"
 hero:
-    image: "https://ids.si.edu/ids/iiif/NMAH-AC0396-0000007/131,1118,1840,1011/1500,/0/default.jpg"
+  image: "assets/images/heroes/smithsonian_cookbook.webp"
 ---
 
 The [IIIF Presentation API][prezi3] specifies a standardized way to describe complex digital objects. The resource types and properties of the specification are the building blocks of interoperable representations, for rendering by viewers and other software clients. This cookbook gathers together many examples of these representations (usually IIIF Manifests), in order to:
