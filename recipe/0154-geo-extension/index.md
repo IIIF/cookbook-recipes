@@ -10,7 +10,7 @@ summary: "Use the navPlace extension to provide geolocation information about an
 A Manifest contains a single Canvas item representing a photograph.
 
 <p style="text-align: center;">
-	<img id="leaf" onclick="showBigImage()" style="max-height: 11em; max-width: 100%;" src="./images/leaflet_example.png" />
+	<img id="leaf" alt="example" onclick="showBigImage()" style="max-height: 11em; max-width: 100%;" src="./images/leaflet_example.png" />
 </p>
 
 ### Implementation Notes
