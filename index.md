@@ -1,8 +1,8 @@
 ---
-title: Cookbook of IIIF Recipes
-layout: default
-tags: [tbc]
-summary: "tbc"
+title: IIIF Cookbook
+layout: page
+hero:
+  image: "assets/images/heroes/smithsonian_cookbook.webp"
 ---
 
 The [IIIF Presentation API][prezi3] specifies a standardized way to describe complex digital objects. The resource types and properties of the specification are the building blocks of interoperable representations, for rendering by viewers and other software clients. This cookbook gathers together many examples of these representations (usually IIIF Manifests), in order to:
@@ -12,11 +12,11 @@ The [IIIF Presentation API][prezi3] specifies a standardized way to describe com
 * enable client software developers to support these patterns, for consistency of user experience (when desirable);
 * demonstrate the applicability of IIIF to a broad range of use cases.
 
-The issues of the [Cookbook Recipes repository](https://github.com/IIIF/cookbook-recipes/issues) are used to identify and discuss cookbook recipes, prior to their inclusion in the final cookbook site.
+The issues of the [Cookbook Recipes repository][cookbook-issues] are used to identify and discuss cookbook recipes, prior to their inclusion in the final cookbook site.
 
 # Contributing
 
-Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advice and support can be received from the IIIF Cookbook channel on the IIIF Slack. For detailed information on how to contribute please see the [Cookbook process](recipe/).
+Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advice and support can be received from the IIIF Cookbook channel on the IIIF Slack. For detailed information on how to contribute please see the [Cookbook process][cookbook-process].
 
 # The Recipes
 
