@@ -4,6 +4,10 @@ id: 5
 layout: recipe
 tags: [image, annex, service, services, specifications, transitional]
 summary: "Paint a Canvas using an image with an associated IIIF Image API service."
+viewers:
+ - Mirador
+ - UV
+topic: basic 
 ---
 
 ## Use Case
@@ -26,7 +30,7 @@ Though a version 3 Manifest may specify a service using the version 2 `@id` and 
 
 ## Example
 
-{% include manifest_links.html viewers="UV,Mirador" manifest="manifest.json" %}
+{% include manifest_links.html manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="36-42"' %}
 
@@ -36,9 +40,6 @@ Though a version 3 Manifest may specify a service using the version 2 `@id` and 
 * [Add Image Thumbnail][0117] discusses {how to work with thumbnail images}
 * [Presentation version 3 manifest containing images on a version 2 service][00XX] forms part of the recipes connected with upgrading your offerings from v2 to v3.
 * [Services][0055]
-
-
-
 
 {% include acronyms.md %}
 {% include links.md %}
