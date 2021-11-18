@@ -8,7 +8,7 @@ topics:
  - key: basic
    label: Basic Recipes
  - key: property
-   label: IIIF Properties Recipes
+   label: IIIF Properties
  - key: AV
    label: Audio/Visual Recipes
 ---
