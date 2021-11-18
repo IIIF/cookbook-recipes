@@ -1,2 +1,7 @@
+{% if include.viewers %}
 {% assign viewers = include.viewers | split: "," %}
-[JSON-LD]({{ include.manifest }}) {% for viewerTxt in page.viewers %}{% assign viewer = viewerTxt | strip %}| {% include viewer_link.html type=viewer manifest=include.manifest %}{% endfor %}
+[JSON-LD]({{ include.manifest }}) {% for viewerTxt in viewers %}{% assign viewer = viewerTxt | strip %}| {% include viewer_link.html type=viewer manifest=include.manifest %}{% endfor %}
+{% else %}
+{% assign viewers = page.viewers %}
+[JSON-LD]({{ include.manifest }}) {% for viewerTxt in viewers %}{% if viewerTxt.id %}{% assign viewer = viewerTxt.id | strip %}{% else %}{% assign viewer = viewerTxt | strip %}{%endif%}| {% include viewer_link.html type=viewer manifest=include.manifest %}{% endfor %}
+{% endif %}

@@ -5,9 +5,10 @@ layout: recipe
 tags: [audio, video]
 summary: "This manifest uses the 'start' property to specify a point in an audio or video object where a client application should begin playback."
 viewers:
- - UV
+ - id: UV
+   support: partial
 topic: AV
-
+property: start
 ---
 
 ## Use Case
