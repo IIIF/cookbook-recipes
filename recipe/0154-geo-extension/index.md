@@ -6,7 +6,7 @@ tags: [maps, geolocate, navPlace]
 summary: "Use the navPlace extension to provide geolocation information about an IIIF Presentation API 3.0 Manifest."
 ---
 
-### Use Case 
+### Use Case
 A Manifest contains a single Canvas item representing a photograph. Using the navPlace extension, I can specify a geographic location for the image that a web-based map platform can display. This location can refer to where the image is currently located, the origin of the object, or any other location attribute. In the example below, the location for the image shows its origin in X rather than its current location in Y. 
 
 
@@ -27,43 +27,3 @@ The Manifest below contains one Canvas with a photograph painted onto it. The Ma
 
 {% include acronyms.md %}
 {% include links.md %}
-
-<div id="bigImage">
-	<h4 style="color:white;"> Click Image to Close </h4>
-	<img onclick="hideBigImage()" style="max-height: 100%; max-width: 100%;" src="./images/leaflet_example.png" />
-</div>
-
-<style>
-	#bigImage{
-		position: fixed;
-		top: 0;
-		left : 0;
-		height : 100em;
-		width: 100%;
-		background-color: rgba(0,0,0,.8);
-		display:none;
-		text-align: center;
-		padding-top: 4px;
-	}
-	img{
-		cursor: pointer;
-	}
-	.imagelink{
-		margin-right: 1%;
-	    display: inline-block;
-    	text-decoration: none !important;
-    	border-bottom: none !important;
-	}
-	.imagelink:focus{
-    	outline: none !important;
-	}
-</style>
-
-<script type="text/javascript">
-	function showBigImage(){
-		document.getElementById("bigImage").style.display = "block"
-	}
-	function hideBigImage(){
-		document.getElementById("bigImage").style.display = "none"
-	}
-</script>
