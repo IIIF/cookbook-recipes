@@ -18,7 +18,7 @@ The W3C data model requires non-rectangular polygonal annotations to be describe
 
 When reviewing your SVG data, remove all styling and transformation features, per [the W3C data model](https://www.w3.org/TR/annotation-model/#svg-selector). To ensure your SVG markup is valid, you can use the [W3C validator](https://validator.w3.org/). SVG can be valid markup as absolute points in a coordinate space or as relative points along a path. 
 
-Sizing and placement of the SVG polygon in relation to its `target` takes some special attention. It's best here to refer to the [IIIF Presentation 2.1 API](https://iiif.io/api/presentation/2.1/#non-rectangular-segments), noting that references to particular manifest properties may have changed with 3.0.
+Sizing and placement of the SVG polygon in relation to its `target` takes some special attention. If the `target` is the entire Canvas, then the SVG viewport is assumed to cover the entire Canvas. On the other hand, if the SVG's coordinates are mapped to a part of a Canvas (noticable if the 0,0 point is different than the Canvas's), then its `target` must be the rectangular bounding box of the Canvas in which the SVG viewport should be placed. If the dimensions of the viewport and its target region (either the bounding box or the entire Canvas) are not the same, then the SVG must be scaled such that it covers the region. This may result in different scaling ratios for the X and Y dimensions.
 
 ## Restrictions
 
