@@ -1,16 +1,15 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Deploy-preview
+name: Deploy-live
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
     push:
         branches:
-          - '*'
-          - '!master'
-          - '!main'
-          - '!beta'
+          - main
+          - master
+          - beta
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -20,25 +19,28 @@ jobs:
     env:
       BUNDLE_WITH: test jekyll_plugins
       SITE_ID:  'cookbook' # which iiif site this is
-      URL: 'https://preview.iiif.io'
+      LIVE_PATH: '/api/cookbook'
+      # Required for ID substition in JSON manifests
+      URL: 'https://iiif.io'
+      JEKYLL_ENV: 'production'
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-    # store branch name in ${BRANCH_NAME}
-    - name: Export BRANCH_NAME # store branch name in $BRANCH_NAME
-      run: echo BRANCH_NAME=`git rev-parse --abbrev-ref HEAD` >> $GITHUB_ENV
 
     - name: Setup ruby
-      uses: actions/setup-ruby@v1
+      uses: ruby/setup-ruby@v1
       with:
         bundler-cache: true
     - run: gem install bundler && bundle
 
+    - name: add URL to config
+      run: .github/bin/addURL.sh
+
      # build and test
-    - name: Build preview site
-      run: bundle exec rake build:preview
+    - name: Build live site
+      run: bundle exec rake build:live
     - name: Test html
       run: bundle exec rake test:html
     - name: Test internal links
@@ -82,12 +84,13 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         auto_inactive: 'false'
         env: staging
+
     - name: Deploy to S3
       uses: glenrobson/s3-sync-action@v0.5.1
       with:
         args: --acl public-read 
       env:
-        AWS_S3_BUCKET: "preview.iiif.io"
+        AWS_S3_BUCKET: "iiif-website"
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_REGION: ${{ secrets.AWS_REGION }}
@@ -102,4 +105,4 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         status: ${{ job.status }}
         deployment_id: ${{ steps.deployment.outputs.deployment_id }}
-        env_url: "https://preview.iiif.io/${{ env.SITE_ID }}/${{ env.BRANCH_NAME}}/index.html"
+        env_url: "https://iiif.io/api/cookbook/index.html"
