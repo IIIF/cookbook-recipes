@@ -36,8 +36,6 @@ jobs:
         bundler-cache: true
     - run: gem install bundler && bundle
 
-    - name: add URL to config
-      run: .github/bin/addURL.sh
      # build and test
     - name: Build preview site
       run: bundle exec rake build:preview
