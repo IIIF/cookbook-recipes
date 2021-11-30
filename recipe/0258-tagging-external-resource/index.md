@@ -27,9 +27,11 @@ In this example, we continue our use of this photograph of a square in Göttinge
 
 Using multiple `body` properties, as shown here, does not have any predictable consequences for a viewer's handling of the data. With this in mind, each `body` in this Manifest could stand alone.
 
-Because each `body` is used for tagging, we have put that as the value of the `motivation` property on the Annotation rather than making use of the Specific Resource's `purpose` property 
+Because each `body` is used for tagging, we have put that as the value of the `motivation` property on the Annotation rather than making use of the Specific Resource's `purpose` property.
 
-{% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
+No viewers currently implement this tagging approach.
+
+{% include manifest_links.html viewers="" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config="data-line='44–68'"%}
 
@@ -37,7 +39,8 @@ The direct link to the fixture is a useful convenience.
 
 ## Related Recipes
 
-[0021] Tagging Basic
+* [Simplest Annotation][0266]
+* [Simple Annotation — Tagging][0021]
 
 {% include links.md %}
 
