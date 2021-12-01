@@ -1,11 +1,14 @@
 ---
-title: IIIF Cookbook Process
-layout: recipe
+title: Process
+layout: page
+breadcrumbs:
+ - label: IIIF Cookbook
+   link: index.html
 ---
 
-The cookbook-recipes repository is a Jekyll website, like the main IIIF site, with [some additions](https://github.com/IIIF/cookbook-recipes/#jekyll-variables) to make it easier to manage recipes and their dependent parts. In the IIIF specifications site, JSON-LD examples are embedded snippets in the page markdown. But in the recipes repository, code must be complete and standalone - we need our recipes to be complete working examples, not just extracts for guidance. Typically a recipe will include an entire manifest, as a separate JSON-LD file, that points to real assets, that works in a viewer. 
+The cookbook-recipes repository is a Jekyll website, like the main IIIF site, with [some additions][jekyll-variables] to make it easier to manage recipes and their dependent parts. In the IIIF specifications site, JSON-LD examples are embedded snippets in the page markdown. But in the recipes repository, code must be complete and standalone - we need our recipes to be complete working examples, not just extracts for guidance. Typically a recipe will include an entire manifest, as a separate JSON-LD file, that points to real assets, that works in a viewer. 
 
-Recipes start with an issue in the [Cookbook Repository](https://github.com/IIIF/cookbook-recipes/issues) and anyone can submit a recipe to the cookbook. Sometimes the person who raises the recipe issue then goes on to write the recipe, but this doesn't have to be the case. The need for a recipe may be expressed before its form is known; the comments on the recipe issue are where the recipe is discussed and elaborated.
+Recipes start with an issue in the [Cookbook Repository][cookbook-issues] and anyone can submit a recipe to the cookbook. Sometimes the person who raises the recipe issue then goes on to write the recipe, but this doesn't have to be the case. The need for a recipe may be expressed before its form is known; the comments on the recipe issue are where the recipe is discussed and elaborated.
 
 Recipes should not be substantially the same as an existing recipe (though may demonstrate an extension of an existing recipe, and therefore reproduce it).
 
@@ -30,19 +33,19 @@ A recipe must have the following features:
 
 For a completed example see:
 
-[Simplest Manifest - Single Image File](https://github.com/IIIF/cookbook-recipes/tree/master/recipe/0001-mvm-image)
+[Simplest Manifest - Single Image File][github-0001]
 
-Once you have created a recipe and created a pull request. This will be evaluated by the Cookbook community, Cookbook editors and the [Technical Review Committee](https://iiif.io/community/trc/). Comments will be fed back to the author at all stages and once the Technical Review Committee has approved it, the pull request will be merged to the master branch. 
+Once you have created a recipe and created a pull request. This will be evaluated by the Cookbook community, Cookbook editors and the [Technical Review Committee][trc]. Comments will be fed back to the author at all stages and once the Technical Review Committee has approved it, the pull request will be merged to the master branch. 
 
 # Full process
 
 * The proposer creates an issue for the recipe on GitHub.
-* The initial discussion of the recipe is conducted in comments on the issue and through the Cookbook channel on the [IIIF Slack](http://bit.ly/iiif-slack). This may result in the recipe being modified, or abandoned.
+* The initial discussion of the recipe is conducted in comments on the issue and through the Cookbook channel on the [IIIF Slack][iiif-slack]. This may result in the recipe being modified, or abandoned.
 * If there is broad agreement that the recipe is valuable, the proposer, or another community member assigns the issue to themselves. 
   * To get permission to assign issues please contact the IIIF Staff at admin@iiif.io who will add you to the _iiif-recipes_ Github team. 
 * Clone the cookbook repository
 * Create a new branch locally to work on your recipe
-* Push this branch to the [IIIF/Cookbook](https://github.com/IIIF/cookbook-recipes) repository 
+* Push this branch to the [IIIF/Cookbook][cookbook-repo] repository 
   * This will ensure later deployment preview functionality will run
 * The assignee will then create a draft pull request with this new branch
 * Once the assignee has completed their work on the pull request they move the pull request out of draft by clicking 'Ready for Review'
@@ -67,7 +70,7 @@ While all JSON-LD (Manifests, Collections, Annotation pages, etc) should be part
 
 The fixtures site provides a front end to view the fixture that are in the fixtures s3 bucket. Image assets in the fixtures site have a IIIF Image API endpoint available for use in your recipe.
 
-[https://fixtures.iiif.io/](https://fixtures.iiif.io/) 
+[https://fixtures.iiif.io/][fixtures] 
 
 The first page allows you to navigate the assets by format; image, audio and video. Once you have found an asset click on the file to be taken to a page showing information on this asset including duration, spatial dimensions and in the case of images a IIIF Image API endpoint. 
 
