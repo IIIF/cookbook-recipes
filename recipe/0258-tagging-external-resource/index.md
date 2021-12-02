@@ -23,19 +23,15 @@ None known.
 
 ## Example
 
-In this example, we continue our use of this photograph of a square in Göttingen, Germany, which includes a fountain topped by a sculpture of a girl and 2 accompanying geese. In addition to tagging the fountain with text giving its name, we are adding for this recipe an additional Annotation `body` that points to the Wikidata entry for the fountain.
+In this example, we continue our use of a photograph of a square in Göttingen, Germany, which includes a fountain topped by a sculpture of a girl and 2 accompanying geese. While the Annodation `body` that points to the Wikidata entry for the fountain is valid all alone, we've added an additional `body` to provide the viewer a natural language textual label to display to a person using that viewer.
 
 Using multiple `body` properties, as shown here, does not have any predictable consequences for a viewer's handling of the data. With this in mind, each `body` in this Manifest could stand alone.
-
-Because each `body` is used for tagging, we have put that as the value of the `motivation` property on the Annotation rather than making use of the Specific Resource's `purpose` property.
 
 No viewers currently implement this tagging approach.
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config="data-line='44–68'"%}
-
-The direct link to the fixture is a useful convenience.
+{% include jsonviewer.html src="manifest.json" config="data-line='50-65'"%}
 
 ## Related Recipes
 
