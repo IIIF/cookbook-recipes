@@ -1,6 +1,6 @@
 {
    "@context":[
-      "http://iiif.io/api/extension/navPlace-context/context.json",
+      "http://iiif.io/api/extension/navplace/context.json",
       "http://iiif.io/api/presentation/3/context.json"
    ],
    "id":"{{ id.url }}",
@@ -21,7 +21,7 @@
          "type":"Canvas",
          "label":{
             "en":[
-               "Picture of Göttingen taken during the 2019 IIIF Conference"
+               "TODO 1"
             ]
          },
          "type":"Canvas",
@@ -38,18 +38,18 @@
                      "motivation":"painting",
                      "label":{
                         "en":[
-                           "Picture of Göttingen"
+                           "TODO TODO"
                         ]
                      },
                      "body":{
-                        "id":"https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg",
+                        "id":"https://iiif.io/api/image/3.0/example/reference/TODO/full/max/0/default.jpg",
                         "type":"Image",
                         "format":"image/jpeg",
                         "height":3024,
                         "width":4032,
                         "service":[
                            {
-                              "id":"https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
+                              "id":"https://iiif.io/api/image/3.0/example/reference/TODO",
                               "profile":"level1",
                               "type":"ImageService3"
                            }
@@ -66,18 +66,7 @@
                {
                   "id":"{{ id.path }}/geo.json",
                   "type":"Feature",
-                  "properties":{
-                     "label":{
-                        "en":[
-                           "Photograph from Göttingen, Germany"
-                        ]
-                     },
-                     "summary":{
-                        "en":[
-                           "Wilhelmspl. 3, 37073 Göttingen, Germany"
-                        ]
-                     }
-                  },
+                  "properties":{},
                   "geometry":{
                      "type":"Point",
                      "coordinates":[
@@ -94,7 +83,7 @@
          "type":"Canvas",
          "label":{
             "en":[
-               "Photograph from TODO, TODO"
+               "TODO 2"
             ]
          },
          "width":5212,
@@ -110,7 +99,7 @@
                      "motivation":"painting",
                      "label":{
                         "en":[
-                           "Lorem ipsum TODO"
+                           "TODO TODO"
                         ]
                      },
                      "body":{
@@ -138,18 +127,7 @@
                {
                   "id":"{{ id.path }}/geo2.json",
                   "type":"Feature",
-                  "properties":{
-                     "label":{
-                        "en":[
-                           "TODO TODO"
-                        ]
-                     },
-                     "summary":{
-                        "en":[
-                           "TODO TODO"
-                        ]
-                     }
-                  },
+                  "properties":{},
                   "geometry":{
                      "type":"Point",
                      "coordinates":[
