@@ -19,7 +19,7 @@ While declaring a thumbnail is not required, there are several scenarios where t
 
 One option for mitigating some of these performance issues is to configure the `thumbnail` property to provide more explicit directions to the viewing client on how to process thumbnails. This implementation discussion focuses on outlining the most efficient methods for declaring thumbnails on Canvases in order to optimize processing and rendering. The recommendations here are intended to guide both publishers of Manifests and developers of viewing clients. While the examples here are intended to optimize processing of thumbnails on Canvases, they work equally well for other IIIF Resource types (Manifests, Collections, etc.). For a more general introduction to thumbnails, see the [Image Thumbnail for Manifest][0117] recipe.
 
-*Note: There are other options for mitigating such performance issues, such as pre-caching select image sizes to make available "pre-warmed" thumbnail images using a CDN or other fast access policy; however, this is beyond the scope of the this implementation discussion.*
+*Note: There are other options for mitigating such performance issues, such as pre-caching select image sizes to make available "pre-warmed" thumbnail images using a CDN or other fast access policy; however, this is beyond the scope of this implementation discussion.*
 
 ## Implementation Notes
 
