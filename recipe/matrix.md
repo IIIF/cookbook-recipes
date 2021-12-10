@@ -43,7 +43,7 @@ The possible values for viewer support are YES, NO or Partial. Check the recipe 
         <td><a href="{{ site.cookbook_url | absolute_url }}{{ recipe.url }}">{{recipe.title}}{% if recipe.property%} ({{recipe.property}}){%endif%}</a></td>
         {% for viewer in page.viewers %}
             {% assign current = recipe.viewers | where: "id",viewer | first %}
-            <td>
+            <td width="100px">
                 {% if current.id == viewer %}
                     {% if current.support == "full" %}
                         YES
