@@ -31,6 +31,7 @@
 [0024]: {{ site.cookbook_url | absolute_url }}/recipe/0024-book-4-toc/ "Book with Table of contents (ranges)"
 
 [0068]: {{ site.cookbook_url | absolute_url }}/recipe/0068-newspaper/ "A newspaper"
+[0074]: {{ site.cookbook_url | absolute_url}}/recipe/0074-multiple-language-captions/ "Using Caption and Subtitle Files in Multiple Languages with Video Content"
 [0117]: {{ site.cookbook_url | absolute_url }}/recipe/0117-add-image-thumbnail/ "Manifest Thumbnail"
 [0118]: {{ site.cookbook_url | absolute_url }}/recipe/0118_multivalue/ "Displaying Multiple Values with Language Maps"
 
@@ -68,4 +69,4 @@
 [fixtures]: https://fixtures.iiif.io
 [iiif-slack]: http://bit.ly/iiif-slack
 
-[[bcp-47]: https://tools.ietf.org/html/bcp47 "BCP 47"
+[bcp-47]: https://tools.ietf.org/html/bcp47 "BCP 47"

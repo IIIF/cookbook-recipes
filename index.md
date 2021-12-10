@@ -138,7 +138,7 @@ _(leading on to segmentation examples later)_
 * a Sammelband
 * Archival collection (hierarchy, paging)
 * Thumbnail range for video navigation
-* Video with captions in multiple languages
+* [Using Caption and Subtitle Files in Multiple Languages with Video Content][0074]
 * Mixed Image Service references (a mashup, with img2 and img3 services)
 * Glenn Gould - score and performance scenarios (transcribing)
 * A Map
