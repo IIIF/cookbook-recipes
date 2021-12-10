@@ -29,7 +29,7 @@ This recipe is not for large images or deep zoom functionality. For this, see th
 
 ## Example
 
-{% include manifest_links.html manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 

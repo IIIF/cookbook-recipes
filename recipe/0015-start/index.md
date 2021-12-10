@@ -37,7 +37,7 @@ This example shows a Manifest with a single Canvas with a duration of 1801.055 s
 
 *Note: As of the writing of this recipe, playback of video content is supported by some viewers (Universal Viewer), but the `start` property for time-based objects is not yet supported in viewers.*
 
-{% include manifest_links.html manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="10-18"' %}
 
