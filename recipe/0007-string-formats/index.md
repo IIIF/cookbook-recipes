@@ -4,6 +4,10 @@ id: 7
 layout: recipe
 tags: [text, presentation]
 summary: "You want to have more control on how your metadata is displayed. For example scientific names, and also links out to other sites. Also legacy systems that might include things like italic tags."
+viewers:
+ - UV
+ - Mirador  
+topic: basic
 ---
 
 ## Use Case

@@ -36,7 +36,7 @@ The fields are as follows:
  * `tags` this is used in the recipe listing page and is currently uncontrolled and optional. It is shown on the [full list of recipes](https://iiif.io/api/cookbook/recipe/all/)
  * `summary` a short summary of the recipe. It is shown on the [full list of recipes](https://iiif.io/api/cookbook/recipe/all/)
  * `viewers` see further details below but this drives the Viewer Matrix
- * `topic` a controlled list of headings that are used on the viewer matrix. Allowed values are **Basic, Property, AV, Annotation or Geo-recipes**. A recipe must have one and only one topic.
+ * `topic` a controlled list of headings that are used on the viewer matrix. Allowed values are **Basic, Property, Structure, Image AV, Annotation or Geo-recipes**. A recipe must have one and only one topic.
  * `property` Include if the recipe is about a particular [IIIF Property](https://iiif.io/api/presentation/3.0/#3-resource-properties). This optional and multiple values are separate by commas. 
 
 **Viewer Matrix**

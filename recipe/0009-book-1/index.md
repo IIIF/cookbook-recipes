@@ -4,8 +4,11 @@ id: 9
 layout: recipe
 tags: [image, presentation]
 summary: "Represent a book, or any object composed of a set of images, as a simple Manifest."
+viewers:
+ - UV
+ - Mirador  
+topic: image
 ---
-
 
 ## Use Case
 

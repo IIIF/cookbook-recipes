@@ -9,6 +9,10 @@ topics:
    label: Basic Recipes
  - key: property
    label: IIIF Properties
+ - key: structure  
+   label: Structuring Resources
+ - key: image
+   label: Image Recipes
  - key: AV
    label: Audio/Visual Recipes
 ---

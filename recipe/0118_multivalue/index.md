@@ -4,6 +4,10 @@ id: 118
 layout: recipe
 tags: [tbc]
 summary: "The language map pattern requires that all values are supplied as an array, whether a single value string or a string of multiple values."
+viewers:
+ - UV
+ - Mirador  
+topic: basic
 ---
 
 ## Use Case
