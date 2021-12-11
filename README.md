@@ -15,7 +15,7 @@ There are some includes that are helpful to ensure a consistent style between re
 
 ### Front matter
 
-The front matter is part of the Jekyll content management system and can be used to configure various aspects of the page and we also use some of these properties to drive separate pages like the [viewer matrix](recipe/matrix.md). The front matter is at the start of the `index.md` and an example is below:
+The front matter is part of the Jekyll content management system and can be used to configure various aspects of the page and we also use some of these properties to drive separate pages like the [viewer matrix](recipe/matrix.md). The front matter is at the start of an `index.md` and a full example is given below:
 
 ```
 ---
@@ -36,7 +36,7 @@ The fields are as follows:
  * `tags` this is used in the recipe listing page and is currently uncontrolled and optional. It is shown on the [full list of recipes](https://iiif.io/api/cookbook/recipe/all/)
  * `summary` a short summary of the recipe. It is shown on the [full list of recipes](https://iiif.io/api/cookbook/recipe/all/)
  * `viewers` see further details below but this drives the Viewer Matrix
- * `topic` a controlled list of headings that are used on the viewer matrix. Allowed values are **Basic, Property, AV, Annotation or Geo-recipes**
+ * `topic` a controlled list of headings that are used on the viewer matrix. Allowed values are **Basic, Property, AV, Annotation or Geo-recipes**. A recipe must have one and only one topic.
  * `property` Include if the recipe is about a particular [IIIF Property](https://iiif.io/api/presentation/3.0/#3-resource-properties). This optional and multiple values are separate by commas. 
 
 **Viewer Matrix**
