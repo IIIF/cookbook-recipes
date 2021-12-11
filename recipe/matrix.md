@@ -24,6 +24,8 @@ Currently only [Mirador](https://projectmirador.org/) and the [Universal Viewer]
  * Have a public instance available that we can link to, ideally using the `iiif-content` parameter from the [IIIF Content State API](https://iiif.io/api/content-state/)
  * Support at least 1 cookbook recipe 
 
+Currently the cookbook uses UV version 3 and Mirador 3.  
+
 ## Viewer Matrix
 
 The possible values for viewer support are YES, NO or Partial. Check the recipe to see the full behaviour of the viewer to check it achieves the required function in the way you expect.
