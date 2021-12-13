@@ -11,10 +11,14 @@ topics:
    label: IIIF Properties
  - key: structure  
    label: Structuring Resources
+ - key: annotation
+   label: Annotation Recipes
  - key: image
    label: Image Recipes
  - key: AV
    label: Audio/Visual Recipes
+ - key: geo-recipes
+   label: Geo Recipes
 ---
 
 # IIIF 3.0 Viewer Matrix
