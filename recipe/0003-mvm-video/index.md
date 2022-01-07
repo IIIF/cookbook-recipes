@@ -7,7 +7,9 @@ summary: "The simplest viable manifest for video content. This pattern presents 
 viewers:
  - Mirador
  - UV
-topic: basic 
+topic: 
+ - basic
+ - AV
 ---
 
 

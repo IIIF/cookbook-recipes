@@ -42,7 +42,7 @@ The possible values for viewer support are YES, NO or Partial. Check the recipe 
 ### {{ topic.label }}
 
 {{ topic.note }}
-{% assign recipes = site.pages | where_exp: "recipe", "recipe.topic == topic.key" %}
+{% assign recipes = site.pages | where_exp: "recipe", "recipe.topic == topic.key or recipe.topic contains topic.key" %}
 {% assign sorted = recipes | sort: "id" %}
 <table>
     <tr>
