@@ -1,9 +1,12 @@
 ---
 title: Embedded or referenced Annotations
-id: -1
+id: 269
 layout: recipe
 tags: [tbc]
 summary: "Annotations can be embedded in the manifest or referenced from external URIs."
+topic: annotation
+viewers:
+ - Mirador
 ---
 
 ## Use Case
