@@ -54,8 +54,8 @@ def validateIIIF(jsonData, filepath):
     else:    
         return True
 
-def loadTopics():
-    with open("../_data/topics.yml", "r") as stream:
+def loadYAML(location):
+    with open(location, "r") as stream:
         try:
             return yaml.safe_load(stream)
         except yaml.YAMLError as exc:
@@ -66,7 +66,8 @@ if __name__ == "__main__":
     files = findFilesToValidate("../recipe", ".md");
     ignore = ["../recipe/index.md", "../recipe/matrix.md", "../recipe/all.md"]
     
-    topics = loadTopics()
+    topics = loadYAML("../_data/topics.yml")
+    ignoreFromViewerMatrix = loadYAML("../_data/viewer_ignore.yml")
     for recipepath in files:
         if recipepath not in ignore:
             recipe = frontmatter.load(recipepath)
@@ -83,6 +84,17 @@ if __name__ == "__main__":
                     if recipe['topic'] not in topics:
                         print ('Topic {} in recipe {} not in list of topics in _data/topics.yml ({})'.format(recipe['topic'], recipepath, ",".join(topics.keys())))
                         allPassed = False
+
+            if 'viewers' not in recipe:
+                ignoreViewer = False
+                for ignorePath in ignoreFromViewerMatrix:
+                    if ignorePath in recipepath:
+                        ignoreViewer = True
+                        break
+                if not ignoreViewer:
+                    print ('Recipe {} is missing a `viewers` entry either add it or add the name of the recipe to _data.viewer_ignore.yml'.format(recipepath))
+                    allPassed = False
+                    
                 
 
 
