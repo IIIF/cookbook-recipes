@@ -45,7 +45,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Book behavior (paging) variations][0011] (15,16,17)
 * [Viewing direction and its effect on navigation][0010] (11,12,13,14)
 * [Manifest Thumbnail][0117]
-* thumbnail algorithm / discussion
+* [Implementation discussion: Thumbnails on Canvases][0232]
 * [Load a Preview Image Before the Main Content][0013]
 * [Audio Presentation with Accompanying Image][0014]
 * [Load Manifest Beginning with a Specific Canvas][0202]
@@ -77,6 +77,7 @@ _(leading on to segmentation examples later)_
 * hotspot linking
 * Annotation in the context of a particular content resource https://github.com/IIIF/iiif-stories/issues/101
 * [Geographic coordinates][0139]
+* [Embedded or Referenced Annotations][0269]
 
 ## Internal structure
 
@@ -144,7 +145,7 @@ _(leading on to segmentation examples later)_
 * a Sammelband
 * Archival collection (hierarchy, paging)
 * Thumbnail range for video navigation
-* Video with captions in multiple languages
+* [Using Caption and Subtitle Files in Multiple Languages with Video Content][0074]
 * Mixed Image Service references (a mashup, with img2 and img3 services)
 * Glenn Gould - score and performance scenarios (transcribing)
 * A Map
