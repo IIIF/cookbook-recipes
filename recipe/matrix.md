@@ -11,10 +11,10 @@ topics:
  - basic
  - property
  - structure  
- - annotation
  - image
  - key: AV
    note: Please note there are other IIIF AV viewers that are not listed like the [Europeana Player](https://github.com/europeana/media-player) and the [iiif-react-media-player](https://samvera-labs.github.io/iiif-react-media-player/). These are not included in the matrix due to a lack of public linkable instance rather than them not supporting some of the recipes. 
+ - annotation
  - geo-recipes
 ---
 
