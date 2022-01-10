@@ -18,6 +18,8 @@ topics:
  - geo-recipes
 ---
 
+<link rel='stylesheet' href="{{ site.cookbook_url | absolute_url }}/css/style.css"/>
+
 # IIIF 3.0 Viewer Matrix
 
 In the 2021 Working meeting there was a presentation on viewer support for IIIF 3.0 and the community asked if this presentation could be turned into a matrix so the community can see which viewers support which area of the IIIF specifications. This matrix is generated automatically from the recipes and if you notice any thing that is incorrect please report it to the [cookbook GitHub site](https://github.com/IIIF/cookbook-recipes/issues/new).
@@ -46,7 +48,7 @@ The possible values for viewer support are YES, NO or Partial. Check the recipe 
 {{ topic.note }}
 {% assign recipes = site.pages | where_exp: "recipe", "recipe.topic == topic_key or recipe.topic contains topic_key and recipe.id != -1" %}
 {% assign sorted = recipes | sort: "id" %}
-<table>
+<table class="viewer">
     <tr>
         <th>Recipe</th>
         {% for viewer in page.viewers %}
