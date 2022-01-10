@@ -4,6 +4,7 @@ id: 232
 layout: recipe
 tags: [image, presentation]
 summary: "Implementation discussion for specifying thumbnails on Resources, especially Canvases, such that they can be used by clients to represent the object."
+topic: note
 ---
 
 ## Use Case
