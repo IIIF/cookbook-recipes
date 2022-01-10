@@ -7,7 +7,9 @@ summary: "The simplest viable manifest for image content. If all you have for an
 viewers:
  - Mirador
  - UV
-topic: basic 
+topic: 
+ - basic
+ - image
 ---
 
 

@@ -7,7 +7,8 @@ summary: "The language map pattern requires that all values are supplied as an a
 viewers:
  - UV
  - Mirador  
-topic: basic
+topic: property
+property: label, summary, metadata, requiredStatement
 ---
 
 ## Use Case

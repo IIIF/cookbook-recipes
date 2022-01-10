@@ -6,7 +6,9 @@ tags: [image, annex, service, services, specifications, transitional]
 summary: "Paint a Canvas using an image with an associated IIIF Image API service."
 viewers:
  - Mirador
-topic: basic 
+topic: 
+ - basic 
+ - image
 ---
 
 ## Use Case

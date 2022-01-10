@@ -7,7 +7,9 @@ summary: "Informing a client how the Canvases should be displayed to the viewer 
 viewers:
  - UV
  - Mirador  
-topic: image
+topic: 
+ - image
+ - property
 property: viewingDirection
 ---
 

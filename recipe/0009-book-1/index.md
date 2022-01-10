@@ -7,7 +7,9 @@ summary: "Represent a book, or any object composed of a set of images, as a simp
 viewers:
  - UV
  - Mirador  
-topic: image
+topic: 
+ - image
+ - basic
 ---
 
 ## Use Case

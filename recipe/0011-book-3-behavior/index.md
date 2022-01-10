@@ -9,7 +9,9 @@ viewers:
    support: partial
  - Mirador  
 topic: property
-property: behavior
+property: 
+ - behavior
+ - image
 ---
 
 ## Use cases

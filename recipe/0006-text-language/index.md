@@ -8,6 +8,7 @@ viewers:
  - UV
  - Mirador  
 topic: basic
+property: label, summary, metadata, requiredStatement
 ---
 
 ## Use case

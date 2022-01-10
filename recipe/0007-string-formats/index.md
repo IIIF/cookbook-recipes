@@ -7,7 +7,8 @@ summary: "You want to have more control on how your metadata is displayed. For e
 viewers:
  - UV
  - Mirador  
-topic: basic
+topic: property
+property: label, summary, metadata, requiredStatement
 ---
 
 ## Use Case

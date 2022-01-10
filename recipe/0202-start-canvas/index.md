@@ -6,7 +6,9 @@ tags: [image]
 summary: "This manifest uses the 'start' property to specify which Canvas the client should display on initialization of the resource."
 viewers:
  - Mirador  
-topic: image
+topic: 
+ - image
+ - property
 property: start
 ---
 
