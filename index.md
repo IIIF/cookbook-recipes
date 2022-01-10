@@ -14,7 +14,12 @@ The [IIIF Presentation API][prezi3] specifies a standardized way to describe com
 
 The issues of the [Cookbook Recipes repository][cookbook-issues] are used to identify and discuss cookbook recipes, prior to their inclusion in the final cookbook site.
 
-As part of the work to aid implementation the Cookbook group have developed a [Viewer Matrix](recipe/matrix/) which shows which recipe is supported by which IIIF viewer.
+{{ theme.block-center-start }}
+## Viewer Support
+As part of the work to aid implementation the Cookbook group have developed a Viewer Matrix which shows which recipe is supported by which IIIF viewer.
+
+{% include misc/button.html button_link="recipe/matrix/" button_label="See IIIF viewer support" %}
+{{ theme.block-end }}
 
 # Contributing
 
