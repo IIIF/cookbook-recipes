@@ -4,6 +4,12 @@ id: 2
 layout: recipe
 tags: [audio, presentation]
 summary: "The simplest viable manifest for audio content. This pattern presents a single audio file in a IIIF Presentation resource."
+viewers:
+ - Mirador
+ - UV
+topic: 
+ - basic
+ - AV
 ---
 
 

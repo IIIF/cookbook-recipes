@@ -4,6 +4,9 @@ id: 234
 layout: recipe
 tags: provider
 summary: "Include a rich set of information for each content contributor so clients can make this information visible."
+viewers:
+topic: property
+property: provider
 ---
 
 ## Use Case

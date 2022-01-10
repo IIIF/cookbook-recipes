@@ -4,6 +4,10 @@ id: 117
 layout: recipe
 tags: [image,presentation]
 summary: "Display a thumbnail image for a resource other than a Canvas, such that it can be used by clients to represent the object."
+viewers:
+ - Mirador  
+topic: property
+property: thumbnail
 ---
 
 ## Use Case

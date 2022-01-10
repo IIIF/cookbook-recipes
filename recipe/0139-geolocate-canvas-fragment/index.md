@@ -4,6 +4,8 @@ id: 139
 layout: recipe
 tags: [maps, annotation]
 summary: "Use Web Annotation to provide geocoordinates for a fragment of an IIIF Presentation API 3.0 Canvas."
+viewers:
+topic: geo-recipes
 ---
 
 A multitude of real world resources benefit from geographic data, many of which are already represented in IIIF digital collections. New and old maps, travel journals, newspapers, manuscripts, poems and diaries are just a subset of cultural heritage artifacts that have geographic characteristics. These traits bring human context to the material and offer a recognizable, comfortable setting for discovering connections between disparate resources.
