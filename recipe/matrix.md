@@ -8,21 +8,14 @@ viewers:
  - Mirador
  - UV
 topics:
- - key: basic
-   label: Basic Recipes
- - key: property
-   label: IIIF Properties
- - key: structure  
-   label: Structuring Resources
- - key: annotation
-   label: Annotation Recipes
- - key: image
-   label: Image Recipes
+ - basic
+ - property
+ - structure  
+ - annotation
+ - image
  - key: AV
-   label: Audio/Visual Recipes
    note: Please note there are other IIIF AV viewers that are not listed like the [Europeana Player](https://github.com/europeana/media-player) and the [iiif-react-media-player](https://samvera-labs.github.io/iiif-react-media-player/). These are not included in the matrix due to a lack of public linkable instance rather than them not supporting some of the recipes. 
- - key: geo-recipes
-   label: Geo Recipes
+ - geo-recipes
 ---
 
 # IIIF 3.0 Viewer Matrix
@@ -42,10 +35,16 @@ Currently the cookbook uses UV version 3 and Mirador 3.
 
 The possible values for viewer support are YES, NO or Partial. Check the recipe to see the full behaviour of the viewer to check it achieves the required function in the way you expect.
 {% for topic in page.topics  %}
-### {{ topic.label }}
+{% if topic.key %} 
+    {% assign topic_key = topic.key %}
+{% else %}
+    {% assign topic_key = topic %}
+{% endif %}   
+
+### {{ site.data.topics[topic_key].label }}
 
 {{ topic.note }}
-{% assign recipes = site.pages | where_exp: "recipe", "recipe.topic == topic.key or recipe.topic contains topic.key" %}
+{% assign recipes = site.pages | where_exp: "recipe", "recipe.topic == topic_key or recipe.topic contains topic_key and recipe.id != -1" %}
 {% assign sorted = recipes | sort: "id" %}
 <table>
     <tr>
