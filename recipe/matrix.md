@@ -1,6 +1,9 @@
 ---
 title: Viewer Matrix
-layout: recipe
+layout: spec
+breadcrumbs:
+ - label: IIIF Cookbook
+   link: index.html
 viewers:
  - Mirador
  - UV
