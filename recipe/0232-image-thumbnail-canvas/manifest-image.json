@@ -1,0 +1,138 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "{{ id.url }}",
+  "type": "Manifest",
+	"label": { "en": [ "Gänseliesel-Brunnen, Göttingen" ] },
+  "items": [
+    {
+      "id": "{{ id.path }}/canvas/p1",
+      "type": "Canvas",
+      "label":  { "en": [ "Photo of the Gänseliesel-Brunnen taken at the 2019 IIIF Conference" ] },
+			"width": 4032,
+      "height": 3024,
+      "thumbnail": [
+        {
+          "id": "https://fixtures.iiif.io/other/level0/Glen/photos/gottingen/full/max/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpg",
+          "width":252,
+          "height":189,
+          "service": [
+            {
+              "id":"https://fixtures.iiif.io/other/level0/Glen/photos/gottingen",
+              "profile": "level0",
+              "type": "ImageService3",
+              "sizes":[
+                {
+                  "width": 126,
+                  "height": 95
+                },
+                {
+                  "width": 252,
+                  "height": 189
+                },
+                {
+                  "width": 504,
+                  "height": 378
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+					"id": "{{ id.path }}/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+							"id": "{{ id.path }}/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+							"body": {
+								"id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg",
+								"type": "Image",
+								"format": "image/jpeg",
+								"width": 4032,
+                "height": 3024,
+								"service": [
+									{
+									"id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
+									"profile": "level1",
+									"type": "ImageService3"
+									}
+								]
+							},
+              "target": "{{ id.path }}/canvas/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "{{ id.path }}/canvas/p2",
+      "type": "Canvas",
+      "label":  { "en": [ "Gänseliesel-Brunnen at Night" ] },
+      "width": 3024,
+      "height": 4032,
+      "thumbnail": [
+        {
+          "id": "https://fixtures.iiif.io/other/level0/Glen/photos/fountain/full/max/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpg",
+          "width":189,
+          "height":252,
+          "service": [
+            {
+              "id":"https://fixtures.iiif.io/other/level0/Glen/photos/fountain",
+              "profile": "level0",
+              "type": "ImageService3",
+              "sizes":[
+                {
+                  "width": 95,
+                  "height": 126
+                },
+                {
+                  "width": 189,
+                  "height": 252
+                },
+                {
+                  "width": 378,
+                  "height": 504
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "id": "{{ id.path }}/page/p2/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/annotation/p0002-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-fountain/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "width": 3024,
+                "height": 4032,
+                "service": [
+                  {
+                  "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-fountain",
+                  "profile": "level1",
+                  "type": "ImageService3"
+                  }
+                ]
+              },
+              "target": "{{ id.path }}/canvas/p2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

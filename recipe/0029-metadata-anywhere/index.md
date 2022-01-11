@@ -4,6 +4,11 @@ id: 29
 layout: recipe
 tags: [presentation]
 summary: "Provide item metadata for displaying to users"
+viewers:
+ - UV
+ - Mirador  
+topic: property
+property: metadata
 ---
 
 ## Use Case

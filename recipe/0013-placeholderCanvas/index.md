@@ -4,6 +4,12 @@ id: 13
 layout: recipe
 tags: video, audio, image, av
 summary: "Provide the user with something to look at before they choose to start interacting with the main content, and/or while they wait for it to load/buffer."
+viewers:
+topic: 
+ - property
+ - AV
+property: placeholderCanvas
+
 ---
 
 ## Use Case
@@ -30,7 +36,7 @@ _Note: The `placeholderCanvas` property is not yet supported in viewers._
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config="data-line='12-38'"%}
+{% include jsonviewer.html src="manifest.json" config="data-line='17-43'"%}
 
 # Related recipes
 
