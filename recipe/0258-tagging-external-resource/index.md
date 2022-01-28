@@ -2,7 +2,7 @@
 title: Tagging with an External Resource
 id: 258
 layout: recipe
-tags: annotation
+tags: annotation, tagging, linking
 summary: "Connect a tagging annotation to an external resource"
 ---
 
