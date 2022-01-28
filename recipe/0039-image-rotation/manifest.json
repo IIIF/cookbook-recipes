@@ -47,7 +47,7 @@
               },
               "target": {
               	"source": "{{ id.path }}/canvas/p1",
-              	"styleclass": "rotated"
+              	"styleClass": "rotated"
               }
             }
           ]
