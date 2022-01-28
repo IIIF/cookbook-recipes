@@ -1,9 +1,9 @@
 ---
-title: Name of Recipe
-id: -1
+title: Image Rotation
+id: 39
 layout: recipe
-tags: [tbc]
-summary: "tbc"
+tags: styling
+summary: "Two approaches for rotating an image or annotation on a canvas"
 viewers:
 topic: 
  - basic
