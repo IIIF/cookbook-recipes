@@ -13,7 +13,7 @@ When you annotate a resource with a tag, you'd like to connect that tag to an ex
 ## Implementation Notes
 The [IIIF Presentation 3.0 API][prezi3] does not itself discuss linking to external web resources in annotations, incorporating them from the [W3C Web Annotation Data Model](http://w3.org/TR/annotation-model/) by reference. For a full description of this and other portions of the data model used in IIIF annotations, we recommend you read that document.
 
-In order to make possible a link between the IIIF resource and an external web resource, the pertinent Annotation must have at least a `body` that is a Specific Resource whose `source` property contains the appropriate URI as its value. That `source` value must resolve, that is, it must be a real URI at the time of the creation of the Annoation.
+In order to make possible a link between the IIIF resource and an external web resource, the pertinent Annotation must have at least a `body` that is a Specific Resource whose `source` property contains the appropriate URI as its value. That `source` value must resolve, that is, it must be a real URI at the time of the creation of the Annotation.
 
 Finally, be sure you are writing valid value forms in your Annotation. In the Web Annotation data model, there are different patterns for the `value` property, when used within an Annotation. The `value` of a `TextualBody` or a `FragmentSelector`, for example, are strings rather than JSON objects. See also [the Presentation API v3.0](https://iiif.io/api/presentation/3.0/#56-annotation).
 
@@ -23,7 +23,7 @@ None known.
 
 ## Example
 
-In this example, we continue our use of a photograph of a square in Göttingen, Germany, which includes a fountain topped by a sculpture of a girl and 2 accompanying geese. While the Annodation `body` that points to the Wikidata entry for the fountain is valid all alone, we've added an additional `body` to provide the viewer a natural language textual label to display to a person using that viewer.
+In this example, we continue our use of a photograph of a square in Göttingen, Germany, which includes a fountain topped by a sculpture of a girl and 2 accompanying geese. While the Annotation `body` that points to the Wikidata entry for the fountain is valid all alone, we've added an additional `body` to provide the viewer a natural language textual label to display to a person using that viewer.
 
 Using multiple `body` properties, as shown here, does not have any predictable consequences for a viewer's handling of the data. With this in mind, each `body` in this Manifest could stand alone.
 
