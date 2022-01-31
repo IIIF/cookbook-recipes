@@ -102,6 +102,7 @@ _(leading on to segmentation examples later)_
 * Multiple images and multiple choices (32,33,34)
 * [Annotating part of an image to a Canvas][recipe-segment-image-part] (e.g., crop out scanner) (35,36,37,38)
 * Image with CSS Rotation (39)
+* [Image Rotation with Image Service][0040] (40)
 * Reusing an image service (ImageApiSelector) (41)
 * non-rectangular segmentation
 * temporal segmentation
