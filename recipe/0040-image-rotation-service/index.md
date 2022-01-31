@@ -1,9 +1,9 @@
 ---
-title: Name of Recipe
-id: -1
+title: Image Rotation with Image Service
+id: 40
 layout: recipe
-tags: [tbc]
-summary: "tbc"
+tags: image, manipulation
+summary: Rotating a portion of an image using a IIIF Image API service
 viewers:
 topic: 
  - basic
