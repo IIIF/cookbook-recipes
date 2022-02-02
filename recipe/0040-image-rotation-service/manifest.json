@@ -28,18 +28,22 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.io/api/image/3.0/example/reference/85a96c630f077e6ac6cb984f1b752bbf-0-21198-zz00022840-1-master/full/max/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "width": 3375,
-                "height": 2250,
-                "service": [
-                  {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/85a96c630f077e6ac6cb984f1b752bbf-0-21198-zz00022840-1-master",
-                    "type": "ImageService3",
-                    "profile": "level1"
-                  }
-                ],
+                "id": "{{ id.path }}/annotation/b1/1",
+                "type": "SpecificResource",
+                "source": {
+                	"id": "https://iiif.io/api/image/3.0/example/reference/85a96c630f077e6ac6cb984f1b752bbf-0-21198-zz00022840-1-master/full/max/0/default.jpg",
+                	"type": "Image",
+					"format": "image/jpeg",
+					"width": 3375,
+					"height": 2250,
+					"service": [
+					  {
+						"id": "https://iiif.io/api/image/3.0/example/reference/85a96c630f077e6ac6cb984f1b752bbf-0-21198-zz00022840-1-master",
+						"type": "ImageService3",
+						"profile": "level1"
+					  }
+					]
+                }
                 "selector": {
 				  "@context": "http://iiif.io/api/annex/openannotation/context.json",
 				  "type": "iiif:ImageApiSelector",
