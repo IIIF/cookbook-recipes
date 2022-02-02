@@ -43,7 +43,7 @@
 						"profile": "level1"
 					  }
 					]
-                }
+                },
                 "selector": {
 				  "@context": "http://iiif.io/api/annex/openannotation/context.json",
 				  "type": "iiif:ImageApiSelector",
