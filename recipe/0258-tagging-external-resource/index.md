@@ -15,7 +15,7 @@ The [IIIF Presentation 3.0 API][prezi3] does not itself discuss linking to exter
 
 In order to make possible a link between the IIIF resource and an external web resource, the pertinent Annotation must have at least a `body` that is a Specific Resource whose `source` property contains the appropriate URI as its value. That `source` value must resolve, that is, it must be a real URI at the time of the creation of the Annotation.
 
-Finally, be sure you are writing valid value forms in your Annotation. In the Web Annotation data model, there are different patterns for the `value` property, when used within an Annotation. The `value` of a `TextualBody` or a `FragmentSelector`, for example, are strings rather than JSON objects. See also [the Presentation API v3.0](https://iiif.io/api/presentation/3.0/#56-annotation).
+Finally, be sure you are writing valid value forms in your Annotation. In the Web Annotation data model, there are different patterns for the `value` property, when used within an Annotation. The `value` of a `TextualBody` or a `FragmentSelector`, for example, is a string rather than a JSON object. See also [the Presentation API v3.0](https://iiif.io/api/presentation/3.0/#56-annotation).
 
 ## Restrictions
 
