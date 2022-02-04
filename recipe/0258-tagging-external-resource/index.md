@@ -31,7 +31,7 @@ No viewers currently implement this tagging approach.
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config="data-line='50-65'"%}
+{% include jsonviewer.html src="manifest.json" config="data-line='49-66'"%}
 
 ## Related Recipes
 
