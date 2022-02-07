@@ -4,6 +4,10 @@ id: 64
 layout: recipe
 tags: [video, presentation, opera]
 summary: "A video recording of an opera on one Canvas."
+viewers:
+ - UV
+topic: AV
+property: start
 ---
 
 
@@ -21,6 +25,7 @@ Metadata and thumbnail properties have been added for more context. Implementati
 
 ## Example
 
+{% include manifest_links.html viewers="UV" manifest="manifest.json" %}
 {% include jsonviewer.html src="manifest.json" %}
 
 ## Related Recipes

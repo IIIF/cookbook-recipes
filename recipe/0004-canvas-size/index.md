@@ -4,6 +4,10 @@ id: 4
 layout: recipe
 tags: [image, presentation, canvas]
 summary: "Demonstrates that image dimensions (pixels) need not be the same as the Canvas dimensions (unit-less)"
+viewers:
+ - UV
+ - Mirador  
+topic: image
 ---
 
 ## Use Case

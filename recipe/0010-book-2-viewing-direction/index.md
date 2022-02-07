@@ -4,6 +4,13 @@ id: 10
 layout: recipe
 tags: image, text, layout
 summary: "Informing a client how the Canvases should be displayed to the viewer in order to read the contents authentically in accordance with the script used, object layout, or reading practice."
+viewers:
+ - UV
+ - Mirador  
+topic: 
+ - image
+ - property
+property: viewingDirection
 ---
 
 ## Use Case

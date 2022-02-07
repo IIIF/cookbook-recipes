@@ -4,7 +4,12 @@ id: 1
 layout: recipe
 tags: [image, presentation]
 summary: "The simplest viable manifest for image content. If all you have for an object is one image on the web and a label, this pattern turns it into a IIIF Presentation resource."
-
+viewers:
+ - Mirador
+ - UV
+topic: 
+ - basic
+ - image
 ---
 
 
