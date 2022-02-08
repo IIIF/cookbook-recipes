@@ -3,10 +3,11 @@ title: Image Rotation with Image Service
 id: 40
 layout: recipe
 tags: image, manipulation
-summary: Rotating a portion of an image using a IIIF Image API service
+summary: Rotating an image using a IIIF Image API service
 viewers:
 topic: 
  - basic
+ - image
 ---
 
 ## Use Case
