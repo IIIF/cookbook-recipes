@@ -56,6 +56,8 @@ Clients that don't wish to offer a Choice UI should at least understand the cons
 
 ## Example
 
+[Needs description of example]
+
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="25-53"' %}

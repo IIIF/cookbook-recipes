@@ -2,7 +2,7 @@
 title: Foldouts, Flaps and Maps
 id: 35
 layout: recipe
-tags: [images, choice, layers]
+tags: [images, behavior, non-paged]
 summary: "Demonstrates how to model a foldout diagram or map."
 ---
 
@@ -37,6 +37,7 @@ The sequence is:
 * Inside front cover
 * Foldout, folded
 * Foldout, unfolded (given the behavior `non-paged`, to indicate that it does not constitute part of the paged sequence of the Manifest)
+* [need to insert verso of foldout to maintain recto-verso-recto-verso following non-paged canvas]
 * Title page
 * _the normal run of pages would continue here; removed in this Manifest for brevity_
 * Back of title page
@@ -49,7 +50,7 @@ The sequence is:
 
 ## Related recipes
 
-* [Multiple choice of images in a single view][0033]. This is the same as this example, but without the image service (only static images are used).
+* [Multiple choice of images in a single view][0033].
 * [Composition of one view from multiple image sources][0036]. Care should be taken not to confuse _composition_ with the current recipe. Both involve multiple images, but composition is for building a scene from multiple images (and possibly other resources), where there is no requirement to offer the user choices _between_ those images.
 
 {% include acronyms.md %}
