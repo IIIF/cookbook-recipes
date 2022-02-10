@@ -11,14 +11,13 @@ summary: "How to model multiple choices of images for the same view - e.g., laye
 
 There are multiple images available for a given View (Canvas). For example, a painting has been photographed using 10 different wavelengths of light. The images are _registered_ - that is, they all line up.
 
-![](http://www.webexhibits.org/pigments/i/intro/examine/imaging.jpg)
+![Illustration of image registration concept](http://www.webexhibits.org/pigments/i/intro/examine/imaging.jpg)
 
-_<small>[http://www.webexhibits.org/pigments/intro/](http://www.webexhibits.org/pigments/intro/)<br/>
-TODO: This needs to be replaced by an image with clear reuse rights.</small>_
+_<small>TODO: This needs to be replaced by an image with clear reuse rights.</small>_
 
 Another example would be a manuscript page with a flap or foldout; there are two registered images of the page available, one with the flap closed and one with it open. The page also has a transcription which is independent of either of these two images, because the annotations target the canvas.
 
-![](choice-flap.png)
+![two photographs of a book page with the flap down and raised](choice-flap.png)
 
 _<small>Wellcome Library</small>_
 
