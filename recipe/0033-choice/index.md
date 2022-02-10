@@ -9,7 +9,7 @@ summary: "How to model multiple choices of images for the same view - e.g., laye
 
 ## Use Cases
 
-There are multiple images available for a given View (Canvas). For example, a painting has been photographed in 10 different wavelengths of light. The images are _registered_ - that is, they all line up.
+There are multiple images available for a given View (Canvas). For example, a painting has been photographed using 10 different wavelengths of light. The images are _registered_ - that is, they all line up.
 
 ![](http://www.webexhibits.org/pigments/i/intro/examine/imaging.jpg)
 
@@ -30,13 +30,13 @@ Client implementations should understand that the intent is to offer the user a 
 
 There are many potential user interface approaches for this model. For example, a tool used in the study of art conservation may have more sophisticated layer-blending features or other manipulations of the images.
 
-This pattern is important because it is not uncommon, especially for artworks, to have more than one image available for the same View.
+This pattern is important because it is not uncommon, especially for artworks and for early manuscripts, to have more than one image available for the same View.
 
 This recipe should not be used if the images make up multiple parts of the scene, where the intention is to display them together. For example, a digital reconstruction of parts of a manuscript page. In that scenario the intent is not to offer the user a choice of alternative views of the same thing, it is to build an overall view from multiple source images. This scenario is covered by the recipe [Composition of one view from multiple image sources][0036].  
 
 ## Implementation notes
 
-The implementation is the same as the [Simplest Manifest - Image][0001], except that the body of the annotation isn't an image resource directly, but a resource of type `choice`. This is defined in the W3C Web Annotation Data Model:
+The implementation builds on the [Support Deep Viewing with Basic Use of a IIIF Image Service][0005] recipe, except that the body of the annotation isn't an image resource directly, but a resource of type `choice`. This is defined in the W3C Web Annotation Data Model:
 
 > "A 'Choice' has an ordered list of resources from which an application should select only one to process or display. The order is given from the most preferable to least preferable, according to the Annotation's creator or publisher."" *— from [Choice Between Bodies](https://www.w3.org/TR/annotation-model/#choice-between-bodies)*
 
@@ -62,9 +62,9 @@ Clients that don't wish to offer a Choice UI should at least understand the cons
 
 ## Related recipes
 
-* [Choice: Multispectral-flavored Example, with Image Service][0034]. This is the same as this example, but each of the two images is accompanied by an image service.
 * [Foldouts, Flaps and Maps][0035]. In the manuscript page example shown in the pictures on this page, `Choice` is appropriate because the two images are the same view and are aligned. For a large map that folds out to a much bigger view, the unfolded version would be a different Canvas, because it does not represent the same spatial view. This is one reason to offer two separate views rather than a choice of resources within one view.
 * [Composition of one view from multiple image sources][0036]. Care should be taken not to confuse _composition_ with the current recipe. Both involve multiple images, but composition is for building a scene from multiple images (and possibly other resources), where there is no requirement to offer the user choices _between_ those images.
+* [Support Deep Viewing with Basic Use of a IIIF Image Service][0005]
 
 
 {% include acronyms.md %}
