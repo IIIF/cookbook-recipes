@@ -1,16 +1,26 @@
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "recipe"
-      livesite: "https://iiif.io"
-url: https://preview.iiif.io
-markdown: kramdown
-kramdown:
-   syntax_highlighter_opts:
-      disable : true
+theme:          iiifc-theme
+permalink:      pretty
+
+cookbook_url:   ''
+
+plugins:
+  - jekyll-data
+  - jekyll-gzip
+  - jekyll-redirect-from
+  - jekyll-liquify
+#  - jekyll-last-modified-at
+
+highlighter: none
+
 webrick:
   headers:
     Access-Control-Allow-Origin: "*"
-exclude: ["scripts", "Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+
+exclude: ["Rakefile", "scripts", "Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+
+# notification:
+#   enabled: true
+#   title: This website design is in pre-beta.
+#   subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#   link: '#'
+#   link_label: This is a test link

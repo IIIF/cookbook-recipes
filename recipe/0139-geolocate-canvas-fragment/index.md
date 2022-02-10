@@ -4,6 +4,8 @@ id: 139
 layout: recipe
 tags: [maps, annotation]
 summary: "Use Web Annotation to provide geocoordinates for a fragment of an IIIF Presentation API 3.0 Canvas."
+viewers:
+topic: geo-recipes
 ---
 
 A multitude of real world resources benefit from geographic data, many of which are already represented in IIIF digital collections. New and old maps, travel journals, newspapers, manuscripts, poems and diaries are just a subset of cultural heritage artifacts that have geographic characteristics. These traits bring human context to the material and offer a recognizable, comfortable setting for discovering connections between disparate resources.
@@ -12,8 +14,8 @@ A multitude of real world resources benefit from geographic data, many of which 
 A Canvas has a region of interest that contains a map. You would like to associate this map with geographic coordinates for use in web mapping clients like [Leaflet](https://leafletjs.com/examples/geojson/) and [OpenLayers](https://openlayers.org/en/latest/examples/geojson.html). This could mean simply showing a non-interactive shape on a web map, but often more data from the resource is displayed in connection with the shape as a result of available functionality. The example below shows a pop-up that appears upon clicking the shape. The pop-up includes the targeted map as well as other metadata from the resource.
 
 <p style="text-align: center;">
-	<a class="imagelink" target="_blank" href="https://fixtures.iiif.io/info.html?file=/images/loc/chesapeake_map/88695674.jpg"><img id="orig" onclick="" style="max-width: 11em;" src="./images/piece2.png" /></a>
-	<img id="leaf" onclick="showBigImage()" style="max-height: 11em; max-width: 100%;" src="./images/leaflet_example.png" />
+	<a class="imagelink" target="_blank" href="https://fixtures.iiif.io/info.html?file=/images/loc/chesapeake_map/88695674.jpg"><img id="orig" onclick="" alt="1987 - Chesapeake and Ohio Canal, Washington, D.C., Maryland, West Virginia, official map and guide " style="max-width: 11em;" src="./images/piece2.png" /></a>
+	<img id="leaf" alt="The Chesapeake map is show using leaflet with the geogrphical bounds indicated by a blue box." onclick="showBigImage()" style="max-height: 11em; max-width: 100%;" src="./images/leaflet_example.png" />
 </p>
 
 ### Implementation Notes
@@ -42,7 +44,7 @@ The Manifest has one Canvas with one Image, and the Canvas has the same size dim
 
 <div id="bigImage">
 	<h4 style="color:white;"> Click Image to Close </h4>
-	<img onclick="hideBigImage()" style="max-height: 100%; max-width: 100%;" src="./images/leaflet_example.png" />
+	<img onclick="hideBigImage()" alt="The Chesapeake map is show using leaflet with the geogrphical bounds indicated by a blue box."  style="max-height: 100%; max-width: 100%;" src="./images/leaflet_example.png" />
 </div>
 
 <style>

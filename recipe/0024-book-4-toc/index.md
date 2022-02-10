@@ -4,6 +4,11 @@ id: 24
 layout: recipe
 tags: [text, image, book]
 summary: "Using Ranges to create a table of contents for a book"
+viewers:
+ - UV
+ - Mirador
+topic: structure 
+property: structures
 ---
 
 ## Use Case
