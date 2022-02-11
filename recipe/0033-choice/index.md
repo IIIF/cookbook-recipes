@@ -5,7 +5,6 @@ layout: recipe
 tags: [multiple-images]
 summary: "How to model multiple choices of images for the same view - e.g., layers, multispectral images."
 viewers:
- - UV
  - Mirador
 topic: structure
 property: body.type
