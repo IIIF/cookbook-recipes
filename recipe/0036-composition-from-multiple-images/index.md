@@ -5,8 +5,6 @@ layout: recipe
 tags: [segmentation, complex-canvas, multiple-images]
 summary: "Building scenes or compositions using multiple assets."
 viewers:
- - UV
- - Mirador
 topic: structure
 property:
 ---
@@ -53,11 +51,11 @@ The presentation of images is upwards in a z-index from the first painting annot
 
 ## Example
 
-A manifest with a single canvas that has two images painted on it. One is of the entire object, and one fills in a missing detail from the first image.
+A manifest with a single canvas that has two images painted on it. One is of the entire object, and one fills in a missing detail from the first image. Note that the `target` property for the second image (line 69) is appended with coordinates in order to position the the image on the appropriate region of the Canvas.
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="25-27, 128-130"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="22-45, 46-70"' %}
 
 # Related recipes
 
