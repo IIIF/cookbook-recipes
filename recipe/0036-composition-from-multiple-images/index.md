@@ -21,15 +21,15 @@ Another IIIF example is the digital recombination of manuscripts. At the page-by
 
 Digital recombination can also happen **within** a Canvas, as in the familiar Châteauroux example. We have the manuscript page, missing its illumination:
 
-![](chateauroux.jpg)
+![full manuscript page with missing illumination](chateauroux.jpg)
 
 And the illumination itself:
 
-![](detail.png)
+![cutting of a manuscript illumination](detail.png)
 
 We want to produce a combined view from these two sources:
 
-![](combined.png)
+![reconstructed manuscript page](combined.png)
 
 With multiple images on a Canvas, the model is saying that all this content belongs on the Canvas. It is opinionated about order, which matters for resources that target spatial extents of the Canvas (images and video) that might overlap each other. The resource are assembled _upwards_ on the canvas in the order they are provided in the Manifest. This works like Z-index in CSS.
 

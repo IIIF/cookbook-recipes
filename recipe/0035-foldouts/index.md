@@ -13,7 +13,7 @@ Books (and other objects) sometimes include foldout flaps or sheets, such as a m
 
 In the previous recipe, [Multiple choice of images in a single view][0033], a flap is offered to users as a Choice of images for the same view. But consider this example:
 
-![](foldout.png)
+![two images of a map foldout, folded and unfolded](foldout.png)
 
 Here, the page has been captured folded and unfolded. Unlike the example in the previous recipe, these are not the same **view**. There is no one single IIIF Canvas that would serve to represent both of these spatial extents - we can't logically place these two images on the same spatial view.
 
