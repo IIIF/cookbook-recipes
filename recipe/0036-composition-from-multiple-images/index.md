@@ -61,3 +61,6 @@ A manifest with a single canvas that has two images painted on it. One is of the
 
 * [Multiple choice of images in a single view][0033]. The Châteauroux example above could also be modeled as a Choice, if the intent is to offer the user control of which resources are visible.
 * [Foldouts, Flaps and Maps][0035]. In the Châteauroux example shown in the pictures on this page, the two images are aligned to the same Canvas. For a large map that folds out to a much bigger view, the unfolded version would be a different Canvas, because it does not represent the same spatial view.
+
+{% include acronyms.md %}
+{% include links.md %}
