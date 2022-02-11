@@ -2,16 +2,7 @@
     "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "{{ id.url }}",
     "type": "Manifest",
-    "label": { "en": [ "A foldout map in a paged book" ] },
-    "homepage": [
-       {
-         "id": "https://wellcomelibrary.org/item/b29346423",
-         "type": "Text",
-         "label": { "en": [ "Outlines of geology being the substance of a course of lectures delivered in the Theatre of the Royal Institution in the year 1816" ] },
-         "format": "text/html",
-         "language": [ "en" ]
-       }
-    ],
+    "label": { "en": [ "Outlines of geology being the substance of a course of lectures delivered in the Theatre of the Royal Institution in the year 1816" ] },
     "behavior": ["paged"],
     "items": [
         {

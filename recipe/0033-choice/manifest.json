@@ -2,7 +2,7 @@
     "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "{{ id.url }}",
     "type": "Manifest",
-    "label": { "en": [ "Choice Example" ] },
+    "label": { "en": [ "John Dee performing an experiment before Queen Elizabeth I." ] },
     "items": [
       {
         "id": "{{ id.path }}/canvas/p1",

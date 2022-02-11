@@ -2,7 +2,7 @@
     "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "{{ id.url }}",
     "type": "Manifest",
-    "label": { "en": [ "Image composition" ] },
+    "label": { "en": [ "Grandes Chroniques de France, ca. 1460" ] },
     "items": [
         {
             "id": "https://bvmm.irht.cnrs.fr/iiif/4490/canvas/canvas-981394",
@@ -23,6 +23,7 @@
                         "id": "https://iiif.irht.cnrs.fr/iiif/Châteauroux/B360446201_MS0005/jp2/B360446201_MS0005_0038/full/full/0/default.jpg",
                         "type": "Image",
                         "format": "image/jpeg",
+                        "label":  { "fr": [ "[Chilpéric Ier tue Galswinthe, se remarie et est assassiné]" ] },
                         "height": 5412,
                         "width": 7216,
                         "service": [
@@ -59,11 +60,6 @@
                   ]
                 }
             ]
-        }          
+        }
     ]
   }
-  
-
-
-
-  
