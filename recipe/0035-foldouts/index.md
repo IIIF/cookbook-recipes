@@ -4,6 +4,11 @@ id: 35
 layout: recipe
 tags: [images, behavior, non-paged]
 summary: "Demonstrates how to model a foldout diagram or map."
+viewers:
+ - UV
+ - Mirador
+topic: structure
+property: behavior
 ---
 
 

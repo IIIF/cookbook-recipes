@@ -4,6 +4,11 @@ id: 36
 layout: recipe
 tags: [segmentation, complex-canvas, multiple-images]
 summary: "Building scenes or compositions using multiple assets."
+viewers:
+ - UV
+ - Mirador
+topic: structure
+property: items
 ---
 
 
