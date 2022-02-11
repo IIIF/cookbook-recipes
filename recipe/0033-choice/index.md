@@ -60,7 +60,9 @@ Clients that don't wish to offer a Choice UI should at least understand the cons
 
 ## Example
 
-[Needs description of example]
+In this example, we have a single Canvas with with the `body.type` "Choice" containing two different photographs of the same painting: one using natural light and the other an x-ray image.
+
+Credit: *John Dee performing an experiment before Queen Elizabeth I*. Oil painting by Henry Gillard Glindoni. Credit: Wellcome Collection. Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
