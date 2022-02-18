@@ -12,17 +12,19 @@ topic:
 
 ## Use Case
 
-You have a codex that has been scanned and prepared for online display. The work was digitized by scanning single pages, and one page's image is mistakenly rotated 90 degrees. Rather than altering the original scan files or re-scanning the work, you'd like to make an adjustment at the presentation level so viewers will display the page in the same layout as the other pages.
+You have a codex that has been scanned and prepared for online display. The work was digitized by scanning single pages, and one page's image is mistakenly rotated 90 degrees. Rather than altering the original scanned files or re-scanning the work, you'd like to make an adjustment at the presentation level so viewers will display the page in the same layout as the other pages.
 
 ## Implementation Notes
 
-Rotation of an image may be supported by your IIIF Image API server, and if so, it's a great way to handle changing the view of an image. The only thing like a baseline expectation for server support is that [Level 2 conformant IIIF Image API servers](https://iiif.io/api/image/3.0/compliance/#33-rotation) must support rotation by 90º increments. Other levels may or may not. You therefore first need to know your image server's capabilities in order to create your manifest. This is especially true if you want to rotate by an amount other than 90º, 180º, or 270º (360º being equal to 0º). No IIIF Image server is required to implement this kind of rotation. The same goes for [mirroring before rotation](https://iiif.io/api/image/3.0/#43-rotation). IIIF Image API servers may permit mirroring the image before rotating, but this functionality is not required at any level of image service IIIF compliance.
+In the image service section of your manifest, you must use an `@context` field in order to point to the [`ImageApiSelector`](https://iiif.io/api/annex/openannotation/#iiif-image-api-selector) definition for canonical rotation options. The selector as defined must contain a `type` property whose value must be `ImageApiSelector`. The `rotation` property takes as its value just the numeric amount of rotation in degrees. **negative value?** For more  information about the selector and its use outside of rotation, read the full [selector document](https://iiif.io/api/annex/openannotation/#iiif-image-api-selector).
 
-In the image service section of your manifest, you must use an `@context` field in order to point to the [`ImageApiSelector`](https://iiif.io/api/annex/openannotation/#iiif-image-api-selector) definition for canonical rotation options.
+Rotation of an image may be supported by your IIIF Image API server, and if so, using that service for rotation is a great way to handle changing the view of an image. To be able to support this recipe your Image API server must support the rotation requested in the selector. Rotation by 90º increments is mandatory for [level 2 IIIF Image API servers](https://iiif.io/api/image/3.0/compliance/#33-rotation) but can be implemented at all levels. Rotation by an arbitrary amount other than 90º, 180º, or 270º (360º being equal to 0º) is always optional, so you would need to familiarize yourself with what your image servers supports and look into the profile portion of the server's `info.json`.
 
-If your resource is not being served from an image server that supports rotation through the IIIF Image API, it is syntactically valid to use [CSS rotation][0039], though at the time of writing this recipe no known viewers support it.
+This is true for [mirroring before rotation](https://iiif.io/api/image/3.0/#43-rotation), as this functionality is not mandatory at any level of image service IIIF compliance.
 
-As well, though it is not described in this recipe, the Presentation API describes the ability to rotate a region by using a fragment on the `target` value's URI.
+If your resource is not being served from an image server that supports the desired rotation (or rotation at all) through the IIIF Image API, then you can use the [CSS rotation][0039] recipe. Using CSS for rotation depends on the viewer to rotate the image rather than the server. (Note that at the time of writing this recipe no known viewers support CSS rotation.)
+
+As well, though it is not described in this recipe, the Presentation API indicates the ability to target a region for rotation by using a fragment on the `target` value's URI.
 
 
 ## Restrictions
@@ -41,7 +43,7 @@ Image showing the same codex page after rotating 90 degrees clockwise:
 
 ![Image showing the same codex page after rotating 90 degrees clockwise](https://iiif.io/api/image/3.0/example/reference/85a96c630f077e6ac6cb984f1b752bbf-0-21198-zz00022840-1-page1/full/300,/90/default.jpg "After rotation")
 
-{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
+{% include manifest_links.html viewers="" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 
