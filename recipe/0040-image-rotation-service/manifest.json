@@ -16,8 +16,8 @@
                     "inside cover; 1r"
                 ]
             },
-            "width": 1523,
-            "height": 2105,
+            "width": 2105,
+            "height": 1523,
             "items": [
                 {
                     "id": "{{ id.path }}/p1/1",
@@ -34,8 +34,8 @@
                                     "id": "https://iiif.io/api/image/3.0/example/reference/85a96c630f077e6ac6cb984f1b752bbf-0-21198-zz00022840-1-page1/full/max/0/default.jpg",
                                     "type": "Image",
                                     "format": "image/jpeg",
-                                    "height": 1503,
-                                    "width": 2105,
+                                    "height": 2105,
+                                    "width": 1523,
                                     "service": [
                                         {
                                             "id": "https://iiif.io/api/image/3.0/example/reference/85a96c630f077e6ac6cb984f1b752bbf-0-21198-zz00022840-1-page1",
