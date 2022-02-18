@@ -7,7 +7,7 @@ summary: "Use the navPlace extension to provide geolocation information about an
 ---
 
 ### Use Case
-WIP - A Manifest contains a single Canvas item representing a photograph. Using the navPlace extension, I can specify a geographic location for the photograph that a web-based map platform can display. Though navPlace does provide details about the location, using a label or a note on the canvas can clarify whether it refers to the current location, the origin of the object, the image that it represents, or another related point. 
+WIP - A Manifest contains a single Canvas item representing a photograph. Using the navPlace extension, I can specify a geographic location for the photograph that a web-based map platform can display. 
 
 
 ### Implementation Notes
@@ -15,8 +15,8 @@ Please refer to the [implementation notes for navPlace.](https://iiif.io/api/ext
 
 
 ### Example
-TBD - The Manifest is of an image of a statue. The map shows the location of the statue at the institution where it is currently hosted. 
-The Manifest below contains one Canvas with a photograph painted onto it. The Manifest contains the `navPlace` property which stores geographic information ascertained from the photograph. `navPlace` contains GeoJSON-LD, which is supported by a number of open source mapping systems. A client can parse GeoJSON features from `navPlace` and pass the features into a web map resulting in rendered geometric shapes on a world map. Often, data from the resource such as an image URL, label or description is connected with those shapes via [`properties`](https://tools.ietf.org/html/rfc7946#section-3.2) in GeoJSON.  Web maps typically offer built in display functionality for metadata contained in `properties`.
+TBD - The Manifest is of an image of the Laocöon statue by Giovanni Battista Foggini, and the map shows the location of the Getty Center where it is currently displayed. 
+The Manifest below contains one Canvas with a photograph painted onto it. The `navPlace` property in the Manifest stores geographic information from the photograph. `navPlace` contains GeoJSON-LD, and a client can parse GeoJSON features from `navPlace`. These GeoJSON features are rendered in geometric shapes by a web-based map platform. Often, data from the resource such as an image URL, label or description is connected with those shapes via [`properties`](https://tools.ietf.org/html/rfc7946#section-3.2) in GeoJSON.  Web maps typically offer built in display functionality for metadata contained in `properties`.
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
