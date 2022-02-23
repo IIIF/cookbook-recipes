@@ -4,6 +4,9 @@ id: 234
 layout: recipe
 tags: provider
 summary: "Include a rich set of information for each content contributor so clients can make this information visible."
+viewers:
+topic: property
+property: provider
 ---
 
 ## Use Case
@@ -31,15 +34,15 @@ In this example, we reuse the front page of a kabuki playbill that was contribut
 
 No viewer currently implements `provider` sufficiently fully and correctly.
 
-{% include manifest_links.html viewers="" manifest="manifest.json" config='data-line="15-59"' %}
+{% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" %}
+{% include jsonviewer.html src="manifest.json" config='data-line="15-82"' %}
 
 ## Related Recipes
 
 * [homepage][0047] for demonstrating the use of `homepage`
 * [Add Identifying Graphic][0217] for demonstrating the use of `logo`
-* [Linking to Structured Metadata][0230] for demonstrating the use of `seeAlso`
+* [Linking to Structured Metadata][0053] for demonstrating the use of `seeAlso`
 * [Rights][0008] for demonstrating use of `requiredStatement`
 
 {% include acronyms.md %}

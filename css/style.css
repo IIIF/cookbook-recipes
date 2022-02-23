@@ -25,3 +25,20 @@ code {
 .code-toolbar {
     width: 70vw;
 }
+
+.viewer {
+    width: 100% !important;
+    max-width: 800px !important;
+    display: table !important;
+    overflow-x: unset !important;
+    border-width: 0 0 1px !important;
+    border: none !important;
+}
+
+.viewer tr {
+    border-bottom:1px solid #dbdbdb !important;
+}
+
+.viewer td {
+    border: none !important;
+}

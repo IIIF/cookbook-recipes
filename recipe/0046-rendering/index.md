@@ -4,6 +4,10 @@ id: 46
 layout: recipe
 tags: [image, presentation, canvas]
 summary: "Linking to non-IIIF representations of the object, such as a PDF."
+viewers:
+ - Mirador  
+topic: property
+property: rendering
 ---
 
 ## Use Case

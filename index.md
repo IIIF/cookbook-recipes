@@ -14,6 +14,13 @@ The [IIIF Presentation API][prezi3] specifies a standardized way to describe com
 
 The issues of the [Cookbook Recipes repository][cookbook-issues] are used to identify and discuss cookbook recipes, prior to their inclusion in the final cookbook site.
 
+{{ theme.block-center-start }}
+## Viewer Support
+As part of the work to aid implementation the Cookbook group have developed a Viewer Matrix which shows which recipe is supported by which IIIF viewer.
+
+{% include misc/button.html button_link="recipe/matrix/" button_label="See IIIF viewer support" %}
+{{ theme.block-end }}
+
 # Contributing
 
 Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advice and support can be received from the IIIF Cookbook channel on the IIIF Slack. For detailed information on how to contribute please see the [Cookbook process][cookbook-process].
@@ -38,7 +45,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Book behavior (paging) variations][0011] (15,16,17)
 * [Viewing direction and its effect on navigation][0010] (11,12,13,14)
 * [Manifest Thumbnail][0117]
-* thumbnail algorithm / discussion
+* [Implementation discussion: Thumbnails on Canvases][0232]
 * [Load a Preview Image Before the Main Content][0013]
 * [Audio Presentation with Accompanying Image][0014]
 * [Load Manifest Beginning with a Specific Canvas][0202]
@@ -67,9 +74,11 @@ _(leading on to segmentation examples later)_
 * [Simplest Annotation][0266]
 * Fragment selectors (61)
 * [Simple Annotation - Tagging][0021]
+* [Tagging with an External Resource][0258]
 * hotspot linking
 * Annotation in the context of a particular content resource https://github.com/IIIF/iiif-stories/issues/101
 * [Geographic coordinates][0139]
+* [Embedded or Referenced Annotations][0269]
 
 ## Internal structure
 
@@ -137,7 +146,7 @@ _(leading on to segmentation examples later)_
 * a Sammelband
 * Archival collection (hierarchy, paging)
 * Thumbnail range for video navigation
-* Video with captions in multiple languages
+* [Using Caption and Subtitle Files in Multiple Languages with Video Content][0074]
 * Mixed Image Service references (a mashup, with img2 and img3 services)
 * Glenn Gould - score and performance scenarios (transcribing)
 * A Map

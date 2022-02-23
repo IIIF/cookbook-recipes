@@ -4,6 +4,12 @@ id: 13
 layout: recipe
 tags: video, audio, image, av
 summary: "Provide the user with something to look at before they choose to start interacting with the main content, and/or while they wait for it to load/buffer."
+viewers:
+topic: 
+ - property
+ - AV
+property: placeholderCanvas
+
 ---
 
 ## Use Case

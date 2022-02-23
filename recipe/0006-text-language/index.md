@@ -4,6 +4,11 @@ id: 6
 layout: recipe
 tags: [i18n, text, presentation]
 summary: "An example of a IIIF Resource with labels/descriptions in multiple languages."
+viewers:
+ - UV
+ - Mirador  
+topic: basic
+property: label, summary, metadata, requiredStatement
 ---
 
 ## Use case

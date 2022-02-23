@@ -4,6 +4,7 @@ id: 231
 layout: recipe
 tags: [Transcripts, Captions, Subtitles]
 summary: "General Considerations for using Transcripts, Captions, and Subtitles"
+topic: note
 ---
 
 ## Use Case

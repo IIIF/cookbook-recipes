@@ -4,6 +4,9 @@ id: 21
 layout: recipe
 tags: [annotation]
 summary: "Tagging as a basic Annotation"
+viewers:
+ - Mirador  
+topic: annotation
 ---
 
 ## Use Case
