@@ -4,6 +4,12 @@ id: 154
 layout: recipe
 tags: [maps, geolocate, navPlace]
 summary: "Use the navPlace extension to provide geolocation information about an IIIF Presentation API 3.0 Manifest."
+# Note that navPlace support is not baked into the viewers yet.
+viewers:
+ - id: UV
+   support: none
+ - id: Mirador
+   support: none
 ---
 
 ### Use Case
@@ -21,7 +27,7 @@ The Manifest below contains one Canvas with a photograph painted onto it. The `n
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="2-5, 77-104"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line=""' %}
 
 ## Related Recipes
 * [Represent Canvas Fragment as a Geographic Area in a Web Mapping Client][0139]

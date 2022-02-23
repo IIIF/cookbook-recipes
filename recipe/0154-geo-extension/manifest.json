@@ -1,6 +1,6 @@
 {
   "@context" : [ "http://iiif.io/api/extension/navPlace-context/context.json", "http://iiif.io/api/presentation/3/context.json" ],
-  "id" : "http://store.rerum.io/v1/id/6216511bbc9f914d37c55c22",
+  "id" : "{{ id.url }}",
   "type" : "Manifest",
   "label" : {
     "en" : [ "Laocöon Bronze" ],
