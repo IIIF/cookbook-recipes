@@ -13,20 +13,15 @@ viewers:
 ---
 
 ### Use Case
-Under Development
-Potential Idea : Multiple representations of a physical artifact (statue) such as photos from different angles, sketches/drawings, etc.  Each of those representations will be a Canvas.  Each canvas will have a different geographic region associated with it.  Though we cannot assert physical location through navPlace, the "label" or "summary" of that Canvas can note "Current location of statue" or "location where sketch was drawn".
-
+Potential Idea : You plan to view pieces of art for the subject "Laocöon". You would like to show the location of those works on a web mapping platform. This is possible using the `navPlace` property.
 
 ### Implementation Notes
-IIIF has a registered API extension called `navPlace` which is used to associate geographic coordinates with IIIF resource types, and it is leveraged here to meet the use case. 
-
-Note that [`geometry` has more types besides `Point`.](https://tools.ietf.org/html/rfc7946#section-3.1)
-
-### Restrictions
-Applications that strictly follow Linked Data practices will find that nested GeoJSON coordinate arrays are incompatible with the processing model of JSON-LD 1.0. The JSON-LD 1.1 processing model does not have this restriction. Be aware if you plan to serialize JSON-LD into [other semantic data formats or markup languages](https://www.w3.org/TR/json-ld11/#relationship-to-other-linked-data-formats) such as RDF.
+For all the information on how to use the `navPlace` property see the [implementation notes in the IIIF Extensions directory.](https://iiif.io/api/extension/navplace/#5-implementation-notes) 
+For a complete guide on how to use the `navPlace` property see the [IIIF Guides entry for `navPlace`.](https://preview.iiif.io/guides/41-navPlace/guides/iiif.io.api.extension.navplace/) 
 
 ### Example
-The Manifest below contains two Canvases. Each Canvas has one Image with a photograph painted onto it. Those Canvases also contain the `navPlace` property which stores geographic information about the photograph. `navPlace` contains GeoJSON-LD, which is supported by a number of open source mapping systems. A client can parse `navPlace` from a Canvas and pass the GeoJSON into a web map resulting in rendered geometric shapes on a world map. Often, data from the resource such as an image URL, label or description is connected with those shapes via [`properties`](https://tools.ietf.org/html/rfc7946#section-3.2) in GeoJSON.
+The Manifest contains images of the bronze by Giovanni Battista Foggini and the painting by _______, and the map shows the locations of these works. 
+The Manifest below contains two Canvases, and each Canvas has a photograph painted onto it. The `navPlace` property in the Canvases stores geographic information from the photographs. `navPlace` contains GeoJSON-LD, and a client can parse GeoJSON features from `navPlace`. These GeoJSON features are rendered as geometric shapes by a web-based map platform. Often, data from the resource such as an image URL, label or summary is connected with those shapes via [`properties`](https://tools.ietf.org/html/rfc7946#section-3.2) in GeoJSON.  Web mapping platforms typically offer built in display functionality for metadata contained in `properties`.
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 

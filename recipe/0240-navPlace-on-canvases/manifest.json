@@ -1,143 +1,95 @@
 {
-   "@context":[
-      "http://iiif.io/api/extension/navplace/context.json",
-      "http://iiif.io/api/presentation/3/context.json"
-   ],
-   "id":"{{ id.url }}",
-   "type":"Manifest",
-   "label":{
-      "en":[
-         "Recipe Manifest for #240"
-      ]
-   },
-   "summary":{
-      "en":[
-         "A IIIF Presentation API 3.0 Manifest containing Canvases leveraging the navPlace property."
-      ]
-   },
-   "items":[
-      {
-         "id":"{{ id.path }}/canvas/p1",
-         "type":"Canvas",
-         "label":{
-            "en":[
-               "TODO 1"
-            ]
-         },
-         "type":"Canvas",
-         "height":3024,
-         "width":4032,
-         "items":[
-            {
-               "id":"{{ id.path }}/page/p1/1",
-               "type":"AnnotationPage",
-               "items":[
-                  {
-                     "id":"{{ id.path }}/annotation/p0001-image",
-                     "type":"Annotation",
-                     "motivation":"painting",
-                     "label":{
-                        "en":[
-                           "TODO TODO"
-                        ]
-                     },
-                     "body":{
-                        "id":"https://iiif.io/api/image/3.0/example/reference/TODO/full/max/0/default.jpg",
-                        "type":"Image",
-                        "format":"image/jpeg",
-                        "height":3024,
-                        "width":4032,
-                        "service":[
-                           {
-                              "id":"https://iiif.io/api/image/3.0/example/reference/TODO",
-                              "profile":"level1",
-                              "type":"ImageService3"
-                           }
-                        ]
-                     },
-                     "target":"{{ id.path }}/canvas/p1"
-                  }
-               ]
-            }
-         ],
-         "navPlace":{
-            "type":"FeatureCollection",
-            "features":[
-               {
-                  "id":"{{ id.path }}/geo.json",
-                  "type":"Feature",
-                  "properties":{},
-                  "geometry":{
-                     "type":"Point",
-                     "coordinates":[
-                        9.9374867,
-                        51.533450
-                     ]
-                  }
-               }
-            ]
-         }
-      },
-      {
-         "id":"{{ id.path }}/canvas2.json",
-         "type":"Canvas",
-         "label":{
-            "en":[
-               "TODO 2"
-            ]
-         },
-         "width":5212,
-         "height":7072,
-         "items":[
-            {
-               "id":"{{ id.path }}/contentPage2.json",
-               "type":"AnnotationPage",
-               "items":[
-                  {
-                     "id":"{{ id.path }}/content2.json",
-                     "type":"Annotation",
-                     "motivation":"painting",
-                     "label":{
-                        "en":[
-                           "TODO TODO"
-                        ]
-                     },
-                     "body":{
-                        "id":"https://iiif.io:80/api/image/3.0/example/reference/TODO/full/max/0/default.jpg",
-                        "type":"Image",
-                        "format":"image/jpeg",
-                        "service":[
-                           {
-                              "id":"https://iiif.io:80/api/image/3.0/example/reference/TODO",
-                              "type":"ImageService3",
-                              "profile":"level1"
-                           }
-                        ],
-                        "width":5212,
-                        "height":7072
-                     },
-                     "target":"{{ id.path }}/canvas2.json"
-                  }
-               ]
-            }
-         ],
-         "navPlace":{
-            "type":"FeatureCollection",
-            "features":[
-               {
-                  "id":"{{ id.path }}/geo2.json",
-                  "type":"Feature",
-                  "properties":{},
-                  "geometry":{
-                     "type":"Point",
-                     "coordinates":[
-                        2.375780,
-                        48.833791
-                     ]
-                  }
-               }
-            ]
-         }
-      }
-   ]
+  "@context" : [ "http://iiif.io/api/extension/navPlace-context/context.json", "http://iiif.io/api/presentation/3/context.json" ],
+  "id" : "http://store.rerum.io/v1/id/62053aacbc9f914d37c559fd",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Laocöon, geolocated sculpture and painting." ]
+  },
+  "items" : [ {
+    "id" : "http://store.rerum.io/v1/id/62040622bc9f914d37c559ef",
+    "type" : "Canvas",
+    "height" : 1024,
+    "width" : 790,
+    "label" : {
+      "en" : [ "Front of Sculpture" ]
+    },
+    "items" : [ {
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://data.getty.edu/museum/api/iiif/283/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpg",
+          "height" : 1024,
+          "width" : 790,
+          "service" : [ {
+            "id" : "https://data.getty.edu/museum/api/iiif/283",
+            "profile" : "level0",
+            "type" : "ImageService2"
+          } ]
+        },
+        "target" : "http://store.rerum.io/v1/id/62040622bc9f914d37c559ef"
+      } ]
+    } ],
+    "navPlace" : {
+      "type" : "FeatureCollection",
+      "features" : [ {
+        "type" : "Feature",
+        "properties" : {
+          "label" : {
+            "en" : [ "Camera location for picture of the front of the Laocöon sculpture." ]
+          }
+        },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ -118.4745559, 34.0776376 ]
+        }
+      } ]
+    }
+  }, {
+    "@id" : "http://store.rerum.io/v1/id/6205399bbc9f914d37c559fb",
+    "type" : "Canvas",
+    "height" : 2823,
+    "width" : 3547,
+    "label" : {
+      "en" : [ "Painting" ]
+    },
+    "items" : [ {
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "body" : {
+          "id" : "https://media.nga.gov/iiif/795ff938-3b16-49f2-a170-8adb71b44012/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpg",
+          "height" : 2823,
+          "width" : 3547,
+          "service" : [ {
+            "id" : "https://api.nga.gov/iiif/795ff938-3b16-49f2-a170-8adb71b44012",
+            "profile" : "level1",
+            "type" : "ImageService2"
+          } ]
+        },
+        "target" : "http://store.rerum.io/v1/id/6205399bbc9f914d37c559fb"
+      } ]
+    } ],
+    "navPlace" : {
+      "type" : "FeatureCollection",
+      "features" : [ {
+        "type" : "Feature",
+        "properties" : {
+          "label" : {
+            "en" : [ "Location of painting" ]
+          }
+        },
+        "geometry" : {
+          "type" : "Point",
+          "coordinates" : [ 3.37578, 50.833791 ]
+        }
+      } ]
+    }
+  } ]
 }
