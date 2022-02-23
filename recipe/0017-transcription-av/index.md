@@ -4,6 +4,11 @@ id: 17
 layout: recipe
 tags: [audio, video, presentation, transcript]
 summary: "Transcripts as alternative representation of A/V content"
+viewers:
+ - UV
+ - Mirador  
+topic: AV
+property: rendering
 ---
 
 

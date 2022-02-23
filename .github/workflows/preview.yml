@@ -73,6 +73,13 @@ jobs:
     #- name: validate      
       #run: scripts/validate.sh
 
+    - name: add URL to config
+      run: .github/bin/addURL.sh
+
+     # build and test
+    - name: Build preview site
+      run: bundle exec rake build:preview
+
     # Deploy to preview site
     - name: Create GitHub deployment
       uses: glenrobson/deployments@v0.4.2

@@ -4,6 +4,14 @@ id: 11
 layout: recipe
 tags: [image, text, layout]
 summary: "The 'behavior' property specifies how Canvases should be displayed in the viewer in relation to one another, such as paged for book-view, continuous for a scroll or accordion book, or as individuals for a book imaged as full page spreads."
+viewers:
+ - id: UV
+   support: partial
+ - Mirador  
+topic: property
+property: 
+ - behavior
+ - image
 ---
 
 ## Use cases

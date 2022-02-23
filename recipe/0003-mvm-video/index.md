@@ -4,6 +4,12 @@ id: 3
 layout: recipe
 tags: [video, presentation]
 summary: "The simplest viable manifest for video content. This pattern presents a single video file in a IIIF Presentation resource."
+viewers:
+ - Mirador
+ - UV
+topic: 
+ - basic
+ - AV
 ---
 
 
