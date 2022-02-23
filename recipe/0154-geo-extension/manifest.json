@@ -3,15 +3,22 @@
   "id" : "http://store.rerum.io/v1/id/6216511bbc9f914d37c55c22",
   "type" : "Manifest",
   "label" : {
-    "en" : [ "Laocöon Sculpture" ]
+    "en" : [ "Laocöon Bronze" ],
+    "it" :[]
   },
+  "metadata": [
+    {
+      "label": { "en": [ "Author" ] },
+      "value": { "none": [ "Giovanni Battista Foggini" ] }
+    }
+  ],
   "items" : [ {
     "id" : "http://store.rerum.io/v1/id/62040622bc9f914d37c559ef",
     "type" : "Canvas",
     "height" : 1024,
     "width" : 790,
     "label" : {
-      "en" : [ "Front of Sculpture" ]
+      "en" : [ "Front of Bronze" ]
     },
     "items" : [ {
       "type" : "AnnotationPage",
@@ -40,7 +47,7 @@
       "type" : "Feature",
       "properties" : {
         "label" : {
-          "en" : [ "The Laocöon sculpture." ]
+          "en" : [ "The Laocöon Bronze" ]
         }
       },
       "geometry" : {
