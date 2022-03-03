@@ -40,21 +40,20 @@ The sequence is:
 * Inside front cover
 * Foldout, folded
 * Foldout, unfolded (given the behavior `non-paged`, to indicate that it does not constitute part of the paged sequence of the Manifest)
-* [need to insert verso of foldout to maintain recto-verso-recto-verso following non-paged canvas]
 * Title page
-* _the normal run of pages would continue here; removed in this Manifest for brevity_
 * Back of title page
+* _the normal run of pages would continue here; removed in this Manifest for brevity_
 * Inside back cover
 * Back Cover
 
-{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
+{% include manifest_links.html viewers="" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="25-27, 128-130"' %}
 
 ## Related recipes
 
-* [Multiple choice of images in a single view][0033].
-* [Composition of one view from multiple image sources][0036]. Care should be taken not to confuse _composition_ with the current recipe. Both involve multiple images, but composition is for building a scene from multiple images (and possibly other resources), where there is no requirement to offer the user choices _between_ those images.
+* [Multiple choice of images in a single view][0033]
+* [Composition of one view from multiple image sources][0036]
 
 {% include acronyms.md %}
 {% include links.md %}
