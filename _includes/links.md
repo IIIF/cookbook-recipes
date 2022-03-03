@@ -24,7 +24,7 @@
 [0029]: {{ site.cookbook_url | absolute_url }}/recipe/0029-metadata-anywhere/ "Metadata on any Resource"
 [0030]: {{ site.cookbook_url | absolute_url }}/recipe/0030-multi-volume/ "Multi-volume Work with Individually-bound Volumes"
 
-[0040]: {{ site.cookbook_url | absolute_url }}/recipe/0040-image-rotation-service/ "Image Rotation with Image Service"
+[0040]: {{ site.cookbook_url | absolute_url }}/recipe/0040-image-rotation-service/ "Image Rotation Two Ways"
 
 [0053]: {{ site.cookbook_url | absolute_url }}/recipe/0053-seeAlso/ "Linking to Structured Metadata"
 [0046]: {{ site.cookbook_url | absolute_url }}/recipe/0046-rendering/ "Providing Alternative Representations"
