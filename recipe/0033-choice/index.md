@@ -16,9 +16,7 @@ property:
 
 There are multiple images available for a given View (Canvas). For example, a painting has been photographed using 10 different wavelengths of light. The images are _registered_ - that is, they all line up.
 
-![Illustration of image registration concept](http://www.webexhibits.org/pigments/i/intro/examine/imaging.jpg)
-
-_<small>TODO: This needs to be replaced by an image with clear reuse rights.</small>_
+![Illustration of image registration concept](image_registration.png)
 
 Another example would be a manuscript page with a flap or foldout; there are two registered images of the page available, one with the flap closed and one with it open. The page also has a transcription which is independent of either of these two images, because the annotations target the canvas.
 
