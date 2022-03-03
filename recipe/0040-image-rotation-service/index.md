@@ -5,7 +5,6 @@ layout: recipe
 tags: image, manipulation, service, CSS
 summary: "Two approaches for rotating an image or annotation on a canvas"
 viewers:
- - none
 topic: 
  - basic
  - image
@@ -60,7 +59,7 @@ Image showing the same codex page after rotating 90 degrees clockwise:
 
 This Manifest shows how to rotate the image using an Image Service.
 
-{% include manifest_links.html viewers="" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="32-51"' %}
 
