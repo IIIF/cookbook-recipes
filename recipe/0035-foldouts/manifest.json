@@ -8,8 +8,8 @@
         {
           "id": "{{ id.path }}/canvas/p1",
           "type": "Canvas",
-          "height": 1024,
-          "width": 586,
+          "height": 4429,
+          "width": 2533,
           "label": { "en": [ "Front cover" ] },
           "items": [
             {
@@ -21,11 +21,11 @@
                   "type": "Annotation",
                   "motivation": "painting",
                   "body": {
-                    "id": "https://dlcs.io/iiif-img/wellcome/5/b29346423_0001.jp2/full/!1024,1024/0/default.jpg",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/0a469c27256eda739d43124cc448a3ba-1_frontcover/full/max/0/default.jpg",
                     "type": "Image",
                     "format": "image/jpeg",
-                    "height": 1024,
-                    "width": 586
+                    "height": 4429,
+                    "width": 2533
                   },
                   "target": "{{ id.path }}/canvas/p1"
                 }
@@ -36,8 +36,8 @@
         {
           "id": "{{ id.path }}/canvas/p2",
           "type": "Canvas",
-          "height": 1024,
-          "width": 586,
+          "height": 4315,
+          "width": 2490,
           "label": { "en": [ "Inside front cover" ] },
           "items": [
             {
@@ -49,11 +49,11 @@
                   "type": "Annotation",
                   "motivation": "painting",
                   "body": {
-                    "id": "https://dlcs.io/iiif-img/wellcome/5/b29346423_0002.jp2/full/!1024,1024/0/default.jpg",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/0a469c27256eda739d43124cc448a3ba-2_insidefrontcover/full/max/0/default.jpg",
                     "type": "Image",
                     "format": "image/jpeg",
-                    "height": 1024,
-                    "width": 591
+                    "height": 4315,
+                    "width": 2490
                   },
                   "target": "{{ id.path }}/canvas/p2"
                 }
@@ -64,8 +64,8 @@
         {
           "id": "{{ id.path }}/canvas/p3",
           "type": "Canvas",
-          "height": 1024,
-          "width": 586,
+          "height": 4278,
+          "width": 2197,
           "label": { "en": [ "Foldout, folded" ] },
           "items": [
             {
@@ -77,11 +77,11 @@
                   "type": "Annotation",
                   "motivation": "painting",
                   "body": {
-                    "id": "https://dlcs.io/iiif-img/wellcome/5/b29346423_0005.jp2/full/!1024,1024/0/default.jpg",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/0a469c27256eda739d43124cc448a3ba-3_foldout-folded/full/max/0/default.jpg",
                     "type": "Image",
                     "format": "image/jpeg",
-                    "height": 1024,
-                    "width": 526
+                    "height": 4278,
+                    "width": 2197
                   },
                   "target": "{{ id.path }}/canvas/p3"
                 }
@@ -93,8 +93,8 @@
           "id": "{{ id.path }}/canvas/p4",
           "type": "Canvas",
           "behavior": ["non-paged"],
-          "height": 546,
-          "width": 1024,
+          "height": 1968,
+          "width": 3688,
           "label": { "en": [ "Foldout, unfolded" ] },
           "items": [
             {
@@ -106,11 +106,11 @@
                   "type": "Annotation",
                   "motivation": "painting",
                   "body": {
-                    "id": "https://dlcs.io/iiif-img/wellcome/5/b29346423_0006.jp2/full/!1024,1024/0/default.jpg",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/0a469c27256eda739d43124cc448a3ba-4_foldout/full/max/0/default.jpg",
                     "type": "Image",
                     "format": "image/jpeg",
-                    "height": 546,
-                    "width": 1024
+                    "height": 1968,
+                    "width": 3688
                   },
                   "target": "{{ id.path }}/canvas/p4"
                 }
@@ -121,8 +121,8 @@
         {
           "id": "{{ id.path }}/canvas/p5",
           "type": "Canvas",
-          "height": 1024,
-          "width": 591,
+          "height": 4315,
+          "width": 2490,
           "label": { "en": [ "Title page" ] },
           "items": [
             {
@@ -134,11 +134,11 @@
                   "type": "Annotation",
                   "motivation": "painting",
                   "body": {
-                    "id": "https://dlcs.io/iiif-img/wellcome/5/b29346423_0007.jp2/full/!1024,1024/0/default.jpg",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/0a469c27256eda739d43124cc448a3ba-5_titlepage/full/max/0/default.jpg",
                     "type": "Image",
                     "format": "image/jpeg",
-                    "height": 1024,
-                    "width": 591
+                    "height": 4315,
+                    "width": 2490
                   },
                   "target": "{{ id.path }}/canvas/p5"
                 }
@@ -149,8 +149,8 @@
         {
           "id": "{{ id.path }}/canvas/p6",
           "type": "Canvas",
-          "height": 1024,
-          "width": 591,
+          "height": 4315,
+          "width": 2490,
           "label": { "en": [ "Back of title page" ] },
           "items": [
             {
@@ -162,11 +162,11 @@
                   "type": "Annotation",
                   "motivation": "painting",
                   "body": {
-                    "id": "https://dlcs.io/iiif-img/wellcome/5/b29346423_0008.jp2/full/!1024,1024/0/default.jpg",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/0a469c27256eda739d43124cc448a3ba-6_titlepage-recto/full/max/0/default.jpg",
                     "type": "Image",
                     "format": "image/jpeg",
-                    "height": 1024,
-                    "width": 591
+                    "height": 4315,
+                    "width": 2490
                   },
                   "target": "{{ id.path }}/canvas/p6"
                 }
@@ -177,8 +177,8 @@
         {
           "id": "{{ id.path }}/canvas/p7",
           "type": "Canvas",
-          "height": 1024,
-          "width": 591,
+          "height": 4315,
+          "width": 2490,
           "label": { "en": [ "Inside back cover" ] },
           "items": [
             {
@@ -190,11 +190,11 @@
                   "type": "Annotation",
                   "motivation": "painting",
                   "body": {
-                    "id": "https://dlcs.io/iiif-img/wellcome/5/b29346423_0161.jp2/full/!1024,1024/0/default.jpg",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/0a469c27256eda739d43124cc448a3ba-8_insidebackcover/full/max/0/default.jpg",
                     "type": "Image",
                     "format": "image/jpeg",
-                    "height": 1024,
-                    "width": 591
+                    "height": 4315,
+                    "width": 2490
                   },
                   "target": "{{ id.path }}/canvas/p7"
                 }
@@ -205,8 +205,8 @@
         {
           "id": "{{ id.path }}/canvas/p8",
           "type": "Canvas",
-          "height": 1024,
-          "width": 591,
+          "height": 4315,
+          "width": 2490,
           "label": { "en": [ "Back cover" ] },
           "items": [
             {
@@ -218,11 +218,11 @@
                   "type": "Annotation",
                   "motivation": "painting",
                   "body": {
-                    "id": "https://dlcs.io/iiif-img/wellcome/5/b29346423_0162.jp2/full/!1024,1024/0/default.jpg",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/0a469c27256eda739d43124cc448a3ba-9_backcover/full/max/0/default.jpg",
                     "type": "Image",
                     "format": "image/jpeg",
-                    "height": 1024,
-                    "width": 591
+                    "height": 4315,
+                    "width": 2490
                   },
                   "target": "{{ id.path }}/canvas/p8"
                 }
