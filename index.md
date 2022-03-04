@@ -74,6 +74,7 @@ _(leading on to segmentation examples later)_
 * [Simplest Annotation][0266]
 * Fragment selectors (61)
 * [Simple Annotation - Tagging][0021]
+* [Tagging with an External Resource][0258]
 * hotspot linking
 * Annotation in the context of a particular content resource https://github.com/IIIF/iiif-stories/issues/101
 * [Geographic coordinates][0139]

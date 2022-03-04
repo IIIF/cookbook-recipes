@@ -12,7 +12,6 @@ Please see the [Cookbook Process](recipe/index.md).
 
 There are some includes that are helpful to ensure a consistent style between recipes. These include:
 
-
 ### Front matter
 
 The front matter is part of the Jekyll content management system and can be used to configure various aspects of the page and we also use some of these properties to drive separate pages like the [viewer matrix](recipe/matrix.md). The front matter is at the start of an `index.md` and a full example is given below:
@@ -62,10 +61,19 @@ viewers:
    support: partial
 ```
 
-Combining partial support for one viewer and full support for another can be achieved by combining the list and map as seen the full Front Matter example above. If a viewer doesn't support this recipe then it should not appear in the list. Currently the allowable viewers are:
+Combining partial support for one viewer and full support for another can be achieved by combining the list and map as seen the full Front Matter example above. If a viewer doesn't support this recipe then it should not appear in the list. If the recipe isn't supported by any viewer it should have an empty viewers field for example:
+
+```
+viewers:
+topic: annotation
+```
+
+Currently the allowable viewers are:
 
  * UV
  * Mirador
+
+but we would welcome other viewers. To see the requirments for adding other viewers please go to the Viewer Matrix page.
 
 #### Include link to Viewers
 This provides a standard link to the JSON and also to viewers. A full example is as follows:
