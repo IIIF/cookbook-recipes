@@ -5,6 +5,8 @@ layout: recipe
 tags: [segmentation, complex-canvas, multiple-images]
 summary: "Building scenes or compositions using multiple assets."
 viewers:
+- id: Mirador
+  support: partial
 topic: structure
 property:
 ---
@@ -40,7 +42,7 @@ With multiple images on a Canvas, the model is saying that all this content belo
 
 This example could also be implemented as a `Choice` as in the [Multiple choice of images in a single view][0033]. However, that would impose a requirement on the client (a viewer) to offer user interface to make that choice. The simplest client would just assemble the scene from the resources provided with no decisions or additional interactions required on the part of the user.
 
-In this example there is benefit to being able to view the two image resources independently, and a sophisticated client could still offer that choice to the user though enhanced layer controls, even though the resources are provided as the composite parts of the scene.
+In this example there is benefit to being able to view the two image resources independently, and a sophisticated client could still offer that choice to the user through enhanced layer controls, even though the resources are provided as the composite parts of the scene.
 
 The viewer implementation should by default assemble and display all the content provided on the Canvas, in the right place(s) and at the right time(s). For many Canvases, especially those involving time-based media, any implementation that isn't a completely deterministic rendering of the provided content would be counter to the publisher's intent or require the client to have more knowledge of that intent than is possible.
 
@@ -59,8 +61,9 @@ A manifest with a single canvas that has two images painted on it. One is of the
 
 # Related recipes
 
-* [Multiple choice of images in a single view][0033]. The Châteauroux example above could also be modeled as a Choice, if the intent is to offer the user control of which resources are visible.
-* [Foldouts, Flaps and Maps][0035]. In the Châteauroux example shown in the pictures on this page, the two images are aligned to the same Canvas. For a large map that folds out to a much bigger view, the unfolded version would be a different Canvas, because it does not represent the same spatial view.
+* [Multiple choice of images in a single view][0033]
+* [Foldouts, Flaps and Maps][0035]
+* [Fragment Selector][]
 
 {% include acronyms.md %}
 {% include links.md %}

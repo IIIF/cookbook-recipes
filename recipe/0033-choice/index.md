@@ -24,11 +24,11 @@ Another example would be a manuscript page with a flap or foldout; there are two
 
 _<small>Wellcome Library</small>_
 
-In both cases the images are all of the same thing. They all align (or could be aligned) with the same Canvas.
+In both cases the images are of the same thing. They each align (or could be aligned) with the same Canvas.
 
-Users should be able to choose which of the multiple images they want to view.
+Users should be able to choose which of these images they want to view.
 
-Client implementations should understand that the intent is to offer the user a **choice** between 2 or more images. The user can switch between them at will, but the publisher can expect that clients will all start with the same image showing.
+Client implementations should understand that the intent is to offer the user a **choice** between 2 or more images. The user can switch between them at will, but the publisher can expect that all clients will all start with the same image showing.
 
 There are many potential user interface approaches for this model. For example, a tool used in the study of art conservation may have more sophisticated layer-blending features or other manipulations of the images.
 
@@ -40,9 +40,11 @@ This recipe should not be used if the images make up multiple parts of the scene
 
 The implementation builds on the [Support Deep Viewing with Basic Use of a IIIF Image Service][0005] recipe, except that the body of the annotation isn't an image resource directly, but a resource of type `choice`. This is defined in the W3C Web Annotation Data Model:
 
-> "A 'Choice' has an ordered list of resources from which an application should select only one to process or display. The order is given from the most preferable to least preferable, according to the Annotation's creator or publisher."" *— from [Choice Between Bodies](https://www.w3.org/TR/annotation-model/#choice-between-bodies)*
+> "A 'Choice' has an ordered list of resources from which an application should select only one to process or display. The order is given from the most preferable to least preferable, according to the Annotation's creator or publisher." *— from [Choice Between Bodies](https://www.w3.org/TR/annotation-model/#choice-between-bodies)*
 
-The multiple images are now values of the `choice` body.
+The multiple images are now values of the `choice` body, and each image resource should have a label property with at least one entry to convey information about each choice to the user.
+
+If there is a Choice of content resource for the same Canvas, then they should each have at least the label property with at least one entry.
 
 This pattern may be used in conjunction with [Composition of one view from multiple image sources][0036]. A Canvas could have multiple sources composing the scene, one or more of which might be choices.
 
@@ -58,7 +60,7 @@ Clients that don't wish to offer a Choice UI should at least understand the cons
 
 ## Example
 
-In this example, we have a single Canvas with with the `body.type` "Choice" containing two different photographs of the same painting: one using natural light and the other an x-ray image.
+In this example, we have a single Canvas with the `body.type` "Choice" containing two different photographs of the same painting: one using natural light and the other an x-ray image.
 
 Credit: *John Dee performing an experiment before Queen Elizabeth I*. Oil painting by Henry Gillard Glindoni. Credit: Wellcome Collection. Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
@@ -68,8 +70,8 @@ Credit: *John Dee performing an experiment before Queen Elizabeth I*. Oil painti
 
 ## Related recipes
 
-* [Foldouts, Flaps and Maps][0035]. In the manuscript page example shown in the pictures on this page, `Choice` is appropriate because the two images are the same view and are aligned. For a large map that folds out to a much bigger view, the unfolded version would be a different Canvas, because it does not represent the same spatial view. This is one reason to offer two separate views rather than a choice of resources within one view.
-* [Composition of one view from multiple image sources][0036]. Care should be taken not to confuse _composition_ with the current recipe. Both involve multiple images, but composition is for building a scene from multiple images (and possibly other resources), where there is no requirement to offer the user choices _between_ those images.
+* [Foldouts, Flaps and Maps][0035]
+* [Composition of one view from multiple image sources][0036]
 
 
 {% include acronyms.md %}
