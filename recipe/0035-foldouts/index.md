@@ -40,6 +40,7 @@ The sequence is:
 * Inside front cover
 * Foldout, folded
 * Foldout, unfolded (given the behavior `non-paged`, to indicate that it does not constitute part of the paged sequence of the Manifest)
+* Foldout, folded (verso)
 * Title page
 * Back of title page
 * _the normal run of pages would continue here; removed in this Manifest for brevity_

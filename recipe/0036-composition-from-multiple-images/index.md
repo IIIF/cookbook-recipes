@@ -51,9 +51,13 @@ The viewer implementation should by default assemble and display all the content
 
 The presentation of images is upwards in a z-index from the first painting annotation encountered for all subsequent painting annotations. Thus the small 300 pixel square image is painted on top of the larger 1800x1200 image in the first annotation, rather than the other way around.
 
+See the [Fragment Selector][0020] recipe for details on selecting the target area of the Canvas for painting the image annotations that do not f
+
 ## Example
 
 A manifest with a single canvas that has two images painted on it. One is of the entire object, and one fills in a missing detail from the first image. Note that the `target` property for the second image (line 69) is appended with coordinates in order to position the the image on the appropriate region of the Canvas.
+
+*Note: Currently, Mirador 3 only partially supports the layering of multiple images on a single Canvas and it is particularly noteworthy in this use case. While previous iterations of Mirador processed the images upwards from the first painting annotation, Mirador 3 does this in reverse. This means that the second image (the missing illustration detail) is hidden behind the image of the full folio and the user cannot view the reconstructed scene.*
 
 {% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
 
@@ -63,7 +67,7 @@ A manifest with a single canvas that has two images painted on it. One is of the
 
 * [Multiple choice of images in a single view][0033]
 * [Foldouts, Flaps and Maps][0035]
-* [Fragment Selector][]
+* [Fragment Selector][0020]
 
 {% include acronyms.md %}
 {% include links.md %}
