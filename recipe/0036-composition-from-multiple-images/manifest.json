@@ -5,7 +5,7 @@
     "label": { "en": [ "Folio from Grandes Chroniques de France, ca. 1460" ] },
     "items": [
         {
-            "id": "https://bvmm.irht.cnrs.fr/iiif/4490/canvas/p1",
+            "id": "{{ id.path }}/canvas/p1",
             "type": "Canvas",
             "label":  { "none": [ "f. 033v-034r [Chilpéric Ier tue Galswinthe, se remarie et est assassiné]" ] },
             "height": 5412,
