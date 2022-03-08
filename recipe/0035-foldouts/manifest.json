@@ -25,7 +25,14 @@
                     "type": "Image",
                     "format": "image/jpeg",
                     "height": 4429,
-                    "width": 2533
+                    "width": 2533,
+                    "service": [
+                        {
+                            "id": "https://iiif.io/api/image/3.0/example/reference/0a469c27256eda739d43124cc448a3ba-1_frontcover",
+                            "type": "ImageService3",
+                            "profile": "level1"
+                        }
+                    ]
                   },
                   "target": "{{ id.path }}/canvas/p1"
                 }
@@ -53,7 +60,14 @@
                     "type": "Image",
                     "format": "image/jpeg",
                     "height": 4315,
-                    "width": 2490
+                    "width": 2490,
+                    "service": [
+                        {
+                            "id": "https://iiif.io/api/image/3.0/example/reference/0a469c27256eda739d43124cc448a3ba-2_insidefrontcover",
+                            "type": "ImageService3",
+                            "profile": "level1"
+                        }
+                    ]
                   },
                   "target": "{{ id.path }}/canvas/p2"
                 }
@@ -81,7 +95,14 @@
                     "type": "Image",
                     "format": "image/jpeg",
                     "height": 4278,
-                    "width": 2197
+                    "width": 2197,
+                    "service": [
+                        {
+                            "id": "https://iiif.io/api/image/3.0/example/reference/0a469c27256eda739d43124cc448a3ba-3_foldout-folded",
+                            "type": "ImageService3",
+                            "profile": "level1"
+                        }
+                    ]
                   },
                   "target": "{{ id.path }}/canvas/p3"
                 }
@@ -110,7 +131,14 @@
                     "type": "Image",
                     "format": "image/jpeg",
                     "height": 1968,
-                    "width": 3688
+                    "width": 3688,
+                    "service": [
+                        {
+                            "id": "https://iiif.io/api/image/3.0/example/reference/0a469c27256eda739d43124cc448a3ba-4_foldout",
+                            "type": "ImageService3",
+                            "profile": "level1"
+                        }
+                    ]
                   },
                   "target": "{{ id.path }}/canvas/p4"
                 }
@@ -121,9 +149,9 @@
         {
           "id": "{{ id.path }}/canvas/p5",
           "type": "Canvas",
-          "height": 4315,
-          "width": 2490,
-          "label": { "en": [ "Title page" ] },
+          "height": 1968,
+          "width": 3688,
+          "label": { "en": [ "Foldout, folded (recto)" ] },
           "items": [
             {
               "id": "{{ id.path }}/page/p5/1",
@@ -134,11 +162,18 @@
                   "type": "Annotation",
                   "motivation": "painting",
                   "body": {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/0a469c27256eda739d43124cc448a3ba-5_titlepage/full/max/0/default.jpg",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/0a469c27256eda739d43124cc448a3ba-3_foldout-rotated/full/max/0/default.jpg",
                     "type": "Image",
                     "format": "image/jpeg",
-                    "height": 4315,
-                    "width": 2490
+                    "height": 1968,
+                    "width": 3688,
+                    "service": [
+                        {
+                            "id": "https://iiif.io/api/image/3.0/example/reference/0a469c27256eda739d43124cc448a3ba-3_foldout-rotated",
+                            "type": "ImageService3",
+                            "profile": "level1"
+                        }
+                    ]
                   },
                   "target": "{{ id.path }}/canvas/p5"
                 }
@@ -151,7 +186,7 @@
           "type": "Canvas",
           "height": 4315,
           "width": 2490,
-          "label": { "en": [ "Back of title page" ] },
+          "label": { "en": [ "Title page" ] },
           "items": [
             {
               "id": "{{ id.path }}/page/p6/1",
@@ -162,11 +197,18 @@
                   "type": "Annotation",
                   "motivation": "painting",
                   "body": {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/0a469c27256eda739d43124cc448a3ba-6_titlepage-recto/full/max/0/default.jpg",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/0a469c27256eda739d43124cc448a3ba-5_titlepage/full/max/0/default.jpg",
                     "type": "Image",
                     "format": "image/jpeg",
                     "height": 4315,
-                    "width": 2490
+                    "width": 2490,
+                    "service": [
+                        {
+                            "id": "https://iiif.io/api/image/3.0/example/reference/0a469c27256eda739d43124cc448a3ba-5_titlepage",
+                            "type": "ImageService3",
+                            "profile": "level1"
+                        }
+                    ]
                   },
                   "target": "{{ id.path }}/canvas/p6"
                 }
@@ -179,7 +221,7 @@
           "type": "Canvas",
           "height": 4315,
           "width": 2490,
-          "label": { "en": [ "Inside back cover" ] },
+          "label": { "en": [ "Back of title page" ] },
           "items": [
             {
               "id": "{{ id.path }}/page/p7/1",
@@ -190,11 +232,18 @@
                   "type": "Annotation",
                   "motivation": "painting",
                   "body": {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/0a469c27256eda739d43124cc448a3ba-8_insidebackcover/full/max/0/default.jpg",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/0a469c27256eda739d43124cc448a3ba-6_titlepage-recto/full/max/0/default.jpg",
                     "type": "Image",
                     "format": "image/jpeg",
                     "height": 4315,
-                    "width": 2490
+                    "width": 2490,
+                    "service": [
+                        {
+                            "id": "https://iiif.io/api/image/3.0/example/reference/0a469c27256eda739d43124cc448a3ba-6_titlepage-recto",
+                            "type": "ImageService3",
+                            "profile": "level1"
+                        }
+                    ]
                   },
                   "target": "{{ id.path }}/canvas/p7"
                 }
@@ -207,7 +256,7 @@
           "type": "Canvas",
           "height": 4315,
           "width": 2490,
-          "label": { "en": [ "Back cover" ] },
+          "label": { "en": [ "Inside back cover" ] },
           "items": [
             {
               "id": "{{ id.path }}/page/p8/1",
@@ -218,13 +267,55 @@
                   "type": "Annotation",
                   "motivation": "painting",
                   "body": {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/0a469c27256eda739d43124cc448a3ba-8_insidebackcover/full/max/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "height": 4315,
+                    "width": 2490,
+                    "service": [
+                        {
+                            "id": "https://iiif.io/api/image/3.0/example/reference/0a469c27256eda739d43124cc448a3ba-8_insidebackcover",
+                            "type": "ImageService3",
+                            "profile": "level1"
+                        }
+                    ]
+                  },
+                  "target": "{{ id.path }}/canvas/p8"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "{{ id.path }}/canvas/p9",
+          "type": "Canvas",
+          "height": 4315,
+          "width": 2490,
+          "label": { "en": [ "Back cover" ] },
+          "items": [
+            {
+              "id": "{{ id.path }}/page/p9/1",
+              "type": "AnnotationPage",
+              "items": [
+                {
+                  "id": "{{ id.path }}/annotation/p0009-image",
+                  "type": "Annotation",
+                  "motivation": "painting",
+                  "body": {
                     "id": "https://iiif.io/api/image/3.0/example/reference/0a469c27256eda739d43124cc448a3ba-9_backcover/full/max/0/default.jpg",
                     "type": "Image",
                     "format": "image/jpeg",
                     "height": 4315,
-                    "width": 2490
+                    "width": 2490,
+                    "service": [
+                        {
+                            "id": "https://iiif.io/api/image/3.0/example/reference/0a469c27256eda739d43124cc448a3ba-9_backcover",
+                            "type": "ImageService3",
+                            "profile": "level1"
+                        }
+                    ]
                   },
-                  "target": "{{ id.path }}/canvas/p8"
+                  "target": "{{ id.path }}/canvas/p9"
                 }
               ]
             }
