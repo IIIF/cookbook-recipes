@@ -91,7 +91,7 @@ _(leading on to segmentation examples later)_
 ## Higher-level structure
 
 * [Multi-volume Work with Individually-bound Volumes][0030]
-* bound multi-volume work
+* [Multi-volume Work in a Single Bound Volume][0031]
 * paged Collections (from #1343)
 
 ## Segmentation and complex resources

@@ -23,6 +23,7 @@
 [0026]: {{ site.cookbook_url | absolute_url }}/recipe/0026-toc-opera/ "Table of Contents for A/V Content"
 [0029]: {{ site.cookbook_url | absolute_url }}/recipe/0029-metadata-anywhere/ "Metadata on any Resource"
 [0030]: {{ site.cookbook_url | absolute_url }}/recipe/0030-multi-volume/ "Multi-volume Work with Individually-bound Volumes"
+[0031]: {{ site.cookbook_url | absolute_url }}/recipe/0031-bound-multivolume/ "Multi-volume Work in a Single Bound Volume"
 [0053]: {{ site.cookbook_url | absolute_url }}/recipe/0053-seeAlso/ "Linking to Structured Metadata"
 [0046]: {{ site.cookbook_url | absolute_url }}/recipe/0046-rendering/ "Providing Alternative Representations"
 [0064]: {{ site.cookbook_url | absolute_url }}/recipe/0064-opera-one-canvas/ "Table of Contents for Multiple A/V Files on a Single Canvas"
