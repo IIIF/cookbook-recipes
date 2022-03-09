@@ -21,13 +21,13 @@ There are two ways to direct a client to rotate a IIIF resource: By using an ima
 
 ### Image Service
 
-In the image service section of your manifest, you must use an `@context` field in order to point to the [`ImageApiSelector`](https://iiif.io/api/annex/openannotation/#iiif-image-api-selector) definition for canonical rotation options. The selector as defined must contain a `type` property whose value must be `ImageApiSelector`. The `rotation` property takes as its value just a positive numeric amount of rotation in degrees. For more  information about the selector and its use outside of rotation, read the full [selector document](https://iiif.io/api/annex/openannotation/#iiif-image-api-selector).
+In the image service section of your manifest, you must use an `@context` field in order to point to [the `ImageApiSelector` definition](https://iiif.io/api/annex/openannotation/#iiif-image-api-selector) for canonical rotation options. The selector as defined must contain a `type` property whose value must be `ImageApiSelector`. The `rotation` property takes as its value just a positive numeric amount of rotation in degrees. For more  information about the selector and its use outside of rotation, read the full [selector document](https://iiif.io/api/annex/openannotation/#iiif-image-api-selector).
 
 Rotation of an image may be supported by your IIIF Image API server, and if so, using that service for rotation is a great way to handle changing the view of an image. To be able to support this recipe your Image API server must support the rotation requested in the selector. Rotation by 90º increments is mandatory for [level 2 IIIF Image API servers](https://iiif.io/api/image/3.0/compliance/#33-rotation) but can be implemented at all levels. Rotation by an arbitrary amount other than 90º, 180º, or 270º (360º being equal to 0º) is always optional, so you would need to familiarize yourself with what your image servers supports and look into the profile portion of the server's `info.json`.
 
 This is true for [mirroring before rotation](https://iiif.io/api/image/3.0/#43-rotation), as this functionality is not mandatory at any level of image service IIIF compliance.
 
-As well, though it is not described in this recipe, an image service may describe a region — rather than a whole Canvas — for rotation by using the `region` property of the `ImageApiSelector` (qv).
+As well, though it is not described in this recipe, an image service may describe a region — rather than a whole Canvas — for rotation by using [the `region` property of the `ImageApiSelector`](https://iiif.io/api/annex/openannotation/#iiif-image-api-selector).
 
 ### Cascading Style Sheets (CSS)
 
