@@ -31,16 +31,17 @@ The `behavior` property can also be applied to Ranges. For more information on h
 
 ## Restrictions
 
-When is this pattern is usable / not usable? Is it deprecated? If it uses multiple specifications, which versions are needed, etc.?
-
-Delete this section if it is not needed.
-If you don't know what the restrictions might be initially, just leave the following line:
-**Unknown - Help Needed**
+??
 
 ## Example
 
-Describe the solution in prose and provide an example.
-The example json document must be an external document, and imported with the following:
+In this example, the seven volumes of *Gottesdienstliche Ceremonien, Oder H. Kirchen-Gebräuche Und Religions-Pflichten Der Christen* have been bound into a single physical volume. The Manifest contains a Range to represent the top-level structure (the physical volume) and additional embedded Ranges to represent each of the discrete textual volumes. This will produce an index of the constituent volumes like so:
+
+* ...
+* ...
+* ...
+
+The example is a truncated version of [*Gottesdienstliche Ceremonien, Oder H. Kirchen-Gebräuche Und Religions-Pflichten Der Christen*][https://digital.library.ucla.edu/catalog/ark:/21198/zz001hd85r] and includes only the first three volumes for brevity.
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
