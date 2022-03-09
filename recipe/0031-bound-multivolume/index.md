@@ -23,8 +23,11 @@ Compare this with the [Multi-volume Work with Individually-bound Volumes][0030] 
 
 ## Implementation Notes
 
-What do you need to know to use this pattern?
-How do you implement the pattern?
+Ranges are used to represent a structure within a resource by grouping Canvases together. Ranges can include Canvases, parts of Canvases, or other Ranges, creating a tree structure which, in this use case, delineates the individual volumes bound within the material object.
+
+Ranges are contained within the `structures` property and require a `label` property to display in the viewing client's index (`labels` are not inherited from a referenced Canvas, so you will need to explicitly include the `label` property in the Range). Within a Range, resources are included as an array of resources using the `items` property. These structures can be made hierarchical simply by nesting an `items` array within another `items` array. This is useful for further subdividing the volumes into chapters.
+
+The `behavior` property can also be applied to Ranges. For more information on how `behavior` affects navigation in Ranges, see the [IIIF Presentation API on Ranges](https://iiif.io/api/presentation/3.0/#54-range) and the [Ranges and the `behavior` Property][229] recipe.
 
 ## Restrictions
 
