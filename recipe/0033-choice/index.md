@@ -46,6 +46,8 @@ The multiple images are now values of the `choice` body, and each image resource
 
 If there is a Choice of content resource for the same Canvas, then they should each have at least the label property with at least one entry.
 
+The presentation of images is upwards in a z-index from the first painting annotation encountered for all subsequent painting annotations.
+
 This pattern may be used in conjunction with [Composition of one view from multiple image sources][0036]. A Canvas could have multiple sources composing the scene, one or more of which might be choices.
 
 
@@ -61,6 +63,8 @@ Clients that don't wish to offer a Choice UI should at least understand the cons
 ## Example
 
 In this example, we have a single Canvas with the `body.type` "Choice" containing two different photographs of the same painting: one using natural light and the other an x-ray image.
+
+*Note: Currently, Mirador 3 only partially supports the layering of multiple images on a single Canvas. While previous iterations of Mirador processed the images upwards from the first painting annotation, Mirador 3 does this in reverse. This means that the first image in the "choice" body sits at the top of the "stack" in Mirador 3 rather than at the bottom.*
 
 Credit: *John Dee performing an experiment before Queen Elizabeth I*. Oil painting by Henry Gillard Glindoni. Credit: Wellcome Collection. Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 

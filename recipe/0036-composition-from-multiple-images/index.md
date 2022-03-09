@@ -51,7 +51,7 @@ The viewer implementation should by default assemble and display all the content
 
 The presentation of images is upwards in a z-index from the first painting annotation encountered for all subsequent painting annotations. Thus the small 300 pixel square image is painted on top of the larger 1800x1200 image in the first annotation, rather than the other way around.
 
-See the [Fragment Selector][0020] recipe for details on selecting the target area of the Canvas for painting the image annotations that do not f
+When composing a scene from multiple images, some images will require positioning on the Canvas so that they align with one another. In this use case, the smaller image should be positioned on the Canvas so that it aligns with the missing area of the larger image. Use [Fragment Selector][0020] to specify the target area of the Canvas where the image should be painted.
 
 ## Example
 
