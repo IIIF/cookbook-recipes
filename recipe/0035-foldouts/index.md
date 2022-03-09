@@ -53,7 +53,7 @@ The "non-paged" behavior on Canvases is not yet supported by viewers making this
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="25-27, 128-130"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="10-12, 134-136"' %}
 
 ## Related recipes
 
