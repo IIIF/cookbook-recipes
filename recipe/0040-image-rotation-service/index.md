@@ -63,13 +63,13 @@ This Manifest shows how to rotate the image using an Image Service.
 
 {% include jsonviewer.html src="manifest-service.json" config='data-line="32-51"' %}
 
-## Example 1: CSS
+## Example 2: CSS
 
 This Manifest shows how to rotate the image using CSS. For clarity, we are using embedded CSS, but the `stylesheet` property may, rather than a JSON object with `type` and `value` properties, be a string URL pointing to an external stylesheet.
 
 {% include manifest_links.html viewers="" manifest="manifest-css.json" %}
 
-{% include jsonviewer.html src="manifest-css.json" config='data-line="30-33,48-51"' %}
+{% include jsonviewer.html src="manifest-css.json" config='data-line="30-51"' %}
 
 ## Related Recipes
 
