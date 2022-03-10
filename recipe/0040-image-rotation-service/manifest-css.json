@@ -29,7 +29,7 @@
               "motivation": "painting",
               "stylesheet": {
                 "type": "CSSStylesheet",
-                "value": ".rotated { transform-origin: top left; transform: rotate(90deg); }"
+                "value": ".rotated { transform-origin: center; transform: rotate(90deg); }"
               },
               "body": {
                 "id": "{{ id.path }}/body/sr1",
