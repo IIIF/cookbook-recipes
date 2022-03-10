@@ -1,10 +1,8 @@
 ---
 title: IIIF Cookbook
 layout: page
-tags: [tbc]
-summary: "tbc"
 hero:
-    image: "https://ids.si.edu/ids/iiif/NMAH-AC0396-0000007/131,1118,1840,1011/1500,/0/default.jpg"
+  image: "assets/images/heroes/smithsonian_cookbook.webp"
 ---
 
 The [IIIF Presentation API][prezi3] specifies a standardized way to describe complex digital objects. The resource types and properties of the specification are the building blocks of interoperable representations, for rendering by viewers and other software clients. This cookbook gathers together many examples of these representations (usually IIIF Manifests), in order to:
@@ -15,6 +13,13 @@ The [IIIF Presentation API][prezi3] specifies a standardized way to describe com
 * demonstrate the applicability of IIIF to a broad range of use cases.
 
 The issues of the [Cookbook Recipes repository][cookbook-issues] are used to identify and discuss cookbook recipes, prior to their inclusion in the final cookbook site.
+
+{{ theme.block-center-start }}
+## Viewer Support
+As part of the work to aid implementation the Cookbook group have developed a Viewer Matrix which shows which recipe is supported by which IIIF viewer.
+
+{% include misc/button.html button_link="recipe/matrix/" button_label="See IIIF viewer support" %}
+{{ theme.block-end }}
 
 # Contributing
 
@@ -40,7 +45,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Book behavior (paging) variations][0011] (15,16,17)
 * [Viewing direction and its effect on navigation][0010] (11,12,13,14)
 * [Manifest Thumbnail][0117]
-* thumbnail algorithm / discussion
+* [Implementation discussion: Thumbnails on Canvases][0232]
 * [Load a Preview Image Before the Main Content][0013]
 * [Audio Presentation with Accompanying Image][0014]
 * [Load Manifest Beginning with a Specific Canvas][0202]
@@ -70,9 +75,11 @@ _(leading on to segmentation examples later)_
 * Fragment selectors (61)
 * [Simple Annotation - Tagging][0021]
 * [Annotation with a Non-Rectangular Polygon][0261]
+* [Tagging with an External Resource][0258]
 * hotspot linking
 * Annotation in the context of a particular content resource https://github.com/IIIF/iiif-stories/issues/101
 * [Geographic coordinates][0139]
+* [Embedded or Referenced Annotations][0269]
 
 ## Internal structure
 
@@ -140,7 +147,7 @@ _(leading on to segmentation examples later)_
 * a Sammelband
 * Archival collection (hierarchy, paging)
 * Thumbnail range for video navigation
-* Video with captions in multiple languages
+* [Using Caption and Subtitle Files in Multiple Languages with Video Content][0074]
 * Mixed Image Service references (a mashup, with img2 and img3 services)
 * Glenn Gould - score and performance scenarios (transcribing)
 * A Map

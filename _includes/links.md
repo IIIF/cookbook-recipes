@@ -31,16 +31,21 @@
 [0024]: {{ site.cookbook_url | absolute_url }}/recipe/0024-book-4-toc/ "Book with Table of contents (ranges)"
 
 [0068]: {{ site.cookbook_url | absolute_url }}/recipe/0068-newspaper/ "A newspaper"
+[0074]: {{ site.cookbook_url | absolute_url}}/recipe/0074-multiple-language-captions/ "Using Caption and Subtitle Files in Multiple Languages with Video Content"
 [0117]: {{ site.cookbook_url | absolute_url }}/recipe/0117-add-image-thumbnail/ "Manifest Thumbnail"
 [0118]: {{ site.cookbook_url | absolute_url }}/recipe/0118_multivalue/ "Displaying Multiple Values with Language Maps"
+
+[0232]: {{ site.cookbook_url | absolute_url }}/recipe/0232-image-thumbnail-canvas/ "Implementation discussion: Thumbnails on Canvases"
 [0219]: {{ site.cookbook_url | absolute_url }}/recipe/0219-using-caption-file/ "Using Caption and Subtitle Files with Video Content"
 [0230]: {{ site.cookbook_url | absolute_url }}/recipe/0230-navdate/ "Navigation by Chronology"
 [0231]: {{ site.cookbook_url | absolute_url }}/recipe/0231-transcript-meta-recipe/ "Transcripts, Captions, and Subtitles - General Considerations"
 
 [0234]: {{ site.cookbook_url | absolute_url }}/recipe/0234-provider/ "Acknowledge Content Contributors"
 [0261]: {{ site.cookbook_url | absolute_url }}/recipe/0261-non-rectangular-commenting/ "Annotation with a Non-Rectangular Polygon"
+[0258]: {{ site.cookbook_url | absolute_url }}/recipe/0258-tagging-external-resource/ "Tagging with an External Resource"
 
 [0266]: {{ site.cookbook_url | absolute_url }}/recipe/0266-full-canvas-annotation/ "Simplest Annotation"
+[0269]: {{ site.cookbook_url | absolute_url }}/recipe/0269-embedded-or-referenced-annotations/ "Embedded or Referenced Annotations"
 
 [cookbook-process]: {{site.cookbook_url | absolute_url }}/recipe
 
@@ -66,4 +71,4 @@
 [fixtures]: https://fixtures.iiif.io
 [iiif-slack]: http://bit.ly/iiif-slack
 
-[[bcp-47]: https://tools.ietf.org/html/bcp47 "BCP 47"
+[bcp-47]: https://tools.ietf.org/html/bcp47 "BCP 47"
