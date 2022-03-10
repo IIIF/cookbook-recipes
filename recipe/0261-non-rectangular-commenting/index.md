@@ -4,6 +4,9 @@ id: 261
 layout: recipe
 tags: [images, commenting, annotation]
 summary: "For a IIIF resource, you would like to add a simple annotation to the resource, where the area of the resource you would like to highlight is not a rectangle."
+viewers:
+ - Mirador
+topic: annotation
 ---
 
 ## Use Case
