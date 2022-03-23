@@ -13,7 +13,7 @@ viewers:
 ---
 
 ### Use Case
-You have a photograph of the Lacoon bronze. You would like to show the location of the bronze as a Point on a web mapping platform. This is possible using the `navPlace` property. 
+You have a photograph of the Laocoön bronze and you would like to show the current location of the bronze as a Point on a web mapping platform. This is possible using the `navPlace` property. 
 
 
 ### Implementation Notes
@@ -22,8 +22,9 @@ For a complete guide on how to use the `navPlace` property see the [IIIF Guides 
 
 
 ### Example
-TBD - The Manifest is of an image of the Laocöon bronze by Giovanni Battista Foggini, and the map shows the location of the Getty Center where it is currently displayed. 
-The Manifest below contains one Canvas with a photograph painted onto it. The `navPlace` property in the Manifest stores geographic information from the photograph. `navPlace` contains GeoJSON-LD, and a client can parse GeoJSON features from `navPlace`. These GeoJSON features are rendered as geometric shapes by a web-based map platform. Often, data from the resource such as an image URL, label or summary is connected with those shapes via [`properties`](https://tools.ietf.org/html/rfc7946#section-3.2) in GeoJSON.  Web mapping platforms typically offer built in display functionality for metadata contained in `properties`.
+TBD - The map shows the location of the objected represented in the image, the Laocoön bronze by Giovanni Battista Foggini, on display at the Getty Center. 
+The Manifest below is of an image of the Laocoön bronze by Giovanni Battista Foggini, and the map shows the location of the Getty Center where it is  displayed. 
+The Manifest contains one Canvas with a photograph painted onto it. The `navPlace` property in the Manifest stores geographic information from the photograph. `navPlace` contains GeoJSON-LD, and a client can parse GeoJSON features from `navPlace`. These GeoJSON features are rendered as geometric shapes by a web-based map platform. Often, data from the resource such as an image URL, label or summary is connected with those shapes via [`properties`](https://tools.ietf.org/html/rfc7946#section-3.2) in GeoJSON.  Web mapping platforms typically offer built in display functionality for metadata contained in `properties`.
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
