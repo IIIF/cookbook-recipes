@@ -1,9 +1,9 @@
 ---
-title: Name of Recipe
-id: -1
+title: Addressing a Region
+id: 299
 layout: recipe
-tags: [tbc]
-summary: "tbc"
+tags: [fragment]
+summary: "Presenting a region of an image independently"
 viewers:
 topic: 
  - basic
@@ -11,36 +11,28 @@ topic:
 
 ## Use Case
 
-Describe the use case that the pattern is intended to solve.
-Why is this pattern important?
+You have a portion of a IIIF resource that you would like to display independently.
 
 ## Implementation Notes
 
-What do you need to know to use this pattern?
-How do you implement the pattern?
+Use the fragment selector
 
 ## Restrictions
 
-When is this pattern is usable / not usable? Is it deprecated? If it uses multiple specifications, which versions are needed, etc.? 
-
-Delete this section if it is not needed.
-If you don't know what the restrictions might be initially, just leave the following line:
-**Unknown - Help Needed**
+No known restrictions
 
 ## Example
 
-Describe the solution in prose and provide an example.
-The example json document must be an external document, and imported with the following:
+In this example we . . .
 
-{% include manifest_links.html viewers="UV, Mirador, Tify, Curation" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 
-The direct link to the fixture is a useful convenience.
-
 ## Related Recipes
 
-Provide a bulleted list of related recipes and why they are relevant.
+[0001] MVM Image
+[0005] Service
 
 {% include acronyms.md %}
 {% include links.md %}

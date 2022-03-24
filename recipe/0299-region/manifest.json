@@ -1,8 +1,54 @@
 {
-    "@context": [ "http://iiif.io/api/presentation/3/context.json" ],
-    "id": "{{ id.url }} ",
-    "type": "Manifest",
-    "label": { 
-        "none": [""]
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "{{ id.url }}",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Picture of Göttingen taken during the 2019 IIIF Conference"
+    ]
+  },
+  "items": [
+    {
+      "id": "{{ id.path }}/canvas/p1",
+      "type": "Canvas",
+      "height": 1000,
+      "width": 1000,
+      "items": [
+        {
+          "id": "{{ id.path }}/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "{{ id.path }}/body/b1",
+                "type": "SpecificResource",
+                "source": {
+					"id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg#xywh=0,0,1000,1000",
+					"type": "Image",
+					"format": "image/jpeg",
+					"height": 1000,
+					"width": 1000,
+					"service": [
+					  {
+						"id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
+						"profile": "level1",
+						"type": "ImageService3"
+					  }
+					]
+                },
+                "selector": {
+                	"type": "FragmentSelector",
+                	"value": "xywh=0,0,1000,1000"
+                }
+              },
+              "target": "{{ id.path }}/canvas/p1"
+            }
+          ]
+        }
+      ]
     }
+  ]
 }
