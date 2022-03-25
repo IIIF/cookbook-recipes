@@ -29,8 +29,8 @@
 					"id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg",
 					"type": "Image",
 					"format": "image/jpeg",
-					"height": 1000,
-					"width": 1000,
+					"height": 3024,
+					"width": 4032,
 					"service": [
 					  {
 						"id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
