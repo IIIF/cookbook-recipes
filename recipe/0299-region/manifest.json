@@ -40,8 +40,9 @@
 					]
                 },
                 "selector": {
-                	"type": "FragmentSelector",
-                	"value": "xywh=0,0,1000,1000"
+					"@context": "http://iiif.io/api/annex/openannotation/context.json",
+					"type": "iiif:ImageApiSelector",
+					"region": "xywh=0,0,1000,1000"
                 }
               },
               "target": "{{ id.path }}/canvas/p1"
