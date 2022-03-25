@@ -31,8 +31,9 @@ In this example we . . .
 
 ## Related Recipes
 
-[0001] MVM Image
-[0005] Service
+* [Simple Image Manifest][0001]
+* [Introduction to IIIF Image Service][0005] for a basic example of image service use
+* [Image Rotation Two Ways][0040] for another example of using a selector with a IIIF Image service 
 
 {% include acronyms.md %}
 {% include links.md %}
