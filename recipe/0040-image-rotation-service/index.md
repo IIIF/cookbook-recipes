@@ -17,7 +17,7 @@ You have a codex that has been scanned and prepared for online display. The work
 
 ## Implementation Notes
 
-There are two ways to direct a client to rotate a IIIF resource: By using an image service and by using CSS. Using an image service is the preferred way, 
+There are two ways to direct a client to rotate a IIIF resource: By using an image service and by using CSS.
 
 ### Image Service
 
@@ -39,7 +39,7 @@ Using CSS to alter resource presentation styles is not specified in the [IIIF Pr
 
 ## Restrictions
 
-The service approach is not usable if you do not have a IIIF Image API service for the image, or if your image server does not allow rotation through service calls. Rotation amounts may only be available in 90º increments even if your image server supports rotation. Mirroring an image before rotation similarly may or may not be available from your image server.
+The image service approach is not usable if you do not have a IIIF Image API service for the image, or if your image server does not allow rotation through service calls. Depending on your image server rotation support, rotation amounts may only be available in 90º increments. Mirroring an image before rotation similarly may or may not be available from your image server.
 
 The CSS approach depends wholly on viewer implementation of CSS as applied to a resource. Viewers have no requirement to support CSS styling.
 
