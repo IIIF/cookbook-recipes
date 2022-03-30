@@ -13,7 +13,7 @@
     }
   ],
   "items" : [ {
-    "id" : "http://store.rerum.io/v1/id/62040622bc9f914d37c559ef",
+    "id": "{{ id.path }}/canvas/front",
     "type" : "Canvas",
     "height" : 1024,
     "width" : 790,

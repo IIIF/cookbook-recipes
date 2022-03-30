@@ -148,6 +148,7 @@ _(leading on to segmentation examples later)_
 * Archival collection (hierarchy, paging)
 * Thumbnail range for video navigation
 * [Using Caption and Subtitle Files in Multiple Languages with Video Content][0074]
+* [Represent a Manifest as a Geographic Area in a Web Mapping Client Using navPlace][0154]
 * Mixed Image Service references (a mashup, with img2 and img3 services)
 * Glenn Gould - score and performance scenarios (transcribing)
 * A Map
