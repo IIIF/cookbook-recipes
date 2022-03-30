@@ -13,7 +13,7 @@ viewers:
 ---
 
 ### Use Case
-You have a photograph of the Laocoön bronze and you would like to show the current location of the bronze as a Point on a web mapping platform. Use of `navPlace` allows for computational addressing of geographic coordinates and arrangement of representations of those resources in WGS84 coordinate space. The web mapping platforms that accomplish this offer varying degrees of interactive behavior, a portion of which are consistent between the platforms. Often, you can interchange between different projections of the surface of the Earth to find a projection that best suits your geographic data.
+You have a photograph of the Laocoön bronze and you would like to show the current location of the bronze as a Point on a web mapping platform. Use of `navPlace` allows for computational addressing of geographic coordinates and arrangement of the Manifest's spatial representation in WGS84 coordinate space. The web mapping platforms that accomplish this offer varying degrees of interactive behavior, a portion of which are consistent between the platforms. Often, you can interchange between different projections of the surface of the Earth to find a projection that best suits your geographic data.
 
 
 ### Implementation Notes
