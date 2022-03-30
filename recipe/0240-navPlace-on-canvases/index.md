@@ -13,7 +13,7 @@ viewers:
 ---
 
 ### Use Case
-You have multiple images of art created around the subject "Laocöon". You would like to show the location of those works on a web mapping platform. Over the spread of a group of resources, consistent use of `navPlace` allows for computational addressing of geographic coordinates and arrangement of representations of those resources in WGS84 coordinate space. The web mapping platforms that accomplish this offer varying degrees of interactive behavior, a portion of which are consistent between the platforms. Often, you can interchange between different projections of the surface of the Earth to find a projection that best suits your geographic data.
+You have multiple images of art created around the subject "Laocöon". You would like to show the location of those works on a web mapping platform. Over the spread of a group of resources, consistent use of `navPlace` allows for computational addressing of geographic coordinates and arrangement of spatial representations of those resources in WGS84 coordinate space. The web mapping platforms that accomplish this offer varying degrees of interactive behavior, a portion of which are consistent between the platforms. Often, you can interchange between different projections of the surface of the Earth to find a projection that best suits your geographic data.
 
 ### Implementation Notes
 For all the information on how to use the `navPlace` property see the [implementation notes in the IIIF Extensions directory.](https://iiif.io/api/extension/navplace/#5-implementation-notes) 
