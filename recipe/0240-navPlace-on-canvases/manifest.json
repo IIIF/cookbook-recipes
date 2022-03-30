@@ -1,12 +1,12 @@
 {
   "@context" : [ "http://iiif.io/api/extension/navPlace-context/context.json", "http://iiif.io/api/presentation/3/context.json" ],
-  "id" : "http://store.rerum.io/v1/id/62053aacbc9f914d37c559fd",
+  "id": "{{ id.url }}",
   "type" : "Manifest",
   "label" : {
     "en" : [ "Laocöon, geolocated sculpture and painting." ]
   },
   "items" : [ {
-    "id" : "http://store.rerum.io/v1/id/62040622bc9f914d37c559ef",
+    "id": "{{ id.path }}/canvas/sculpture",
     "type" : "Canvas",
     "height" : 1024,
     "width" : 790,
@@ -49,7 +49,7 @@
       } ]
     }
   }, {
-    "@id" : "http://store.rerum.io/v1/id/6205399bbc9f914d37c559fb",
+    "id": "{{ id.path }}/canvas/painting",
     "type" : "Canvas",
     "height" : 2823,
     "width" : 3547,

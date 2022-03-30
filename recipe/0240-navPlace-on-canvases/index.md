@@ -1,10 +1,10 @@
 ---
-title: Represent Canvases in Manifest on a Web Map with navPlace
+title: Represent Canvases in a Manifest as Geographic Areas in a Web Mapping Client Using navPlace
 id: 240
 layout: recipe
 tags: [maps, geolocate, navPlace]
 summary: "Use the navPlace extension to provide geolocation information for the Canvas items of an IIIF Presentation API 3.0 Manifest."
-# Note that navPlace support is not baked into the viewers yet.
+
 viewers:
  - id: UV
    support: none
@@ -13,7 +13,7 @@ viewers:
 ---
 
 ### Use Case
-Potential Idea : You plan to view pieces of art for the subject "Laocöon". You would like to show the location of those works on a web mapping platform. This is possible using the `navPlace` property.
+You have multiple images of art created around the subject "Laocöon". You would like to show the location of those works on a web mapping platform. Over the spread of a group of resources, consistent use of `navPlace` allows for computational addressing of geographic coordinates and arrangement in WGS84 coordinate space with interchangeable projects of the surface of the Earth.
 
 ### Implementation Notes
 For all the information on how to use the `navPlace` property see the [implementation notes in the IIIF Extensions directory.](https://iiif.io/api/extension/navplace/#5-implementation-notes) 
