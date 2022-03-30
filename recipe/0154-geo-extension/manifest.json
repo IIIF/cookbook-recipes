@@ -37,7 +37,7 @@
             "type" : "ImageService2"
           } ]
         },
-        "target" : "http://store.rerum.io/v1/id/62040622bc9f914d37c559ef"
+        "target" : "{{ id.path }}/canvas/front"
       } ]
     } ]
   } ],
