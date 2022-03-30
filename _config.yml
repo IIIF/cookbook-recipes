@@ -8,6 +8,7 @@ plugins:
   - jekyll-gzip
   - jekyll-redirect-from
   - jekyll-liquify
+  - jekyll-seo-tag
 #  - jekyll-last-modified-at
 
 highlighter: none
