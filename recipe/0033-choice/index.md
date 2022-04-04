@@ -70,7 +70,7 @@ Credit: *John Dee performing an experiment before Queen Elizabeth I*. Oil painti
 
 {% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="25-53"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="25-67"' %}
 
 ## Related recipes
 
