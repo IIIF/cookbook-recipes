@@ -74,7 +74,7 @@ Credit: *John Dee performing an experiment before Queen Elizabeth I*. Oil painti
 
 ## Related recipes
 
-* [Foldouts, Flaps and Maps][0035]
+* [Foldouts, Flaps, and Maps][0035]
 * [Composition of one view from multiple image sources][0036]
 
 
