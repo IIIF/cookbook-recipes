@@ -20,7 +20,7 @@
 [0021]: {{ site.cookbook_url | absolute_url }}/recipe/0021-tagging/ "Simple Annotation — Tagging"
 
 [0033]: {{site.baseurl}}/recipe/0033-choice/ "Multiple choice of images in a single view"
-[0035]: {{site.baseurl}}/recipe/0035-foldouts/ "Foldouts, Flaps and Maps"
+[0035]: {{site.baseurl}}/recipe/0035-foldouts/ "Foldouts, Flaps, and Maps"
 [0036]: {{site.baseurl}}/recipe/0036-composition-from-multiple-images/ "Composition from Multiple Images"
 [0026]: {{ site.cookbook_url | absolute_url }}/recipe/0026-toc-opera/ "Table of Contents for A/V Content"
 [0029]: {{ site.cookbook_url | absolute_url }}/recipe/0029-metadata-anywhere/ "Metadata on any Resource"

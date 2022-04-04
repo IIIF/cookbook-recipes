@@ -97,7 +97,7 @@ _(leading on to segmentation examples later)_
 ## Segmentation and complex resources
 
 * [Multiple choice of images in a single view][0033] (29)
-* [Foldouts, Flaps and Maps][0035]
+* [Foldouts, Flaps, and Maps][0035]
 * [Composition from Multiple Images][0036] (30,31)
 * Multiple images and multiple choices (32,33,34)
 * [Annotating part of an image to a Canvas][recipe-segment-image-part] (e.g., crop out scanner) (35,36,37,38)
