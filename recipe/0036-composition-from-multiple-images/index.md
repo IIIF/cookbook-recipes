@@ -14,7 +14,7 @@ property:
 
 ## Use Case
 
-This recipe should be considered alongside [Multiple choice of images in a single view][0033] and [Foldouts, Flaps and Maps][0035]. They each involve multiple images that are in some way associated with the same part of an object, but the different modeling approaches have different purposes and should generate different user interface options in a client application.
+This recipe should be considered alongside [Multiple choice of images in a single view][0033] and [Foldouts, Flaps, and Maps][0035]. They each involve multiple images that are in some way associated with the same part of an object, but the different modeling approaches have different purposes and should generate different user interface options in a client application.
 
 This recipe is about composition of a single view from multiple content resources, such as multiple images, time based media or combinations of media formats. The motivation of the content annotation is `painting`, but here there are multiple resources to be painted onto the Canvas together.
 
@@ -66,7 +66,7 @@ A manifest with a single canvas that has two images painted on it. One is of the
 # Related recipes
 
 * [Multiple choice of images in a single view][0033]
-* [Foldouts, Flaps and Maps][0035]
+* [Foldouts, Flaps, and Maps][0035]
 * [Fragment Selector][0020]
 
 {% include acronyms.md %}
