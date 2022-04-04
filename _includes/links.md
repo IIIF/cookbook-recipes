@@ -43,6 +43,7 @@
 [0231]: {{ site.cookbook_url | absolute_url }}/recipe/0231-transcript-meta-recipe/ "Transcripts, Captions, and Subtitles - General Considerations"
 
 [0234]: {{ site.cookbook_url | absolute_url }}/recipe/0234-provider/ "Acknowledge Content Contributors"
+[0261]: {{ site.cookbook_url | absolute_url }}/recipe/0261-non-rectangular-commenting/ "Annotation with a Non-Rectangular Polygon"
 [0258]: {{ site.cookbook_url | absolute_url }}/recipe/0258-tagging-external-resource/ "Tagging with an External Resource"
 
 [0266]: {{ site.cookbook_url | absolute_url }}/recipe/0266-full-canvas-annotation/ "Simplest Annotation"
