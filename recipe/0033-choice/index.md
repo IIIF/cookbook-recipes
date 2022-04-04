@@ -14,7 +14,7 @@ property:
 
 ## Use Cases
 
-There are multiple images available for a given View (Canvas). For example, a painting has been photographed using 10 different wavelengths of light. The images are _registered_ - that is, they all line up.
+There are multiple images available for a given view (Canvas). For example, a painting has been photographed using 10 different wavelengths of light. The images are _registered_ - that is, they all line up.
 
 ![Illustration of image registration concept](image_registration.png)
 
@@ -32,7 +32,7 @@ Client implementations should understand that the intent is to offer the user a 
 
 There are many potential user interface approaches for this model. For example, a tool used in the study of art conservation may have more sophisticated layer-blending features or other manipulations of the images.
 
-This pattern is important because it is not uncommon, especially for artworks and for early manuscripts, to have more than one image available for the same View.
+This pattern is important because it is not uncommon, especially for artworks and for early manuscripts, to have more than one image available for the same view.
 
 This recipe should not be used if the images make up multiple parts of the scene, where the intention is to display them together. For example, a digital reconstruction of parts of a manuscript page. In that scenario the intent is not to offer the user a choice of alternative views of the same thing, it is to build an overall view from multiple source images. This scenario is covered by the recipe [Composition of one view from multiple image sources][0036].  
 
