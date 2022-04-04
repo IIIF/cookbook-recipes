@@ -1,5 +1,5 @@
 ---
-title: Foldouts, Flaps and Maps
+title: Foldouts, Flaps, and Maps
 id: 35
 layout: recipe
 tags: [images, behavior, non-paged]

@@ -6,18 +6,18 @@
     "behavior": ["paged"],
     "items": [
         {
-          "id": "{{ id.path }}/canvas/p1",
+          "id": "{{ id.path }}/canvas/1",
           "type": "Canvas",
           "height": 4429,
           "width": 2533,
           "label": { "en": [ "Front cover" ] },
           "items": [
             {
-              "id": "{{ id.path }}/page/p1/1",
+              "id": "{{ id.path }}/page/1/1",
               "type": "AnnotationPage",
               "items": [
                 {
-                  "id": "{{ id.path }}/annotation/p0001-image",
+                  "id": "{{ id.path }}/annotation/0001-image",
                   "type": "Annotation",
                   "motivation": "painting",
                   "body": {
@@ -34,25 +34,25 @@
                         }
                     ]
                   },
-                  "target": "{{ id.path }}/canvas/p1"
+                  "target": "{{ id.path }}/canvas/1"
                 }
               ]
             }
           ]
         },
         {
-          "id": "{{ id.path }}/canvas/p2",
+          "id": "{{ id.path }}/canvas/2",
           "type": "Canvas",
           "height": 4315,
           "width": 2490,
           "label": { "en": [ "Inside front cover" ] },
           "items": [
             {
-              "id": "{{ id.path }}/page/p2/1",
+              "id": "{{ id.path }}/page/2/1",
               "type": "AnnotationPage",
               "items": [
                 {
-                  "id": "{{ id.path }}/annotation/p0002-image",
+                  "id": "{{ id.path }}/annotation/0002-image",
                   "type": "Annotation",
                   "motivation": "painting",
                   "body": {
@@ -69,25 +69,25 @@
                         }
                     ]
                   },
-                  "target": "{{ id.path }}/canvas/p2"
+                  "target": "{{ id.path }}/canvas/2"
                 }
               ]
             }
           ]
         },
         {
-          "id": "{{ id.path }}/canvas/p3",
+          "id": "{{ id.path }}/canvas/3",
           "type": "Canvas",
           "height": 4278,
           "width": 2197,
           "label": { "en": [ "Foldout, folded" ] },
           "items": [
             {
-              "id": "{{ id.path }}/page/p3/1",
+              "id": "{{ id.path }}/page/3/1",
               "type": "AnnotationPage",
               "items": [
                 {
-                  "id": "{{ id.path }}/annotation/p0003-image",
+                  "id": "{{ id.path }}/annotation/0003-image",
                   "type": "Annotation",
                   "motivation": "painting",
                   "body": {
@@ -104,14 +104,14 @@
                         }
                     ]
                   },
-                  "target": "{{ id.path }}/canvas/p3"
+                  "target": "{{ id.path }}/canvas/3"
                 }
               ]
             }
           ]
         },
         {
-          "id": "{{ id.path }}/canvas/p4",
+          "id": "{{ id.path }}/canvas/4",
           "type": "Canvas",
           "behavior": ["non-paged"],
           "height": 1968,
@@ -119,11 +119,11 @@
           "label": { "en": [ "Foldout, unfolded" ] },
           "items": [
             {
-              "id": "{{ id.path }}/page/p4/1",
+              "id": "{{ id.path }}/page/4/1",
               "type": "AnnotationPage",
               "items": [
                 {
-                  "id": "{{ id.path }}/annotation/p0004-image",
+                  "id": "{{ id.path }}/annotation/0004-image",
                   "type": "Annotation",
                   "motivation": "painting",
                   "body": {
@@ -140,25 +140,25 @@
                         }
                     ]
                   },
-                  "target": "{{ id.path }}/canvas/p4"
+                  "target": "{{ id.path }}/canvas/4"
                 }
               ]
             }
           ]
         },
         {
-          "id": "{{ id.path }}/canvas/p5",
+          "id": "{{ id.path }}/canvas/5",
           "type": "Canvas",
           "height": 1968,
           "width": 3688,
           "label": { "en": [ "Foldout, folded (recto)" ] },
           "items": [
             {
-              "id": "{{ id.path }}/page/p5/1",
+              "id": "{{ id.path }}/page/5/1",
               "type": "AnnotationPage",
               "items": [
                 {
-                  "id": "{{ id.path }}/annotation/p0005-image",
+                  "id": "{{ id.path }}/annotation/0005-image",
                   "type": "Annotation",
                   "motivation": "painting",
                   "body": {
@@ -175,25 +175,25 @@
                         }
                     ]
                   },
-                  "target": "{{ id.path }}/canvas/p5"
+                  "target": "{{ id.path }}/canvas/5"
                 }
               ]
             }
           ]
         },
         {
-          "id": "{{ id.path }}/canvas/p6",
+          "id": "{{ id.path }}/canvas/6",
           "type": "Canvas",
           "height": 4315,
           "width": 2490,
           "label": { "en": [ "Title page" ] },
           "items": [
             {
-              "id": "{{ id.path }}/page/p6/1",
+              "id": "{{ id.path }}/page/6/1",
               "type": "AnnotationPage",
               "items": [
                 {
-                  "id": "{{ id.path }}/annotation/p0006-image",
+                  "id": "{{ id.path }}/annotation/0006-image",
                   "type": "Annotation",
                   "motivation": "painting",
                   "body": {
@@ -210,25 +210,25 @@
                         }
                     ]
                   },
-                  "target": "{{ id.path }}/canvas/p6"
+                  "target": "{{ id.path }}/canvas/6"
                 }
               ]
             }
           ]
         },
         {
-          "id": "{{ id.path }}/canvas/p7",
+          "id": "{{ id.path }}/canvas/7",
           "type": "Canvas",
           "height": 4315,
           "width": 2490,
           "label": { "en": [ "Back of title page" ] },
           "items": [
             {
-              "id": "{{ id.path }}/page/p7/1",
+              "id": "{{ id.path }}/page/7/1",
               "type": "AnnotationPage",
               "items": [
                 {
-                  "id": "{{ id.path }}/annotation/p0007-image",
+                  "id": "{{ id.path }}/annotation/0007-image",
                   "type": "Annotation",
                   "motivation": "painting",
                   "body": {
@@ -245,25 +245,25 @@
                         }
                     ]
                   },
-                  "target": "{{ id.path }}/canvas/p7"
+                  "target": "{{ id.path }}/canvas/7"
                 }
               ]
             }
           ]
         },
         {
-          "id": "{{ id.path }}/canvas/p8",
+          "id": "{{ id.path }}/canvas/8",
           "type": "Canvas",
           "height": 4315,
           "width": 2490,
           "label": { "en": [ "Inside back cover" ] },
           "items": [
             {
-              "id": "{{ id.path }}/page/p8/1",
+              "id": "{{ id.path }}/page/8/1",
               "type": "AnnotationPage",
               "items": [
                 {
-                  "id": "{{ id.path }}/annotation/p0008-image",
+                  "id": "{{ id.path }}/annotation/0008-image",
                   "type": "Annotation",
                   "motivation": "painting",
                   "body": {
@@ -280,25 +280,25 @@
                         }
                     ]
                   },
-                  "target": "{{ id.path }}/canvas/p8"
+                  "target": "{{ id.path }}/canvas/8"
                 }
               ]
             }
           ]
         },
         {
-          "id": "{{ id.path }}/canvas/p9",
+          "id": "{{ id.path }}/canvas/9",
           "type": "Canvas",
           "height": 4315,
           "width": 2490,
           "label": { "en": [ "Back cover" ] },
           "items": [
             {
-              "id": "{{ id.path }}/page/p9/1",
+              "id": "{{ id.path }}/page/9/1",
               "type": "AnnotationPage",
               "items": [
                 {
-                  "id": "{{ id.path }}/annotation/p0009-image",
+                  "id": "{{ id.path }}/annotation/0009-image",
                   "type": "Annotation",
                   "motivation": "painting",
                   "body": {
@@ -315,7 +315,7 @@
                         }
                     ]
                   },
-                  "target": "{{ id.path }}/canvas/p9"
+                  "target": "{{ id.path }}/canvas/9"
                 }
               ]
             }
