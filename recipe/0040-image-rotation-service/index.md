@@ -21,7 +21,7 @@ There are two ways to direct a client to rotate a IIIF resource: By using an ima
 
 ### Image Service
 
-In the image service section of your manifest, you must use an `@context` field in order to point to [the `ImageApiSelector` definition](https://iiif.io/api/annex/openannotation/#iiif-image-api-selector) for canonical rotation options. The selector as defined must contain a `type` property whose value must be `ImageApiSelector`. The `rotation` property takes as its value just a positive numeric amount of rotation in degrees. For more  information about the selector and its use outside of rotation, read the full [selector document](https://iiif.io/api/annex/openannotation/#iiif-image-api-selector).
+In the image service section of your manifest, you must use a `@context` field in order to point to [the `ImageApiSelector` definition](https://iiif.io/api/annex/openannotation/#iiif-image-api-selector) for canonical rotation options. The selector as defined must contain a `type` property whose value must be `ImageApiSelector`. The `rotation` property takes as its value just a positive numeric amount of rotation in degrees. For more  information about the selector and its use outside of rotation, read the full [selector document](https://iiif.io/api/annex/openannotation/#iiif-image-api-selector).
 
 Rotation of an image may be supported by your IIIF Image API server, and if so, using that service for rotation is a great way to handle changing the view of an image. To be able to support this recipe your Image API server must support the rotation requested in the selector. Rotation by 90º increments is mandatory for [level 2 IIIF Image API servers](https://iiif.io/api/image/3.0/compliance/#33-rotation) but can be implemented at all levels. Rotation by an arbitrary amount other than 90º, 180º, or 270º (360º being equal to 0º) is always optional, so you would need to familiarize yourself with what your image servers supports and look into the profile portion of the server's `info.json`.
 
@@ -36,6 +36,10 @@ If your resource is not being served from an image server that supports the desi
 By using CSS, you may specify arbitrary rotation figures as well as incorporate additional styling values.
 
 Using CSS to alter resource presentation styles is not specified in the [IIIF Presentation 3.0 API](https://iiif.io/api/presentation/3.0/). This section is provided as a convenient but light explanation of this approach, but for a more detailed look at styles in Web Annotations, see [the W3C Web Annotation Data Model's Styles section](https://www.w3.org/TR/annotation-model/#styles).
+
+### Rotation and Annotations
+
+Resources in IIIF should be described using their authentic metadata, including their dimensions. Canvases should be dimensioned using your desired outcome. For an unrotated resource to be painted in its entirety on a Canvas, these dimensions should be identical. With a rotated resource (absent other manipulations), the dimensions will will be flipped. The `height` of the Canvas will be the `width` of the resource and likewise for the Canvas `width` and resource `height`. Annotations, therefore, will be at the desired coordinates only if these differences are kept in mind. If your annotations target a Canvas containing a rotated resource, ensure that these annotations work in the coordinate space of that Canvas rather than the resource's original coordinate space.
 
 ## Restrictions
 
