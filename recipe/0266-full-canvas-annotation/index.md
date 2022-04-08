@@ -11,7 +11,7 @@ topic: annotation
 
 ## Use Case
 
-You want to annotate a canvas with some text either as a comment or a tag. In this recipe we are annotating the full Canvas but see [Simple Annotation — Tagging][0021] if you would like to target a specific part or region of the Canvas.
+You want to annotate a canvas with some text either as a comment or a tag. In this recipe we are annotating the full Canvas but see [Simple Annotation — Tagging][0021] or [Annotation with a Non-Rectangular Polygon][0261] if you would like to target a specific part or region of the Canvas.
 
 ## Implementation Notes
 
@@ -42,6 +42,7 @@ This example Manifest contains an embedded Annotation containing the text "Gött
 ## Related Recipes
 
 * [Simple Annotation — Tagging][0021] for an Annotation using a fragment selector
+* [Annotation with a Non-Rectangular Polygon][0261] for an Annotation using a SVG selector
 * [Simplest Manifest - Image][0001]
 * [Simplest Manifest - Audio][0002]
 * [Simplest Manifest - Video][0003]
