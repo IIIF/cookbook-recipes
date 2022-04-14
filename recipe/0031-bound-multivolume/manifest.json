@@ -10,8 +10,8 @@
       "id": "{{ id.path }}/canvas/p1",
       "type": "Canvas",
       "label": { "en": [ "Front cover" ] },
-      "height": 2504,
-      "width": 1768,
+      "height": 7230,
+      "width": 5428,
       "items": [
         {
           "id": "{{ id.path }}/page/p1/1",
@@ -22,14 +22,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "",
+                "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-1_frontcover/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 2504,
-                "width": 1768,
+                "height": 7230,
+                "width": 5428,
                 "service": [
                   {
-                    "id": "",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-1_frontcover",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -45,8 +45,8 @@
       "id": "{{ id.path }}/canvas/p2",
       "type": "Canvas",
       "label": { "en": [ "Inside front cover" ] },
-      "height": 2512,
-      "width": 1792,
+      "height": 7230,
+      "width": 5428,
       "items": [
         {
           "id": "{{ id.path }}/page/p2/1",
@@ -57,14 +57,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "",
+                "id": "ttps://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-2_insidefrontcover/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 2512,
-                "width": 1792,
+                "height": 7230,
+                "width": 5428,
                 "service": [
                   {
-                    "id": "",
+                    "id": "ttps://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-2_insidefrontcover",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -80,8 +80,8 @@
       "id": "{{ id.path }}/canvas/p3",
       "type": "Canvas",
       "label": { "en": [ "Vol. 1 title page" ] },
-      "height": 2456,
-      "width": 1792,
+      "height": 7230,
+      "width": 5428,
       "items": [
         {
           "id": "{{ id.path }}/page/p3/1",
@@ -92,14 +92,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "",
+                "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-3_titlepage1/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 2456,
-                "width": 1792,
+                "height": 7230,
+                "width": 5428,
                 "service": [
                   {
-                    "id": "",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-3_titlepage1",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -115,8 +115,8 @@
       "id": "{{ id.path }}/canvas/p4",
       "type": "Canvas",
       "label": { "en": [ "Vol. 1 title page (verso)" ] },
-      "height": 2440,
-      "width": 1760,
+      "height": 7230,
+      "width": 5428,
       "items": [
         {
           "id": "{{ id.path }}/page/p4/1",
@@ -127,14 +127,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "",
+                "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-4_titlepage1_verso/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 2440,
-                "width": 1760,
+                "height": 7230,
+                "width": 5428,
                 "service": [
                   {
-                    "id": "",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-4_titlepage1_verso",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -150,8 +150,8 @@
       "id": "{{ id.path }}/canvas/p5",
       "type": "Canvas",
       "label": { "en": [ "Vol. 2 title page" ] },
-      "height": 2416,
-      "width": 1776,
+      "height": 7230,
+      "width": 5428,
       "items": [
         {
           "id": "{{ id.path }}/page/p5/1",
@@ -162,14 +162,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "",
+                "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-5_titlepage2/max/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 2416,
-                "width": 1776,
+                "height": 7230,
+                "width": 5428,
                 "service": [
                   {
-                    "id": "",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-5_titlepage2",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -185,8 +185,8 @@
       "id": "{{ id.path }}/canvas/p6",
       "type": "Canvas",
       "label": { "en": [ "Vol. 2 title page (verso)" ] },
-      "height": 2416,
-      "width": 1776,
+      "height": 7230,
+      "width": 5428,
       "items": [
         {
           "id": "{{ id.path }}/page/p6/1",
@@ -197,14 +197,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "",
+                "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-6_titlepage2_verso/max/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 2416,
-                "width": 1776,
+                "height": 7230,
+                "width": 5428,
                 "service": [
                   {
-                    "id": "",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-6_titlepage2_verso",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -220,8 +220,8 @@
       "id": "{{ id.path }}/canvas/p7",
       "type": "Canvas",
       "label": { "en": [ "Vol. 3 title page" ] },
-      "height": 2416,
-      "width": 1776,
+      "height": 7230,
+      "width": 5428,
       "items": [
         {
           "id": "{{ id.path }}/page/p7/1",
@@ -232,14 +232,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "",
+                "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-7_titlepage3/max/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 2416,
-                "width": 1776,
+                "height": 7230,
+                "width": 5428,
                 "service": [
                   {
-                    "id": "",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-7_titlepage3",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -255,8 +255,8 @@
       "id": "{{ id.path }}/canvas/p8",
       "type": "Canvas",
       "label": { "en": [ "Vol. 3 title page (verso)" ] },
-      "height": 2416,
-      "width": 1776,
+      "height": 7230,
+      "width": 5428,
       "items": [
         {
           "id": "{{ id.path }}/page/p8/1",
@@ -267,14 +267,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "",
+                "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-8_titlepage3_verso/max/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 2416,
-                "width": 1776,
+                "height": 7230,
+                "width": 5428,
                 "service": [
                   {
-                    "id": "",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-8_titlepage3_verso",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -290,8 +290,8 @@
       "id": "{{ id.path }}/canvas/p9",
       "type": "Canvas",
       "label": { "en": [ "Inside back cover" ] },
-      "height": 2416,
-      "width": 1776,
+      "height": 7230,
+      "width": 5428,
       "items": [
         {
           "id": "{{ id.path }}/page/p9/1",
@@ -302,14 +302,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "",
+                "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-9_insidebackcover/max/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 2416,
-                "width": 1776,
+                "height": 7230,
+                "width": 5428,
                 "service": [
                   {
-                    "id": "",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-9_insidebackcover",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -325,8 +325,8 @@
       "id": "{{ id.path }}/canvas/p10",
       "type": "Canvas",
       "label": { "en": [ "Back cover" ] },
-      "height": 2416,
-      "width": 1776,
+      "height": 7230,
+      "width": 5428,
       "items": [
         {
           "id": "{{ id.path }}/page/p10/1",
@@ -337,14 +337,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "",
+                "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-10_backcover/max/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 2416,
-                "width": 1776,
+                "height": 7230,
+                "width": 5428,
                 "service": [
                   {
-                    "id": "",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-10_backcover",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
