@@ -64,7 +64,7 @@
                 "width": 5428,
                 "service": [
                   {
-                    "id": "ttps://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-2_insidefrontcover",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-2_insidefrontcover",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
