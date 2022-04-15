@@ -29,8 +29,6 @@ Ranges are contained within the `structures` property and require a `label` prop
 
 The `behavior` property can also be applied to Ranges. For more information on how `behavior` affects navigation in Ranges, see the [IIIF Presentation API on Ranges](https://iiif.io/api/presentation/3.0/#54-range) and the [Ranges and the `behavior` Property][229] recipe.
 
-## Restrictions
-
 ## Example
 
 In this example, the seven volumes of *Gottesdienstliche Ceremonien, Oder H. Kirchen-Gebräuche Und Religions-Pflichten Der Christen* have been bound into a single physical volume. The Manifest contains a Range to represent the top-level structure (the physical volume) and additional embedded Ranges to represent each of the discrete textual volumes as well as the front and back matter. This will produce an index of the constituent volumes like so:
