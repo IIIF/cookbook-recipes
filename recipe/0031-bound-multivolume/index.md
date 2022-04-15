@@ -2,8 +2,8 @@
 title: Multiple Volumes in a Single Bound Volume
 id: 31
 layout: recipe
-tags: [tbc]
-summary: "tbc"
+tags: [sammelband, multi-volume]
+summary: "Recipe for a multi-volume object where the volumes are bound together in a single codex."
 viewers:
 - UV
 - Mirador
@@ -15,7 +15,7 @@ topic:
 
 This recipe should be considered alongside [Book with Table of Contents][0024] and [Multi-volume Work with Individually-bound Volumes][0030]. Each use case, including this one, involves modeling the resource to reflect the structure of both the object and the text within to generate the most appropriate viewing experience for a user.
 
-This recipe considers the use case of a multi-volume object where the volumes are bound together in a single volume. Take for example a Sammelband where separately printed fascicles of a printed work or discrete codicological units comprising a composite manuscript were subsequently bound together. Another example might be a single work published in multiple volumes that is later distributed as a single bound volume.
+This recipe considers the use case of a multi-volume object where the volumes are bound together in a single codex. Take for example a Sammelband where separately printed fascicles of a printed work or discrete codicological units comprising a composite manuscript were subsequently bound together. Another example might be a single work published in multiple volumes that is later distributed as a single bound volume.
 
 In both cases, we have a single material object comprising two or more discrete textual objects, which suggests using a single Manifest to represent the resource and using Ranges to delineate the distinct textual objects.
 
@@ -31,15 +31,15 @@ The `behavior` property can also be applied to Ranges. For more information on h
 
 ## Restrictions
 
-??
-
 ## Example
 
-In this example, the seven volumes of *Gottesdienstliche Ceremonien, Oder H. Kirchen-Gebräuche Und Religions-Pflichten Der Christen* have been bound into a single physical volume. The Manifest contains a Range to represent the top-level structure (the physical volume) and additional embedded Ranges to represent each of the discrete textual volumes. This will produce an index of the constituent volumes like so:
+In this example, the seven volumes of *Gottesdienstliche Ceremonien, Oder H. Kirchen-Gebräuche Und Religions-Pflichten Der Christen* have been bound into a single physical volume. The Manifest contains a Range to represent the top-level structure (the physical volume) and additional embedded Ranges to represent each of the discrete textual volumes as well as the front and back matter. This will produce an index of the constituent volumes like so:
 
-* ...
-* ...
-* ...
+* Front Matter
+* Erste Ausgabe...
+* Zweyte Ausgabe...
+* Dritte Ausgabe...
+* Back Matter
 
 The example is a truncated version of [*Gottesdienstliche Ceremonien, Oder H. Kirchen-Gebräuche Und Religions-Pflichten Der Christen*][https://digital.library.ucla.edu/catalog/ark:/21198/zz001hd85r] and includes only the first three volumes for brevity.
 
