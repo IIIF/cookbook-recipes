@@ -19,10 +19,11 @@ You have a photograph of the Laocoön bronze and you would like to show the curr
 ### Implementation Notes
 Note that [Google Maps will display coordinates in Latitude, Longitude order](https://developers.google.com/maps/documentation/javascript/reference/coordinates
 ), but [GeoJSON specifies it needs to be supplied in Longitude, Latitude order](https://datatracker.ietf.org/doc/html/rfc7946#section-3.1.1
-).  Always confirm the order of your coordinates when gathering them, as other web mapping platforms may have these format inconsistencies. Data from the resource such as an image URL, label or summary is connected with those shapes via `properties` in GeoJSON. 
+). Always confirm the order of your coordinates when gathering them, as other web mapping platforms may have these format inconsistencies. Data from the resource such as an image URL, label or summary is connected with those shapes via `properties` in GeoJSON. 
 
 For all the information on how to use the `navPlace` property see the [implementation notes in the IIIF Extensions directory.](https://iiif.io/api/extension/navplace/#5-implementation-notes) 
-For a complete guide on how to use the `navPlace` property see the [IIIF Guides entry for `navPlace`.](https://preview.iiif.io/guides/41-navPlace/guides/iiif.io.api.extension.navplace/).
+
+For a complete guide on how to use the `navPlace` property see the [IIIF Guides entry for `navPlace`.](https://preview.iiif.io/guides/41-navPlace/guides/iiif.io.api.extension.navplace/)
 
 
 ### Example
