@@ -11,13 +11,13 @@ topic: annotation
 
 ## Use Case
 
-I want to annotate a canvas with some text either as a comment or a tag. In this recipe we are annotating the full Canvas but see [Simple Commenting Annotation][260] if you would like to target a specific part or region of the Canvas.
+You want to annotate a canvas with some text either as a comment or a tag. In this recipe we are annotating the full Canvas but see [Simple Annotation — Tagging][0021] or [Annotation with a Non-Rectangular Polygon][0261] if you would like to target a specific part or region of the Canvas.
 
 ## Implementation Notes
 
 Annotations for a Canvas are stored in the `annotations` property of the Canvas in the form of an Annotation Page object containing a list of Annotation objects conforming to the [W3C Web Annotation](https://www.w3.org/TR/annotation-model/) format.
 
-The Annotation Page and the Annotations can either be embedded in the manifest (as in the example below) or referenced by providing just the URI of the external document containing the Annotation Page (see [Embedded or Referenced Annotations][269]).
+The Annotation Page and the Annotations can either be embedded in the manifest (as in the example below) or referenced by providing just the URI of the external document containing the Annotation Page (see [Embedded or Referenced Annotations][0269]).
 
 The Annotation Page object must have the `type` `AnnotationPage`, an `id` property containing a unique URI (that does not have to resolve), and an `items` property containing a list with one or more Annotations.
 
@@ -29,7 +29,7 @@ The Annotations should have a `motivation` property that can contain different v
 
 ## Restrictions
 
-The semantic of annotating the full Canvas as a whole can be specified by either using the Canvas URI without fragment or selector as in this example or by using a selector that selects the full area of the Canvas (see [Simple Commenting Annotation][260]). Using a selector that selects the full Canvas area is a more universal pattern and may be better supported by IIIF clients.
+The semantic of annotating the full Canvas as a whole can be specified by either using the Canvas URI without fragment or selector as in this example or by using a selector that selects the full area of the Canvas (see [Simple Annotation — Tagging][0021] for a simple example of how to use a fragment selector). Using a selector that selects the full Canvas area is a more universal pattern and may be better supported by IIIF clients.
 
 ## Example
 
@@ -41,10 +41,12 @@ This example Manifest contains an embedded Annotation containing the text "Gött
 
 ## Related Recipes
 
-* [Simple Commenting Annotation][260] for an Annotation using a selector
+* [Simple Annotation — Tagging][0021] for an Annotation using a fragment selector
+* [Annotation with a Non-Rectangular Polygon][0261] for an Annotation using a SVG selector
 * [Simplest Manifest - Image][0001]
 * [Simplest Manifest - Audio][0002]
 * [Simplest Manifest - Video][0003]
+* [Embedded or Referenced Annotations][0269]
 
 
 {% include acronyms.md %}
