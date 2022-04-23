@@ -17,18 +17,20 @@ You have a photograph of the Laocoön bronze and you would like to show the curr
 
 
 ### Implementation Notes
+This recipe describes the use of navPlace at a Manifest implementation level. For other applications, see related recipes below. It is important to note that navPlace is not semantic and cannot be used to state the purpose of the location it shows. The example uses navPlace to represent the current location of the item, but it is not specified or limited to that, and more accurately we can say that navPlace is used to show a location.
+
 Note that [Google Maps will display coordinates in Latitude, Longitude order](https://developers.google.com/maps/documentation/javascript/reference/coordinates
 ), but [GeoJSON specifies it needs to be supplied in Longitude, Latitude order](https://datatracker.ietf.org/doc/html/rfc7946#section-3.1.1
-). Always confirm the order of your coordinates when gathering them, as other web mapping platforms may have these format inconsistencies. Data from the resource such as an image URL, label or summary is connected with those shapes via `properties` in GeoJSON. 
+). Always confirm the order of your coordinates when gathering them, as other web mapping platforms may have these format inconsistencies. Data from the resource such as an image URL, label or summary is connected with those shapes via `properties` in GeoJSON.
 
-For all the information on how to use the `navPlace` property see the [implementation notes in the IIIF Extensions directory.](https://iiif.io/api/extension/navplace/#5-implementation-notes) 
+For all the information on how to use the `navPlace` property see the [implementation notes in the IIIF Extensions directory.](https://iiif.io/api/extension/navplace/#5-implementation-notes)
 
-For a complete guide on how to use the `navPlace` property see the [IIIF Guides entry for `navPlace`.](https://preview.iiif.io/guides/41-navPlace/guides/iiif.io.api.extension.navplace/)
+For a complete guide on how to use the `navPlace` property, and an example of how it is displayed in a viewer, see the [IIIF Guides entry for `navPlace`.](https://preview.iiif.io/guides/41-navPlace/guides/iiif.io.api.extension.navplace/)
 
 
 ### Example
 The map shows the location of the object represented in the image, the Laocoön bronze by Giovanni Battista Foggini, on display at the Getty Center. 
-The Manifest contains one Canvas with a photograph painted onto it. The `navPlace` property in the Manifest stores geographic information about the photograph. `navPlace` contains GeoJSON-LD, and a client can parse GeoJSON features from `navPlace`. These GeoJSON features are rendered as geometric shapes by web mapping platforms. Data from the resource such as an image URL, label or summary is connected with those shapes via [`properties`](https://tools.ietf.org/html/rfc7946#section-3.2) in GeoJSON, but this is not a required step for seeing the shape on the map.
+The Manifest contains one Canvas with a photograph painted onto it. The `navPlace` property in the Manifest stores geographic information about the photograph, in this case its current location. `navPlace` contains GeoJSON-LD, and a client can parse GeoJSON features from `navPlace`. These GeoJSON features are rendered as geometric shapes by web mapping platforms. Data from the resource such as an image URL, label or summary is connected with those shapes via [`properties`](https://tools.ietf.org/html/rfc7946#section-3.2) in GeoJSON, but this is not a required step for seeing the shape on the map.
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
