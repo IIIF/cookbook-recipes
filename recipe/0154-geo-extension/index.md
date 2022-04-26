@@ -17,7 +17,7 @@ You have a photograph of the Laocoön bronze and you would like to show the curr
 
 
 ### Implementation Notes
-This recipe describes the use of navPlace at a Manifest implementation level. For other applications, see related recipes below. It is important to note that navPlace is not semantic and cannot be used to state the purpose of the location it shows. The example uses navPlace to represent the current location of the item, but it is not specified or limited to that, and more accurately we can say that navPlace is used to show a location.
+This recipe describes the use of `navPlace` at a Manifest implementation level. For other applications, see related recipes below. It is important to note that `navPlace` is not semantic and cannot be used to state the purpose of the location it shows. The example uses `navPlace` to represent the current location of the item, but it is not specified or limited to that, and more accurately we can say that `navPlace` is used to show a location.
 
 Note that [Google Maps will display coordinates in Latitude, Longitude order](https://developers.google.com/maps/documentation/javascript/reference/coordinates
 ), but [GeoJSON specifies it needs to be supplied in Longitude, Latitude order](https://datatracker.ietf.org/doc/html/rfc7946#section-3.1.1
