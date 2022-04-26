@@ -3,7 +3,7 @@
   "id" : "{{ id.url }}",
   "type" : "Manifest",
   "label" : {
-    "en" : [ "Laocöon Bronze" ],
+    "en" : [ "Laocoön Bronze" ],
     "it" : [ "Bronzo Laocoonte e i suoi figli" ]
   },
   "metadata": [
@@ -47,7 +47,7 @@
       "type" : "Feature",
       "properties" : {
         "label" : {
-          "en" : [ "The Laocöon Bronze" ],
+          "en" : [ "The Laocoön Bronze" ],
           "it" : [ "Bronzo Laocoonte e i suoi figli" ]
         }
       },
