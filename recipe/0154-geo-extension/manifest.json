@@ -4,7 +4,7 @@
   "type" : "Manifest",
   "label" : {
     "en" : [ "Laocöon Bronze" ],
-    "it" :[]
+    "it" : [ "Bronzo Laocoonte e i suoi figli" ]
   },
   "metadata": [
     {
@@ -47,7 +47,8 @@
       "type" : "Feature",
       "properties" : {
         "label" : {
-          "en" : [ "The Laocöon Bronze" ]
+          "en" : [ "The Laocöon Bronze" ],
+          "it" : [ "Bronzo Laocoonte e i suoi figli" ]
         }
       },
       "geometry" : {
