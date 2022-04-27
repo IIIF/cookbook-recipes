@@ -1,17 +1,30 @@
 {
-  "@context" : [ "http://iiif.io/api/extension/navplace/context.json", "http://iiif.io/api/presentation/3/context.json" ],
+  "@context" : [ 
+    "http://iiif.io/api/extension/navplace/context.json", 
+    "http://iiif.io/api/presentation/3/context.json" 
+  ],
   "id" : "{{ id.url }}",
   "type" : "Manifest",
   "label" : {
     "en" : [ "Laocoön Bronze" ],
     "it" : [ "Bronzo Laocoonte e i suoi figli" ]
   },
-  "metadata": [
-    {
-      "label": { "en": [ "Author" ] },
-      "value": { "en": [ "Giovanni Battista Foggini" ] }
-    }
-  ],
+  "navPlace" : {
+    "type" : "FeatureCollection",
+    "features" : [ {
+      "type" : "Feature",
+      "properties" : {
+        "label" : {
+          "en" : [ "The Laocoön Bronze" ],
+          "it" : [ "Bronzo Laocoonte e i suoi figli" ]
+        }
+      },
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [ -118.4745559, 34.0776376 ]
+      }
+    } ]
+  },
   "items" : [ {
     "id": "{{ id.path }}/canvas/1",
     "type" : "Canvas",
@@ -40,21 +53,5 @@
         "target" : "{{ id.path }}/canvas/1"
       } ]
     } ]
-  } ],
-  "navPlace" : {
-    "type" : "FeatureCollection",
-    "features" : [ {
-      "type" : "Feature",
-      "properties" : {
-        "label" : {
-          "en" : [ "The Laocoön Bronze" ],
-          "it" : [ "Bronzo Laocoonte e i suoi figli" ]
-        }
-      },
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [ -118.4745559, 34.0776376 ]
-      }
-    } ]
-  }
+  } ]
 }
