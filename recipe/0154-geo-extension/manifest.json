@@ -13,7 +13,7 @@
     }
   ],
   "items" : [ {
-    "id": "{{ id.path }}/canvas/front",
+    "id": "{{ id.path }}/canvas/1",
     "type" : "Canvas",
     "height" : 3000,
     "width" : 2315,
@@ -37,7 +37,7 @@
             "type" : "ImageService3"
           } ]
         },
-        "target" : "{{ id.path }}/canvas/front"
+        "target" : "{{ id.path }}/canvas/1"
       } ]
     } ]
   } ],
