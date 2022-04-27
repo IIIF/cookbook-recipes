@@ -25,7 +25,7 @@ The value for `navPlace` is formatted as GeoJSON. Note that [Google Maps will di
 
 For all the information on how to use the `navPlace` property see the [implementation notes in the IIIF Extensions directory.](https://iiif.io/api/extension/navplace/#5-implementation-notes)
 
-For a complete guide on how to use the `navPlace` property, and an example of how it is displayed in a viewer, see the [IIIF Guides entry for `navPlace`.](https://preview.iiif.io/guides/41-navPlace/guides/iiif.io.api.extension.navplace/)
+For a complete guide on how to use the `navPlace` property, and an example of how it is displayed in a viewer, see the [IIIF Guides entry for `navPlace`.](https://guides.iiif.io/guides/navplace/)
 
 
 ### Example
