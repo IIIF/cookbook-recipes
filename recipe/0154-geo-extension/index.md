@@ -34,11 +34,12 @@ The Manifest contains one Canvas with a photograph painted onto it. The `navPlac
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="3, 12-27"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="3, 13-37"' %}
 
 ## Related Recipes
 * [Represent Canvas Fragment as a Geographic Area in a Web Mapping Client][0139]
 * [Provide Geographic Coordinates for Canvases in a Manifest with navPlace][0240]
+* [Navigation by Chronology][0230]
 
 {% include acronyms.md %}
 {% include links.md %}
