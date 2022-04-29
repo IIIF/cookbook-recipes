@@ -9,8 +9,10 @@
     "it" : [ "Bronzo Laocoonte e i suoi figli" ]
   },
   "navPlace" : {
+    "id" : "{{ id.path }}/feature-collection/1",
     "type" : "FeatureCollection",
     "features" : [ {
+      "id" : "{{ id.path }}/feature/1",
       "type" : "Feature",
       "properties" : {
         "label" : {
