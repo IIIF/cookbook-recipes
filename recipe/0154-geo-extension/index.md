@@ -1,10 +1,10 @@
 ---
-title: Locate a Manifest on a Web Map
 id: 154
-layout: recipe
+title: Locate a Manifest on a Web Map
+topic: geo-recipes
 tags: [maps, geolocate, navPlace]
 summary: "Use the navPlace extension to provide geolocation information about an IIIF Presentation API 3.0 Manifest."
-# Note that navPlace support is not baked into the viewers yet.
+layout: recipe
 viewers:
  - id: UV
    support: none
