@@ -44,6 +44,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Simple Manifest - Book][0009] (19)
 * [Book behavior (paging) variations][0011] (15,16,17)
 * [Viewing direction and its effect on navigation][0010] (11,12,13,14)
+* [Missing images in a sequence][0283]
 * [Manifest Thumbnail][0117]
 * [Implementation discussion: Thumbnails on Canvases][0232]
 * [Load a Preview Image Before the Main Content][0013]
