@@ -31,7 +31,7 @@ The `behavior` property can also be applied to Ranges. For more information on h
 
 ## Example
 
-This example uses the seven volumes of [*Gottesdienstliche Ceremonien, Oder H. Kirchen-Gebräuche Und Religions-Pflichten Der Christen*](https://digital.library.ucla.edu/catalog/ark:/21198/zz001hd85r) which have been bound into a single physical volume (truncated to only a few pages of each of the first 2 volumes here for brevity). The Manifest contains a Range to represent the top-level structure (the physical codex) and additional embedded Ranges to represent each of the discrete textual volumes as well as the front and back matter.
+This example uses the seven volumes of [*Gottesdienstliche Ceremonien, Oder H. Kirchen-Gebräuche Und Religions-Pflichten Der Christen*](https://digital.library.ucla.edu/catalog/ark:/21198/zz001hd85r) which have been bound into a single physical volume (truncated to only a few pages of each of the first 2 volumes here for brevity). The Manifest contains a Range to represent the top-level structure (the physical codex) and additional embedded Ranges to represent each of the discrete textual volumes as well as the front matter.
 ```
 {
     "structures": [
@@ -64,7 +64,7 @@ This will produce an index of the constituent volumes like so:
 
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="402-509"'%}
+{% include jsonviewer.html src="manifest.json" config='data-line="246-315"'%}
 
 ## Related Recipes
 
