@@ -4,8 +4,12 @@ id: 93
 layout: recipe
 tags: [tbc]
 summary: "You want to include a 3D model representation"
+viewers:
+ - Mirador
+ - UV
+topic: property
+property: rendering 
 ---
-
 
 ## Use Case
 
@@ -21,55 +25,11 @@ The rendering MUST have a dereferenceable `id` linking to the supplied 3D model,
 
 
 ## Example
+{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
-```json
-{
-  "@context": [
-    "http://www.w3.org/ns/anno.jsonld",
-    "http://iiif.io/api/presentation//context.json"
-  ],
-  "id": "https://example.org/iiif/book1/manifest",
-  "type": "Manifest",
-  "label": { "en": [ "Image 1" ] },
-  "items": [
-    {
-      "id": "https://example.org/iiif/book1/canvas/p1",
-      "type": "Canvas",
-      "height": 1800,
-      "width": 1200,
-      "items": [
-        {
-          "id": "https://example.org/iiif/book1/page/p1/1",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "https://example.org/iiif/book1/annotation/p0001-image",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "http://iiif.io/api/presentation/2.1/example/fixtures/resources/page1-full.png",
-                "type": "Image",
-                "format": "image/png",
-                "height": 1800,
-                "width": 1200
-              },
-              "target": "https://example.org/iiif/book1/canvas/p1"
-            }
-          ]
-        }
-      ]
-    }    
-  ],
-  "rendering": [
-    {
-      "id": "https://example.org/iiif/book1.glb",
-      "type": "Model",
-      "label": { "en": [ "Download as GLB" ] },
-      "format": "model/gltf-binary"
-    }
-  ]
-}
-```
+{% include jsonviewer.html src="manifest.json" %}
+
+
 
 # Related recipes
 
