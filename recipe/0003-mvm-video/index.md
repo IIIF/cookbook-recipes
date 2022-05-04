@@ -4,6 +4,12 @@ id: 3
 layout: recipe
 tags: [video, presentation]
 summary: "The simplest viable manifest for video content. This pattern presents a single video file in a IIIF Presentation resource."
+viewers:
+ - Mirador
+ - UV
+topic: 
+ - basic
+ - AV
 ---
 
 
@@ -17,9 +23,9 @@ The implementation is identical to the [image example][0001], except that the co
 
 ## Example
 
-This example shows a Manifest with a single Canvas that lasts for 1801 seconds, or just over 30 minutes. It has a single video file (30-minute-clock.mp4) which is associated with it. The mp4 also has a duration of 30 minutes.
+This example shows a Manifest with a single Canvas that lasts for 572 seconds, or just under 10 minutes. It has a single video file (lunchroom_manners_1024kb.mp4) which is associated with it. The mp4 also has a duration of 572 seconds. 
 
-{% include manifest_links.html viewers="UV" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 

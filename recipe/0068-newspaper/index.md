@@ -4,11 +4,12 @@ id: 68
 layout: recipe
 tags: [tbc]
 summary: "tbc"
+topic: realWorldObject
 ---
 
 ## Use Case
 
-Digitised Newspapers are more complicated than some other types of content as the hierarchy of Titles, Volumes and Issues are important in making them accessible. The date of publication and providing access to OCR data are also important to the viewing experience. This recipe gives an example of a basic Newspaper with two issues and links to text generated from Optical Character Recognition (OCR) software. The aim is to give a good outline of common mapping solutions for Newspapers. 
+Digitized Newspapers are more complicated than some other types of content as the hierarchy of Titles, Volumes and Issues are important in making them accessible. The date of publication and providing access to OCR data are also important to the viewing experience. This recipe gives an example of a basic Newspaper with two issues and links to text generated from Optical Character Recognition (OCR) software. The aim is to give a good outline of common mapping solutions for Newspapers. 
 
 ## Implementation notes
 
@@ -21,7 +22,7 @@ The `navDate` is added to the collection in the items property for example:
 
 Full JSON: [newspaper_title-collection.json](newspaper_title-collection.json)
 
-{: class="line-numbers line-highlight" data-line="10,20"}
+{: class="line-numbers" data-line="10,20"}
 ```json
 "items": [
     {
@@ -51,7 +52,7 @@ The `navDate` should also be present in the issue Manifest and can be seen in th
 
 Full JSON: [newspaper_issue_1-manifest.json](newspaper_issue_1-manifest.json)
 
-{: class="line-numbers line-highlight" style="max-height: 15em;" data-line="9"}
+{: class="line-numbers" style="max-height: 15em;" data-line="9"}
 ```json
 {
     "id": "https://.../newspaper_issue_1-manifest.json",
@@ -68,11 +69,11 @@ Full JSON: [newspaper_issue_1-manifest.json](newspaper_issue_1-manifest.json)
 For Editions, a temporal value can be inserted to enforce navigation order. `navDate` is not an assertion of when an issue was published but instead a datetime useful for navigation. Therefore, you can use a `06:00` timestamp for a morning edition and a `17:00` for an evening edition to provide browse order.
 
 ### Linking to Annotations
-Digitised Newspapers often have associated OCR text and to make this available in a IIIF viewer it needs to be in the form of W3C annotations linked from the Newspaper page. An example of this link between page (or IIIF canvas) can be seen highlighted below:
+Digitized Newspapers often have associated OCR text and to make this available in a IIIF viewer it needs to be in the form of W3C annotations linked from the Newspaper page. An example of this link between page (or IIIF canvas) can be seen highlighted below:
 
 Full JSON: [newspaper_issue_1-manifest.json](newspaper_issue_1-manifest.json)
 
-{: class="line-numbers line-highlight" data-line="35-40"}
+{: class="line-numbers" data-line="35-40"}
 ```json
 {
   "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302513/canvas/p1",
@@ -121,7 +122,7 @@ The linked annotations are in the form of an AnnotationPage and an example is be
 
 Full JSON: [newspaper_issue_1-anno_p1.json](newspaper_issue_1-anno_p1.json)
 
-{: class="line-numbers line-highlight" data-line="9, 16"}
+{: class="line-numbers" data-line="9, 16"}
 ```json
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
@@ -153,7 +154,7 @@ As well as linking to annotations, it is a common use case with Newspapers to li
 
 Full JSON: [newspaper_issue_1-manifest.json](newspaper_issue_1-manifest.json)
 
-{: class="line-numbers line-highlight" data-line="9-15"}
+{: class="line-numbers" data-line="9-15"}
 ```json
 {
   "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302513/canvas/p1",
@@ -208,7 +209,7 @@ __Note__:
 
 The first issue links to a version 3.0 image API endpoint:
 
-{: class="line-numbers line-highlight" data-line="6-10"}
+{: class="line-numbers" data-line="6-10"}
 ```json
 "body": {
     "id": "https://iiif.io/api/image/3.0/example/reference/4ce82cef49fb16798f4c2440307c3d6f-newspaper-p1/full/max/0/default.jpg",
@@ -226,7 +227,7 @@ The first issue links to a version 3.0 image API endpoint:
 
 but the second issue links to Europeana hosted version 2 images:
 
-{: class="line-numbers line-highlight" data-line="6-10"}
+{: class="line-numbers" data-line="6-10"}
 ```json
 "body": {
     "id": "https://iiif.europeana.eu/image/3UU6R3RRZZGU2VNISCQX7N474GR7X4VMGYBTIWV2SNCBRGSR2WAA/presentation_images/ea1ba210-ffd3-11e5-b68d-fa163e60dd72/node-2/image/SBB/Berliner_Tageblatt/1925/03/13/0/F_SBB_00001_19250313_054_123_0_001/full/full/0/default.jpg",

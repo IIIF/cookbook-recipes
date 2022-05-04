@@ -4,12 +4,18 @@ id: 1
 layout: recipe
 tags: [image, presentation]
 summary: "The simplest viable manifest for image content. If all you have for an object is one image on the web and a label, this pattern turns it into a IIIF Presentation resource."
+viewers:
+ - Mirador
+ - UV
+topic: 
+ - basic
+ - image
 ---
 
 
 ## Use Case
 
-The simplest viable manifest for image content. If all you have for an object is one image on the web and a label to go along with it, this pattern turns it into a IIIF Presentation resource.
+The simplest viable manifest for image content. If all you have for an object is one image on the web and a label to go along with it, this pattern turns it into a IIIF Presentation resource. If you would like to enable deep zooming, you will need to use a IIIF Image server. For this, see the [Support Deep Viewing with Basic Use of a IIIF Image Service][0005] recipe.
 
 ## Implementation Notes
 
@@ -19,6 +25,9 @@ The JSON-LD opens with the `@context` declaration, which identifies the terms us
 
 The `items` property of the Canvas is a list of annotation pages, in this case there is only one page. The `items` property of the annotation page is a list of annotations, in this case there is only one annotation. This annotation is what links the image resource with the canvas. The `body` of the annotation is an image, the url of which is the `id` property of the body. The dimensions of the image, in pixels, are given and here match the canvas dimensions exactly. The `target` property tells us that the image is associated with the entirety of the canvas, and the `motivation` property of `painting` tells us that a client should render the image to fill the canvas.
 
+## Restrictions
+
+This recipe is not for large images or deep zoom functionality. For this, see the [Support Deep Viewing with Basic Use of a IIIF Image Service][0005] recipe.
 
 ## Example
 
@@ -28,9 +37,10 @@ The `items` property of the Canvas is a list of annotation pages, in this case t
 
 # Related Recipes
 
-* [Simplest Manifest - Audio][0002] and [Simplest Manifest - Video][0003] are equivalent to this example.
-* [Image different size to canvas] shows a canvas with dimensions different from the pixel dimensions of its content.
-* [Multiple values and languages] demonstrates language map variations, for multiple values and multiple languages. 
+* [Simplest Manifest - Audio][0002] and [Simplest Manifest - Video][0003] are equivalent to this example but for other media.
+* [Support Deep Viewing with Basic Use of a IIIF Image Service][0005] shows a basic manifest for use with a IIIF Image server.
+* [Image different size to canvas][0004] shows a canvas with dimensions different from the pixel dimensions of its content.
+* [Multiple values and languages][0006] demonstrates language map variations, for multiple values and multiple languages. 
 
 
 {% include acronyms.md %}
