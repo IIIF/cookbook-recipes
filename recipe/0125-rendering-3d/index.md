@@ -27,7 +27,7 @@ The rendering MUST have a dereferenceable `id` linking to the supplied 3D model,
 ## Example
 {% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="8-15"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="12-22"' %}
 
 
 
