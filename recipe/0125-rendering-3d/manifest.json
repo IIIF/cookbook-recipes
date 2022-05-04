@@ -5,6 +5,14 @@
   "id": "{{ id.url }}",
   "type": "Manifest",
   "label": { "en": [ "Image with 3d rendering" ] },
+  "rendering": [
+    {
+      "id": "https://example.org/iiif/book1.glb",
+      "type": "Model",
+      "label": { "en": [ "Download as GLB" ] },
+      "format": "model/gltf-binary"
+    }
+  ],
   "items": [
     {
       "id": "{{ id.path }}/canvas/1",
@@ -33,13 +41,5 @@
         }
       ]
     }    
-  ],
-  "rendering": [
-    {
-      "id": "https://example.org/iiif/book1.glb",
-      "type": "Model",
-      "label": { "en": [ "Download as GLB" ] },
-      "format": "model/gltf-binary"
-    }
   ]
 }
