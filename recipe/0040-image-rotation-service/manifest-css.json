@@ -28,7 +28,7 @@
               "type": "Annotation",
               "motivation": "painting",
               "stylesheet": {
-                "type": "CSSStylesheet",
+                "type": "CssStylesheet",
                 "value": ".rotated { transform-origin: center; transform: rotate(90deg); }"
               },
               "body": {
