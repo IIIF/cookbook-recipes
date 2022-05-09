@@ -51,7 +51,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Load Manifest Beginning with a Specific Canvas][0202]
 * [Begin playback at a specific point - Time-based media][0015] (65)
 * [Navigation by Chronology][0230]
-* [Display Manifest on a Web Map][0154]
+* [Locate a Manifest on a Web Map][0154]
 * [Acknowledge Content Contributors][0234]
 
 ## Textual and other supplementary content
@@ -148,7 +148,6 @@ _(leading on to segmentation examples later)_
 * Archival collection (hierarchy, paging)
 * Thumbnail range for video navigation
 * [Using Caption and Subtitle Files in Multiple Languages with Video Content][0074]
-* [Represent a Manifest as a Geographic Area in a Web Mapping Client Using navPlace][0154]
 * Mixed Image Service references (a mashup, with img2 and img3 services)
 * Glenn Gould - score and performance scenarios (transcribing)
 * A Map
