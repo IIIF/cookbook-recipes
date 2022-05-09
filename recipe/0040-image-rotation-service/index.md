@@ -21,13 +21,13 @@ There are two ways to direct a client to rotate a IIIF resource: By using an ima
 
 ### Image Service
 
+Rotation of an image may be supported by your IIIF Image API server, and if so, using the image service for rotation is a great way to handle changing the view of an image. To be able to support this recipe your Image API server must support the rotation requested in the selector. Rotation by 90º increments is mandatory for [level 2 IIIF Image API servers](https://iiif.io/api/image/3.0/compliance/#33-rotation) but can be implemented at all levels. Rotation by an arbitrary amount other than 90º, 180º, or 270º (360º being equal to 0º) is always optional, so you would need to familiarize yourself with what your image server supports and look into the profile portion of the server's `info.json`.
+
 In the image service section of your manifest, you must use a `@context` field in order to point to [the `ImageApiSelector` definition](https://iiif.io/api/annex/openannotation/#iiif-image-api-selector) for canonical rotation options. The selector as defined must contain a `type` property whose value must be `ImageApiSelector`. The `rotation` property takes as its value just a positive numeric amount of rotation in degrees. For more  information about the selector and its use outside of rotation, read the full [selector document](https://iiif.io/api/annex/openannotation/#iiif-image-api-selector).
 
-Rotation of an image may be supported by your IIIF Image API server, and if so, using that service for rotation is a great way to handle changing the view of an image. To be able to support this recipe your Image API server must support the rotation requested in the selector. Rotation by 90º increments is mandatory for [level 2 IIIF Image API servers](https://iiif.io/api/image/3.0/compliance/#33-rotation) but can be implemented at all levels. Rotation by an arbitrary amount other than 90º, 180º, or 270º (360º being equal to 0º) is always optional, so you would need to familiarize yourself with what your image servers supports and look into the profile portion of the server's `info.json`.
+This is also true for [mirroring before rotation](https://iiif.io/api/image/3.0/#43-rotation), as this functionality is not mandatory at any level of image service IIIF compliance.
 
-This is true for [mirroring before rotation](https://iiif.io/api/image/3.0/#43-rotation), as this functionality is not mandatory at any level of image service IIIF compliance.
-
-As well, though it is not described in this recipe, an image service may describe a region — rather than a whole Canvas — for rotation by using [the `region` property of the `ImageApiSelector`](https://iiif.io/api/annex/openannotation/#iiif-image-api-selector).
+Finally, you may use an image service to rotate a region — rather than a whole Canvas — by using [the `region` property of the `ImageApiSelector`](https://iiif.io/api/annex/openannotation/#iiif-image-api-selector).
 
 ### Cascading Style Sheets (CSS)
 
@@ -35,7 +35,7 @@ If your resource is not being served from an image server that supports the desi
 
 By using CSS, you may specify arbitrary rotation figures as well as incorporate additional styling values.
 
-Using CSS to alter resource presentation styles is not specified in the [IIIF Presentation 3.0 API](https://iiif.io/api/presentation/3.0/). This section is provided as a convenient but light explanation of this approach, but for a more detailed look at styles in Web Annotations, see [the W3C Web Annotation Data Model's Styles section](https://www.w3.org/TR/annotation-model/#styles).
+Using CSS to alter resource presentation styles is not specified in the [IIIF Presentation 3.0 API](https://iiif.io/api/presentation/3.0/). The Presentation API section is provided as a convenient but light explanation of this approach. For a more detailed look at styles in Web Annotations, see [the W3C Web Annotation Data Model's Styles section](https://www.w3.org/TR/annotation-model/#styles).
 
 ### Rotation and Annotations
 
@@ -49,7 +49,7 @@ The CSS approach depends wholly on viewer implementation of CSS as applied to a 
 
 ## Example
 
-For this recipe, we conveniently had a work on hand that had a page whose text direction was oriented perpendicularly to the facing page. For simplicity's sake, we are using the page in isolation. Because no viewers currently support rotation. we have included here a picture of the page in its original orientation followed by a picture of the page oriented according to the manifests' declarations for rotation.
+For this recipe, we conveniently had a work on hand that had a page whose text direction was oriented perpendicularly to the facing page. For simplicity's sake, we are using the page in isolation. Because no viewers currently support rotation, we have included here a picture of the page in its original orientation followed by a picture of the page oriented according to the manifests' declarations for rotation.
 
 Image of a codex page in its original orientation when reading conventionally:
 
@@ -69,7 +69,7 @@ This Manifest shows how to rotate the image using an Image Service.
 
 ## Example 2: CSS
 
-This Manifest shows how to rotate the image using CSS. For clarity, we are using embedded CSS, but the `stylesheet` property may, rather than a JSON object with `type` and `value` properties, be a string URL pointing to an external stylesheet.
+This Manifest shows how to rotate the image using CSS. For clarity, we are using embedded CSS. Note the declaration of the CSS class in the `value` property of the AnnotationPage's `stylesheet` and the application of that class to the `styleClass` property on the `body`. The `stylesheet` property may instead point to an external stylesheet using a URI in a string or an id and value in a JSON object. See [the W3C Web Annotation Data Model's Styles section](https://www.w3.org/TR/annotation-model/#styles) for more.
 
 {% include manifest_links.html viewers="" manifest="manifest-css.json" %}
 
