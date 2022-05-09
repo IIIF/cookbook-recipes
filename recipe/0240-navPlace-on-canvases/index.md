@@ -13,15 +13,23 @@ viewers:
 ---
 
 ### Use Case
-You have multiple images of art created around the subject "Laocöon". You would like to show the location of those works on a web mapping platform. Over the spread of a group of resources, consistent use of `navPlace` allows for computational addressing of geographic coordinates and arrangement of spatial representations of those resources in WGS84 coordinate space. The web mapping platforms that accomplish this offer varying degrees of interactive behavior, a portion of which are consistent between the platforms. Often, you can interchange between different projections of the surface of the Earth to find a projection that best suits your geographic data.
+You have two photographs of the subject "Laocoön" and you would like to show the current location of the works those photographs as a Point on a web mapping platform. `navPlace` allows you to place the spatial representation (Point, Polygon, Line Segment) of your Canvas on a web map.
 
 ### Implementation Notes
-For all the information on how to use the `navPlace` property see the [implementation notes in the IIIF Extensions directory.](https://iiif.io/api/extension/navplace/#5-implementation-notes) 
-For a complete guide on how to use the `navPlace` property see the [IIIF Guides entry for `navPlace`.](https://preview.iiif.io/guides/41-navPlace/guides/iiif.io.api.extension.navplace/) 
+This recipe describes the use of `navPlace` at a Canvas implementation level. For other applications, see related recipes below. It is important to note that `navPlace` is not semantic and cannot be used to state the purpose of the location it shows. The example uses `navPlace` to represent the current location of the item, but it is not specified or limited to that, and more accurately we can say that `navPlace` is used to show a location.
+
+The value for `navPlace` is formatted as GeoJSON. Note that [Google Maps will display coordinates in Latitude, Longitude order](https://developers.google.com/maps/documentation/javascript/reference/coordinates
+), but [GeoJSON specifies they need to be recorded in Longitude, Latitude order](https://datatracker.ietf.org/doc/html/rfc7946#section-3.1.1
+). Always confirm the order of your coordinates when gathering them, as other web mapping platforms may have these format inconsistencies.
+
+For all the information on how to use the `navPlace` property see the [implementation notes in the IIIF Extensions directory.](https://iiif.io/api/extension/navplace/#5-implementation-notes)
+
+For a complete guide on how to use the `navPlace` property, and an example of how it is displayed in a viewer, see the [IIIF Guides entry for `navPlace`.](https://guides.iiif.io/guides/navplace/)
 
 ### Example
-The Manifest contains images of the bronze by Giovanni Battista Foggini and the painting by _______, and the map shows the locations of these works. 
-The Manifest below contains two Canvases, and each Canvas has a photograph painted onto it. The `navPlace` property in the Canvases stores geographic information from the photographs. `navPlace` contains GeoJSON-LD, and a client can parse GeoJSON features from `navPlace`. These GeoJSON features are rendered as geometric shapes by a web-based map platform. Often, data from the resource such as an image URL, label or summary is connected with those shapes via [`properties`](https://tools.ietf.org/html/rfc7946#section-3.2) in GeoJSON.  Web mapping platforms typically offer built in display functionality for metadata contained in `properties`.
+The Manifest contains images of the bronze by Giovanni Battista Foggini and the painting by _______. The `navPlace` property in each Canvas stores geographic information about the works represented in the photographis, in this case their current location. `navPlace` contains GeoJSON-LD, and a client can parse GeoJSON features from `navPlace`. These GeoJSON features are rendered as geometric shapes by web mapping platforms. Data from the resource such as an image URL, label or summary is connected with those shapes via [`properties`](https://tools.ietf.org/html/rfc7946#section-3.2) in GeoJSON, but this is not a required step for seeing the shape on the map.
+
+{% include manifest_links.html viewers="" manifest="manifest.json" %}
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
