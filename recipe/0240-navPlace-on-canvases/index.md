@@ -13,7 +13,7 @@ viewers:
 ---
 
 ### Use Case
-You have two photographs of the subject "Laocoön" and you would like to show the current location of the works those photographs as a Point on a web mapping platform. `navPlace` allows you to place the spatial representation (Point, Polygon, Line Segment) of your Canvas on a web map.
+You have two photographs of the subject "Laocoön" and you would like to show the current location of the works in those photographs as a Point on a web mapping platform. `navPlace` allows you to place the spatial representation (Point, Polygon, Line Segment) of your Canvas on a web map.
 
 ### Implementation Notes
 This recipe describes the use of `navPlace` at a Canvas implementation level. For other applications, see related recipes below. It is important to note that `navPlace` is not semantic and cannot be used to state the purpose of the location it shows. The example uses `navPlace` to represent the current location of the item, but it is not specified or limited to that, and more accurately we can say that `navPlace` is used to show a location.
