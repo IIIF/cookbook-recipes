@@ -6,7 +6,7 @@
     "en" : [ "Laocöon, geolocated sculpture and painting." ]
   },
   "items" : [ {
-    "id": "{{ id.path }}/canvas/sculpture",
+    "id": "{{ id.path }}/canvas/1",
     "type" : "Canvas",
     "height" : 1024,
     "width" : 790,
@@ -14,8 +14,10 @@
       "en" : [ "Front of Sculpture" ]
     },
     "items" : [ {
+      "id": "{{ id.path }}/anno-page/1",
       "type" : "AnnotationPage",
       "items" : [ {
+        "id": "{{ id.path }}/anno/1",
         "type" : "Annotation",
         "motivation" : "painting",
         "body" : {
@@ -30,12 +32,14 @@
             "type" : "ImageService2"
           } ]
         },
-        "target" : "{{ id.path }}/canvas/sculpture"
+        "target" : "{{ id.path }}/canvas/1"
       } ]
     } ],
     "navPlace" : {
+      "id": "{{ id.path }}/feature-collection/1",
       "type" : "FeatureCollection",
       "features" : [ {
+        "id": "{{ id.path }}/feature/1",
         "type" : "Feature",
         "properties" : {
           "label" : {
@@ -49,7 +53,7 @@
       } ]
     }
   }, {
-    "id": "{{ id.path }}/canvas/painting",
+    "id": "{{ id.path }}/canvas/2",
     "type" : "Canvas",
     "height" : 2823,
     "width" : 3547,
@@ -57,8 +61,10 @@
       "en" : [ "Painting" ]
     },
     "items" : [ {
+      "id": "{{ id.path }}/anno-page/2",
       "type" : "AnnotationPage",
       "items" : [ {
+        "id": "{{ id.path }}/anno/2",
         "type" : "Annotation",
         "motivation" : "painting",
         "body" : {
@@ -73,12 +79,14 @@
             "type" : "ImageService2"
           } ]
         },
-        "target" : "{{ id.path }}/canvas/painting"
+        "target" : "{{ id.path }}/canvas/2"
       } ]
     } ],
     "navPlace" : {
+      "id": "{{ id.path }}/feature-collection/2",
       "type" : "FeatureCollection",
       "features" : [ {
+        "id": "{{ id.path }}/feature/2",
         "type" : "Feature",
         "properties" : {
           "label" : {

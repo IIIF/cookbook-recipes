@@ -1,5 +1,5 @@
 ---
-title: Represent Canvases in a Manifest as Geographic Areas in a Web Mapping Client Using navPlace
+title: Locate Multiple Canvases on a Web Map
 id: 240
 layout: recipe
 tags: [maps, geolocate, navPlace]
@@ -29,7 +29,7 @@ The Manifest below contains two Canvases, and each Canvas has a photograph paint
 
 ## Related Recipes
 * [Represent Canvas Fragment as a Geographic Area in a Web Mapping Client][0139]
-* [Provide Geographic Coordinates for a Manifest with navPlace][0154]
+* [Locate a Manifest on a Web Map][0154]
 
 {% include acronyms.md %}
 {% include links.md %}
