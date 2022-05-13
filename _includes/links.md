@@ -19,7 +19,9 @@
 
 [0021]: {{ site.cookbook_url | absolute_url }}/recipe/0021-tagging/ "Simple Annotation — Tagging"
 
-[0024]: {{ site.cookbook_url | absolute_url }}/recipe/0024-book-4-toc/ "Table of Contents for Book Chapters"
+[0033]: {{site.baseurl}}/recipe/0033-choice/ "Multiple choice of images in a single view"
+[0035]: {{site.baseurl}}/recipe/0035-foldouts/ "Foldouts, Flaps, and Maps"
+[0036]: {{site.baseurl}}/recipe/0036-composition-from-multiple-images/ "Composition from Multiple Images"
 [0026]: {{ site.cookbook_url | absolute_url }}/recipe/0026-toc-opera/ "Table of Contents for A/V Content"
 [0029]: {{ site.cookbook_url | absolute_url }}/recipe/0029-metadata-anywhere/ "Metadata on any Resource"
 [0030]: {{ site.cookbook_url | absolute_url }}/recipe/0030-multi-volume/ "Multi-volume Work with Individually-bound Volumes"
@@ -44,6 +46,8 @@
 [0231]: {{ site.cookbook_url | absolute_url }}/recipe/0231-transcript-meta-recipe/ "Transcripts, Captions, and Subtitles - General Considerations"
 
 [0234]: {{ site.cookbook_url | absolute_url }}/recipe/0234-provider/ "Acknowledge Content Contributors"
+[0261]: {{ site.cookbook_url | absolute_url }}/recipe/0261-non-rectangular-commenting/ "Annotation with a Non-Rectangular Polygon"
+[0258]: {{ site.cookbook_url | absolute_url }}/recipe/0258-tagging-external-resource/ "Tagging with an External Resource"
 
 [0266]: {{ site.cookbook_url | absolute_url }}/recipe/0266-full-canvas-annotation/ "Simplest Annotation"
 [0269]: {{ site.cookbook_url | absolute_url }}/recipe/0269-embedded-or-referenced-annotations/ "Embedded or Referenced Annotations"

@@ -74,6 +74,8 @@ _(leading on to segmentation examples later)_
 * [Simplest Annotation][0266]
 * Fragment selectors (61)
 * [Simple Annotation - Tagging][0021]
+* [Annotation with a Non-Rectangular Polygon][0261]
+* [Tagging with an External Resource][0258]
 * hotspot linking
 * Annotation in the context of a particular content resource https://github.com/IIIF/iiif-stories/issues/101
 * [Geographic coordinates][0139]
@@ -95,10 +97,9 @@ _(leading on to segmentation examples later)_
 
 ## Segmentation and complex resources
 
-* Choice (simplest) (28)
-* Choice - multispectral flavored example, with image services (29)
-* foldouts, etc (Choice or non-paged interlude (flaps vs maps))?
-* [Multiple images (master/detail)][detail-image] (30,31)
+* [Multiple choice of images in a single view][0033] (29)
+* [Foldouts, Flaps, and Maps][0035]
+* [Composition from Multiple Images][0036] (30,31)
 * Multiple images and multiple choices (32,33,34)
 * [Annotating part of an image to a Canvas][recipe-segment-image-part] (e.g., crop out scanner) (35,36,37,38)
 * [Image Rotation Two Ways][0040]
