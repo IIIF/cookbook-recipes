@@ -5,6 +5,8 @@ layout: recipe
 tags: provider
 summary: "Include a rich set of information for each content contributor so clients can make this information visible."
 viewers:
+ - id: Mirador
+   support: partial
 topic: property
 property: provider
 ---
@@ -32,9 +34,9 @@ None known.
 
 In this example, we reuse the front page of a kabuki playbill that was contributed to the IIIF Cookbook by UCLA Library Digital Collections. The `id` for them as an Agent is the US Library of Congress authority ID for the UCLA Library, the `homepage` is their actual homepage, the `logo` is also for the library as a whole, and the `seeAlso` is the US Library of Congress MADS/XML. In your use of this property, you might want to and be able to unify the information in the property differently.
 
-No viewer currently implements `provider` sufficiently fully and correctly.
+Only Mirador implements `provider`, and only partially. The property must be on the Manifest level, and Mirador will only display the text in a `label` under `provider`.
 
-{% include manifest_links.html viewers="" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="15-82"' %}
 
