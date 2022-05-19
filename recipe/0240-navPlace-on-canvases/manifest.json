@@ -1,103 +1,144 @@
 {
-  "@context" : [ "http://iiif.io/api/extension/navplace/context.json", "http://iiif.io/api/presentation/3/context.json" ],
-  "id": "{{ id.url }}",
-  "type" : "Manifest",
-  "label" : {
-    "en" : [ "Laocöon, geolocated sculpture and painting." ]
-  },
-  "items" : [ {
-    "id": "{{ id.path }}/canvas/1",
-    "type" : "Canvas",
-    "height" : 1024,
-    "width" : 790,
-    "label" : {
-      "en" : [ "Front of Sculpture" ]
-    },
-    "items" : [ {
-      "id": "{{ id.path }}/anno-page/1",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "id": "{{ id.path }}/anno/1",
-        "type" : "Annotation",
-        "motivation" : "painting",
-        "body" : {
-          "id" : "https://data.getty.edu/museum/api/iiif/283/full/full/0/default.jpg",
-          "type" : "Image",
-          "format" : "image/jpg",
-          "height" : 1024,
-          "width" : 790,
-          "service" : [ {
-            "id" : "https://data.getty.edu/museum/api/iiif/283",
-            "profile" : "level0",
-            "type" : "ImageService2"
-          } ]
-        },
-        "target" : "{{ id.path }}/canvas/1"
-      } ]
-    } ],
-    "navPlace" : {
-      "id": "{{ id.path }}/feature-collection/1",
-      "type" : "FeatureCollection",
-      "features" : [ {
-        "id": "{{ id.path }}/feature/1",
-        "type" : "Feature",
-        "properties" : {
-          "label" : {
-            "en" : [ "Camera location for picture of the front of the Laocöon sculpture." ]
-          }
-        },
-        "geometry" : {
-          "type" : "Point",
-          "coordinates" : [ -118.4745559, 34.0776376 ]
-        }
-      } ]
-    }
-  }, {
-    "id": "{{ id.path }}/canvas/2",
-    "type" : "Canvas",
-    "height" : 2823,
-    "width" : 3547,
-    "label" : {
-      "en" : [ "Painting" ]
-    },
-    "items" : [ {
-      "id": "{{ id.path }}/anno-page/2",
-      "type" : "AnnotationPage",
-      "items" : [ {
-        "id": "{{ id.path }}/anno/2",
-        "type" : "Annotation",
-        "motivation" : "painting",
-        "body" : {
-          "id" : "https://media.nga.gov/iiif/795ff938-3b16-49f2-a170-8adb71b44012/full/full/0/default.jpg",
-          "type" : "Image",
-          "format" : "image/jpg",
-          "height" : 2823,
-          "width" : 3547,
-          "service" : [ {
-            "id" : "https://api.nga.gov/iiif/795ff938-3b16-49f2-a170-8adb71b44012",
-            "profile" : "level1",
-            "type" : "ImageService2"
-          } ]
-        },
-        "target" : "{{ id.path }}/canvas/2"
-      } ]
-    } ],
-    "navPlace" : {
-      "id": "{{ id.path }}/feature-collection/2",
-      "type" : "FeatureCollection",
-      "features" : [ {
-        "id": "{{ id.path }}/feature/2",
-        "type" : "Feature",
-        "properties" : {
-          "label" : {
-            "en" : [ "Location of painting" ]
-          }
-        },
-        "geometry" : {
-          "type" : "Point",
-          "coordinates" : [ 3.37578, 50.833791 ]
-        }
-      } ]
-    }
-  } ]
+   "@context":[
+      "http://iiif.io/api/extension/navplace/context.json",
+      "http://iiif.io/api/presentation/3/context.json"
+   ],
+   "id":"{{ id.url }}",
+   "type":"Manifest",
+   "label":{
+      "en":[
+         "Laocöon, geolocated sculpture and painting."
+      ]
+   },
+   "items":[
+      {
+         "id":"{{ id.path }}/canvas/1",
+         "type":"Canvas",
+         "height":3000,
+         "width":2315,
+         "label":{
+            "en":[
+               "Front of Bronze"
+            ]
+         },
+         "navPlace":{
+            "id":"https://preview.iiif.io/cookbook/0154-post-trc-update/recipe/0154-geo-extension/feature-collection/1",
+            "type":"FeatureCollection",
+            "features":[
+               {
+                  "id":"https://preview.iiif.io/cookbook/0154-post-trc-update/recipe/0154-geo-extension/feature/1",
+                  "type":"Feature",
+                  "properties":{
+                     "label":{
+                        "en":[
+                           "The Laocoön Bronze"
+                        ],
+                        "it":[
+                           "Bronzo Laocoonte e i suoi figli"
+                        ]
+                     }
+                  },
+                  "geometry":{
+                     "type":"Point",
+                     "coordinates":[
+                        -118.4745559,
+                        34.0776376
+                     ]
+                  }
+               }
+            ]
+         },
+         "items":[
+            {
+               "id":"{{ id.path }}/anno-page/1",
+               "type":"AnnotationPage",
+               "items":[
+                  {
+                     "id":"{{ id.path }}/anno/1",
+                     "type":"Annotation",
+                     "motivation":"painting",
+                     "body":{
+                        "id":"https://iiif.io/api/image/3.0/example/reference/28473c77da3deebe4375c3a50572d9d3-laocoon/full/max/0/default.jpg",
+                        "type":"Image",
+                        "format":"image/jpg",
+                        "height":3000,
+                        "width":2315,
+                        "service":[
+                           {
+                              "id":"https://iiif.io/api/image/3.0/example/reference/28473c77da3deebe4375c3a50572d9d3-laocoon",
+                              "profile":"level1",
+                              "type":"ImageService3"
+                           }
+                        ]
+                     },
+                     "target":"{{ id.path }}/canvas/1"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "id":"{{ id.path }}/canvas/2",
+         "type":"Canvas",
+         "height":3259,
+         "width":4096,
+         "label":{
+            "en":[
+               "Painting"
+            ]
+         },
+         "navPlace":{
+            "id":"{{ id.path }}/feature-collection/2",
+            "type":"FeatureCollection",
+            "features":[
+               {
+                  "id":"{{ id.path }}/feature/2",
+                  "type":"Feature",
+                  "properties":{
+                     "label":{
+                        "en":[
+                           "Location of painting"
+                        ]
+                     }
+                  },
+                  "geometry":{
+                     "type":"Point",
+                     "coordinates":[
+                        -77.0199025,
+                        38.8920717
+                     ]
+                  }
+               }
+            ]
+         },
+         "items":[
+            {
+               "id":"{{ id.path }}/anno-page/2",
+               "type":"AnnotationPage",
+               "items":[
+                  {
+                     "id":"{{ id.path }}/anno/2",
+                     "type":"Annotation",
+                     "motivation":"painting",
+                     "body":{
+                        "id":"https://iiif.io/api/image/3.0/example/reference/58763298b61c2a99f78ff94d8364c639-laocoon_1946_18_1/full/max/0/default.jpg",
+                        "type":"Image",
+                        "format":"image/jpg",
+                        "height":3259,
+                        "width":4096,
+                        "service":[
+                           {
+                              "id":"  https://iiif.io/api/image/3.0/example/reference/58763298b61c2a99f78ff94d8364c639-laocoon_1946_18_1",
+                              "profile":"level1",
+                              "type":"ImageService3"
+                           }
+                        ]
+                     },
+                     "target":"{{ id.path }}/canvas/2"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
 }
