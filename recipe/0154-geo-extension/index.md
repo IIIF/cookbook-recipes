@@ -19,13 +19,13 @@ You have a photograph of the Laocoön bronze and you would like to show the curr
 ### Implementation Notes
 This recipe describes the use of `navPlace` at a Manifest implementation level. For other applications, see related recipes below. It is important to note that `navPlace` is not semantic and cannot be used to state the purpose of the location it shows. The example uses `navPlace` to represent the current location of the item, but it is not specified or limited to that, and more accurately we can say that `navPlace` is used to show a location.
 
-The value for `navPlace` is formatted as GeoJSON. Note that [Google Maps will display coordinates in Latitude, Longitude order](https://developers.google.com/maps/documentation/javascript/reference/coordinates
-), but [GeoJSON specifies they need to be recorded in Longitude, Latitude order](https://datatracker.ietf.org/doc/html/rfc7946#section-3.1.1
+The value for `navPlace` is formatted as GeoJSON. Note that [GeoJSON specifies they need to be recorded in Longitude, Latitude order](https://datatracker.ietf.org/doc/html/rfc7946#section-3.1.1
+), but [Google Maps will display coordinates in Latitude, Longitude order](https://developers.google.com/maps/documentation/javascript/reference/coordinates
 ). Always confirm the order of your coordinates when gathering them, as other web mapping platforms may have these format inconsistencies.
 
-For all the information on how to use the `navPlace` property see the [implementation notes in the IIIF Extensions directory.](https://iiif.io/api/extension/navplace/#5-implementation-notes)
+{ Discuss Feature Collection Mention with Cookbook Group at Call }
 
-For a complete guide on how to use the `navPlace` property, and an example of how it is displayed in a viewer, see the [IIIF Guides entry for `navPlace`.](https://guides.iiif.io/guides/navplace/)
+For technical specifics on implementing the `navPlace` property see the [implementation notes in the IIIF Extensions directory.](https://iiif.io/api/extension/navplace/#5-implementation-notes) You can also refer to the [IIIF Guides entry](https://guides.iiif.io/guides/navplace/) for step-by-step hands-on details on implementation.
 
 
 ### Example
