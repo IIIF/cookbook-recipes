@@ -2,9 +2,9 @@
 title: Locate Multiple Canvases on a Web Map
 id: 240
 layout: recipe
+topic: geo-recipes
 tags: [maps, geolocate, navPlace]
 summary: "Use the navPlace extension to provide geolocation information for the Canvas items of an IIIF Presentation API 3.0 Manifest."
-
 viewers:
  - id: UV
    support: none
@@ -31,9 +31,7 @@ The Manifest contains images of the bronze by Giovanni Battista Foggini and the 
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-{% include manifest_links.html viewers="" manifest="manifest.json" %}
-
-{% include jsonviewer.html src="manifest.json" config='data-line=""' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="2, 38-55, 85-101"' %}
 
 ## Related Recipes
 * [Represent Canvas Fragment as a Geographic Area in a Web Mapping Client][0139]
