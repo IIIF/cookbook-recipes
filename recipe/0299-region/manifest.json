@@ -4,15 +4,16 @@
   "type": "Manifest",
   "label": {
     "en": [
-      "Picture of Göttingen taken during the 2019 IIIF Conference"
+      "Berliner Tageblatt article, 'Ein neuer Sicherungsplan?'"
     ]
   },
+  "language": ["de"],
   "items": [
     {
       "id": "{{ id.path }}/canvas/p1",
       "type": "Canvas",
-      "height": 1239,
-      "width": 1260,
+      "height": 2015,
+      "width": 1768,
       "items": [
         {
           "id": "{{ id.path }}/page/p1/1",
@@ -26,14 +27,14 @@
                 "id": "{{ id.path }}/body/b1",
                 "type": "SpecificResource",
                 "source": {
-					"id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg",
+					"id": "https://iiif.io/api/image/3.0/example/reference/4ce82cef49fb16798f4c2440307c3d6f-newspaper-p2/full/max/0/default.jpg",
 					"type": "Image",
 					"format": "image/jpeg",
-					"height": 3024,
-					"width": 4032,
+					"height": 4999,
+					"width": 3536,
 					"service": [
 					  {
-						"id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
+						"id": "https://iiif.io/api/image/3.0/example/reference/4ce82cef49fb16798f4c2440307c3d6f-newspaper-p2",
 						"profile": "level1",
 						"type": "ImageService3"
 					  }
@@ -42,7 +43,7 @@
                 "selector": {
 					"@context": "http://iiif.io/api/annex/openannotation/context.json",
 					"type": "iiif:ImageApiSelector",
-					"region": "xywh=265,661,1260,1239"
+					"region": "xywh=1768,2423,1768,2015"
                 }
               },
               "target": "{{ id.path }}/canvas/p1"
