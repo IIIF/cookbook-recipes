@@ -11,9 +11,11 @@ topic:
 
 ## Use Case
 
-You would like to display a **[visual]** section of a IIIF resource independently.
+You have a digitized issue of a newspaper. From that digitized object, there is a single article that you would like to display on its own in a viewer, rather than highlighting it with an Annotation as part of the whole issue or even as part of a whole page.
 
 ## Implementation Notes
+
+There are at least three ways to focus on or display a region of a IIIF image: Copy the original image and crop the copy to the desired dimensions, incorporate the whole image and use an Annotation to indicate the region, and point to the region in an independent manifest. The first option sidesteps the benefits of IIIF and walks right into one of the problems that IIIF aims to address, namely the proliferation of copies of high-quality images as an outgrowth of demand for the images. The second option weakens the user's attention on the article of interest, giving them much more information than what achieves your goals. The third option leaves the original image intact, sharpens users' focus on specific content, and by extension allows for concentrated attention on annotations to your specified content.
 
 This recipe requires you to keep in mind two distinctions between a Canvas and a IIIF resource.
 
@@ -21,7 +23,9 @@ For one, to display only a region of a resource on your Canvas, the Canvas dimen
 
 The other significant pertinent distinction is that the process used to retrieve the desired region uses a `selector` of type ImageApiSelector because the process uses the [IIIF Image API](https://iiif.io/api/image/). When addressing a portion of a Canvas, however, an Annotation would use a `selector` of type [FragmentSelector](https://www.w3.org/TR/annotation-model/#fragment-selector) because the Annotation is using the [IIIF Presentation API](https://iiif.io/api/presentation/3.0/#53-canvas) in conformance with the [W3C Web Annotation data model](https://www.w3.org/TR/annotation-model/).
 
-When retrieving a region of an image to display, the Annotation `body` containing the resource is constructed as a `SpecificResource` that in turn contains a `source` with the resource's details.
+In the interest of completeness, it should be noted that you can pull in a region of a IIIF image without using an Image service. 
+
+When using an image service to retrieve a region of an image to display, the Annotation `body` containing the resource is constructed as a `SpecificResource` that in turn contains a `source` with the resource's details.
 
 ## Restrictions
 
@@ -29,11 +33,13 @@ No known restrictions
 
 ## Example
 
-In this example we use an ImageApiSelector on the `body` of the Manifest's sole Annotation to retrieve a 1260x1239 selection from an image of Göttingen, Germany. The region contains the city's Gänsenliesel fountain with the eponymous goose girl sculpture atop it.
+In this example we use an ImageApiSelector on the `body` of the Manifest's sole Annotation to retrieve a single article selection from the 16 February **[year]** issue of _Berliner Tageblatt_. The article discusses a meeting including Neville Chamberlain of Great Britain.
 
 Note: Displaying a region of a Resource is not yet supported in viewers.
 
-{% include manifest_links.html viewers="" manifest="manifest.json" %}
+Level 0 implementation (+/- effective in Mirador only but here more for discussion): {% include manifest_links.html viewers="Mirador" manifest="manifest-level0.json" %}
+
+{% include manifest_links.html viewers="Mirador, UV" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config="data-line='14-15,25-46'" %}
 
