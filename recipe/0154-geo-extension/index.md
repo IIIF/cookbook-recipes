@@ -27,10 +27,13 @@ Note that [GeoJSON specifies coordinates be recorded in Longitude, Latitude orde
 
 For technical specifics on implementing the `navPlace` property see the [implementation notes in the IIIF Extensions directory](https://iiif.io/api/extension/navplace/#5-implementation-notes). You can also refer to the [IIIF Guides entry](https://guides.iiif.io/guides/navplace/) for step-by-step hands-on details on implementation.
 
+The `navPlace` property is not processed by the Universal Viewer or Mirador viewer at this time.
+
 
 ### Example
 The map shows the location of the object represented in the image, the Laocoön bronze by Giovanni Battista Foggini, on display at the Getty Center. 
 The Manifest contains one Canvas with a photograph painted onto it. The `navPlace` property in the Manifest stores geographic information about the bronze in the photograph, in this case the bronze's current location. `navPlace` contains GeoJSON-LD, and a client can parse GeoJSON features from `navPlace`. These GeoJSON features are rendered as geometric shapes by web mapping platforms. Data from the resource such as an image URL, label or summary is connected with those shapes via [`properties`](https://tools.ietf.org/html/rfc7946#section-3.2) in GeoJSON, but this is not a required step for seeing the shape on the map.
+To see an example using a polygonal shape see [Represent Canvas Fragment as a Geographic Area in a Web Mapping Client][0139].
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
