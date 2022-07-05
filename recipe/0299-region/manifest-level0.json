@@ -7,7 +7,6 @@
       "Berliner Tageblatt article, 'Ein neuer Sicherungsplan?'"
     ]
   },
-  "language": ["de"],
   "items": [
     {
       "id": "{{ id.path }}/canvas/p1",
