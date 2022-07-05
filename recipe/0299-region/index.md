@@ -40,11 +40,11 @@ Note: Displaying solely a region of a IIIF resource using an Image service is no
 ### Level 0 implementation
 (+/- effective in Mirador only but here more for discussion)
 {% include manifest_links.html viewers="Mirador" manifest="manifest-level0.json" %}
-{% include jsonviewer.html src="manifest-level0.json" config="data-line='17-18,25-35'" %}
+{% include jsonviewer.html src="manifest-level0.json" config="data-line='14-15,22-32'" %}
 
 ### Full Image service implementation
 {% include manifest_links.html viewers="Mirador, UV" manifest="manifest.json" %}
-{% include jsonviewer.html src="manifest.json" config="data-line='17-18,25-51'" %}
+{% include jsonviewer.html src="manifest.json" config="data-line='14-15,25-48'" %}
 
 ## Related Recipes
 
