@@ -1,0 +1,283 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "{{ id.url }}",
+  "type": "Manifest",
+  "label": {
+    "de": [ "Gottesdienstliche Ceremonien, Oder H. Kirchen-Gebräuche Und Religions-Pflichten Der Christen" ]
+  },
+  "items": [
+    {
+      "id": "{{ id.path }}/canvas/p1",
+      "type": "Canvas",
+      "label": { "en": [ "Front cover" ] },
+      "height": 7230,
+      "width": 5428,
+      "items": [
+        {
+          "id": "{{ id.path }}/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-1_frontcover/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 7230,
+                "width": 5428,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-1_frontcover",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "{{ id.path }}/canvas/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "{{ id.path }}/canvas/p2",
+      "type": "Canvas",
+      "label": { "en": [ "Inside front cover" ] },
+      "height": 7230,
+      "width": 5428,
+      "items": [
+        {
+          "id": "{{ id.path }}/page/p2/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/annotation/p0002-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-2_insidefrontcover/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 7230,
+                "width": 5428,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-2_insidefrontcover",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "{{ id.path }}/canvas/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "{{ id.path }}/canvas/p3",
+      "type": "Canvas",
+      "label": { "en": [ "Vol. 1 title page" ] },
+      "height": 7230,
+      "width": 5428,
+      "items": [
+        {
+          "id": "{{ id.path }}/page/p3/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/annotation/p0003-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-3_titlepage1/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 7230,
+                "width": 5428,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-3_titlepage1",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "{{ id.path }}/canvas/p3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "{{ id.path }}/canvas/p4",
+      "type": "Canvas",
+      "label": { "en": [ "Vol. 1 title page (verso)" ] },
+      "height": 7230,
+      "width": 5428,
+      "items": [
+        {
+          "id": "{{ id.path }}/page/p4/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/annotation/p0004-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-4_titlepage1_verso/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 7230,
+                "width": 5428,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-4_titlepage1_verso",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "{{ id.path }}/canvas/p4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "{{ id.path }}/canvas/p5",
+      "type": "Canvas",
+      "label": { "en": [ "Vol. 2 title page" ] },
+      "height": 7230,
+      "width": 5428,
+      "items": [
+        {
+          "id": "{{ id.path }}/page/p5/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/annotation/p0005-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-5_titlepage2/max/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 7230,
+                "width": 5428,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-5_titlepage2",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "{{ id.path }}/canvas/p5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "{{ id.path }}/canvas/p6",
+      "type": "Canvas",
+      "label": { "en": [ "Vol. 2 title page (verso)" ] },
+      "height": 7230,
+      "width": 5428,
+      "items": [
+        {
+          "id": "{{ id.path }}/page/p6/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/annotation/p0006-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-6_titlepage2_verso/max/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 7230,
+                "width": 5428,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/15f769d62ca9a3a2deca390efed75d73-6_titlepage2_verso",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "{{ id.path }}/canvas/p6"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "structures": [
+    {
+      "id": "{{ id.path }}/range/r0",
+      "type": "Range",
+      "label": {
+        "de": [ "Gottesdienstliche Ceremonien, Oder H. Kirchen-Gebräuche Und Religions-Pflichten Der Christen" ]
+      },
+      "items": [
+        {
+          "id": "{{ id.path }}/range/r1",
+          "type": "Range",
+          "label": {
+            "en": [ "Front Matter" ]
+          },
+          "items": [
+            {
+              "id": "{{ id.path }}/canvas/p1",
+              "type": "Canvas"
+            },
+            {
+              "id": "{{ id.path }}/canvas/p2",
+              "type": "Canvas"
+            }
+          ]
+        },
+        {
+          "id": "{{ id.path }}/range/r2",
+          "type": "Range",
+          "label": {
+            "de": [ "Erste Ausgabe. Begreift die Ceremonien der Lutheraner von der Augspurgischen Confession, der Reformirten, der Holländischen u. a. Kirchen" ]
+          },
+          "items": [
+            {
+              "id": "{{ id.path }}/canvas/p3",
+              "type": "Canvas"
+            },
+            {
+              "id": "{{ id.path }}/canvas/p4",
+              "type": "Canvas"
+            }
+          ]
+        },
+        {
+          "id": "{{ id.path }}/range/r3",
+          "type": "Range",
+          "label": {
+            "de": [ "Zweyte Ausgabe. Begreift die Ceremonien der Engl. hohen Kirche : Der Quacker, der Anabaptisten, der Adamiten, der Flagellanten, der Frey-Maurer, der Rhinsbürger..." ]
+          },
+          "items": [
+            {
+              "id": "{{ id.path }}/canvas/p5",
+              "type": "Canvas"
+            },
+            {
+              "id": "{{ id.path }}/canvas/p6",
+              "type": "Canvas"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
