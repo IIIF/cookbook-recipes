@@ -24,6 +24,8 @@ The value for `navPlace` is formatted as GeoJSON. Note that [GeoJSON specifies t
 
 For technical specifics on implementing the `navPlace` property see the [implementation notes in the IIIF Extensions directory](https://iiif.io/api/extension/navplace/#5-implementation-notes). You can also refer to the [IIIF Guides entry](https://guides.iiif.io/guides/navplace/) for step-by-step hands-on details on implementation.
 
+The `navPlace` property is not processed by the Universal Viewer or Mirador viewer at this time.
+
 ### Example
 The Manifest contains images of the bronze by Giovanni Battista Foggini and the painting _Laocoön_ by El Greco. The `navPlace` property in each Canvas stores geographic information about the works represented in the photographs, in this case their current location. `navPlace` contains GeoJSON-LD, and a client can parse GeoJSON features from `navPlace`. These GeoJSON features are rendered as geometric shapes by web mapping platforms. Data from the resource such as an image URL, label or summary is connected with those shapes via [`properties`](https://tools.ietf.org/html/rfc7946#section-3.2) in GeoJSON, but this is not a required step for seeing the shape on the map.
 
