@@ -16,9 +16,11 @@ viewers:
 You have two photographs of the subject Laocoön, one of a bronze statue and the other of a painting. You would like to show where the two works are located as Points on a web mapping platform. `navPlace` allows you to place the spatial representation (Point, Polygon, Line Segment) of your Canvas on a web map.
 
 ### Implementation Notes
-This recipe describes the use of `navPlace` at a Canvas implementation level. For other applications, see related recipes below. It is important to note that `navPlace` is not semantic and cannot be used to state the purpose of the location it shows. The example uses `navPlace` to represent the current location of the item, but it is not specified or limited to that, and more accurately we can say that `navPlace` is used to show a location.
+This recipe describes the use of `navPlace` at a Canvas implementation level. For other applications, see related recipes below. It is important to note that `navPlace` is not semantic and cannot be used to state the purpose of the location it shows. The example uses `navPlace` to represent the current location of the items, but it is not specified or limited to that, and more accurately we can say that `navPlace` is used to show a location.
 
-The value for `navPlace` is formatted as GeoJSON. Note that [GeoJSON specifies they need to be recorded in Longitude, Latitude order](https://datatracker.ietf.org/doc/html/rfc7946#section-3.1.1
+The value for `navPlace` is a single [GeoJSON Feature Collection](https://iiif.io/api/extension/navplace/#222-feature-collection). A Feature Collection represents an aggregation of spatially bounded areas. A Feature Collection has a `type` property that must be “FeatureCollection”. A Feature Collection has a `features` list that contains [GeoJSON Features](https://iiif.io/api/extension/navplace/#223-feature). Each Feature type has coordinates that corresponds to a shape such as a Point or Polygon. An `id` is not required in an embedded Feature Collection, but is required when the value is a [referenced](https://iiif.io/api/extension/navplace/#13-terminology) Feature Collection. In this case, each Canvas is showing individual locations and so each Canvas needs its own Feature Collection.
+
+Note that [GeoJSON specifies coordinates be recorded in Longitude, Latitude order](https://datatracker.ietf.org/doc/html/rfc7946#section-3.1.1
 ), but [Google Maps will display coordinates in Latitude, Longitude order](https://developers.google.com/maps/documentation/javascript/reference/coordinates
 ). Always confirm the order of your coordinates when gathering them, as other web mapping platforms may have these format inconsistencies.
 
@@ -31,11 +33,12 @@ The Manifest contains images of the bronze by Giovanni Battista Foggini and the 
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="2-5, 24-50, 90-113"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="3, 24-50, 90-113"' %}
 
 ## Related Recipes
 * [Represent Canvas Fragment as a Geographic Area in a Web Mapping Client][0139]
 * [Locate a Manifest on a Web Map][0154]
+* [Navigation by Chronology][0230]
 
 {% include acronyms.md %}
 {% include links.md %}
