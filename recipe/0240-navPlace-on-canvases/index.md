@@ -29,7 +29,7 @@ The Manifest contains images of the bronze by Giovanni Battista Foggini and the 
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="2, 38-55, 85-101"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="2-5, 24-50, 90-113"' %}
 
 ## Related Recipes
 * [Represent Canvas Fragment as a Geographic Area in a Web Mapping Client][0139]
