@@ -1,9 +1,9 @@
 ---
-title: Addressing a Region
+title: Addressing a Spatial Region
 id: 299
 layout: recipe
 tags: [fragment]
-summary: "Presenting a region of an image independently"
+summary: "Presenting a spatial region of an image independently"
 viewers:
 topic: 
  - basic
@@ -19,31 +19,33 @@ There are at least three ways to focus on a region of a IIIF image or limit the 
 
 To display only a region of a resource on your Canvas, the Canvas dimensions should relate to the region you want to display, not to the whole resource. Note, however (as discussed in [recipe 4][0004]) that the Canvas is a dimensionless set of coordinates. If desired, the dimensions of the Canvas may be different numeric values than the region you are displaying, but must be the same proportions if you want the region displayed with an  unchanged dimension ratio.
 
-When using the [IIIF Image API](https://iiif.io/api/image/) to retrieve only the desired region of a IIIF resource, the manifest uses a `selector` of type [ImageApiSelector](https://iiif.io/api/annex/openannotation/#iiif-image-api-selector) to pass the desired parameters to the IIIF Image service. In addition, when using an Image service to retrieve your intended region of a IIIF resource, the Annotation `body` containing the resource is constructed as a `SpecificResource` that in turn contains a `source` with the resource's details.
+When using the [IIIF Image API](https://iiif.io/api/image/) to retrieve only a region of a IIIF resource, the manifest uses a `selector` of type [ImageApiSelector](https://iiif.io/api/annex/openannotation/#iiif-image-api-selector) to pass the desired parameters to the IIIF Image service. When transmitting coordinates and dimensions for the region, note that the `region` property of the selector takes only those values, comma-separated, rather than the values in addition to a parameter type as the `FragmentSelector` uses. In addition, when using an Image service to retrieve your intended region of a IIIF resource, the Annotation `body` containing the resource is constructed as a [`SpecificResource`](https://www.w3.org/TR/annotation-model/#specific-resources) containing in turn a `source` with the resource's details.
 
-This recipe brings into relief the polyvocality of Annotations. On the one hand, the term and syntax is used to pull in to a viewer a IIIF resource and place it in a coordinate space. This sort of Annotation takes the `motivation` value of `painting`, leaning on a metaphor of painting the resource onto a Canvas. On the other hand, the term can be used to refer to IIIF content that marks in some way all or part of a Canvas and contributes additional data, usually in connection with a `painting`-type Annotation. Because these Annotations can have multiple values for their `motivation` property, we tend to refer to them not-very-cleverly as "non-painting Annotations".
+TO DO: [Note here that using the ImageAPI Selector means you can't use time regions or svg, using an svgselector or a fragment selector "which is out of scope for this recipe"
 
-*Why did we need this part, again?* To paint the region onto a specific portion of a Canvas, however, an Annotation would use a `selector` of type [FragmentSelector](https://www.w3.org/TR/annotation-model/#fragment-selector) because the Annotation is using the [IIIF Presentation API](https://iiif.io/api/presentation/3.0/#53-canvas) in conformance with the [W3C Web Annotation data model](https://www.w3.org/TR/annotation-model/).
+
+
+This recipe brings into relief the polyvocality of the term "Annotation". On the one hand, the term and the IIIF construct refers to pulling in to a viewer a IIIF resource and placing it in a coordinate space. This sort of Annotation takes the `motivation` value of `painting`, using a metaphor from the arts to describe placing the resource onto a Canvas, and therefore are usually called "painting Annotations". On the other hand, the term can be used to refer to IIIF content that marks all or part of a Canvas and contributes additional data. Because these latter kind of Annotations can have multiple values for their `motivation` property, they are frequently labeled "non-painting Annotations" as a group.
 
 In the interest of completeness, it should be noted that it is possible to pull in a region of a IIIF image without using an Image service. As with any IIIF use of a static image, the image will only be enlarged in the viewer, where an Image service offers among other benefits a download speed benefit of a tiled image, where the tiles are sized appropriate to zoom level.
 
 ## Restrictions
 
-No known restrictions
+This recipe only addresses retrieving a rectangular region from an image resource. The IIIF Presentation 3.0 API permits retrieving a segment of a time-based resource
 
 ## Examples
 
 In this example we use an ImageApiSelector on the `body` of the Manifest's sole Annotation to retrieve a single article selection from the 16 February 1925 issue of _Berliner Tageblatt_. The article discusses a meeting including Neville Chamberlain of Great Britain.
 
-Note: Displaying solely a region of a IIIF resource using an Image service is not yet supported in viewers.
-
 ### Level 0 implementation
 (+/- effective in Mirador only but here more for discussion)
-{% include manifest_links.html viewers="Mirador" manifest="manifest-level0.json" %}
+{% include manifest_links.html viewers="Mirador, UV" manifest="manifest-level0.json" %}
 {% include jsonviewer.html src="manifest-level0.json" config="data-line='14-15,22-32'" %}
 
 ### Full Image service implementation
-{% include manifest_links.html viewers="Mirador, UV" manifest="manifest.json" %}
+*Displaying a region of a IIIF resource using an Image service is not yet supported in viewers.*
+
+{% include manifest_links.html manifest="manifest.json" %}
 {% include jsonviewer.html src="manifest.json" config="data-line='14-15,25-48'" %}
 
 ## Related Recipes

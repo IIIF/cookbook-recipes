@@ -11,7 +11,7 @@
     {
       "id": "{{ id.path }}/canvas/p1",
       "type": "Canvas",
-      "height": 2015,
+      "height": 2080,
       "width": 1768,
       "items": [
         {
@@ -26,8 +26,8 @@
                 "id": "https://iiif.io/api/image/3.0/example/reference/4ce82cef49fb16798f4c2440307c3d6f-newspaper-p2/1768,400,1768,2080/max/0/default.jpg",
                 "type": "Image",
 				"format": "image/jpeg",
-				"height": 4999,
-				"width": 3536
+				"height": 2080,
+				"width": 1768
               },
               "target": "{{ id.path }}/canvas/p1"
             }

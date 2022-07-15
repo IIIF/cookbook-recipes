@@ -11,7 +11,7 @@
     {
       "id": "{{ id.path }}/canvas/p1",
       "type": "Canvas",
-      "height": 2015,
+      "height": 2080,
       "width": 1768,
       "items": [
         {
@@ -42,7 +42,7 @@
                 "selector": {
 					"@context": "http://iiif.io/api/annex/openannotation/context.json",
 					"type": "iiif:ImageApiSelector",
-					"region": "xywh=1768,2423,1768,2015"
+					"region": "1768,2423,1768,2080"
                 }
               },
               "target": "{{ id.path }}/canvas/p1"
