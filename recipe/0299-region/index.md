@@ -35,14 +35,6 @@ No known restrictions
 
 In this example we use an ImageApiSelector on the `body` of the Manifest's sole Annotation to retrieve a single article selection from the 16 February 1925 issue of _Berliner Tageblatt_. The article discusses a meeting including Neville Chamberlain of Great Britain.
 
-### Level 0 implementation
-(+/- effective in Mirador only but here more for discussion)
-{% include manifest_links.html viewers="Mirador, UV" manifest="manifest-level0.json" %}
-{% include jsonviewer.html src="manifest-level0.json" config="data-line='14-15,22-32'" %}
-
-### Full Image service implementation
-*Displaying a region of a IIIF resource using an Image service is not yet supported in viewers.*
-
 {% include manifest_links.html manifest="manifest.json" %}
 {% include jsonviewer.html src="manifest.json" config="data-line='14-15,25-48'" %}
 
