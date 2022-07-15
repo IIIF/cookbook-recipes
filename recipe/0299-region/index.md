@@ -3,7 +3,7 @@ title: Addressing a Spatial Region
 id: 299
 layout: recipe
 tags: [fragment]
-summary: "Presenting a spatial region of an image independently"
+summary: "Presenting a spatial region of a IIIF image resource independently"
 viewers:
 topic: 
  - basic
@@ -15,9 +15,9 @@ You have a digitized issue of a newspaper. From that digitized object, there is 
 
 ## Implementation Notes
 
-There are at least three ways to focus on a region of a IIIF image or limit the display to a region: Crop a resource or copy of the resource to the desired dimensions, use an Annotation on the full resource to indicate the region, or point to the region in an independent manifest. The first option sidesteps the benefits of IIIF and walks right into one of the problems that IIIF aims to address, namely the proliferation of copies of high-quality images as uses for the image grows. The second option assumes that you and/or the user wants to see the article in context. The third option leaves the original image intact, sharpens users' focus on specific content, and by extension can facilitate concentrated attention on annotations to your specified content.
+There are at least three ways to focus on a region of a IIIF image or limit the display to a region: Crop a resource or copy of the resource to the desired dimensions, use an Annotation on the full resource to indicate the region, or point to the region in an independent manifest. The first option sidesteps the benefits of IIIF and walks right into one of the problems that IIIF aims to address, namely the proliferation of copies of high-quality images as image re-use grows. The second option assumes that you and/or the user wants to see the article in context. The third option leverages the abilities of IIIF to leave the original image intact, sharpen users' focus on specific content, and by extension facilitate concentrated attention on annotations to the specified content.
 
-To display only a region of a resource on your Canvas, the Canvas dimensions should relate to the region you want to display, not to the whole resource. Note, however (as discussed in [recipe 4][0004]) that the Canvas is a dimensionless set of coordinates. If desired, the dimensions of the Canvas may be different numeric values than the region you are displaying, but must be the same proportions if you want the region displayed with an  unchanged dimension ratio.
+To display only a region of a resource on your Canvas, set the Canvas dimensions to the region you want to display, not to the whole resource. Note, however (as discussed in [recipe 4][0004]) that the Canvas is a dimensionless set of coordinates. If desired, the dimensions of the Canvas may be different numeric values than the region you are displaying, but must be the same proportions if you want the region displayed with an  unchanged dimension ratio.
 
 When using the [IIIF Image API](https://iiif.io/api/image/) to retrieve only a region of a IIIF resource, the manifest uses a `selector` of type [ImageApiSelector](https://iiif.io/api/annex/openannotation/#iiif-image-api-selector) to pass the desired parameters to the IIIF Image service. When transmitting coordinates and dimensions for the region, note that the `region` property of the selector takes only those values, comma-separated, rather than the values in addition to a parameter type as the `FragmentSelector` uses. In addition, when using an Image service to retrieve your intended region of a IIIF resource, the Annotation `body` containing the resource is constructed as a [`SpecificResource`](https://www.w3.org/TR/annotation-model/#specific-resources) containing in turn a `source` with the resource's details.
 
@@ -25,7 +25,7 @@ The pattern implied by this recipe can be applied to pulling a temporal segment 
 
 This recipe brings into relief the polyvocality of the term "Annotation". On the one hand, the term and the IIIF construct refers to pulling in to a viewer a IIIF resource and placing it in a coordinate space. This sort of Annotation takes the `motivation` value of `painting`, using a metaphor from the arts to describe placing the resource onto a Canvas, and therefore are usually called "painting Annotations". On the other hand, the term can be used to refer to IIIF content that marks all or part of a Canvas and contributes additional data. Because these latter kind of Annotations can have multiple values for their `motivation` property, they are frequently labeled "non-painting Annotations" as a group.
 
-In the interest of completeness, it should be noted that it is possible to pull in a region of a IIIF image without using an Image service. As with any IIIF use of a static image, the image will only be enlarged in the viewer, where an Image service offers among other benefits a download speed benefit of a tiled image, where the tiles are sized appropriate to zoom level.
+In the interest of completeness, it should be noted that it is possible to pull in a region of a IIIF image without using an Image service. As with any IIIF use of a static image, the image will only be enlarged in the viewer, where an Image service offers among other benefits the download speed benefit of a tiled image, where the tiles are sized appropriate to zoom level and only delivered to the viewer when requested by the browser.
 
 ## Restrictions
 
