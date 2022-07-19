@@ -28,7 +28,7 @@
 {% elsif include.type == 'Annona' %}
     {% if include.annotationurl %}
         {% capture viewer_url %}
-            https://ncsu-libraries.github.io/annona/tools/#/display?url={{ site.url }}{{ site.baseurl }}{{ page.url}}{{ include.annotationurl }}&manifesturl={{manifest_url |strip}}&viewtype=storyboard&settings=%7B%22fullpage%22%3Atrue%7D
+            https://ncsu-libraries.github.io/annona/tools/#/display?url={{ site.url }}{{ site.baseurl }}{{ page.url}}{{ include.annotationurl }}&manifesturl={{manifest_url |strip}}&viewtype=iiif-storyboard&settings=%7B%22fullpage%22%3Atrue%7D
         {% endcapture %}
     {% else %}
         {% capture viewer_url %}
