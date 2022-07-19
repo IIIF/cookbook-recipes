@@ -26,7 +26,7 @@
     {% endcapture %}
     {% assign default_text="View in IIIF Curation Viewer" %}
 {% elsif include.type == 'Annona' %}
-    {% if inclue.annotationurl %}
+    {% if include.annotationurl %}
         {% capture viewer_url %}
             https://ncsu-libraries.github.io/annona/tools/#/display?url={{ site.url }}{{ site.baseurl }}{{ page.url}}{{ include.annotationurl }}&manifesturl={{manifest_url |strip}}&viewtype=storyboard&settings=%7B%22fullpage%22%3Atrue%7D
         {% endcapture %}
