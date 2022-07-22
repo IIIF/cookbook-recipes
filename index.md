@@ -51,6 +51,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Load Manifest Beginning with a Specific Canvas][0202]
 * [Begin playback at a specific point - Time-based media][0015] (65)
 * [Navigation by Chronology][0230]
+* [Locate a Manifest on a Web Map][0154]
 * [Acknowledge Content Contributors][0234]
 
 ## Textual and other supplementary content
@@ -92,7 +93,7 @@ _(leading on to segmentation examples later)_
 ## Higher-level structure
 
 * [Multi-volume Work with Individually-bound Volumes][0030]
-* bound multi-volume work
+* [Multiple Volumes in a Single Bound Volume][0031]
 * paged Collections (from #1343)
 
 ## Segmentation and complex resources
@@ -102,7 +103,7 @@ _(leading on to segmentation examples later)_
 * [Composition from Multiple Images][0036] (30,31)
 * Multiple images and multiple choices (32,33,34)
 * [Annotating part of an image to a Canvas][recipe-segment-image-part] (e.g., crop out scanner) (35,36,37,38)
-* Image with CSS Rotation (39)
+* [Image Rotation Two Ways][0040]
 * Reusing an image service (ImageApiSelector) (41)
 * non-rectangular segmentation
 * temporal segmentation

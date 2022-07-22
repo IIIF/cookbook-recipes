@@ -1,0 +1,60 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "{{ id.url }} ",
+    "type": "Manifest",
+    "label": {
+        "ca": [
+            "[Conoximent de las orines] Ihesus, Ihesus. En nom de Deu et dela beneyeta sa mare e de tots los angels i archangels e de tots los sants e santes de paradis yo micer Johannes comense aquest libre de reseptes en l’ayn Mi 466."
+        ]
+    },
+    "items": [
+        {
+            "id": "{{ id.path }}/canvas/p1",
+            "type": "Canvas",
+            "label": {
+                "en": [
+                    "inside cover; 1r"
+                ]
+            },
+            "width": 2105,
+            "height": 1523,
+            "items": [
+                {
+                    "id": "{{ id.path }}/p1/1",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "{{ id.path }}/annotation/v0001-image",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "{{ id.path }}/body/v0001-image",
+                                "type": "SpecificResource",
+                                "source": {
+                                    "id": "https://iiif.io/api/image/3.0/example/reference/85a96c630f077e6ac6cb984f1b752bbf-0-21198-zz00022840-1-page1/full/max/0/default.jpg",
+                                    "type": "Image",
+                                    "format": "image/jpeg",
+                                    "width": 1523,
+                                    "height": 2105,
+                                    "service": [
+                                        {
+                                            "id": "https://iiif.io/api/image/3.0/example/reference/85a96c630f077e6ac6cb984f1b752bbf-0-21198-zz00022840-1-page1",
+                                            "type": "ImageService3",
+                                            "profile": "level1"
+                                        }
+                                    ]
+                                },
+                                "selector": {
+                                    "@context": "http://iiif.io/api/annex/openannotation/context.json",
+                                    "type": "iiif:ImageApiSelector",
+                                    "rotation": "90"
+                                }
+                            },
+                            "target": "{{ id.path }}/canvas/p1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
