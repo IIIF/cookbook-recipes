@@ -128,7 +128,7 @@
                         "width":4096,
                         "service":[
                            {
-                              "id":"  https://iiif.io/api/image/3.0/example/reference/58763298b61c2a99f78ff94d8364c639-laocoon_1946_18_1",
+                              "id":"https://iiif.io/api/image/3.0/example/reference/58763298b61c2a99f78ff94d8364c639-laocoon_1946_18_1",
                               "profile":"level1",
                               "type":"ImageService3"
                            }
