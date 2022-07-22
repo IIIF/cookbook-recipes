@@ -6,9 +6,7 @@ tags: image, manipulation, service, CSS
 summary: "Two approaches for rotating an image or annotation on a canvas"
 viewers:
 topic: 
- - basic
  - image
- - service
 ---
 
 ## Use Case
