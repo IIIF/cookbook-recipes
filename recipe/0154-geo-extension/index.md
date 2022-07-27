@@ -6,10 +6,7 @@ tags: [maps, geolocate, navPlace]
 summary: "Use the navPlace extension to provide geolocation information about an IIIF Presentation API 3.0 Manifest."
 layout: recipe
 viewers:
- - id: UV
-   support: none
- - id: Mirador
-   support: none
+
 ---
 
 ### Use Case
