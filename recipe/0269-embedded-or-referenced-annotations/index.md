@@ -7,6 +7,7 @@ summary: "Annotations can be embedded in the manifest or referenced from externa
 topic: annotation
 viewers:
  - Mirador
+ - Annona
 ---
 
 ## Use Case
@@ -50,13 +51,13 @@ The rendering of this referenced Annotation should be virtually indistiguishable
 
 ### Manifest file
 
-{% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador, Annona" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="44-49"' %}
 
 ### Annotation Page file
 
-{% include manifest_links.html viewers="" manifest="annotationpage.json" %}
+{% include manifest_links.html viewers="Annona" manifest="manifest.json" annotationurl="annotationpage.json" %}
 
 {% include jsonviewer.html src="annotationpage.json" %}
 
