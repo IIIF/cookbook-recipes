@@ -26,13 +26,11 @@ topics:
 In the 2021 Working meeting there was a presentation on viewer support for IIIF 3.0 and the community asked if this presentation could be turned into a matrix so the community can see which viewers support which area of the IIIF specifications. This matrix is generated automatically from the recipes and if you notice any thing that is incorrect please report it to the [cookbook GitHub site](https://github.com/IIIF/cookbook-recipes/issues/new).
 
 ## Which viewers are included?
-Currently only [Mirador](https://projectmirador.org/) and the [Universal Viewer](https://universalviewer.io/) are listed on the cookbook and we welcome the addition of other IIIF viewers but they must support the following features:
+Currently [Mirador](https://projectmirador.org/), the [Universal Viewer](https://universalviewer.io/) and [Annona](https://ncsu-libraries.github.io/annona/multistoryboard/) are listed on the cookbook and we welcome the addition of other IIIF viewers but they must support the following features:
 
  * Support for the [IIIF version 3.0 Presentation API](https://iiif.io/api/presentation/3.0/)
  * Have a public instance available that we can link to, ideally using the `iiif-content` parameter from the [IIIF Content State API](https://iiif.io/api/content-state/)
  * Support at least 1 cookbook recipe 
-
-Currently the cookbook uses Mirador 3 and UV version 3.  
 
 ## Viewer Matrix
 
