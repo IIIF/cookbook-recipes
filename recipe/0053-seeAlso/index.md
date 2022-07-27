@@ -6,6 +6,7 @@ tags: [metadata,presentation]
 summary: "tbc"
 viewers:
  - Mirador  
+ - Annona
 topic: property
 property: seeAlso
 ---
@@ -41,7 +42,7 @@ In this example, a MODS XML file is provided for the program as a whole, and as 
 
 To see the property in action in Mirador, toggle the sidebar by activating the three-line ("hamburger") menu in the upper left-hand corner of the content window. You should then, in the "Related" area, see the link in the "Related" section under the "See also" subheading.
 
-{% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador,Annona" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="16-28"' %}
 
