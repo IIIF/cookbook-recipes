@@ -6,10 +6,6 @@ topic: geo-recipes
 tags: [maps, geolocate, navPlace]
 summary: "Use the navPlace extension to provide geolocation information for the Canvas items of an IIIF Presentation API 3.0 Manifest."
 viewers:
- - id: UV
-   support: none
- - id: Mirador
-   support: none
 ---
 
 ### Use Case
