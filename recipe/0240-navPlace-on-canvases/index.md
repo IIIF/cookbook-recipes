@@ -16,7 +16,7 @@ viewers:
 You have two photographs of the subject Laocoön, one of a bronze statue and the other of a painting. You would like to show where the two works are located as Points on a web mapping platform. `navPlace` allows you to place the spatial representation (Point, Polygon, Line Segment) of your Canvas on a web map.
 
 ### Implementation Notes
-This recipe describes the use of `navPlace` at a Canvas implementation level, and is largely similar to the recipe to * [Locate a Manifest on a Web Map][0154]. The main difference to note is that each Canvas will need its own feature collection, as described below. Other related recipes are listed in the links at the bottom of the page. 
+This recipe describes the use of `navPlace` at a Canvas implementation level, and is largely similar to the recipe to * [Locate a Manifest on a Web Map][0154]. The main difference to note is that each Canvas will need its own Feature Collection, as described below. Other related recipes are listed in the links at the bottom of the page. 
 
 It is important to note that `navPlace` is not semantic and cannot be used to state the purpose of the location it shows. The example uses `navPlace` to represent the current location of the items, but it is not specified or limited to that, and more accurately we can say that `navPlace` is used to show a location.
 
