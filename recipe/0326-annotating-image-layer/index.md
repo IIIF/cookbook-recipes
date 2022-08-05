@@ -13,7 +13,9 @@ An annotation might be specific to a single image or a part of an image rather t
 the whole canvas. For instance, you might want to annotate a detail of a painting
 which is visible only on a specific image corresponding to a band of a multi-spectral
 acquisition stack. 
-![Illustration of annotating a specific layer of a multi-spectral stack](layerannotation.png)
+
+![Illustration of the concept of annotating a specific layer of a multi-spectral stack.](layerannotation.png)
+
 If you are analyzing a complex multi-layer image you might want to keep the annotations linked to a content resource (image, layer etc. etc.) together for facilitating the analysis or dereferencing the content resource while retaining its annotations.
 
 ## Implementation Notes
