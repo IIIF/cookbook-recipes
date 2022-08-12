@@ -36,7 +36,7 @@ Although the Property Values rules do not technically apply to HTML Annotation b
 * To alert a consuming application that your content is HTML, the first character in your string should be ‘<’ and the last character should be ‘>’.
 * For security reasons, clients may allow only `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, and `sup` tags, and only `href` attributes on the `a` tag, and `src` and `alt` on the `img` tag, and may remove any or all of those.
 
-If you have special requirements outside of these rules you may be able to configure a special instance of a IIIF viewer to allow more HTML elements (Mirador defines [configurable rules](https://github.com/ProjectMirador/mirador/blob/master/src/lib/htmlRules.js)) but this would limit the general usefulness adn reusability of your IIIF Manifest and Annotations.
+If you have requirements outside of these rules you may be able to configure a custom instance of a IIIF viewer to allow more HTML elements (Mirador defines [configurable rules](https://github.com/ProjectMirador/mirador/blob/master/src/lib/htmlRules.js)) but this would limit the general usefulness and reusability of your IIIF Manifests and Annotations.
 
 ## Example
 
@@ -46,7 +46,7 @@ This example Manifest contains an embedded Annotation containing the HTML text "
 
 Multilanguage version:
 
-{% include manifest_links.html manifest="manifest-multilang.json" %}
+{% include manifest_links.html viewers="Mirador,Annona" manifest="manifest-multilang.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="53-58"' %}
 
