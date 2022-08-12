@@ -13,7 +13,7 @@ topic:
 
 ## Use Case
 
-You want to create an annotation on a Canvas that contains a link or other HTML feature that can not be expressed in plain text. In this recipe we'll discuss the specifics of using HTML in the Annotation body, see [Simplest Annotation][0266] for a general description of the Annotation structure and an example of a plain text annotation body.
+You want to create an annotation on a Canvas that contains a link or other HTML feature that can not be expressed in plain text. In this recipe we'll discuss the specifics of using HTML in the Annotation body, see [Simplest Annotation][0266] for a general description of the Annotation structure and an example of a plain text Annotation body.
 
 ## Implementation Notes
 
