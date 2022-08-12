@@ -44,6 +44,10 @@ This example Manifest contains an embedded Annotation containing the HTML text "
 
 {% include manifest_links.html manifest="manifest.json" %}
 
+Multilanguage version:
+
+{% include manifest_links.html manifest="manifest-multilang.json" %}
+
 {% include jsonviewer.html src="manifest.json" config='data-line="53-58"' %}
 
 ## Related Recipes
