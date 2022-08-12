@@ -31,14 +31,14 @@ To target a specific image (and not the whole Canvas) the `target` of the Annota
 
 For annotating a part of the image we use the [media fragment selector](https://www.w3.org/TR/annotation-model/#fragment-selector) (e.g. `#xywh=50,50,640,480`) that is concatenated after the `target` string. It is worth noting that the fragment is pointing to a part of the image not to the Canvas.
 
-Some visualizers might choose to render only the Annotation of the active `content resource` or to allow to group the annotations based on the `content resource` they are targeting. 
+Some visualizers might choose to render only the Annotation of the active `content resource` or to allow to group the Annotations based on the `content resource` they are targeting. 
 
 ## Restrictions
 None known.
 
 ## Example
-The example is based on the recipe [Multiple Choice of Images in a Single View (Canvas)][0033]. In this case, we want to annotate the skulls on the floor that are visible only on the X-ray image. We create an `annotation page` with an `annotation`. We want to tag only a portion of the image and thus the `motivation` of the `Annotation` must be `tagging`. The `body` of the annotation must be a `TextualBody` — with a format of `text/plain` — that contains the text of our annotation.
-The `target` of the annotation will be the `id` of the image followed by the fragment containing the coordinates of the region of interest `#xywh=810,900,260,30`.
+The example is based on the recipe [Multiple Choice of Images in a Single View (Canvas)][0033]. In this case, we want to annotate the skulls on the floor that are visible only on the X-ray image. We create an `annotation page` with an Annotation. We want to tag only a portion of the image and thus the `motivation` of the Annotation must be `tagging`. The `body` of the Annotation must be a `TextualBody` — with a format of `text/plain` — that contains the text of our Annotation.
+The `target` of the Annotation will be the `id` of the image followed by the fragment containing the coordinates of the region of interest `#xywh=810,900,260,30`.
 
 Credit: John Dee performing an experiment before Queen Elizabeth I. Oil painting by Henry Gillard Glindoni. Credit: Wellcome Collection. Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
