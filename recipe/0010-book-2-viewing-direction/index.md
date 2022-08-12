@@ -7,6 +7,7 @@ summary: "Informing a client how the Canvases should be displayed to the viewer 
 viewers:
  - UV
  - Mirador  
+ - Annona
 topic: 
  - image
  - property
@@ -37,7 +38,7 @@ None known
 
 This Manifest shows the playbill for "Akiba gongen kaisen-banashi," "Futatsu chōchō kuruwa nikki", and "Godairiki koi no fūjime", kabuki performances at the Chikugo Theater in Osaka, from the fifth month of Kaei 2 (May, 1849).
 
-{% include manifest_links.html viewers="UV, Mirador" manifest="manifest-rtl.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona" manifest="manifest-rtl.json" %}
 
 {% include jsonviewer.html src="manifest-rtl.json" config='data-line="15"' %}
 
@@ -45,7 +46,7 @@ This Manifest shows the playbill for "Akiba gongen kaisen-banashi," "Futatsu ch�
 
 This Manifest represents a portion of the diary of William Lewis Sachtleben, an American long-distance cyclist who rode across Asia from Istanbul to Peking in 1891 to 1892 with Thomas Gaskell Allen Jr., his classmate from Washington University.
 
-{% include manifest_links.html viewers="UV, Mirador" manifest="manifest-ttb.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona" manifest="manifest-ttb.json" %}
 
 {% include jsonviewer.html src="manifest-ttb.json" config='data-line="15"' %}
 
