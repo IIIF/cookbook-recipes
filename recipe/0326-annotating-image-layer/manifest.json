@@ -77,7 +77,10 @@
                                 "language": "en",
                                 "format": "text/plain"
                               },
-                              "target": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-xray/full/max/0/default.jpg#xywh=810,900,260,370"
+                              "target": {
+                                "source":"https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-xray/full/max/0/default.jpg#xywh=810,900,260,370",
+                                "scope": "https://preview.iiif.io/cookbook/0326-annotating-image-layer/recipe/0326-annotating-image-layer/canvas/p1"
+                              }
                             }
                           ]
                         }
