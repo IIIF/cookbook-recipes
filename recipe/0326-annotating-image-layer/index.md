@@ -23,28 +23,29 @@ specifies that:
 > Typically, an Annotation has a single Body, which is a comment or other descriptive resource, and a single Target that the Body is somehow "about".
 
 Other recipes like [Simple Annotation — Tagging](https://iiif.io/api/cookbook/recipe/0021-tagging/) or [Simplest Annotation](https://iiif.io/api/cookbook/recipe/0266-full-Canvas-annotation/) add the Annotation to the `annotations` list of the Canvas targetting the `id` of the Canvas itself. 
-In this example, we will write the Annotation as part of the [`contentresources`](https://iiif.io/api/presentation/3.0/#57-content-resources) associated with the Canvas adding an `annotation page` with an Annotation inside the `annotations` list of the 
-`contentresources`. 
+In this example, we will write the Annotation as part of the [contentresources](https://iiif.io/api/presentation/3.0/#57-content-resources) associated with the Canvas adding an Annotation Page with an Annotation inside the `annotations` list of the 
+content resources. 
 This is the preferred solution rather than adding the Annotation in the `annotations` field of the Canvas.
 
-To target a specific image (and not the whole Canvas) the `target` of the Annotation must be the `id` of the image, not the `id` of the `service`. 
+To target a specific image (and not the whole Canvas) the `target` of the Annotation must be the `id` of the image, not the `id` of the `service`. Following the Web Annotation Data Model the user should specify that the [scope of the resource](https://www.w3.org/TR/annotation-model/#scope-of-a-resource) is the Canvas containing the image. 
 
 For annotating a part of the image we use the [media fragment selector](https://www.w3.org/TR/annotation-model/#fragment-selector) (e.g. `#xywh=50,50,640,480`) that is concatenated after the `target` string. It is worth noting that the fragment is pointing to a part of the image not to the Canvas.
 
-Some visualizers might choose to render only the Annotation of the active `content resource` or to allow to group the Annotations based on the `content resource` they are targeting. 
+Some visualizers might choose to render only the Annotation of the active content resource or to allow to group the Annotations based on the content resource they are targeting. 
 
 ## Restrictions
 None known.
 
 ## Example
-The example is based on the recipe [Multiple Choice of Images in a Single View (Canvas)][0033]. In this case, we want to annotate the skulls on the floor that are visible only on the X-ray image. We create an `annotation page` with an Annotation. We want to tag only a portion of the image and thus the `motivation` of the Annotation must be `tagging`. The `body` of the Annotation must be a `TextualBody` — with a format of `text/plain` — that contains the text of our Annotation.
-The `target` of the Annotation will be the `id` of the image followed by the fragment containing the coordinates of the region of interest `#xywh=810,900,260,30`.
+The example is based on the recipe [Multiple Choice of Images in a Single View (Canvas)][0033]. In this case, we want to annotate the skulls on the floor that are visible only on the X-ray image. We create an Annotation Page with an Annotation. We want to tag only a portion of the image and thus the `motivation` of the Annotation must be `tagging`. The `body` of the Annotation must be a `TextualBody` — with a format of `text/plain` — that contains the text of our Annotation.
+The `target` of the Annotation will have a key `source` assigned to the `id` of the image followed by the fragment containing the coordinates of the region of interest `#xywh=810,900,260,30`. The `scope` attribute of the `target`
+is pointing to the `id` of the Canvas containing the images. 
 
 Credit: John Dee performing an experiment before Queen Elizabeth I. Oil painting by Henry Gillard Glindoni. Credit: Wellcome Collection. Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="55-74"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="65-87"' %}
 
 ## Related Recipes
 
