@@ -10,7 +10,7 @@ gem 'iiifc-theme', github: 'iiif/iiifc-theme', branch: 'main'
 gem 'jekyll-seo-tag'
 
 group :development, :test do
-  gem 'html-proofer'
+  gem 'html-proofer', "3.19.0"
   gem 'rspec'
   gem 'rake'
 end

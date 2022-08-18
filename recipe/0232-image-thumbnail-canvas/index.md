@@ -100,7 +100,7 @@ The two Manifests below demonstrate the use of the `thumbnail` property on Canva
 
 {% include jsonviewer.html src="manifest-av.json" config='data-line="22-30, 65-73"' %}
 
-{% include manifest_links.html viewers="Mirador, UV" manifest="manifest-image.json" %}
+{% include manifest_links.html viewers="Mirador, UV, Annona" manifest="manifest-image.json" %}
 
 {% include jsonviewer.html src="manifest-image.json" config='data-line="21-50, 90-119"' %}
 

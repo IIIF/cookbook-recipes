@@ -7,6 +7,7 @@ summary: "Provide item metadata for displaying to users"
 viewers:
  - UV
  - Mirador  
+ - Annona
 topic: property
 property: metadata
 ---
@@ -31,7 +32,7 @@ In this example, we have two Canvases, each with a different photograph of the s
 
 Credit: *John Dee performing an experiment before Queen Elizabeth I*. Oil painting by Henry Gillard Glindoni. Credit: Wellcome Collection. Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
-{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="10-59, 83-96, 136-149"' %}
 

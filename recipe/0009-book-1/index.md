@@ -7,6 +7,7 @@ summary: "Represent a book, or any object composed of a set of images, as a simp
 viewers:
  - UV
  - Mirador  
+ - Annona
 topic: 
  - image
  - basic
@@ -32,7 +33,7 @@ You should also consider providing a [thumbnail][prezi3-thumbnail] for each Canv
 
 ## Example
 
-{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 
