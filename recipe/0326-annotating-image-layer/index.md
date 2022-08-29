@@ -23,7 +23,7 @@ specifies that:
 > Typically, an Annotation has a single Body, which is a comment or other descriptive resource, and a single Target that the Body is somehow "about".
 
 Other recipes like [Simple Annotation — Tagging](https://iiif.io/api/cookbook/recipe/0021-tagging/) or [Simplest Annotation](https://iiif.io/api/cookbook/recipe/0266-full-Canvas-annotation/) add the Annotation to the `annotations` list of the Canvas targetting the `id` of the Canvas itself. 
-In this example, we will write the Annotation as part of the [contentresources](https://iiif.io/api/presentation/3.0/#57-content-resources) associated with the Canvas adding an Annotation Page with an Annotation inside the `annotations` list of the 
+In this example, we will write the Annotation as part of the [content resources](https://iiif.io/api/presentation/3.0/#57-content-resources) associated with the Canvas adding an Annotation Page with an Annotation inside the `annotations` list of the 
 content resources. 
 This is the preferred solution rather than adding the Annotation in the `annotations` field of the Canvas.
 
@@ -34,7 +34,7 @@ For annotating a part of the image we use the [media fragment selector](https://
 Some visualizers might choose to render only the Annotation of the active content resource or to allow to group the Annotations based on the content resource they are targeting. 
 
 ## Restrictions
-None known.
+When the max image size might vary depending on image server configurations, to assure that the Annotation targets the intended region of the image users must provide the width and height of the image in the form `w,h` as explained in [Image API](https://iiif.io/api/image/3.0/#42-size).
 
 ## Example
 The example is based on the recipe [Multiple Choice of Images in a Single View (Canvas)][0033]. In this case, we want to annotate the skulls on the floor that are visible only on the X-ray image. We create an Annotation Page with an Annotation. We want to tag only a portion of the image and thus the `motivation` of the Annotation must be `tagging`. The `body` of the Annotation must be a `TextualBody` — with a format of `text/plain` — that contains the text of our Annotation.
