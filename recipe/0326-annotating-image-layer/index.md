@@ -34,7 +34,7 @@ For annotating a part of the image we use the [media fragment selector](https://
 Some visualizers might choose to render only the Annotation of the active content resource or to allow to group the Annotations based on the content resource they are targeting. 
 
 ## Restrictions
-When the max image size might vary depending on image server configurations, to assure that the Annotation targets the intended region of the image users must provide the width and height of the image in the form `w,h` as explained in [Image API](https://iiif.io/api/image/3.0/#42-size).
+When the max image size might vary depending on the image server configurations, to ensure that the Annotation targets the intended region of the image users must provide the width and height of the image in the form `w,h` as explained in [Image API](https://iiif.io/api/image/3.0/#42-size).
 
 ## Example
 The example is based on the recipe [Multiple Choice of Images in a Single View (Canvas)][0033]. In this case, we want to annotate the skulls on the floor that are visible only on the X-ray image. We create an Annotation Page with an Annotation. We want to tag only a portion of the image and thus the `motivation` of the Annotation must be `tagging`. The `body` of the Annotation must be a `TextualBody` — with a format of `text/plain` — that contains the text of our Annotation.
