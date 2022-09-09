@@ -8,6 +8,7 @@ viewers:
  - Mirador
  - UV
  - Annona
+ - Clover
 topic: 
  - basic
  - image
