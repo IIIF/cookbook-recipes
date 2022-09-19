@@ -7,6 +7,7 @@ summary: "The simplest viable manifest for audio content. This pattern presents 
 viewers:
  - Mirador
  - UV
+ - Clover
 topic: 
  - basic
  - AV
