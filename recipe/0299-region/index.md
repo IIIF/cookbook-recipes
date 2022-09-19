@@ -5,7 +5,7 @@ layout: recipe
 tags: [fragment]
 summary: "Presenting a spatial region of a IIIF image resource independently"
 viewers:
-topic: 
+topic:
  - basic
 ---
 
@@ -31,7 +31,7 @@ As mentioned above, there are other methods of drawing attention to a region of 
 
 ## Restrictions
 
-This recipe can not be applied to pulling a temporal segment from a time-based IIIF resource or to specifying a non-rectangular spatial region of an image. Incorporating a temporal region would use `FragmentSelector` and a non-rectangular region would use `SvgSelector`, but further description is beyond this recipe.
+This recipe can not be applied to pulling a temporal segment from a time-based IIIF resource or to specifying a non-rectangular spatial region of an image. Incorporating a temporal region would use `FragmentSelector` and a non-rectangular region would use `SvgSelector`, but further description is beyond this recipe. However, see ["Table of Contents for Multiple A/V Files on a Single Canvas"](https://preview.iiif.io/cookbook/0299-region/recipe/0064-opera-one-canvas/) for an implementation example.
 
 ## Examples
 
@@ -47,6 +47,7 @@ In this example we use an ImageApiSelector on the `body` of the Manifest's sole 
 * [Introduction to IIIF Image Service][0005] for a basic example of image service use
 * [Simple Annotation — Tagging][0021] for an example of a non-`painting` Annotation
 * [Image Rotation Two Ways][0040] for another example of using a selector with a IIIF Image service
+* [Table of Contents for Multiple A/V Files on a Single Canvas][0064] for using a timecode fragment selector
 
 {% include acronyms.md %}
 {% include links.md %}
