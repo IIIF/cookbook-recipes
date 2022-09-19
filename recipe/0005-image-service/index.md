@@ -7,6 +7,7 @@ summary: "Paint a Canvas using an image with an associated IIIF Image API servic
 viewers:
  - Mirador
  - Annona
+ - Clover
 topic: 
  - basic 
  - image
