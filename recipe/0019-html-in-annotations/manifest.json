@@ -54,7 +54,7 @@
                 "type": "TextualBody",
                 "language": "de",
                 "format": "text/html",
-                "value": "<p>Göttinger Marktplatz mit <a href='https://de.wikipedia.org/wiki/G%C3%A4nseliesel-Brunnen_(G%C3%B6ttingen)'>Gänseliesel Brunnen</a>"
+                "value": "<p>Göttinger Marktplatz mit <a href='https://de.wikipedia.org/wiki/G%C3%A4nseliesel-Brunnen_(G%C3%B6ttingen)'>Gänseliesel Brunnen</a></p>"
               },
               "target": "{{ id.path }}/canvas-1"
             }
