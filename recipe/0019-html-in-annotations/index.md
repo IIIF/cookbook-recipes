@@ -34,7 +34,7 @@ Although the Property Values rules do not technically apply to HTML Annotation b
 
 * Your HTML should be well-formed XML and therefore should be wrapped in an element such as `p` or `span`.
 * To alert a consuming application that your content is HTML, the first character in your string should be "<" and the last character should be ">".
-* For security reasons, clients may allow only `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, and `sup` tags, and only `href` attributes on the `a` tag, and `src` and `alt` on the `img` tag, and may remove any or all of those.
+* These are the tags that the client may support and others and others maybe stripped: `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, and `sup`, and only `href` attributes on the `a` tag, and `src` and `alt` on the `img` tag.
 
 If you have requirements outside of these rules you may be able to configure a custom instance of a IIIF viewer to allow more HTML elements (Mirador defines [configurable rules](https://github.com/ProjectMirador/mirador/blob/master/src/lib/htmlRules.js)) but this would limit the general usefulness and reusability of your IIIF Manifests and Annotations.
 
@@ -42,7 +42,7 @@ If you have requirements outside of these rules you may be able to configure a c
 
 This example Manifest contains an embedded Annotation containing the HTML text "Göttinger Marktplatz mit Gänseliesel Brunnen" with a link to the Wikipedia Article "Gänseliesel-Brunnen (Göttingen)" behind the words "Gänseliesel Brunnen". The Annotation has the motivation `commenting` targeting the whole Canvas. The Annotation is the single content of an Annotation Page contained in the `annotations` property of the Canvas.
 
-{% include manifest_links.html viewers="Mirador,Annona" manifest="manifest.json" %}
+{% include manifest_links.html manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="53-58"' %}
 

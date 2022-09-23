@@ -23,7 +23,7 @@
                 "format": "audio/mp4",
                 "duration": 1985.024
               },
-              "target": "{{ id.path }}/canvas/page"
+              "target": "{{ id.path }}/canvas"
             }
           ]
         }
