@@ -8,6 +8,7 @@ viewers:
  - UV
  - Mirador  
  - Annona
+ - Clover
 topic: property
 property: metadata
 ---
