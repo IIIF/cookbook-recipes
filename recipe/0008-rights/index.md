@@ -37,7 +37,7 @@ None known.
 
 ## Example
 
-{% include manifest_links.html viewers="UV, Mirador, Annona" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Clover" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="15-27"' %}
 

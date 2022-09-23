@@ -33,7 +33,7 @@ Though a version 3 Manifest may specify a service using the version 2 `@id` and 
 
 ## Example
 
-{% include manifest_links.html viewers="Mirador, Annona" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador, Annona, Clover" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="36-42"' %}
 
