@@ -6,6 +6,7 @@ tags: [image,presentation]
 summary: "Display a thumbnail image for a resource other than a Canvas, such that it can be used by clients to represent the object."
 viewers:
  - Mirador  
+ - Clover
 topic: property
 property: thumbnail
 ---
