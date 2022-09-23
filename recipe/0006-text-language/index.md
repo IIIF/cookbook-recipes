@@ -8,6 +8,7 @@ viewers:
  - UV
  - Mirador  
  - Annona
+ - Clover
 topic: basic
 property: label, summary, metadata, requiredStatement
 ---
