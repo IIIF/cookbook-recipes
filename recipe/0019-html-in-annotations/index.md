@@ -21,7 +21,7 @@ The body of an Annotation can be a simple piece of plain text that is embedded i
 
 The `body` property of the Annotation is an object with a `type` of `TextualBody` that contains the HTML text in a `value` property and specifies the format `text/html` in a `format` property and optionally the language (e.g. `de` for German) in a `language` property.
 
-Please note that the `language` and `value` properties in the Annotation body are not a language map like used with labels or descriptions in the Manifest. You can not use the [Internationalization and Multi-language Values][0006] pattern for multilingual content in an Annotation body. You can instead put a list of multiple `TextualBody` objects with different `language` properties in the `body` property of the Annotation but viewers may show all languages at the same time or not support this pattern at all.
+Please note that the `language` and `value` properties in the Annotation body are not a language map used with labels or descriptions in the Manifest. You can not use the [Internationalization and Multi-language Values][0006] pattern for multilingual content in an Annotation body. You can instead put a list of multiple `TextualBody` objects with different `language` properties in the `body` property of the Annotation but viewers may show all languages at the same time or not support this pattern at all.
 
 ## Restrictions
 
@@ -33,7 +33,7 @@ Although the Property Values rules do not technically apply to HTML Annotation b
 
 * Your HTML should be well-formed XML and therefore should be wrapped in an element such as `p` or `span`.
 * To alert a consuming application that your content is HTML, the first character in your string should be `<` and the last character should be `>`.
-* These are the tags that the client may support and others and others maybe stripped: `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, and `sup`, and only `href` attributes on the `a` tag, and `src` and `alt` on the `img` tag.
+* These are the tags that the client may support and others may be stripped: `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, and `sup` tags and `href` attributes on the `a` tag, and `src` and `alt` on the `img` tag.
 
 If you have requirements outside of these rules you may be able to configure a custom instance of a IIIF viewer to allow more HTML elements (Mirador defines [configurable rules](https://github.com/ProjectMirador/mirador/blob/master/src/lib/htmlRules.js)) but this would limit the general usefulness and reusability of your IIIF Manifests and Annotations.
 
