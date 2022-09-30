@@ -73,6 +73,7 @@ _(leading on to segmentation examples later)_
 
 * comments - various examples (51,52,54)
 * [Simplest Annotation][0266]
+* [HTML in Annotations][0019]
 * Fragment selectors (61)
 * [Simple Annotation - Tagging][0021]
 * [Annotation with a Non-Rectangular Polygon][0261]
