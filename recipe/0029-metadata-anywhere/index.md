@@ -5,11 +5,11 @@ layout: recipe
 tags: [presentation]
 summary: "Provide item metadata for displaying to users"
 viewers:
-  - UV
-  - Mirador
-  - Annona
-  - id: Clover
-    support: partial
+ - UV
+ - Mirador  
+ - Annona
+ - id: Clover
+   support: partial
 topic: property
 property: metadata
 ---
@@ -34,7 +34,7 @@ In this example, we have two Canvases, each with a different photograph of the s
 
 Note: Clover supports Metadata at the Manifest level but not down at the Canvas.
 
-Credit: _John Dee performing an experiment before Queen Elizabeth I_. Oil painting by Henry Gillard Glindoni. Credit: Wellcome Collection. Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+Credit: *John Dee performing an experiment before Queen Elizabeth I*. Oil painting by Henry Gillard Glindoni. Credit: Wellcome Collection. Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
 {% include manifest_links.html viewers="UV, Mirador, Annona, Clover" manifest="manifest.json" %}
 
@@ -42,9 +42,9 @@ Credit: _John Dee performing an experiment before Queen Elizabeth I_. Oil painti
 
 # Related recipes
 
-- [Internationalization and Multi-language Values][0006]
-- [Displaying Multiple Values with Language Maps][0118]
-- [Linking to Structured Metadata][0053]
+* [Internationalization and Multi-language Values][0006]
+* [Displaying Multiple Values with Language Maps][0118]
+* [Linking to Structured Metadata][0053]
 
 {% include acronyms.md %}
 {% include links.md %}
