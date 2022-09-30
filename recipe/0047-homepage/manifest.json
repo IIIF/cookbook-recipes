@@ -3,33 +3,23 @@
   "id": "{{ id.url }}",
   "type": "Manifest",
   "label": {
-    "en": [
-      "George Stubbs, 1724–1806, British, Greenland Falcon, 1780"
-    ]
+    "en": ["George Stubbs, 1724–1806, British, Greenland Falcon, 1780"]
   },
   "metadata": [
     {
       "label": {
-        "en": [
-          "Medium"
-        ]
+        "en": ["Medium"]
       },
       "value": {
-        "en": [
-          "beeswax on panel"
-        ]
+        "en": ["beeswax on panel"]
       }
     },
     {
       "label": {
-        "en": [
-          "Institution"
-        ]
+        "en": ["Institution"]
       },
       "value": {
-        "en": [
-          "Yale Center for British Art"
-        ]
+        "en": ["Yale Center for British Art"]
       }
     }
   ],
@@ -38,12 +28,10 @@
       "id": "https://collections.britishart.yale.edu/catalog/tms:21168",
       "type": "Text",
       "label": {
-        "en": [
-          "Catalog entry at the Yale Center for British Art"
-        ]
+        "en": ["Catalog entry at the Yale Center for British Art"]
       },
       "format": "text/html",
-      "language": [ "en" ]
+      "language": ["en"]
     }
   ],
   "items": [
@@ -51,9 +39,7 @@
       "id": "{{ id.path }}/canvas/1",
       "type": "Canvas",
       "label": {
-        "en": [
-          "recto, cropped to image"
-        ]
+        "en": ["recto, cropped to image"]
       },
       "height": 3087,
       "width": 3786,
@@ -105,9 +91,7 @@
       "id": "{{ id.path }}/canvas/2",
       "type": "Canvas",
       "label": {
-        "en": [
-          "recto, framed"
-        ]
+        "en": ["recto, framed"]
       },
       "height": 4446,
       "width": 4512,
@@ -159,9 +143,7 @@
       "id": "{{ id.path }}/canvas/3",
       "type": "Canvas",
       "label": {
-        "en": [
-          "x-radiograph"
-        ]
+        "en": ["x-radiograph"]
       },
       "height": 17753,
       "width": 21262,
