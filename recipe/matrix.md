@@ -2,21 +2,22 @@
 title: Viewer Matrix
 layout: spec
 breadcrumbs:
- - label: IIIF Cookbook
-   link: index.html
+  - label: IIIF Cookbook
+    link: index.html
 viewers:
- - Mirador
- - UV
- - Annona
+  - Mirador
+  - UV
+  - Annona
+  - Clover
 topics:
- - basic
- - property
- - structure  
- - image
- - key: AV
-   note: Please note there are other IIIF AV viewers that are not listed like the [Europeana Player](https://github.com/europeana/media-player) and the [iiif-react-media-player](https://samvera-labs.github.io/iiif-react-media-player/). These are not included in the matrix due to a lack of public linkable instance rather than them not supporting some of the recipes. 
- - annotation
- - geo-recipes
+  - basic
+  - property
+  - structure
+  - image
+  - key: AV
+    note: Please note there are other IIIF AV viewers that are not listed like the [Europeana Player](https://github.com/europeana/media-player) and the [iiif-react-media-player](https://samvera-labs.github.io/iiif-react-media-player/). These are not included in the matrix due to a lack of public linkable instance rather than them not supporting some of the recipes.
+  - annotation
+  - geo-recipes
 ---
 
 <link rel='stylesheet' href="{{ site.cookbook_url | absolute_url }}/css/style.css"/>
@@ -26,27 +27,29 @@ topics:
 In the 2021 Working meeting there was a presentation on viewer support for IIIF 3.0 and the community asked if this presentation could be turned into a matrix so the community can see which viewers support which area of the IIIF specifications. This matrix is generated automatically from the recipes and if you notice any thing that is incorrect please report it to the [cookbook GitHub site](https://github.com/IIIF/cookbook-recipes/issues/new).
 
 ## Which viewers are included?
-Currently [Mirador 3](https://projectmirador.org/), the [Universal Viewer](https://universalviewer.io/) (UV) V3 and [Annona](https://ncsu-libraries.github.io/annona/multistoryboard/) are listed on the cookbook and we welcome the addition of other IIIF viewers but they must support the following features:
 
- * Support for the [IIIF version 3.0 Presentation API](https://iiif.io/api/presentation/3.0/)
- * Have a public instance available that we can link to, ideally using the `iiif-content` parameter from the [IIIF Content State API](https://iiif.io/api/content-state/)
- * Support at least 1 cookbook recipe 
+Currently [Mirador 3](https://projectmirador.org/), the [Universal Viewer](https://universalviewer.io/) (UV) V3, [Annona](https://ncsu-libraries.github.io/annona/multistoryboard/), and [Clover](https://samvera-labs.github.io/clover-iiif/) are listed on the cookbook and we welcome the addition of other IIIF viewers but they must support the following features:
+
+- Support for the [IIIF version 3.0 Presentation API](https://iiif.io/api/presentation/3.0/)
+- Have a public instance available that we can link to, ideally using the `iiif-content` parameter from the [IIIF Content State API](https://iiif.io/api/content-state/)
+- Support at least 1 cookbook recipe
 
 ## Viewer Matrix
 
 The possible values for viewer support are YES, NO or Partial. Check the recipe to see the full behaviour of the viewer to check it achieves the required function in the way you expect.
 {% for topic in page.topics  %}
-{% if topic.key %} 
-    {% assign topic_key = topic.key %}
+{% if topic.key %}
+{% assign topic_key = topic.key %}
 {% else %}
-    {% assign topic_key = topic %}
-{% endif %}   
+{% assign topic_key = topic %}
+{% endif %}
 
 ### {{ site.data.topics[topic_key].label }}
 
 {{ topic.note }}
 {% assign recipes = site.pages | where_exp: "recipe", "recipe.topic == topic_key or recipe.topic contains topic_key and recipe.id != -1" %}
 {% assign sorted = recipes | sort: "id" %}
+
 <table class="viewer">
     <tr>
         <th>Recipe</th>
@@ -81,5 +84,3 @@ The possible values for viewer support are YES, NO or Partial. Check the recipe 
 {% endfor %}
 </table>
 {% endfor %}
-
-
