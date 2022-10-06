@@ -22,19 +22,19 @@
             ]
          },
          "navPlace":{
-            "id":"https://preview.iiif.io/cookbook/0154-post-trc-update/recipe/0154-geo-extension/feature-collection/1",
+            "id":"{{ id.path }}/feature-collection/1",
             "type":"FeatureCollection",
             "features":[
                {
-                  "id":"https://preview.iiif.io/cookbook/0154-post-trc-update/recipe/0154-geo-extension/feature/1",
+                  "id":"{{ id.path }}/feature/1",
                   "type":"Feature",
                   "properties":{
                      "label":{
                         "en":[
-                           "The Laocoön Bronze"
+                           "Current Location of the Laocoön Bronze"
                         ],
                         "it":[
-                           "Bronzo Laocoonte e i suoi figli"
+                           "Ubicazione attuale del Bronzo Laocoonte e i suoi figli"
                         ]
                      }
                   },
@@ -97,7 +97,7 @@
                   "properties":{
                      "label":{
                         "en":[
-                           "Location of painting"
+                           "Current Location of Painting"
                         ]
                      }
                   },
