@@ -1,5 +1,5 @@
 ---
-title: Linking to Web Page for Object
+title: Linking to Web Page of an Object
 id: 47
 layout: recipe
 tags: [metadata, presentation]
@@ -21,7 +21,7 @@ Conforming clients may render the `homepage` property in various ways, yet most 
 
 If an anchor is utilized for the instance, the `id` represents the destination of the link and would serve as the value for its `href` attribute.
 
-The label is rendered as the content within the link according to the [https://iiif.io/api/presentation/3.0/#language-of-property-values](Language of Property Values). A client may also choose to provide a `lang` attribute on the anchor element with a value of the determined BCP 47 language code of the `label`.
+The label is rendered as the content within the link according to the [Language of Property Values](https://iiif.io/api/presentation/3.0/#language-of-property-values). A client may also choose to provide a `lang` attribute on the anchor element with a value of the determined BCP 47 language code of the `label`.
 
 Entries of a homepage property may also have a `language` property. These values represent the language(s) of the destination web page. A client may also render a single language entry as the value for `hreflang` attribute on the anchor element.
 
