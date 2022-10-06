@@ -115,7 +115,7 @@ _(leading on to segmentation examples later)_
 ## Linking
 
 * alternative representations (rendering (?))
-* Homepage
+* [Linking to Web Page of an Object (homepage)][0047]
 * Linking from Image API to Presentation API (via partOf as per #600, #1507)
 * Linking from Image API to external metadata
 * Linking from external metadata to Image API
