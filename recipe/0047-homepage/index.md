@@ -17,7 +17,7 @@ You have a IIIF Manifest representing an object that is also represented by one 
 
 ## Implementation Notes
 
-Conforming clients may render the `homepage` property in various ways, yet most likely as an HTML Anchor element for each entry. An alternative consideration could be as a button.
+Conforming clients may render the `homepage` property in various ways, yet most likely as an HTML anchor element for each entry. An alternative consideration could be as a button.
 
 If an anchor is utilized for the instance, the `id` represents the destination of the link and would serve as the value for its `href` attribute.
 
@@ -31,9 +31,13 @@ Web pages related to the Manifest that are not its home should utilize the `meta
 
 ## Example
 
+In this example we have a Manifest representing an object housed at the Yale Center for British Art. A `homepage` property is at the Manifest level with one entry. The single instance references the URL at which a user could be displayed a web page of the object’s catalog entry.
+
+_Greenland Falcon._ Beeswax on panel by George Stubbs. Credit: Yale Center for British Art, Paul Mellon Collection. Public Domain Dedication (CC0 1.0 Universal)
+
 {% include manifest_links.html viewers="Mirador, Clover" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="26-36"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="42-52"' %}
 
 ## Related Recipes
 

@@ -8,10 +8,26 @@
   "metadata": [
     {
       "label": {
+        "en": ["Title"]
+      },
+      "value": {
+        "en": ["Greenland Falcon"]
+      }
+    },
+    {
+      "label": {
         "en": ["Medium"]
       },
       "value": {
         "en": ["beeswax on panel"]
+      }
+    },
+    {
+      "label": {
+        "en": ["Credit Line"]
+      },
+      "value": {
+        "en": ["Yale Center for British Art, Paul Mellon Collection"]
       }
     },
     {
@@ -34,6 +50,17 @@
       "language": ["en"]
     }
   ],
+  "rights": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "requiredStatement": {
+    "label": {
+      "en": ["Rights Description"]
+    },
+    "value": {
+      "en": [
+        "Metadata describing Yale Center for British Art collections is public domain under CC0. Copyright or other restrictions may apply to cultural works or images of those works in this record."
+      ]
+    }
+  },
   "items": [
     {
       "id": "{{ id.path }}/canvas/1",
@@ -80,110 +107,6 @@
           "service": [
             {
               "@id": "https://media.collections.yale.edu/thumbnail/ycba/a1333c03-be5b-4f5b-a897-7e15e3d17b29",
-              "@type": "ImageService2",
-              "profile": "level0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "{{ id.path }}/canvas/2",
-      "type": "Canvas",
-      "label": {
-        "en": ["recto, framed"]
-      },
-      "height": 4446,
-      "width": 4512,
-      "items": [
-        {
-          "id": "{{ id.path }}/canvas/2/page/1",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "{{ id.path }}/canvas/2/page/1/annotation/1",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://images.collections.yale.edu/iiif/2/ycba:3f8bfa84-0b32-4f19-8b7e-44f4a3b221d0/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "service": [
-                  {
-                    "@id": "https://images.collections.yale.edu/iiif/2/ycba:3f8bfa84-0b32-4f19-8b7e-44f4a3b221d0",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
-                  }
-                ],
-                "height": 4446,
-                "width": 4512
-              },
-              "target": "{{ id.path }}/canvas/2"
-            }
-          ]
-        }
-      ],
-      "thumbnail": [
-        {
-          "id": "https://media.collections.yale.edu/thumbnail/ycba/3f8bfa84-0b32-4f19-8b7e-44f4a3b221d0",
-          "type": "Image",
-          "width": 480,
-          "height": 473,
-          "service": [
-            {
-              "@id": "https://media.collections.yale.edu/thumbnail/ycba/3f8bfa84-0b32-4f19-8b7e-44f4a3b221d0",
-              "@type": "ImageService2",
-              "profile": "level0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "{{ id.path }}/canvas/3",
-      "type": "Canvas",
-      "label": {
-        "en": ["x-radiograph"]
-      },
-      "height": 17753,
-      "width": 21262,
-      "items": [
-        {
-          "id": "{{ id.path }}/canvas/3/page/1",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "{{ id.path }}/canvas/3/page/1/annotation/1",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://images.collections.yale.edu/iiif/2/ycba:d7e1622d-adfa-4c32-9077-c8c969e72b9a/full/full/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "service": [
-                  {
-                    "@id": "https://images.collections.yale.edu/iiif/2/ycba:d7e1622d-adfa-4c32-9077-c8c969e72b9a",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
-                  }
-                ],
-                "height": 17753,
-                "width": 21262
-              },
-              "target": "{{ id.path }}/canvas/3"
-            }
-          ]
-        }
-      ],
-      "thumbnail": [
-        {
-          "id": "https://media.collections.yale.edu/thumbnail/ycba/d7e1622d-adfa-4c32-9077-c8c969e72b9a",
-          "type": "Image",
-          "width": 480,
-          "height": 401,
-          "service": [
-            {
-              "@id": "https://media.collections.yale.edu/thumbnail/ycba/d7e1622d-adfa-4c32-9077-c8c969e72b9a",
               "@type": "ImageService2",
               "profile": "level0"
             }
