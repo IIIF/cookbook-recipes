@@ -41,5 +41,8 @@ _Greenland Falcon._ Beeswax on panel by George Stubbs. Credit: Yale Center for B
 
 ## Related Recipes
 
+* [Acknowledge Content Contributors][0234] for demonstrating the use of `homepage` for a `provider`
+* [Linking to Structured Metadata][0053] for demonstrating the use of `seeAlso`
+
 {% include acronyms.md %}
 {% include links.md %}
