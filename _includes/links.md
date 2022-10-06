@@ -15,7 +15,7 @@
 [0014]: {{ site.cookbook_url | absolute_url }}/recipe/0014-accompanyingcanvas/ "Audio Presentation with Accompanying Image"
 [0015]: {{ site.cookbook_url | absolute_url }}/recipe/0015-start/ "Begin playback at a specific point - Time-based media"
 [0017]: {{ site.cookbook_url | absolute_url }}/recipe/0017-transcription-av/ "Providing Access to Transcript Files of A/V Content"
-[0139]: {{ site.cookbook_url | absolute_url }}/recipe/0139-geolocate-canvas-fragment/ "Represent Canvas Fragment as a Geographic Point on a Web Map"
+[0139]: {{ site.cookbook_url | absolute_url }}/recipe/0139-geolocate-canvas-fragment/ "Represent Canvas Fragment as a Geographic Area on a Web Map"
 
 [0021]: {{ site.cookbook_url | absolute_url }}/recipe/0021-tagging/ "Simple Annotation — Tagging"
 
@@ -40,6 +40,8 @@
 [0074]: {{ site.cookbook_url | absolute_url}}/recipe/0074-multiple-language-captions/ "Using Caption and Subtitle Files in Multiple Languages with Video Content"
 [0117]: {{ site.cookbook_url | absolute_url }}/recipe/0117-add-image-thumbnail/ "Manifest Thumbnail"
 [0118]: {{ site.cookbook_url | absolute_url }}/recipe/0118_multivalue/ "Displaying Multiple Values with Language Maps"
+
+[0154]: {{ site.cookbook_url | absolute_url }}/recipe/0154-geo-extension/ "Locate a Manifest on a Web Map"
 
 [0232]: {{ site.cookbook_url | absolute_url }}/recipe/0232-image-thumbnail-canvas/ "Implementation discussion: Thumbnails on Canvases"
 [0219]: {{ site.cookbook_url | absolute_url }}/recipe/0219-using-caption-file/ "Using Caption and Subtitle Files with Video Content"

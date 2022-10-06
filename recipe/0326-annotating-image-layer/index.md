@@ -25,6 +25,7 @@ specifies that:
 Other recipes like [Simple Annotation — Tagging](https://iiif.io/api/cookbook/recipe/0021-tagging/) or [Simplest Annotation](https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/) add the Annotation to the `annotations` list of the Canvas targetting the `id` of the Canvas itself. 
 In this example, we will write the Annotation as part of the [content resources](https://iiif.io/api/presentation/3.0/#57-content-resources) associated with the Canvas adding an Annotation Page with an Annotation inside the `annotations` list of the `service` attribute of
 content resources. 
+
 This is the preferred solution rather than adding the Annotation in the `annotations` field of the Canvas. Doing so if the Annotation is dereferenced all the relevant information will be embedded in the Annotation.
 
 For annotating a part of the image the Annotation will target a SpecificResource resource with an [Image API selector](https://iiif.io/api/annex/openannotation/#iiif-image-api-selector) specifying the region of interest.
