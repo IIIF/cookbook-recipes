@@ -5,40 +5,6 @@
   "label": {
     "en": ["George Stubbs, 1724–1806, British, Greenland Falcon, 1780"]
   },
-  "metadata": [
-    {
-      "label": {
-        "en": ["Title"]
-      },
-      "value": {
-        "en": ["Greenland Falcon"]
-      }
-    },
-    {
-      "label": {
-        "en": ["Medium"]
-      },
-      "value": {
-        "en": ["beeswax on panel"]
-      }
-    },
-    {
-      "label": {
-        "en": ["Credit Line"]
-      },
-      "value": {
-        "en": ["Yale Center for British Art, Paul Mellon Collection"]
-      }
-    },
-    {
-      "label": {
-        "en": ["Institution"]
-      },
-      "value": {
-        "en": ["Yale Center for British Art"]
-      }
-    }
-  ],
   "homepage": [
     {
       "id": "https://collections.britishart.yale.edu/catalog/tms:21168",
@@ -50,16 +16,6 @@
       "language": ["en"]
     }
   ],
-  "requiredStatement": {
-    "label": {
-      "en": ["Rights Description"]
-    },
-    "value": {
-      "en": [
-        "Metadata describing Yale Center for British Art collections is public domain under CC0. Copyright or other restrictions may apply to cultural works or images of those works in this record."
-      ]
-    }
-  },
   "items": [
     {
       "id": "{{ id.path }}/canvas/1",
