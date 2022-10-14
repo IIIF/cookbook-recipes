@@ -24,6 +24,15 @@ When reviewing your SVG data, remove all styling and transformation features, pe
 
 Sizing and placement of the SVG polygon in relation to its `target` takes some special attention. If the `target` is the entire Canvas, then the SVG viewport is assumed to cover the entire Canvas. On the other hand, if the SVG's coordinates are mapped to a part of a Canvas, then its `target` must be the rectangular bounding box of the Canvas in which the SVG viewport should be placed. If the dimensions of the viewport and its target region (either the bounding box or the entire Canvas) are not the same, then the SVG must be scaled such that it covers the region. This may result in different scaling ratios for the X and Y dimensions.
 
+### Additional Notes on SVG
+SVG implementations and affordances cover a large range. Not all implementations have the same affordances, and not all features of SVG are present in all implementations. For example, SVG paths exported from GIMP 2.10 on MacOS will set an origin at the upper left corner of a bounding box while one generated in Acorn 7 on MacOS will set the origin in the lower left corner.
+
+Gimp sets origin at upper left, uses M, C, Z, with `path` + `d`, coordinate pairs separated by commas
+
+Acorn uses shape syntax for simple shapes, puts origin at lower left. For complex shapes, uses `path` + `d`, style elements for the stroke if there is one, commands of M, L, Z with commas between x and y in coordinate pairs.
+
+Google Docs Drawings can be saved as SVGs, use clipPath, and separate a shape's stroke and fill into different paths. It also uses the `path` element with the `d` attribute and commands of m, l, and z, with spaces between x and y in coordinate pairs rather than commas.
+
 ## Restrictions
 
 This approach should not be used to describe non-rotated rectangular regions.
