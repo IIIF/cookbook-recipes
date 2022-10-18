@@ -17,6 +17,7 @@
 [0017]: {{ site.cookbook_url | absolute_url }}/recipe/0017-transcription-av/ "Providing Access to Transcript Files of A/V Content"
 [0139]: {{ site.cookbook_url | absolute_url }}/recipe/0139-geolocate-canvas-fragment/ "Represent Canvas Fragment as a Geographic Area on a Web Map"
 
+[0019]: {{ site.cookbook_url | absolute_url }}/recipe/0019-html-in-annotations/ "HTML in Annotations"
 [0021]: {{ site.cookbook_url | absolute_url }}/recipe/0021-tagging/ "Simple Annotation — Tagging"
 
 [0033]: {{site.baseurl}}/recipe/0033-choice/ "Multiple choice of images in a single view"
