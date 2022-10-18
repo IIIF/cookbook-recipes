@@ -7,6 +7,7 @@ summary: "Paint a Canvas using an image with an associated IIIF Image API servic
 viewers:
  - Mirador
  - Annona
+ - Clover
 topic: 
  - basic 
  - image
@@ -32,7 +33,7 @@ Though a version 3 Manifest may specify a service using the version 2 `@id` and 
 
 ## Example
 
-{% include manifest_links.html viewers="Mirador, Annona" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador, Annona, Clover" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="36-42"' %}
 

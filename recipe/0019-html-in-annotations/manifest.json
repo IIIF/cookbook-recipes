@@ -9,17 +9,17 @@
   },
   "items": [
     {
-      "id": "{{ id.path }}/canvas/p1",
+      "id": "{{ id.path }}/canvas-1",
       "type": "Canvas",
       "height": 3024,
       "width": 4032,
       "items": [
         {
-          "id": "{{ id.path }}/page/p1/1",
+          "id": "{{ id.path }}/canvas-1/annopage-1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "{{ id.path }}/annotation/p0001-image",
+              "id": "{{ id.path }}/canvas-1/annopage-1/anno-1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -36,37 +36,31 @@
                   }
                 ]
               },
-              "target": "{{ id.path }}/canvas/p1"
+              "target": "{{ id.path }}/canvas-1"
             }
           ]
         }
       ],
-	  "annotations": [
-		  {
-			"id": "{{ id.path }}/page/p2/1",
-			"type": "AnnotationPage",
-			"items": [
-				{
-					"id": "{{ id.path }}/annotation/anno/p0002-wikidata",
-					"type": "Annotation",
-					"motivation": "tagging",
-					"body": [
-						{
-							"type": "SpecificResource",
-							"source": "http://www.wikidata.org/entity/Q18624915"
-						},
-						{
-							"type": "TextualBody",
-							"value": "Gänseliesel-Brunnen",
-							"format": "text/plain",
-							"language": "de"
-						}
-					],
-					"target": "{{ id.path }}/canvas/p1#xywh=749,1054,338,460"
-				}
-			]
-		  }
-	  ]
+      "annotations": [
+        {
+          "id": "{{ id.path }}/canvas-1/annopage-2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}{{ id.path }}/canvas-1/annopage-2/anno-1",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "TextualBody",
+                "language": "de",
+                "format": "text/html",
+                "value": "<p>Göttinger Marktplatz mit <a href='https://de.wikipedia.org/wiki/G%C3%A4nseliesel-Brunnen_(G%C3%B6ttingen)'>Gänseliesel Brunnen <img src='https://en.wikipedia.org/static/images/project-logos/enwiki.png' alt='Wikipedia logo'></a></p>"
+              },
+              "target": "{{ id.path }}/canvas-1"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
