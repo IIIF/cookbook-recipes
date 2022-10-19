@@ -3,14 +3,14 @@
   "id": "{{ id.url }}",
   "type": "Manifest",
   "label": {
-    "en": ["George Stubbs, 1724–1806, British, Greenland Falcon, 1780"]
+    "none": ["Laocöon"]
   },
   "homepage": [
     {
-      "id": "https://collections.britishart.yale.edu/catalog/tms:21168",
+      "id": "https://www.getty.edu/art/collection/object/103RQQ",
       "type": "Text",
       "label": {
-        "en": ["Catalog entry at the Yale Center for British Art"]
+        "en": ["Home page at the Getty Museum Collection"]
       },
       "format": "text/html",
       "language": ["en"]
@@ -21,10 +21,10 @@
       "id": "{{ id.path }}/canvas/1",
       "type": "Canvas",
       "label": {
-        "en": ["recto, cropped to image"]
+        "none": ["Laocöon"]
       },
-      "height": 3087,
-      "width": 3786,
+      "height": 3000,
+      "width": 2315,
       "items": [
         {
           "id": "{{ id.path }}/canvas/1/page/1",
@@ -35,35 +35,20 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://images.collections.yale.edu/iiif/2/ycba:a1333c03-be5b-4f5b-a897-7e15e3d17b29/full/full/0/default.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/28473c77da3deebe4375c3a50572d9d3-laocoon/full/!500,500/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "service": [
                   {
-                    "@id": "https://images.collections.yale.edu/iiif/2/ycba:a1333c03-be5b-4f5b-a897-7e15e3d17b29",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
+                    "@id": "https://iiif.io/api/image/3.0/example/reference/28473c77da3deebe4375c3a50572d9d3-laocoon",
+                    "@type": "ImageService3",
+                    "profile": "http://iiif.io/api/image/2/level1.json"
                   }
                 ],
-                "height": 3087,
-                "width": 3786
+                "height": 3000,
+                "width": 2315
               },
               "target": "{{ id.path }}/canvas/1"
-            }
-          ]
-        }
-      ],
-      "thumbnail": [
-        {
-          "id": "https://media.collections.yale.edu/thumbnail/ycba/a1333c03-be5b-4f5b-a897-7e15e3d17b29",
-          "type": "Image",
-          "width": 480,
-          "height": 391,
-          "service": [
-            {
-              "@id": "https://media.collections.yale.edu/thumbnail/ycba/a1333c03-be5b-4f5b-a897-7e15e3d17b29",
-              "@type": "ImageService2",
-              "profile": "level0"
             }
           ]
         }

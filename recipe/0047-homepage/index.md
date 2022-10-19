@@ -31,13 +31,13 @@ Web pages related to the Manifest that are not its home should utilize the `meta
 
 ## Example
 
-In this example we have a Manifest representing an object housed at the Yale Center for British Art. A `homepage` property is at the Manifest level with one entry. The single instance references the URL at which a user could be displayed a web page of the object’s catalog entry.
+In this example we have a Manifest representing an object housed at the Getty Museum Collection. A `homepage` property is at the Manifest level with one entry. The single instance references the URL at which a user could be displayed a web page of the object’s catalog entry.
 
-_Greenland Falcon._ Beeswax on panel by George Stubbs. Credit: Yale Center for British Art, Paul Mellon Collection.
+_Laocöon_. Credit: Getty.
 
 {% include manifest_links.html viewers="Mirador, Clover" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="10-14"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="10-24"' %}
 
 ## Related Recipes
 
