@@ -21,7 +21,7 @@
       "id": "{{ id.path }}/canvas/1",
       "type": "Canvas",
       "label": {
-        "none": ["Laocöon"]
+        "none": ["Front"]
       },
       "height": 3000,
       "width": 2315,
