@@ -13,7 +13,7 @@ property: homepage
 
 ## Use Case
 
-You have a IIIF Manifest representing an object that is also represented by one or more web pages. These web pages may be published by the organization responsible for the object as well as its Manifest resource. For each homepage entry, an actionable route would be provided to a web page able to be displayed to the user.
+You have a IIIF Manifest representing an object that is also represented by one or more home pages by an organization. These web pages may be published by the organization responsible for the object as well as its Manifest resource. For each homepage entry, an actionable route would be provided to a web page able to be displayed to the user.
 
 ## Implementation Notes
 
