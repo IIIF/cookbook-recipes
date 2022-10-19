@@ -43,6 +43,7 @@ _Laocöon_. Credit: Getty.
 
 - [Acknowledge Content Contributors][0234] for demonstrating the use of `homepage` for a `provider`
 - [Linking to Structured Metadata][0053] for demonstrating the use of `seeAlso`
+- [Metadata on any Resource][0029]
 
 {% include acronyms.md %}
 {% include links.md %}

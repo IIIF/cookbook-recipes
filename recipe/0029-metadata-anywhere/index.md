@@ -45,6 +45,7 @@ Credit: *John Dee performing an experiment before Queen Elizabeth I*. Oil painti
 * [Internationalization and Multi-language Values][0006]
 * [Displaying Multiple Values with Language Maps][0118]
 * [Linking to Structured Metadata][0053]
+- [Linking to Web Page of an Object][0047]
 
 {% include acronyms.md %}
 {% include links.md %}
