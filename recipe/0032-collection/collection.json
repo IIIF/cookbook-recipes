@@ -1,0 +1,18 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "{{ id.url }}",
+  "type": "Collection",
+  "label": { "none": [ "Simple Collection" ] },
+  "items": [
+    {
+      "id": "{{ id.path }}/manifest-01.json",
+      "type": "Manifest",
+      "label": { "none": [ "Manifest 01" ] }
+    },
+    {
+      "id": "{{ id.path }}/manifest-02.json",
+      "type": "Manifest",
+      "label": { "none": [ "Manifest 02" ] }
+    }
+  ]
+}
