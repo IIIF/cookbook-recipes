@@ -26,8 +26,8 @@ This recipe brings into relief the polyvocality of the term "Annotation". On the
 As mentioned above, there are other methods of drawing attention to a region of a IIIF resource:
 + **Copy and Crop**: Duplicate the image file you are working from, crop it in an image editor directly to the desired dimensions, and use this derived image's URI in the Manifest. This method sidesteps the benefits of IIIF and walks right into one of the problems that IIIF aims to address, namely the proliferation of copies of high-quality images as image re-use grows.
 + **Annotation**: Create an Annotation on the full resource to tag the region. This method leaves the region in its resource context and allows you to draw attention to multiple regions without creating a new manifest for each.
-+ **Content State**: Use the Content State API with a viewer to show the region. This approach is usable only with a valid Content State URI and a IIIF viewer that works with Content State.
-+ **Static Image**: Skip using an Image service and refer to your image resource file directly, appending a `#xywh` fragment identifier to the image URI. As with any IIIF use of a static image, the image will only be enlarged in the viewer, where an Image service offers among other benefits the download speed benefit of a tiled image, where the tiles are sized appropriate to zoom level and only delivered to the viewer when requested by the browser.
++ **Content State**: Use the Content State API with a compatible viewer to show the region. This approach is usable only with a valid Content State URI and a IIIF viewer that works with Content State.
++ **Static Image**: Skip using an Image service and refer to your image resource file directly. This is as in [Recipe #1][0001], but here you would need to append a `#xywh` fragment identifier to the image URI. As with any IIIF use of a static image, the image will only be enlarged in the viewer, where an Image service offers among other benefits the download speed benefit of a tiled image, where the tiles are sized appropriate to zoom level and only delivered to the viewer when requested by the browser.
 
 ## Restrictions
 
