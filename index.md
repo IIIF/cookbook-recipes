@@ -52,6 +52,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Begin playback at a specific point - Time-based media][0015] (65)
 * [Navigation by Chronology][0230]
 * [Locate a Manifest on a Web Map][0154]
+* [Locate Multiple Canvases on a Web Map][0240]
 * [Acknowledge Content Contributors][0234]
 
 ## Textual and other supplementary content
