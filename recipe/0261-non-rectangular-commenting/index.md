@@ -25,7 +25,15 @@ When reviewing your SVG data, remove all styling and transformation features, pe
 Sizing and placement of the SVG polygon in relation to its `target` takes some special attention. If the `target` is the entire Canvas, then the SVG viewport is assumed to cover the entire Canvas. On the other hand, if the SVG's coordinates are mapped to a part of a Canvas, then its `target` must be the rectangular bounding box of the Canvas in which the SVG viewport should be placed. If the dimensions of the viewport and its target region (either the bounding box or the entire Canvas) are not the same, then the SVG must be scaled such that it covers the region. This may result in different scaling ratios for the X and Y dimensions.
 
 ### Additional Notes on SVG
-SVG implementations and affordances cover a large range. Not all implementations have the same affordances, and not all features of SVG are present in all implementations. For example, SVG paths exported from GIMP 2.10 on MacOS will set an origin at the upper left corner of a bounding box while one generated in Acorn 7 on MacOS will set the origin in the lower left corner.
+
+Community feedback on the original version of this recipe led to conversations and thence to the decision to expand its discussion of SVG. If you have comments on this or any recipe, speak up in the `#cookbook` channel on the [IIIF Slack workspace](https://iiif.slack.com/).
+
+SVG implementations and affordances occupy a large and complex space. Not all implementations have the same affordances, and not all features of SVG are present in all implementations. For example for a small example of SVG creation software, SVG paths exported from GIMP 2.10 on MacOS will set an origin at the upper left corner of a bounding box while one generated in Acorn 7 on MacOS will set the origin in the lower left corner. Display support is equally complex: All major browsers [provide basic support](https://caniuse.com/svg), though tiles don't scale properly in MS Edge and important details such as `img` vs `object` container support are not considered "basic", at least by this common matrix.
+
+In view of this complexity, and acknowledging that requiring viewers to implement the full SVG specification on a `canvas` is impractical, this recipe suggests the following guidelines:
++ A thing
++ Another thing
++ A third thing
 
 Gimp sets origin at upper left, uses M, C, Z, with `path` + `d`, coordinate pairs separated by commas
 
