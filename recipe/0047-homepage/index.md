@@ -27,7 +27,7 @@ Entries of a `homepage` property may also have a `language` property. These valu
 
 ## Restrictions
 
-Web pages related to the Manifest that are not its home should utilize the `metadata` property as a `label` and `value` pair.
+Web pages related to the object described by the Manifest that are not its home should utilize the `metadata` property as a `label` and `value` pair.
 
 ## Example
 
