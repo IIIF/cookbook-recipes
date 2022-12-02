@@ -59,33 +59,33 @@
                       {
                         "id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-xray",
                         "type": "ImageService3",
-                        "profile": "level1",
-                        "annotations": [
+                        "profile": "level1"
+                      }
+                    ],
+                    "annotations": [
+                      {
+                        "id": "https://preview.iiif.io/cookbook/0326-annotating-image-layer/recipe/0326-annotating-image-layer/page/p2/1",
+                        "type": "AnnotationPage",
+                        "items": [
                           {
-                            "id": "https://preview.iiif.io/cookbook/0326-annotating-image-layer/recipe/0326-annotating-image-layer/page/p2/1",
-                            "type": "AnnotationPage",
-                            "items": [
-                              {
-                                "id": "https://preview.iiif.io/cookbook/0326-annotating-image-layer/recipe/0326-annotating-image-layer/annotation/p0002-tag",
-                                "type": "Annotation",
-                                "motivation": "tagging",
-                                "body": {
-                                  "type": "TextualBody",
-                                  "value": "A group of skulls.",
-                                  "language": "en",
-                                  "format": "text/plain"
-                                },
-                                "target": {
-                                  "type": "SpecificResource",
-                                  "source": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-xray",
-                                  "selector": {
-                                    "type": "ImageApiSelector",
-                                    "region": "810,900,260,370",
-                                    "size": "2000,1271"
-                                  }
-                                }
+                            "id": "https://preview.iiif.io/cookbook/0326-annotating-image-layer/recipe/0326-annotating-image-layer/annotation/p0002-tag",
+                            "type": "Annotation",
+                            "motivation": "tagging",
+                            "body": {
+                              "type": "TextualBody",
+                              "value": "A group of skulls.",
+                              "language": "en",
+                              "format": "text/plain"
+                            },
+                            "target": {
+                              "type": "SpecificResource",
+                              "source": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-xray",
+                              "selector": {
+                                "type": "ImageApiSelector",
+                                "region": "810,900,260,370",
+                                "size": "2000,1271"
                               }
-                            ]
+                            }
                           }
                         ]
                       }
