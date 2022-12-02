@@ -7,6 +7,7 @@ summary: "Building scenes or compositions using multiple assets."
 viewers:
 - id: Mirador
   support: partial
+- Annona
 topic: structure
 property:
 ---
@@ -59,7 +60,7 @@ A manifest with a single canvas that has two images painted on it. One is of the
 
 *Note: Currently, Mirador 3 only partially supports the layering of multiple images on a single Canvas and it is particularly noteworthy in this use case. While previous iterations of Mirador processed the images upwards from the first painting annotation, Mirador 3 does this in reverse. This means that the second image (the missing illustration detail) is hidden behind the image of the full folio and the user cannot view the reconstructed scene.*
 
-{% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador, Annona" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="22-45, 46-70"' %}
 

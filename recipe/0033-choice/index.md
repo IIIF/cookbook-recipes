@@ -7,6 +7,7 @@ summary: "How to model multiple choices of images for the same view - e.g., laye
 viewers:
  - id: Mirador
    support: partial
+ - Annona
 topic: structure
 property:
 ---
@@ -68,7 +69,7 @@ In this example, we have a single Canvas with the `body.type` "Choice" containin
 
 Credit: *John Dee performing an experiment before Queen Elizabeth I*. Oil painting by Henry Gillard Glindoni. Credit: Wellcome Collection. Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
-{% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador, Annona" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="25-67"' %}
 
