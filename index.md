@@ -81,7 +81,7 @@ _(leading on to segmentation examples later)_
 * [Annotation with a Non-Rectangular Polygon][0261]
 * [Tagging with an External Resource][0258]
 * hotspot linking
-* Annotation in the context of a particular content resource https://github.com/IIIF/iiif-stories/issues/101
+* [Annotate a specific images or layers][0326]
 * [Geographic coordinates][0139]
 * [Embedded or Referenced Annotations][0269]
 
