@@ -43,6 +43,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Rights statement\(s\)][0008] (7)
 * [Simple Manifest - Book][0009] (19)
 * [Book behavior (paging) variations][0011] (15,16,17)
+* [Addressing a spatial region][0299]
 * [Viewing direction and its effect on navigation][0010] (11,12,13,14)
 * [Manifest Thumbnail][0117]
 * [Implementation discussion: Thumbnails on Canvases][0232]
@@ -52,6 +53,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Begin playback at a specific point - Time-based media][0015] (65)
 * [Navigation by Chronology][0230]
 * [Locate a Manifest on a Web Map][0154]
+* [Locate Multiple Canvases on a Web Map][0240]
 * [Acknowledge Content Contributors][0234]
 
 ## Textual and other supplementary content
@@ -115,7 +117,7 @@ _(leading on to segmentation examples later)_
 ## Linking
 
 * alternative representations (rendering (?))
-* Homepage
+* [Linking to Web Page of an Object (homepage)][0047]
 * Linking from Image API to Presentation API (via partOf as per #600, #1507)
 * Linking from Image API to external metadata
 * Linking from external metadata to Image API
