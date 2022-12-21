@@ -28,18 +28,22 @@ Sizing and placement of the SVG polygon in relation to its `target` takes some s
 
 Community feedback on the original version of this recipe led to conversations and thence to the decision to expand its discussion of SVG. If you have comments on this or any recipe, speak up in the `#cookbook` channel on the [IIIF Slack workspace](https://iiif.slack.com/).
 
-SVG implementations and affordances occupy a large and complex space. Not all implementations have the same affordances, and not all features of SVG are present in all implementations. For example for a small example of SVG creation software, SVG paths exported from GIMP 2.10 on MacOS will set an origin at the upper left corner of a bounding box while one generated in Acorn 7 on MacOS will set the origin in the lower left corner. Display support is equally complex: All major browsers [provide basic support](https://caniuse.com/svg), though tiles don't scale properly in MS Edge and important details such as `img` vs `object` container support are not considered "basic", at least by this common matrix.
+SVG implementations and affordances occupy a large and complex space. Not all implementations have the same affordances, and not all features of SVG are present in all implementations. For example for a small example of SVG creation software, SVG paths exported from GIMP 2.10 on MacOS will set an origin at the upper left corner of a bounding box while one generated in Acorn 7 on MacOS will set the origin in the lower left corner. Conventional browser support is equally complex: All major browsers natively [provide basic support](https://caniuse.com/svg), though tiles don't scale properly in MS Edge and important details such as `img` vs `object` container support are not considered "basic", at least by this common matrix.
 
-In view of this complexity, and acknowledging that requiring viewers to implement the full SVG specification on a `canvas` is impractical, this recipe suggests the following guidelines:
-+ A thing
-+ Another thing
-+ A third thing
+In view of this complexity, and acknowledging that requiring viewers to implement the full SVG specification on a `canvas` is impractical, this recipe suggests the following guidelines. As a baseline, viewers should [support]:
++ A
++ B
++ C
 
+For maximum compatibility with viewers, manifest creators should ensure that any non-rectangular annotations are limited to the above list as well. Going beyond this list, or keeping to the SVG features contained therein but adding interaction or multiplicity of them, risks your non-rectangular annotations not appearing in a viewer. In the case of SVG non-rectangular annotations, it may not be feasible for viewers may to display only the supported features and discard the rest, as they can do for manifests more generally.
+
+<!-- 
 Gimp sets origin at upper left, uses M, C, Z, with `path` + `d`, coordinate pairs separated by commas
 
 Acorn uses shape syntax for simple shapes, puts origin at lower left. For complex shapes, uses `path` + `d`, style elements for the stroke if there is one, commands of M, L, Z with commas between x and y in coordinate pairs.
 
 Google Docs Drawings can be saved as SVGs, use clipPath, and separate a shape's stroke and fill into different paths. It also uses the `path` element with the `d` attribute and commands of m, l, and z, with spaces between x and y in coordinate pairs rather than commas.
+ -->
 
 ## Restrictions
 
