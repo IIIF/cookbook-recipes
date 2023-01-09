@@ -15,58 +15,12 @@ Digitized Newspapers are more complicated than some other types of content as th
 
 This recipe was put together by Nuno Freire from Europeana and was discussed by the IIIF Newspaper Community Group. The example is a cut down Newspaper with two issues containing two pages. The OCR is at page level rather than article level. The example is for a German Newspaper called the ‘Berliner Tageblatt’ and is hosted by Europeana. In the IIIF domain a Newspaper Title is considered to be a __IIIF Collection__ and points to issue __IIIF Manifests__ through the `items` element. An issue in this example is considered to be the unit or edition that was published on a particular date. For a more complete discussion on Newspaper hierarchies and how they map to IIIF see the IIIF Newspaper Guidance notes. 
 
-### Date of publication or navDate
-One of the important features of Newspapers is the publication date which can allow the user to navigate issues by the date they were published. To achieve this we use the special [navDate](https://iiif.io/api/presentation/3.0/#navdate) property. This `navDate` should be added both to the items in a collection and also in the issue manifest. This allows viewers to present a date based navigation for Newspaper collections. 
+### Navigate by Date
+(For a full discussion of navigation by chronological order, see [Navigation by Chronology][0230].)
 
-The `navDate` is added to the collection in the items property for example:
+One important feature of newspapers is their publication date, which IIIF manifests can provide to viewers to allow navigation of issues by chronology. To achieve this we use the `navDate` property. This property should be added both to the items in a collection and to each issue's manifest. Viewers are not required to make use of `navDate`, and viewers that do have date-aware navigation available may not default to that navigation interface.
 
-Full JSON: [newspaper_title-collection.json](newspaper_title-collection.json)
-
-{: class="line-numbers" data-line="10,20"}
-```json
-"items": [
-    {
-      "id": "https://../newspaper_issue_1-manifest.json",
-      "type": "Manifest",
-      "label": {
-        "de": [
-          "Berliner Tageblatt - 1925-02-16"
-        ]
-      },
-      "navDate": "1925-02-16T00:00:00Z"
-    },
-    {
-      "id": "https://../newspaper_issue_2-manifest.json",
-      "type": "Manifest",
-      "label": {
-        "de": [
-          "Berliner Tageblatt - 1925-03-13"
-        ]
-      },
-      "navDate": "1925-03-13T00:00:00Z"
-    }
-]
-```
-
-The `navDate` should also be present in the issue Manifest and can be seen in the example below:
-
-Full JSON: [newspaper_issue_1-manifest.json](newspaper_issue_1-manifest.json)
-
-{: class="line-numbers" style="max-height: 15em;" data-line="9"}
-```json
-{
-    "id": "https://.../newspaper_issue_1-manifest.json",
-    "type": "Manifest",
-    "label": {
-            "de": [
-                    "Berliner Tageblatt - 1925-02-16"
-            ]
-    },
-    "navDate": "1925-02-16T00:00:00Z"
-}, 
-```
-
-For Editions, a temporal value can be inserted to enforce navigation order. `navDate` is not an assertion of when an issue was published but instead a datetime useful for navigation. Therefore, you can use a `06:00` timestamp for a morning edition and a `17:00` for an evening edition to provide browse order.
+Because manifests have no enforced truth relation to digital objects, an arbitrary temporal value can be inserted to enforce navigation order for newspaper editions. You could, for instance, use `T06:00:00+00:00` in the timestamp portion of a `navDate` property value for a morning edition and `T17:00:00+00:00` for an evening edition just to provide browse order. If you can insert the actual publication time and time zone or time zone offset for an edition, so much the better.
 
 ### Linking to Annotations
 Digitized Newspapers often have associated OCR text and to make this available in a IIIF viewer it needs to be in the form of W3C annotations linked from the Newspaper page. An example of this link between page (or IIIF canvas) can be seen highlighted below:
