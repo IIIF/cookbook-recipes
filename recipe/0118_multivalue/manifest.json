@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://example.org/iiif/text-language/manifest",
+    "id": "{{ id.url }}",
     "type": "Manifest",
     "label": {
       "fr": [
@@ -33,17 +33,17 @@
     },
     "items": [
       {
-        "id": "https://example.org/iiif/text-language/canvas1",
+        "id": "{{ id.path }}/canvas/1",
         "type": "Canvas",
         "width": 1114,
         "height": 991,
         "items": [
           {
-            "id": "https://example.org/iiif/text-language/canvas1/page1",
+            "id": "{{ id.path }}/canvas/1/page/1",
             "type": "AnnotationPage",
             "items": [
               {
-                "id": "https://example.org/iiif/text-language/canvas1/page1/annotation1",
+                "id": "{{ id.path }}/canvas/1/page/1/annotation/1",
                 "type": "Annotation",
                 "motivation": "painting",
                 "body": {
@@ -51,7 +51,7 @@
                   "type": "Image",
                   "format": "image/jpeg"
                 },
-                "target": "https://example.org/iiif/text-language/canvas1"
+                "target": "{{ id.path }}/canvas/1"
               }
             ]
           }

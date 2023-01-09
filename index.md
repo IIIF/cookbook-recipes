@@ -1,8 +1,8 @@
 ---
-title: Cookbook of IIIF Recipes
-layout: default
-tags: [tbc]
-summary: "tbc"
+title: IIIF Cookbook
+layout: page
+hero:
+  image: "assets/images/heroes/smithsonian_cookbook.webp"
 ---
 
 The [IIIF Presentation API][prezi3] specifies a standardized way to describe complex digital objects. The resource types and properties of the specification are the building blocks of interoperable representations, for rendering by viewers and other software clients. This cookbook gathers together many examples of these representations (usually IIIF Manifests), in order to:
@@ -12,11 +12,18 @@ The [IIIF Presentation API][prezi3] specifies a standardized way to describe com
 * enable client software developers to support these patterns, for consistency of user experience (when desirable);
 * demonstrate the applicability of IIIF to a broad range of use cases.
 
-The issues of the [Cookbook Recipes repository](https://github.com/IIIF/cookbook-recipes/issues) are used to identify and discuss cookbook recipes, prior to their inclusion in the final cookbook site.
+The issues of the [Cookbook Recipes repository][cookbook-issues] are used to identify and discuss cookbook recipes, prior to their inclusion in the final cookbook site.
+
+{{ theme.block-center-start }}
+## Viewer Support
+As part of the work to aid implementation the Cookbook group have developed a Viewer Matrix which shows which recipe is supported by which IIIF viewer.
+
+{% include misc/button.html button_link="recipe/matrix/" button_label="See IIIF viewer support" %}
+{{ theme.block-end }}
 
 # Contributing
 
-Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advice and support can be received from the IIIF Cookbook channel on the IIIF Slack. For detailed information on how to contribute please see the [Cookbook process](recipe/).
+Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advice and support can be received from the IIIF Cookbook channel on the IIIF Slack. For detailed information on how to contribute please see the [Cookbook process][cookbook-process].
 
 # The Recipes
 
@@ -36,32 +43,47 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Rights statement\(s\)][0008] (7)
 * [Simple Manifest - Book][0009] (19)
 * [Book behavior (paging) variations][0011] (15,16,17)
+* [Addressing a spatial region][0299]
 * [Viewing direction and its effect on navigation][0010] (11,12,13,14)
 * [Manifest Thumbnail][0117]
-* thumbnail algorithm / discussion
+* [Implementation discussion: Thumbnails on Canvases][0232]
 * [Load a Preview Image Before the Main Content][0013]
 * [Audio Presentation with Accompanying Image][0014]
 * [Load Manifest Beginning with a Specific Canvas][0202]
 * [Begin playback at a specific point - Time-based media][0015] (65)
 * [Navigation by Chronology][0230]
+* [Locate a Manifest on a Web Map][0154]
+* [Locate Multiple Canvases on a Web Map][0240]
+* [Acknowledge Content Contributors][0234]
 
 ## Textual and other supplementary content
 
-* Transcription of image-based content - various examples gathered (43,44,45,46,47,48)
-* Transcription of audio and video
-* [Using Caption and Subtitles with Video Content][0219]
+* [Transcription of image-based content][016]
+* [Using Transcripts with A/V Content][0017]
+* [Using Captions and Subtitles with Video Content][0219]
 * Transcription of content into XML, with XPaths to select a segment
 * [Providing Alternative Representations][0046]
+* [Transcripts, Captions, and Subtitles - General Considerations][0231]
+    * [Providing Access to Transcript Files of A/V Content][0017]
+    * [Using Annotations for Timed Text][0079]
+    * [Using Caption and Subtitle Files with Video Content][0219]
+    * [A Side-by-side Transcript of a Video Recording][0253]
+* Transcription of content into XML, with XPaths to select a segment
 
 ## Other kinds of annotations
 _(leading on to segmentation examples later)_
 
 * comments - various examples (51,52,54)
+* [Simplest Annotation][0266]
+* [HTML in Annotations][0019]
 * Fragment selectors (61)
-* tagging
+* [Simple Annotation - Tagging][0021]
+* [Annotation with a Non-Rectangular Polygon][0261]
+* [Tagging with an External Resource][0258]
 * hotspot linking
-* Annotation in the context of a particular content resource https://github.com/IIIF/iiif-stories/issues/101
+* [Annotate a specific images or layers][0326]
 * [Geographic coordinates][0139]
+* [Embedded or Referenced Annotations][0269]
 
 ## Internal structure
 
@@ -74,18 +96,17 @@ _(leading on to segmentation examples later)_
 ## Higher-level structure
 
 * [Multi-volume Work with Individually-bound Volumes][0030]
-* bound multi-volume work
+* [Multiple Volumes in a Single Bound Volume][0031]
 * paged Collections (from #1343)
 
 ## Segmentation and complex resources
 
-* Choice (simplest) (28)
-* Choice - multispectral flavored example, with image services (29)
-* foldouts, etc (Choice or non-paged interlude (flaps vs maps))?
-* [Multiple images (master/detail)][detail-image] (30,31)
+* [Multiple choice of images in a single view][0033] (29)
+* [Foldouts, Flaps, and Maps][0035]
+* [Composition from Multiple Images][0036] (30,31)
 * Multiple images and multiple choices (32,33,34)
 * [Annotating part of an image to a Canvas][recipe-segment-image-part] (e.g., crop out scanner) (35,36,37,38)
-* Image with CSS Rotation (39)
+* [Image Rotation Two Ways][0040]
 * Reusing an image service (ImageApiSelector) (41)
 * non-rectangular segmentation
 * temporal segmentation
@@ -96,7 +117,7 @@ _(leading on to segmentation examples later)_
 ## Linking
 
 * alternative representations (rendering (?))
-* Homepage
+* [Linking to Web Page of an Object (homepage)][0047]
 * Linking from Image API to Presentation API (via partOf as per #600, #1507)
 * Linking from Image API to external metadata
 * Linking from external metadata to Image API
@@ -129,7 +150,7 @@ _(leading on to segmentation examples later)_
 * a Sammelband
 * Archival collection (hierarchy, paging)
 * Thumbnail range for video navigation
-* Video with captions in multiple languages
+* [Using Caption and Subtitle Files in Multiple Languages with Video Content][0074]
 * Mixed Image Service references (a mashup, with img2 and img3 services)
 * Glenn Gould - score and performance scenarios (transcribing)
 * A Map

@@ -9,39 +9,43 @@ on:
         branches:
           - '*'
           - '!master'
+          - '!main'
+          - '!beta'
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
+    env:
+      BUNDLE_WITH: test jekyll_plugins
+      SITE_ID:  'cookbook' # which iiif site this is
+      URL: 'https://preview.iiif.io'
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
     # store branch name in ${BRANCH_NAME}
-    - uses: nelonoel/branch-name@v1.0.1
+    - name: Export BRANCH_NAME # store branch name in $BRANCH_NAME
+      run: echo BRANCH_NAME=`git rev-parse --abbrev-ref HEAD` >> $GITHUB_ENV
 
     - name: Setup ruby
       uses: actions/setup-ruby@v1
       with:
-        ruby-version: '2.6'
-    - run: gem install bundler  
+        bundler-cache: true
+    - run: gem install bundler && bundle
 
-    - uses: actions/cache@v1
-      with:
-        path: vendor/bundle
-        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-gems-
+     # build and test
+    - name: Build preview site
+      run: bundle exec rake build:preview
+    - name: Test html
+      run: bundle exec rake test:html
+    - name: Test internal links
+      run: bundle exec rake test:links:internal
+    - name: Test *iiif.io* links
+      run: bundle exec rake test:links:iiif
 
-    # Build jekyll site
-    - name: Build Jekyll
-      run: .github/bin/build_jekyll.sh
-      env:
-        CONFIG: "--config _config.yml"
-        BASE_URL: "/cookbook/${{ env.BRANCH_NAME}}"
     # Validate
     - name: Set up Python 3.x
       uses: actions/setup-python@v2
@@ -69,7 +73,14 @@ jobs:
     - name: validate      
       run: scripts/validate.sh
 
-    # Deploy to live site
+    - name: add URL to config
+      run: .github/bin/addURL.sh
+
+     # build and test
+    - name: Build preview site
+      run: bundle exec rake build:preview
+
+    # Deploy to preview site
     - name: Create GitHub deployment
       uses: glenrobson/deployments@v0.4.2
       id: deployment
@@ -88,7 +99,7 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_REGION: ${{ secrets.AWS_REGION }}
         SOURCE_DIR: "_site"
-        DEST_DIR: "cookbook/${BRANCH_NAME}"
+        
     - name: Update deployment status
       uses: glenrobson/deployments@v0.4.2
       if: always()
@@ -98,4 +109,4 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         status: ${{ job.status }}
         deployment_id: ${{ steps.deployment.outputs.deployment_id }}
-        env_url: "https://preview.iiif.io/cookbook/${{ env.BRANCH_NAME}}/index.html"
+        env_url: "https://preview.iiif.io/${{ env.SITE_ID }}/${{ env.BRANCH_NAME}}/index.html"

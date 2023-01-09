@@ -4,6 +4,11 @@ id: 30
 layout: recipe
 tags: [tbc]
 summary: "tbc"
+viewers:
+ - UV
+ - Mirador  
+ - Annona
+topic: structure
 ---
 
 ## Use Case
@@ -14,7 +19,7 @@ With multi-volume works, it is often desirable to group the volumes together as 
 
 To create a single IIIF resource for a multi-volume work, we can group the individual volume Manifests using a IIIF Collection. A Collection is a IIIF resource that references other Manifests and Collections within its `items` property. To distinguish a multi-volume Collection from other Collection types, use the `behavior` property value `multi-part`. Include the Manifests for each volume using the `items` property.
 
-An alternative approach might be to combine the volumes into a single Manifest and use Ranges to create a table of contents for navigating the multiple volumes. The approach you choose will depend on your specific use case or context. For example, if the volumes are bound together or if the desired end result is a more unified viewing experience, the single Manifest approach might be the preferred option. For this approach, consult the [Bound Multi-volume Work][0031] recipe.
+An alternative approach might be to combine the volumes into a single Manifest and use Ranges to create a table of contents for navigating the multiple volumes. The approach you choose will depend on your specific use case or context. For example, if the volumes are bound together or if the desired end result is a more unified viewing experience, the single Manifest approach might be the preferred option. For this approach, consult the [Multiple Volumes in a Single Bound Volume][0031] recipe.
 
 *A note on metadata:* Since our Collection in this use case represents a single work with multiple volumes and the Collection is intended for display at the work level, the metadata describing the work is included in the Collection, with little metadata provided in the Manifests for the volumes. You could opt to include more metadata in the volume Manifests if the intended viewing experience necessitates it.
 
@@ -30,19 +35,19 @@ Following the Collection resource are the two Manifests for vol. 1 and vol. 2 th
 
 **Example Collection for the multi-volume work *青楼絵本年中行事 [Seirō ehon nenjū gyōji]*:**
 
-{% include manifest_links.html viewers="UV, Mirador" manifest="collection.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona" manifest="collection.json" %}
 
 {% include jsonviewer.html src="collection.json" config='data-line="4, 10-12"' %}
 
 **Example Manifest for vol. 1 of *青楼絵本年中行事 [Seirō ehon nenjū gyōji]*:**
 
-{% include manifest_links.html viewers="UV, Mirador" manifest="manifest_v1.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona" manifest="manifest_v1.json" %}
 
 {% include jsonviewer.html src="manifest_v1.json" %}
 
 **Example Manifest for vol. 2 of *青楼絵本年中行事 [Seirō ehon nenjū gyōji]*:**
 
-{% include manifest_links.html viewers="UV, Mirador" manifest="manifest_v2.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona" manifest="manifest_v2.json" %}
 
 {% include jsonviewer.html src="manifest_v2.json" %}
 
@@ -50,7 +55,7 @@ Following the Collection resource are the two Manifests for vol. 1 and vol. 2 th
 
 * [Book with Table of Contents][0024]
 * [Paged Collections][0032]
-* [Bound Multi-volume Work][0031]
+* [Multiple Volumes in a Single Bound Volume][0031]
 
 {% include acronyms.md %}
 {% include links.md %}

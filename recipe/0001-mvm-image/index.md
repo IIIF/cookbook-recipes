@@ -4,6 +4,14 @@ id: 1
 layout: recipe
 tags: [image, presentation]
 summary: "The simplest viable manifest for image content. If all you have for an object is one image on the web and a label, this pattern turns it into a IIIF Presentation resource."
+viewers:
+ - Mirador
+ - UV
+ - Annona
+ - Clover
+topic: 
+ - basic
+ - image
 ---
 
 
@@ -25,7 +33,7 @@ This recipe is not for large images or deep zoom functionality. For this, see th
 
 ## Example
 
-{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Clover" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 
@@ -34,7 +42,7 @@ This recipe is not for large images or deep zoom functionality. For this, see th
 * [Simplest Manifest - Audio][0002] and [Simplest Manifest - Video][0003] are equivalent to this example but for other media.
 * [Support Deep Viewing with Basic Use of a IIIF Image Service][0005] shows a basic manifest for use with a IIIF Image server.
 * [Image different size to canvas][0004] shows a canvas with dimensions different from the pixel dimensions of its content.
-* [Multiple values and languages] demonstrates language map variations, for multiple values and multiple languages. 
+* [Multiple values and languages][0006] demonstrates language map variations, for multiple values and multiple languages. 
 
 
 {% include acronyms.md %}

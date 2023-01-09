@@ -4,6 +4,11 @@ id: 14
 layout: recipe
 tags: [audio,image]
 summary: "Provide the user with something to look at before they choose to start interacting with the main content, and/or while they wait for it to load/buffer, and/or while interacting with the main content."
+viewers:
+topic: 
+ - property
+ - AV
+property: accompanyingCanvas
 ---
 
 ## Use Case
@@ -30,7 +35,7 @@ _Note: The `accompanyingCanvas` property is not yet supported in viewers._
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config="data-line='15-53'"%}
+{% include jsonviewer.html src="manifest.json" config="data-line='20-58'"%}
 
 # Related recipes
 
