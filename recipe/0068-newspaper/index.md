@@ -2,9 +2,13 @@
 title: A basic newspaper
 id: 68
 layout: recipe
-tags: [tbc]
-summary: "tbc"
-topic: realWorldObject
+tags: [structural, content:image, transcript, presentation]
+summary: "An introduction to a relatively simple multi-issue title newspaper with OCR content"
+viewers:
+ - Mirador
+ - Annona
+topic:
+ - realWorldObject
 ---
 
 ## Use Case
