@@ -8,6 +8,8 @@ viewers:
  - UV
  - Mirador  
  - Annona
+ - id: Clover
+   support: partial
 topic: property
 property: metadata
 ---
@@ -30,9 +32,11 @@ The content of these entries is intended for presentation only; descriptive sema
 
 In this example, we have two Canvases, each with a different photograph of the same painting: one using natural light and the other an x-ray image. Metadata is provided at the Manifest level to convey information about the resource and additional metadata is provided on each Canvas to provide image-specific details.
 
+Note: Clover supports Metadata at the Manifest level but not down at the Canvas.
+
 Credit: *John Dee performing an experiment before Queen Elizabeth I*. Oil painting by Henry Gillard Glindoni. Credit: Wellcome Collection. Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
-{% include manifest_links.html viewers="UV, Mirador, Annona" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Clover" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="10-59, 83-96, 136-149"' %}
 
@@ -41,6 +45,7 @@ Credit: *John Dee performing an experiment before Queen Elizabeth I*. Oil painti
 * [Internationalization and Multi-language Values][0006]
 * [Displaying Multiple Values with Language Maps][0118]
 * [Linking to Structured Metadata][0053]
+- [Linking to Web Page of an Object][0047]
 
 {% include acronyms.md %}
 {% include links.md %}
