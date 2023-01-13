@@ -42,7 +42,7 @@ Only Mirador implements `provider`, and only partially. The property must be on 
 
 ## Related Recipes
 
-* [homepage][0047] for demonstrating the use of `homepage`
+* [Linking to Web Page of an Object][0047] for demonstrating the use of `homepage` at the Manifest level
 * [Add Identifying Graphic][0217] for demonstrating the use of `logo`
 * [Linking to Structured Metadata][0053] for demonstrating the use of `seeAlso`
 * [Rights][0008] for demonstrating use of `requiredStatement`
