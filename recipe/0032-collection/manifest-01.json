@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "{{ id.url }}",
   "type": "Manifest",
-  "label": { "none": [ "Manifest 01" ] },
+  "label": { "none": [ "Manifest 1" ] },
   "items": [
     {
       "id": "{{ id.path }}/canvas/p1",
