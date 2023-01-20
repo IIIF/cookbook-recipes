@@ -26,85 +26,8 @@ One important feature of newspapers is their publication date, which IIIF manife
 
 Because manifests have no enforced truth relation to digital objects, an arbitrary temporal value can be inserted to enforce navigation order for newspaper editions. You could, for instance, use `T06:00:00+00:00` in the timestamp portion of a `navDate` property value for a morning edition and `T17:00:00+00:00` for an evening edition just to provide browse order. If you can insert the actual publication time and time zone or time zone offset for an edition, so much the better.
 
-### Linking to Annotations
-Digitized Newspapers often have associated OCR text and to make this available in a IIIF viewer it needs to be in the form of W3C annotations linked from the Newspaper page. An example of this link between page (or IIIF canvas) can be seen highlighted below:
-
-Full JSON: [newspaper_issue_1-manifest.json](newspaper_issue_1-manifest.json)
-
-{: class="line-numbers" data-line="35-40"}
-```json
-{
-  "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302513/canvas/p1",
-  "type": "Canvas",
-  "label": {
-    "none": [
-      "p. 1"
-    ]
-  },
-  "items": [
-    {
-      "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302513/annotation_page_painting/ap1",
-      "type": "AnnotationPage",
-      "items": [
-        {
-          "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302513/annotation/p1",
-          "type": "Annotation",
-          "motivation": "painting",
-          "body": {
-            "id": "https://iiif.io/api/image/3.0/example/reference/4ce82cef49fb16798f4c2440307c3d6f-newspaper-p1/full/max/0/default.jpg",
-            "type": "Image",
-            "format": "image/jpeg",
-            "service": [
-              {
-                "id": "https://iiif.io/api/image/3.0/example/reference/4ce82cef49fb16798f4c2440307c3d6f-newspaper-p1",
-                "type": "ImageService3",
-                "profile": "level1"
-              }
-            ]
-          },
-          "target": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302513/canvas/p1"
-        }
-      ]
-    }
-  ],
-  "annotations": [
-    {
-      "id": "https://../newspaper_issue_1-anno_p1.json",
-      "type": "AnnotationPage"
-    }
-  ]
-},
-```
-
-The linked annotations are in the form of an AnnotationPage and an example is below. 
-
-Full JSON: [newspaper_issue_1-anno_p1.json](newspaper_issue_1-anno_p1.json)
-
-{: class="line-numbers" data-line="9, 16"}
-```json
-{
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://../newspaper_issue_1-anno_p1.json",
-    "type": "AnnotationPage",
-    "items": [
-        {
-            "id": "https://data.europeana.eu/annotation/9200355/BibliographicResource_3000096302513/20b3b1f4cb15f062e53fd50d584d66ff",
-            "type": "Annotation",
-            "motivation": "supplementing",
-            "body": {
-                "type": "TextualBody",
-                "format": "text/plain",
-                "language": "de",
-                "value": "84"
-            },
-            "target": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302513/canvas/p1#xywh=182,476,59,43"
-        },
- 
-```
-
-__Note__:
- * The annotation `motivation` for OCR content should be `supplementing`
- * The target of the annotation should be the Canvas ID followed by a # then the x, y, width and height of the portion of the image the text represents. 
+### Linking to OCR Text
+Digitized newspapers often have associated OCR text. To make this available to a IIIF viewer, it needs to be in the form of one or more Annotations in the appropriate manifest, structured substantially similarly to [the captions or subtitles of an A/V file][0219]. Each OCR file is an Annotation in an Annotation Page, with a `motivation` of `supplementing`, the URI of the OCR file in the `id` property of the Annotation body, and the `target` set to the applicable Canvas. If the OCR does not represent the entire Canvas, the Annotation's `target` include a fragment in xywh format of the portion of the image the OCR represents. For more detail, see the recipe [Using Caption and Subtitle Files with Video Content][0219].
 
 ### Linking to ALTO text
 
