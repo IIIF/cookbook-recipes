@@ -35,16 +35,16 @@ As well as linking to annotations, it is a common use case with Newspapers to li
 
 ## Example
 
-The complete example is made up of a number of different files:
+To demonstrate the files that might be included in even a basic newspaper presentation, we've included a number of manifests:
 1. Newspaper Title IIIF Collection - [newspaper_title-collection.json](newspaper_title-collection.json)
-2. 1st Issue Manifest - [newspaper_issue_1-manifest.json](newspaper_issue_1-manifest.json)
+2. Issue 1 Manifest - [newspaper_issue_1-manifest.json](newspaper_issue_1-manifest.json)
 * Page 1
   * Annotations - [newspaper_issue_1-anno_p1.json](newspaper_issue_1-anno_p1.json)
   * Linked ALTO - [newspaper_issue_1-alto_p1.xml](newspaper_issue_1-alto_p1.xml)
 * Page 2
   * Annotations - [newspaper_issue_1-anno_p2.json](newspaper_issue_1-anno_p2.json)
   * Linked ALTO - [newspaper_issue_1-alto_p2.xml](newspaper_issue_1-alto_p2.xml)
-3. 2nd Issue Manifest - [newspaper_issue_2-manifest.json](newspaper_issue_2-manifest.json)
+3. Issue 2 Manifest - [newspaper_issue_2-manifest.json](newspaper_issue_2-manifest.json)
     * Page 1
         * Annotations - [newspaper_issue_2-anno_p1.json](newspaper_issue_2-anno_p1.json)
         * Linked ALTO - [newspaper_issue_2-alto_p1.xml](newspaper_issue_2-alto_p2.xml)
@@ -54,7 +54,7 @@ The complete example is made up of a number of different files:
 
 __Note__:
 
-The first issue links to a version 3.0 image API endpoint:
+The first issue links to a IIIF Image API v3.0 endpoint:
 
 {: class="line-numbers" data-line="6-10"}
 ```json
@@ -72,7 +72,7 @@ The first issue links to a version 3.0 image API endpoint:
 },
 ```
 
-but the second issue links to Europeana hosted version 2 images:
+and the second issue links to a Europeana IIIF Image API v2.1 endpoint:
 
 {: class="line-numbers" data-line="6-10"}
 ```json
