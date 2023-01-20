@@ -93,10 +93,11 @@ This was to ensure there is an example hosted by Europeana and also an example w
 
 ## Related recipes
 
-Provide a bulleted list of related recipes and why they are relevant.
- * Newspaper general guidance
- * Collection
- * SeeAlso 
+- [Simplest Manifest - Image][0001]
+- [Simplest Collection][0032]
+- [Providing Alternative Representations][0046] for thinking through how to connect additional files relating to a newspaper
+- [Using Caption and Subtitle Files with Video Content][0219] for a discussion parallel to how to treat alternate forms of a digitized newspaper's content
+- [Navigation by Chronology][0230]
 
 {% include acronyms.md %}
 {% include links.md %}
