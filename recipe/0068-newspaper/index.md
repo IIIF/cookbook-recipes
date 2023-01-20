@@ -7,7 +7,7 @@ summary: "An introduction to a relatively simple multi-issue title newspaper wit
 viewers:
  - Mirador
  - Annona
-topic:
+topic: 
  - realWorldObject
 ---
 
@@ -17,7 +17,7 @@ Digitized Newspapers are more complicated than some other types of content as th
 
 ## Implementation notes
 
-This recipe was put together by Nuno Freire from Europeana and was discussed by the IIIF Newspaper Community Group. The example is a cut down Newspaper with two issues containing two pages. The OCR is at page level rather than article level. The example is for a German Newspaper called the ‘Berliner Tageblatt’ and is hosted by Europeana. In the IIIF domain a Newspaper Title is considered to be a __IIIF Collection__ and points to issue __IIIF Manifests__ through the `items` element. An issue in this example is considered to be the unit or edition that was published on a particular date. For a more complete discussion on Newspaper hierarchies and how they map to IIIF see the IIIF Newspaper Guidance notes. 
+This recipe was put together by Nuno Freire from Europeana and was discussed by the IIIF Newspaper Community Group. The example is a cut down Newspaper with two issues containing two pages. The OCR is at page level rather than article level. The example is for a German Newspaper called the ‘Berliner Tageblatt’ and is hosted by Europeana. In the IIIF domain a Newspaper Title is considered to be a [__IIIF Collection__][0032] and points to each issue, represented as __IIIF Manifests__, in a member of the `items` element. An issue in this example is considered to be the unit or edition that was published on a particular date. For a more complete discussion on Newspaper hierarchies and how they map to IIIF see the IIIF Newspaper Guidance notes. 
 
 ### Navigate by Date
 (For a full discussion of navigation by chronological order, see [Navigation by Chronology][0230].)
@@ -206,6 +206,7 @@ This was to ensure there is an example hosted by Europeana and also an example w
 
 Provide a bulleted list of related recipes and why they are relevant.
  * Newspaper general guidance
+ * Collection
  * SeeAlso 
 
 {% include acronyms.md %}
