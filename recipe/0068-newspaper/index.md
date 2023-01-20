@@ -1,5 +1,5 @@
 ---
-title: A basic ewspaper
+title: Basic Newspaper
 id: 68
 layout: recipe
 tags: [structural, content:image, transcript, presentation]
