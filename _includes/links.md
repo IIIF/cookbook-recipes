@@ -41,7 +41,7 @@
 
 [0024]: {{ site.cookbook_url | absolute_url }}/recipe/0024-book-4-toc/ "Book with Table of contents (ranges)"
 
-[0068]: {{ site.cookbook_url | absolute_url }}/recipe/0068-newspaper/ "A newspaper"
+[0068]: {{ site.cookbook_url | absolute_url }}/recipe/0068-newspaper/ "Basic Newspaper"
 [0074]: {{ site.cookbook_url | absolute_url}}/recipe/0074-multiple-language-captions/ "Using Caption and Subtitle Files in Multiple Languages with Video Content"
 [0117]: {{ site.cookbook_url | absolute_url }}/recipe/0117-add-image-thumbnail/ "Manifest Thumbnail"
 [0118]: {{ site.cookbook_url | absolute_url }}/recipe/0118_multivalue/ "Displaying Multiple Values with Language Maps"
