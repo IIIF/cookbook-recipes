@@ -1,5 +1,5 @@
 ---
-title: A basic newspaper
+title: A basic ewspaper
 id: 68
 layout: recipe
 tags: [structural, content:image, transcript, presentation]
@@ -31,41 +31,7 @@ Digitized newspapers often have associated OCR text. To make this available to a
 
 ### Linking to ALTO text
 
-As well as linking to annotations, it is a common use case with Newspapers to link to other formats of the OCR text including ALTO. This is achieved by using a `rendering` property within the canvas. For example:
-
-Full JSON: [newspaper_issue_1-manifest.json](newspaper_issue_1-manifest.json)
-
-{: class="line-numbers" data-line="9-15"}
-```json
-{
-  "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302513/canvas/p1",
-  "type": "Canvas",
-  "label": {
-    "none": [
-      "p. 1"
-    ]
-  },
-  "rendering": [{
-      "id":"https://../newspaper_issue_1-alto_p1.xml",
-      "type": "Text",
-      "format":"application/xml",
-      "profile": "http://www.loc.gov/standards/alto/",
-      "label": { "en": ["ALTO XML"] }
-  }],
-  "items": [
-    {
-        ...
-    }
-  ],
-  "annotations": [
-    {
-      "id": "https://../newspaper_issue_1-anno_p1.json",
-      "type": "AnnotationPage"
-    }
-  ]
-},
-```
-
+As well as linking to annotations, it is a common use case with Newspapers to link to other formats of the content, including the open XML Schema [ALTO](https://www.loc.gov/standards/alto/). This is achieved by using a `rendering` property on the Canvas, as the ALTO content is a alternative representation of the page. ALTO content differs from OCR in that it is a representation of a portion of a newspaper object, not an alternative format of the content of a portion of a newspaper. For more detail on using additional files connected to a newspaper, see the [Providing Alternative Representations][0046] recipe.
 
 ## Example
 
