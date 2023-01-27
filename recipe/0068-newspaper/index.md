@@ -7,7 +7,6 @@ summary: "An introduction to a relatively simple multi-issue title newspaper wit
 viewers:
  - Mirador
  - Annona
- - Clover
  - UV
 topic: 
  - realWorldObject
