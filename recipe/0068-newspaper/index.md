@@ -44,22 +44,25 @@ As well as linking to Annotations, it is a common use case with newspapers to li
 
 ## Example
 
+{% include manifest_links.html viewers="Mirador, Annona, UV" manifest="newspaper_title-collection.json" %}
+
 To demonstrate the files that might be included in even a basic newspaper presentation, we've included a number of manifests:
 1. Newspaper Title IIIF Collection - [newspaper_title-collection.json](newspaper_title-collection.json)
 2. Issue 1 Manifest - [newspaper_issue_1-manifest.json](newspaper_issue_1-manifest.json)
-* Page 1
-  * Annotations - [newspaper_issue_1-anno_p1.json](newspaper_issue_1-anno_p1.json)
-  * Linked ALTO - [newspaper_issue_1-alto_p1.xml](newspaper_issue_1-alto_p1.xml)
-* Page 2
-  * Annotations - [newspaper_issue_1-anno_p2.json](newspaper_issue_1-anno_p2.json)
-  * Linked ALTO - [newspaper_issue_1-alto_p2.xml](newspaper_issue_1-alto_p2.xml)
+	* Page 1
+		* Annotations - [newspaper_issue_1-anno_p1.json](newspaper_issue_1-anno_p1.json)
+		* Linked ALTO - [newspaper_issue_1-alto_p1.xml](newspaper_issue_1-alto_p1.xml)
+	* Page 2
+		* Annotations - [newspaper_issue_1-anno_p2.json](newspaper_issue_1-anno_p2.json)
+		* Linked ALTO - [newspaper_issue_1-alto_p2.xml](newspaper_issue_1-alto_p2.xml)
+
 3. Issue 2 Manifest - [newspaper_issue_2-manifest.json](newspaper_issue_2-manifest.json)
-    * Page 1
-        * Annotations - [newspaper_issue_2-anno_p1.json](newspaper_issue_2-anno_p1.json)
-        * Linked ALTO - [newspaper_issue_2-alto_p1.xml](newspaper_issue_2-alto_p2.xml)
-    * Page 2
-        * Annotations - [newspaper_issue_2-anno_p2.json](newspaper_issue_2-anno_p2.json)
-        * Linked ALTO - [newspaper_issue_2-alto_p2.xml](newspaper_issue_2-alto_p2.xml)
+	* Page 1
+		* Annotations - [newspaper_issue_2-anno_p1.json](newspaper_issue_2-anno_p1.json)
+		* Linked ALTO - [newspaper_issue_2-alto_p1.xml](newspaper_issue_2-alto_p2.xml)
+	* Page 2
+		* Annotations - [newspaper_issue_2-anno_p2.json](newspaper_issue_2-anno_p2.json)
+		* Linked ALTO - [newspaper_issue_2-alto_p2.xml](newspaper_issue_2-alto_p2.xml)
 
 __Note__:
 
