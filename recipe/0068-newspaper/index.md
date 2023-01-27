@@ -63,6 +63,9 @@ To demonstrate the files that might be included in even a basic newspaper presen
 		* Annotations - [newspaper_issue_2-anno_p2.json](newspaper_issue_2-anno_p2.json)
 		* Linked ALTO - [newspaper_issue_2-alto_p2.xml](newspaper_issue_2-alto_p2.xml)
 
+We won't display all of them here, as that would get unreadable. However, the Manifest for the title (structured as a IIIF Collection) may be of greatest utility.
+{% include jsonviewer.html src="newspaper_title-collection.json" %}
+
 __Note__:
 
 The first issue links to a IIIF Image API v3.0 endpoint:
