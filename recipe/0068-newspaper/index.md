@@ -7,6 +7,8 @@ summary: "An introduction to a relatively simple multi-issue title newspaper wit
 viewers:
  - Mirador
  - Annona
+ - Clover
+ - UV
 topic: 
  - realWorldObject
 ---
@@ -27,11 +29,18 @@ One important feature of newspapers is their publication date, which IIIF manife
 Because manifests have no enforced truth relation to digital objects, an arbitrary temporal value can be inserted to enforce navigation order for newspaper editions. You could, for instance, use `T06:00:00+00:00` in the timestamp portion of a `navDate` property value for a morning edition and `T17:00:00+00:00` for an evening edition just to provide browse order. If you can insert the actual publication time and time zone or time zone offset for an edition, so much the better.
 
 ### Linking to OCR Text
-Digitized newspapers often have associated OCR text. To make this available to a IIIF viewer, it needs to be in the form of one or more Annotations in the appropriate manifest, structured substantially similarly to [the captions or subtitles of an A/V file][0219]. Each OCR file is an Annotation in an Annotation Page, with a `motivation` of `supplementing`, the URI of the OCR file in the `id` property of the Annotation body, and the `target` set to the applicable Canvas. If the OCR does not represent the entire Canvas, the Annotation's `target` include a fragment in xywh format of the portion of the image the OCR represents. For more detail, see the recipe [Using Caption and Subtitle Files with Video Content][0219].
 
-### Linking to ALTO text
+#### As Annotations
+Digitized newspapers often have associated OCR text. To make this available inside a IIIF viewer, it needs to be in the form of one or more Annotations in the appropriate manifest, structured substantially similarly to [the captions or subtitles of an A/V file][0219]. Each OCR file should correspond to a Canvas, and should be an Annotation in an Annotation Page, with
++ a `motivation` of `supplementing`,
++ the URI of the OCR file in the `id` property of the Annotation body, and
++ the `target` set to the applicable Canvas.
 
-As well as linking to annotations, it is a common use case with Newspapers to link to other formats of the content, including the open XML Schema [ALTO](https://www.loc.gov/standards/alto/). This is achieved by using a `rendering` property on the Canvas, as the ALTO content is a alternative representation of the page. ALTO content differs from OCR in that it is a representation of a portion of a newspaper object, not an alternative format of the content of a portion of a newspaper. For more detail on using additional files connected to a newspaper, see the [Providing Alternative Representations][0046] recipe.
+If an OCR file does not represent the entire Canvas, the Annotation's `target` should include a fragment in [#xywh Fragment Selector syntax](https://www.w3.org/TR/annotation-model/#fragment-selector) of the portion of the Canvas the OCR represents. For more detail, see the recipe [Using Caption and Subtitle Files with Video Content][0219].
+
+#### Linking Directly to an ALTO File
+
+As well as linking to Annotations, it is a common use case with newspapers to link to other formats of the content, including the open XML Schema [ALTO](https://www.loc.gov/standards/alto/). This is achieved by using a `rendering` property on the Canvas, as the ALTO content is a alternative representation of the page. ALTO content differs from OCR in that it is a representation of a portion of a newspaper object, not an alternative format of the content of a portion of a newspaper. For more detail on using additional files connected to a newspaper, see the [Providing Alternative Representations][0046] recipe.
 
 ## Example
 
