@@ -61,11 +61,11 @@ To demonstrate the files that might be included in even a basic newspaper presen
 		* Annotations - [newspaper_issue_2-anno_p2.json](newspaper_issue_2-anno_p2.json)
 		* Linked ALTO - [newspaper_issue_2-alto_p2.xml](newspaper_issue_2-alto_p2.xml)
 
-We won't display all of them here, as that would get unreadable. However, the Manifest for the title (structured as a IIIF Collection) may be of greatest utility.
+We won't display all of them here, as that would get unreadable. However, the Manifest for the title (structured as a IIIF Collection) may be of greatest utility. Notable lines of the Manifest are highlighted.
 
 {% include manifest_links.html viewers="Mirador, Annona, UV, Clover" manifest="newspaper_title-collection.json" %}
 
-{% include jsonviewer.html src="newspaper_title-collection.json" %}
+{% include jsonviewer.html src="newspaper_title-collection.json" config='data-line="7-11,14-27,78-85,86-107"' %}
 
 ## Related recipes
 
