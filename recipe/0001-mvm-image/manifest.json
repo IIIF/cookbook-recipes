@@ -2,7 +2,7 @@
     "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "{{ id.url }}",
     "type": "Manifest",
-    "label": { "en": [ "Image 1" ] },
+    "label": { "en": [ "Single Image Example" ] },
     "items": [
       {
         "id": "{{ id.path }}/canvas/p1",
