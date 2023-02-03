@@ -66,45 +66,6 @@ To demonstrate the files that might be included in even a basic newspaper presen
 We won't display all of them here, as that would get unreadable. However, the Manifest for the title (structured as a IIIF Collection) may be of greatest utility.
 {% include jsonviewer.html src="newspaper_title-collection.json" %}
 
-__Note__:
-
-The first issue links to a IIIF Image API v3.0 endpoint:
-
-{: class="line-numbers" data-line="6-10"}
-```json
-"body": {
-    "id": "https://iiif.io/api/image/3.0/example/reference/4ce82cef49fb16798f4c2440307c3d6f-newspaper-p1/full/max/0/default.jpg",
-    "type": "Image",
-    "format": "image/jpeg",
-    "service": [
-      {
-        "id": "https://iiif.io/api/image/3.0/example/reference/4ce82cef49fb16798f4c2440307c3d6f-newspaper-p1",
-        "type": "ImageService3",
-        "profile": "level1"
-      }
-    ]
-},
-```
-
-and the second issue links to a Europeana IIIF Image API v2.1 endpoint:
-
-{: class="line-numbers" data-line="6-10"}
-```json
-"body": {
-    "id": "https://iiif.europeana.eu/image/3UU6R3RRZZGU2VNISCQX7N474GR7X4VMGYBTIWV2SNCBRGSR2WAA/presentation_images/ea1ba210-ffd3-11e5-b68d-fa163e60dd72/node-2/image/SBB/Berliner_Tageblatt/1925/03/13/0/F_SBB_00001_19250313_054_123_0_001/full/full/0/default.jpg",
-    "type": "Image",
-    "format": "image/jpeg",
-    "service": [
-      {
-        "@id": "https://iiif.europeana.eu/image/3UU6R3RRZZGU2VNISCQX7N474GR7X4VMGYBTIWV2SNCBRGSR2WAA/presentation_images/ea1ba210-ffd3-11e5-b68d-fa163e60dd72/node-2/image/SBB/Berliner_Tageblatt/1925/03/13/0/F_SBB_00001_19250313_054_123_0_001",
-        "@type": "ImageService2",
-        "profile": "http://iiif.io/api/image/2/level1.json"
-      }
-    ]
-},
-```
-This was to ensure there is an example hosted by Europeana and also an example with images available as version 3.0. 
-
 ## Related recipes
 
 - [Simplest Manifest - Image][0001]
