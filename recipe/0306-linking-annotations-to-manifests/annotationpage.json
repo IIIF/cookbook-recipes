@@ -1,0 +1,34 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "{{ id.path }}/annotationpage.json",
+  "type": "AnnotationPage",
+  "items": [
+    {
+      "id": "{{ id.path }}/canvas-1/annopage-2/anno-1",
+      "type": "Annotation",
+      "motivation": "commenting",
+      "body": {
+        "type": "TextualBody",
+        "language": "de",
+        "format": "text/plain",
+        "value": "Göttinger Marktplatz mit Gänseliesel Brunnen"
+      },
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+            "id": "{{ id.path }}/canvas-1",
+            "type": "Canvas",
+            "partOf": [{
+                    "id": "{{ id.url }}",
+                    "type": "Manifest"
+            }]
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=570,1472,1814,314"
+        }
+    }
+    }
+  ]
+}
