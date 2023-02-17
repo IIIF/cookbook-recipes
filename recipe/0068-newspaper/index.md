@@ -18,7 +18,7 @@ Digitized Newspapers are more complicated than some other types of content as th
 
 ## Implementation notes
 
-This recipe was put together by Nuno Freire from Europeana and was discussed by the IIIF Newspaper Community Group. The example is a cut down Newspaper with two issues containing two pages. The OCR is at page level rather than article level. The example is for a German newspaper called the ‘Berliner Tageblatt’ and is hosted by Europeana. In the IIIF domain a newspaper title is considered to be a [IIIF Collection][0032] and points to each issue, represented as __IIIF Manifests__, in a member of the `items` element. An issue in this example is considered to be the unit or edition that was published on a particular date. For a more complete discussion on Newspaper hierarchies and how they map to IIIF see below.
+This recipe was put together by Nuno Freire from Europeana and was discussed by the IIIF Newspaper Community Group. The example is a cut down Newspaper with two issues containing two pages. The OCR is at page level rather than article level. The example is for a German newspaper called the ‘Berliner Tageblatt’ and is hosted by Europeana. In the IIIF domain a newspaper title is considered to be a [IIIF Collection][0032] and points to each issue, represented as __IIIF Manifests__, in a member of the `items` element. An issue in this example is considered to be the unit or edition that was published on a particular date. For a more complete discussion on Newspaper hierarchies and how they map to IIIF see "Newspapers and IIIF Structures" below.
 
 ### Navigate by Date
 (For a full discussion of navigation by chronological order, see [Navigation by Chronology][0230].)
