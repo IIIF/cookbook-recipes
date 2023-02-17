@@ -41,6 +41,24 @@ If an OCR file does not represent the entire Canvas, the Annotation's `target` s
 
 As well as linking to Annotations, it is a common use case with newspapers to link to other formats of the content, including the open XML Schema [ALTO](https://www.loc.gov/standards/alto/). This is achieved by using a `rendering` property on the Canvas, as the ALTO content is a alternative representation of the page. ALTO content differs from OCR in that it is a representation of a portion of a newspaper object, not an alternative format of the content of a portion of a newspaper. For more detail on using additional files connected to a newspaper, see the [Providing Alternative Representations][0046] recipe.
 
+### Newspapers and IIIF Structures
+
+Members of the IIIF community have arrived at the following as the best correspondences between real-world newspaper components and IIIF structures. At a minimum, a newspaper rendered as IIIF should have a collection, issue, and page.
+
+| Newspaper | IIIF |
+|-----------|------|
+|Summary Title / Collection Title / Curated Title / Collection (a locally defined value for user access and to address title changes per serials cataloging) | Collection |
+|Title (usually the masthead title) | Collection |
+|Volume | Collection (often more useful for provenance than user interaction and presentation) |
+| Issue | Manifest (`navDate` recommended for presentation browsing experience) |
+| Edition | Manifest (`navDate` recommended for presentation browsing experience) |
+| Section | Range |
+| Page | Canvas |
+| Page Text (OCR) | Annotation List |
+| Article | Range |
+| Illustration | Range | 
+| Supplement | Manifest or Range |
+
 ## Example
 
 To demonstrate the files that might be included in even a basic newspaper presentation, we've included a number of manifests:
