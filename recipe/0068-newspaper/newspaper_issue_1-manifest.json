@@ -65,7 +65,7 @@
     },
     "value": {
       "en": [
-        "Berliner Tageblatt - https://www.europeana.eu/portal/record/9200355/BibliographicResource_3000096302605.html. Staatsbibliothek zu Berlin - Preußischer Kulturbesitz. Public Domain Mark - http://creativecommons.org/publicdomain/mark/1.0/"
+        "<a href='https://www.europeana.eu/portal/record/9200355/BibliographicResource_3000096302605.html'>Berliner Tageblatt</a> - Staatsbibliothek zu Berlin - Preußischer Kulturbesitz. Public Domain Mark - http://creativecommons.org/publicdomain/mark/1.0/"
       ]
     }
   },
@@ -122,6 +122,8 @@
                 "id": "https://iiif.io/api/image/3.0/example/reference/4ce82cef49fb16798f4c2440307c3d6f-newspaper-p1/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
+                "height": 5000,
+                "width": 3602,
                 "service": [
                   {
                     "id": "https://iiif.io/api/image/3.0/example/reference/4ce82cef49fb16798f4c2440307c3d6f-newspaper-p1",
@@ -172,6 +174,8 @@
                 "id": "https://iiif.io/api/image/3.0/example/reference/4ce82cef49fb16798f4c2440307c3d6f-newspaper-p2/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
+                "height": 5000,
+                "width": 3602,
                 "service": [
                   {
                     "id": "https://iiif.io/api/image/3.0/example/reference/4ce82cef49fb16798f4c2440307c3d6f-newspaper-p2",
