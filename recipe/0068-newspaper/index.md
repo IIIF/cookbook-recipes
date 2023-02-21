@@ -43,13 +43,13 @@ As well as linking to Annotations, it is a common use case with newspapers to li
 
 ### Newspapers and IIIF Structures
 
-Members of the IIIF community have arrived at the following as the best correspondences between real-world newspaper components and IIIF structures. At a minimum, a newspaper rendered as IIIF should have a title, issue, and page.
+Members of the IIIF community have arrived at the following as the best correspondences between real-world newspaper components and IIIF structures. At a minimum, a newspaper rendered as IIIF should have a collection, issue, and page.
 
 | Newspaper | IIIF |
 |-----------|------|
-| Summary Title / Collection Title / Curated Title / Collection (a locally defined value for user access and to address title changes per serials cataloging) | Collection |
-| Title (usually the masthead title) | Collection |
-| Volume | Collection (often more useful for provenance than user interaction and presentation) |
+|Summary Title / Collection Title / Curated Title / Collection (a locally defined value for user access and to address title changes per serials cataloging) | Collection |
+|Title (usually the masthead title) | Collection |
+|Volume | Collection (often more useful for provenance than user interaction and presentation) |
 | Issue | Manifest (`navDate` recommended for presentation browsing experience) |
 | Edition | Manifest (`navDate` recommended for presentation browsing experience) |
 | Section | Range |
@@ -58,7 +58,6 @@ Members of the IIIF community have arrived at the following as the best correspo
 | Article | Range |
 | Illustration | Range | 
 | Supplement | Manifest or Range |
-{: .api-table style="max-width: 780px;"}
 
 ## Example
 
@@ -80,20 +79,7 @@ To demonstrate the files that might be included in even a basic newspaper presen
 		* Annotations - [newspaper_issue_2-anno_p2.json](newspaper_issue_2-anno_p2.json)
 		* Linked ALTO - [newspaper_issue_2-alto_p2.xml](newspaper_issue_2-alto_p2.xml)
 
-We won't display all of these here, to keep the recipe readable. However, we've inclued the Manifest for the title (structured as a IIIF Collection), thinking it will provide the best initial utility. Notable lines of the Manifest are highlighted.
-
-Viewer support for any particular feature will depend on the viewer. Below is a table showing viewer support as of Febtruary 2023 for features noted in this recipe.
-
-| IIIF component | Viewer Support (February 2023) |
-|-----------|------|
-| Collection | Mirador, Annona, Universal Viewer, Clover |
-| Manifest per issue | Mirador, Annona, Universal Viewer, Clover |
-| `navDate` | Universal Viewer |
-| Canvas per page | Mirador, Annona, Universal Viewer, Clover |
-| OCR in Annotations | Annona |
-| ALTO via `rendering` | none |
-| `seeAlso` for dataset version | Annona, Mirador |
-{: .api-table style="max-width: 780px;"}
+We won't display all of them here, as that would get unreadable. However, the Manifest for the title (structured as a IIIF Collection) may be of greatest utility. Notable lines of the Manifest are highlighted.
 
 {% include manifest_links.html viewers="Mirador, Annona, UV, Clover" manifest="newspaper_title-collection.json" %}
 
