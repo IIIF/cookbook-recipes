@@ -26,11 +26,7 @@ Our supplementary image is not part of the Canvas content, thus it must not have
 
 The main content is a photo of a square in Göttingen, which shows, among others things, a fountain. We wanted to show the lights on the foutain during the night, so we associated the part of the canvas containing the foutain with an Annotation consisting of a picture of the foutain at night and a text comment.
 
-> Annona successfully open the manifest and show the image annotation, but only if the image body of the annotation use an `@id` field instead of `id` (which is part of an older specification, and if [IIIF Presentation asks for retrocompatibility](https://iiif.io/api/presentation/3.0/#48-keyword-mappings) for new clients, W3C Web Annotation doesn't specify anything)  
-> It also search for `caption` and `attribution` properties in the image body of the annotation; properties which are not reproduced here because there were not found in the W3C Web Annotation data model  
-> 
-> *The following links will open a slighty different manifest from the one presented below*
-> {% include manifest_links.html viewers="Annona" manifest="manifest_at_id.json" %}
+> {% include manifest_links.html viewers="Annona" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config="data-line='49-66'" %}
 
