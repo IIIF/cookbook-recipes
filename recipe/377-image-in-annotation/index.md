@@ -5,7 +5,6 @@ layout: recipe
 tags: [annotation]
 summary: "Provides an image in an annotation"
 viewers:
-  - Mirador
   - Annona
 topic: 
  - basic
@@ -15,20 +14,17 @@ topic:
 
 Provides an image which add details or show a different view about a particular feature/area in the main content.
 
+- You have a group picture with many people on it. The image quality doesn't allow to recognize all of them, so you annotate each face with the name of the person, and you add in the annotation an individual picture of that person.  
+- You have a picture of an architect's plan for a building which is now built. You want to show, for the differents items on the plan, how it looks like once built. So you annotate some features (eg the patio) with an actual photo
+- You have a manifest with a video showing an old building at the time of his creation. Sometimes when the video shows a different part of the building, you want to annotate the video with a photo of how this part looks now. Some annotations are just one image, but some also contains a description like "this wall faces north, you can see there is more moss there"
+
 ## Implementation Notes
 
 Our supplementary image is not part of the Canvas content, thus it must not have the motivation `painting`, and so is to be placed in the `annotations` section of the manifest. Following the [W3C Web Annotation model](https://www.w3.org/TR/annotation-model/#external-web-resources), we have a simple image body referencing our image, and a text body to provides a comment/title about the image.
 
-## Restrictions
-
-**Unknown - Help Needed**
-
 ## Example
 
 The main content is a photo of a square in Göttingen, which shows, among others things, a fountain. We wanted to show the lights on the foutain during the night, so we associated the part of the canvas containing the foutain with an Annotation consisting of a picture of the foutain at night and a text comment.
-
-> Mirador can open this manifest, show the text body and the selected area of the annotation, but is not capable to show the associated image  
-> {% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
 
 > Annona successfully open the manifest and show the image annotation, but only if the image body of the annotation use an `@id` field instead of `id` (which is part of an older specification, and if [IIIF Presentation asks for retrocompatibility](https://iiif.io/api/presentation/3.0/#48-keyword-mappings) for new clients, W3C Web Annotation doesn't specify anything)  
 > It also search for `caption` and `attribution` properties in the image body of the annotation; properties which are not reproduced here because there were not found in the W3C Web Annotation data model  
