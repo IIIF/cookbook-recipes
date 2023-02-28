@@ -3,4 +3,4 @@
 {% else %}
 {% assign viewers = page.viewers %}
 {% endif %}
-[JSON-LD]({{ include.manifest }}) {% for viewerTxt in viewers %}{% assign viewer = viewerTxt | strip %}| {% include viewer_link.html type=viewer manifest=include.manifest %}{% endfor %}
+[JSON-LD]({{ include.manifest }}) {% for viewerTxt in viewers %}{% assign viewer = viewerTxt | strip %}| {% include viewer_link.html type=viewer manifest=include.manifest annotationurl=include.annotationurl %}{% endfor %}

@@ -5,6 +5,7 @@ layout: recipe
 tags: [maps, annotation]
 summary: "Use Web Annotation to provide geocoordinates for a fragment of an IIIF Presentation API 3.0 Canvas."
 viewers:
+- Annona
 topic: geo-recipes
 ---
 
@@ -31,7 +32,7 @@ Applications that strictly follow Linked Data practices will find that nested Ge
 ### Example
 The Manifest has one Canvas with one Image, and the Canvas has the same size dimensions as the Image. The Canvas has one Annotation Page with one Annotation targeting the region of interest where a map depiction appears using the [#xywh Fragment Selector syntax](https://www.w3.org/TR/annotation-model/#fragment-selector). The Annotation `body` is GeoJSON-LD, which is supported by a number of open source mapping systems. A client can parse the Annotation from the Canvas and pass the Annotation `body` into a web map resulting in rendered geometric shapes on a world map. Often, data from the resource such as an image URL, label, or description is connected with those shapes via [`properties`](https://tools.ietf.org/html/rfc7946#section-3.2) in GeoJSON. Since the image used is a IIIF Fixture following [IIIF Image API 3.0](https://iiif.io/api/image/3.0/), you can see the targeted fragment by supplying [the values used in the #xywh selector to the image URL](https://iiif.io/api/image/3.0/example/reference/43153e2ec7531f14dd1c9b2fc401678a-88695674/920,3600,1510,3000/max/0/default.jpg).   
 
-{% include manifest_links.html viewers="" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Annona" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="2-5, 67-111"' %}
 

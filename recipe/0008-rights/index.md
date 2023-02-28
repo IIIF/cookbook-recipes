@@ -7,6 +7,8 @@ summary: "You want to assert a license or rights statement that applies to the c
 viewers:
  - UV
  - Mirador
+ - Annona
+ - Clover
 topic: property
 property: rights, requiredStatement
 ---
@@ -35,7 +37,7 @@ None known.
 
 ## Example
 
-{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Clover" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="15-27"' %}
 
