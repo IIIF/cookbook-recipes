@@ -72,8 +72,10 @@ Currently the allowable viewers are:
 
  * UV
  * Mirador
+ * Annona
+ * Clover
 
-but we would welcome other viewers. To see the requirments for adding other viewers please go to the Viewer Matrix page.
+but we would welcome other viewers. To see the requirements for adding other viewers please go to the Viewer Matrix page.
 
 #### Include link to Viewers
 This provides a standard link to the JSON and also to viewers. A full example is as follows:
@@ -86,7 +88,11 @@ and this would produce the following line:
 
 [JSON-LD]() | [View in Universal Viewer]() | [View in Mirador]() | [View in Tify]() | [View in IIIF Curation Viewer]()
 
-The `manifest` parameter allows you to pass a relative link to the manifest and the `viewers` parameter is a list of Viewer links to show. Delete any viewers that don't support the recipe and remove the `viewers` parameter entirely if no viewers support the recipe. 
+The `manifest` parameter allows you to pass a relative link to the manifest and the `viewers` parameter is a list of Viewer links to show. For the Viewers property you have the following options:
+
+ * Include a comma set of viewers. You must do this if there is partial support for one viewer. 
+ * Leave the viewers property empty if no viewer supports this functionality. e.g. `viewers=""`
+ * Or if you want to take the list of supported viewers from the header `viewers` property remove this property. 
 
 #### Include JSON Viewer
 This will embed a JavaScript JSON viewer which will show line numbers and format the JSON. A basic example is as follows:
