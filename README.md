@@ -90,9 +90,9 @@ and this would produce the following line:
 
 The `manifest` parameter allows you to pass a relative link to the manifest and the `viewers` parameter is a list of Viewer links to show. For the Viewers property you have the following options:
 
- * Include a comma set of viewers. You must do this if there is partial support for one viewer. 
- * Leave the viewers property empty if no viewer supports this functionality. e.g. `viewers=""`
- * Or if you want to take the list of supported viewers from the header `viewers` property remove this property. 
+ * Include a comma seperated list of viewers. You must do this if there is partial support for one viewer. e.g [Simplest Manifest - Video](recipe/0002-mvm-audio/index.md) and [Metadata on any Resource](recipe/0002-mvm-audio/index.md) (Partial support example)
+ * Leave the viewers property empty if no viewer supports this functionality. e.g. `viewers=""` e.g. [Load a Preview Image Before the Main Content](recipe/0013-placeholderCanvas/index.md)
+ * Or if you want to take the list of supported viewers from the header `viewers` property remove this property. e.g. [Simplest Manifest - Single Image File](recipe/0001-mvm-image/index.md)
 
 #### Include JSON Viewer
 This will embed a JavaScript JSON viewer which will show line numbers and format the JSON. A basic example is as follows:
