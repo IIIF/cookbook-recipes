@@ -88,6 +88,14 @@ and this would produce the following line:
 
 The `manifest` parameter allows you to pass a relative link to the manifest and the `viewers` parameter is a list of Viewer links to show. Delete any viewers that don't support the recipe and remove the `viewers` parameter entirely if no viewers support the recipe. 
 
+#### Include link to Code samples
+To add a link to code samples add the following in the front matter:
+
+```
+code:
+ - iiif-prezi3
+```
+
 #### Include JSON Viewer
 This will embed a JavaScript JSON viewer which will show line numbers and format the JSON. A basic example is as follows:
 
