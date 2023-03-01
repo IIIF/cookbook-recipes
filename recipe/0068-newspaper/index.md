@@ -82,7 +82,7 @@ To demonstrate the files that might be included in even a basic newspaper presen
 
 We won't display all of these here, to keep the recipe readable. However, we've inclued the Manifest for the title (structured as a IIIF Collection), thinking it will provide the best initial utility. Notable lines of the Manifest are highlighted.
 
-Viewer support for any particular feature will depend on the viewer. Below is a table showing viewer support as of March 2023 for features noted in this recipe.
+Viewer support for any particular feature will depend on the viewer and any customizations or extensions. Below is a table showing viewer support as of March 2023 for features noted in this recipe.
 
 | IIIF component | Viewer Support (February 2023) |
 |-----------|------|
