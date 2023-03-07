@@ -33,7 +33,7 @@ In the example, it is also shown the usage of the `selector` attribute of the Sp
 The `value` attribute follows the Fragment Selector syntax [Fragment Selectors][0020].
 
 Annotation Page file
-{% include manifest_links.html viewers="Annona" manifest="annotationpage.json" %}
+{% include manifest_links.html manifest="annotationpage.json" %}
 
 {% include jsonviewer.html src="annotationpage.json" config='data-line="16-33"' %}
 
