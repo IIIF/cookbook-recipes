@@ -2,7 +2,7 @@
 title: Basic Newspaper
 id: 68
 layout: recipe
-tags: [structural, transcript, presentation]
+tags: [structural, content:image, transcript, presentation]
 summary: "An introduction to a relatively simple multi-issue title newspaper with OCR content"
 viewers:
  - Mirador
