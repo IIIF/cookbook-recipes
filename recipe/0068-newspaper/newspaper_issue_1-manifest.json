@@ -5,10 +5,10 @@
   "id": "{{ id.url }}",
   "type": "Manifest",
   "partOf": [
-    {
+  {
       "id": "{{ id.path }}/newspaper_title-collection.json",
       "type": "Collection"
-    }
+  }
   ],
   "label": {
     "de": [
@@ -41,9 +41,7 @@
         ]
       },
       "value": {
-        "none": [
-          "de"
-        ],
+        "none": ["de"],
         "en": [
           "German"
         ]
@@ -71,16 +69,11 @@
       ]
     }
   },
-  "provider": [
-    {
-      "id": "https://www.europeana.eu/",
-      "type": "Agent",
-      "label": {
-        "en": [
-          "Europeana"
-        ]
-      },
-      "logo": [
+  "provider": [{
+    "id": "https://www.europeana.eu/",
+    "type": "Agent",
+    "label": { "en": [ "Europeana" ] },
+    "logo": [
         {
           "id": "https://style.europeana.eu/images/europeana-logo-default.png",
           "type": "Image",
@@ -88,9 +81,8 @@
           "height": 310,
           "width": 100
         }
-      ]
-    }
-  ],
+    ]
+  }],
   "seeAlso": [
     {
       "id": "https://www.europeana.eu/api/v2/record/9200355/BibliographicResource_3000096302513.json-ld",
@@ -108,19 +100,13 @@
           "p. 1"
         ]
       },
-      "rendering": [
-        {
-          "id": "{{ id.path }}/newspaper_issue_1-alto_p1.xml",
-          "type": "Text",
-          "format": "application/xml",
-          "profile": "http://www.loc.gov/standards/alto/",
-          "label": {
-            "en": [
-              "ALTO XML"
-            ]
-          }
-        }
-      ],
+      "rendering": [{
+		"id":"{{ id.path }}/newspaper_issue_1-alto_p1.xml",
+        "type": "Text",
+		"format":"application/xml",
+	    "profile": "http://www.loc.gov/standards/alto/",
+	    "label": { "en": ["ALTO XML"] }
+      }],
       "height": 5000,
       "width": 3602,
       "items": [
@@ -164,19 +150,13 @@
           "p. 2"
         ]
       },
-      "rendering": [
-        {
-          "id": "{{ id.path }}/newspaper_issue_1-alto_p2.xml",
-          "type": "Text",
-          "format": "application/xml",
-          "profile": "http://www.loc.gov/standards/alto/",
-          "label": {
-            "en": [
-              "ALTO XML"
-            ]
-          }
-        }
-      ],
+      "rendering": [{
+		"id":"{{ id.path }}/newspaper_issue_1-alto_p2.xml",
+        "type": "Text",
+		"format":"application/xml",
+	    "profile": "http://www.loc.gov/standards/alto/",
+	    "label": { "en": ["ALTO XML"] }
+      }],
       "height": 5000,
       "width": 3602,
       "items": [
