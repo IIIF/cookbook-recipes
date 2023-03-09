@@ -1,5 +1,5 @@
 {
-    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "{{ id.url }}",
     "type": "AnnotationPage",
     "items": [
