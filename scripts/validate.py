@@ -111,6 +111,7 @@ if __name__ == "__main__":
 
             if 'type' in jsonData:
                 if jsonData['type'] in ['Manifest', 'Collection']:
+                    print ('Validating {}'.format(jsonFilename.replace('../_site/','')))
                     passed = validateIIIF(jsonData, jsonFilename)
                     if not passed:
                         allPassed = False
