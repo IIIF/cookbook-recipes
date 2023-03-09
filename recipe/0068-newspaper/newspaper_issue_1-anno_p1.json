@@ -6,10 +6,11 @@
         {
             "id": "{{ id.url }}-1",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "I. 54. Jahrgang"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,376,399,53"
@@ -17,10 +18,11 @@
         {
             "id": "{{ id.url }}-2",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Nr. 29"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=309,817,121,39"
@@ -28,10 +30,11 @@
         {
             "id": "{{ id.url }}-3",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Chef-Redakteur Theodor Wolfi in Berlin, 7"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=95,876,619,31"
@@ -39,10 +42,11 @@
         {
             "id": "{{ id.url }}-4",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "DB T. W. Mit Bewunderung \u017ftehen wir vor dem erfreulichen"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=54,1233,894,35"
@@ -50,10 +54,11 @@
         {
             "id": "{{ id.url }}-5",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "men, Wifer einer Staat3anwalt\u017fchaft, die jeht \u017fogar ihre Nachtruhe"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,1268,950,34"
@@ -61,10 +66,11 @@
         {
             "id": "{{ id.url }}-6",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "einnpiert, w\u00e4hrend \u017fie in einigen bekannten F\u00e4llen \u017fchon"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,1300,950,34"
@@ -72,10 +78,11 @@
         {
             "id": "{{ id.url }}-7",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "mi Tage zu \u017fchlummern \u017fchien. Aber nachdem man ge-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,1335,950,39"
@@ -83,10 +90,11 @@
         {
             "id": "{{ id.url }}-8",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "d<hen MWigend bewundert hat, darf man \u017fich vielleicht f\u00fcr einen"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,1368,950,35"
@@ -94,10 +102,11 @@
         {
             "id": "{{ id.url }}-9",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Fen ugenblid einem anderen Lande zuwenden, in dem die Ge-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=3,1400,948,39"
@@ -105,10 +114,11 @@
         {
             "id": "{{ id.url }}-10",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\"282, Bhtigfeit bl\u00fcht. Jn MoS3kau \u017find, wie \u017fchon berichtet"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=4,1434,947,34"
@@ -116,10 +126,11 @@
         {
             "id": "{{ id.url }}-11",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\"gene\u00dfurde, vor mehreren Monaten drei junge M\u00e4nner"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,1467,951,34"
@@ -127,10 +138,11 @@
         {
             "id": "{{ id.url }}-12",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "rl rr haftet worden, von denen zwei, Dr. Kindermann"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,1500,950,33"
@@ -138,10 +150,11 @@
         {
             "id": "{{ id.url }}-13",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "AUM [nd der Student Wol\u017fc<ht, aus S\u00fcddeut\u017fchland geb\u00fcrtig"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=2,1532,949,43"
@@ -149,10 +162,11 @@
         {
             "id": "{{ id.url }}-14",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "n Zeund, der dritte, ein Student v. Ditmakt, aus G\u017fthland"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,1564,951,35"
@@ -160,10 +174,11 @@
         {
             "id": "{{ id.url }}-15",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "3 ammt. Man i\u017ft wohl nicht berechtigt, ganz \u00fcber die\u017fe An-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,1600,951,42"
@@ -171,10 +186,11 @@
         {
             "id": "{{ id.url }}-16",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Et Flegenheit zu \u017fchweigen, auch wenn \u017fie, neben den Aff\u00e4ren"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=29,1630,921,37"
@@ -182,10 +198,11 @@
         {
             "id": "{{ id.url }}-17",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "r Barmat, Kuti\u017fker, Bauer und H\u00f6fle, manchem \u017fehr un-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=98,1666,853,33"
@@ -193,10 +210,11 @@
         {
             "id": "{{ id.url }}-18",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "tr\u00e4chtlich er\u017fcheinen mag. Wer in die\u017fen Tagen von Moskau"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=98,1698,853,34"
@@ -204,10 +222,11 @@
         {
             "id": "{{ id.url }}-19",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "in. Bricht, tut es in dem tr\u00f6\u017ftlichen Bewu\u00dft\u017fein, da\u00df \u017fich vorl\u00e4ufig"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=37,1732,914,34"
@@ -215,10 +234,11 @@
         {
             "id": "{{ id.url }}-20",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "bera W Berlin ja doch nicht viel \u00e4ndern wird. Die parlamentari-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=3,1763,948,35"
@@ -226,10 +246,11 @@
         {
             "id": "{{ id.url }}-21",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Unfaren Unter\u017fuchungsaus\u017fch\u00fc\u017f\u017fe werden noch lange mit ihren"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,1798,951,40"
@@ -237,10 +258,11 @@
         {
             "id": "{{ id.url }}-22",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Kinpchen in h\u00fcndert Seitenga\u017f\u017fen herum\u017fuchen, die deut\u017fch-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=39,1829,912,35"
@@ -248,10 +270,11 @@
         {
             "id": "{{ id.url }}-23",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "tionale Tugend wird \u017fich weiter \u00fcber das republikani\u017fche"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=102,1864,850,34"
@@ -259,10 +282,11 @@
         {
             "id": "{{ id.url }}-24",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\"6 \u017fter emp\u00f6ren, und die journali\u017fti\u017fchen Schafhirten werden"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,1898,951,55"
@@ -270,10 +294,11 @@
         {
             "id": "{{ id.url }}-25",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "anner wieder daf\u00fcr \u017forgen, da\u00df von den f\u00fcr \u017fie unangenehmen"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=21,1930,931,34"
@@ -281,10 +306,11 @@
         {
             "id": "{{ id.url }}-26",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Svart Ft \u017fchichten nichts bis in den Ge\u017fichtskreis der geh\u00fcteten Herde"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=11,1963,942,38"
@@ -292,10 +318,11 @@
         {
             "id": "{{ id.url }}-27",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "mar> Wingt. Auch drau\u00dfen in der Welt wird noch eine Weile lang"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,1996,952,34"
@@ -303,10 +330,11 @@
         {
             "id": "{{ id.url }}-28",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": ") ohne Mos \u017fo weitergehen wie bi\u00f6her. Es wird unerm\u00fcdlich \u00fcber"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,2029,953,33"
@@ -314,10 +342,11 @@
         {
             "id": "{{ id.url }}-29",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "ee Schulden ge\u017fprochen werden, die Frankreich nicht bezahlen"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,2056,952,41"
@@ -325,10 +354,11 @@
         {
             "id": "{{ id.url }}-30",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "ann, ill, und \u00fcber den Sicherheitspakt, der wegen der \u00f6\u017ftlichen An-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,2096,953,43"
@@ -336,10 +366,11 @@
         {
             "id": "{{ id.url }}-31",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Mn 7 ingjel keine Liebe in England findet, und \u00fcber den Kontroll-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,2129,952,47"
@@ -347,10 +378,11 @@
         {
             "id": "{{ id.url }}-32",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "+ SausFricht, den man un3 immer noch vorenth\u00e4lt. Hat es viel"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,2162,953,33"
@@ -358,10 +390,11 @@
         {
             "id": "{{ id.url }}-33",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "jiliale Woc>, noch Worte in die\u017fe Disku\u017f\u017fionen hineinzugie\u00dfen, die"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,2194,953,35"
@@ -369,10 +402,11 @@
         {
             "id": "{{ id.url }}-34",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "on aus zahllo\u017fen Quellen \u00fcbereich gew\u00e4\u017f\u017fert werden und"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=102,2229,851,34"
@@ -380,10 +414,11 @@
         {
             "id": "{{ id.url }}-35",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "endlich weiterrinnen? ES i\u017ft zum minde\u017ften eben\u017fo inter-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=103,2260,850,36"
@@ -391,10 +426,11 @@
         {
             "id": "{{ id.url }}-36",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "einfach!"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=7,2249,63,21"
@@ -402,10 +438,11 @@
         {
             "id": "{{ id.url }}-37",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "m, fert"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,2273,73,19"
@@ -413,10 +450,11 @@
         {
             "id": "{{ id.url }}-38",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "iberiagant, \u017fich mit den drei jungen M\u00e4nnern, den zwei Reichs-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,2294,953,37"
@@ -424,10 +462,11 @@
         {
             "id": "{{ id.url }}-39",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "mrn hen und dem Balten, zu be\u017fch\u00e4ftigen, die \u017feit dem Monat"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,2327,954,39"
@@ -435,10 +474,11 @@
         {
             "id": "{{ id.url }}-40",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\u017ftra\u00dfe"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,2370,62,22"
@@ -446,10 +486,11 @@
         {
             "id": "{{ id.url }}-41",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "tober in den H\u00e4nden der allg\u00fctigen ru\u017f\u017fi\u017fchen T\u017fcheka \u017find."
             },
             "target": "{{ id.path }}/canvas/p1#xywh=103,2359,850,37"
@@ -457,10 +498,11 @@
         {
             "id": "{{ id.url }}-42",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Tiefe drei jungen M\u00e4nnex, der \u017fchon mit dem Doktortitel"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=111,2392,843,37"
@@ -468,10 +510,11 @@
         {
             "id": "{{ id.url }}-43",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "wuierte dreiundzwanzigj\u00e4hrige Geograph, und die beiden"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=41,2425,908,39"
@@ -479,10 +522,11 @@
         {
             "id": "{{ id.url }}-44",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "= arifudenten, \u017find angeblich mit der Ab\u017ficht, die Hauptper\u017fonen"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,2458,955,38"
@@ -490,10 +534,11 @@
         {
             "id": "{{ id.url }}-45",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": ", Sin Sowjet\u017ftaates zu ermorden, nach Moskau gekommen. Sie"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,2491,955,37"
@@ -501,10 +546,11 @@
         {
             "id": "{{ id.url }}-46",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "en zw\u00e4r nicht Pa\u00df und Einrei\u017feerlaubnis, deren Echtheit"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=111,2525,843,34"
@@ -512,10 +558,11 @@
         {
             "id": "{{ id.url }}-47",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "ee ht be\u017ftritten werden kann, aber Einladungsbriefe ru\u017f\u017fi\u017fcher"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,2553,955,47"
@@ -523,10 +570,11 @@
         {
             "id": "{{ id.url }}-48",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "15. PWudenten\u017fchaften, auf die \u017fie \u017fich beriefen, gef\u00e4l\u017fcht haben,"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,2589,956,38"
@@ -534,10 +582,11 @@
         {
             "id": "{{ id.url }}-49",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Tage Wd man hat, wie ver\u017fichert wird, auch Waffen und die un-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=8,2624,948,36"
@@ -545,10 +594,11 @@
         {
             "id": "{{ id.url }}-50",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "6 Mbehrlichen Giftfl\u00e4\u017fchhen bei ihnen entde>t. Die drei ge-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,2655,957,38"
@@ -556,10 +606,11 @@
         {
             "id": "{{ id.url }}-51",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "te en, \u017fagt die T\u017fcheka, recht3radikalen Geheimb\u00fcnden in"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,2684,955,47"
@@ -567,10 +618,11 @@
         {
             "id": "{{ id.url }}-52",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": ", MaiWut\u017fhland an. Bei ihren Mordpl\u00e4nen hatten \u017fie es be-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,2725,956,34"
@@ -578,10 +630,11 @@
         {
             "id": "{{ id.url }}-53",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\u201c \u201eMders auf Stalin und Tro\u00dfki abge\u017fehen. Uns anderen er-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,2758,955,34"
@@ -589,10 +642,11 @@
         {
             "id": "{{ id.url }}-54",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "men-,"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,2788,60,16"
@@ -600,10 +654,11 @@
         {
             "id": "{{ id.url }}-55",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "ndau Wint es zun\u00e4ch\u017ft \u017felt\u017fam, da\u00df rechtsradikale Geheimgruppen,"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=4,2790,952,38"
@@ -611,10 +666,11 @@
         {
             "id": "{{ id.url }}-56",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "3 14531."
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,2830,74,27"
@@ -622,10 +678,11 @@
         {
             "id": "{{ id.url }}-57",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "bisher nur politi\u017fche Gegner in Deut\u017fchland niederknallten"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=115,2824,840,34"
@@ -633,10 +690,11 @@
         {
             "id": "{{ id.url }}-58",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "ina\u017fd den Bol\u017fchewismus als be\u017ften Bundesgeno\u017f\u017fen betrachten,"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=50,2858,906,35"
@@ -644,10 +702,11 @@
         {
             "id": "{{ id.url }}-59",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "4 Jdee gefa\u00dft haben \u017follten, den heute ziemlich einflu\u00df-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=54,2891,901,36"
@@ -655,10 +714,11 @@
         {
             "id": "{{ id.url }}-60",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Offeru\u017f\u00fc\u017fn Tro\u00dfki umzubringen. Wa3 das Gift betrifft, fo i\u017ft von"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=24,2924,931,34"
@@ -666,10 +726,11 @@
         {
             "id": "{{ id.url }}-61",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "1f Vo\u017fYk f\u017ftudenti\u017fhen Freunden der Verhafteten in der"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,2955,956,37"
@@ -677,10 +738,11 @@
         {
             "id": "{{ id.url }}-62",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "liner Apotheke, die es geliefert hat, fe\u017ftge\u017ftellt worden, da\u00df"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=106,2991,850,34"
@@ -688,10 +750,11 @@
         {
             "id": "{{ id.url }}-63",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "ehlt ft\u017fein Mittel gegen Malaria i\u017ft. Jnde\u017f\u017fen, die T\u017fcheka erkl\u00e4rt"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,3023,955,35"
@@ -699,10 +762,11 @@
         {
             "id": "{{ id.url }}-64",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "-harloi\" da\u00df \u017fie im\u017ftande \u017fei, all' un\u017fere Zweifel zu zer\u017ftreuen."
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,3057,954,35"
@@ -710,10 +774,11 @@
         {
             "id": "{{ id.url }}-65",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "einf be\u017fitt \u201eDokumente\u201c, die \u017fie leider nicht zeigt. Nachdem"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,3087,956,45"
@@ -721,10 +786,11 @@
         {
             "id": "{{ id.url }}-66",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "* Bong\u017ftvollen Eltern, die deut\u017fchen Amts\u017ftellen, die ange-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=57,3123,899,36"
@@ -732,10 +798,11 @@
         {
             "id": "{{ id.url }}-67",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "rus Zifwn\u017ften deut\u017fchen Univer\u017fit\u00e4tzlehrer und andere Per\u017fonen"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1,3158,954,34"
@@ -743,10 +810,11 @@
         {
             "id": "{{ id.url }}-68",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Mme | Monate hindurch vergeblich ver\u017fucht hatten, irgendeine"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=2,3189,955,46"
@@ -754,10 +822,11 @@
         {
             "id": "{{ id.url }}-69",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\u00dfe 485, Whricht \u00fcber das Befinden der Eingekerkerten zu erlangen,"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1,3223,955,36"
@@ -765,10 +834,11 @@
         {
             "id": "{{ id.url }}-70",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "man in der vorigen Woche dem Rektor der Berliner"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=129,3258,828,33"
@@ -776,10 +846,11 @@
         {
             "id": "{{ id.url }}-71",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "gante\u017fte Wver\u017fit\u00e4t, Profe\u017f\u017for Holl, der \u017fich warmherzig f\u00fcr"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,3290,957,35"
@@ -787,10 +858,11 @@
         {
             "id": "{{ id.url }}-72",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "ee Freila\u017f\u017fung einge\u017fe\u00dft hatte, einen Brief des"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,3320,957,43"
@@ -798,10 +870,11 @@
         {
             "id": "{{ id.url }}-73",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "-g 5140. WW. Kindermann \u00fcberbracht. Kindermann \u017fagt in"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,3357,956,33"
@@ -809,10 +882,11 @@
         {
             "id": "{{ id.url }}-74",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "yer, Wem Briefe, \u201edie durch G. P. U. unternommenen Nach-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,3391,955,40"
@@ -820,10 +894,11 @@
         {
             "id": "{{ id.url }}-75",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "6 (Mh ungen\u201c h\u00e4tten ergeben, da\u00df \u017feine beiden Rei\u017fekameraden"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1,3419,954,40"
@@ -831,10 +906,11 @@
         {
             "id": "{{ id.url }}-76",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "et, Miher in Deut\u017fchland in fa\u017fci\u017fti\u017fchen \u00abKrei\u017fen \u017fich bet\u00e4tigt"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,3441,957,50"
@@ -842,10 +918,11 @@
         {
             "id": "{{ id.url }}-77",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "En en\u201c, und \u201eda\u00df ihre Rei\u017feab\u017fichten andre als wi\u017f\u017fen\u017fchaft-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=3,3491,953,46"
@@ -853,10 +930,11 @@
         {
             "id": "{{ id.url }}-78",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "| 1]"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,3524,47,13"
@@ -864,10 +942,11 @@
         {
             "id": "{{ id.url }}-79",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "ra\u00dfe M: gewe\u017fen \u017feien. Er \u017felb\u017ft habe davon nichts gewu\u00dft und"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,3524,956,41"
@@ -875,10 +954,11 @@
         {
             "id": "{{ id.url }}-80",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "e fich \u201ew\u00e4hrend der Unter\u017fuchung von der Objektivit\u00e4t"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=119,3559,838,34"
@@ -886,10 +966,11 @@
         {
             "id": "{{ id.url }}-81",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "tklaffiz. MW Unter\u017fuchungsorgane \u00fcberzeugt\u201c. Er habe zu die\u017fen Or-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,3592,957,38"
@@ -897,10 +978,11 @@
         {
             "id": "{{ id.url }}-82",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "EEE en \u201evollkommenes Vertrauen\u201c. Der Verhaftete bittet de8halb"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,3617,958,49"
@@ -908,10 +990,11 @@
         {
             "id": "{{ id.url }}-83",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "<tenbefohl den Rektor wie die deut\u017fche Regierung, nicht3 weiter in"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,3658,959,38"
@@ -919,10 +1002,11 @@
         {
             "id": "{{ id.url }}-84",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "ausbe\u017f\u017f/W Sache zu unternehmen, und er f\u00fcgt beruhigend hinzu, die"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=3,3692,957,38"
@@ -930,10 +1014,11 @@
         {
             "id": "{{ id.url }}-85",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "v\u017ftra\u00dfe 1! jandlung, die ihm zuteil werde, \u017fei \u201eaufmerk\u017fam, zuvor-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,3711,959,50"
@@ -941,10 +1026,11 @@
         {
             "id": "{{ id.url }}-86",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "eimufanend und korrekt\". . . \u201eVon den Schre>en, \u00fcber die man"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=5,3751,955,41"
@@ -952,10 +1038,11 @@
         {
             "id": "{{ id.url }}-87",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\u00dfe 19 Weut\u017fchland \u017fpricht, habe ich in der Zeit meiner Verhaftung"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,3791,961,40"
@@ -963,10 +1050,11 @@
         {
             "id": "{{ id.url }}-88",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "trbeit. Wb. P. U. nichts bemerken k\u00f6nnen.\" Am Schlu\u017f\u017fe ver\u017fichert"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,3822,960,44"
@@ -974,10 +1062,11 @@
         {
             "id": "{{ id.url }}-89",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "33. Brief\u017fchreiber, er gebe \u201edie\u017fe Erkl\u00e4rungen aus freiem"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,3859,961,38"
@@ -985,10 +1074,11 @@
         {
             "id": "{{ id.url }}-90",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Tag Wen und freier Jnitiative\u201c ab, und \u201eohne jeden Zwang\u201c."
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,3892,962,39"
@@ -996,10 +1086,11 @@
         {
             "id": "{{ id.url }}-91",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "be M. zu \u017fich ja jeder das Seinige denken kann. ."
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,3922,872,44"
@@ -1007,10 +1098,11 @@
         {
             "id": "{{ id.url }}-92",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "* wide Verwandten, die Lehrer und Freunde der jungen"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,3956,961,44"
@@ -1018,10 +1110,11 @@
         {
             "id": "{{ id.url }}-93",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "m Kine werden die Erz\u00e4hlungen, die nun von der \u201eJ\u017ftwe\u017ftia"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,3991,949,39"
@@ -1029,10 +1122,11 @@
         {
             "id": "{{ id.url }}-94",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Heider Wroitet und in die Welt hinausge\u017fchikt werden, mit"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,4025,963,34"
@@ -1040,10 +1134,11 @@
         {
             "id": "{{ id.url }}-95",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Ei ielleiht immer noh"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,4056,963,29"
@@ -1051,10 +1146,11 @@
         {
             "id": "{{ id.url }}-96",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "fer Ueberra\u017fchung le\u017fen und vielleich 3 )"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=64,4059,896,40"
@@ -1062,10 +1158,11 @@
         {
             "id": "{{ id.url }}-97",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "228 feln, obgleih nat\u00fcrlih au< \u017fie der bew\u00e4hrten"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,4078,963,53"
@@ -1073,10 +1170,11 @@
         {
             "id": "{{ id.url }}-98",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "ante Wfa das allergr\u00f6\u00dfte Bertrauen entgegenbringen."
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,4125,962,38"
@@ -1084,10 +1182,11 @@
         {
             "id": "{{ id.url }}-99",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "rei\u017fen. Mn biaher hatten \u017fie \u017fich von dem We\u017fen, den"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,4154,963,44"
@@ -1095,10 +1194,11 @@
         {
             "id": "{{ id.url }}-100",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "hrung \"Wen und An\u017fchauungen be\u017fonders des Kindermann und des"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,4194,965,33"
@@ -1106,10 +1206,11 @@
         {
             "id": "{{ id.url }}-101",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "a\u017ftr. %Wi\u017fcht ein 208 anderes Bild gemacht. I< habe"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,4198,965,68"
@@ -1117,10 +1218,11 @@
         {
             "id": "{{ id.url }}-102",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\u00e4r; drei eines Tages kennen gelernt, als \u017fie, mit den Empfeh"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,4251,964,52"
@@ -1128,10 +1230,11 @@
         {
             "id": "{{ id.url }}-103",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "n. Han\u017fen hervorragender Profe\u017f\u017foven, links\u017ftehender und rechts-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,4293,966,41"
@@ -1139,10 +1242,11 @@
         {
             "id": "{{ id.url }}-104",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "fertig\" Wender, ausger\u00fc\u017ftet und \u017fchon mit allen P\u00e4\u017f\u017fen, Scheinen"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,4327,966,43"
@@ -1150,10 +1254,11 @@
         {
             "id": "{{ id.url }}-105",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "168 7388. d Einladungen ver\u017fehen, bei mir vor\u017fprachen und, gleich"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,4356,967,43"
@@ -1161,10 +1266,11 @@
         {
             "id": "{{ id.url }}-106",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\u201cStr. Men anderen, fragten, 'ob Rei\u017feberichte willkommen \u017feien."
             },
             "target": "{{ id.path }}/canvas/p1#xywh=0,4389,966,47"
@@ -1172,10 +1278,11 @@
         {
             "id": "{{ id.url }}-107",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\u017fuchten \u017fie, offenbar hier und dort anpochend -- auch bei"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=136,4427,831,40"
@@ -1183,10 +1290,11 @@
         {
             "id": "{{ id.url }}-108",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "du\u017ftriefirmen, was man ihnen je\u00dft in Mozkau als \u201eHandels"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=127,4458,838,44"
@@ -1194,10 +1302,11 @@
         {
             "id": "{{ id.url }}-109",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "reiswert."
             },
             "target": "{{ id.path }}/canvas/p1#xywh=2,4474,88,20"
@@ -1205,10 +1314,11 @@
         {
             "id": "{{ id.url }}-110",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Berliner"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=161,459,1063,329"
@@ -1216,10 +1326,11 @@
         {
             "id": "{{ id.url }}-111",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "und Handels-Zeitung"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=920,826,1034,88"
@@ -1227,10 +1338,11 @@
         {
             "id": "{{ id.url }}-112",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Die Verhaftungen in Moskau,."
             },
             "target": "{{ id.path }}/canvas/p1#xywh=377,1017,2132,178"
@@ -1238,10 +1350,11 @@
         {
             "id": "{{ id.url }}-113",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "PEET Rg R RRgRRRgRgpRpPpPr ry yr rT NR"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=975,1923,14,1675"
@@ -1249,10 +1362,11 @@
         {
             "id": "{{ id.url }}-114",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Abend-Ausgabe"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1161,365,508,105"
@@ -1260,10 +1374,11 @@
         {
             "id": "{{ id.url }}-115",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Tageblatt"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1576,453,1127,339"
@@ -1271,10 +1386,11 @@
         {
             "id": "{{ id.url }}-116",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Einzel-Nummer 10 Pfennig."
             },
             "target": "{{ id.path }}/canvas/p1#xywh=2317,349,479,59"
@@ -1282,10 +1398,11 @@
         {
             "id": "{{ id.url }}-117",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Prentice debbie"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=2318,395,479,26"
@@ -1293,10 +1410,11 @@
         {
             "id": "{{ id.url }}-118",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Montag. 16. Februar 19235"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=2246,813,499,44"
@@ -1304,10 +1422,11 @@
         {
             "id": "{{ id.url }}-119",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Druck und Verlaa von Ru doi Mo\u017f\u017fe in Berlin.\""
             },
             "target": "{{ id.path }}/canvas/p1#xywh=2172,866,653,35"
@@ -1315,10 +1434,11 @@
         {
             "id": "{{ id.url }}-120",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "die eingekerkerten jungen Deut\u017fchen."
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1087,1230,1655,139"
@@ -1326,10 +1446,11 @@
         {
             "id": "{{ id.url }}-121",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Bas. die T\u017fcheka behauptet."
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1159,1413,573,60"
@@ -1337,10 +1458,11 @@
         {
             "id": "{{ id.url }}-122",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Celegramm un\u017fere8 Korretyrondenten.)"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1087,1485,719,29"
@@ -1348,10 +1470,11 @@
         {
             "id": "{{ id.url }}-123",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "d\u00fc.) Moskau, 15. Februar."
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1473,1529,378,31"
@@ -1359,10 +1482,11 @@
         {
             "id": "{{ id.url }}-124",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Ankn\u00fcpfend an eine bevor\u017ftehende Interpellation der Sozial-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1044,1565,849,33"
@@ -1370,10 +1494,11 @@
         {
             "id": "{{ id.url }}-125",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "demofkraten im Reichstag \u00fcber die Gefangenhaltung der drei"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1003,1599,889,29"
@@ -1381,10 +1506,11 @@
         {
             "id": "{{ id.url }}-126",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "jungen Deut\u017fchen in Moskau und andere deut\u017fche Gefangene, die aus"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1004,1631,889,29"
@@ -1392,10 +1518,11 @@
         {
             "id": "{{ id.url }}-127",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "politi\u017fchen Gr\u00fcnden in ru\u017f\u017fi\u017fchen Gef\u00e4ngni\u017f\u017fen fe\u017ftgehalten w\u00fcrden,"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1004,1664,890,29"
@@ -1403,10 +1530,11 @@
         {
             "id": "{{ id.url }}-128",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\u017fchreibt die \u201eJswe\u017ftija\u201c, die\u017fe Interpellation \u017fei durch die Or-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1004,1695,891,31"
@@ -1414,10 +1542,11 @@
         {
             "id": "{{ id.url }}-129",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "gani\u017fation Con\u017ful vorbereitet (!!), die durch Finanz-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1005,1729,889,30"
@@ -1425,10 +1554,11 @@
         {
             "id": "{{ id.url }}-130",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "und Handelsfrei\u017fe auf die Sozialdemokraten eingewirkt habe. Die"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1005,1762,890,30"
@@ -1436,10 +1566,11 @@
         {
             "id": "{{ id.url }}-131",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\u201eJswe\u017ftija\u201c beklagt \u017fich weiter \u00fcber die Kampagne der deut\u017fchen"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1005,1795,890,31"
@@ -1447,10 +1578,11 @@
         {
             "id": "{{ id.url }}-132",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Bl\u00e4tter, welche die Beziehungen zu Sowjetru\u00dfland ver\u017fchlechtern"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1004,1828,891,30"
@@ -1458,10 +1590,11 @@
         {
             "id": "{{ id.url }}-133",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\u017folle, und f\u00e4hrt dann fort: \u201eWir \u017find in der Lage, an Hand un-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1006,1860,890,31"
@@ -1469,10 +1602,11 @@
         {
             "id": "{{ id.url }}-134",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "be\u017ftreitbarer Dokumente, die der Sowjetregierung zur Verf\u00fcgung"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1005,1893,891,32"
@@ -1480,10 +1614,11 @@
         {
             "id": "{{ id.url }}-135",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\u017ftehen, nachzuwei\u017fen, da\u00df die\u017fe \u201ejungen Gelehrten F\u00e4l\u017fcher von"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1005,1926,891,31"
@@ -1491,10 +1626,11 @@
         {
             "id": "{{ id.url }}-136",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Dokumenten und Spione \u017find, die eine deut\u017fche"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1005,1958,892,32"
@@ -1502,10 +1638,11 @@
         {
             "id": "{{ id.url }}-137",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "fa\u017fci\u017fti\u017fche Organi\u017fation zu terrori\u017fti\u017fchen"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1005,1991,891,32"
@@ -1513,10 +1650,11 @@
         {
             "id": "{{ id.url }}-138",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Zwecken nach Moskau abkommandierte . . . .\u201c \u201eDie Or-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1005,2024,892,32"
@@ -1524,10 +1662,11 @@
         {
             "id": "{{ id.url }}-139",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "gani\u017fation \u201eCon\u017ful\u201c hat - bereits 1923 be\u017fchlo\u017f\u017fen,"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1005,2057,892,31"
@@ -1535,10 +1674,11 @@
         {
             "id": "{{ id.url }}-140",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "ihre terrori\u017fti\u017fche T\u00e4tigkeit auszudehnen und einen Plan"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1007,2090,891,31"
@@ -1546,10 +1686,11 @@
         {
             "id": "{{ id.url }}-141",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "ausgearbeitet f\u00fcr Attentate auf hervorragende kommuni\u017fti\u017fche"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1006,2123,892,31"
@@ -1557,10 +1698,11 @@
         {
             "id": "{{ id.url }}-142",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Staatsm\u00e4nner in. Mos8kau. Im Dezember 1923 wurde eine"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1008,2156,890,31"
@@ -1568,10 +1710,11 @@
         {
             "id": "{{ id.url }}-143",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Gruppe Karl Kindermann8 mit der Ausf\u00fchrung"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1007,2188,891,32"
@@ -1579,10 +1722,11 @@
         {
             "id": "{{ id.url }}-144",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "des Planes auf ru\u017f\u017fi\u017fchem Boden beauftragt. Im Juli 1924 hatte \u017fie"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1007,2222,891,31"
@@ -1590,10 +1734,11 @@
         {
             "id": "{{ id.url }}-145",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\u017fchon ganz be\u017ftimmte Anwei\u017fungen erhalten, deren er\u017fte Opfer"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1005,2253,892,32"
@@ -1601,10 +1746,11 @@
         {
             "id": "{{ id.url }}-146",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\u017fowjetru\u017f\u017fi\u017fche Staat8m\u00e4nner in MoSkau \u017fein"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1006,2287,891,31"
@@ -1612,10 +1758,11 @@
         {
             "id": "{{ id.url }}-147",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\u017follten. Die \u201eJswe\u017ftija\u201c behauptet, da\u00df zur Maxsfierung ihrer"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1008,2320,890,33"
@@ -1623,10 +1770,11 @@
         {
             "id": "{{ id.url }}-148",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Ab\u017fichten die jekt Verhafteten fich an die Kommuni\u017fti\u017fche Partei"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1005,2352,891,33"
@@ -1634,10 +1782,11 @@
         {
             "id": "{{ id.url }}-149",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "heranmachten,\u201c uur in- die ton muni\u017fti\u017fchen Krei\u017fe Moskaus einzu"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1005,2387,894,33"
@@ -1645,10 +1794,11 @@
         {
             "id": "{{ id.url }}-150",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "dringen. Sie f\u00e4l\u017fchten die Mitgliedskarten (Warum? Sie konnten"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1005,2419,893,32"
@@ -1656,10 +1806,11 @@
         {
             "id": "{{ id.url }}-151",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "ja ec<hte haben. D. Red.) und Beglaubigungskarten, wandten \u017fich"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1006,2453,890,32"
@@ -1667,10 +1818,11 @@
         {
             "id": "{{ id.url }}-152",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "an liberale Gelehrte Deut\u017fchlands, \u201ederen Empfehlungs\u017fchreiben"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1005,2487,892,32"
@@ -1678,10 +1830,11 @@
         {
             "id": "{{ id.url }}-153",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "ihnen auch die T\u00fcr zum Arbeitszimmer Theodor Wolffs"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1005,2520,893,33"
@@ -1689,10 +1842,11 @@
         {
             "id": "{{ id.url }}-154",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\u00f6ffneten, der \u017fich einver\u017ftanden erkl\u00e4rte, Korre\u017fpondenzen aus Fern-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1006,2554,892,31"
@@ -1700,10 +1854,11 @@
         {
             "id": "{{ id.url }}-155",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Sibirien entgegenzunehmen, und einen Vor\u017fchu\u00df von 2000 Mark"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1007,2587,892,31"
@@ -1711,10 +1866,11 @@
         {
             "id": "{{ id.url }}-156",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "bewilligte\u201c, Weiter wandten fich die Rei\u017fenden an den Michael-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1006,2620,893,33"
@@ -1722,10 +1878,11 @@
         {
             "id": "{{ id.url }}-157",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Konzern und an das Modehaus Rudolf Herkog, die daf\u00fcr Wirt-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1940,1403,892,38"
@@ -1733,10 +1890,11 @@
         {
             "id": "{{ id.url }}-158",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "f\u017fchafts8\u017fpionage (!) zu ihren Gun\u017ften forderten. Veber die"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1940,1439,891,36"
@@ -1744,10 +1902,11 @@
         {
             "id": "{{ id.url }}-159",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Per\u017fonalien \u017fagte der Artikel: Dr. Karl Kindermann \u017ftudierte"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1941,1467,891,44"
@@ -1755,10 +1914,11 @@
         {
             "id": "{{ id.url }}-160",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "1922/23 Kriminalrecht, vervoll\u017ft\u00e4ndigte \u017feine theoreti\u017fchen Kenntni\u017f\u017fe"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1943,1504,889,35"
@@ -1766,10 +1926,11 @@
         {
             "id": "{{ id.url }}-161",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "im Dien\u017fte eine8 Detektivbureaus in Berlin. Einige Beamte des"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1941,1540,893,36"
@@ -1777,10 +1938,11 @@
         {
             "id": "{{ id.url }}-162",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Berliner Polizeipr\u00e4\u017fidiums k\u00f6nnen ausf\u00fchrlicher \u00fcber ihn Auskunft"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1942,1572,892,34"
@@ -1788,10 +1950,11 @@
         {
             "id": "{{ id.url }}-163",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "geben. Max v. Ditmaringen, alias Ditmar, i\u017ft E\u017ftl\u00e4nder und"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1943,1606,892,34"
@@ -1799,10 +1962,11 @@
         {
             "id": "{{ id.url }}-164",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "von der Organi\u017fation \u201eCon\u017ful\u201c mit Terrorakten beauftragt. Der"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1942,1636,893,46"
@@ -1810,10 +1974,11 @@
         {
             "id": "{{ id.url }}-165",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Artikel \u017fchlie\u00dft mit der Hoffnung, da\u00df die \u00f6ffentliche Meinung aller"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1942,1669,893,45"
@@ -1821,10 +1986,11 @@
         {
             "id": "{{ id.url }}-166",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Krei\u017fe in Deut\u017fchland je\u00dft ihren Jrrtum ein\u017fehen, die Regierung die"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1943,1708,894,32"
@@ -1832,10 +1998,11 @@
         {
             "id": "{{ id.url }}-167",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\u201eVerleumder\u201c zum Schweigen bringen werde. Die im Reichstag"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1944,1740,892,33"
@@ -1843,10 +2010,11 @@
         {
             "id": "{{ id.url }}-168",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "geplante Interpellation verlange, wenig\u017ftens nach ihrem Wortlaut,"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1944,1774,892,33"
@@ -1854,10 +2022,11 @@
         {
             "id": "{{ id.url }}-169",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "da\u00df die deut\u017fche Regierung die Befreiung der ge-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1945,1809,892,31"
@@ -1865,10 +2034,11 @@
         {
             "id": "{{ id.url }}-170",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "fangengehaltenen Deut\u017fc<en, \u017fofern es \u017fich nicht um"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1944,1837,894,46"
@@ -1876,10 +2046,11 @@
         {
             "id": "{{ id.url }}-171",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "ganz gew\u00f6hnliche Verbrecher handle, \u201ein ent\u017fprechender Wei\u017fe durch-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1944,1874,894,34"
@@ -1887,10 +2058,11 @@
         {
             "id": "{{ id.url }}-172",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "jehen\u201c\" \u017folle. Die Juterpellation \u017fei wohl kaum \u00fcberlegt. W\u00fcrde"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1945,1908,893,37"
@@ -1898,10 +2070,11 @@
         {
             "id": "{{ id.url }}-173",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "es in Deut\u017fchland ver\u017ftanden werden, wenn die Sowjet-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1946,1938,892,46"
@@ -1909,10 +2082,11 @@
         {
             "id": "{{ id.url }}-174",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "regierung von der deut\u017fchen Regierung verlangte, da\u00df \u017fie"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1946,1975,893,33"
@@ -1920,10 +2094,11 @@
         {
             "id": "{{ id.url }}-175",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Sowjet\u017ftaat8angeh\u00f6rige in Deut\u017fchland gleichfalls freilie\u00dfe, ledigvich"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1947,2008,893,32"
@@ -1931,10 +2106,11 @@
         {
             "id": "{{ id.url }}-176",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "weil \u017fie \u201enicht gew\u00f6hnliche Verbrecher \u017find\u201c? Jv Deut\u017fchland"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1947,2041,892,35"
@@ -1942,10 +2118,11 @@
         {
             "id": "{{ id.url }}-177",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\u017five eine Anzahl Sowjet\u017ftaatsangeh\u00f6riger wegen politi\u017fcher Ver-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1947,2069,892,44"
@@ -1953,10 +2130,11 @@
         {
             "id": "{{ id.url }}-178",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "brechen, ohne da\u00df bi8her eine Intervention der Sowjetregierung er"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1947,2105,892,35"
@@ -1964,10 +2142,11 @@
         {
             "id": "{{ id.url }}-179",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "folgt w\u00e4re. Die deut\u017fche juri\u017fti\u017fche Po\u017fition werde durch derartige"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1948,2136,892,36"
@@ -1975,10 +2154,11 @@
         {
             "id": "{{ id.url }}-180",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Forderungen gegen\u00fcber Sowjetru\u00dfland nur ge\u017fchw\u00e4cht. Soweit"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1949,2168,891,35"
@@ -1986,10 +2166,11 @@
         {
             "id": "{{ id.url }}-181",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "die \u201eI3we\u017ftia\u201c. WaZ3 die drei jungen Deut\u017f<en angeht, jo"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1948,2200,893,36"
@@ -1997,10 +2178,11 @@
         {
             "id": "{{ id.url }}-182",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "liegt eine amtliche \u00f6ffentliche Mitteilung der Sowjetbeh\u00f6rden"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1949,2232,891,32"
@@ -2008,10 +2190,11 @@
         {
             "id": "{{ id.url }}-183",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\u00fcber ihren Fall immer noh nicht vor.\u201c Es i\u017ft \u017fehr zu w\u00fcn\u017fchen,"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1949,2259,891,44"
@@ -2019,10 +2202,11 @@
         {
             "id": "{{ id.url }}-184",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "da\u00df dis Unter\u017fuchung m\u00f6glich\u017ft \u017fchnell beendigt wird und"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1949,2296,892,31"
@@ -2030,10 +2214,11 @@
         {
             "id": "{{ id.url }}-185",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "dann eine v\u00f6llig \u00f6ffentliche Gerichtsverhandlung"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1951,2328,889,36"
@@ -2041,10 +2226,11 @@
         {
             "id": "{{ id.url }}-186",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "folgt, falls das Endergebnis der gegenw\u00e4rtigen Unter\u017fuchung zur"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1948,2358,893,38"
@@ -2052,10 +2238,11 @@
         {
             "id": "{{ id.url }}-187",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Anklageerhebfwmig f\u00fchrt, v detechider etileheiigl"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1950,2389,830,64"
@@ -2063,10 +2250,11 @@
         {
             "id": "{{ id.url }}-188",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Auch die neue Dar\u017ftellung der \u201eJswe\u017ftija\" hat, wie wir durch"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1995,2466,858,40"
@@ -2074,10 +2262,11 @@
         {
             "id": "{{ id.url }}-189",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Umfrage fe\u017ftge\u017ftellt haben, in dem Krei\u017fe derjenigen, die mit"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1951,2499,891,41"
@@ -2085,10 +2274,11 @@
         {
             "id": "{{ id.url }}-190",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Dr. Kindermann und Wol\u017fcht bekannt oder befreundet \u017find, die"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1950,2533,892,38"
@@ -2096,10 +2286,11 @@
         {
             "id": "{{ id.url }}-191",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Ueberzeugung von der Un\u017fchuld der Verhafteten nicht er\u017fch\u00fcttert,"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1952,2564,893,40"
@@ -2107,10 +2298,11 @@
         {
             "id": "{{ id.url }}-192",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Wir verwei\u017fen auf den neben\u017ftehenden Leitartifel,"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1953,2599,767,37"
@@ -2118,10 +2310,11 @@
         {
             "id": "{{ id.url }}-193",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "GELN HTE REET VAE WETRIRK RE BEOREFUHRER SP WIS VERENA WTERGO 7 MORE EEREES CHF BREE HRRRSIN SDIRUN BETE HNESE EN SOGEN \u00d6IPEI E HRRGSNEING EISERNEN WEN\u201c GE EFRON REIE IE EEN EEE WR UET IREN NCE IUEIS ORE HRR HRN BEE"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1008,2687,1832,24"
@@ -2129,10 +2322,11 @@
         {
             "id": "{{ id.url }}-194",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\u017fpionage\" auslegt -- ihre magere Rei\u017feka\u017f\u017fe aufzuf\u00fcllen. Jh"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1008,2743,893,38"
@@ -2140,10 +2334,11 @@
         {
             "id": "{{ id.url }}-195",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "machte ihnen klar, da\u00df wir kundigere Mitarbeiter h\u00e4tten und"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1008,2777,893,35"
@@ -2151,10 +2346,11 @@
         {
             "id": "{{ id.url }}-196",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "f\u00fcr eine Berichter\u017ftattung \u00fcber die verwickelten wirt\u017fchaft-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1007,2809,893,38"
@@ -2162,10 +2358,11 @@
         {
             "id": "{{ id.url }}-197",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "lichen und politi\u017fchen Probleme Sowjetru\u00dfland8 unerfahrene"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1007,2842,893,38"
@@ -2173,10 +2370,11 @@
         {
             "id": "{{ id.url }}-198",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "For\u017fchungsrei\u017fende nicht brauchten, und hielt ihnen, wie gewi\u00df"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1008,2875,894,40"
@@ -2184,10 +2382,11 @@
         {
             "id": "{{ id.url }}-199",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "jeder Befragte, die Schwierigkeiten des Unternehmen3 vor."
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1008,2910,894,35"
@@ -2195,10 +2394,11 @@
         {
             "id": "{{ id.url }}-200",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Wir kamen \u00fcberein, da\u00df \u017fie einiges \u00fcber das Leben der Stu-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1008,2941,894,40"
@@ -2206,10 +2406,11 @@
         {
             "id": "{{ id.url }}-201",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "denten an \u017fibiri\u017fchen Univer\u017fit\u00e4ten \u017fchreiben \u017follten, von denen,"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1008,2976,894,36"
@@ -2217,10 +2418,11 @@
         {
             "id": "{{ id.url }}-202",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "wie ihre Papiere bewie\u017fen, eine Einladung an \u017fie ergangen"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1008,3010,894,38"
@@ -2228,10 +2430,11 @@
         {
             "id": "{{ id.url }}-203",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "war. Nicht nur ihre von den ausgezeichneten Gelehrten ver-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1008,3043,894,35"
@@ -2239,10 +2442,11 @@
         {
             "id": "{{ id.url }}-204",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "fa\u00dften Geleitbriefe, \u017fondern mehr noch ihre Fri\u017fche und \u017fogar"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1008,3074,895,40"
@@ -2250,10 +2454,11 @@
         {
             "id": "{{ id.url }}-205",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "ihre mit junger Gelehr\u017famkeit vereinte etwas naive Aben-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1009,3108,893,35"
@@ -2261,10 +2466,11 @@
         {
             "id": "{{ id.url }}-206",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "teuerlu\u017ft konnten \u017fympathi\u017fch \u017ftimmen. Ein politi\u017fches"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1009,3142,894,39"
@@ -2272,10 +2478,11 @@
         {
             "id": "{{ id.url }}-207",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Bekenntnis wurde ihnen nicht abverlangt, und es"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1009,3175,893,37"
@@ -2283,10 +2490,11 @@
         {
             "id": "{{ id.url }}-208",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "wurde nur ge\u017fagt, da\u00df \u017fie vermeiden m\u00fc\u00dften, \u017fich"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1010,3209,894,39"
@@ -2294,10 +2502,11 @@
         {
             "id": "{{ id.url }}-209",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "auf das Gebiet der Politik zu verirren. Nicht zu"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1010,3243,895,37"
@@ -2305,10 +2514,11 @@
         {
             "id": "{{ id.url }}-210",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "verkennen war, da\u00df Kindermann und Wol\u017fcht als Freunde"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1009,3274,895,39"
@@ -2316,10 +2526,11 @@
         {
             "id": "{{ id.url }}-211",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "auftraten, w\u00e4hrend zwi\u017fchen ihnen und dem Balten v. Ditmar"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1011,3309,892,34"
@@ -2327,10 +2538,11 @@
         {
             "id": "{{ id.url }}-212",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "ein weniger intimes Verh\u00e4ltnis be\u017ftand. Die beiden Deut\u017fchen"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1010,3344,892,38"
@@ -2338,10 +2550,11 @@
         {
             "id": "{{ id.url }}-213",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "zeigten in der Unterhaltung, da\u00df der Balte nur den Dolmet\u017fch"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1010,3377,894,38"
@@ -2349,10 +2562,11 @@
         {
             "id": "{{ id.url }}-214",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\u017fpielen \u017folle, und hielten Di\u017ftanz. Der Eindruck, den man bei"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1012,3410,891,36"
@@ -2360,10 +2574,11 @@
         {
             "id": "{{ id.url }}-215",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "fl\u00fcchtiger Begegnung empf\u00e4ngt, kann folb\u017ftver\u017ft\u00e4ndlich tr\u00fcgen"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1012,3444,891,39"
@@ -2371,10 +2586,11 @@
         {
             "id": "{{ id.url }}-216",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "und darum habe ich ver\u017fucht, zuverl\u00e4\u017f\u017figere Ausk\u00fcnfte \u00fcber"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1013,3479,893,35"
@@ -2382,10 +2598,11 @@
         {
             "id": "{{ id.url }}-217",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "die drei zu erlangen. Von dem Ditmar, der ein gutm\u00fctiges"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1013,3512,891,37"
@@ -2393,10 +2610,11 @@
         {
             "id": "{{ id.url }}-218",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "rundes Ge\u017ficht hatte, wei\u00df man auch in den \u017ftudenti\u017fchen Krei\u017fen"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1012,3545,893,38"
@@ -2404,10 +2622,11 @@
         {
             "id": "{{ id.url }}-219",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "nur zu \u017fagen, da\u00df er \u017fich bald nach rechts, bald nach links, zu-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1013,3579,892,37"
@@ -2415,10 +2634,11 @@
         {
             "id": "{{ id.url }}-220",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "le\u00dft an\u017fcheinend nach linf8, hat treiben la\u017f\u017fen und wahr\u017fchein-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1012,3612,892,37"
@@ -2426,10 +2646,11 @@
         {
             "id": "{{ id.url }}-221",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "lich mehr phanta\u017fiert als gege\u017f\u017fen hat. F\u00fcr den Dr. Kinder-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1013,3645,890,36"
@@ -2437,10 +2658,11 @@
         {
             "id": "{{ id.url }}-222",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "mann, der nach allen Zeugni\u017f\u017fen \u017fich mit den CE en"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1011,3681,894,62"
@@ -2448,10 +2670,11 @@
         {
             "id": "{{ id.url }}-223",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Theorien befreundet zu haben \u017fcheint hat \u017fein \u017fchwer leiden-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1013,3712,892,37"
@@ -2459,10 +2682,11 @@
         {
             "id": "{{ id.url }}-224",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "der Vater, ein Kaufmann in Durlach, \u017fchon mit leiden\u017fchaft-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1014,3746,892,38"
@@ -2470,10 +2694,11 @@
         {
             "id": "{{ id.url }}-225",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "lichen Worten an die Oeffentlichkeit appelliert. Ein ausge-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1012,3779,893,37"
@@ -2481,10 +2706,11 @@
         {
             "id": "{{ id.url }}-226",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "zeichneter Univer\u017fit\u00e4tslehrer, Profe\u017f\u017for in T\u00fcbingen, hat mir"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1014,3813,892,36"
@@ -2492,10 +2718,11 @@
         {
             "id": "{{ id.url }}-227",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "ge\u017fchrieben: \u201eDr. Kindermann i\u017ft zweifellos nicht als Gegner"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1014,3846,891,37"
@@ -2503,10 +2730,11 @@
         {
             "id": "{{ id.url }}-228",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "nach Moskau gefahren, \u017fondern hat \u017ficherlich die ru\u017f\u017fi\u017fchen"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1015,3880,889,37"
@@ -2514,10 +2742,11 @@
         {
             "id": "{{ id.url }}-229",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Verh\u00e4ltni\u017f\u017fe weit eher in etwas illu\u017fion\u00e4rem Lichte ge\u017fehen.\u201c"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1014,3913,890,38"
@@ -2525,10 +2754,11 @@
         {
             "id": "{{ id.url }}-230",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Der Student Wol\u017fcht i\u017ft, wie \u017feine Freunde aus\u017fagen, gleich-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1012,3947,894,38"
@@ -2536,10 +2766,11 @@
         {
             "id": "{{ id.url }}-231",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "falls von der rechten Seite nach links hin\u00fcbergegangen, und"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1015,3981,890,36"
@@ -2547,10 +2778,11 @@
         {
             "id": "{{ id.url }}-232",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "mit \u017fo gro\u00dfer Ent\u017fchiedenheit, da\u00df er, tro\u00df dr\u00fccender Be-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1014,4013,891,36"
@@ -2558,10 +2790,11 @@
         {
             "id": "{{ id.url }}-233",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "d\u00fcrftigkeit, freiwillig eine Unter\u017ft\u00fc\u00dfung zur\u00fc>wies, die er bis"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1015,4047,890,35"
@@ -2569,10 +2802,11 @@
         {
             "id": "{{ id.url }}-234",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "dahin von einem ihn zu reaktion\u00e4r d\u00fcnkenden G\u00f6nner erhielt."
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1016,4080,889,37"
@@ -2580,10 +2814,11 @@
         {
             "id": "{{ id.url }}-235",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Statt weiterer Bekundungen will ich, mit einigen K\u00fcrzungen,"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1016,4114,890,37"
@@ -2591,10 +2826,11 @@
         {
             "id": "{{ id.url }}-236",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "die Schilderung hierher \u017feen, die mir \u017fein Vater, ein in Bop-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1016,4148,889,36"
@@ -2602,10 +2838,11 @@
         {
             "id": "{{ id.url }}-237",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "pard lebender ehemaliger Gymna\u017fialprofe\u017f\u017for, entwirft:"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1016,4181,793,36"
@@ -2613,10 +2850,11 @@
         {
             "id": "{{ id.url }}-238",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\u201eHerzlichen Dank f\u00fcr Jhr Freundliches Schreiben, das mir"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1083,4217,822,31"
@@ -2624,10 +2862,11 @@
         {
             "id": "{{ id.url }}-239",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "68j\u00e4hrigem Mann ungemein wohlgetan hat. Was nun die hFe-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1041,4247,864,33"
@@ -2635,10 +2874,11 @@
         {
             "id": "{{ id.url }}-240",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "w\u00fcn\u017fchten Auffl\u00e4rungen \u00fcber Theo angeht, \u017fo h\u00e4ngen die\u017fe mit"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1042,4277,864,33"
@@ -2646,10 +2886,11 @@
         {
             "id": "{{ id.url }}-241",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "meiner eigenen Stellung zur Kirche und zum Staate eng zu-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1042,4307,863,34"
@@ -2657,10 +2898,11 @@
         {
             "id": "{{ id.url }}-242",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\u017fammen. JH bin Anh\u00e4nger der darwini\u017fti\u017fchen Theorie. Jn"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1042,4337,863,33"
@@ -2668,10 +2910,11 @@
         {
             "id": "{{ id.url }}-243",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "politi\u017fcher Hin\u017ficht bin ih Staat3\u017foziali\u017ft, wenn ich auch"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1043,4367,863,32"
@@ -2679,10 +2922,11 @@
         {
             "id": "{{ id.url }}-244",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "weder der \u017fozialdemokrati\u017fchen noch kommuni\u017ft\u017fhen Partei ange-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1043,4397,862,32"
@@ -2690,10 +2934,11 @@
         {
             "id": "{{ id.url }}-245",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "h\u00f6re; ich d\u00fcrfte ungef\u00e4hr der Richtung de? \u201eBerliner Tageblattes\u201c\""
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1043,4427,861,33"
@@ -2701,10 +2946,11 @@
         {
             "id": "{{ id.url }}-246",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "anzugliedern \u017fein, obwohl ich mich von jeder aktiven politi\u017fchen"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1044,4458,862,34"
@@ -2712,10 +2958,11 @@
         {
             "id": "{{ id.url }}-247",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Beteiligung bi\u00f6her voll\u017ft\u00e4ndig ferngehalten habe und \u017feit meiner"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1980,2743,866,35"
@@ -2723,10 +2970,11 @@
         {
             "id": "{{ id.url }}-248",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "vor 17 Jahren nachge\u017fuchten und erhaltenen Pen\u017fionierung nur"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1980,2774,866,34"
@@ -2734,10 +2982,11 @@
         {
             "id": "{{ id.url }}-249",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "den Wi\u017f\u017fen\u017fchaften gelebt habe. Jm \u00fcbrigen tolerant"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1980,2803,868,37"
@@ -2745,10 +2994,11 @@
         {
             "id": "{{ id.url }}-250",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "la\u017f\u017fe ich jeden nach jeiner Manier \u017felig werden. Sie werden es"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1979,2830,869,41"
@@ -2756,10 +3006,11 @@
         {
             "id": "{{ id.url }}-251",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "alfo ver\u017ftehen, da\u00df ich meinem Sohn bei feinem im September"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1978,2861,870,37"
@@ -2767,10 +3018,11 @@
         {
             "id": "{{ id.url }}-252",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "vorigen Jahres erfolgten Be\u017fuch keine Schwierigkeiten in den Weg"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1980,2890,869,35"
@@ -2778,10 +3030,11 @@
         {
             "id": "{{ id.url }}-253",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "gelegt habe, als er mir ge\u017ftand, da\u00df er zur kommuni \u017fti\u017fchen"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1979,2920,869,37"
@@ -2789,10 +3042,11 @@
         {
             "id": "{{ id.url }}-254",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Partei \u00fcbergegangen \u017fei. Wer nicht rechts gehen kann,"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1979,2951,871,37"
@@ -2800,10 +3054,11 @@
         {
             "id": "{{ id.url }}-255",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "mag links gehen. Der Verlu\u017ft \u017feines Verm\u00f6gens durch die IJnfla1-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1980,2979,869,36"
@@ -2811,10 +3066,11 @@
         {
             "id": "{{ id.url }}-256",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "tion, die ihn n\u00f6tigte, \u017fich \u017felb\u017ft durchzu\u017fchlagen, mag wohl neb\u017ft"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1980,3010,868,34"
@@ -2822,10 +3078,11 @@
         {
             "id": "{{ id.url }}-257",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "der Bekannt\u017fchaft mit zahlreichen ru\u017f\u017fi\u017fchen und deut\u017fchen Kom-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1980,3039,870,35"
@@ -2833,10 +3090,11 @@
         {
             "id": "{{ id.url }}-258",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "muni\u017ften die Hauptveranla\u017f\u017fung dazu gewe\u017fen \u017fein. Au\u00dferdem"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1981,3070,869,34"
@@ -2844,10 +3102,11 @@
         {
             "id": "{{ id.url }}-259",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "hat ihn eine Nede des fr\u00fcheren Rektors der Univer\u017fit\u00e4t erbittert,"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1981,3098,869,34"
@@ -2855,10 +3114,11 @@
         {
             "id": "{{ id.url }}-260",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "der \u00f6ffentlich erkl\u00e4rte, er wolle keine Werk\u017ftudenten haben. Aus"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1981,3127,870,36"
@@ -2866,10 +3126,11 @@
         {
             "id": "{{ id.url }}-261",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "allen die\u017fen Gr\u00fcnden hat Theo mit \u017feinen fr\u00fcheren An\u017fchauungen"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1981,3157,870,36"
@@ -2877,10 +3138,11 @@
         {
             "id": "{{ id.url }}-262",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "gebrochen und \u017fogar, wie er mir erz\u00e4hlte, in kommuni\u017fti-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1981,3188,871,34"
@@ -2888,10 +3150,11 @@
         {
             "id": "{{ id.url }}-263",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\u017fchen Krei\u017fen in Berlin einen Vortrag \u00fcber E ntwi>klu ng"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1982,3216,870,35"
@@ -2899,10 +3162,11 @@
         {
             "id": "{{ id.url }}-264",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "des Sozialismus gehalten. Wenn Theo \u017feine offizielle An-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1982,3245,871,36"
@@ -2910,10 +3174,11 @@
         {
             "id": "{{ id.url }}-265",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "meldung bei der kommuni\u017fti\u017fchen Partei, Wm \u017feine Ein\u017fchrei-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1982,3271,871,43"
@@ -2921,10 +3186,11 @@
         {
             "id": "{{ id.url }}-266",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "bung als Mitglied ver\u017f\u00e4umt hat, \u017fo i\u017ft dies wohl haupt\u017f\u00e4chlieh der"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1982,3306,871,32"
@@ -2932,10 +3198,11 @@
         {
             "id": "{{ id.url }}-267",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Bummelei zuzu\u017fchreiben; da\u00df er fich nicht angemeldet haben \u017foll,"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1983,3335,870,31"
@@ -2943,10 +3210,11 @@
         {
             "id": "{{ id.url }}-268",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "wundert mich \u00fcbrigens."
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1983,3367,306,29"
@@ -2954,10 +3222,11 @@
         {
             "id": "{{ id.url }}-269",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "1922 war Theo mit meiner Zu\u017ftimmung auf Veranla\u017f\u017fung \u017feines"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=2028,3409,827,35"
@@ -2965,10 +3234,11 @@
         {
             "id": "{{ id.url }}-270",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "ehemaligen Prinzipals (Theo hat vor dem <emi\u017fchen Studium einen"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1984,3440,871,28"
@@ -2976,10 +3246,11 @@
         {
             "id": "{{ id.url }}-271",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "prakti\u017fchen Kur\u017fus auf einem Rittergut in einer Brennerei durch\u00bb"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1984,3470,873,28"
@@ -2987,10 +3258,11 @@
         {
             "id": "{{ id.url }}-272",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "gemacht, war auch ein Jahr als Ti\u017fchlerlehrling bei einem"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1984,3499,871,30"
@@ -2998,10 +3270,11 @@
         {
             "id": "{{ id.url }}-273",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Mei\u017fter in He\u017f\u017fi\u017fch-Oldendorf, da ich hn ur\u017fpr\u00fcnglich f\u00fcr das Vau-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1983,3529,873,33"
@@ -3009,10 +3282,11 @@
         {
             "id": "{{ id.url }}-274",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "fach be\u017ftimmt hatte. Schon die\u017fe Art der Vorbildung hat \u017ficher auf"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1983,3558,873,30"
@@ -3020,10 +3294,11 @@
         {
             "id": "{{ id.url }}-275",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "feine kommuni\u017fti\u017fche Ge\u017finnung und Arbeiterfreundlichkeit Ein-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1984,3588,871,29"
@@ -3031,10 +3306,11 @@
         {
             "id": "{{ id.url }}-276",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "flu\u00df gehabt) bei einer \u017fchlagenden Verbindung eingetreten, hat einige"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1983,3618,874,29"
@@ -3042,10 +3318,11 @@
         {
             "id": "{{ id.url }}-277",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Men\u017furen ausgefochten und hat \u017fich voll\u017ft\u00e4ndig anderen Krei\u017fen zu-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1983,3647,872,30"
@@ -3053,10 +3330,11 @@
         {
             "id": "{{ id.url }}-278",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "gewendet. Aus Mangel an Mitteln hat er wochenlang im Studenten-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1985,3677,872,30"
@@ -3064,10 +3342,11 @@
         {
             "id": "{{ id.url }}-279",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "heim fa\u017ft nur von troFenem Brot gelebt in bitter\u017fter Armut,"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1985,3706,870,30"
@@ -3075,10 +3354,11 @@
         {
             "id": "{{ id.url }}-280",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "da ich damals in der Inflation8periode nicht im\u017ftande war, ihn zu"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1984,3739,874,30"
@@ -3086,10 +3366,11 @@
         {
             "id": "{{ id.url }}-281",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "unter\u017ft\u00fc\u00dfen, weil ich z. B. in einem Monat (1923) \u017fage und \u017fchreibe"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1984,3768,873,31"
@@ -3097,10 +3378,11 @@
         {
             "id": "{{ id.url }}-282",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "10 Pf. Pen\u017fion erhielt, \u017fo \u017fehr war das Geld entwertet, als es in"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1987,3798,870,30"
@@ -3108,10 +3390,11 @@
         {
             "id": "{{ id.url }}-283",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "meine H\u00e4nde kam. Theo hat mit \u017feinen Kameraden \u017fein le\u00dftes3"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1983,3827,875,33"
@@ -3119,10 +3402,11 @@
         {
             "id": "{{ id.url }}-284",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "St\u00fc> Brot geteilt; er war au\u00dferordentlich beliebt und eine"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1984,3856,874,33"
@@ -3130,10 +3414,11 @@
         {
             "id": "{{ id.url }}-285",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "biedere, allzu gutm\u00fctige Seele. Sein Hauptfehler i\u017ft Mangel an"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1983,3887,874,33"
@@ -3141,10 +3426,11 @@
         {
             "id": "{{ id.url }}-286",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Vor\u017ficht. Im \u00fcbrigen i\u017ft er eine prakti\u017fche Natur. Mit \u017feinem"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1984,3916,873,32"
@@ -3152,10 +3438,11 @@
         {
             "id": "{{ id.url }}-287",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "mehr wi\u017f\u017fen\u017fchaftlich veranlagten Freunde Kindermann hat er ge-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1983,3946,873,32"
@@ -3163,10 +3450,11 @@
         {
             "id": "{{ id.url }}-288",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "mein\u017fchaftlich das Nei\u017feprojekt entworfen, von dem er \u017fich durch Film-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1984,3974,873,35"
@@ -3174,10 +3462,11 @@
         {
             "id": "{{ id.url }}-289",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "aufnahmen g\u00fcn\u017ftige pekuni\u00e4re Re\u017fultate ver\u017fprach. Hauptgrund aber"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1984,4004,872,33"
@@ -3185,10 +3474,11 @@
         {
             "id": "{{ id.url }}-290",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "war bei beiden ein ungez\u00fcgelter Rei\u017fetrieb und Abenteuerlu\u017ft."
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1983,4034,874,34"
@@ -3196,10 +3486,11 @@
         {
             "id": "{{ id.url }}-291",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Beiden fehlte die n\u00f6tige Erfahrung und Kenntnis der Zu\u017ft\u00e4nde"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1983,4063,872,35"
@@ -3207,10 +3498,11 @@
         {
             "id": "{{ id.url }}-292",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "in Ru\u00dfland."
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1983,4092,152,30"
@@ -3218,10 +3510,11 @@
         {
             "id": "{{ id.url }}-293",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Kap T\u017fchelju\u017fkin und das vulkani\u017fche Kamt\u017fchatka hat \u017fie be-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=2025,4137,830,36"
@@ -3229,10 +3522,11 @@
         {
             "id": "{{ id.url }}-294",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "onders angeloc>t. Die T\u017fcheka hat die\u017fe Angaben zu der Anklage"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1993,4168,861,35"
@@ -3240,10 +3534,11 @@
         {
             "id": "{{ id.url }}-295",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "benu\u00dft, da\u00df \u017fie Mitglieder der Orge\u017fch \u017feien, die mit Wei\u00dfgardi\u017ften"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1984,4197,870,36"
@@ -3251,10 +3546,11 @@
         {
             "id": "{{ id.url }}-296",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "in Verbindung \u017ft\u00e4nden. Bekanntlich haben vor einiger Zeit in"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1983,4226,870,36"
@@ -3262,10 +3558,11 @@
         {
             "id": "{{ id.url }}-297",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Kamt\u017fchatka erbitterte K\u00e4mpfe zwi\u017fchen Wei\u00dfgardi\u017ften und der"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1983,4254,870,37"
@@ -3273,10 +3570,11 @@
         {
             "id": "{{ id.url }}-298",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Roten Armee \u017ftatgefunden. Doch davon hatten die beiden harm-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1982,4285,872,36"
@@ -3284,10 +3582,11 @@
         {
             "id": "{{ id.url }}-299",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "lo\u017fen Studenten gar keine Ahnung. Da\u00df Theo gr\u00f6\u00dfere Kenntnis"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1983,4311,871,44"
@@ -3295,10 +3594,11 @@
         {
             "id": "{{ id.url }}-300",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "von den Pl\u00e4nen Ditmars gehabt habe als Kindermann i\u017ft Un-"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1982,4345,870,36"
@@ -3306,10 +3606,11 @@
         {
             "id": "{{ id.url }}-301",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\u017finn. Theo und Ditmar \u017ftanden, wie Vater Kindermann"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1984,4374,870,35"
@@ -3317,10 +3618,11 @@
         {
             "id": "{{ id.url }}-302",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "\u017fchreibt, wie Hund und Ka\u00df. An Ditmars Schuld glaube"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1984,4398,870,45"
@@ -3328,10 +3630,11 @@
         {
             "id": "{{ id.url }}-303",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "ich niht. F\u00fcr die Wahrheit der von mir \u00fcber Theo gemachten"
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1983,4433,870,39"
@@ -3339,10 +3642,11 @@
         {
             "id": "{{ id.url }}-304",
             "type": "Annotation",
-            "motivation": "commenting",
+            "motivation": "supplementing",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
+                "language": "de",
                 "value": "Angaben \u017ftehe ich unbedingt ein."
             },
             "target": "{{ id.path }}/canvas/p1#xywh=1983,4462,423,35"
