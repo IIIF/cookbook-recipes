@@ -100,9 +100,9 @@ Viewer support for any particular feature will depend on the viewer and any cust
 
 ## Related recipes
 
-- [Simplest Manifest - Image][0001]
-- [Simplest Collection][0032]
-- [Providing Alternative Representations][0046] for thinking through how to connect additional files relating to a newspaper
+- [Simplest Collection][0032] for a focused view of the Collection structure basics
+- [Multi-volume Work with Individually-bound Volumes][0030] for a comparative use of Collection
+- [Providing Alternative Representations][0046] for thinking through how to connect additional files relating to newspaper content
 - [Using Caption and Subtitle Files with Video Content][0219] for a discussion parallel to how to treat alternate forms of a digitized newspaper's content
 - [Navigation by Chronology][0230]
 
