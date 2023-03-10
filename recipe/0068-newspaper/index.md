@@ -94,6 +94,8 @@ Viewer support for any particular feature will depend on the viewer and any cust
 | `seeAlso` for dataset version | Annona, Mirador |
 {: .api-table style="max-width: 780px;"}
 
+Similarly, the quality of the OCR as well as the formatting and positioning data of the Annotations containing it will determine how useful it is. IIIF Presentation v3 only provides a standard for structuring it and communicating layout to a viewer.
+
 {% include manifest_links.html viewers="Mirador, Annona, UV, Clover" manifest="newspaper_title-collection.json" %}
 
 {% include jsonviewer.html src="newspaper_title-collection.json" config='data-line="7-11,14-27,78-85,86-107"' %}
