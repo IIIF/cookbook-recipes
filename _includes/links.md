@@ -10,11 +10,13 @@
 [0009]: {{ site.cookbook_url | absolute_url }}/recipe/0009-book-1/ "Simple Manifest - Book"
 [0010]: {{ site.cookbook_url | absolute_url }}/recipe/0010-book-2-viewing-direction "Viewing direction and its effect on navigation"
 [0011]: {{ site.cookbook_url | absolute_url }}/recipe/0011-book-3-behavior/ "Book behavior (paging) variations"
+[0299]: {{ site.cookbook_url | absolute_url }}/recipe/0299-region/ "Addressing a spatial region"
 [0013]: {{ site.cookbook_url | absolute_url }}/recipe/0013-placeholderCanvas/ "Load a Preview Image Before the Main Content"
 [0202]: {{ site.cookbook_url | absolute_url }}/recipe/0202-start-canvas/ "Load Manifest Beginning with a Specific Canvas"
 [0014]: {{ site.cookbook_url | absolute_url }}/recipe/0014-accompanyingcanvas/ "Audio Presentation with Accompanying Image"
 [0015]: {{ site.cookbook_url | absolute_url }}/recipe/0015-start/ "Begin playback at a specific point - Time-based media"
 [0017]: {{ site.cookbook_url | absolute_url }}/recipe/0017-transcription-av/ "Providing Access to Transcript Files of A/V Content"
+
 [0139]: {{ site.cookbook_url | absolute_url }}/recipe/0139-geolocate-canvas-fragment/ "Represent Canvas Fragment as a Geographic Area on a Web Map"
 
 [0019]: {{ site.cookbook_url | absolute_url }}/recipe/0019-html-in-annotations/ "HTML in Annotations"
@@ -30,6 +32,7 @@
 
 [0040]: {{ site.cookbook_url | absolute_url }}/recipe/0040-image-rotation-service/ "Image Rotation Two Ways"
 
+[0047]: {{ site.cookbook_url | absolute_url }}/recipe/0047-homepage/ "Linking to Web Page of an Object"
 [0053]: {{ site.cookbook_url | absolute_url }}/recipe/0053-seeAlso/ "Linking to Structured Metadata"
 [0046]: {{ site.cookbook_url | absolute_url }}/recipe/0046-rendering/ "Providing Alternative Representations"
 [0064]: {{ site.cookbook_url | absolute_url }}/recipe/0064-opera-one-canvas/ "Table of Contents for Multiple A/V Files on a Single Canvas"
@@ -50,11 +53,14 @@
 [0231]: {{ site.cookbook_url | absolute_url }}/recipe/0231-transcript-meta-recipe/ "Transcripts, Captions, and Subtitles - General Considerations"
 
 [0234]: {{ site.cookbook_url | absolute_url }}/recipe/0234-provider/ "Acknowledge Content Contributors"
+[0240]: {{ site.cookbook_url | absolute_url }}/recipe/0240-navPlace-on-canvases/ "Locate Multiple Canvases on a Web Map"
 [0261]: {{ site.cookbook_url | absolute_url }}/recipe/0261-non-rectangular-commenting/ "Annotation with a Non-Rectangular Polygon"
 [0258]: {{ site.cookbook_url | absolute_url }}/recipe/0258-tagging-external-resource/ "Tagging with an External Resource"
 
 [0266]: {{ site.cookbook_url | absolute_url }}/recipe/0266-full-canvas-annotation/ "Simplest Annotation"
 [0269]: {{ site.cookbook_url | absolute_url }}/recipe/0269-embedded-or-referenced-annotations/ "Embedded or Referenced Annotations"
+
+[0326]: {{ site.cookbook_url | absolute_url }}/recipe/0326-annotating-image-layer/ "Annotate a specific images or layers"
 
 [cookbook-process]: {{site.cookbook_url | absolute_url }}/recipe
 
