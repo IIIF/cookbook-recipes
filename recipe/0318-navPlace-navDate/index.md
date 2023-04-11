@@ -24,16 +24,19 @@ The `navPlace` property is not processed by the Universal Viewer or Mirador view
 
 ### Example
 
-The example consists of a [Collection](collection.json) that references five Manifests.  All five Manifests contain the `navDate` and `navPlace` properties, as shown below.
+The example consists of a [Collection](collection.json) that references five Manifests.  All five Manifests contain the `navDate` and `navPlace` properties, as shown below.  
+
+The example can be displayed in a [custom viewer](https://mikeapp.github.io/maptime-demo/?iiif-content={{id.path}}/collection.json).
 
 {% include manifest_links.html viewers="" manifest="manifest-1.json" %}
 
 {% include jsonviewer.html src="manifest-1.json" config='data-line="13-37"' %}
 
-{% include manifest_links.html viewers="" manifest="manifest-2.json" %}
-{% include manifest_links.html viewers="" manifest="manifest-3.json" %}
-{% include manifest_links.html viewers="" manifest="manifest-4.json" %}
-{% include manifest_links.html viewers="" manifest="manifest-5.json" %}
+Additional Manifests:
+* [The Colosseum](manifest-2.json)
+* [The Arch of Titus from the Forum, Rome, ca. 1725](manifest-3.json)
+* [The Temple of Vesta, Rome, 1849](manifest-4.json)
+* [A View of Trajan's Forum, Rome, 1821](manifest-5.json)
 
 ## Related Recipes
 * [Represent Canvas Fragment as a Geographic Area in a Web Mapping Client][0139]
