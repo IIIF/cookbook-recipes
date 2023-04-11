@@ -1,0 +1,44 @@
+---
+title: Using navPlace and navDate Together
+id: 318
+layout: recipe
+topic: geo-recipes
+tags: [maps, geolocate, navPlace, navDate]
+summary: "Use navDate together with the navPlace extension to provide geographic and temporal data"
+viewers:
+---
+
+### Use Case
+
+You have one or more IIIF resources that have a date and a location associated with each, and you would like to provide these to a client for use in the user interface.   For instance, you may wish the client to provide a visualization in a timeline with an associated map, or to provide the capability to filter the set based on a date range or a bounding box on a map.   The data required to meet this use case can be provided by the use of both the `navDate` and `navPlace` properties on the IIIF resources.  
+
+A IIIF Collection can be used to aggregate Manifests for use by a client.  For instance, objects related to an exhibition might be collected into a Collection or Collection hierarchy, and a reference to this Collection may be passed to client software.
+
+### Implementation Notes
+
+The navDate property, as implied by its name, allows a manifest to identify a pertinent date associated with an IIIF resource in order to help viewers provide users with date-aware navigation. Clients are not required to make use of `navDate`, and clients that do have date-aware navigation available may not default to that navigation interface.  This property is described in [Navigation by Chronology][0230]
+
+The navPlace property is analogous to navDate, but provides geographic information.  The value for `navPlace` is a single [GeoJSON Feature Collection](https://iiif.io/api/extension/navplace/#222-feature-collection). A Feature Collection represents an aggregation of spatially bounded areas.  This property is described in [Locate a Manifest on a Web Map][0154]. 
+
+The `navPlace` property is not processed by the Universal Viewer or Mirador viewer at this time.
+
+### Example
+
+The example consists of a [Collection](collection.json) that references five Manifests.  All five Manifests contain the `navDate` and `navPlace` properties, as shown below.
+
+{% include manifest_links.html viewers="" manifest="manifest-1.json" %}
+
+{% include jsonviewer.html src="manifest-1.json" config='data-line="13-37"' %}
+
+{% include manifest_links.html viewers="" manifest="manifest-2.json" %}
+{% include manifest_links.html viewers="" manifest="manifest-3.json" %}
+{% include manifest_links.html viewers="" manifest="manifest-4.json" %}
+{% include manifest_links.html viewers="" manifest="manifest-5.json" %}
+
+## Related Recipes
+* [Represent Canvas Fragment as a Geographic Area in a Web Mapping Client][0139]
+* [Locate a Manifest on a Web Map][0154]
+* [Navigation by Chronology][0230]
+
+{% include acronyms.md %}
+{% include links.md %}

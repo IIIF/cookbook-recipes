@@ -1,0 +1,79 @@
+{
+    "@context": [
+      "http://iiif.io/api/extension/navplace/context.json",
+      "http://iiif.io/api/presentation/3/context.json"
+    ],
+    "id": "{{ id.url }}",
+    "type": "Manifest",
+    "label": {
+      "en": [
+        "The Arch of Titus from the Forum, Rome, ca. 1725"
+      ]
+    },
+    "navDate": "1725-01-01T00:00:00+00:00",
+    "navPlace": {
+      "id": "{{ id.path }}/feature-collection/3",
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "id": "{{ id.path }}/feature/3",
+          "type": "Feature",
+          "properties": {
+            "label": {
+              "en": [
+                "The Arch of Titus from the Forum, Rome, ca. 1725"
+              ]
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              12.488585,
+              41.890717  
+            ]
+          }
+        }
+      ]
+    },
+    "items": [
+      {
+        "id": "{{ id.path }}/canvas/3",
+        "type": "Canvas",
+        "height": 2875,
+        "width": 2048,
+        "label": {
+          "en": [
+            "The Arch of Titus from the Forum, Rome, ca. 1725"
+          ]
+        },
+        "items": [
+          {
+            "id": "{{ id.path }}/anno-page/3",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "{{ id.path }}/anno/3",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://iiif.io/api/image/3.0/example/reference/71b9228e087f15c75b628214cd9f647d-The_Arch_of_Titus_from_the_Forum_Rome/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpg",
+                  "height": 2875,
+                  "width": 2048,
+                  "service": [
+                    {
+                      "id": "https://iiif.io/api/image/3.0/example/reference/71b9228e087f15c75b628214cd9f647d-The_Arch_of_Titus_from_the_Forum_Rome",
+                      "profile": "level1",
+                      "type": "ImageService3"
+                    }
+                  ]
+                },
+                "target": "{{ id.path }}/canvas/3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

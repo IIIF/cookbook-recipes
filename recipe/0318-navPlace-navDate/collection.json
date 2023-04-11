@@ -1,0 +1,33 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "{{ id.url }}",
+    "type": "Collection",
+    "label": { "en": [ "NavPlace and NavDate Collection" ] },
+    "summary": { "en": [ "A collection of items related to Rome." ] },
+    "requiredStatement": {
+      "label": { "en": [ "Attribution" ] },
+      "value": { "en": [ "Objects from the Yale Center for British Art" ] }
+    },
+    "items": [
+      {
+        "id": "{{ id.path }}/manifest-1.json",
+        "type": "Manifest"
+      },
+      {
+        "id": "{{ id.path }}/manifest-2.json",
+        "type": "Manifest"
+      },
+      {
+        "id": "{{ id.path }}/manifest-3.json",
+        "type": "Manifest"
+      },
+      {
+        "id": "{{ id.path }}/manifest-4.json",
+        "type": "Manifest"
+      },
+      {
+        "id": "{{ id.path }}/manifest-5.json",
+        "type": "Manifest"
+      }
+    ]
+}
