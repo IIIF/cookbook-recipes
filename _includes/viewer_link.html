@@ -41,6 +41,11 @@
         https://samvera-labs.github.io/clover-iiif/?iiif-content={{manifest_url |strip}}
     {% endcapture %}
     {% assign default_text="View in Clover" %}
+{% elsif include.type == 'Navplace Viewer' %}
+    {% capture viewer_url %}
+        https://map.rerum.io/?iiif-content={{manifest_url |strip}}
+    {% endcapture %}
+    {% assign default_text="View in Navplace Viewer" %}
 {% else %}    
     {% capture default_text %}Unknown Viewer type '{{ include.type}}'{% endcapture %}
     {% capture viewer_url %}{{manifest_url |strip}}{% endcapture %}
