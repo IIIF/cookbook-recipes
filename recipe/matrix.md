@@ -17,7 +17,7 @@ topics:
   - key: AV
     note: Please note there are other IIIF AV viewers that are not listed like the [Europeana Player](https://github.com/europeana/media-player) and the [iiif-react-media-player](https://samvera-labs.github.io/iiif-react-media-player/). These are not included in the matrix due to a lack of public linkable instance rather than them not supporting some of the recipes.
   - annotation
-  - geo-recipes
+  - key: geo-recipes
     note: Please note there are many viewers built to view GeoJSON like [Leaflet](https://leafletjs.com/) and [geojson.io](https://geojson.io/). These viewers do not know to parse objects for a `navPlace` property or look into the `body` property of Annotations for GeoJSON. However, they are easily customizable and can be made to find GeoJSON in these properties. The Navplace Viewer is an [Open Source customization](https://github.com/CenterForDigitalHumanities/navplace-viewer) which intelligently gathers and formats GeoJSON from provided IIIF resources and hands that GeoJSON to a Leaflet viewer for rendering.
 ---
 
