@@ -26,7 +26,7 @@ The `navPlace` property is not processed by the Universal Viewer or Mirador view
 
 The example consists of a [Collection](collection.json) that references five Manifests.  All five Manifests contain the `navDate` and `navPlace` properties, as shown below.  
 
-The example can be displayed in a [custom viewer](https://mikeapp.github.io/maptime-demo/?iiif-content=https://preview.iiif.io/cookbook/0318/recipe/0318-navPlace-navDate/collection.json).
+The example can be displayed in a [custom viewer](https://mikeapp.github.io/maptime-demo/?iiif-content=https://preview.iiif.io/cookbook/0318/recipe/0318-navPlace-navDate/collection.json).  In the viewer, click on the "Limit by Date Range" button to sort the objects by date.  Adjust the ends of the timeline slider to filter the objects to a date range.
 
 {% include manifest_links.html viewers="" manifest="manifest-1.json" %}
 
