@@ -161,7 +161,7 @@ _this might be in a separate auth cookbook_
 
 * probe service for simple resource
 * auth for adaptive bit rate media (MPEG-DASH)
-* [Anyone can deep zoom, auth reqd for hi-res download](https://digirati-co-uk.github.io/iiif-auth-client/?image=https://iiifauth.digtest.co.uk/img/11_kitty_joyner.jpg/info.json)
+* Anyone can deep zoom, auth reqd for hi-res download
 
 {% include acronyms.md %}
 {% include links.md %}
