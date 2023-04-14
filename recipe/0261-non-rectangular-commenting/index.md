@@ -18,7 +18,7 @@ For a IIIF resource, you would like to add a simple annotation to the resource, 
 
 The [IIIF Presentation 3.0 API][prezi3] does not itself discuss non-rectangular annotations, incorporating them from the [W3C Web Annotation Data Model](http://w3.org/TR/annotation-model/) by reference. For a full description of this and other web annotations used in IIIF annotations, we recommend you read that document.
 
-The W3C data model requires non-rectangular polygonal annotations to be described in the Scalable Vector Graphic (SVG) markup format. Note that client parsing of SVG varies, and valid SVG may not display as you expect. SVGs have the potential to be highly complex, incorporating multiple `path` elements and/or `mask` elements; this example is highly simplified for the purpose of demonstrating an entry point into IIIF affordances.
+The W3C data model requires non-rectangular annotations to be described in the Scalable Vector Graphic (SVG) markup format and to use the `SvgSelector`. Note that viewer parsing of SVG varies, and valid SVG may not display as you expect. SVGs have the potential to be highly complex; this example is highly simplified for the purpose of demonstrating an entry point into IIIF affordances.
 
 When reviewing your SVG data, remove all styling and transformation features, per [the W3C data model](https://www.w3.org/TR/annotation-model/#svg-selector). To ensure your SVG markup is valid, you can use the [W3C validator](https://validator.w3.org/). SVG can be valid markup as absolute points in a coordinate space or as relative points along a path. 
 
