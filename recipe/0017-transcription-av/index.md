@@ -37,7 +37,7 @@ In Mirador, a given transcript is made available within the sidebar menu, which 
 
 In Universal Viewer, to access the transcript use the 'Download' link on the bottom left corner of the viewer.
 
-In Ramp, the transcript file is made available to download under the player controls.
+In Ramp, the transcript file is made available to download under the player controls. Click the filename listed in the menu to download the transcript file.
 
 {% include manifest_links.html viewers="UV, Mirador, Ramp" manifest="manifest.json" %}
 {% include jsonviewer.html src="manifest.json" config='data-line="39-50"'%}
