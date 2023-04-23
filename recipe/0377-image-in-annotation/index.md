@@ -20,19 +20,15 @@ Provides an image which add details or show a different view about a particular 
 
 ## Implementation Notes
 
-Our supplementary image is not part of the Canvas content, thus it must not have the motivation `painting`, and so is to be placed in the `annotations` section of the manifest. Following the [W3C Web Annotation model](https://www.w3.org/TR/annotation-model/#external-web-resources), we have a simple image body referencing our image, and a text body to provides a comment/title about the image.
+Our supplementary image is not part of the Canvas content, thus it must not have the motivation `painting`, and so is to be placed in the `annotations` section of the Canvas. Following the [W3C Web Annotation model](https://www.w3.org/TR/annotation-model/#external-web-resources), we have a simple image body referencing our image, and a text body to provides a comment/title about the image.
 
 ## Example
 
-The main content is a photo of a square in Göttingen, which shows, among others things, a fountain. We wanted to show the lights on the foutain during the night, so we associated the part of the canvas containing the foutain with an Annotation consisting of a picture of the foutain at night and a text comment.
+The main content is a photo of a square in Göttingen, which shows, among others things, a fountain. We wanted to show the lights on the fountain during the night, so we associated the part of the canvas containing the fountain with an Annotation consisting of a picture of the fountain at night and a text comment.
 
-> {% include manifest_links.html viewers="Annona" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Annona" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config="data-line='49-66'" %}
-
-Fixtures used in this manifest:
-- [main content](https://fixtures.iiif.io/info.html?file=/images/Glen/photos/gottingen.jpg)
-- [image in annotation](https://fixtures.iiif.io/info.html?file=/images/Glen/photos/fountain.jpg)
 
 ## Related Recipes
 
@@ -40,7 +36,7 @@ Fixtures used in this manifest:
 * [Annotate specific images or layers][0326]
   * in our case, we had only one image so we annotated the main canvas
 * [Annotation with a Non-Rectangular Polygon][0261]
-  * we could have drawn the contours of the foutain
+  * we could have drawn the contours of the fountain
 * !! [Tagging with an External Resource][0258]
 
 {% include acronyms.md %}
