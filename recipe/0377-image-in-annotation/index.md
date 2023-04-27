@@ -1,5 +1,5 @@
 ---
-title: Image in annotation
+title: Image in annotations
 id: 377
 layout: recipe
 tags: [annotation]
@@ -12,15 +12,15 @@ topic:
 
 ## Use Case
 
-Provides an image which add details or show a different view about a particular feature/area in the main content.
+Provides an image which adds details or shows a different view about a particular feature/area in the main content.
 
-- You have a group picture with many people on it. The image quality doesn't allow to recognize all of them, so you annotate each face with the name of the person, and you add in the annotation an individual picture of that person.  
-- You have a picture of an architect's plan for a building which is now built. You want to show, for the differents items on the plan, how it looks like once built. So you annotate some features (eg the patio) with an actual photo
-- You have a manifest with a video showing an old building at the time of his creation. Sometimes when the video shows a different part of the building, you want to annotate the video with a photo of how this part looks now. Some annotations are just one image, but some also contains a description like "this wall faces north, you can see there is more moss there"
+- You have a group picture of many people. The image quality doesn't allow you to recognize all of them, so you annotate each face with the name of the person and an individual photo of that person.  
+- You have a picture of an architect's plan for a building which has been built. You want to show, for the different diagrams in the plan, how it looks once built. So you annotate some features (for example, the patio) with an actual photo.
+- You have a Manifest with a video showing an old building at the time of his creation. Sometimes when the video shows a different part of the building, you want to annotate the video with a photo of how this part looks now. Annotations may be just one image or contain a description like, "This wall faces north, you can see there is more moss there."
 
 ## Implementation Notes
 
-Our supplementary image is not part of the Canvas content, thus it must not have the motivation `painting`, and so is to be placed in the `annotations` section of the Canvas. Following the [W3C Web Annotation model](https://www.w3.org/TR/annotation-model/#external-web-resources), we have a simple image body referencing our image, and a text body to provides a comment/title about the image.
+Our supplementary image is not part of the Canvas content, thus it must not have the motivation `painting` and is placed in the `annotations` section of the Canvas. Following the [W3C Web Annotation model](https://www.w3.org/TR/annotation-model/#external-web-resources), we have a simple image body referencing our image, and a text body to provides a caption related to the image.
 
 ## Example
 
