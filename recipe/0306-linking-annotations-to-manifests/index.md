@@ -16,7 +16,7 @@ Usually, annotations in an external Annotation Page point to a Canvas or a Canva
 ## Implementation Notes
 
 The Annotation Pages stored in an external JSON file contain a list of Annotations.
-While often the `target` of the annotations is an URL containing the identifier of the Canvas the `target` can also be a Specific Resource.
+While often the `target` of the annotations is an URL containing the identifier of the Canvas the `target` can also be a [Specific Resource](https://www.w3.org/TR/annotation-model/#specific-resources).
 The Specific Resource can have a `source` attribute containing the `id` pointing at the Canvas identifier and a `partOf` attribute pointing at the Manifest.
 Hence, the `partOf` attribute will contain the Manifest identifier in the `id` attribute, while the `type` attribute will be "Manifest".
 
@@ -27,7 +27,7 @@ There is usually no advantage in using `partOf` attribute for pointing at Manife
 ## Example
 The example is based on the recipe [Embedded or referenced Annotations][0269].
 
-However, the `target` of the Annotation contained in the Annotation Page file will be a Specific Resource this allows us to use a `partOf` attribute inside the `source` element to point at the original Manifest containing the Canvas. The `partOf` `id` attribute is the resolvable link of the Manifest.
+However, the `target` of the Annotation contained in the Annotation Page file will be a Specific Resource, which allows us to use a `partOf` attribute inside the `source` element to point at the original Manifest containing the Canvas. The `partOf` `id` attribute is the resolvable link of the Manifest.
 
 In the example, it is also shown the usage of the `selector` attribute of the Specific Resource that allows us to select a region of the image using the `value` attribute of the Fragment Selector.
 The `value` attribute follows the Fragment Selector syntax [Fragment Selectors][0020].
