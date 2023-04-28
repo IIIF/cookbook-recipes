@@ -9,6 +9,7 @@ viewers:
   - UV
   - Annona
   - Clover
+  - Navplace Viewer
 topics:
   - basic
   - property
