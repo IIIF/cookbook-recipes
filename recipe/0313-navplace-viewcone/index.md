@@ -10,19 +10,14 @@ viewers:
 ---
 
 ### Use Case
-The theme of this is to help explain why a "Viewcone" and not a "Triangle"
-"My favorite band is playing at Red Rock's Amphitheater and I want to know if I will be able to see the members of the band from my seats"
-"I am moving through a 2D street view (like google maps) and want to know what I can see from a given point on the road."
-"Indoor Example: I want to hang a photograph of my family in the house and would like to know the spot in my house where people would get the best view of the photograph"
-"The greatest visibility of a masterpiece in an art gallery"
+I would like to represent on a web map the orientation of a photograph, the point of origin and the visible radius. 
 
+The application can go from showing the photographer's point of view in old photographs georeferenced on a historical map, to placing archeological findings with the correct reference point in focus, to finding the optimal placement for a work of art on an art gallery, using either the visitor's starting point as the origin, or the work of art itself. 
 
 ### Implementation Notes
-Main job here is to explain the data required to express a viewcone.  Is starting point and heading required?  What about targets or obstacles that obstruct the view (can I see or not see something)? Do I need the entire snowcone shape in the coordinates I capture, or can clients generate a viewcone with less data (three points, a heading, a height)?  How would I instruct an implementer to do the "most reliable" or "best" expression of a viewcone through data?  How would an implementer generate a reliable dataset (how to capture and collect the points of the polygonal shape)?
+The necessary data to generate the viewcone can / must be collected using external tools such as Google Earth, to pinpoint the origin point (the photographer's point of view) latitude, longitude and heading. Drawing the viewcone arch can be done manually feeding the coordinates for each point that form the radius, taken from Google Earth, or approximately by determining a default angle (narrow, wide, extra wide) and distance (short, far, infinite). The precise coordinates extracted from Google Earth will provide highest accuracy, and will be necessary to create reliable machine readable data. However, end users who can allow a larger margin of error might find it easier to use the default "sizes" for opening and distance instead, in case of missing the precise radius coordinates. 
 
-"This is a not-so-smart shape that looks like a viewcone"
-vs
-"This is a so-smart shape that takes into account angle and distance and obstacles"
+Obstacles that might obscure part of the field of view in the viewcone are currently not supported. 
 
 
 ### Example
