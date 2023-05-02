@@ -35,7 +35,7 @@ Digitized newspapers often have associated OCR text. To make this available insi
 + the URI of the OCR file in the `id` property of the Annotation body, and
 + the `target` set to the applicable Canvas.
 
-If an OCR file does not represent the entire Canvas, the Annotation's `target` should include a fragment in [#xywh Fragment Selector syntax](https://www.w3.org/TR/annotation-model/#fragment-selector) of the portion of the Canvas the OCR represents. For more detail, see the recipe [Using Caption and Subtitle Files with Video Content][0219].
+If an OCR file does not represent the entire Canvas, the Annotation's `target` should include a fragment in [#xywh Fragment Selector syntax](https://www.w3.org/TR/annotation-model/#fragment-selector) of the portion of the Canvas the OCR represents. For more detail, see this cookbook's entry for [Transcripts, Captions, and Subtitles — General Considerations][0231].
 
 #### Linking Directly to an ALTO File
 
@@ -105,7 +105,7 @@ Similarly, the quality of the OCR as well as the formatting and positioning data
 - [Simplest Collection][0032] for a focused view of the Collection structure basics
 - [Multi-volume Work with Individually-bound Volumes][0030] for a comparative use of Collection
 - [Providing Alternative Representations][0046] for thinking through how to connect additional files relating to newspaper content
-- [Using Caption and Subtitle Files with Video Content][0219] for a discussion parallel to how to treat alternate forms of a digitized newspaper's content
+- [Transcripts, Captions, and Subtitles — General Considerations][0231] for a discussion parallel to how to treat alternate forms of a digitized newspaper's content
 - [Navigation by Chronology][0230]
 
 {% include acronyms.md %}
