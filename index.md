@@ -84,7 +84,8 @@ _(leading on to segmentation examples later)_
 * [Annotate a specific images or layers][0326]
 * [Geographic coordinates][0139]
 * [Embedded or Referenced Annotations][0269]
-* [Image in annotation][0377]
+* [Linking external Annotations targeting a Canvas to a Manifest][0306]
+* [Image in annotations][0377]
 
 ## Internal structure
 
