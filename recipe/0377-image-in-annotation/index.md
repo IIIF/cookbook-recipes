@@ -33,11 +33,9 @@ The main content is a photo of a square in Göttingen, which shows, among others
 ## Related Recipes
 
 * [Simplest Annotation][0266]
-* [Annotate specific images or layers][0326]
-  * in our case, we had only one image so we annotated the main canvas
-* [Annotation with a Non-Rectangular Polygon][0261]
-  * we could have drawn the contours of the fountain
-* !! [Tagging with an External Resource][0258]
+* [Annotate specific images or layers][0326] to annotate only one of the images
+* [Annotation with a Non-Rectangular Polygon][0261] to precisely draw the contours of the fountain
+* [Tagging with an External Resource][0258]
 
 {% include acronyms.md %}
 {% include links.md %}
