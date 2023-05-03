@@ -1,5 +1,5 @@
 ---
-title: Using navPlace and navDate Together
+title: Locating an Item in Place and Time
 id: 318
 layout: recipe
 topic: geo-recipes
@@ -11,8 +11,6 @@ viewers:
 ### Use Case
 
 You have one or more IIIF resources that have a date and a location associated with each, and you would like to provide these to a client for use in the user interface.   For instance, you may wish the client to provide a visualization in a timeline with an associated map, or to provide the capability to filter the set based on a date range or a bounding box on a map.   The data required to meet this use case can be provided by the use of both the `navDate` and `navPlace` properties on the IIIF resources.  
-
-A IIIF Collection can be used to aggregate Manifests for use by a client.  For instance, objects related to an exhibition might be collected into a Collection or Collection hierarchy, and a reference to this Collection may be passed to client software.
 
 ### Implementation Notes
 
@@ -28,18 +26,18 @@ The example consists of a [Collection](collection.json) that references five Man
 
 The example can be displayed in a [custom viewer](https://mikeapp.github.io/maptime-demo/?iiif-content=https://preview.iiif.io/cookbook/0318/recipe/0318-navPlace-navDate/collection.json).  In the viewer, click on the "Limit by Date Range" button to sort the objects by date.  Adjust the ends of the timeline slider to filter the objects based on a date range.
 
-{% include manifest_links.html viewers="" manifest="manifest-1.json" %}
-
-{% include jsonviewer.html src="manifest-1.json" config='data-line="13-37"' %}
-
-Additional Manifests:
+[NavPlace and NavDate Collection](collection.json)
+* [Castel Sant'Angelo, Rome](manifest-1.json)
 * [The Colosseum](manifest-2.json)
 * [The Arch of Titus from the Forum, Rome, ca. 1725](manifest-3.json)
 * [The Temple of Vesta, Rome, 1849](manifest-4.json)
 * [A View of Trajan's Forum, Rome, 1821](manifest-5.json)
 
+{% include manifest_links.html viewers="" manifest="manifest-1.json" %}
+
+{% include jsonviewer.html src="manifest-1.json" config='data-line="13-37"' %}
+
 ## Related Recipes
-* [Represent Canvas Fragment as a Geographic Area in a Web Mapping Client][0139]
 * [Locate a Manifest on a Web Map][0154]
 * [Navigation by Chronology][0230]
 
