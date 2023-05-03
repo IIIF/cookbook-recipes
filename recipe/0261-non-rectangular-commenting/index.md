@@ -30,7 +30,7 @@ Community feedback on the original version of this recipe led to conversations a
 
 SVG implementations and affordances occupy a large and complex space. Not all implementations have the same affordances, and not all affordances are present in all implementations. To take just one facet of SVG creation software, the output from one such tool may set an origin point at the upper left corner of a bounding box while another may set an origin in the lower left corner. Conventional browser support is equally complex: All major browsers natively [provide basic support](https://caniuse.com/svg), though tiles don't scale properly in MS Edge and important details such as `img` vs `object` container support are not considered "basic", at least by this common matrix.
 
-In view of this complexity, and acknowledging that expecting viewers to implement the full SVG specification on a Canvas is impractical (as well as contrary to the W3C Web Annotation specification), this recipe suggests that viewers handling SVG rendering themselves support at least the following features:
+Browser-based IIIF viewers often hand off SVG rendering to the containing browser, but it might be helpful to non-browser–based viewers to detail recommended SVG feature support. In view of the complexity described above, and acknowledging that expecting viewers to implement the full SVG specification on a Canvas is impractical as well as contrary to the W3C Web Annotation specification, this recipe suggests that viewers handling SVG rendering themselves support at least the following features:
 + named shapes
 	+ `circle`
 	+ `ellipse`
