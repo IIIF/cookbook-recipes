@@ -30,6 +30,7 @@ Community feedback on the original version of this recipe led to conversations a
 
 SVG implementations and affordances occupy a large and complex space. Not all implementations have the same affordances, and not all affordances are present in all implementations. To take just one facet of SVG creation software, the output from one such tool may set an origin point at the upper left corner of a bounding box while another may set an origin in the lower left corner. Conventional browser support is equally complex: All major browsers natively [provide basic support](https://caniuse.com/svg), though tiles don't scale properly in MS Edge and important details such as `img` vs `object` container support are not considered "basic", at least by this common matrix.
 
+#### For Viewers
 Browser-based IIIF viewers often hand off SVG rendering to the containing browser, but it might be helpful to non-browser–based viewers to detail recommended SVG feature support. In view of the complexity described above, and acknowledging that expecting viewers to implement the full SVG specification on a Canvas is impractical as well as contrary to the W3C Web Annotation specification, this recipe suggests that viewers handling SVG rendering themselves support at least the following features:
 + named shapes
 	+ `circle`
@@ -41,9 +42,10 @@ Browser-based IIIF viewers often hand off SVG rendering to the containing browse
 + `g` 
 + `path`, including multiple `path`s inside a `g`
 
-Manifest creators should ensure, for maximum compatibility with viewers, that any non-rectangular annotations are limited to the above list as well. Going beyond this list, or keeping to the SVG features contained therein but adding interaction or multiplicity of them, risks your non-rectangular annotations not appearing in a viewer. In the case of SVG non-rectangular annotations, it may not be feasible for viewers may to display only the supported features and discard the rest, as they can do for manifests more generally.
-
 Viewers may occasionally encounter manifests in which there is a conflict between the dimensions values for a resource or IIIF property and the dimensions given within the SVG markup of an `SvgSelector` property. To anticipate these cases, it is suggested that viewers privilege the dimensional information contained in IIIF properties other than `SvgSelector` over the SVG dimensions where these conflict. 
+
+#### For Manifest Creators
+Manifest creators should ensure, for maximum compatibility with viewers, that any non-rectangular annotations are limited to the above list as well. Going beyond this list, or keeping to the SVG features contained therein but adding interaction or multiplicity of them, risks your non-rectangular annotations not appearing in a viewer. In the case of SVG non-rectangular annotations, it may not be feasible for viewers may to display only the supported features and discard the rest, as they can do for manifests more generally.
 
 ## Restrictions
 
