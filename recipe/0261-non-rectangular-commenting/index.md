@@ -30,7 +30,7 @@ Community feedback on the original version of this recipe led to conversations a
 
 SVG implementations and affordances occupy a large and complex space. Not all implementations have the same affordances, and not all affordances are present in all implementations. To take just one facet of SVG creation software, the output from one such tool may set an origin point at the upper left corner of a bounding box while another may set an origin in the lower left corner. Conventional browser support is equally complex: All major browsers natively [provide basic support](https://caniuse.com/svg), though tiles don't scale properly in MS Edge and important details such as `img` vs `object` container support are not considered "basic", at least by this common matrix.
 
-In view of this complexity, and acknowledging that expecting viewers to implement the full SVG specification on a Canvas is impractical (as well as contrary to the W3C Web Annotation specification), this recipe suggests viewers that handle SVG rendering themselves support at least the following features:
+In view of this complexity, and acknowledging that expecting viewers to implement the full SVG specification on a Canvas is impractical (as well as contrary to the W3C Web Annotation specification), this recipe suggests that viewers handling SVG rendering themselves support at least the following features:
 + named shapes
 	+ `circle`
 	+ `ellipse`
@@ -51,7 +51,7 @@ This approach should not be used to describe non-rotated rectangular regions.
 
 ## Example
 
-In this Manifest, we are highlighting a fountain with a statue on top of it in Göttingen, and imagining that we want to be fairly precise in our highlight. The client should not show the bounding box on the image.
+In this Manifest, we are highlighting a fountain with a statue on top of it and imagining that we want to be fairly precise in our highlight. The client should not show the bounding box on the image.
 
 {% include manifest_links.html viewers="Mirador,Annona" manifest="manifest.json" %}
 
