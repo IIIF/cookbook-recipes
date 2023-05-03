@@ -43,7 +43,7 @@ In view of this complexity, and acknowledging that expecting viewers to implemen
 
 Manifest creators should ensure, for maximum compatibility with viewers, that any non-rectangular annotations are limited to the above list as well. Going beyond this list, or keeping to the SVG features contained therein but adding interaction or multiplicity of them, risks your non-rectangular annotations not appearing in a viewer. In the case of SVG non-rectangular annotations, it may not be feasible for viewers may to display only the supported features and discard the rest, as they can do for manifests more generally.
 
-Viewer accommodation SVG creation tools' coordinate arrangement output is a thornier matter. 
+Viewers may occasionally encounter manifests in which there is a conflict between the dimensions values for a resource or IIIF property and the dimensions given within the SVG markup of an `SvgSelector` property. To anticipate these cases, it is suggested that viewers privilege the dimensional information contained in IIIF properties other than `SvgSelector` over the SVG dimensions where these conflict. 
 
 ## Restrictions
 
