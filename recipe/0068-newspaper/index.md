@@ -90,7 +90,7 @@ Viewer support for any particular feature will depend on the viewer and any cust
 | Manifest per issue | Mirador, Annona, Universal Viewer, Clover |
 | `navDate` | Universal Viewer |
 | OCR in Annotations | Annona |
-| ALTO via `rendering` | none |
+| ALTO via `rendering` | none (but may be possible with a viewer plugin) |
 | `seeAlso` for dataset version | Annona, Mirador |
 {: .api-table style="max-width: 780px;"}
 
