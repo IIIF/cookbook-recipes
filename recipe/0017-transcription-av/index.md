@@ -6,7 +6,8 @@ tags: [audio, video, presentation, transcript]
 summary: "Transcripts as alternative representation of A/V content"
 viewers:
  - UV
- - Mirador  
+ - Mirador
+ - Ramp
 topic: AV
 property: rendering
 ---
@@ -36,7 +37,9 @@ In Mirador, a given transcript is made available within the sidebar menu, which 
 
 In Universal Viewer, to access the transcript use the 'Download' link on the bottom left corner of the viewer.
 
-{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
+In Ramp, the transcript file is made available to download under the player controls. Click the filename listed in the menu to download the transcript file.
+
+{% include manifest_links.html viewers="UV, Mirador, Ramp" manifest="manifest.json" %}
 {% include jsonviewer.html src="manifest.json" config='data-line="39-50"'%}
 
 # Related recipes
