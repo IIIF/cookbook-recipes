@@ -1,9 +1,9 @@
 ---
-title: Annotating a specific point of a Canvas.
+title: Annotating a specific point of an image.
 id: 15
 layout: recipe
 tags: image
-summary: "This recipe explains how to annotate a specific point of a Canvas."
+summary: "This recipe explains how to annotate a specific point of an image."
 viewers:
 topic:
  - Annotations
