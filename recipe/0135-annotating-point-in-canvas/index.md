@@ -16,7 +16,7 @@ I want to annotate a coordinate of the image rather than a region. I have a map 
 
 ## Implementation notes
 
-This recipe, as [Simple Annotation — Tagging][0021] implements a method for annotating an image. Recipe [Begin playback at a specific point - Time-based media][0015] uses a Point Selector for selecting a specific time of a video this recipe selects instead a specific point of the image.
+This recipe, as [Simple Annotation — Tagging][0021] implements a method for annotating an image. Recipe [Begin playback at a specific point - Time-based media][0015] uses a Point Selector for selecting a specific time of a video, this recipe selects instead a specific point of the image.
 
 In this use case, the Annotation is inside an Annotation Page in the `annotations` list of the Manifest. The `motivation` of the Annotation is "tagging" and the target `source` points to the Canvas `id`. The `type` property is a Specific Resource while the Selector `type` property is a Point Selector that contains the coordinates `x` and `y` of the Canvas coordinates system as parameters.
 
