@@ -9,6 +9,7 @@ viewers:
   - UV
   - Annona
   - Clover
+  - Navplace Viewer
   - Ramp
 topics:
   - basic
@@ -18,7 +19,8 @@ topics:
   - key: AV
     note: Please note there are other IIIF AV viewers that are not listed like the [Europeana Player](https://github.com/europeana/media-player). These are not included in the matrix due to a lack of public linkable instance rather than them not supporting some of the recipes.
   - annotation
-  - geo-recipes
+  - key: geo-recipes
+    note: Please note there are many viewers built to view GeoJSON like [Leaflet](https://leafletjs.com/) and [geojson.io](https://geojson.io/). These viewers do not know to parse objects for a `navPlace` property or look into the `body` property of Annotations for GeoJSON. However, they are easily customizable and can be made to find GeoJSON in these properties. The Navplace Viewer is an [Open Source customization](https://github.com/CenterForDigitalHumanities/navplace-viewer) which intelligently gathers and formats GeoJSON from provided IIIF resources and hands that GeoJSON to a Leaflet viewer for rendering.
 ---
 
 <link rel='stylesheet' href="{{ site.cookbook_url | absolute_url }}/css/style.css"/>
@@ -29,7 +31,7 @@ In the 2021 Working meeting there was a presentation on viewer support for IIIF 
 
 ## Which viewers are included?
 
-Currently [Mirador 3](https://projectmirador.org/), the [Universal Viewer](https://universalviewer.io/) (UV) V3, [Annona](https://ncsu-libraries.github.io/annona/multistoryboard/), [Clover](https://samvera-labs.github.io/clover-iiif/), and [Ramp](https://iiif-react-media-player.netlify.app/) are listed on the cookbook and we welcome the addition of other IIIF viewers but they must support the following features:
+Currently [Mirador 3](https://projectmirador.org/), the [Universal Viewer](https://universalviewer.io/) (UV) V3, [Annona](https://ncsu-libraries.github.io/annona/multistoryboard/), [Clover](https://samvera-labs.github.io/clover-iiif/), [Navplace Viewer](https://map.rerum.io/), and [Ramp](https://iiif-react-media-player.netlify.app/) are listed on the cookbook and we welcome the addition of other IIIF viewers but they must support the following features:
 
 - Support for the [IIIF version 3.0 Presentation API](https://iiif.io/api/presentation/3.0/)
 - Have a public instance available that we can link to, ideally using the `iiif-content` parameter from the [IIIF Content State API](https://iiif.io/api/content-state/)
