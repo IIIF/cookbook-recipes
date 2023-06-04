@@ -150,7 +150,7 @@ _(leading on to segmentation examples later)_
 * [Table of Contents for Multiple A/V files on Multiple Canvases][0065] (65)
 * Adaptive bit rate AV examples
 * A field recording
-* [A newspaper][0068]
+* [Basic Newspaper][0068]
 * Example with extensions and services
 * A manuscript with multiple orderings
 * a Sammelband
