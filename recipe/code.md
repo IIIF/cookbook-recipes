@@ -20,7 +20,7 @@ topics:
 
 # Code samples
 
-In addition to the [viewer matrix](matrix.md) we now link to code samples and component libraries that supported cookbook recipes. The aim is to give readers of the cookbook code which they can use to re-create the recipe that they are reading. For components it is useful for readers to be able to see how the recipe is supported before deciding whether to integrate the component into their software.  
+In addition to the [viewer matrix](../matrix/) we now link to code samples and component libraries that supported cookbook recipes. The aim is to give readers of the cookbook code which they can use to re-create the recipe that they are reading. For components it is useful for readers to be able to see how the recipe is supported before deciding whether to integrate the component into their software.  
 
 ## Which libraries are included?
 
