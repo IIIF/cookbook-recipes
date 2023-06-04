@@ -52,7 +52,7 @@
               "motivation": "commenting",
               "body": [
                 {
-                  "id": "https://fixtures.iiif.io/images/Glen/photos/fountain.jpg",
+                  "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-fountain/full/300,/0/default.jpg",
                   "type": "Image",
                   "format": "image/jpeg"
                 },
