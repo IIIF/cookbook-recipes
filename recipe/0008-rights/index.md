@@ -11,6 +11,8 @@ viewers:
  - Clover
 topic: property
 property: rights, requiredStatement
+code:
+ - iiif-prezi3
 ---
 
 ## Use Case
