@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "{{ id.path }}/annotationpage.json",
+  "id": "{{ id.url }}",
   "type": "AnnotationPage",
   "items": [
     {
@@ -19,7 +19,7 @@
             "id": "{{ id.path }}/canvas-1",
             "type": "Canvas",
             "partOf": [{
-                    "id": "{{ id.url }}",
+                    "id": "{{ id.path }}/manifest.json",
                     "type": "Manifest"
             }]
         },
