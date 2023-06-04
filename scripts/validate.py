@@ -64,7 +64,7 @@ def loadYAML(location):
 if __name__ == "__main__":
     allPassed = True
     files = findFilesToValidate("../recipe", ".md");
-    ignore = ["../recipe/index.md", "../recipe/matrix.md", "../recipe/all.md"]
+    ignore = ["../recipe/index.md", "../recipe/matrix.md", "../recipe/all.md", "../recipe/code.md"]
     
     topics = loadYAML("../_data/topics.yml")
     ignoreFromViewerMatrix = loadYAML("../_data/viewer_ignore.yml")
