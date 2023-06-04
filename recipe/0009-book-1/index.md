@@ -12,6 +12,8 @@ viewers:
 topic: 
  - image
  - basic
+code:
+ - iiif-prezi3
 ---
 
 ## Use Case
