@@ -1,0 +1,12 @@
+{% capture recipe_id %}{{ page.url | replace: "/recipe/","" | replace: "/",""}}{% endcapture %}
+
+{% capture libraries %}
+    {% if include.libraries %}
+        {{include.libraries}}
+    {% else %}
+        {{ page.code }}
+    {% endif %}
+{% endcapture %}
+
+Code samples: {% for library in libraries %}{% include code_link.html library=library  %}{% unless forloop.last %}|{% endunless -%}{% endfor %}
+

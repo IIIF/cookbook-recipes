@@ -65,7 +65,7 @@
     },
     "value": {
       "en": [
-        "Berliner Tageblatt - https://www.europeana.eu/portal/record/9200355/BibliographicResource_3000096302605.html. Staatsbibliothek zu Berlin - Preußischer Kulturbesitz. Public Domain Mark - http://creativecommons.org/publicdomain/mark/1.0/"
+        "<a href='https://www.europeana.eu/portal/record/9200355/BibliographicResource_3000096302605.html'>Berliner Tageblatt</a> - Staatsbibliothek zu Berlin - Preußischer Kulturbesitz. Public Domain Mark - http://creativecommons.org/publicdomain/mark/1.0/"
       ]
     }
   },
@@ -93,14 +93,14 @@
   ],
   "items": [
     {
-      "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302516/canvas/p1",
+      "id": "{{ id.path }}/canvas/p1",
       "type": "Canvas",
       "label": {
         "none": [
           "p. 1"
         ]
       },
-      "seeAlso": [
+      "rendering": [
           {
             "id":"{{ id.path }}/newspaper_issue_2-alto_p1.xml",
             "type": "Text",
@@ -113,26 +113,26 @@
       "width": 3602,
       "items": [
         {
-          "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302516/annotation_page_painting/ap1",
+          "id": "{{ id.path }}/annotation_page_painting/ap1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302516/annotation/p1",
+              "id": "{{ id.path }}/annotation/p1",
               "type": "Annotation",
               "motivation": "painting",
-              "body": {
-                "id": "https://iiif.europeana.eu/image/3UU6R3RRZZGU2VNISCQX7N474GR7X4VMGYBTIWV2SNCBRGSR2WAA/presentation_images/ea1ba210-ffd3-11e5-b68d-fa163e60dd72/node-2/image/SBB/Berliner_Tageblatt/1925/03/13/0/F_SBB_00001_19250313_054_123_0_001/full/full/0/default.jpg",
+              "body": { 
+                "id": "https://iiif.io/api/image/3.0/example/reference/4ce82cef49fb16798f4c2440307c3d6f-newspaper-issue2-p1/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "service": [
                   {
-                    "@id": "https://iiif.europeana.eu/image/3UU6R3RRZZGU2VNISCQX7N474GR7X4VMGYBTIWV2SNCBRGSR2WAA/presentation_images/ea1ba210-ffd3-11e5-b68d-fa163e60dd72/node-2/image/SBB/Berliner_Tageblatt/1925/03/13/0/F_SBB_00001_19250313_054_123_0_001",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level1.json"
+                    "id": "https://iiif.io/api/image/3.0/example/reference/4ce82cef49fb16798f4c2440307c3d6f-newspaper-issue2-p1/",
+                    "type": "ImageService3",
+                    "profile": "level1"
                   }
                 ]
               },
-              "target": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302516/canvas/p1"
+              "target": "{{ id.path }}/canvas/p1"
             }
           ]
         }
@@ -145,14 +145,14 @@
       ]
     },
     {
-      "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302516/canvas/p2",
+      "id": "{{ id.path }}/canvas/p2",
       "type": "Canvas",
       "label": {
         "none": [
           "p. 2"
         ]
       },
-      "seeAlso": [
+      "rendering": [
         {
             "id":"{{ id.path }}/newspaper_issue_2-alto_p2.xml",
             "type": "Text",
@@ -165,26 +165,26 @@
       "width": 3602,
       "items": [
         {
-          "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302516/annotation_page_painting/ap2",
+          "id": "{{ id.path }}/annotation_page_painting/ap2",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302516/annotation/p2",
+              "id": "{{ id.path }}/annotation/p2",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.europeana.eu/image/3UU6R3RRZZGU2VNISCQX7N474GR7X4VMGYBTIWV2SNCBRGSR2WAA/presentation_images/ea1ba210-ffd3-11e5-b68d-fa163e60dd72/node-2/image/SBB/Berliner_Tageblatt/1925/03/13/0/F_SBB_00001_19250313_054_123_0_002/full/full/0/default.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/4ce82cef49fb16798f4c2440307c3d6f-newspaper-issue2-p2/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "service": [
                   {
-                    "@id": "https://iiif.europeana.eu/image/3UU6R3RRZZGU2VNISCQX7N474GR7X4VMGYBTIWV2SNCBRGSR2WAA/presentation_images/ea1ba210-ffd3-11e5-b68d-fa163e60dd72/node-2/image/SBB/Berliner_Tageblatt/1925/03/13/0/F_SBB_00001_19250313_054_123_0_002",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level1.json"
+                    "id": "https://iiif.io/api/image/3.0/example/reference/4ce82cef49fb16798f4c2440307c3d6f-newspaper-issue2-p2",
+                    "type": "ImageService3",
+                    "profile": "level1"
                   }
                 ]
               },
-              "target": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302516/canvas/p2"
+              "target": "{{ id.path }}/canvas/p2"
             }
           ]
         }

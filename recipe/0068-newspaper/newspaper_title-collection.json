@@ -38,13 +38,6 @@
       }
     }
   ],
-  "thumbnail": [
-    {
-      "id": "https://api.europeana.eu/api/v2/thumbnail-by-url.json?uri=https%3A%2F%2Fiiif.europeana.eu%2Fimage%2F5FAKHCRRIZUT3MPWJYWAUSNZN4FZTGB5EJMLMGLQUUASGMJ73DDA%2Fpresentation_images%2F77fa55f0-fb23-11e5-bc8a-fa163e60dd72%2Fnode-2%2Fimage%2FSBB%2FBerliner_Tageblatt%2F1901%2F09%2F19%2F0%2FF_SBB_00001_19010919_030_476_0_001%2Ffull%2Ffull%2F0%2Fdefault.jpg&type=TEXT",
-      "type": "Image",
-      "format": "image/jpeg"
-    }
-  ],
   "rights": "http://creativecommons.org/publicdomain/mark/1.0/",
   "requiredStatement": {
     "label": {
@@ -54,7 +47,7 @@
     },
     "value": {
       "en": [
-        "Berliner Tageblatt - https://www.europeana.eu/portal/record/9200355/BibliographicResource_3000096302605.html. Staatsbibliothek zu Berlin - Preußischer Kulturbesitz. Public Domain Mark - http://creativecommons.org/publicdomain/mark/1.0/"
+        "<a href='https://www.europeana.eu/portal/record/9200355/BibliographicResource_3000096302605.html'>Berliner Tageblatt</a> - Staatsbibliothek zu Berlin - Preußischer Kulturbesitz. Public Domain Mark - http://creativecommons.org/publicdomain/mark/1.0/"
       ]
     }
   },
