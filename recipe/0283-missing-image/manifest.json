@@ -2,15 +2,16 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "{{ id.url }}",
   "type": "Manifest",
-  "label": { "en": [ "Simple Manifest - Book" ] },
-  "behavior": ["paged"],
+  "label": {
+    "en": [ "Ethiopic Ms 10" ]
+  },
   "items": [
     {
       "id": "{{ id.path }}/canvas/p1",
       "type": "Canvas",
-      "label": { "en": [ "Blank page" ] },
-      "height": 4613,
-      "width": 3204,
+      "label": { "en": [ "f. 1r" ] },
+      "height": 2504,
+      "width": 1768,
       "items": [
         {
           "id": "{{ id.path }}/page/p1/1",
@@ -21,14 +22,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f18/full/max/0/default.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/d3bbf5397c6df6b894c5991195c912ab-1-21198-zz001d8m41_774608_master/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 4613,
-                "width": 3204,
+                "height": 2504,
+                "width": 1768,
                 "service": [
                   {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f18",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/d3bbf5397c6df6b894c5991195c912ab-1-21198-zz001d8m41_774608_master",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -43,9 +44,9 @@
     {
       "id": "{{ id.path }}/canvas/p2",
       "type": "Canvas",
-      "label": { "en": [ "Frontispiece" ] },
-      "width": 3186,
-      "height": 4612,
+      "label": { "en": [ "f. 1v" ] },
+      "height": 2512,
+      "width": 1792,
       "items": [
         {
           "id": "{{ id.path }}/page/p2/1",
@@ -56,14 +57,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f19/full/max/0/default.jpg",
+                "id": "",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": 3186,
-                "height": 4612,
+                "height": 2512,
+                "width": 1792,
                 "service": [
                   {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f19",
+                    "id": "",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
@@ -78,9 +79,9 @@
     {
       "id": "{{ id.path }}/canvas/p3",
       "type": "Canvas",
-      "label": { "en": [ "Title page" ] },
-      "width": 3204,
-      "height": 4613,
+      "label": { "en": [ "f. 2r" ] },
+      "height": 2456,
+      "width": 1792,
       "items": [
         {
           "id": "{{ id.path }}/page/p3/1",
@@ -91,90 +92,20 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f20/full/max/0/default.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/d3bbf5397c6df6b894c5991195c912ab-3-21198-zz001d8tm5_775004_master/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "width": 3204,
-                "height": 4613,
+                "height": 2456,
+                "width": 1792,
                 "service": [
                   {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f20",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/d3bbf5397c6df6b894c5991195c912ab-3-21198-zz001d8tm5_775004_master",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
                 ]
               },
               "target": "{{ id.path }}/canvas/p3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "{{ id.path }}/canvas/p4",
-      "type": "Canvas",
-      "label": { "en": [ "Blank page" ] },
-      "width": 3174,
-      "height": 4578,
-      "items": [
-        {
-          "id": "{{ id.path }}/page/p4/1",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "{{ id.path }}/annotation/p0004-image",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f21/full/max/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "width": 3174,
-                "height": 4578,
-                "service": [
-                  {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f21",
-                    "type": "ImageService3",
-                    "profile": "level1"
-                  }
-                ]
-              },
-              "target": "{{ id.path }}/canvas/p4"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "{{ id.path }}/canvas/p5",
-      "type": "Canvas",
-      "label": { "en": [ "Bookplate" ] },
-      "width": 3198,
-      "height": 4632,
-      "items": [
-        {
-          "id": "{{ id.path }}/page/p5/1",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "{{ id.path }}/annotation/p0005-image",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f22/full/max/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "width": 3198,
-                "height": 4632,
-                "service": [
-                  {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/59d09e6773341f28ea166e9f3c1e674f-gallica_ark_12148_bpt6k1526005v_f22",
-                    "type": "ImageService3",
-                    "profile": "level1"
-                  }
-                ]
-              },
-              "target": "{{ id.path }}/canvas/p5"
             }
           ]
         }
