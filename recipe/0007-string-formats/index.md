@@ -7,8 +7,12 @@ summary: "You want to have more control on how your metadata is displayed. For e
 viewers:
  - UV
  - Mirador  
+ - Annona
+ - Clover
 topic: property
 property: label, summary, metadata, requiredStatement
+code:
+ - iiif-prezi3
 ---
 
 ## Use Case
@@ -27,7 +31,7 @@ For security reasons, clients allow only `a`, `b`, `br`, `i`, `img`, `p`, `small
 
 ## Example
 
-{% include manifest_links.html viewers="UV,Mirador" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Clover" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="7,12,24,38"' %}
 

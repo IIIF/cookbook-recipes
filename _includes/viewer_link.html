@@ -25,6 +25,32 @@
         http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest={{manifest_url |strip}}
     {% endcapture %}
     {% assign default_text="View in IIIF Curation Viewer" %}
+{% elsif include.type == 'Annona' %}
+    {% if include.annotationurl %}
+        {% capture viewer_url %}
+            https://ncsu-libraries.github.io/annona/tools/#/display?url={{ site.url }}{{ site.baseurl }}{{ page.url}}{{ include.annotationurl }}&manifesturl={{manifest_url |strip}}&viewtype=iiif-storyboard&settings=%7B%22fullpage%22%3Atrue%7D
+        {% endcapture %}
+    {% else %}
+        {% capture viewer_url %}
+            https://ncsu-libraries.github.io/annona/tools/#/display?url={{manifest_url |strip}}&viewtype=iiif-storyboard&settings=%7B%22fullpage%22%3Atrue%7D
+        {% endcapture %}
+    {% endif %}
+    {% assign default_text="View in Annona" %}
+{% elsif include.type == 'Clover' %}
+    {% capture viewer_url %}
+        https://samvera-labs.github.io/clover-iiif/?iiif-content={{manifest_url |strip}}
+    {% endcapture %}
+    {% assign default_text="View in Clover" %}
+{% elsif include.type == 'Navplace Viewer' %}
+    {% capture viewer_url %}
+        https://map.rerum.io/?iiif-content={{manifest_url |strip}}
+    {% endcapture %}
+    {% assign default_text="View in Navplace Viewer" %}
+{% elsif include.type == 'Ramp' %}
+    {% capture viewer_url %}
+        https://iiif-react-media-player.netlify.app//?iiif-content={{manifest_url |strip}}
+    {% endcapture %}
+    {% assign default_text="View in Ramp" %}
 {% else %}    
     {% capture default_text %}Unknown Viewer type '{{ include.type}}'{% endcapture %}
     {% capture viewer_url %}{{manifest_url |strip}}{% endcapture %}

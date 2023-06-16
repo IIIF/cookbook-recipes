@@ -6,6 +6,7 @@ tags: [images, commenting, annotation]
 summary: "For a IIIF resource, you would like to add a simple annotation to the resource, where the area of the resource you would like to highlight is not a rectangle."
 viewers:
  - Mirador
+ - Annona
 topic: annotation
 ---
 
@@ -31,7 +32,7 @@ This approach should not be used to describe non-rotated rectangular regions.
 
 In this Manifest, we are highlighting a fountain with a statue on top of it in Göttingen, and imagining that we want to be fairly precise in our highlight. The client should not show the bounding box on the image.
 
-{% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador,Annona" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 

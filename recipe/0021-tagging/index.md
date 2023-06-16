@@ -6,7 +6,10 @@ tags: [annotation]
 summary: "Tagging as a basic Annotation"
 viewers:
  - Mirador  
+ - Annona
 topic: annotation
+code:
+ - iiif-prezi3
 ---
 
 ## Use Case
@@ -29,7 +32,7 @@ In this Manifest, we use a photograph of Göttingen from the 2019 IIIF annual co
 
 Because the statue is not the sole or dominant element of the photo, we've targeted the tag to a portion of the photo using fragment selector syntax.
 
-{% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador,Annona" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="44-63"' %}
 

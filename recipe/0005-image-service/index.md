@@ -6,9 +6,13 @@ tags: [image, annex, service, services, specifications, transitional]
 summary: "Paint a Canvas using an image with an associated IIIF Image API service."
 viewers:
  - Mirador
+ - Annona
+ - Clover
 topic: 
  - basic 
  - image
+code:
+ - iiif-prezi3
 ---
 
 ## Use Case
@@ -31,7 +35,7 @@ Though a version 3 Manifest may specify a service using the version 2 `@id` and 
 
 ## Example
 
-{% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador, Annona, Clover" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="36-42"' %}
 
