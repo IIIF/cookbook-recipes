@@ -6,9 +6,7 @@ tags: image
 summary: "This recipe explains how to annotate a specific point of an image."
 viewers:
 topic:
- - Annotations
- - property
-property: PointSelector
+ - annotation
 ---
 
 ## Use Case
