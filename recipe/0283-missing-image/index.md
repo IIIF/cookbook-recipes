@@ -1,19 +1,22 @@
 ---
-title: Missing images in a sequence
+title: Missing Images in a Sequence
 id: 283
 layout: recipe
 tags: [image, presentation]
 summary: "Represent a missing image from a paged object in a sequence."
 viewers:
  - UV
- - Mirador  
+ - Mirador
+ - Annona
+ - Clover
 topic:
  - image
+ - basic
 ---
 
 ## Use Case
 
-You have a paged object, such as a printed book or early manuscript, which has an image missing. You want to included a canvas with some content to show the user that there should/could be an image there and also make sure the recto/verso paged functionality isn't thrown due to this missing image.
+You have a paged object, such as a printed book or early manuscript, that has an image missing. You want to include a Canvas with some content to alert the user to the missing image and also to make sure the recto/verso paging functionality isn't thrown off by eschewing an image altogether.
 
 
 ## Implementation notes
@@ -22,9 +25,9 @@ You have a paged object, such as a printed book or early manuscript, which has a
 
 ## Example
 
-{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
+{% include manifest_links.html manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" %}
+{% include jsonviewer.html src="manifest.json" config='data-line="50-81"' %}
 
 
 # Related recipes
