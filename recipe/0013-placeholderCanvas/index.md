@@ -5,6 +5,8 @@ layout: recipe
 tags: video, audio, image, av
 summary: "Provide the user with something to look at before they choose to start interacting with the main content, and/or while they wait for it to load/buffer."
 viewers:
+ - Clover
+ - Ramp
 topic: 
  - property
  - AV
@@ -32,9 +34,7 @@ Each instance of `placeholderCanvas` may only contain one Canvas, and as such ma
 
 In the example, the main content is a video of a performance of Donizetti's _L'elisir d'amore_ and the `placeholderCanvas` is a still frame from the video. For a site visitor with limited bandwidth, showing the still frame allows them to get an advance look at performance aspects such as costuming, staging, and set design.
 
-_Note: The `placeholderCanvas` property is not yet supported in viewers._
-
-{% include manifest_links.html viewers="" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Clover, Ramp" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config="data-line='17-43'"%}
 
