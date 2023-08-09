@@ -47,7 +47,7 @@ No known restrictions.
 
 ## Example
 
-For this example, we are using 6 views from a paged Ethiopic manuscript. The verso pages have been substituted with the three different ways of representing a missing image.
+For this example, we are using 6 views from a paged Ethiopic manuscript. The verso pages have been substituted with the three different ways of representing a missing image. Due to the restricted count of the fixture images, the final recto is repeated twice.
 
 {% include manifest_links.html manifest="manifest.json" %}
 
