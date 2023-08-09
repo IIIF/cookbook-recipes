@@ -44,7 +44,7 @@
     {
       "id": "{{ id.path }}/canvas/p2",
       "type": "Canvas",
-      "label": { "en": [ "f. 1v" ] },
+      "label": { "en": [ "f. 1v — MISSING" ] },
       "height": 2504,
       "width": 1768,
       "items": [
@@ -107,7 +107,7 @@
     {
       "id": "{{ id.path }}/canvas/p4",
       "type": "Canvas",
-      "label": { "en": [ "f. 2v" ] },
+      "label": { "en": [ "f. 2v — MISSING" ] },
       "height": 2456,
       "width": 1792
     },
@@ -149,7 +149,7 @@
     {
       "id": "{{ id.path }}/canvas/p6",
       "type": "Canvas",
-      "label": { "en": [ "f. 3v" ] },
+      "label": { "en": [ "f. 3v — MISSING" ] },
       "height": 2504,
       "width": 1768,
       "annotations": [
@@ -212,7 +212,7 @@
     {
       "id": "{{ id.path }}/canvas/p8",
       "type": "Canvas",
-      "label": { "en": [ "f. 3v" ] },
+      "label": { "en": [ "f. 3v — MISSING" ] },
       "height": 2504,
       "width": 1768,
       "placeholderCanvas": {
