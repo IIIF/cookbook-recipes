@@ -55,7 +55,7 @@ In this Manifest, we are highlighting a fountain with a statue on top of it and 
 
 {% include manifest_links.html viewers="Mirador,Annona" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" %}
+{% include jsonviewer.html src="manifest.json" config='data-line="44-70"' %}
 
 ## Related Recipes
 
