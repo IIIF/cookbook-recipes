@@ -51,7 +51,7 @@ For this example, we are using 6 views from a paged Ethiopic manuscript. The ver
 
 {% include manifest_links.html manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="50-81,122-131,172-202"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="50-81,122-131,172-202,243-279"' %}
 
 
 # Related recipes
