@@ -48,7 +48,7 @@
     {% assign default_text="View in Navplace Viewer" %}
 {% elsif include.type == 'Ramp' %}
     {% capture viewer_url %}
-        https://iiif-react-media-player.netlify.app//?iiif-content={{manifest_url |strip}}
+    https://ramp.avalonmediasystem.org/?iiif-content={{manifest_url |strip}}
     {% endcapture %}
     {% assign default_text="View in Ramp" %}
 {% else %}    
