@@ -20,26 +20,17 @@ You have a paged object, such as a printed book or early manuscript, that has an
 
 ## Implementation notes
 
-This recipe attempts to address desires to have a good user experience for people interacting with IIIF resources as well as for computational consumption of them. None of the manifest information described here is required by the IIIF Presentation API v3.0 but may bring benefits to your work. Nothing in the IIIF Presentation API v3.0 makes any provision for specifying that a Canvas replaces what is supposed to appear at that point of the page flow, as the API is agnostic both about your content and its semantics as well as any semantics of your manifest's structure.
+This recipe attempts to address desires to have a good user experience for people interacting with IIIF resources presented sequentially but lacking one or more images. The recipe also contemplates software consumption of the same. None of the Manifest information described here is required by the [IIIF Presentation API][prezi3], but it may bring benefits to those accessing your work. Nothing in the IIIF Presentation API makes any provision for specifying how or even whether a Canvas replaces what is supposed to appear at that point of the page flow, as the API is agnostic both about your content and its semantics as well as any semantics of your Manifest's structure.
 
-For the purposes of this recipe, there are four options worth considering for indicating a missing page:
-+ Add a Canvas with a replacement image of comparable dimensions, especially with text  about the absent image
-+ Add a content-less Canvas with the minimum required properties (ID, type) and with dimensions for height and width
-+ Add a dimensioned, resource-less Canvas with the minimum required properties and with an Annotation whose `motivation` is `supplementing` and whose content is an image with text  about the absent image
-+ Make use of the `placeholderCanvas` property to contain a replacement image containing text about the absent image
+To maintain a sequence presentation of a paged object with missing images, we suggest adding a content-less Canvas with, at a bare minimum, the `ID`, `type`, `height`, `width`, and `items` properties. The first two are required by the API for any Canvas, the dimensions tell the viewer to maintain a viewing space of the appropriate size, and the final property ensures the widely used IIIF validator will pass the Manifest. (Some viewers cope well with such an empty `items` property but others do not, highlighting that this recipe and API conformance diverge.)
 
-Each of these options benefits from including a `label` on a Canvas representing a missing image, as well as the addition of robust metadata. (The IIIF Presentation API v3 strongly recommends including a `label` with every Canvas anyway.) Each of these can help both visual and non-visual users as well as computational consumers understand that the content is known to be missing.
-
-### Benefits and Detriments
-
-+ Inserting an image containing text about the missing object image is the clearest and most reliable visual acknowledgement by the manifest creator of the lacuna. Viewers that automatically generates thumbnails will allow visual users of the viewer to see at different scales that the image is missing. On the other hand, attention must still be paid, as with content resources, to ensuring that Canvas metadata contains sufficient information for non-visual users to understand the information communicated by the replacement image.
-+ Using an empty Canvas is a very lightweight and authentic way to show missing content. That is, having a content-free Canvas parallels the lack of content from the digitization (for instance) of the real-world object. In this approach, however, there is neither visual nor metadata indications differentiating between known missing content and various software or workflow issues resulting in unknown missing content (server or network errors, automated digitization process errors, malformed file issues). 
-+ Using an empty Canvas with an Annotation whose `motivation` is `supplementing` tries to combine the benefits of the first two approaches. Because an Annotation with that `motivation` should not appear visually, conforming viewers will show nothing of the Canvas, emphasizing the absence of content. At the same time, viewers can be expected to provide a means of reading the Annotation and thereby understanding the lacuna is not a presentation error.
-+ Putting a substitute or explanatory image in a `placeholderCanvas` has the value of carrying some light semantics right away. That is, as the property name states, you are adding a Canvas to hold the place of another. Viewers, though, are not required to display `placeholderCanvas` nor, if they do display it, to display it in any predictable and known manner. Using this property in this way is an expansive interpretation of the IIIF Presentation API v3 that may collide with future changes to the API.
+Using an empty Canvas is a very lightweight and authentic way to show missing content. That is, having a content-free Canvas parallels the lack of content from the digitization (for instance) of the real-world object. However, with only those bare minimum properties, neither viewers, nor people interacting with the resources, nor code interacting with it have any indication of why the image is absent. Consequently, as shown in this recipe's Manifest, it's a good idea to make use of the `label` property
 
 ### Additional Information
 
-Though they are not being demonstrated in this recipe, selected Manifest and Canvas properties can be used in addition to give a person interacting with your content pointers to learn more about missing image(s). For instance, `homepage` can direct them to a webpage that talks about the object and its physical state, arbitrary `metadata` fields might be placed on the empty Canvases to give useful information in the viewer (keeping in mind that viewers are not required to display the metadata in any predictable way or at all), and `summary` could include a brief statement acknowledging the incomplete digital surrogate.
+For a representation of an absent IIIF resource, accessibility to non-visual interactions is particularly important. Using both the minimum suggested properties thoughtfully and additional other properties as the situation demands will be more likely to provide an equitable experience for people with visual disabilities. As an example, note that the `metadata` property can contain as many arbitrary pairs of `label` and `value` as needed to convey accessible information about the missing resource. Note that because viewers are not required to display the metadata in any predictable way or at all, `metadata` content cannot be assumed to be always readable by both visual and non-visual means.
+
+If the best approach is to redirect visitors away from the resource to explain the absence, other Manifest and Canvas properties can be used to provide content pointers to more information about missing image(s). For instance, `homepage` can direct them to a webpage that talks about the object and its physical state.
 
 ## Restrictions
 
@@ -47,16 +38,19 @@ No known restrictions.
 
 ## Example
 
-For this example, we are using 6 views from a paged Ethiopic manuscript. The verso pages have been substituted with the three different ways of representing a missing image. Due to the restricted count of the fixture images, the final recto is repeated twice.
+For this example, we are using views from a paged Ethiopic manuscript. One verso page has been imagined missing, and represented in the Manifest as discussed above.
 
 {% include manifest_links.html manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="50-81,122-131,172-202,243-279"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="50-74"' %}
 
 
 # Related recipes
 
 * [Simple Manifest - Book][0009]
+* [Linking to Web Page of an Object (`homepage`)][0047]
+* [Metadata on Any Resource][0029]
+
 
 {% include acronyms.md %}
 {% include links.md %}
