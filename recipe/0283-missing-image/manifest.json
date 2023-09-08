@@ -47,27 +47,13 @@
       "label": { "en": [ "f. 1v — MISSING" ] },
       "height": 2504,
       "width": 1768,
-      "items": [
+      "metadata": [
         {
-          "id": "{{ id.path }}/page/p2/1",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "{{ id.path }}/annotation/p0002-image",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "{{ id.path }}/target-missing-page.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 2504,
-                "width": 1768
-              },
-              "target": "{{ id.path }}/canvas/p2"
-            }
-          ]
+          "label": { "en": [ "Description" ] },
+          "value": { "en": [ "Image unavailable or does not exist" ] }
         }
-      ]
+      ],
+      "items": []
     },
     {
       "id": "{{ id.path }}/canvas/p3",
@@ -107,141 +93,37 @@
     {
       "id": "{{ id.path }}/canvas/p4",
       "type": "Canvas",
-      "label": { "en": [ "f. 2v — MISSING" ] },
-      "height": 2456,
-      "width": 1792
-    },
-    {
-      "id": "{{ id.path }}/canvas/p5",
-      "type": "Canvas",
-      "label": { "en": [ "f. 3r" ] },
-      "height": 2416,
-      "width": 1776,
+      "label": { "en": [ "f. 2v" ] },
+      "height": 2440,
+      "width": 1760,
       "items": [
         {
-          "id": "{{ id.path }}/page/p5/1",
+          "id": "{{ id.path }}/page/p4/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "{{ id.path }}/annotation/p0005-image",
+              "id": "{{ id.path }}/annotation/p0004-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://iiif.io/api/image/3.0/example/reference/d3bbf5397c6df6b894c5991195c912ab-5-21198-zz001d8v6f_775077_master/full/max/0/default.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/d3bbf5397c6df6b894c5991195c912ab-4-21198-zz001d8tnp_775007_master/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 2416,
-                "width": 1776,
+                "height": 2440,
+                "width": 1760,
                 "service": [
                   {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/d3bbf5397c6df6b894c5991195c912ab-5-21198-zz001d8v6f_775077_master",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/d3bbf5397c6df6b894c5991195c912ab-4-21198-zz001d8tnp_775007_master",
                     "type": "ImageService3",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "{{ id.path }}/canvas/p5"
+              "target": "{{ id.path }}/canvas/p4"
             }
           ]
         }
       ]
-    },
-    {
-      "id": "{{ id.path }}/canvas/p6",
-      "type": "Canvas",
-      "label": { "en": [ "f. 3v — MISSING" ] },
-      "height": 2504,
-      "width": 1768,
-      "annotations": [
-        {
-          "id": "{{ id.path }}/page/p6/1",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "{{ id.path }}/annotation/p0006-image",
-              "type": "Annotation",
-              "motivation": "supplementing",
-              "body": {
-                "id": "{{ id.path }}/target-missing-page.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 2504,
-                "width": 1768
-              },
-              "target": "{{ id.path }}/canvas/p6"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "{{ id.path }}/canvas/p7",
-      "type": "Canvas",
-      "label": { "en": [ "f. 3r" ] },
-      "height": 2416,
-      "width": 1776,
-      "items": [
-        {
-          "id": "{{ id.path }}/page/p7/1",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "{{ id.path }}/annotation/p0007-image",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif.io/api/image/3.0/example/reference/d3bbf5397c6df6b894c5991195c912ab-5-21198-zz001d8v6f_775077_master/full/max/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 2416,
-                "width": 1776,
-                "service": [
-                  {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/d3bbf5397c6df6b894c5991195c912ab-5-21198-zz001d8v6f_775077_master",
-                    "type": "ImageService3",
-                    "profile": "level1"
-                  }
-                ]
-              },
-              "target": "{{ id.path }}/canvas/p7"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "{{ id.path }}/canvas/p8",
-      "type": "Canvas",
-      "label": { "en": [ "f. 3v — MISSING" ] },
-      "height": 2504,
-      "width": 1768,
-      "placeholderCanvas": {
-        "id": "{{ id.path }}/placeholder/p8",
-        "type": "Canvas",
-        "height": 2504,
-        "width": 1768,
-        "items": [
-          {
-            "id": "{{ id.path }}/placeholder/p8/1",
-            "type": "AnnotationPage",
-            "items": [
-              {
-                "id": "{{ id.path }}/annotation/p0008-image",
-                "type": "Annotation",
-                "motivation": "painting",
-                "body": {
-                  "id": "{{ id.path }}/target-missing-page.jpg",
-                  "type": "Image",
-                  "format": "image/jpeg",
-                  "height": 2504,
-                  "width": 1768
-                },
-                "target": "{{ id.path }}/placeholder/p8"
-              }
-            ]
-          }
-        ]
-      }
     }
   ]
 }
