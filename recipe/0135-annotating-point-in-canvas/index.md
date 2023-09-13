@@ -1,5 +1,5 @@
 ---
-title: Annotating a specific point of an image.
+title: Annotating a specific point of an image
 id: 15
 layout: recipe
 tags: image
@@ -10,7 +10,7 @@ topic:
 ---
 
 ## Use Case
-I want to annotate a coordinate of the image rather than a region. I have a map with some locations that can be represented better by a single coordinate. I want to add some auxiliary data relative to a specific point of the image (e.g. some spectroscopic analysis made on a manuscript).
+You want to annotate a coordinate of the image rather than a region. You have a map with some locations that can be represented better by a single coordinate. You want to add some auxiliary data relative to a specific point of the image (e.g. some spectroscopic analysis made on a manuscript).
 
 ## Implementation notes
 
@@ -18,7 +18,7 @@ This recipe, as [Simple Annotation — Tagging][0021] implements a method for an
 
 In this use case, the Annotation is inside an Annotation Page in the `annotations` list of the Manifest. The `motivation` of the Annotation is "tagging" and the target `source` points to the Canvas `id`. The `type` property is a Specific Resource while the Selector `type` property is a Point Selector that contains the coordinates `x` and `y` of the Canvas coordinates system as parameters.
 
-Viewer might consider implementing scale-independent point markers so that they are visible at every level of zoom.
+Viewers might consider implementing scale-independent point markers so that they are visible at every level of zoom.
 
 ## Example
 
@@ -26,7 +26,7 @@ This example uses a leaflet with a map and a guide supplied by the Library of Co
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="75-83"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="74-82"' %}
 
 # Related recipes
 
