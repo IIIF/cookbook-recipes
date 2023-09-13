@@ -7,8 +7,6 @@ summary: "Represent a missing image from a paged object in a sequence."
 viewers:
  - UV
  - Mirador
- - Annona
- - Clover
 topic:
  - image
  - basic
