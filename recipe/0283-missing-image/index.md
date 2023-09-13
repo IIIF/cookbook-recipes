@@ -22,7 +22,7 @@ This recipe attempts to address desires to have a good user experience for peopl
 
 To maintain a sequence presentation of a paged object with missing images, we suggest adding a content-less Canvas with, at a bare minimum, the `ID`, `type`, `height`, `width`, and `items` properties. The first two are required by the API for any Canvas, the dimensions tell the viewer to maintain a viewing space of the appropriate size, and the final property ensures the widely used IIIF validator will pass the Manifest. (Some viewers cope well with such an empty `items` property but others do not, highlighting that this recipe and API conformance diverge.)
 
-Using an empty Canvas is a very lightweight and authentic way to show missing content. That is, having a content-free Canvas parallels the lack of content from the digitization (for instance) of the real-world object. However, with only those bare minimum properties, neither viewers, nor people interacting with the resources, nor code interacting with it have any indication of why the image is absent. Consequently, as shown in this recipe's Manifest, it's a good idea to make use of the `label` property
+Using an empty Canvas is a very lightweight and authentic way to show missing content. That is, having a content-free Canvas takes modest effort and can represent the lack of content in a real-world object or an error in creating a digital version. However, with only the bare minimum properties neither viewers, nor people interacting with the resources, nor code interacting with it have any indication of why the image is absent. Consequently, as shown in this recipe's Manifest, it's a good idea to make use of the `label` property to contain useful text.
 
 ### Additional Information
 
