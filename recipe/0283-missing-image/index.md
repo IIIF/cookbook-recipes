@@ -40,7 +40,7 @@ For this example, we are using views from a paged Ethiopic manuscript. One verso
 
 {% include manifest_links.html manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="50-74"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="50-77"' %}
 
 
 # Related recipes
