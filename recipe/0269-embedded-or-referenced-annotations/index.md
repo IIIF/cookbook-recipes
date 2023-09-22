@@ -57,7 +57,7 @@ The rendering of this referenced Annotation should be virtually indistiguishable
 
 ### Annotation Page file
 
-{% include manifest_links.html viewers="Annona" manifest="manifest.json" annotationurl="annotationpage.json" %}
+{% include manifest_links.html viewers="" manifest="annotationpage.json" %}
 
 {% include jsonviewer.html src="annotationpage.json" %}
 

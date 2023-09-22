@@ -2,6 +2,9 @@
 
 if [ ! -d "scripts/schema" ]; then
     git clone https://github.com/IIIF/presentation-validator.git presentation-validator
+   # cd presentation-validator
+   # git checkout issue-154
+   # cd ..
     mv presentation-validator/schema scripts
     rm -rf presentation-validator
 fi

@@ -21,6 +21,10 @@ As part of the work to aid implementation the Cookbook group have developed a Vi
 {% include misc/button.html button_link="recipe/matrix/" button_label="See IIIF viewer support" %}
 {{ theme.block-end }}
 
+## Code samples
+
+As well as viewer support, the cookbook provides links to code samples in various development libraries to aid developers who hope to re-create these recipes in Code. You can see a full list of recipes with code samples in the [code samples](recipe/code/) page.
+
 # Contributing
 
 Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advice and support can be received from the IIIF Cookbook channel on the IIIF Slack. For detailed information on how to contribute please see the [Cookbook process][cookbook-process].
@@ -82,8 +86,11 @@ _(leading on to segmentation examples later)_
 * [Tagging with an External Resource][0258]
 * hotspot linking
 * [Annotate a specific images or layers][0326]
+* [Annotating a specific point of an image][0135]
 * [Geographic coordinates][0139]
 * [Embedded or Referenced Annotations][0269]
+* [Linking external Annotations targeting a Canvas to a Manifest][0306]
+* [Image in annotations][0377]
 
 ## Internal structure
 
@@ -144,7 +151,7 @@ _(leading on to segmentation examples later)_
 * [Table of Contents for Multiple A/V files on Multiple Canvases][0065] (65)
 * Adaptive bit rate AV examples
 * A field recording
-* [A newspaper][0068]
+* [Basic Newspaper][0068]
 * Example with extensions and services
 * A manuscript with multiple orderings
 * a Sammelband
@@ -160,7 +167,7 @@ _this might be in a separate auth cookbook_
 
 * probe service for simple resource
 * auth for adaptive bit rate media (MPEG-DASH)
-* [Anyone can deep zoom, auth reqd for hi-res download](https://digirati-co-uk.github.io/iiif-auth-client/?image=https://iiifauth.digtest.co.uk/img/11_kitty_joyner.jpg/info.json)
+* Anyone can deep zoom, auth reqd for hi-res download
 
 {% include acronyms.md %}
 {% include links.md %}

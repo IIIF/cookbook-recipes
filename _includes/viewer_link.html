@@ -32,15 +32,25 @@
         {% endcapture %}
     {% else %}
         {% capture viewer_url %}
-            https://ncsu-libraries.github.io/annona/tools/#/display?url={{manifest_url |strip}}&viewtype=iiif-rangestoryboard&settings=%7B%22fullpage%22%3Atrue%7D
+            https://ncsu-libraries.github.io/annona/tools/#/display?url={{manifest_url |strip}}&viewtype=iiif-storyboard&settings=%7B%22fullpage%22%3Atrue%7D
         {% endcapture %}
     {% endif %}
     {% assign default_text="View in Annona" %}
 {% elsif include.type == 'Clover' %}
     {% capture viewer_url %}
-        https://samvera-labs.github.io/clover-iiif/?iiif-content={{manifest_url |strip}}
+        https://samvera-labs.github.io/clover-iiif/docs/viewer/demo?iiif-content={{manifest_url |strip}}
     {% endcapture %}
     {% assign default_text="View in Clover" %}
+{% elsif include.type == 'Navplace Viewer' %}
+    {% capture viewer_url %}
+        https://map.rerum.io/?iiif-content={{manifest_url |strip}}
+    {% endcapture %}
+    {% assign default_text="View in Navplace Viewer" %}
+{% elsif include.type == 'Ramp' %}
+    {% capture viewer_url %}
+    https://ramp.avalonmediasystem.org/?iiif-content={{manifest_url |strip}}
+    {% endcapture %}
+    {% assign default_text="View in Ramp" %}
 {% else %}    
     {% capture default_text %}Unknown Viewer type '{{ include.type}}'{% endcapture %}
     {% capture viewer_url %}{{manifest_url |strip}}{% endcapture %}

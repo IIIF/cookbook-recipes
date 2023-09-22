@@ -65,7 +65,7 @@
     },
     "value": {
       "en": [
-        "Berliner Tageblatt - https://www.europeana.eu/portal/record/9200355/BibliographicResource_3000096302605.html. Staatsbibliothek zu Berlin - Preußischer Kulturbesitz. Public Domain Mark - http://creativecommons.org/publicdomain/mark/1.0/"
+        "<a href='https://www.europeana.eu/portal/record/9200355/BibliographicResource_3000096302605.html'>Berliner Tageblatt</a> - Staatsbibliothek zu Berlin - Preußischer Kulturbesitz. Public Domain Mark - http://creativecommons.org/publicdomain/mark/1.0/"
       ]
     }
   },
@@ -93,14 +93,14 @@
   ],
   "items": [
     {
-      "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302513/canvas/p1",
+      "id": "{{ id.path }}/canvas/p1",
       "type": "Canvas",
       "label": {
         "none": [
           "p. 1"
         ]
       },
-      "seeAlso": [{
+      "rendering": [{
 		"id":"{{ id.path }}/newspaper_issue_1-alto_p1.xml",
         "type": "Text",
 		"format":"application/xml",
@@ -111,11 +111,11 @@
       "width": 3602,
       "items": [
         {
-          "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302513/annotation_page_painting/ap1",
+          "id": "{{ id.path }}/annotation_page_painting/ap1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302513/annotation/p1",
+              "id": "{{ id.path }}/annotation/p1",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -130,7 +130,7 @@
                   }
                 ]
               },
-              "target": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302513/canvas/p1"
+              "target": "{{ id.path }}/canvas/p1"
             }
           ]
         }
@@ -143,14 +143,14 @@
       ]
     },
     {
-      "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302513/canvas/p2",
+      "id": "{{ id.path }}/canvas/p2",
       "type": "Canvas",
       "label": {
         "none": [
           "p. 2"
         ]
       },
-      "seeAlso": [{
+      "rendering": [{
 		"id":"{{ id.path }}/newspaper_issue_1-alto_p2.xml",
         "type": "Text",
 		"format":"application/xml",
@@ -161,11 +161,11 @@
       "width": 3602,
       "items": [
         {
-          "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302513/annotation_page_painting/ap2",
+          "id": "{{ id.path }}/annotation_page_painting/ap2",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302513/annotation/p2",
+              "id": "{{ id.path }}/annotation/p2",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -180,7 +180,7 @@
                   }
                 ]
               },
-              "target": "https://iiif.europeana.eu/presentation/9200355/BibliographicResource_3000096302513/canvas/p2"
+              "target": "{{ id.path }}/canvas/p2"
             }
           ]
         }
