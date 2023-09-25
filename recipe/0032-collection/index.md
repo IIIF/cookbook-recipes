@@ -29,7 +29,7 @@ The Collection `items` property is an array of referenced Manifests. In this exa
 Though this simple recipe is an ordered list of Manifests, Collections may also reference other Collections as sub-collections. IIIF Collections have no restrictions on the organizational purpose of their referenced resources, though the resources may be related as a named digital collection, a common metadata value, or be organized as search results.
 
 ## Restrictions
-
+Defining a IIIF Collection is to not be conflated with creating a table of contents within an individual Manifest. To define a table of contents, see [Multiple Volumes in a Single Bound Volume][0031].
 
 ## Example
 
