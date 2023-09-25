@@ -14,7 +14,7 @@ topic:
 
 ## Use Case
 
-Your organization has a named digital collection of artworks authored by a specific person. Each of these unique items are already digital objects represented by Manifests and you would like to organize and present them as an ordered IIIF Presentation resource.
+Your organization has a named digital collection of artworks authored by a specific person. Each of these unique items are already digital objects represented by Manifests and you would now like to organize and present them as an ordered IIIF Presentation resource.
 
 ## Implementation notes
 
@@ -39,9 +39,9 @@ Though this simple recipe is an ordered list of Manifests, Collections may also 
 
 # Related recipes
 
-* [Book with Table of Contents][0024]
 * [Multi Volume][0030]
 * [Multiple Volumes in a Single Bound Volume][0031]
+* [Basic Newspaper][0068]
 
 {% include acronyms.md %}
 {% include links.md %}
