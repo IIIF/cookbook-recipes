@@ -15,7 +15,7 @@ topic:
 
 ## Use Case
 
-Your organization has a named collection of artworks authored by a specific person. Each of these unique items already has a digital representation and a Manifest, and you would now like to organize and present them together in a unified and coherent IIIF Presentation interface.
+Your organization has a named collection of drawings authored by a specific person. Each of these unique items already has a digital representation and a Manifest, and you would now like to organize and present them together in a unified and coherent IIIF Presentation interface.
 
 ## Implementation notes
 
