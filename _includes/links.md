@@ -21,6 +21,7 @@
 
 [0019]: {{ site.cookbook_url | absolute_url }}/recipe/0019-html-in-annotations/ "HTML in Annotations"
 [0021]: {{ site.cookbook_url | absolute_url }}/recipe/0021-tagging/ "Simple Annotation — Tagging"
+[0022]: {{ site.cookbook_url | absolute_url }}/recipe/0022-linking-with-a-hotspot/ "Redirecting from one Canvas to another resource (Hotspot linking)"
 
 [0033]: {{site.baseurl}}/recipe/0033-choice/ "Multiple choice of images in a single view"
 [0035]: {{site.baseurl}}/recipe/0035-foldouts/ "Foldouts, Flaps, and Maps"
