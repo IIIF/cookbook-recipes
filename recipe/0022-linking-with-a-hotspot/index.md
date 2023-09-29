@@ -19,11 +19,22 @@ In an image showing multiple objects or parts, you want to see a detailed versio
 
 The create the annotation, we create an Annotation inside an AnnotationPage
 To select the area we want to link to a specific resource we set the target using the link of the Canvas and a fragment as in [Simple Annotation — Tagging][0021], however, in this case, the `motivation` of the annotation is `linking`.
-The `body` contains a SpecificResource with `source` attribute set to the Canvas we want to link.
+
+In the case the link is between a region of a Canvas and another Canvas in a Manifest, the `body` contains a SpecificResource with `source` attribute set to the Canvas we want to link.
 The `partOf` attribute of the Canvas must point to the Manifest containing the Canvas and have the same `id`.
-The element must be present even when the Canvas is part of the same Manifest, in this way when the manifest is consumed it is always possible to identify where the Canvas is contained.
+The `partOf` attribute must be present even when the Canvas is part of the same Manifest, in this way when the manifest is consumed it is always possible to identify where the Canvas is contained.
+
+In the case the link is between a region of a Canvas and and an external resource it is recommended to add the correct type as indicated in the [Web Annotation Data Model](https://www.w3.org/TR/annotation-model/#h-accessibility-of-content), for instance:
+
+```json
+{
+    "id": "http://example.org/website1",
+    "type": "Text"
+  }
+```
 
 The implementer could consider adding also a Textual Body to the annotation to give more context to the end-user.
+
 
 ## Restrictions
 
