@@ -7,12 +7,12 @@
     {
       "id": "{{ id.path }}/manifest-01.json",
       "type": "Manifest",
-      "label": { "en": [ "Manifest 1" ] }
+      "label": { "en": [ "The Gulf Stream" ] }
     },
     {
       "id": "{{ id.path }}/manifest-02.json",
       "type": "Manifest",
-      "label": { "en": [ "Manifest 2" ] }
+      "label": { "en": [ "Northeaster" ] }
     }
   ]
 }
