@@ -7,15 +7,15 @@ summary: ""
 viewers:
  - UV
  - Mirador
- - Clover
  - Annona
+ - Clover
 topic:
  - basic
 ---
 
 ## Use Case
 
-Your organization has a named collection of drawings authored by a specific person. Each of these unique items already has a digital representation and a Manifest, and you would now like to organize and present them together in a unified and coherent IIIF Presentation interface.
+Your organization has a named collection of paintings authored by a specific person. Each of these unique items already has a digital representation and a Manifest, and you would now like to organize and present them together in a unified and coherent IIIF Presentation interface.
 
 ## Implementation notes
 
@@ -37,7 +37,7 @@ Defining a IIIF Collection is to not be conflated with creating a table of conte
 
 ## Example
 
-{% include manifest_links.html viewers="UV, Mirador, Clover" manifest="collection.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Clover" manifest="collection.json" %}
 
 {% include jsonviewer.html src="collection.json" %}
 
