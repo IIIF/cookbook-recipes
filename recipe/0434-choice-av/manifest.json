@@ -1,0 +1,50 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "{{ id.url }}",
+  "type": "Manifest",
+  "label": { "en": ["Audiofile title goes here"] },
+  "items": [
+    {
+      "id": "{{ id.path }}/canvas/1",
+      "type": "Canvas",
+      "duration": 34,
+      "items": [
+        {
+          "id": "{{ id.path }}/canvas/1/annotation_page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/canvas/1/annotation_page/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "{{ id.path }}/canvas/1",
+              "body": {
+                "type": "Choice",
+                "items": [
+                  {
+					"id": "{{ id.path }}/sound1.ogg",
+					"type": "Sound",
+					"format": "audio/ogg",
+					"duration": 34
+                  },
+                  {
+					"id": "{{ id.path }}/sound1.mp3",
+					"type": "Sound",
+					"format": "audio/mp3",
+					"duration": 34
+                  },
+                  {
+					"id": "{{ id.path }}/sound1.wav",
+					"type": "Sound",
+					"format": "audio/wav",
+					"duration": 34
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

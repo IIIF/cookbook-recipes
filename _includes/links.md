@@ -67,6 +67,8 @@
 
 [0377]: {{ site.cookbook_url | absolute_url }}/recipe/0377-image-in-annotation/ "Image in annotation"
 
+[0434]: {{ site.cookbook_url | absolute_url }}/recipe/0434-choice-av/ "Choice of Audio Formats"
+
 [cookbook-process]: {{site.cookbook_url | absolute_url }}/recipe
 
 [trc]: {{ site.root_url | absolute_url }}/community/trc/
