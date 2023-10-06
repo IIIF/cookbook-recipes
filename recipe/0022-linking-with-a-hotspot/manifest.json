@@ -47,7 +47,7 @@
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "{{ id.path }}/annotation/p0002-tag",
+              "id": "{{ id.path }}/annotation/p0002-link",
               "type": "Annotation",
               "motivation": "linking",
               "body": [
