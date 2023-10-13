@@ -31,9 +31,11 @@ Collections may also reference other Collections.
 
 Collections may have [`behavior`](https://iiif.io/api/presentation/3.0/#behavior) defined in order to influence user experience when viewing the resource. Manifests within a Collection DO NOT inherit behaviors from their referencing Collections; however referenced Collections will.
 
+Defining a IIIF Collection is to not be conflated with creating a table of contents within an individual Manifest. To define a table of contents, see [Multiple Volumes in a Single Bound Volume][0031].
+
 ## Restrictions
 
-Defining a IIIF Collection is to not be conflated with creating a table of contents within an individual Manifest. To define a table of contents, see [Multiple Volumes in a Single Bound Volume][0031].
+None known.
 
 ## Example
 
