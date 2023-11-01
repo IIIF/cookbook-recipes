@@ -39,11 +39,25 @@ None known.
 
 ## Example
 
-This example IIIF Collection represents an organization’s collection of paintings by the American painter Winslow Homer, which includes two distinct artworks: The _Gulf Stream_ and _Northeaster_. Each painting is represented within the Collection as a IIIF Manifest, identified by a URI as its `id`, a `type` property of 'Manifest,' and a corresponding `label`.
+This example IIIF Collection represents an organization’s collection of paintings by the American painter Winslow Homer, which includes two distinct artworks: _The Gulf Stream_ and _Northeaster_. Each painting is represented within the Collection as a IIIF Manifest, identified by a URI as its `id`, a `type` property, and the corresponding title as the `label`.
+
+**Example Collection**
 
 {% include manifest_links.html viewers="UV, Mirador, Annona, Clover" manifest="collection.json" %}
 
 {% include jsonviewer.html src="collection.json" %}
+
+**Example Manifest for _The Gulf Stream_**
+
+{% include manifest_links.html viewers="UV, Mirador, Annona, Clover" manifest="manifest-01.json" %}
+
+{% include jsonviewer.html src="manifest-01.json" %}
+
+**Example Manifest for _Northeaster_**
+
+{% include manifest_links.html viewers="UV, Mirador, Annona, Clover" manifest="manifest-02.json" %}
+
+{% include jsonviewer.html src="manifest-02.json" %}
 
 # Related recipes
 
