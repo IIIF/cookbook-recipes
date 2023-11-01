@@ -39,6 +39,8 @@ None known.
 
 ## Example
 
+This example IIIF Collection represents an organization’s collection of paintings by the American painter Winslow Homer, which includes two distinct artworks: The _Gulf Stream_ and _Northeaster_. Each painting is represented within the Collection as a IIIF Manifest, identified by a URI as its `id`, a `type` property of 'Manifest,' and a corresponding `label`.
+
 {% include manifest_links.html viewers="UV, Mirador, Annona, Clover" manifest="collection.json" %}
 
 {% include jsonviewer.html src="collection.json" %}
