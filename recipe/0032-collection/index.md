@@ -45,7 +45,7 @@ Note: Each supporting viewer has a distinct method for toggling between Collecti
 
 - Universal Viewer presents items in an _Index_ tab;
 - Mirador presents items in a dialog component;
-- Annona presents items in a toggleable informational panel;
+- Annona presents items in a toggleable information panel;
 - Clover presents items as options in a dropdown element.
 
 **Example Collection**
