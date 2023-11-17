@@ -22,22 +22,60 @@
                 "type": "Choice",
                 "items": [
                   {
+					"id": "https://cdn.freesound.org/previews/108/108013_1438254-lq.mp3",
+					"type": "Sound",
+					"format": "audio/mp3",
+					"duration": 135,
+					"label": "Calliope MP3"
+                  },
+                  {
+					"id": "{{ id.path }}/sound1.m4a",
+					"type": "Sound",
+					"format": "audio/alac",
+					"duration": 34,
+					"label": "ALAC"
+                  },
+                  {
+					"id": "{{ id.path }}/sound1.mpeg",
+					"type": "Sound",
+					"format": "audio/mpeg",
+					"duration": 34,
+					"label": "MPEG-2"
+                  },
+                  {
 					"id": "{{ id.path }}/sound1.ogg",
 					"type": "Sound",
 					"format": "audio/ogg",
-					"duration": 34
+					"duration": 34,
+					"label": "OGG"
                   },
                   {
-					"id": "{{ id.path }}/sound1.mp3",
+					"id": "{{ id.path }}/sound1.flac",
 					"type": "Sound",
-					"format": "audio/mp3",
-					"duration": 34
+					"format": "audio/flac",
+					"duration": 34,
+					"label": "FLAC"
                   },
                   {
 					"id": "{{ id.path }}/sound1.wav",
 					"type": "Sound",
 					"format": "audio/wav",
-					"duration": 34
+					"duration": 34,
+					"label": "WAV"
+                  },
+                  {
+					"id": "https://fixtures.iiif.io/audio/indiana/mahler-symphony-3/CD1/medium/128Kbps.mp4",
+					"type": "Sound",
+					"format": "audio/mp4",
+					"duration": 1985.024,
+					"label": "Mahler MP4"
+                  },
+                  {
+					"id": "{{ id.path }}/sound1.mp3",
+					"type": "Sound",
+					"format": "audio/mp3",
+					"duration": 34,
+					"label": "MP3"
                   }
                 ]
               }
@@ -48,3 +86,5 @@
     }
   ]
 }
+
+

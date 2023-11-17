@@ -1,12 +1,15 @@
 ---
-title: Choice of Audio Formats
+title: Multiple Choice of Audio Formats in a Single View (Canvas)
 id: 434
 layout: recipe
-tags: [audio]
-summary: "Presenting viewers with multiple audio formats from which they can choose"
+tags: [multiple-files, layers]
+summary: "How to model multiple choices of audio files for the same sound - e.g., formats."
 viewers:
- - UV
  - Ramp
+ - UV
+ - Clover
+ - Mirador
+ - Annona
 topic: 
  - basic
  - AV
@@ -14,20 +17,19 @@ topic:
 
 ## Use Case
 
-For an audio resource, you want to provide viewers with multiple formats or qualities so the highest fidelity can be presented to the listener.
+For an audio resource, you want to provide viewers or other software readers with multiple formats or qualities so the appropriate and/or compatible one can be presented to the listener.
 
 ## Implementation Notes
 
-What do you need to know to use this pattern?
-How do you implement the pattern?
+This recipe is structurally very similar to the image choice recipe, though with a different rationale and different expected outcomes. Where that recipe presented multiple images of the same object, registered against each other, audio choice emerges more frequently from uneven format compatibility in web software.
+
+In the manifest, the central Annotation's `body` is a resource with a type of `choice`. Each resource in the `items` property is instead the media to be presented. This structure is defined in the W3C Web Annotation Data Model:
+
+> "A 'Choice' has an ordered list of resources from which an application should select only one to process or display. The order is given from the most preferable to least preferable, according to the Annotation's creator or publisher." *— from [Choice Between Bodies](https://www.w3.org/TR/annotation-model/#choice-between-bodies)*
 
 ## Restrictions
 
-When is this pattern is usable / not usable? Is it deprecated? If it uses multiple specifications, which versions are needed, etc.? 
-
-Delete this section if it is not needed.
-If you don't know what the restrictions might be initially, just leave the following line:
-**Unknown - Help Needed**
+No known restrictions, but not all viewers will recognize Choice.
 
 ## Example
 
