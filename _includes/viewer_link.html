@@ -10,6 +10,11 @@
         https://uv-v3.netlify.app/#?c=&amp;m=&amp;s=&amp;cv=&amp;manifest={{manifest_url |strip}}
     {% endcapture %}
     {% assign default_text="View in Universal Viewer" %}
+{% elsif include.type == 'aviary' %}
+    {% capture viewer_url %}
+        https://iiif.aviaryplatform.com/player?manifest={{manifest_url |strip}}
+    {% endcapture %}
+    {% assign default_text="View in Aviary" %}
 {% elsif include.type == 'Mirador' %}
     {% capture viewer_url %}
         https://projectmirador.org/embed/?iiif-content={{manifest_url |strip}}
