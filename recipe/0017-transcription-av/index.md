@@ -8,6 +8,7 @@ viewers:
  - UV
  - Mirador
  - Ramp
+ - Aviary
 topic: AV
 property: rendering
 code:
