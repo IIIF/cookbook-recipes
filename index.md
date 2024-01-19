@@ -86,6 +86,7 @@ _(leading on to segmentation examples later)_
 * [Tagging with an External Resource][0258]
 * [Redirecting from one Canvas to another resource (Hotspot linking)][0022]
 * [Annotate a specific images or layers][0326]
+* [Annotating a specific point of an image][0135]
 * [Geographic coordinates][0139]
 * [Embedded or Referenced Annotations][0269]
 * [Linking external Annotations targeting a Canvas to a Manifest][0306]

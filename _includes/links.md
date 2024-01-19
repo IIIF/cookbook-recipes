@@ -46,6 +46,8 @@
 [0117]: {{ site.cookbook_url | absolute_url }}/recipe/0117-add-image-thumbnail/ "Manifest Thumbnail"
 [0118]: {{ site.cookbook_url | absolute_url }}/recipe/0118_multivalue/ "Displaying Multiple Values with Language Maps"
 
+[0135]: {{ site.cookbook_url | absolute_url }}/recipe/0135-annotating-point-in-canvas/ "Annotating a specific point of an image"
+
 [0154]: {{ site.cookbook_url | absolute_url }}/recipe/0154-geo-extension/ "Locate a Manifest on a Web Map"
 
 [0232]: {{ site.cookbook_url | absolute_url }}/recipe/0232-image-thumbnail-canvas/ "Implementation discussion: Thumbnails on Canvases"
