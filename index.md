@@ -59,6 +59,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Locate a Manifest on a Web Map][0154]
 * [Locate Multiple Canvases on a Web Map][0240]
 * [Acknowledge Content Contributors][0234]
+* [Simple Collection][0032]
 
 ## Textual and other supplementary content
 
