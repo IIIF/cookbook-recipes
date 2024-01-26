@@ -60,7 +60,7 @@
                 {
                   "type": "SpecificResource",
                   "source": {
-                    "id": "{{ id.path }}/canvas/p1",
+                    "id": "{{ id.path }}/canvas/p2",
                     "type": "Canvas",
                     "partOf": [
                       {
@@ -105,7 +105,7 @@
                   }
                 ]
               },
-              "target": "{{ id.path }}/canvas/p1"
+              "target": "{{ id.path }}/canvas/p2"
             }
           ]
         }
