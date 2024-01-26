@@ -12,7 +12,7 @@ code:
 ## Use Case
 
 You want to be able to click on a region of an image and be redirected to another resource.
-For one example, in an image showing multiple objects or parts, you want to see a detailed version of the content of the annotated part. As another possibility, you have digitized a table of contents and you want the user to be able to click on a chapter entry and be redirected the correct place.
+For example, in an image showing multiple objects or parts, you want to see a detailed version of the content of the annotated part. As another possibility, you have digitized a table of contents and you want the user to be able to click on a chapter entry and be redirected to the correct place.
 
 
 ## Implementation Notes
@@ -24,7 +24,7 @@ When the link is between a region of a Canvas and another Canvas in a Manifest, 
 The `partOf` property of the Canvas must point to the Manifest containing the Canvas and have the same `id`.
 The `partOf` property must be present even when the Canvas is part of the same Manifest, in this way, when the manifest is consumed, it is always possible to identify where the Canvas is contained.
 
-When the link is between a region of a Canvas and and an external resource it is recommended to add the correct type as indicated in the [Web Annotation Data Model](https://www.w3.org/TR/annotation-model/#classes), for instance:
+When the link is between a region of a Canvas and an external resource it is recommended to add the correct type as indicated in the [Web Annotation Data Model](https://www.w3.org/TR/annotation-model/#classes), for instance:
 
 ```json
 {
@@ -41,7 +41,7 @@ When the link is between a region of a Canvas and and an external resource it is
 }
 ```
 
-The implementer could consider also adding a TextualBody to the annotation to give more context to the end-user.
+The implementer could also consider adding a TextualBody to the annotation to give more context to the end-user.
 The `value` of the Textual Body should describe the `target` (not the `body` of the Annotation) so that the user can understand what resource will be opened when clicking on the Annotation area.
 
 
@@ -51,9 +51,9 @@ None known.
 
 ## Example
 
-In this Manifest, we use a photograph of Göttingen from the 2019 IIIF annual conference, where the annotation is tagging the fountain. In the same Manifest there is a Canvas with a picture of a close-up of the fountain.
+In this Manifest, we use a photograph of Göttingen from the 2019 IIIF annual conference, where the annotation tags the fountain. In the same Manifest there is a Canvas with a picture of a close-up of the fountain.
 We link the Annotation of the fountain to the Canvas containing its close-up by adding a second body to the Annotation.
-The body contains a Specific Resource that has the `id` of the Canvas containing the close-up of the fountain as `source` and the `id` of the Manifest in the `partOf` property.
+The body contains a Specific Resource with the `id` of the Canvas containing the close-up of the fountain as `source` and the `id` of the Manifest in the `partOf` property.
 
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
