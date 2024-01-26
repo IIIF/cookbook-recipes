@@ -28,16 +28,16 @@ When the link is between a region of a Canvas and and an external resource it is
 
 ```json
 {
-  "id": "http://example.org/annotation/p0002-link",
+  "id": "https://example.com/annotation/p0002-link",
   "type": "Annotation",
   "motivation": "linking",
   "body": [
     {
-    "id": "http://example.org/website1",
+    "id": "https://example.com/website1",
     "type": "Text"
     }
   ],
-  "target": "http://example.org/canvas/p1#xywh=265,661,1260,1239"
+  "target": "https://example.com/canvas/p1#xywh=265,661,1260,1239"
 }
 ```
 
