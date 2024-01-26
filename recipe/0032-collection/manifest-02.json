@@ -1,0 +1,52 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "{{ id.url }}",
+  "type": "Manifest",
+  "label": { "en": [ "Northeaster" ] },
+  "metadata": [
+    {
+      "label": { "en": [ "Artist" ] },
+      "value": { "en": [ "Winslow Homer (1836–1910)" ] }
+    },
+    {
+      "label": { "en": [ "Date" ] },
+      "value": { "en": [ "1895" ] }
+    }
+  ],
+  "items": [
+    {
+      "id": "{{ id.path }}/manifest/2/canvas/p1",
+      "type": "Canvas",
+      "height": 2572,
+      "width": 3764,
+      "items": [
+        {
+          "id": "{{ id.path }}/manifest/2/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/manifest/2/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/329817fc8a251a01c393f517d8a17d87-Northeaster_by_Winslow_Homer_1895/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2572,
+                "width": 3764,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/329817fc8a251a01c393f517d8a17d87-Northeaster_by_Winslow_Homer_1895",
+                    "profile": "level1",
+                    "type": "ImageService3"
+                  }
+                ]
+              },
+              "target": "{{ id.path }}/manifest/2/canvas/p1"
+            }
+          ]
+        }
+      ]
+    }    
+  ]
+}
