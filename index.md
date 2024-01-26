@@ -85,7 +85,7 @@ _(leading on to segmentation examples later)_
 * [Simple Annotation - Tagging][0021]
 * [Annotation with a Non-Rectangular Polygon][0261]
 * [Tagging with an External Resource][0258]
-* hotspot linking
+* [Redirecting from one Canvas to another resource (Hotspot linking)][0022]
 * [Annotate a specific images or layers][0326]
 * [Annotating a specific point of an image][0135]
 * [Geographic coordinates][0139]
