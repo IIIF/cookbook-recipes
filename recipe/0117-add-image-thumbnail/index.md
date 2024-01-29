@@ -38,7 +38,7 @@ This example uses an image of the cover of the same kabuki performance program a
 ## Related Recipes
 
 * [Support Deep Viewing with Basic Use of a IIIF Image Service][0005]
-* [Implementation Note — Thumbnail Selection Algorithm][0012]
+* [Implementation Discussion: Thumbnails on Canvases][0232]
 
 {% include acronyms.md %}
 {% include links.md %}
