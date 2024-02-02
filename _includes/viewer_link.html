@@ -15,11 +15,6 @@
         https://projectmirador.org/embed/?iiif-content={{manifest_url |strip}}
     {% endcapture %}
     {% assign default_text="View in Mirador" %}
-{% elsif include.type == 'Tify' %}
-    {% capture viewer_url %}
-        https://demo.tify.rocks/demo.html?manifest={{manifest_url |strip}}
-    {% endcapture %}
-    {% assign default_text="View in Tify" %}
 {% elsif include.type == 'Curation' %}
     {% capture viewer_url %}
         http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest={{manifest_url |strip}}
