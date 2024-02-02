@@ -9,7 +9,6 @@ viewers:
  - UV
  - Clover
  - Mirador
- - Annona
 topic: 
  - basic
  - AV
@@ -27,14 +26,15 @@ In the manifest, the central Annotation's `body` is a resource with a type of `c
 
 > "A 'Choice' has an ordered list of resources from which an application should select only one to process or display. The order is given from the most preferable to least preferable, according to the Annotation's creator or publisher." *— from [Choice Between Bodies](https://www.w3.org/TR/annotation-model/#choice-between-bodies)*
 
+Current viewers react with the manifest in a range of ways. Some fail more gracefully than others when they encounter a format they cannot play. Some only try to play the first one or two choices, while others will try to play or offer the visitor to try to play any of the resources in the manifest.
+
 ## Restrictions
 
 No known restrictions, but not all viewers will recognize Choice.
 
 ## Example
 
-Describe the solution in prose and provide an example.
-The example json document must be an external document, and imported with the following:
+This manifest uses a short excerpt from a 14-minute reel-to-reel recording of music from Kabba Division, Kwara State, Nigeria in the 1980s. From the web version in UCLA's digital library, it was transcoded into 6 different containers and codecs of varying commonness. The first option is highly unlikely to play in any web browser, so it is expected that viewers will select the second option by default. Other options are provided for cookbook readers to see how viewers handle further options and other formats.
 
 {% include manifest_links.html manifest="manifest.json" %}
 
