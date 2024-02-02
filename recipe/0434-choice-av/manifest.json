@@ -2,12 +2,36 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "{{ id.url }}",
   "type": "Manifest",
-  "label": { "en": ["Audiofile title goes here"] },
+  "label": { "en": ["Exceprt from Egbe Iyawo"] },
+  "summary": {
+    "en": [
+      "Excerpt from a performance of Egba Iyawo recorded in Kabba Division, Kwara State. "
+    ]
+  },
+    "rights": "Public Domain",
+    "requiredStatement": {
+      "label": { "en": [ "Attribution" ] },
+      "value": { "en": [ "<a href='https://www.ui.edu.ng/'>www.ui.edu.ng</a>; <a href='https://www.ibadan-ias.org/'>www.ibadan-ias.org</a>; <a href='mailto: unibadanias60@gmail.com'>unibadanias60@gmail.com</a>" ] }
+    },
+  "metadata": [
+    {
+      "label": { "en": [ "Producer" ] },
+      "value": { "en": [ "Institute of African Studies, University of Ibadan" ] }
+    },
+    {
+      "label": { "en": [ "Date" ] },
+      "value": { "en": [ "1980–1990" ] }
+    },
+    {
+      "label": { "en": [ "Collection" ] },
+      "value": { "en": [ "<a href='https://iasibadanarchive.com/'>Archive of Sound and Vision, Institute of African Studies, University of Ibadan</a>" ] }
+    }
+  ],
   "items": [
     {
       "id": "{{ id.path }}/canvas/1",
       "type": "Canvas",
-      "duration": 34,
+      "duration": 14,
       "items": [
         {
           "id": "{{ id.path }}/canvas/1/annotation_page/1",
@@ -22,60 +46,46 @@
                 "type": "Choice",
                 "items": [
                   {
-					"id": "https://cdn.freesound.org/previews/108/108013_1438254-lq.mp3",
-					"type": "Sound",
-					"format": "audio/mp3",
-					"duration": 135,
-					"label": "Calliope MP3"
-                  },
-                  {
-					"id": "{{ id.path }}/sound1.m4a",
+					"id": "{{ id.path }}/egbe-iyawo-ucla.m4a",
 					"type": "Sound",
 					"format": "audio/alac",
-					"duration": 34,
+					"duration": 14,
 					"label": "ALAC"
                   },
                   {
-					"id": "{{ id.path }}/sound1.mpeg",
+					"id": "{{ id.path }}/egbe-iyawo-ucla.mp3",
 					"type": "Sound",
-					"format": "audio/mpeg",
-					"duration": 34,
-					"label": "MPEG-2"
+					"format": "audio/mp3",
+					"duration": 14,
+					"label": "MP3"
                   },
                   {
-					"id": "{{ id.path }}/sound1.ogg",
-					"type": "Sound",
-					"format": "audio/ogg",
-					"duration": 34,
-					"label": "OGG"
-                  },
-                  {
-					"id": "{{ id.path }}/sound1.flac",
+					"id": "{{ id.path }}/egbe-iyawo-ucla.flac",
 					"type": "Sound",
 					"format": "audio/flac",
-					"duration": 34,
+					"duration": 14,
 					"label": "FLAC"
                   },
                   {
-					"id": "{{ id.path }}/sound1.wav",
+					"id": "{{ id.path }}/egbe-iyawo-ucla.ogg",
+					"type": "Sound",
+					"format": "audio/ogg",
+					"duration": 14,
+					"label": "OGG Vorbis OGG"
+                  },
+                  {
+					"id": "{{ id.path }}/egbe-iyawo-ucla.mpeg",
+					"type": "Sound",
+					"format": "audio/mpeg",
+					"duration": 14,
+					"label": "MPEG2"
+                  },
+                  {
+					"id": "{{ id.path }}/egbe-iyawo-ucla.wav",
 					"type": "Sound",
 					"format": "audio/wav",
-					"duration": 34,
+					"duration": 14,
 					"label": "WAV"
-                  },
-                  {
-					"id": "https://fixtures.iiif.io/audio/indiana/mahler-symphony-3/CD1/medium/128Kbps.mp4",
-					"type": "Sound",
-					"format": "audio/mp4",
-					"duration": 1985.024,
-					"label": "Mahler MP4"
-                  },
-                  {
-					"id": "{{ id.path }}/sound1.mp3",
-					"type": "Sound",
-					"format": "audio/mp3",
-					"duration": 34,
-					"label": "MP3"
                   }
                 ]
               }
