@@ -24,6 +24,8 @@
 		   "id":"https://iiif.io/api/image/3.0/example/reference/4f92cceb12dd53b52433425ce44308c7-ucla_bib1987273_no001_rs_001",
 		   "type":"ImageService3",
 		   "profile":"level1",
+	           "height": 4823,
+                   "width": 3497,
 		   "extraFormats":[
 			  "png"
 		   ],
