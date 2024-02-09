@@ -60,6 +60,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Locate a Manifest on a Web Map][0154]
 * [Locate Multiple Canvases on a Web Map][0240]
 * [Acknowledge Content Contributors][0234]
+* [Simple Collection][0032]
 
 ## Textual and other supplementary content
 
@@ -85,7 +86,7 @@ _(leading on to segmentation examples later)_
 * [Simple Annotation - Tagging][0021]
 * [Annotation with a Non-Rectangular Polygon][0261]
 * [Tagging with an External Resource][0258]
-* hotspot linking
+* [Redirecting from one Canvas to another resource (Hotspot linking)][0022]
 * [Annotate a specific images or layers][0326]
 * [Annotating a specific point of an image][0135]
 * [Geographic coordinates][0139]
