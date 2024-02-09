@@ -25,7 +25,6 @@
 		   "type":"ImageService3",
 		   "profile":"level1",
 		   "extraFormats":[
-			  "jpg",
 			  "png"
 		   ],
 		   "extraQualities":[
