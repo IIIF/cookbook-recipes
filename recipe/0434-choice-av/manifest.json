@@ -8,6 +8,7 @@
       "Excerpt from a performance of Egba Iyawo recorded in Kabba Division, Kwara State. "
     ]
   },
+  "rights": "http://creativecommons.org/public-domain/",
     "requiredStatement": {
       "label": { "en": [ "Attribution" ] },
       "value": { "en": [ "<a href='https://www.ui.edu.ng/'>www.ui.edu.ng</a>; <a href='https://www.ibadan-ias.org/'>www.ibadan-ias.org</a>; <a href='mailto: unibadanias60@gmail.com'>unibadanias60@gmail.com</a>" ] }
@@ -20,10 +21,6 @@
     {
       "label": { "en": [ "Date" ] },
       "value": { "en": [ "1980–1990" ] }
-    },
-    {
-      "label": { "en": [ "Rights" ] },
-      "value": { "en": [ "Public Domain" ] }
     },
     {
       "label": { "en": [ "Collection" ] },
