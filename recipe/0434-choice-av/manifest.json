@@ -2,29 +2,65 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "{{ id.url }}",
   "type": "Manifest",
-  "label": { "en": ["Exceprt from Egbe Iyawo"] },
+  "label": {
+    "en": [
+      "Exceprt from Egbe Iyawo"
+    ]
+  },
   "summary": {
     "en": [
       "Excerpt from a performance of Egba Iyawo recorded in Kabba Division, Kwara State. "
     ]
   },
   "rights": "http://creativecommons.org/public-domain/",
-    "requiredStatement": {
-      "label": { "en": [ "Attribution" ] },
-      "value": { "en": [ "<a href='https://www.ui.edu.ng/'>www.ui.edu.ng</a>; <a href='https://www.ibadan-ias.org/'>www.ibadan-ias.org</a>; <a href='mailto: unibadanias60@gmail.com'>unibadanias60@gmail.com</a>" ] }
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ]
     },
+    "value": {
+      "en": [
+        "<a href='https://www.ui.edu.ng/'>www.ui.edu.ng</a>; <a href='https://www.ibadan-ias.org/'>www.ibadan-ias.org</a>; <a href='mailto: unibadanias60@gmail.com'>unibadanias60@gmail.com</a>"
+      ]
+    }
+  },
   "metadata": [
     {
-      "label": { "en": [ "Producer" ] },
-      "value": { "en": [ "Institute of African Studies, University of Ibadan" ] }
+      "label": {
+        "en": [
+          "Producer"
+        ]
+      },
+      "value": {
+        "en": [
+          "Institute of African Studies, University of Ibadan"
+        ]
+      }
     },
     {
-      "label": { "en": [ "Date" ] },
-      "value": { "en": [ "1980–1990" ] }
+      "label": {
+        "en": [
+          "Date"
+        ]
+      },
+      "value": {
+        "en": [
+          "1980–1990"
+        ]
+      }
     },
     {
-      "label": { "en": [ "Collection" ] },
-      "value": { "en": [ "<a href='https://iasibadanarchive.com/'>Archive of Sound and Vision, Institute of African Studies, University of Ibadan</a>" ] }
+      "label": {
+        "en": [
+          "Collection"
+        ]
+      },
+      "value": {
+        "en": [
+          "<a href='https://iasibadanarchive.com/'>Archive of Sound and Vision, Institute of African Studies, University of Ibadan</a>"
+        ]
+      }
     }
   ],
   "items": [
@@ -46,46 +82,46 @@
                 "type": "Choice",
                 "items": [
                   {
-					"id": "https://fixtures.iiif.io/audio/ucla/egbe-iyawo-ucla.m4a",
-					"type": "Sound",
-					"format": "audio/alac",
-					"duration": 14,
-					"label": "ALAC"
+                    "id": "https://fixtures.iiif.io/audio/ucla/egbe-iyawo-ucla.m4a",
+                    "type": "Sound",
+                    "format": "audio/alac",
+                    "duration": 14,
+                    "label": "ALAC"
                   },
                   {
-					"id": "https://fixtures.iiif.io/audio/ucla/egbe-iyawo-ucla.mp3",
-					"type": "Sound",
-					"format": "audio/mp3",
-					"duration": 14,
-					"label": "MP3"
+                    "id": "https://fixtures.iiif.io/audio/ucla/egbe-iyawo-ucla.mp3",
+                    "type": "Sound",
+                    "format": "audio/mp3",
+                    "duration": 14,
+                    "label": "MP3"
                   },
                   {
-					"id": "https://fixtures.iiif.io/audio/ucla/egbe-iyawo-ucla.flac",
-					"type": "Sound",
-					"format": "audio/flac",
-					"duration": 14,
-					"label": "FLAC"
+                    "id": "https://fixtures.iiif.io/audio/ucla/egbe-iyawo-ucla.flac",
+                    "type": "Sound",
+                    "format": "audio/flac",
+                    "duration": 14,
+                    "label": "FLAC"
                   },
                   {
-					"id": "https://fixtures.iiif.io/audio/ucla/egbe-iyawo-ucla.ogg",
-					"type": "Sound",
-					"format": "audio/ogg",
-					"duration": 14,
-					"label": "OGG Vorbis OGG"
+                    "id": "https://fixtures.iiif.io/audio/ucla/egbe-iyawo-ucla.ogg",
+                    "type": "Sound",
+                    "format": "audio/ogg",
+                    "duration": 14,
+                    "label": "OGG Vorbis OGG"
                   },
                   {
-					"id": "https://fixtures.iiif.io/audio/ucla/egbe-iyawo-ucla.mpeg",
-					"type": "Sound",
-					"format": "audio/mpeg",
-					"duration": 14,
-					"label": "MPEG2"
+                    "id": "https://fixtures.iiif.io/audio/ucla/egbe-iyawo-ucla.mpeg",
+                    "type": "Sound",
+                    "format": "audio/mpeg",
+                    "duration": 14,
+                    "label": "MPEG2"
                   },
                   {
-					"id": "https://fixtures.iiif.io/audio/ucla/egbe-iyawo-ucla.wav",
-					"type": "Sound",
-					"format": "audio/wav",
-					"duration": 14,
-					"label": "WAV"
+                    "id": "https://fixtures.iiif.io/audio/ucla/egbe-iyawo-ucla.wav",
+                    "type": "Sound",
+                    "format": "audio/wav",
+                    "duration": 14,
+                    "label": "WAV"
                   }
                 ]
               }
@@ -96,5 +132,3 @@
     }
   ]
 }
-
-
