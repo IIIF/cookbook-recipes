@@ -40,9 +40,6 @@ In practice, current viewers react with the manifest in a range of ways, with so
 
 Soundfile from [UCLA Library Archives of Sound and Vision, Institute of African Studies, University of Ibadan](https://digital.library.ucla.edu/catalog?f%5Bmember_of_collections_ssim%5D%5B%5D=Archive+of+Sound+and+Vision%2C+Institute+of+African+Studies%2C+University+of+Ibadan&sort=title_alpha_numeric_ssort+asc)
 
-
-
-
 {% include manifest_links.html manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
