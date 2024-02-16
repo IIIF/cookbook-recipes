@@ -16,6 +16,7 @@ if [ $? -eq 1 ];then
     exit 1
 fi
 
+cd ..
 echo "Looking for incorrect jpg mime types:"
 grep -R "image/jpg" recipe/*
 if [ $? -eq 0 ]; then
