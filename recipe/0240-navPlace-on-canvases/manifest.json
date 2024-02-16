@@ -60,7 +60,7 @@
                      "body":{
                         "id":"https://iiif.io/api/image/3.0/example/reference/28473c77da3deebe4375c3a50572d9d3-laocoon/full/max/0/default.jpg",
                         "type":"Image",
-                        "format":"image/jpg",
+                        "format":"image/jpeg",
                         "height":3000,
                         "width":2315,
                         "service":[
@@ -123,7 +123,7 @@
                      "body":{
                         "id":"https://iiif.io/api/image/3.0/example/reference/58763298b61c2a99f78ff94d8364c639-laocoon_1946_18_1/full/max/0/default.jpg",
                         "type":"Image",
-                        "format":"image/jpg",
+                        "format":"image/jpeg",
                         "height":3259,
                         "width":4096,
                         "service":[
