@@ -49,6 +49,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Book behavior (paging) variations][0011] (15,16,17)
 * [Addressing a spatial region][0299]
 * [Viewing direction and its effect on navigation][0010] (11,12,13,14)
+* [Missing Images in a Sequence][0283]
 * [Image Thumbnail for Manifest][0117]
 * [Implementation discussion: Thumbnails on Canvases][0232]
 * [Load a Preview Image Before the Main Content][0013]
