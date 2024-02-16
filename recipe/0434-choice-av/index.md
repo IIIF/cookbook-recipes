@@ -20,7 +20,7 @@ For an audio resource, you want to provide viewers or other software readers wit
 
 ## Implementation Notes
 
-This recipe is structurally very similar to [the image choice recipe][0033], though with a different rationale and different expected outcomes. Where that recipe presented multiple images of the same object, registered against each other, audio choice emerges more frequently from uneven format compatibility in web software.
+This recipe is structurally very similar to [the image choice recipe][0033], though with a different rationale and different expected outcomes. Where that recipe presented multiple images of the same object, registered against each other, audio choice emerges more frequently from uneven format compatibility in web software. Therefore there is also a conceptual difference between these two recipes in the notion of choice. In the Image Choice recipe, there is no format difference in the images and therefore no capability difference for the viewer; the choice belongs to the manifest creator and the user. In this recipe, on the other hand, the resources differ in format and therefore can differ for viewer capability; consequently, the choice belongs both to the viewer and to the user.
 
 In the manifest, the central Annotation's `body` is a resource with a type of `choice`. Each resource in the `items` property is instead the media to be presented. This structure is defined in the W3C Web Annotation Data Model:
 
