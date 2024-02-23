@@ -20,13 +20,15 @@ For an audio resource, you want to provide viewers or other software readers wit
 
 ## Implementation Notes
 
-This recipe is structurally very similar to [the image choice recipe][0033], though with a different rationale and different expected outcomes. Where that recipe presented multiple images of the same object, registered against each other, audio choice emerges more frequently from uneven format compatibility in web software. Therefore there is also a conceptual difference between these two recipes in the notion of choice. In the Image Choice recipe, there is no format difference in the images and therefore no capability difference for the viewer; the choice belongs to the manifest creator and the user. In this recipe, on the other hand, the resources differ in format and therefore can differ for viewer capability; consequently, the choice belongs both to the viewer and to the user.
+This recipe is structurally very similar to [the image choice recipe][0033], though with a different rationale and different expected outcomes. Where that recipe presented multiple images of the same object, registered against each other, audio choice emerges more frequently from accommodating format compatibility issues in web software. Therefore, there is also a conceptual difference between these two recipes in the notion of choice. In the Image Choice recipe, there is no format difference in the images and therefore no capability difference for the viewer; the choice belongs to the manifest creator and the user. In this recipe, on the other hand, the resources differ in format and therefore can differ for viewer capability; consequently, the choice belongs both to the viewer and to the user.
 
 In the manifest, the central Annotation's `body` is a resource with a type of `choice`. Each resource in the `items` property is instead the media to be presented. This structure is defined in the W3C Web Annotation Data Model:
 
 > "A 'Choice' has an ordered list of resources from which an application should select only one to process or display. The order is given from the most preferable to least preferable, according to the Annotation's creator or publisher." *— from [Choice Between Bodies](https://www.w3.org/TR/annotation-model/#choice-between-bodies)*
 
 Understanding that not all file formats are playable in all viewers or, as relevant, all browsers, the viewer is expected to present for playing the first audio file it is capable of playing.
+
+Developers of viewers or other consuming clients need to understand that the intent is to offer the user a **choice** between 2 or more sound formats, which the user may switch between at will. Publishers can order the audio files by preference, but the file with which a viewer starts cannot be assured.
 
 ## Restrictions
 
