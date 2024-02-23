@@ -14,7 +14,7 @@
         {
           "id": "https://fixtures.iiif.io/other/level0/Glen/photos/gottingen/full/max/0/default.jpg",
           "type": "Image",
-          "format": "image/jpg",
+          "format": "image/jpeg",
           "width":252,
           "height":189,
           "service": [
@@ -79,7 +79,7 @@
         {
           "id": "https://fixtures.iiif.io/other/level0/Glen/photos/fountain/full/max/0/default.jpg",
           "type": "Image",
-          "format": "image/jpg",
+          "format": "image/jpeg",
           "width":189,
           "height":252,
           "service": [
