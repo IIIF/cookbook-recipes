@@ -67,7 +67,7 @@
     {
       "id": "{{ id.path }}/canvas/1",
       "type": "Canvas",
-      "duration": 14,
+      "duration": 16,
       "items": [
         {
           "id": "{{ id.path }}/canvas/1/annotation_page/1",
@@ -85,42 +85,42 @@
                     "id": "https://fixtures.iiif.io/audio/ucla/egbe-iyawo-ucla.m4a",
                     "type": "Sound",
                     "format": "audio/alac",
-                    "duration": 14,
+                    "duration": 16,
                     "label": "ALAC"
                   },
                   {
                     "id": "https://fixtures.iiif.io/audio/ucla/egbe-iyawo-ucla.mp3",
                     "type": "Sound",
                     "format": "audio/mp3",
-                    "duration": 14,
+                    "duration": 16,
                     "label": "MP3"
                   },
                   {
                     "id": "https://fixtures.iiif.io/audio/ucla/egbe-iyawo-ucla.flac",
                     "type": "Sound",
                     "format": "audio/flac",
-                    "duration": 14,
+                    "duration": 16,
                     "label": "FLAC"
                   },
                   {
                     "id": "https://fixtures.iiif.io/audio/ucla/egbe-iyawo-ucla.ogg",
                     "type": "Sound",
                     "format": "audio/ogg",
-                    "duration": 14,
+                    "duration": 16,
                     "label": "OGG Vorbis OGG"
                   },
                   {
                     "id": "https://fixtures.iiif.io/audio/ucla/egbe-iyawo-ucla.mpeg",
                     "type": "Sound",
                     "format": "audio/mpeg",
-                    "duration": 14,
+                    "duration": 16,
                     "label": "MPEG2"
                   },
                   {
                     "id": "https://fixtures.iiif.io/audio/ucla/egbe-iyawo-ucla.wav",
                     "type": "Sound",
                     "format": "audio/wav",
-                    "duration": 14,
+                    "duration": 16,
                     "label": "WAV"
                   }
                 ]
