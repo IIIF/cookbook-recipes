@@ -44,7 +44,7 @@ Soundfile from [UCLA Library Archives of Sound and Vision, Institute of African 
 
 {% include manifest_links.html manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" %}
+{% include jsonviewer.html src="manifest.json" config='data-line="82-126"' %}
 
 The direct link to the fixture is a useful convenience.
 
