@@ -18,7 +18,7 @@ You have a IIIF manifest resource along with additional machine-readable metadat
 
 ## Implementation Notes
 
-This property is used for pointing a viewer to the URI of a non-IIIF resource with information about the IIIF resource to which it is attached. Most frequently, the non-IIIF resource will be structured metadata, and to be most effective, the target resource should be a machine-readable format such as XML, JSON, or RDF. The `type` value for `seeAlso` is usually `dataset`.
+This property is used for pointing a viewer to the URI of a non-IIIF resource with information about the IIIF resource to which it is attached. Most frequently, the non-IIIF resource will be structured metadata, and to be most effective, the target resource should be a machine-readable format such as XML, JSON, or RDF. The `type` value for `seeAlso` is usually `dataset`. Manifest creators or editors should look in [the IIIF Registry of Profiles](https://iiif.io/api/registry/profiles/#3-registry) to see if a consistent URI exists for use as the `seeAlso` property's `id` value.
 
 Three other properties may seem similar, so it's worth highlighting the differences. 
 
@@ -40,6 +40,8 @@ None
 ## Example
 
 In this example, a MODS XML file is provided for the program as a whole, and as such the `seeAlso` property attaches to the Manifest. If such data files were available for each view or page separately, each Canvas would be a logical place for the corresponding `seeAlso` instance.
+
+A consistent URI to use for the `id` value for MODS can be found in [the IIIF Registry of Profiles](https://iiif.io/api/registry/profiles/#3-registry).
 
 To see the property in action in Mirador, toggle the sidebar by activating the three-line ("hamburger") menu in the upper left-hand corner of the content window. You should then, in the "Related" area, see the link in the "Related" section under the "See also" subheading.
 
