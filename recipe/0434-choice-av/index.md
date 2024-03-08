@@ -40,6 +40,8 @@ This manifest uses a short excerpt from a 14-minute reel-to-reel recording of mu
 
 In practice, current viewers react with the manifest in a range of ways, with some failing more gracefully than others when they encounter a format they cannot play. Some only try to play the first one or two choices, while others will try to play or offer the visitor to try to play any of the resources in the manifest.
 
+Sound recorded by [Institute of African Studies](https://www.ibadan-ias.org/) of the [University of Ibadan](http://www.ui.edu.ng/), at Kabba Division, Kwara State between 1980 and 1990. The archival version is at the Archive of Sound and Vision at the IAS. For more information, contact [unibadanias60@gmail.com](mailto:unibadanias60@gmail.com).
+
 Soundfile from [UCLA Library Archives of Sound and Vision, Institute of African Studies, University of Ibadan](https://digital.library.ucla.edu/catalog?f%5Bmember_of_collections_ssim%5D%5B%5D=Archive+of+Sound+and+Vision%2C+Institute+of+African+Studies%2C+University+of+Ibadan&sort=title_alpha_numeric_ssort+asc)
 
 {% include manifest_links.html manifest="manifest.json" %}

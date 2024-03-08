@@ -13,56 +13,6 @@
     ]
   },
   "rights": "http://creativecommons.org/publicdomain/zero/1.0/",
-  "requiredStatement": {
-    "label": {
-      "en": [
-        "Attribution"
-      ]
-    },
-    "value": {
-      "en": [
-        "<a href='https://www.ui.edu.ng/'>www.ui.edu.ng</a>; <a href='https://www.ibadan-ias.org/'>www.ibadan-ias.org</a>; <a href='mailto: unibadanias60@gmail.com'>unibadanias60@gmail.com</a>"
-      ]
-    }
-  },
-  "metadata": [
-    {
-      "label": {
-        "en": [
-          "Producer"
-        ]
-      },
-      "value": {
-        "en": [
-          "Institute of African Studies, University of Ibadan"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "Date"
-        ]
-      },
-      "value": {
-        "en": [
-          "1980–1990"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "Collection"
-        ]
-      },
-      "value": {
-        "en": [
-          "<a href='https://iasibadanarchive.com/'>Archive of Sound and Vision, Institute of African Studies, University of Ibadan</a>"
-        ]
-      }
-    }
-  ],
   "items": [
     {
       "id": "{{ id.path }}/canvas/1",
