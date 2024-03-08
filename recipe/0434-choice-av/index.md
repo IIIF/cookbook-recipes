@@ -51,8 +51,7 @@ The direct link to the fixture is a useful convenience.
 ## Related Recipes
 
 * [Multiple Choice of Images in a Single View][0033] for more discussion of Choice and an Image context
-* [Audio Presentation with Accompanying Image][0014] for considering adding an image to the interface
-* [Begin playback at a specific point - Time-based media][0015] for specifying a playback start point
+* [Simplest Manifest - Audio][0002] for use of a single audio resource in a manifest
 
 {% include acronyms.md %}
 {% include links.md %}
