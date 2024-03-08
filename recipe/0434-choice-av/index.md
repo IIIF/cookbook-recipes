@@ -32,7 +32,7 @@ Developers of viewers or other consuming clients need to understand that the int
 
 ## Restrictions
 
-No known restrictions, but not all viewers will recognize Choice.
+No known restrictions.
 
 ## Example
 
