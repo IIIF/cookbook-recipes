@@ -50,7 +50,7 @@
                             {
                               "id": "https://iiif.io/api/image/3.0/example/reference/899da506920824588764bc12b10fc800-bnf_chateauroux_miniature",
                               "type": "ImageService3",
-                              "profile": "level2"
+                              "profile": "level1"
                             }
                           ]
                         },
