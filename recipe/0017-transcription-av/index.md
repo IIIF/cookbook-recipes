@@ -8,6 +8,7 @@ viewers:
  - UV
  - Mirador
  - Ramp
+ - Aviary
 topic: AV
 property: rendering
 code:
@@ -41,7 +42,7 @@ In Universal Viewer, to access the transcript use the 'Download' link on the bot
 
 In Ramp, the transcript file is made available to download under the player controls. Click the filename listed in the menu to download the transcript file.
 
-{% include manifest_links.html viewers="UV, Mirador, Ramp" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Ramp, Aviary" manifest="manifest.json" %}
 {% include jsonviewer.html src="manifest.json" config='data-line="39-50"'%}
 
 # Related recipes
