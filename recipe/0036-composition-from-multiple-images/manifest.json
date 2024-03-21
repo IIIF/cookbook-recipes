@@ -40,7 +40,7 @@
                         "type": "Annotation",
                         "motivation": "painting",
                         "body": {
-                          "id": "https://iiif.io/api/image/3.0/example/reference/899da506920824588764bc12b10fc800-bnf_chateauroux_miniature/full/max/0/native.jpg",
+                          "id": "https://iiif.io/api/image/3.0/example/reference/899da506920824588764bc12b10fc800-bnf_chateauroux_miniature/full/max/0/default.jpg",
                           "type": "Image",
                           "format": "image/jpeg",
                           "label":  { "fr": [ "Miniature [Chilpéric Ier tue Galswinthe, se remarie et est assassiné]" ] },
@@ -49,8 +49,8 @@
                           "service": [
                             {
                               "id": "https://iiif.io/api/image/3.0/example/reference/899da506920824588764bc12b10fc800-bnf_chateauroux_miniature",
-                              "type": "ImageService1",
-                              "profile": "level2"
+                              "type": "ImageService3",
+                              "profile": "level1"
                             }
                           ]
                         },
