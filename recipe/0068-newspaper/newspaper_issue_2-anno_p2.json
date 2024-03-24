@@ -26,7 +26,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=128,247,471,14"
+                    "value": "xywh=128,247,471,14"
                 }
             }
         },
@@ -53,7 +53,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=799,503,884,35"
+                    "value": "xywh=799,503,884,35"
                 }
             }
         },
@@ -80,7 +80,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=801,535,883,42"
+                    "value": "xywh=801,535,883,42"
                 }
             }
         },
@@ -107,7 +107,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=800,568,883,36"
+                    "value": "xywh=800,568,883,36"
                 }
             }
         },
@@ -134,7 +134,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=798,601,885,43"
+                    "value": "xywh=798,601,885,43"
                 }
             }
         },
@@ -161,7 +161,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=800,634,884,42"
+                    "value": "xywh=800,634,884,42"
                 }
             }
         },
@@ -188,7 +188,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=801,667,883,34"
+                    "value": "xywh=801,667,883,34"
                 }
             }
         },
@@ -215,7 +215,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=800,700,884,41"
+                    "value": "xywh=800,700,884,41"
                 }
             }
         },
@@ -242,7 +242,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=800,733,883,33"
+                    "value": "xywh=800,733,883,33"
                 }
             }
         },
@@ -269,7 +269,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=800,766,884,34"
+                    "value": "xywh=800,766,884,34"
                 }
             }
         },
@@ -296,7 +296,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=800,798,884,35"
+                    "value": "xywh=800,798,884,35"
                 }
             }
         },
@@ -323,7 +323,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=800,831,882,35"
+                    "value": "xywh=800,831,882,35"
                 }
             }
         },
@@ -350,7 +350,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=801,863,883,47"
+                    "value": "xywh=801,863,883,47"
                 }
             }
         },
@@ -377,7 +377,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=801,897,883,47"
+                    "value": "xywh=801,897,883,47"
                 }
             }
         },
@@ -404,7 +404,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=800,928,883,35"
+                    "value": "xywh=800,928,883,35"
                 }
             }
         },
@@ -431,7 +431,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=800,962,884,35"
+                    "value": "xywh=800,962,884,35"
                 }
             }
         },
@@ -458,7 +458,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=801,999,230,29"
+                    "value": "xywh=801,999,230,29"
                 }
             }
         },
@@ -485,7 +485,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=843,1028,840,34"
+                    "value": "xywh=843,1028,840,34"
                 }
             }
         },
@@ -512,7 +512,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=801,1061,882,33"
+                    "value": "xywh=801,1061,882,33"
                 }
             }
         },
@@ -539,7 +539,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=794,1094,888,47"
+                    "value": "xywh=794,1094,888,47"
                 }
             }
         },
@@ -566,7 +566,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=799,1126,884,34"
+                    "value": "xywh=799,1126,884,34"
                 }
             }
         },
@@ -593,7 +593,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=803,1157,880,35"
+                    "value": "xywh=803,1157,880,35"
                 }
             }
         },
@@ -620,7 +620,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=782,1192,647,36"
+                    "value": "xywh=782,1192,647,36"
                 }
             }
         },
@@ -647,7 +647,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=801,1243,872,51"
+                    "value": "xywh=801,1243,872,51"
                 }
             }
         },
@@ -674,7 +674,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=849,1296,836,45"
+                    "value": "xywh=849,1296,836,45"
                 }
             }
         },
@@ -701,7 +701,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=801,1329,885,44"
+                    "value": "xywh=801,1329,885,44"
                 }
             }
         },
@@ -728,7 +728,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=802,1363,883,33"
+                    "value": "xywh=802,1363,883,33"
                 }
             }
         },
@@ -755,7 +755,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=803,1395,883,34"
+                    "value": "xywh=803,1395,883,34"
                 }
             }
         },
@@ -782,7 +782,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=803,1427,883,34"
+                    "value": "xywh=803,1427,883,34"
                 }
             }
         },
@@ -809,7 +809,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=804,1460,882,37"
+                    "value": "xywh=804,1460,882,37"
                 }
             }
         },
@@ -836,7 +836,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=803,1493,883,43"
+                    "value": "xywh=803,1493,883,43"
                 }
             }
         },
@@ -863,7 +863,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=804,1526,882,71"
+                    "value": "xywh=804,1526,882,71"
                 }
             }
         },
@@ -890,7 +890,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=805,1558,882,38"
+                    "value": "xywh=805,1558,882,38"
                 }
             }
         },
@@ -917,7 +917,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=804,1591,882,36"
+                    "value": "xywh=804,1591,882,36"
                 }
             }
         },
@@ -944,7 +944,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=805,1598,881,67"
+                    "value": "xywh=805,1598,881,67"
                 }
             }
         },
@@ -971,7 +971,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=804,1656,883,39"
+                    "value": "xywh=804,1656,883,39"
                 }
             }
         },
@@ -998,7 +998,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=806,1689,882,44"
+                    "value": "xywh=806,1689,882,44"
                 }
             }
         },
@@ -1025,7 +1025,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=806,1722,882,37"
+                    "value": "xywh=806,1722,882,37"
                 }
             }
         },
@@ -1052,7 +1052,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=806,1754,882,44"
+                    "value": "xywh=806,1754,882,44"
                 }
             }
         },
@@ -1079,7 +1079,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=804,1788,884,39"
+                    "value": "xywh=804,1788,884,39"
                 }
             }
         },
@@ -1106,7 +1106,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=806,1819,882,43"
+                    "value": "xywh=806,1819,882,43"
                 }
             }
         },
@@ -1133,7 +1133,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=806,1853,884,35"
+                    "value": "xywh=806,1853,884,35"
                 }
             }
         },
@@ -1160,7 +1160,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=806,1886,882,36"
+                    "value": "xywh=806,1886,882,36"
                 }
             }
         },
@@ -1187,7 +1187,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=807,1919,881,63"
+                    "value": "xywh=807,1919,881,63"
                 }
             }
         },
@@ -1214,7 +1214,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=833,1949,869,44"
+                    "value": "xywh=833,1949,869,44"
                 }
             }
         },
@@ -1241,7 +1241,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=806,1983,883,38"
+                    "value": "xywh=806,1983,883,38"
                 }
             }
         },
@@ -1268,7 +1268,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=807,2016,882,40"
+                    "value": "xywh=807,2016,882,40"
                 }
             }
         },
@@ -1295,7 +1295,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=808,2048,883,39"
+                    "value": "xywh=808,2048,883,39"
                 }
             }
         },
@@ -1322,7 +1322,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=808,2081,882,37"
+                    "value": "xywh=808,2081,882,37"
                 }
             }
         },
@@ -1349,7 +1349,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=808,2113,881,35"
+                    "value": "xywh=808,2113,881,35"
                 }
             }
         },
@@ -1376,7 +1376,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=808,2145,883,37"
+                    "value": "xywh=808,2145,883,37"
                 }
             }
         },
@@ -1403,7 +1403,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=808,2175,882,50"
+                    "value": "xywh=808,2175,882,50"
                 }
             }
         },
@@ -1430,7 +1430,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=810,2210,880,38"
+                    "value": "xywh=810,2210,880,38"
                 }
             }
         },
@@ -1457,7 +1457,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=811,2243,879,41"
+                    "value": "xywh=811,2243,879,41"
                 }
             }
         },
@@ -1484,7 +1484,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=811,2279,431,38"
+                    "value": "xywh=811,2279,431,38"
                 }
             }
         },
@@ -1511,7 +1511,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=850,2355,750,56"
+                    "value": "xywh=850,2355,750,56"
                 }
             }
         },
@@ -1538,7 +1538,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=969,2417,462,38"
+                    "value": "xywh=969,2417,462,38"
                 }
             }
         },
@@ -1565,7 +1565,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=853,2463,838,36"
+                    "value": "xywh=853,2463,838,36"
                 }
             }
         },
@@ -1592,7 +1592,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=812,2493,880,40"
+                    "value": "xywh=812,2493,880,40"
                 }
             }
         },
@@ -1619,7 +1619,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=810,2527,882,38"
+                    "value": "xywh=810,2527,882,38"
                 }
             }
         },
@@ -1646,7 +1646,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=813,2559,879,38"
+                    "value": "xywh=813,2559,879,38"
                 }
             }
         },
@@ -1673,7 +1673,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=812,2592,880,40"
+                    "value": "xywh=812,2592,880,40"
                 }
             }
         },
@@ -1700,7 +1700,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=813,2624,879,39"
+                    "value": "xywh=813,2624,879,39"
                 }
             }
         },
@@ -1727,7 +1727,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=812,2656,880,39"
+                    "value": "xywh=812,2656,880,39"
                 }
             }
         },
@@ -1754,7 +1754,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=813,2698,185,29"
+                    "value": "xywh=813,2698,185,29"
                 }
             }
         },
@@ -1781,7 +1781,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=854,2721,838,34"
+                    "value": "xywh=854,2721,838,34"
                 }
             }
         },
@@ -1808,7 +1808,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=813,2754,879,37"
+                    "value": "xywh=813,2754,879,37"
                 }
             }
         },
@@ -1835,7 +1835,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=815,2787,877,38"
+                    "value": "xywh=815,2787,877,38"
                 }
             }
         },
@@ -1862,7 +1862,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=814,2819,880,38"
+                    "value": "xywh=814,2819,880,38"
                 }
             }
         },
@@ -1889,7 +1889,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=815,2853,879,39"
+                    "value": "xywh=815,2853,879,39"
                 }
             }
         },
@@ -1916,7 +1916,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=815,2886,878,38"
+                    "value": "xywh=815,2886,878,38"
                 }
             }
         },
@@ -1943,7 +1943,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=816,2917,876,40"
+                    "value": "xywh=816,2917,876,40"
                 }
             }
         },
@@ -1970,7 +1970,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=817,2950,825,39"
+                    "value": "xywh=817,2950,825,39"
                 }
             }
         },
@@ -1997,7 +1997,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=813,3030,829,106"
+                    "value": "xywh=813,3030,829,106"
                 }
             }
         },
@@ -2024,7 +2024,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1231,3137,445,27"
+                    "value": "xywh=1231,3137,445,27"
                 }
             }
         },
@@ -2051,7 +2051,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=643,3175,752,47"
+                    "value": "xywh=643,3175,752,47"
                 }
             }
         },
@@ -2078,7 +2078,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=648,3215,1053,46"
+                    "value": "xywh=648,3215,1053,46"
                 }
             }
         },
@@ -2105,7 +2105,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=676,3247,1024,49"
+                    "value": "xywh=676,3247,1024,49"
                 }
             }
         },
@@ -2132,7 +2132,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=645,3285,823,40"
+                    "value": "xywh=645,3285,823,40"
                 }
             }
         },
@@ -2159,7 +2159,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=640,3313,1061,44"
+                    "value": "xywh=640,3313,1061,44"
                 }
             }
         },
@@ -2186,7 +2186,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=645,3347,1056,48"
+                    "value": "xywh=645,3347,1056,48"
                 }
             }
         },
@@ -2213,7 +2213,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=677,3379,1025,43"
+                    "value": "xywh=677,3379,1025,43"
                 }
             }
         },
@@ -2240,7 +2240,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=817,3411,884,43"
+                    "value": "xywh=817,3411,884,43"
                 }
             }
         },
@@ -2267,7 +2267,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=817,3444,884,42"
+                    "value": "xywh=817,3444,884,42"
                 }
             }
         },
@@ -2294,7 +2294,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=817,3477,884,44"
+                    "value": "xywh=817,3477,884,44"
                 }
             }
         },
@@ -2321,7 +2321,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=818,3509,884,42"
+                    "value": "xywh=818,3509,884,42"
                 }
             }
         },
@@ -2348,7 +2348,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=818,3541,885,44"
+                    "value": "xywh=818,3541,885,44"
                 }
             }
         },
@@ -2375,7 +2375,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=819,3573,884,44"
+                    "value": "xywh=819,3573,884,44"
                 }
             }
         },
@@ -2402,7 +2402,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=819,3606,885,44"
+                    "value": "xywh=819,3606,885,44"
                 }
             }
         },
@@ -2429,7 +2429,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=669,3634,1034,50"
+                    "value": "xywh=669,3634,1034,50"
                 }
             }
         },
@@ -2456,7 +2456,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=666,3671,1039,49"
+                    "value": "xywh=666,3671,1039,49"
                 }
             }
         },
@@ -2483,7 +2483,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=666,3704,1039,43"
+                    "value": "xywh=666,3704,1039,43"
                 }
             }
         },
@@ -2510,7 +2510,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=821,3736,886,44"
+                    "value": "xywh=821,3736,886,44"
                 }
             }
         },
@@ -2537,7 +2537,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=821,3769,886,44"
+                    "value": "xywh=821,3769,886,44"
                 }
             }
         },
@@ -2564,7 +2564,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=821,3803,886,42"
+                    "value": "xywh=821,3803,886,42"
                 }
             }
         },
@@ -2591,7 +2591,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=823,3834,884,44"
+                    "value": "xywh=823,3834,884,44"
                 }
             }
         },
@@ -2618,7 +2618,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=658,3862,1049,50"
+                    "value": "xywh=658,3862,1049,50"
                 }
             }
         },
@@ -2645,7 +2645,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=653,3908,688,39"
+                    "value": "xywh=653,3908,688,39"
                 }
             }
         },
@@ -2672,7 +2672,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=656,3929,1053,45"
+                    "value": "xywh=656,3929,1053,45"
                 }
             }
         },
@@ -2699,7 +2699,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=683,3965,1026,45"
+                    "value": "xywh=683,3965,1026,45"
                 }
             }
         },
@@ -2726,7 +2726,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=662,3998,1048,45"
+                    "value": "xywh=662,3998,1048,45"
                 }
             }
         },
@@ -2753,7 +2753,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=653,4030,1058,41"
+                    "value": "xywh=653,4030,1058,41"
                 }
             }
         },
@@ -2780,7 +2780,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=653,4063,1058,51"
+                    "value": "xywh=653,4063,1058,51"
                 }
             }
         },
@@ -2807,7 +2807,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=663,4088,1049,64"
+                    "value": "xywh=663,4088,1049,64"
                 }
             }
         },
@@ -2834,7 +2834,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=683,4154,5,22"
+                    "value": "xywh=683,4154,5,22"
                 }
             }
         },
@@ -2861,7 +2861,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=684,4178,4,13"
+                    "value": "xywh=684,4178,4,13"
                 }
             }
         },
@@ -2888,7 +2888,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=827,4130,885,39"
+                    "value": "xywh=827,4130,885,39"
                 }
             }
         },
@@ -2915,7 +2915,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=828,4161,885,45"
+                    "value": "xywh=828,4161,885,45"
                 }
             }
         },
@@ -2942,7 +2942,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=828,4193,885,47"
+                    "value": "xywh=828,4193,885,47"
                 }
             }
         },
@@ -2969,7 +2969,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=829,4221,889,52"
+                    "value": "xywh=829,4221,889,52"
                 }
             }
         },
@@ -2996,7 +2996,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=830,4259,885,45"
+                    "value": "xywh=830,4259,885,45"
                 }
             }
         },
@@ -3023,7 +3023,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=831,4291,884,46"
+                    "value": "xywh=831,4291,884,46"
                 }
             }
         },
@@ -3050,7 +3050,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=830,4327,762,46"
+                    "value": "xywh=830,4327,762,46"
                 }
             }
         },
@@ -3077,7 +3077,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=657,4359,1058,49"
+                    "value": "xywh=657,4359,1058,49"
                 }
             }
         },
@@ -3104,7 +3104,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=648,4392,1069,42"
+                    "value": "xywh=648,4392,1069,42"
                 }
             }
         },
@@ -3131,7 +3131,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=652,4425,1065,45"
+                    "value": "xywh=652,4425,1065,45"
                 }
             }
         },
@@ -3158,7 +3158,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=831,4489,886,51"
+                    "value": "xywh=831,4489,886,51"
                 }
             }
         },
@@ -3185,7 +3185,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=838,4490,880,81"
+                    "value": "xywh=838,4490,880,81"
                 }
             }
         },
@@ -3212,7 +3212,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1736,1845,601,33"
+                    "value": "xywh=1736,1845,601,33"
                 }
             }
         },
@@ -3239,7 +3239,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=836,4451,882,47"
+                    "value": "xywh=836,4451,882,47"
                 }
             }
         },
@@ -3266,7 +3266,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1128,4499,24,24"
+                    "value": "xywh=1128,4499,24,24"
                 }
             }
         },
@@ -3293,7 +3293,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1732,468,1770,165"
+                    "value": "xywh=1732,468,1770,165"
                 }
             }
         },
@@ -3320,7 +3320,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1732,661,880,65"
+                    "value": "xywh=1732,661,880,65"
                 }
             }
         },
@@ -3347,7 +3347,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1825,731,692,40"
+                    "value": "xywh=1825,731,692,40"
                 }
             }
         },
@@ -3374,7 +3374,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1823,787,698,37"
+                    "value": "xywh=1823,787,698,37"
                 }
             }
         },
@@ -3401,7 +3401,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2327,835,258,32"
+                    "value": "xywh=2327,835,258,32"
                 }
             }
         },
@@ -3428,7 +3428,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1776,864,836,45"
+                    "value": "xywh=1776,864,836,45"
                 }
             }
         },
@@ -3455,7 +3455,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1734,902,879,40"
+                    "value": "xywh=1734,902,879,40"
                 }
             }
         },
@@ -3482,7 +3482,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1806,934,807,39"
+                    "value": "xywh=1806,934,807,39"
                 }
             }
         },
@@ -3509,7 +3509,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1758,967,855,38"
+                    "value": "xywh=1758,967,855,38"
                 }
             }
         },
@@ -3536,7 +3536,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1734,998,880,41"
+                    "value": "xywh=1734,998,880,41"
                 }
             }
         },
@@ -3563,7 +3563,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1735,1028,878,41"
+                    "value": "xywh=1735,1028,878,41"
                 }
             }
         },
@@ -3590,7 +3590,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1735,1064,879,39"
+                    "value": "xywh=1735,1064,879,39"
                 }
             }
         },
@@ -3617,7 +3617,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1735,1096,878,38"
+                    "value": "xywh=1735,1096,878,38"
                 }
             }
         },
@@ -3644,7 +3644,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1734,1128,880,40"
+                    "value": "xywh=1734,1128,880,40"
                 }
             }
         },
@@ -3671,7 +3671,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1735,1161,879,38"
+                    "value": "xywh=1735,1161,879,38"
                 }
             }
         },
@@ -3698,7 +3698,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1734,1192,882,40"
+                    "value": "xywh=1734,1192,882,40"
                 }
             }
         },
@@ -3725,7 +3725,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1736,1226,878,36"
+                    "value": "xywh=1736,1226,878,36"
                 }
             }
         },
@@ -3752,7 +3752,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1736,1258,878,36"
+                    "value": "xywh=1736,1258,878,36"
                 }
             }
         },
@@ -3779,7 +3779,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1736,1290,877,35"
+                    "value": "xywh=1736,1290,877,35"
                 }
             }
         },
@@ -3806,7 +3806,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1736,1320,878,39"
+                    "value": "xywh=1736,1320,878,39"
                 }
             }
         },
@@ -3833,7 +3833,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1736,1350,896,42"
+                    "value": "xywh=1736,1350,896,42"
                 }
             }
         },
@@ -3860,7 +3860,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1736,1387,877,34"
+                    "value": "xywh=1736,1387,877,34"
                 }
             }
         },
@@ -3887,7 +3887,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1736,1419,877,38"
+                    "value": "xywh=1736,1419,877,38"
                 }
             }
         },
@@ -3914,7 +3914,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1739,1449,875,41"
+                    "value": "xywh=1739,1449,875,41"
                 }
             }
         },
@@ -3941,7 +3941,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1736,1483,878,40"
+                    "value": "xywh=1736,1483,878,40"
                 }
             }
         },
@@ -3968,7 +3968,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1738,1514,876,40"
+                    "value": "xywh=1738,1514,876,40"
                 }
             }
         },
@@ -3995,7 +3995,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1737,1547,877,39"
+                    "value": "xywh=1737,1547,877,39"
                 }
             }
         },
@@ -4022,7 +4022,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1737,1579,877,41"
+                    "value": "xywh=1737,1579,877,41"
                 }
             }
         },
@@ -4049,7 +4049,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1737,1610,877,40"
+                    "value": "xywh=1737,1610,877,40"
                 }
             }
         },
@@ -4076,7 +4076,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1737,1644,878,41"
+                    "value": "xywh=1737,1644,878,41"
                 }
             }
         },
@@ -4103,7 +4103,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1738,1672,877,44"
+                    "value": "xywh=1738,1672,877,44"
                 }
             }
         },
@@ -4130,7 +4130,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1739,1708,877,41"
+                    "value": "xywh=1739,1708,877,41"
                 }
             }
         },
@@ -4157,7 +4157,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1739,1741,876,41"
+                    "value": "xywh=1739,1741,876,41"
                 }
             }
         },
@@ -4184,7 +4184,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1742,1772,874,40"
+                    "value": "xywh=1742,1772,874,40"
                 }
             }
         },
@@ -4211,7 +4211,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1738,1806,877,39"
+                    "value": "xywh=1738,1806,877,39"
                 }
             }
         },
@@ -4238,7 +4238,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2362,1839,254,28"
+                    "value": "xywh=2362,1839,254,28"
                 }
             }
         },
@@ -4265,7 +4265,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1737,1870,880,40"
+                    "value": "xywh=1737,1870,880,40"
                 }
             }
         },
@@ -4292,7 +4292,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1738,1902,878,40"
+                    "value": "xywh=1738,1902,878,40"
                 }
             }
         },
@@ -4319,7 +4319,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1738,1935,879,36"
+                    "value": "xywh=1738,1935,879,36"
                 }
             }
         },
@@ -4346,7 +4346,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1737,1966,879,41"
+                    "value": "xywh=1737,1966,879,41"
                 }
             }
         },
@@ -4373,7 +4373,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1738,2000,880,40"
+                    "value": "xywh=1738,2000,880,40"
                 }
             }
         },
@@ -4400,7 +4400,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1739,2030,879,40"
+                    "value": "xywh=1739,2030,879,40"
                 }
             }
         },
@@ -4427,7 +4427,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1738,2061,880,39"
+                    "value": "xywh=1738,2061,880,39"
                 }
             }
         },
@@ -4454,7 +4454,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1739,2095,878,41"
+                    "value": "xywh=1739,2095,878,41"
                 }
             }
         },
@@ -4481,7 +4481,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1739,2126,877,39"
+                    "value": "xywh=1739,2126,877,39"
                 }
             }
         },
@@ -4508,7 +4508,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1738,2154,880,45"
+                    "value": "xywh=1738,2154,880,45"
                 }
             }
         },
@@ -4535,7 +4535,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1740,2192,878,40"
+                    "value": "xywh=1740,2192,878,40"
                 }
             }
         },
@@ -4562,7 +4562,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1740,2227,879,34"
+                    "value": "xywh=1740,2227,879,34"
                 }
             }
         },
@@ -4589,7 +4589,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1741,2256,878,46"
+                    "value": "xywh=1741,2256,878,46"
                 }
             }
         },
@@ -4616,7 +4616,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1742,2290,877,38"
+                    "value": "xywh=1742,2290,877,38"
                 }
             }
         },
@@ -4643,7 +4643,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1741,2322,879,40"
+                    "value": "xywh=1741,2322,879,40"
                 }
             }
         },
@@ -4670,7 +4670,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1743,2356,876,39"
+                    "value": "xywh=1743,2356,876,39"
                 }
             }
         },
@@ -4697,7 +4697,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1741,2389,878,35"
+                    "value": "xywh=1741,2389,878,35"
                 }
             }
         },
@@ -4724,7 +4724,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1742,2421,879,38"
+                    "value": "xywh=1742,2421,879,38"
                 }
             }
         },
@@ -4751,7 +4751,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1743,2453,877,38"
+                    "value": "xywh=1743,2453,877,38"
                 }
             }
         },
@@ -4778,7 +4778,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1744,2483,877,39"
+                    "value": "xywh=1744,2483,877,39"
                 }
             }
         },
@@ -4805,7 +4805,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1741,2517,879,38"
+                    "value": "xywh=1741,2517,879,38"
                 }
             }
         },
@@ -4832,7 +4832,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1742,2549,895,41"
+                    "value": "xywh=1742,2549,895,41"
                 }
             }
         },
@@ -4859,7 +4859,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1742,2582,879,39"
+                    "value": "xywh=1742,2582,879,39"
                 }
             }
         },
@@ -4886,7 +4886,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1743,2623,350,32"
+                    "value": "xywh=1743,2623,350,32"
                 }
             }
         },
@@ -4913,7 +4913,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1784,2648,837,38"
+                    "value": "xywh=1784,2648,837,38"
                 }
             }
         },
@@ -4940,7 +4940,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1743,2682,877,35"
+                    "value": "xywh=1743,2682,877,35"
                 }
             }
         },
@@ -4967,7 +4967,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1743,2715,880,37"
+                    "value": "xywh=1743,2715,880,37"
                 }
             }
         },
@@ -4994,7 +4994,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1743,2743,879,41"
+                    "value": "xywh=1743,2743,879,41"
                 }
             }
         },
@@ -5021,7 +5021,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1743,2781,878,35"
+                    "value": "xywh=1743,2781,878,35"
                 }
             }
         },
@@ -5048,7 +5048,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1745,2812,877,37"
+                    "value": "xywh=1745,2812,877,37"
                 }
             }
         },
@@ -5075,7 +5075,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1745,2846,877,36"
+                    "value": "xywh=1745,2846,877,36"
                 }
             }
         },
@@ -5102,7 +5102,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1745,2879,851,35"
+                    "value": "xywh=1745,2879,851,35"
                 }
             }
         },
@@ -5129,7 +5129,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1789,2910,835,36"
+                    "value": "xywh=1789,2910,835,36"
                 }
             }
         },
@@ -5156,7 +5156,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1746,2942,879,35"
+                    "value": "xywh=1746,2942,879,35"
                 }
             }
         },
@@ -5183,7 +5183,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1746,2995,881,25"
+                    "value": "xywh=1746,2995,881,25"
                 }
             }
         },
@@ -5210,7 +5210,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1746,3039,881,40"
+                    "value": "xywh=1746,3039,881,40"
                 }
             }
         },
@@ -5237,7 +5237,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1747,3072,881,35"
+                    "value": "xywh=1747,3072,881,35"
                 }
             }
         },
@@ -5264,7 +5264,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1747,3104,881,38"
+                    "value": "xywh=1747,3104,881,38"
                 }
             }
         },
@@ -5291,7 +5291,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1747,3136,881,38"
+                    "value": "xywh=1747,3136,881,38"
                 }
             }
         },
@@ -5318,7 +5318,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1748,3170,780,36"
+                    "value": "xywh=1748,3170,780,36"
                 }
             }
         },
@@ -5345,7 +5345,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1789,3205,840,36"
+                    "value": "xywh=1789,3205,840,36"
                 }
             }
         },
@@ -5372,7 +5372,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1749,3237,880,39"
+                    "value": "xywh=1749,3237,880,39"
                 }
             }
         },
@@ -5399,7 +5399,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1750,3271,879,38"
+                    "value": "xywh=1750,3271,879,38"
                 }
             }
         },
@@ -5426,7 +5426,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1751,3302,879,40"
+                    "value": "xywh=1751,3302,879,40"
                 }
             }
         },
@@ -5453,7 +5453,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1751,3334,879,40"
+                    "value": "xywh=1751,3334,879,40"
                 }
             }
         },
@@ -5480,7 +5480,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1751,3368,880,39"
+                    "value": "xywh=1751,3368,880,39"
                 }
             }
         },
@@ -5507,7 +5507,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1752,3401,879,39"
+                    "value": "xywh=1752,3401,879,39"
                 }
             }
         },
@@ -5534,7 +5534,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1752,3432,879,37"
+                    "value": "xywh=1752,3432,879,37"
                 }
             }
         },
@@ -5561,7 +5561,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1752,3465,879,37"
+                    "value": "xywh=1752,3465,879,37"
                 }
             }
         },
@@ -5588,7 +5588,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1753,3494,878,43"
+                    "value": "xywh=1753,3494,878,43"
                 }
             }
         },
@@ -5615,7 +5615,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1753,3526,878,44"
+                    "value": "xywh=1753,3526,878,44"
                 }
             }
         },
@@ -5642,7 +5642,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1754,3564,879,36"
+                    "value": "xywh=1754,3564,879,36"
                 }
             }
         },
@@ -5669,7 +5669,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1754,3591,880,41"
+                    "value": "xywh=1754,3591,880,41"
                 }
             }
         },
@@ -5696,7 +5696,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1754,3629,879,39"
+                    "value": "xywh=1754,3629,879,39"
                 }
             }
         },
@@ -5723,7 +5723,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1755,3661,878,39"
+                    "value": "xywh=1755,3661,878,39"
                 }
             }
         },
@@ -5750,7 +5750,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1755,3694,879,37"
+                    "value": "xywh=1755,3694,879,37"
                 }
             }
         },
@@ -5777,7 +5777,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1757,3735,211,30"
+                    "value": "xywh=1757,3735,211,30"
                 }
             }
         },
@@ -5804,7 +5804,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1796,3759,839,37"
+                    "value": "xywh=1796,3759,839,37"
                 }
             }
         },
@@ -5831,7 +5831,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1756,3788,881,43"
+                    "value": "xywh=1756,3788,881,43"
                 }
             }
         },
@@ -5858,7 +5858,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1757,3824,880,40"
+                    "value": "xywh=1757,3824,880,40"
                 }
             }
         },
@@ -5885,7 +5885,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1757,3857,880,35"
+                    "value": "xywh=1757,3857,880,35"
                 }
             }
         },
@@ -5912,7 +5912,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1757,3889,880,39"
+                    "value": "xywh=1757,3889,880,39"
                 }
             }
         },
@@ -5939,7 +5939,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1758,3923,879,34"
+                    "value": "xywh=1758,3923,879,34"
                 }
             }
         },
@@ -5966,7 +5966,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1758,3950,880,43"
+                    "value": "xywh=1758,3950,880,43"
                 }
             }
         },
@@ -5993,7 +5993,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1758,3988,879,38"
+                    "value": "xywh=1758,3988,879,38"
                 }
             }
         },
@@ -6020,7 +6020,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1758,4020,881,39"
+                    "value": "xywh=1758,4020,881,39"
                 }
             }
         },
@@ -6047,7 +6047,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1759,4052,880,39"
+                    "value": "xywh=1759,4052,880,39"
                 }
             }
         },
@@ -6074,7 +6074,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1761,4085,879,40"
+                    "value": "xywh=1761,4085,879,40"
                 }
             }
         },
@@ -6101,7 +6101,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1761,4118,879,39"
+                    "value": "xywh=1761,4118,879,39"
                 }
             }
         },
@@ -6128,7 +6128,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1762,4150,878,41"
+                    "value": "xywh=1762,4150,878,41"
                 }
             }
         },
@@ -6155,7 +6155,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1762,4179,879,43"
+                    "value": "xywh=1762,4179,879,43"
                 }
             }
         },
@@ -6182,7 +6182,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1763,4216,877,39"
+                    "value": "xywh=1763,4216,877,39"
                 }
             }
         },
@@ -6209,7 +6209,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1764,4249,877,38"
+                    "value": "xywh=1764,4249,877,38"
                 }
             }
         },
@@ -6236,7 +6236,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1763,4280,879,41"
+                    "value": "xywh=1763,4280,879,41"
                 }
             }
         },
@@ -6263,7 +6263,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1764,4312,879,41"
+                    "value": "xywh=1764,4312,879,41"
                 }
             }
         },
@@ -6290,7 +6290,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1764,4346,878,40"
+                    "value": "xywh=1764,4346,878,40"
                 }
             }
         },
@@ -6317,7 +6317,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1764,4379,880,39"
+                    "value": "xywh=1764,4379,880,39"
                 }
             }
         },
@@ -6344,7 +6344,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1764,4410,881,39"
+                    "value": "xywh=1764,4410,881,39"
                 }
             }
         },
@@ -6371,7 +6371,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1881,4444,764,35"
+                    "value": "xywh=1881,4444,764,35"
                 }
             }
         },
@@ -6398,7 +6398,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2041,4476,604,37"
+                    "value": "xywh=2041,4476,604,37"
                 }
             }
         },
@@ -6425,7 +6425,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2057,4508,589,39"
+                    "value": "xywh=2057,4508,589,39"
                 }
             }
         },
@@ -6452,7 +6452,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1766,4455,94,30"
+                    "value": "xywh=1766,4455,94,30"
                 }
             }
         },
@@ -6479,7 +6479,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1767,4484,257,33"
+                    "value": "xywh=1767,4484,257,33"
                 }
             }
         },
@@ -6506,7 +6506,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=1767,4517,269,35"
+                    "value": "xywh=1767,4517,269,35"
                 }
             }
         },
@@ -6533,7 +6533,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2658,635,844,43"
+                    "value": "xywh=2658,635,844,43"
                 }
             }
         },
@@ -6560,7 +6560,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2661,668,841,43"
+                    "value": "xywh=2661,668,841,43"
                 }
             }
         },
@@ -6587,7 +6587,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2661,699,834,42"
+                    "value": "xywh=2661,699,834,42"
                 }
             }
         },
@@ -6614,7 +6614,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2661,733,841,41"
+                    "value": "xywh=2661,733,841,41"
                 }
             }
         },
@@ -6641,7 +6641,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2661,765,841,40"
+                    "value": "xywh=2661,765,841,40"
                 }
             }
         },
@@ -6668,7 +6668,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2662,797,833,41"
+                    "value": "xywh=2662,797,833,41"
                 }
             }
         },
@@ -6695,7 +6695,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2661,824,841,46"
+                    "value": "xywh=2661,824,841,46"
                 }
             }
         },
@@ -6722,7 +6722,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2662,862,840,40"
+                    "value": "xywh=2662,862,840,40"
                 }
             }
         },
@@ -6749,7 +6749,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2662,894,840,40"
+                    "value": "xywh=2662,894,840,40"
                 }
             }
         },
@@ -6776,7 +6776,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2661,928,841,39"
+                    "value": "xywh=2661,928,841,39"
                 }
             }
         },
@@ -6803,7 +6803,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2662,959,840,38"
+                    "value": "xywh=2662,959,840,38"
                 }
             }
         },
@@ -6830,7 +6830,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2663,992,838,39"
+                    "value": "xywh=2663,992,838,39"
                 }
             }
         },
@@ -6857,7 +6857,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2662,1032,342,33"
+                    "value": "xywh=2662,1032,342,33"
                 }
             }
         },
@@ -6884,7 +6884,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2718,1077,759,63"
+                    "value": "xywh=2718,1077,759,63"
                 }
             }
         },
@@ -6911,7 +6911,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=3119,1145,383,31"
+                    "value": "xywh=3119,1145,383,31"
                 }
             }
         },
@@ -6938,7 +6938,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2702,1185,800,38"
+                    "value": "xywh=2702,1185,800,38"
                 }
             }
         },
@@ -6965,7 +6965,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2660,1217,842,36"
+                    "value": "xywh=2660,1217,842,36"
                 }
             }
         },
@@ -6992,7 +6992,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2662,1248,840,38"
+                    "value": "xywh=2662,1248,840,38"
                 }
             }
         },
@@ -7019,7 +7019,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2661,1280,839,38"
+                    "value": "xywh=2661,1280,839,38"
                 }
             }
         },
@@ -7046,7 +7046,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2663,1313,839,35"
+                    "value": "xywh=2663,1313,839,35"
                 }
             }
         },
@@ -7073,7 +7073,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2661,1345,841,38"
+                    "value": "xywh=2661,1345,841,38"
                 }
             }
         },
@@ -7100,7 +7100,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2661,1377,834,38"
+                    "value": "xywh=2661,1377,834,38"
                 }
             }
         },
@@ -7127,7 +7127,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2662,1410,837,38"
+                    "value": "xywh=2662,1410,837,38"
                 }
             }
         },
@@ -7154,7 +7154,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2662,1442,832,39"
+                    "value": "xywh=2662,1442,832,39"
                 }
             }
         },
@@ -7181,7 +7181,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2662,1474,834,38"
+                    "value": "xywh=2662,1474,834,38"
                 }
             }
         },
@@ -7208,7 +7208,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2662,1508,837,39"
+                    "value": "xywh=2662,1508,837,39"
                 }
             }
         },
@@ -7235,7 +7235,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2662,1539,840,40"
+                    "value": "xywh=2662,1539,840,40"
                 }
             }
         },
@@ -7262,7 +7262,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2662,1566,834,42"
+                    "value": "xywh=2662,1566,834,42"
                 }
             }
         },
@@ -7289,7 +7289,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2662,1601,836,42"
+                    "value": "xywh=2662,1601,836,42"
                 }
             }
         },
@@ -7316,7 +7316,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2662,1631,793,45"
+                    "value": "xywh=2662,1631,793,45"
                 }
             }
         },
@@ -7343,7 +7343,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2708,1665,794,42"
+                    "value": "xywh=2708,1665,794,42"
                 }
             }
         },
@@ -7370,7 +7370,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2667,1698,835,37"
+                    "value": "xywh=2667,1698,835,37"
                 }
             }
         },
@@ -7397,7 +7397,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2667,1732,835,39"
+                    "value": "xywh=2667,1732,835,39"
                 }
             }
         },
@@ -7424,7 +7424,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2667,1761,835,42"
+                    "value": "xywh=2667,1761,835,42"
                 }
             }
         },
@@ -7451,7 +7451,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2667,1794,834,41"
+                    "value": "xywh=2667,1794,834,41"
                 }
             }
         },
@@ -7478,7 +7478,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2667,1826,824,36"
+                    "value": "xywh=2667,1826,824,36"
                 }
             }
         },
@@ -7505,7 +7505,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2668,1858,834,41"
+                    "value": "xywh=2668,1858,834,41"
                 }
             }
         },
@@ -7532,7 +7532,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2669,1890,598,43"
+                    "value": "xywh=2669,1890,598,43"
                 }
             }
         },
@@ -7559,7 +7559,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2758,1940,687,63"
+                    "value": "xywh=2758,1940,687,63"
                 }
             }
         },
@@ -7586,7 +7586,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2754,2011,701,37"
+                    "value": "xywh=2754,2011,701,37"
                 }
             }
         },
@@ -7613,7 +7613,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=3227,2053,272,32"
+                    "value": "xywh=3227,2053,272,32"
                 }
             }
         },
@@ -7640,7 +7640,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2709,2089,793,36"
+                    "value": "xywh=2709,2089,793,36"
                 }
             }
         },
@@ -7667,7 +7667,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2667,2121,835,39"
+                    "value": "xywh=2667,2121,835,39"
                 }
             }
         },
@@ -7694,7 +7694,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2667,2153,835,40"
+                    "value": "xywh=2667,2153,835,40"
                 }
             }
         },
@@ -7721,7 +7721,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2668,2187,824,35"
+                    "value": "xywh=2668,2187,824,35"
                 }
             }
         },
@@ -7748,7 +7748,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2668,2219,834,39"
+                    "value": "xywh=2668,2219,834,39"
                 }
             }
         },
@@ -7775,7 +7775,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2669,2249,833,40"
+                    "value": "xywh=2669,2249,833,40"
                 }
             }
         },
@@ -7802,7 +7802,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2670,2284,818,33"
+                    "value": "xywh=2670,2284,818,33"
                 }
             }
         },
@@ -7829,7 +7829,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2669,2310,833,41"
+                    "value": "xywh=2669,2310,833,41"
                 }
             }
         },
@@ -7856,7 +7856,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2669,2344,814,43"
+                    "value": "xywh=2669,2344,814,43"
                 }
             }
         },
@@ -7883,7 +7883,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2670,2379,832,37"
+                    "value": "xywh=2670,2379,832,37"
                 }
             }
         },
@@ -7910,7 +7910,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2670,2408,831,42"
+                    "value": "xywh=2670,2408,831,42"
                 }
             }
         },
@@ -7937,7 +7937,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2671,2448,755,32"
+                    "value": "xywh=2671,2448,755,32"
                 }
             }
         },
@@ -7964,7 +7964,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2872,2520,473,60"
+                    "value": "xywh=2872,2520,473,60"
                 }
             }
         },
@@ -7991,7 +7991,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2759,2584,700,42"
+                    "value": "xywh=2759,2584,700,42"
                 }
             }
         },
@@ -8018,7 +8018,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=3221,2630,281,29"
+                    "value": "xywh=3221,2630,281,29"
                 }
             }
         },
@@ -8045,7 +8045,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2712,2660,766,42"
+                    "value": "xywh=2712,2660,766,42"
                 }
             }
         },
@@ -8072,7 +8072,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2672,2698,816,38"
+                    "value": "xywh=2672,2698,816,38"
                 }
             }
         },
@@ -8099,7 +8099,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2672,2729,830,41"
+                    "value": "xywh=2672,2729,830,41"
                 }
             }
         },
@@ -8126,7 +8126,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2672,2762,830,38"
+                    "value": "xywh=2672,2762,830,38"
                 }
             }
         },
@@ -8153,7 +8153,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2673,2795,829,43"
+                    "value": "xywh=2673,2795,829,43"
                 }
             }
         },
@@ -8180,7 +8180,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2673,2826,828,44"
+                    "value": "xywh=2673,2826,828,44"
                 }
             }
         },
@@ -8207,7 +8207,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2675,2859,827,41"
+                    "value": "xywh=2675,2859,827,41"
                 }
             }
         },
@@ -8234,7 +8234,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2675,2892,827,42"
+                    "value": "xywh=2675,2892,827,42"
                 }
             }
         },
@@ -8261,7 +8261,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2674,2942,285,24"
+                    "value": "xywh=2674,2942,285,24"
                 }
             }
         },
@@ -8288,7 +8288,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2671,2974,831,48"
+                    "value": "xywh=2671,2974,831,48"
                 }
             }
         },
@@ -8315,7 +8315,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2675,3022,827,39"
+                    "value": "xywh=2675,3022,827,39"
                 }
             }
         },
@@ -8342,7 +8342,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2678,3054,824,39"
+                    "value": "xywh=2678,3054,824,39"
                 }
             }
         },
@@ -8369,7 +8369,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2678,3082,824,43"
+                    "value": "xywh=2678,3082,824,43"
                 }
             }
         },
@@ -8396,7 +8396,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2678,3120,821,37"
+                    "value": "xywh=2678,3120,821,37"
                 }
             }
         },
@@ -8423,7 +8423,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2678,3153,824,40"
+                    "value": "xywh=2678,3153,824,40"
                 }
             }
         },
@@ -8450,7 +8450,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2679,3186,793,39"
+                    "value": "xywh=2679,3186,793,39"
                 }
             }
         },
@@ -8477,7 +8477,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2718,3246,784,35"
+                    "value": "xywh=2718,3246,784,35"
                 }
             }
         },
@@ -8504,7 +8504,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2679,3280,802,37"
+                    "value": "xywh=2679,3280,802,37"
                 }
             }
         },
@@ -8531,7 +8531,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2679,3312,821,38"
+                    "value": "xywh=2679,3312,821,38"
                 }
             }
         },
@@ -8558,7 +8558,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2679,3344,815,37"
+                    "value": "xywh=2679,3344,815,37"
                 }
             }
         },
@@ -8585,7 +8585,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2681,3379,821,36"
+                    "value": "xywh=2681,3379,821,36"
                 }
             }
         },
@@ -8612,7 +8612,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2681,3410,821,38"
+                    "value": "xywh=2681,3410,821,38"
                 }
             }
         },
@@ -8639,7 +8639,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2682,3443,820,37"
+                    "value": "xywh=2682,3443,820,37"
                 }
             }
         },
@@ -8666,7 +8666,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2682,3471,819,41"
+                    "value": "xywh=2682,3471,819,41"
                 }
             }
         },
@@ -8693,7 +8693,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2683,3508,798,39"
+                    "value": "xywh=2683,3508,798,39"
                 }
             }
         },
@@ -8720,7 +8720,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2683,3540,819,39"
+                    "value": "xywh=2683,3540,819,39"
                 }
             }
         },
@@ -8747,7 +8747,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2683,3572,819,39"
+                    "value": "xywh=2683,3572,819,39"
                 }
             }
         },
@@ -8774,7 +8774,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2684,3606,818,39"
+                    "value": "xywh=2684,3606,818,39"
                 }
             }
         },
@@ -8801,7 +8801,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2684,3640,818,36"
+                    "value": "xywh=2684,3640,818,36"
                 }
             }
         },
@@ -8828,7 +8828,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2684,3671,818,36"
+                    "value": "xywh=2684,3671,818,36"
                 }
             }
         },
@@ -8855,7 +8855,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2685,3704,817,37"
+                    "value": "xywh=2685,3704,817,37"
                 }
             }
         },
@@ -8882,7 +8882,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2686,3737,808,38"
+                    "value": "xywh=2686,3737,808,38"
                 }
             }
         },
@@ -8909,7 +8909,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2686,3768,816,39"
+                    "value": "xywh=2686,3768,816,39"
                 }
             }
         },
@@ -8936,7 +8936,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2687,3800,814,38"
+                    "value": "xywh=2687,3800,814,38"
                 }
             }
         },
@@ -8963,7 +8963,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2686,3835,800,37"
+                    "value": "xywh=2686,3835,800,37"
                 }
             }
         },
@@ -8990,7 +8990,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2687,3867,815,37"
+                    "value": "xywh=2687,3867,815,37"
                 }
             }
         },
@@ -9017,7 +9017,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2687,3899,815,38"
+                    "value": "xywh=2687,3899,815,38"
                 }
             }
         },
@@ -9044,7 +9044,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2688,3932,814,37"
+                    "value": "xywh=2688,3932,814,37"
                 }
             }
         },
@@ -9071,7 +9071,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2688,3964,813,37"
+                    "value": "xywh=2688,3964,813,37"
                 }
             }
         },
@@ -9098,7 +9098,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2688,3997,814,37"
+                    "value": "xywh=2688,3997,814,37"
                 }
             }
         },
@@ -9125,7 +9125,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2689,4031,813,37"
+                    "value": "xywh=2689,4031,813,37"
                 }
             }
         },
@@ -9152,7 +9152,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2689,4063,813,36"
+                    "value": "xywh=2689,4063,813,36"
                 }
             }
         },
@@ -9179,7 +9179,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2727,4103,764,59"
+                    "value": "xywh=2727,4103,764,59"
                 }
             }
         },
@@ -9206,7 +9206,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2691,4129,803,33"
+                    "value": "xywh=2691,4129,803,33"
                 }
             }
         },
@@ -9233,7 +9233,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2692,4154,810,38"
+                    "value": "xywh=2692,4154,810,38"
                 }
             }
         },
@@ -9260,7 +9260,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2692,4180,788,31"
+                    "value": "xywh=2692,4180,788,31"
                 }
             }
         },
@@ -9287,7 +9287,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2692,4201,810,61"
+                    "value": "xywh=2692,4201,810,61"
                 }
             }
         },
@@ -9314,7 +9314,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2692,4229,804,30"
+                    "value": "xywh=2692,4229,804,30"
                 }
             }
         },
@@ -9341,7 +9341,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2692,4257,810,54"
+                    "value": "xywh=2692,4257,810,54"
                 }
             }
         },
@@ -9368,7 +9368,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2732,4282,752,30"
+                    "value": "xywh=2732,4282,752,30"
                 }
             }
         },
@@ -9395,7 +9395,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2915,4302,587,33"
+                    "value": "xywh=2915,4302,587,33"
                 }
             }
         },
@@ -9422,7 +9422,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2693,4330,809,57"
+                    "value": "xywh=2693,4330,809,57"
                 }
             }
         },
@@ -9449,7 +9449,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2694,4358,788,28"
+                    "value": "xywh=2694,4358,788,28"
                 }
             }
         },
@@ -9476,7 +9476,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2735,4384,670,55"
+                    "value": "xywh=2735,4384,670,55"
                 }
             }
         },
@@ -9503,7 +9503,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2699,4405,755,40"
+                    "value": "xywh=2699,4405,755,40"
                 }
             }
         },
@@ -9530,7 +9530,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2694,4436,557,29"
+                    "value": "xywh=2694,4436,557,29"
                 }
             }
         },
@@ -9557,7 +9557,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2699,4514,200,27"
+                    "value": "xywh=2699,4514,200,27"
                 }
             }
         },
@@ -9584,7 +9584,7 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "#xywh=2733,4313,82,23"
+                    "value": "xywh=2733,4313,82,23"
                 }
             }
         }
