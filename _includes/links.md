@@ -68,6 +68,7 @@
 [0326]: {{ site.cookbook_url | absolute_url }}/recipe/0326-annotating-image-layer/ "Annotate a specific images or layers"
 [0306]: {{ site.cookbook_url | absolute_url }}/recipe/0306-linking-annotations-to-manifests/ "Linking external Annotations targeting a Canvas to a Manifest"
 
+[0346]: {{ site.cookbook_url | absolute_url }}/recipe/0346-multilingual-annotation-body/ "Annotating in Multiple Languages"
 [0377]: {{ site.cookbook_url | absolute_url }}/recipe/0377-image-in-annotation/ "Image in annotation"
 
 [cookbook-process]: {{site.cookbook_url | absolute_url }}/recipe
