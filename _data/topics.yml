@@ -16,3 +16,5 @@ realWorldObject:
   label: Real World Object Recipes
 geo-recipes:
   label: Geo Recipes
+content-state:
+  label: Recipes involving Content State
