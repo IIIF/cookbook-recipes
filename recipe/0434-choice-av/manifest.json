@@ -35,43 +35,55 @@
                     "id": "https://fixtures.iiif.io/audio/ucla/egbe-iyawo-ucla.m4a",
                     "type": "Sound",
                     "format": "audio/alac",
-                    "duration": 16,
-                    "label": "ALAC"
+                    "duration": 16.0,
+                    "label": {
+                      "en": ["ALAC"]
+                    }
                   },
                   {
                     "id": "https://fixtures.iiif.io/audio/ucla/egbe-iyawo-ucla.mp3",
                     "type": "Sound",
                     "format": "audio/mp3",
-                    "duration": 16,
-                    "label": "MP3"
+                    "duration": 16.0,
+                    "label": {
+                      "en": ["MP3"]
+                    }
                   },
                   {
                     "id": "https://fixtures.iiif.io/audio/ucla/egbe-iyawo-ucla.flac",
                     "type": "Sound",
                     "format": "audio/flac",
-                    "duration": 16,
-                    "label": "FLAC"
+                    "duration": 16.0,
+                    "label": {
+                      "en": ["FLAC"]
+                    }
                   },
                   {
                     "id": "https://fixtures.iiif.io/audio/ucla/egbe-iyawo-ucla.ogg",
                     "type": "Sound",
                     "format": "audio/ogg",
-                    "duration": 16,
-                    "label": "OGG Vorbis OGG"
+                    "duration": 16.0,
+                    "label": {
+                      "en": ["OGG Vorbis OGG"]
+                    }
                   },
                   {
                     "id": "https://fixtures.iiif.io/audio/ucla/egbe-iyawo-ucla.mpeg",
                     "type": "Sound",
                     "format": "audio/mpeg",
-                    "duration": 16,
-                    "label": "MPEG2"
+                    "duration": 16.0,
+                    "label": {
+                      "en": ["MPEG2"]
+                    }
                   },
                   {
                     "id": "https://fixtures.iiif.io/audio/ucla/egbe-iyawo-ucla.wav",
                     "type": "Sound",
                     "format": "audio/wav",
-                    "duration": 16,
-                    "label": "WAV"
+                    "duration": 16.0,
+                    "label": {
+                      "en": ["WAV"]
+                    }
                   }
                 ]
               }
