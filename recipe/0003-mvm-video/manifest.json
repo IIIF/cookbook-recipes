@@ -8,7 +8,7 @@
         "id": "{{ id.path }}/canvas",
         "type": "Canvas",
         "height": 360,
-        "width": 640,
+        "width": 480,
         "duration": 572.034,
         "items": [
           {
