@@ -36,10 +36,10 @@ Eventually, we can create an anchor tag with the link as the `href` attribute to
 ```
 
 **Mirador**:
-https://projectmirador.org/embed/?iiif-content=https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json
+[https://projectmirador.org/embed/?iiif-content=https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json](https://projectmirador.org/embed/?iiif-content=https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json)
 
 **Clover**:
-https://samvera-labs.github.io/clover-iiif/docs/viewer/demo?iiif-content=https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json
+[https://samvera-labs.github.io/clover-iiif/docs/viewer/demo?iiif-content=https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json](https://samvera-labs.github.io/clover-iiif/docs/viewer/demo?iiif-content=https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json)
 
 ## Related Recipes
 
