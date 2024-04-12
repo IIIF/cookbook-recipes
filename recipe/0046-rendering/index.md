@@ -7,6 +7,7 @@ summary: "Linking to non-IIIF representations of the object, such as a PDF."
 viewers:
  - Mirador  
  - Annona
+ - Clover
 topic: property
 property: rendering
 ---
