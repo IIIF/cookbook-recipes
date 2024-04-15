@@ -11,34 +11,28 @@ topic:
  - content-state
 ---
 
-## Use Case
+# Use case
+You would like to provide the user a link to click that will open a specific Manifest directly in a preselected viewer application. For example, on your web page or in an email to a user or colleague, you share a link to a IIIF Manifest for a book that will automatically open in a Mirador instance.
 
-You want to generate a link that you can use to open a Manifest using a specific Viewer. For instance, in your web page, you want to allow the user to click on a link that opens Mirador and a Manifest of a book relevant to the page.
+# Implementation notes
+This type of request can be implemented using the [IIIF Content State API](https://iiif.io/api/content-state) following the [HTTP GET (Query String) Parameter](https://iiif.io/api/content-state/1.0/#initialization-mechanisms-link) section.
 
-## Implementation Notes
+The Manifest URL is provided as the value of the iiif-content parameter following the viewer instance URL. Assuming the viewer can be accessed at https://example.org/viewer we can pass the `iiif-content` parameter as follows:
 
-This request can be implemented in a standardized manner using the [IIIF Content State API](https://iiif.io/api/content-state) in particular following the [HTTP GET (Query String) Parameter section](https://iiif.io/api/content-state/1.0/#initialization-mechanisms-link).
+```
+https://example.org/viewer?iiif-content=manifest-url
+```
 
-
-The link of the Manifest to be opened with the viewer should be provided as the value of `iiif-content` parameter of the viewer URL.
+Note when the content state is a plain URI, rather than a JSON object, it must not be [content-state-encoded](https://iiif.io/api/content-state/0.9/#62-content-state-encoding-and-uri-requirements).
 
 ## Example
 
-We want to create an hyperlink to open the Manifest available at the following link https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json using a viewer available at  the following page https://example.org/viewer. We can pass as the value of the query parameter `iiif-content` of the viewer landing page the Manifest URL:
-```html
-https://example.org/viewer?iiif-content=https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json
-```
+To open the IIIF Manifest [https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json](https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json) in the Mirador viewer hosted at [https://projectmirador.org/embed/](https://projectmirador.org/embed/), we construct the link as follows:
 
-Eventually, we can create an anchor tag with the link as the `href` attribute to use in the web page:
-
-```html
-<a href="https://example.org/viewer?iiif-content=https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json">Link for visualizing the manifest using a viewer.</a>
-```
-
-**Mirador**:
 [https://projectmirador.org/embed/?iiif-content=https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json](https://projectmirador.org/embed/?iiif-content=https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json)
 
-**Clover**:
+Similarly with Clover we append the `iiif-content` parameter to the viewer location as so:
+
 [https://samvera-labs.github.io/clover-iiif/docs/viewer/demo?iiif-content=https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json](https://samvera-labs.github.io/clover-iiif/docs/viewer/demo?iiif-content=https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json)
 
 ## Related Recipes
