@@ -1,5 +1,5 @@
 ---
-title: Loading a manifest with a viewer using a link
+title: Sharing a link to open a Manifest in a specific viewer.
 id: 466
 layout: recipe
 tags: [annotation]
