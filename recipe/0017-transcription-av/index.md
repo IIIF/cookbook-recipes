@@ -33,7 +33,7 @@ None.
 
 In this example, the Manifest is using a single A/V file; therefore, it is equivalent to link the transcript at the Manifest level or at the Canvas level and we do it at the Canvas level to complement the example in [Providing Alternative Representations][0046].
 
-In Ramp, the transcript file is made available to download under the player controls. Click the filename listed in the menu to download the transcript file.
+In Ramp, the transcript file is made available to download on the right of the player controls. Click the filename listed in the menu to download the transcript file.
 
 {% include manifest_links.html viewers="Ramp" manifest="manifest.json" %}
 {% include jsonviewer.html src="manifest.json" config='data-line="39-50"'%}
