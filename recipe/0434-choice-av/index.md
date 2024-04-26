@@ -24,7 +24,7 @@ This recipe is structurally very similar to [the Image Choice recipe][0033], tho
 
 In the manifest, the central Annotation's `body` is a resource with a type of `choice`. Each resource in the `items` property is instead the media to be presented. This structure is defined in the W3C Web Annotation Data Model:
 
-> "A 'Choice' has an ordered list of resources from which an application should select only one to process or display. The order is given from the most preferable to least preferable, according to the Annotation's creator or publisher." *— from [Choice Between Bodies](https://www.w3.org/TR/annotation-model/#choice-between-bodies)*
+> "A Choice has an ordered list of resources from which an application should select only one to process or display. The order is given from the most preferable to least preferable, according to the Annotation's creator or publisher." *— from [Choice Between Bodies](https://www.w3.org/TR/annotation-model/#choice-between-bodies)*
 
 Understanding that not all file formats are playable in all viewers or, as relevant, all browsers, the viewer is expected to present for playing the first audio file it is capable of playing. Viewers should use the `format` property of each resource option to determine which option to present to start or as a default.
 
