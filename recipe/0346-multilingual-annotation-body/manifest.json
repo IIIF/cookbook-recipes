@@ -4,15 +4,15 @@
   "type": "Manifest",
   "label": {
     "en": [
-      "Ruins of Ninomaru (second compound) and Dō (copper)-mon Gate [picture 5]"
+      "Koto, chess, calligraphy, and painting"
     ]
   },
   "items": [
     {
       "id": "{{ id.path }}/canvas/p1",
       "type": "Canvas",
-      "height": 3081,
-      "width": 3869,
+      "height": 31722,
+      "width": 70399,
       "items": [
         {
           "id": "{{ id.path }}/page/p1/1",
@@ -23,14 +23,14 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://emuseum.nich.go.jp/iiif/?IIIF=/100813005001.tif/full/full/0/default.jpg",
+                "id": "https://emuseum.nich.go.jp/iiif/?IIIF=/100320001004.tif/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 3081,
-                "width": 3869,
+                "height": 31722,
+                "width": 70399,
                 "service": [
                   {
-                    "id": "https://emuseum.nich.go.jp/iiif/?IIIF=/100813005001.tif/",
+                    "id": "https://emuseum.nich.go.jp/iiif/?IIIF=/100320001004.tif",
                     "profile": "level1",
                     "type": "ImageService2"
                   }
@@ -56,20 +56,20 @@
 			  	"items": [
 					{
 						"type": "TextualBody",
-						"value": "Gänseliesel-Brunnen",
-						"language": "de",
+						"value": "Koto with a cover being carried",
+						"language": "en",
 						"format": "text/plain"
 					},
 					{
 						"type": "TextualBody",
-						"value": "国宝 虎ノ門 (第五十八図)",
+						"value": "琴",
 						"language": "ja",
 						"format": "text/plain"
 					}
 			  	]
 			  	}
 			  ],
-			  "target": "{{ id.path }}/canvas/p1#xywh=265,661,1260,1239"
+			  "target": "{{ id.path }}/canvas/p1#xywh=1500,1100,1500,1500"
 			}
 		  ]
 		}
