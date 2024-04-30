@@ -1,12 +1,13 @@
 ---
-title: Name of Recipe
-id: -1
+title: Annotating in Multiple Languages
+id: 346
 layout: recipe
-tags: [tbc]
+tags: annotation
 summary: "tbc"
 viewers:
+ - Annona
 topic: 
- - basic
+ - annotation
 ---
 
 ## Use Case
@@ -32,7 +33,7 @@ If you don't know what the restrictions might be initially, just leave the follo
 Describe the solution in prose and provide an example.
 The example json document must be an external document, and imported with the following:
 
-{% include manifest_links.html viewers="UV, Mirador, Curation" manifest="manifest.json" %}
+{% include manifest_links.html manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 
