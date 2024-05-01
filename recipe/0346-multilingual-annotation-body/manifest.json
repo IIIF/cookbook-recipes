@@ -69,7 +69,7 @@
 			  	]
 			  	}
 			  ],
-			  "target": "{{ id.path }}/canvas/p1#xywh=1500,1100,1500,1500"
+			  "target": "{{ id.path }}/canvas/p1#xywh=1650,1100,950,1300"
 			}
 		  ]
 		}
