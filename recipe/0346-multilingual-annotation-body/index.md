@@ -18,11 +18,11 @@ You have an image that you want to annotate for viewing by a global or other pol
 
 To include language variation within any single annotation, combine the Choice structure, explained more fully in [Multiple Choice of Images][0033] and [Multiple Choice of Audio Formats][0434] with the appropriate annotation structure, for example the simple version shown in [Simple Annotation — Tagging][0021]. This recipe introduces one practical real-world situation for doing that.
 
-The `body` of an Annotation uses the Choice structure, with each of its items differing only in the `language` and `value` properties. Note that an annotation's `value` and `language` in a Choice are represented as separate properties, unlike Manifest properties that use language maps. It is permissible to add a `purpose` to each item of the Choice, but not required.
+The `body` of an Annotation uses the Choice structure, with each of its items differing only in the `language` and `value` properties. Note that an annotation's `value` and `language` in a Choice are represented as separate properties, unlike Manifest properties that use language maps.
 
 Somewhat as with the [Multiple Choice of Audio Formats][0434] recipe, the nature of the choice in this recipe is shared among the manifest creator, the visitor, and the client. The manifest creator defines the preferred order of languages, the visitor's browser sends to the client its preferred language, and the client negotiates the interaction of the preceding to provide an interface to the visitor. (It is expected that any client will be capable of displaying the entire Unicode set, obviating client-based reasons to conceal any annotation language version.)
 
-For the user interface to the multiple language versions of an annotation, a client is expected to provide a visitor with a clear way to know there are equivalent annotations in multiple languages, with identifying information about which languages are in use, and with a way to switch between languages at will. Clients are expected to respect a visitor's browser's transmitted language preferences.
+For the user interface to the multiple language versions of an annotation, a client is expected to provide a visitor with a clear way to know there are equivalent annotations in multiple languages, with identifying information about which languages are in use, and with a way to switch between languages at will.
 
 ## Restrictions
 
