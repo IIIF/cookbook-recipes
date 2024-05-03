@@ -47,9 +47,9 @@
 		  "type": "AnnotationPage",
 		  "items": [
 			{
-			  "id": "{{ id.path }}/annotation/p0002-tag",
+			  "id": "{{ id.path }}/annotation/p0001-comment",
 			  "type": "Annotation",
-			  "motivation": "tagging",
+			  "motivation": "commenting",
 			  "body": [
 			  {
 			  	"type": "Choice",
