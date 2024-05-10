@@ -64,16 +64,16 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://emuseum.nich.go.jp/iiif/?IIIF=/100320001004.tif/full/full/0/default.jpg",
+                "id": "https://iiif.io/api/image/3.0/example/reference/36ca0a3370db128ec984b33d71a1543d-100320001004/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 31722,
                 "width": 70399,
                 "service": [
                   {
-                    "id": "https://emuseum.nich.go.jp/iiif/?IIIF=/100320001004.tif",
+                    "id": "https://iiif.io/api/image/3.0/example/reference/36ca0a3370db128ec984b33d71a1543d-100320001004",
                     "profile": "level1",
-                    "type": "ImageService2"
+                    "type": "ImageService3"
                   }
                 ]
               },
