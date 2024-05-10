@@ -28,22 +28,22 @@
       ]
     }
   },
-    "metadata": [
+  "metadata": [
       {
         "label": {
           "en": [
-            "License"
+            "Terms of Use"
           ],
           "ja": [
-            "License"
+            "利用上の注意"
           ]
         },
         "value": {
           "en": [
-            "https://emuseum.nich.go.jp/about"
+            "<a href=\"https://emuseum.nich.go.jp/about?langId=en\">https://emuseum.nich.go.jp/about?langId=en</a>"
           ],
           "ja": [
-            "https://emuseum.nich.go.jp/about"
+            "<a href=\"https://emuseum.nich.go.jp/about?langId=ja\">https://emuseum.nich.go.jp/about?langId=ja</a>"
           ]
         }
       }
