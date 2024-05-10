@@ -71,6 +71,8 @@
 [0346]: {{ site.cookbook_url | absolute_url }}/recipe/0346-multilingual-annotation-body/ "Annotating in Multiple Languages"
 [0377]: {{ site.cookbook_url | absolute_url }}/recipe/0377-image-in-annotation/ "Image in annotation"
 
+[0434]: {{ site.cookbook_url | absolute_url }}/recipe/0434-choice-av/ "Multiple Choice of Audio Formats in a Single View (Canvas)"
+
 [cookbook-process]: {{site.cookbook_url | absolute_url }}/recipe
 
 [trc]: {{ site.root_url | absolute_url }}/community/trc/

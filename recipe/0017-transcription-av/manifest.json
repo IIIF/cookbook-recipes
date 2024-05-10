@@ -2,10 +2,10 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "{{ id.url }}",
   "type": "Manifest",
-  "label": { 
+  "label": {
     "en": [
       "Volleyball for Boys"
-      ] 
+      ]
     },
   "items": [
     {
@@ -40,12 +40,12 @@
         {
           "id": "https://fixtures.iiif.io/video/indiana/volleyball/volleyball.txt",
           "type": "Text",
-          "label": { 
+          "label": {
             "en": [
               "Transcript"
-              ] 
+              ]
             },
-          "format": "text/txt"
+          "format": "text/plain"
         }
       ]
     }

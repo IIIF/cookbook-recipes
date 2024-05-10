@@ -150,6 +150,7 @@ _(leading on to segmentation examples later)_
 * A music album's audio resources
 * ...and its image resoures
 * ...combined to demonstrate _together_
+* [Multiple Choice of Audio Formats in a Single View (Canvas)][0434]
 * [Table of Contents for Multiple A/V files on a Single Canvas][0064] (64)
 * [Table of Contents for Multiple A/V files on Multiple Canvases][0065] (65)
 * Adaptive bit rate AV examples
