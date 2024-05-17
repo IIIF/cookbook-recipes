@@ -10,44 +10,6 @@
       "琴棋書画図屏風"
     ]
   },
-  "requiredStatement": {
-    "label": { 
-      "en": [
-        "Attribution"
-      ],
-      "ja": [
-        "帰属"
-      ] 
-    },
-    "value": {
-      "en": [
-        "National Institutes for Cultural Heritage"
-      ],
-      "ja": [
-        "独立行政法人国立文化財機構"
-      ]
-    }
-  },
-  "metadata": [
-      {
-        "label": {
-          "en": [
-            "Terms of Use"
-          ],
-          "ja": [
-            "利用上の注意"
-          ]
-        },
-        "value": {
-          "en": [
-            "<a href=\"https://emuseum.nich.go.jp/about?langId=en\">https://emuseum.nich.go.jp/about?langId=en</a>"
-          ],
-          "ja": [
-            "<a href=\"https://emuseum.nich.go.jp/about?langId=ja\">https://emuseum.nich.go.jp/about?langId=ja</a>"
-          ]
-        }
-      }
-    ],
   "items": [
     {
       "id": "{{ id.path }}/canvas/p1",
@@ -103,7 +65,7 @@
 					},
 					{
 						"type": "TextualBody",
-						"value": "琴",
+						"value": "袋に収められた琴",
 						"language": "ja",
 						"format": "text/plain"
 					}
