@@ -24,9 +24,9 @@ When there are multiple equivalent annotations from which a user or client shoul
 
 The `body` of an Annotation uses the Choice structure, with each of its items differing only in the `language` and `value` properties. Note that an annotation's `value` and `language` in a Choice are represented as separate properties, unlike Manifest properties that use language maps.
 
-Somewhat as with the [Multiple Choice of Audio Formats][0434] recipe, the nature of the choice in this recipe is shared among the manifest creator, the visitor, and the client. The manifest creator defines the preferred order of languages, the visitor's browser sends to the client its preferred language, and the client negotiates the interaction of the preceding to provide an interface to the visitor. (It is expected that any client will be capable of displaying the entire Unicode set, obviating client-based reasons to conceal any annotation language version.)
+Somewhat as with the [Multiple Choice of Audio Formats][0434] recipe, the nature of the choice in this recipe is shared among the manifest creator, the visitor, and the client. The manifest creator defines the preferred order of languages by the top-to-bottom order of each `item` in the Choice structure. A client may be programmed to take actions based on the quoted W3C Web Annotation Data Model section above. (It is expected that any client will be capable of displaying the entire Unicode set, obviating client-based reasons to conceal any annotation language version.)
 
-For the user interface to the multiple language versions of an annotation, a client is expected to provide a visitor with a clear way to know there are equivalent annotations in multiple languages, with identifying information about which languages are in use, and with a way to switch between languages at will.
+There are many situations where the `item`s in a Choice may have varying languages. User experience with a client will be improved if a client indicates these different versions of the annotation even if the client shows only one initially. For example, one item in the Choice may be a translation.
 
 ## Restrictions
 
@@ -35,9 +35,6 @@ None known.
 ## Example
 
 In this example, the image is from one of a pair of six-fold screens depicting four noble accomplishments in Azuchi-Momoyama period Japan (16th/17th century CE). At its [original online home](https://emuseum.nich.go.jp/detail?langId=en&webView=&content_base_id=100320&content_part_id=0&content_pict_id=0) item text exists in four languages. To simplify things here, only Japanese and English are used.
-
-https://emuseum.nich.go.jp/about?langId=en
-
 
 There's one annotation, which focuses on the koto of the item's title, albeit enclosed in a cover and thus implied rather than shown. The text of the annotation takes that implication into account and describes this portion of the screen as representing a koto wrapped in a cloth.
 
