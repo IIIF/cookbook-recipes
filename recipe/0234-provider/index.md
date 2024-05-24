@@ -7,6 +7,7 @@ summary: "Include a rich set of information for each content contributor so clie
 viewers:
  - id: Mirador
    support: partial
+ - Glycerine Viewer
 topic: property
 property: provider
 ---
@@ -36,7 +37,7 @@ In this example, we reuse the front page of a kabuki playbill that was contribut
 
 Only Mirador implements `provider`, and only partially. The property must be on the Manifest level, Mirador will only display the text from a `label` and the image from a  `logo` under `provider`, and the information will only be found in the list of manifests.
 
-{% include manifest_links.html viewers="Mirador" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador, Glycerine Viewer" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="15-82"' %}
 

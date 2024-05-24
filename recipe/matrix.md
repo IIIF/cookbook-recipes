@@ -11,6 +11,7 @@ viewers:
   - Clover
   - Navplace Viewer
   - Ramp
+  - Glycerine Viewer
 topics:
   - basic
   - property

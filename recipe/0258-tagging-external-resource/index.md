@@ -5,6 +5,7 @@ layout: recipe
 tags: annotation, tagging, linking
 summary: "Connect a tagging annotation to an external resource"
 viewers:
+ - Glycerine Viewer
 topic: annotation
 ---
 
@@ -31,7 +32,7 @@ Using multiple `body` properties, as shown here, does not have any predictable c
 
 No viewers currently implement this tagging approach.
 
-{% include manifest_links.html viewers="" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Glycerine Viewer" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config="data-line='49-66'"%}
 
