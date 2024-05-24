@@ -1,5 +1,5 @@
 ---
-title: Annotation with a Non-Rectangular Polygon (Updated)
+title: Annotation with a Non-Rectangular Polygon
 id: 261
 layout: recipe
 tags: [images, commenting, annotation]
