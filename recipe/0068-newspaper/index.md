@@ -8,6 +8,7 @@ viewers:
  - Mirador
  - Annona
  - UV
+ - Glycerine Viewer
 topic: 
  - realWorldObject
 ---
@@ -82,21 +83,21 @@ To demonstrate the files that might be included in even a basic newspaper presen
 
 We won't display all of these here, to keep the recipe readable. However, we've inclued the Manifest for the title (structured as a IIIF Collection), thinking it will provide the best initial utility. Notable lines of the Manifest are highlighted.
 
-Viewer support for any particular feature will depend on the viewer and any customizations or extensions. Below is a table showing viewer support as of March 2023 for features noted in this recipe.
+Viewer support for any particular feature will depend on the viewer and any customizations or extensions. Below is a table showing viewer support as of May 2024 for features noted in this recipe.
 
-| IIIF component | Viewer Support (February 2023) |
+| IIIF component | Viewer Support (May 2024) |
 |-----------|------|
-| Collection | Mirador, Annona, Universal Viewer, Clover |
-| Manifest per issue | Mirador, Annona, Universal Viewer, Clover |
+| Collection | Mirador, Annona, Universal Viewer, Clover, Glycerine Viewer |
+| Manifest per issue | Mirador, Annona, Universal Viewer, Clover, Glycerine Viewer |
 | `navDate` | Universal Viewer |
-| OCR in Annotations | Annona |
-| ALTO via `rendering` | none (but may be possible with a viewer plugin) |
-| `seeAlso` for dataset version | Annona, Mirador |
+| OCR in Annotations | Annona, Glycerine Viewer |
+| ALTO via `rendering` | Glycerine Viewer |
+| `seeAlso` for dataset version | Annona, Mirador, Glycerine Viewer |
 {: .api-table style="max-width: 780px;"}
 
 Similarly, the quality of the OCR as well as the formatting and positioning data of the Annotations containing it will determine how useful it is. IIIF Presentation v3 only provides a standard for structuring it and communicating layout to a viewer.
 
-{% include manifest_links.html viewers="Mirador, Annona, UV, Clover" manifest="newspaper_title-collection.json" %}
+{% include manifest_links.html viewers="Mirador, Annona, UV, Clover, Glycerine Viewer" manifest="newspaper_title-collection.json" %}
 
 {% include jsonviewer.html src="newspaper_title-collection.json" config='data-line="7-11,14-27,78-85,86-107"' %}
 
