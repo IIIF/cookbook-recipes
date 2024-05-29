@@ -58,7 +58,7 @@ GEM
       jekyll (>= 3.3, < 5.0.0)
     jekyll-gzip (2.5.1)
       jekyll (>= 3.0, < 5.0)
-    jekyll-liquify (0.0.3)
+    jekyll-liquify (0.0.2)
       liquid (>= 2.5, < 5.0)
       redcarpet (~> 3.1)
     jekyll-redirect-from (0.16.0)
@@ -130,6 +130,7 @@ DEPENDENCIES
   html-proofer (= 3.19.0)
   iiifc-theme!
   jekyll (~> 4.1.1)
+  jekyll-liquify (= 0.0.2)
   jekyll-seo-tag
   rake
   rspec
