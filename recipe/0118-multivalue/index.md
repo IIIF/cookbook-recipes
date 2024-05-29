@@ -8,6 +8,7 @@ viewers:
  - UV
  - Mirador 
  - Annona 
+ - Glycerine Viewer
 topic: property
 property: label, summary, metadata, requiredStatement
 ---
@@ -30,7 +31,7 @@ None
 
 In this example, the work has multiple titles in both English and French. The Manifest `label` provides a single title in French within a single-value array (lines 6–8). The alternative titles are provided in the `metadata` property in both English and French, each with variants contained within two separate arrays -- one array for English (lines 18–21) and one for French (lines 22–25). In the `summary` property (lines 30–32) the value is included as a single-string array.
 
-{% include manifest_links.html viewers="UV, Mirador, Annona" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Glycerine Viewer" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="6-8, 18-21, 22-25, 30-32"'%}
 

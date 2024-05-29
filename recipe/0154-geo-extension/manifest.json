@@ -44,7 +44,7 @@
         "body" : {
           "id" : "https://iiif.io/api/image/3.0/example/reference/28473c77da3deebe4375c3a50572d9d3-laocoon/full/max/0/default.jpg",
           "type" : "Image",
-          "format" : "image/jpg",
+          "format" : "image/jpeg",
           "height" : 3000,
           "width" : 2315,
           "service" : [ {

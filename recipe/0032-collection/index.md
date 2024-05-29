@@ -9,6 +9,7 @@ viewers:
  - Mirador
  - Annona
  - Clover
+ - Glycerine Viewer
 topic:
  - basic
 ---
@@ -50,19 +51,19 @@ Note: Each supporting viewer has a distinct method for toggling between Collecti
 
 **Example Collection**
 
-{% include manifest_links.html viewers="UV, Mirador, Annona, Clover" manifest="collection.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer" manifest="collection.json" %}
 
 {% include jsonviewer.html src="collection.json" %}
 
 **Example Manifest for _The Gulf Stream_**
 
-{% include manifest_links.html viewers="UV, Mirador, Annona, Clover" manifest="manifest-01.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer" manifest="manifest-01.json" %}
 
 {% include jsonviewer.html src="manifest-01.json" %}
 
 **Example Manifest for _Northeaster_**
 
-{% include manifest_links.html viewers="UV, Mirador, Annona, Clover" manifest="manifest-02.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer" manifest="manifest-02.json" %}
 
 {% include jsonviewer.html src="manifest-02.json" %}
 

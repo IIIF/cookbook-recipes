@@ -12,6 +12,7 @@ viewers:
   - Navplace Viewer
   - Ramp
   - Aviary
+  - Glycerine Viewer
 topics:
   - basic
   - property

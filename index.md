@@ -49,7 +49,8 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Book behavior (paging) variations][0011] (15,16,17)
 * [Addressing a spatial region][0299]
 * [Viewing direction and its effect on navigation][0010] (11,12,13,14)
-* [Manifest Thumbnail][0117]
+* [Missing Images in a Sequence][0283]
+* [Image Thumbnail for Manifest][0117]
 * [Implementation discussion: Thumbnails on Canvases][0232]
 * [Load a Preview Image Before the Main Content][0013]
 * [Audio Presentation with Accompanying Image][0014]
@@ -85,7 +86,7 @@ _(leading on to segmentation examples later)_
 * [Simple Annotation - Tagging][0021]
 * [Annotation with a Non-Rectangular Polygon][0261]
 * [Tagging with an External Resource][0258]
-* hotspot linking
+* [Redirecting from one Canvas to another resource (Hotspot linking)][0022]
 * [Annotate a specific images or layers][0326]
 * [Annotating a specific point of an image][0135]
 * [Geographic coordinates][0139]
@@ -148,6 +149,7 @@ _(leading on to segmentation examples later)_
 * A music album's audio resources
 * ...and its image resoures
 * ...combined to demonstrate _together_
+* [Multiple Choice of Audio Formats in a Single View (Canvas)][0434]
 * [Table of Contents for Multiple A/V files on a Single Canvas][0064] (64)
 * [Table of Contents for Multiple A/V files on Multiple Canvases][0065] (65)
 * Adaptive bit rate AV examples

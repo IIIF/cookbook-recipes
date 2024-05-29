@@ -8,6 +8,7 @@ topic: annotation
 viewers:
  - Mirador
  - Annona
+ - Glycerine Viewer
 ---
 
 ## Use Case
@@ -51,7 +52,7 @@ The rendering of this referenced Annotation should be virtually indistiguishable
 
 ### Manifest file
 
-{% include manifest_links.html viewers="Mirador, Annona" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador, Annona, Glycerine Viewer" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="44-49"' %}
 

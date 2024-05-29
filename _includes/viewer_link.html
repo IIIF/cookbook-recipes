@@ -20,11 +20,6 @@
         https://projectmirador.org/embed/?iiif-content={{manifest_url |strip}}
     {% endcapture %}
     {% assign default_text="View in Mirador" %}
-{% elsif include.type == 'Tify' %}
-    {% capture viewer_url %}
-        https://demo.tify.rocks/demo.html?manifest={{manifest_url |strip}}
-    {% endcapture %}
-    {% assign default_text="View in Tify" %}
 {% elsif include.type == 'Curation' %}
     {% capture viewer_url %}
         http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest={{manifest_url |strip}}
@@ -56,6 +51,11 @@
     https://ramp.avalonmediasystem.org/?iiif-content={{manifest_url |strip}}
     {% endcapture %}
     {% assign default_text="View in Ramp" %}
+{% elsif include.type == 'Glycerine Viewer' %}
+    {% capture viewer_url %}
+    https://demo.viewer.glycerine.io/viewer?iiif-content={{manifest_url |strip}}
+    {% endcapture %}
+    {% assign default_text="View in Glycerine Viewer" %}
 {% else %}    
     {% capture default_text %}Unknown Viewer type '{{ include.type}}'{% endcapture %}
     {% capture viewer_url %}{{manifest_url |strip}}{% endcapture %}

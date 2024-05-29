@@ -21,8 +21,8 @@
           "Chesapeake and Ohio Canal Pamphlet"
         ]
       },
-      "height": 5212,
-      "width": 7072,
+      "height": 7072,
+      "width": 5212,
       "items": [
         {
           "id": "{{ id.path }}/contentPage.json",
@@ -36,8 +36,8 @@
                 "id": "https://iiif.io/api/image/3.0/example/reference/43153e2ec7531f14dd1c9b2fc401678a-88695674/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 5212,
-                "width": 7072,
+                "height": 7072,
+                "width": 5212,
                 "service": [
                   {
                     "id": "https://iiif.io/api/image/3.0/example/reference/43153e2ec7531f14dd1c9b2fc401678a-88695674",
