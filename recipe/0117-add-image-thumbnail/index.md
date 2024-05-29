@@ -7,6 +7,7 @@ summary: "Display a thumbnail image for a resource other than a Canvas, such tha
 viewers:
  - Mirador  
  - Clover
+ - Glycerine Viewer
 topic: property
 property: thumbnail
 ---
@@ -31,7 +32,7 @@ None known.
 
 This example uses an image of the cover of the same kabuki performance program as in the recipe for [Viewing direction and its effect on navigation][0010]. This image, though, has a color bar and the Manifest contains an explicit `thumbnail` property for the Manifest. In this particular use case, to avoid having a Manifest thumbnail image with a color calibration bar, you can choose to declare a thumbnail from a completely different image. Keep in mind that this thumbnail is just for the Manifest; no thumbnail has been explicitly set for the sole resource, so the supporting viewers should use the resource's IIIF Image service to create one.
 
-{% include manifest_links.html viewers="Mirador, Clover" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador, Clover, Glycerine Viewer" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 
