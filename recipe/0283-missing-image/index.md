@@ -7,6 +7,7 @@ summary: "Represent a missing image from a paged object in a sequence."
 viewers:
  - UV
  - Mirador
+ - Glycerine Viewer
 topic:
  - image
  - basic
