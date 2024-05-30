@@ -25,6 +25,8 @@ https://example.org/viewer?iiif-content=manifest-url
 
 Note when the content state is a plain URI, rather than a JSON object, it must not be [content-state-encoded](https://iiif.io/api/content-state/0.9/#62-content-state-encoding-and-uri-requirements).
 
+**However, the current specs do not provide a standardized approach to interpret URIs containing special characters, please see the issue https://github.com/IIIF/api/issues/2292 for a detailed explanation and updates regarding this issue.**
+
 ## Example
 
 To open the IIIF Manifest [https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json](https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json) in the Mirador viewer hosted at [https://projectmirador.org/embed/](https://projectmirador.org/embed/), we construct the link as follows:
