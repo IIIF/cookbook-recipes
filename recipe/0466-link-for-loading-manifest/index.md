@@ -1,5 +1,5 @@
 ---
-title: Sharing a link to open a Manifest in a specific viewer.
+title: Sharing a link to open a Manifest in a specific viewer
 id: 466
 layout: recipe
 tags: [annotation]
@@ -17,7 +17,7 @@ You would like to provide the user a link to click that will open a specific Man
 # Implementation notes
 This type of request can be implemented using the [IIIF Content State API](https://iiif.io/api/content-state) following the [HTTP GET (Query String) Parameter](https://iiif.io/api/content-state/1.0/#initialization-mechanisms-link) section.
 
-The Manifest URL is provided as the value of the iiif-content parameter following the viewer instance URL. Assuming the viewer can be accessed at https://example.org/viewer we can pass the `iiif-content` parameter as follows:
+The Manifest URL is provided as the value of the `iiif-content` parameter following the viewer instance URL. Assuming the viewer can be accessed at `https://example.org/viewer` we can pass the `iiif-content` parameter as follows:
 
 ```
 https://example.org/viewer?iiif-content=manifest-url
