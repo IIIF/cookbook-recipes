@@ -5,9 +5,8 @@ layout: recipe
 tags: [audio, video, presentation, transcript]
 summary: "Transcripts as alternative representation of A/V content"
 viewers:
- - UV
- - Mirador
  - Ramp
+ - Aviary
 topic: AV
 property: rendering
 code:
@@ -35,13 +34,10 @@ None.
 
 In this example, the Manifest is using a single A/V file; therefore, it is equivalent to link the transcript at the Manifest level or at the Canvas level and we do it at the Canvas level to complement the example in [Providing Alternative Representations][0046].
 
-In Mirador, a given transcript is made available within the sidebar menu, which can be toggled open by using the 'Sidebar toggle' (hamburger) button on the top left corner of the viewer.
+In Ramp, the transcript file is made available to download on the right of the player controls. Click the filename listed in the menu to download the transcript file.
 
-In Universal Viewer, to access the transcript use the 'Download' link on the bottom left corner of the viewer.
+{% include manifest_links.html viewers="Ramp, Aviary" manifest="manifest.json" %}
 
-In Ramp, the transcript file is made available to download under the player controls. Click the filename listed in the menu to download the transcript file.
-
-{% include manifest_links.html viewers="UV, Mirador, Ramp" manifest="manifest.json" %}
 {% include jsonviewer.html src="manifest.json" config='data-line="39-50"'%}
 
 # Related recipes

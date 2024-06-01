@@ -156,6 +156,7 @@ Recipes using [Content State API](https://iiif.io/api/content-state/1.0/)
 * A music album's audio resources
 * ...and its image resoures
 * ...combined to demonstrate _together_
+* [Multiple Choice of Audio Formats in a Single View (Canvas)][0434]
 * [Table of Contents for Multiple A/V files on a Single Canvas][0064] (64)
 * [Table of Contents for Multiple A/V files on Multiple Canvases][0065] (65)
 * Adaptive bit rate AV examples
