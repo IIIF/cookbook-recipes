@@ -5,6 +5,7 @@ layout: recipe
 tags: [annotation, multiple-images]
 summary: "Keep a resolvable link between annotations (contained in an external Annotation Page) and the Manifest containing the Canvases they are pointing at."
 viewers:
+ - Theseus
 topic: annotation
 ---
 

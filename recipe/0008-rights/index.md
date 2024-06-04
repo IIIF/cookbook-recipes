@@ -10,6 +10,7 @@ viewers:
  - Annona
  - Clover
  - Glycerine Viewer
+ - Theseus
 topic: property
 property: rights, requiredStatement
 code:

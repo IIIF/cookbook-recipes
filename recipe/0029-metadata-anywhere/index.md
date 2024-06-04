@@ -11,6 +11,7 @@ viewers:
  - id: Clover
    support: partial
  - Glycerine Viewer
+ - Theseus
 topic: property
 property: metadata
 ---

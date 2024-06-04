@@ -8,6 +8,7 @@ viewers:
  - Mirador  
  - Clover
  - Glycerine Viewer
+ - Theseus
 topic: property
 property: thumbnail
 ---

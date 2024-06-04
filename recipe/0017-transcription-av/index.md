@@ -7,6 +7,7 @@ summary: "Transcripts as alternative representation of A/V content"
 viewers:
  - Ramp
  - Aviary
+ - Theseus
 topic: AV
 property: rendering
 code:

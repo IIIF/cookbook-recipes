@@ -8,6 +8,7 @@ viewers:
  - UV
  - Mirador  
  - Annona
+ - Theseus
 topic: 
  - image
  - property

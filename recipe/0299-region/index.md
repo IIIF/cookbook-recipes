@@ -7,6 +7,7 @@ summary: "Presenting a spatial region of a IIIF image resource independently"
 viewers:
  - Annona
  - Glycerine Viewer
+ - Theseus
 topic:
  - basic
 ---

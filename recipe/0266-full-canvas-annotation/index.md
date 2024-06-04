@@ -8,6 +8,7 @@ viewers:
  - Mirador  
  - Annona
  - Glycerine Viewer
+ - Theseus
 topic: annotation
 ---
 

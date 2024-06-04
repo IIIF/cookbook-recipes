@@ -5,6 +5,7 @@ layout: recipe
 tags: [images, behavior, non-paged]
 summary: "Demonstrates how to model a foldout diagram or map."
 viewers:
+ - Theseus
 topic: structure
 property: behavior
 ---
