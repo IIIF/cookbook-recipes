@@ -8,6 +8,7 @@ viewers:
 - id: Mirador
   support: partial
 - Annona
+- Theseus
 topic: structure
 property:
 ---

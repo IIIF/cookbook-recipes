@@ -9,6 +9,7 @@ viewers:
  - Annona
  - Clover
  - Glycerine Viewer
+ - Theseus
 topic: property
 property: rendering
 ---
