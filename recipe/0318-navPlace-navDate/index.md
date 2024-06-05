@@ -14,7 +14,7 @@ You have one or more IIIF resources that have a date and a location associated w
 
 ### Implementation Notes
 
-The `navDate` property, as implied by its name, allows a manifest to identify a pertinent date associated with an IIIF resource in order to help viewers provide users with date-aware navigation. Clients are not required to make use of `navDate`, and clients that do have date-aware navigation available may not default to that navigation interface.  This property is described in [Navigation by Chronology][0230]
+The `navDate` property, as implied by its name, allows a Manifest to identify a pertinent date associated with an IIIF resource in order to help viewers provide users with date-aware navigation. Clients are not required to make use of `navDate`, and clients that do have date-aware navigation available may not default to that navigation interface.  This property is described in [Navigation by Chronology][0230]
 
 The `navPlace` property is analogous to `navDate`, but provides geographic information.  The value for `navPlace` is a single [GeoJSON Feature Collection](https://iiif.io/api/extension/navplace/#222-feature-collection). A Feature Collection represents an aggregation of spatially bounded areas.  This property is described in [Locate a Manifest on a Web Map][0154]. 
 
