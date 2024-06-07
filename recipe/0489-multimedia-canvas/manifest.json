@@ -9,6 +9,7 @@
         "type": "Canvas",
         "height": 3024,
         "width": 4032,
+        "duration": 120,
         "items": [
           {
             "id": "{{ id.path }}/page/p1/1",
