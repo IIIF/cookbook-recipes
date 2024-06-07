@@ -7,8 +7,8 @@
       {
         "id": "{{ id.path }}/canvas",
         "type": "Canvas",
-        "height": 1800,
-        "width": 1200,
+        "height": 3024,
+        "width": 4032,
         "items": [
           {
             "id": "{{ id.path }}/page/p1/1",
@@ -19,11 +19,18 @@
                 "type": "Annotation",
                 "motivation": "painting",
                 "body": {
-                  "id": "http://iiif.io/api/presentation/2.1/example/fixtures/resources/page1-full.png",
+                  "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg",
                   "type": "Image",
-                  "format": "image/png",
-                  "height": 1800,
-                  "width": 1200
+                  "format": "image/jpeg",
+                  "height": 3024,
+                  "width": 4032,
+                  "service": [
+                    {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
+                    "profile": "level1",
+                    "type": "ImageService3"
+                    }
+                  ]
                 },
                 "target": "{{ id.path }}/canvas"
               },
@@ -32,14 +39,14 @@
                 "type": "Annotation",
                 "motivation": "painting",
                 "body": {
-                    "id": "https://fixtures.iiif.io/video/indiana/lunchroom_manners/high/lunchroom_manners_1024kb.mp4",
-                    "type": "Video",
-                    "height": 360,
-                    "width": 480,
-                    "duration": 572.034,
-                    "format": "video/mp4"
+				  "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/vae0637_accessH264_low_act_1.mp4",
+				  "type": "Video",
+				  "format": "video/mp4",
+				  "height": 360,
+				  "width": 480,
+				  "duration": 3971.24
                 },
-                "target": "{{ id.path }}/canvas#xywh=200,200,480,360"
+                "target": "{{ id.path }}/canvas#xywh=200,200,480,360&t=27,57"
               }
             ]
           }
