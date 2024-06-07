@@ -29,14 +29,14 @@ topics:
 
 # IIIF 3.0 Viewer Matrix
 
-In the 2021 Working meeting there was a presentation on viewer support for IIIF 3.0 and the community asked if this presentation could be turned into a matrix so the community can see which viewers support which area of the IIIF specifications. This matrix is generated automatically from the recipes and if you notice any thing that is incorrect please report it to the [cookbook GitHub site](https://github.com/IIIF/cookbook-recipes/issues/new).
+In the 2021 Working meeting there was a presentation on viewer support for IIIF Presentation 3.0. The community asked if this presentation could be turned into a matrix so people can see which viewers support which area(s) of the IIIF specifications. This matrix, shown below, is generated automatically from the latest version of cookbook recipes approved by the IIIF TRC. If you notice an error or inaccuracy, please report it as an Issue at the [cookbook GitHub site](https://github.com/IIIF/cookbook-recipes/issues/new).
 
 ## Which viewers are included?
 
-Currently [Mirador 3](https://projectmirador.org/), the [Universal Viewer](https://universalviewer.io/) (UV) V3, [Annona](https://ncsu-libraries.github.io/annona/multistoryboard/), [Clover](https://samvera-labs.github.io/clover-iiif/), [Navplace Viewer](https://map.rerum.io/), and [Ramp](https://iiif-react-media-player.netlify.app/) are listed on the cookbook and we welcome the addition of other IIIF viewers but they must support the following features:
+Currently [Mirador 3](https://projectmirador.org/), the [Universal Viewer](https://universalviewer.io/) (UV) V3, [Annona](https://ncsu-libraries.github.io/annona/multistoryboard/), [Clover](https://samvera-labs.github.io/clover-iiif/), [Navplace Viewer](https://map.rerum.io/), and [Ramp](https://iiif-react-media-player.netlify.app/) are listed on the cookbook. We welcome the addition of other IIIF viewers as long as they provide the following:
 
 - Support for the [IIIF version 3.0 Presentation API](https://iiif.io/api/presentation/3.0/)
-- Have a public instance available that we can link to, ideally using the `iiif-content` parameter from the [IIIF Content State API](https://iiif.io/api/content-state/)
+- A public, linkable instance, ideally using the `iiif-content` parameter from the [IIIF Content State API](https://iiif.io/api/content-state/)
 - Support at least 1 cookbook recipe
 
 ## Viewer Matrix
