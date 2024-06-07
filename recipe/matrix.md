@@ -41,7 +41,7 @@ Currently [Mirador 3](https://projectmirador.org/), the [Universal Viewer](https
 
 ## Viewer Matrix
 
-The possible values for viewer support are YES, NO or Partial. Check the recipe to see the full behaviour of the viewer to check it achieves the required function in the way you expect.
+The possible values for viewer support are YES, NO or Partial. Click on the recipe name to see links to supporting viewers' behaviour with the recipe manifest. This will allow you to see whether it achieves the required function in the way you expect.
 {% for topic in page.topics  %}
 {% if topic.key %}
 {% assign topic_key = topic.key %}
