@@ -9,7 +9,7 @@ viewers:
  - UV
  - Mirador
  - Clover
- - Glycerine
+ - Glycerine Viewer
 topic: 
  - annotation
 ---
