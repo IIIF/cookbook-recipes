@@ -71,6 +71,7 @@
 [0377]: {{ site.cookbook_url | absolute_url }}/recipe/0377-image-in-annotation/ "Image in annotation"
 
 [0434]: {{ site.cookbook_url | absolute_url }}/recipe/0434-choice-av/ "Multiple Choice of Audio Formats in a Single View (Canvas)"
+[0489]: {{ site.cookbook_url | absolute_url }}/recipe/0489-multimedia-canvas/ "Complex Multimedia Canvas"
 
 [cookbook-process]: {{site.cookbook_url | absolute_url }}/recipe
 
