@@ -34,9 +34,9 @@ None known.
 
 In this example, the image is from one of a pair of six-fold screens depicting four noble accomplishments in Azuchi-Momoyama period Japan (16th/17th century CE). At its [original online home](https://emuseum.nich.go.jp/detail?langId=en&webView=&content_base_id=100320&content_part_id=0&content_pict_id=0) item text exists in four languages. To simplify things here, only Japanese and English are used.
 
-There's one annotation, which focuses on the koto of the item's title, albeit enclosed in a cover and thus implied rather than shown. The text of the annotation takes that implication into account and describes this portion of the screen as representing a koto wrapped in a cloth.
+There's one annotation, which focuses on the koto of the item's title (albeit enclosed in a cover and thus implied rather than shown). The text of the annotation takes that implication into account and describes this portion of the screen as representing a koto wrapped in a cloth.
 
-(Terms of use for this image from the e-Museum of the National Institutes for Cultural Heritage in Japan / e国宝に 独立行政法人国立文化財機構 can be found in <a href="https://emuseum.nich.go.jp/about?langId=ja">Japanese</a>, <a href="https://emuseum.nich.go.jp/about?langId=en">English</a>, <a href="https://emuseum.nich.go.jp/about?langId=zh">Chinese</a>, and <a href="https://emuseum.nich.go.jp/about?langId=ko">Korean</a>.)
+Terms of use for this image from the e-Museum of the National Institutes for Cultural Heritage in Japan / e国宝に 独立行政法人国立文化財機構 can be found in <a href="https://emuseum.nich.go.jp/about?langId=ja">Japanese</a>, <a href="https://emuseum.nich.go.jp/about?langId=en">English</a>, <a href="https://emuseum.nich.go.jp/about?langId=zh">Chinese</a>, and <a href="https://emuseum.nich.go.jp/about?langId=ko">Korean</a>.
 
 {% include manifest_links.html manifest="manifest.json" %}
 
