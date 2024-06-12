@@ -12,7 +12,7 @@ topic:
 
 ## Use Case
 
-You would like to make text annotations in multiple language translations on an image. Because the annotations are semantically equivalent, the expectation is that the user or client would choose the language to view the annotation.
+You would like to make text annotations in multiple language translations on an image. Because the annotations are semantically equivalent, the expectation is that the user or client would choose which translation to display for the annotation.
 
 ## Implementation Notes
 
