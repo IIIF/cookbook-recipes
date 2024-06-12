@@ -93,6 +93,7 @@ _(leading on to segmentation examples later)_
 * [Embedded or Referenced Annotations][0269]
 * [Linking external Annotations targeting a Canvas to a Manifest][0306]
 * [Image in annotations][0377]
+* [Annotating in Multiple Languages][0346]
 
 ## Internal structure
 
