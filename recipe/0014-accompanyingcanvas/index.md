@@ -6,6 +6,7 @@ tags: [audio,image]
 summary: "Provide the user with something to look at before they choose to start interacting with the main content, and/or while they wait for it to load/buffer, and/or while interacting with the main content."
 viewers:
     - Clover
+    - Aviary
 topic: 
  - property
  - AV
@@ -32,7 +33,7 @@ Each instance of `accompanyingCanvas` may only contain one Canvas, and as such m
 
 In the example, the main Canvas contains audio of a performance of Gustav Mahler's Symphony No. 3 and the `accompanyingCanvas` contains an image of a page from the score.
 
-{% include manifest_links.html manifest="manifest.json" %}
+{% include manifest_links.html viewers="Clover, Aviary" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config="data-line='20-58'"%}
 
