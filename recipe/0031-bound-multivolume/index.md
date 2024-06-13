@@ -5,8 +5,9 @@ layout: recipe
 tags: [sammelband, multi-volume]
 summary: "Recipe for a multi-volume object where the volumes are bound together in a single codex."
 viewers:
-- UV
-- Mirador
+ - UV
+ - Mirador
+ - Theseus
 topic:
  - structure
 ---

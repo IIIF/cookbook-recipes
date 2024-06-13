@@ -9,6 +9,7 @@ viewers:
  - Mirador  
  - Annona
  - Glycerine Viewer
+ - Theseus
 topic: basic
 property: label, summary, metadata, requiredStatement
 code:

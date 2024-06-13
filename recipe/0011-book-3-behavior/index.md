@@ -8,6 +8,7 @@ viewers:
  - id: UV
    support: partial
  - Mirador  
+ - Theseus
 topic: property
 property: 
  - behavior

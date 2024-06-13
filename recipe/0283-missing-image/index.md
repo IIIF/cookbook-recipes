@@ -8,6 +8,7 @@ viewers:
  - UV
  - Mirador
  - Glycerine Viewer
+ - Theseus
 topic:
  - image
  - basic

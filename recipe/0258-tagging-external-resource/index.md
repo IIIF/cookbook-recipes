@@ -6,6 +6,7 @@ tags: annotation, tagging, linking
 summary: "Connect a tagging annotation to an external resource"
 viewers:
  - Glycerine Viewer
+ - Theseus
 topic: annotation
 ---
 

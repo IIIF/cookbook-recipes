@@ -8,6 +8,7 @@ viewers:
  - UV
  - Mirador  
  - Annona
+ - Theseus
 topic: image
 code:
  - iiif-prezi3
