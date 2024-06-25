@@ -113,6 +113,7 @@ _(leading on to segmentation examples later)_
 * [Multiple choice of images in a single view][0033] (29)
 * [Foldouts, Flaps, and Maps][0035]
 * [Composition from Multiple Images][0036] (30,31)
+* [Complex Multimedia Canvas][0489]
 * Multiple images and multiple choices (32,33,34)
 * [Annotating part of an image to a Canvas][recipe-segment-image-part] (e.g., crop out scanner) (35,36,37,38)
 * [Image Rotation Two Ways][0040]
