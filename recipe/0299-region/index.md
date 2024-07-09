@@ -40,7 +40,7 @@ This recipe can not be applied to pulling a temporal segment from a time-based I
 
 In this example we use an ImageApiSelector on the `body` of the Manifest's sole Annotation to retrieve a single article selection from the 16 February 1925 issue of _Berliner Tageblatt_. The article discusses a meeting including Neville Chamberlain of Great Britain.
 
-{% include manifest_links.html viewers="Annona, Glycerine Viewer" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Annona, Glycerine Viewer, Theseus" manifest="manifest.json" %}
 {% include jsonviewer.html src="manifest.json" config="data-line='14-15,25-48'" %}
 
 ## Related Recipes

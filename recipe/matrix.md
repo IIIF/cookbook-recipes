@@ -13,6 +13,7 @@ viewers:
   - Ramp
   - Aviary
   - Glycerine Viewer
+  - Theseus
 topics:
   - basic
   - property
@@ -63,7 +64,7 @@ The possible values for viewer support are YES, NO or Partial. Click on the reci
         {% for viewer in page.viewers %}
             <th>{{ viewer }}</th>
         {% endfor %}
-    </tr>    
+    </tr>
 {% for recipe in sorted %}
     <tr>
         <td><a href="{{ site.cookbook_url | absolute_url }}{{ recipe.url }}">{{recipe.title}}{% if recipe.property%} ({{recipe.property}}){%endif%}</a></td>
@@ -79,9 +80,9 @@ The possible values for viewer support are YES, NO or Partial. Click on the reci
                         YES
                     {% endif %}
                 {% else %}
-                    {% if recipe.viewers contains viewer %} 
+                    {% if recipe.viewers contains viewer %}
                         YES
-                    {% else %}    
+                    {% else %}
                         NO
                     {% endif %}
                 {% endif %}

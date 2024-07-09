@@ -6,7 +6,7 @@ tags: [image, presentation, canvas]
 summary: "Demonstrates that image dimensions (pixels) need not be the same as the Canvas dimensions (unit-less)"
 viewers:
  - UV
- - Mirador  
+ - Mirador
  - Annona
  - Theseus
 topic: image
@@ -39,7 +39,7 @@ The aspect ratio should be consistent between your source image and Canvas. Othe
 
 This example shows a Manifest with a single Canvas that has height and width dimensions three times the pixel dimensions of the image in order to construct a Canvas with both dimensions greater than 1000px.
 
-{% include manifest_links.html viewers="UV, Mirador, Annona" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Theseus" manifest="manifest.json" %}
 {% include jsonviewer.html src="manifest.json" config="data-line='14-15,29-30'"%}
 
 # Related recipes

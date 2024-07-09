@@ -67,7 +67,7 @@ This will produce an index of the constituent volumes like so:
 * Erste Ausgabe... (Vol. 1)
 * Zweyte Ausgabe... (Vol. 2)
 
-{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Theseus" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="246-315"'%}
 

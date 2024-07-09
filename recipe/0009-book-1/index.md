@@ -6,12 +6,12 @@ tags: [image, presentation]
 summary: "Represent a book, or any object composed of a set of images, as a simple Manifest."
 viewers:
  - UV
- - Mirador  
+ - Mirador
  - Annona
  - Clover
  - Glycerine Viewer
  - Theseus
-topic: 
+topic:
  - image
  - basic
 code:
@@ -38,7 +38,7 @@ You should also consider providing a [thumbnail][prezi3-thumbnail] for each Canv
 
 ## Example
 
-{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer, Theseus" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 
@@ -53,4 +53,3 @@ You should also consider providing a [thumbnail][prezi3-thumbnail] for each Canv
 
 {% include acronyms.md %}
 {% include links.md %}
-

@@ -5,11 +5,11 @@ layout: recipe
 tags: [image]
 summary: "This manifest uses the 'start' property to specify which Canvas the client should display on initialization of the resource."
 viewers:
- - Mirador  
+ - Mirador
  - Annona
  - Glycerine Viewer
  - Theseus
-topic: 
+topic:
  - image
  - property
 property: start
@@ -31,7 +31,7 @@ For an example of the `start` property using a Specific Resource with a Selector
 
 This example shows a Manifest with multiple Canvases for a book object. The `start` property specifies loading the Manifest at the second Canvas. Note that all Canvases are still displayed in the viewer and the user is able to navigate back to the first Canvas using the viewer navigation controls.
 
-{% include manifest_links.html viewers="Mirador,Annona,Glycerine Viewer" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador,Annona,Glycerine Viewer, Theseus" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="10-13"'%}
 

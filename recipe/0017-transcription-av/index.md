@@ -17,7 +17,7 @@ code:
 
 ## Use Case
 
-You have a transcription file for your A/V resource and want to allow users to download it. 
+You have a transcription file for your A/V resource and want to allow users to download it.
 
 ## Implementation notes
 
@@ -37,7 +37,7 @@ In this example, the Manifest is using a single A/V file; therefore, it is equiv
 
 In Ramp, the transcript file is made available to download on the right of the player controls. Click the filename listed in the menu to download the transcript file.
 
-{% include manifest_links.html viewers="Ramp, Aviary" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Ramp, Aviary, Theseus" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="39-50"'%}
 
@@ -51,4 +51,3 @@ In Ramp, the transcript file is made available to download on the right of the p
 
 {% include acronyms.md %}
 {% include links.md %}
-

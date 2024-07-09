@@ -29,7 +29,7 @@ As with a Manifest, the `label` property is mandatory, and the language of its v
 
 The Collection `items` property is an array of referenced Manifests. In this example there are two Manifests. Each `items` entry must have an `id`, `type`, and a `label`. The `id` must be the URI where the Manifest can be available online. The `type` must be `Manifest` or a `Collection`. Each `items` entry referenced should not be fully embedded into the Collection, and should contain only necessary properties for presentation of the collection such as `thumbnail`. Various other [descriptive](https://iiif.io/api/presentation/3.0/#31-descriptive-properties) and [linking](https://iiif.io/api/presentation/3.0/#33-linking-properties) properties such as `summary`, minimal `metadata`, and `homepage` may be useful as well for presentation. See the [Summary of property requirements](https://iiif.io/api/presentation/3.0/#a-summary-of-property-requirements) for a complete list.
 
-Collections may also reference other Collections. 
+Collections may also reference other Collections.
 
 Collections may have `behavior` defined in order to influence user experience when viewing the resource. Manifests within a Collection DO NOT inherit [behaviors](https://iiif.io/api/presentation/3.0/#behavior) from their referencing Collections; however referenced Collections will.
 
@@ -52,19 +52,19 @@ Note: Each supporting viewer has a distinct method for toggling between Collecti
 
 **Example Collection**
 
-{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer" manifest="collection.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer, Theseus" manifest="collection.json" %}
 
 {% include jsonviewer.html src="collection.json" %}
 
 **Example Manifest for _The Gulf Stream_**
 
-{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer" manifest="manifest-01.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer, Theseus" manifest="manifest-01.json" %}
 
 {% include jsonviewer.html src="manifest-01.json" %}
 
 **Example Manifest for _Northeaster_**
 
-{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer" manifest="manifest-02.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer, Theseus" manifest="manifest-02.json" %}
 
 {% include jsonviewer.html src="manifest-02.json" %}
 

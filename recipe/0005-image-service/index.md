@@ -10,8 +10,8 @@ viewers:
  - Clover
  - Glycerine Viewer
  - Theseus
-topic: 
- - basic 
+topic:
+ - basic
  - image
 code:
  - iiif-prezi3
@@ -23,7 +23,7 @@ You have a rare or special object in your collection that you'd like to make ava
 
 ## Implementation Notes
 
-A service may be attached to any IIIF resource type, and requires at minumum the use of `id` and `type`. The annotation structure follows that of the [Simplest Manifest - Image][0001] recipe. Within the `body` of the image annotation, specify the IIIF Image API service using the `service` property. The service's `id` property value is the base URI of that IIIF Image API service. 
+A service may be attached to any IIIF resource type, and requires at minumum the use of `id` and `type`. The annotation structure follows that of the [Simplest Manifest - Image][0001] recipe. Within the `body` of the image annotation, specify the IIIF Image API service using the `service` property. The service's `id` property value is the base URI of that IIIF Image API service.
 
 The `type` tells the client what version of the IIIF Image API (1, 2, or 3) you are referencing. Values for `type` are defined in [the IIIF Registry of Services][service-registry] and include values for compatibility with other IIIF APIs. See [the service property in the IIIF Presentation specification][prezi3-service] for more information.
 
@@ -37,7 +37,7 @@ Though a version 3 Manifest may specify a service using the version 2 `@id` and 
 
 ## Example
 
-{% include manifest_links.html viewers="Mirador, Annona, Clover, Glycerine Viewer" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador, Annona, Clover, Glycerine Viewer, Theseus" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="36-42"' %}
 

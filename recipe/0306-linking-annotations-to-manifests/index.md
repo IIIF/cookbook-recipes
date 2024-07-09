@@ -39,7 +39,7 @@ Annotation Page file
 {% include jsonviewer.html src="annotationpage.json" config='data-line="16-33"' %}
 
 Manifest file
-{% include manifest_links.html viewers="Mirador, Annona, Glycerine Viewer" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador, Annona, Glycerine Viewer, Theseus" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="44-49"' %}
 
@@ -52,4 +52,3 @@ Manifest file
 
 {% include acronyms.md %}
 {% include links.md %}
-

@@ -41,7 +41,7 @@ None known.
 
 ## Example
 
-{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer, Theseus" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="15-27"' %}
 
@@ -52,4 +52,3 @@ None known.
 
 {% include acronyms.md %}
 {% include links.md %}
-

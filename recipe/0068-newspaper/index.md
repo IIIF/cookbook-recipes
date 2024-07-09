@@ -9,13 +9,14 @@ viewers:
  - Annona
  - UV
  - Glycerine Viewer
-topic: 
+ - Theseus
+topic:
  - realWorldObject
 ---
 
 ## Use Case
 
-Digitized Newspapers are more complicated than some other types of content as the hierarchy of Titles, Volumes and Issues are important in making them accessible. The date of publication and providing access to OCR data are also important to the viewing experience. This recipe gives an example of a basic Newspaper with two issues and links to text generated from Optical Character Recognition (OCR) software. The aim is to give a good outline of common mapping solutions for Newspapers. 
+Digitized Newspapers are more complicated than some other types of content as the hierarchy of Titles, Volumes and Issues are important in making them accessible. The date of publication and providing access to OCR data are also important to the viewing experience. This recipe gives an example of a basic Newspaper with two issues and links to text generated from Optical Character Recognition (OCR) software. The aim is to give a good outline of common mapping solutions for Newspapers.
 
 ## Implementation notes
 
@@ -57,7 +58,7 @@ Members of the IIIF community have arrived at the following as the best correspo
 | Page | Canvas |
 | Page Text (OCR) | Annotation List |
 | Article | Range |
-| Illustration | Range | 
+| Illustration | Range |
 | Supplement | Manifest or Range |
 {: .api-table style="max-width: 780px;"}
 
@@ -97,7 +98,7 @@ Viewer support for any particular feature will depend on the viewer and any cust
 
 Similarly, the quality of the OCR as well as the formatting and positioning data of the Annotations containing it will determine how useful it is. IIIF Presentation v3 only provides a standard for structuring it and communicating layout to a viewer.
 
-{% include manifest_links.html viewers="Mirador, Annona, UV, Clover, Glycerine Viewer" manifest="newspaper_title-collection.json" %}
+{% include manifest_links.html viewers="Mirador, Annona, UV, Clover, Glycerine Viewer, Theseus" manifest="newspaper_title-collection.json" %}
 
 {% include jsonviewer.html src="newspaper_title-collection.json" config='data-line="7-11,14-27,78-85,86-107"' %}
 
@@ -111,4 +112,3 @@ Similarly, the quality of the OCR as well as the formatting and positioning data
 
 {% include acronyms.md %}
 {% include links.md %}
-

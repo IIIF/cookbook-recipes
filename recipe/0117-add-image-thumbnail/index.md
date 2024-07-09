@@ -5,7 +5,7 @@ layout: recipe
 tags: [image,presentation]
 summary: "Display a thumbnail image for a resource other than a Canvas, such that it can be used by clients to represent the object."
 viewers:
- - Mirador  
+ - Mirador
  - Clover
  - Glycerine Viewer
  - Theseus
@@ -21,7 +21,7 @@ You have images of a booklet, and you want to select one to use as the singular 
 
 Thumbnails can permit non-human interfaces consuming your manifests to present representations of your content for rapid comprehension by human readers. For instance, this could be in a cross-institutional catalog website.
 
-Thumbnails are strongly recommended for Collections and Manifests, and permitted on Canvases, content resources, and other resource types. Conforming clients are not required to render any thumbnails, though they are strongly recommended to do so when they exist for Collections, Manifests, Canvases, and content resources. Clients are permitted to render thumbnails when they exist for all other resource types. Each resource may contain multiple thumbnails, each of which may be — but are not required to be — of the same `type` and `format` as its containing resource. 
+Thumbnails are strongly recommended for Collections and Manifests, and permitted on Canvases, content resources, and other resource types. Conforming clients are not required to render any thumbnails, though they are strongly recommended to do so when they exist for Collections, Manifests, Canvases, and content resources. Clients are permitted to render thumbnails when they exist for all other resource types. Each resource may contain multiple thumbnails, each of which may be — but are not required to be — of the same `type` and `format` as its containing resource.
 
 Multiple methods exist for describing a thumbnail in your manifest. For a Manifest, it makes most sense to use a full-size image URI in conjunction with a IIIF Image Service containing the whole IIIF Image service JSON. Clients consuming a Manifest thumbnail will have unpredictable size requirements; reproducing the complete service JSON gives them the most flexibility and best shot at quickly and efficiently displaying your object's thumbnail.
 
@@ -33,7 +33,7 @@ None known.
 
 This example uses an image of the cover of the same kabuki performance program as in the recipe for [Viewing direction and its effect on navigation][0010]. This image, though, has a color bar and the Manifest contains an explicit `thumbnail` property for the Manifest. In this particular use case, to avoid having a Manifest thumbnail image with a color calibration bar, you can choose to declare a thumbnail from a completely different image. Keep in mind that this thumbnail is just for the Manifest; no thumbnail has been explicitly set for the sole resource, so the supporting viewers should use the resource's IIIF Image service to create one.
 
-{% include manifest_links.html viewers="Mirador, Clover, Glycerine Viewer" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador, Clover, Glycerine Viewer, Theseus" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 
@@ -44,4 +44,3 @@ This example uses an image of the cover of the same kabuki performance program a
 
 {% include acronyms.md %}
 {% include links.md %}
-

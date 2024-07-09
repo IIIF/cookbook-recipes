@@ -5,7 +5,7 @@ layout: recipe
 tags: [tbc]
 summary: "tbc"
 viewers:
-topic: 
+topic:
  - basic
 ---
 
@@ -21,7 +21,7 @@ How do you implement the pattern?
 
 ## Restrictions
 
-When is this pattern is usable / not usable? Is it deprecated? If it uses multiple specifications, which versions are needed, etc.? 
+When is this pattern is usable / not usable? Is it deprecated? If it uses multiple specifications, which versions are needed, etc.?
 
 Delete this section if it is not needed.
 If you don't know what the restrictions might be initially, just leave the following line:
@@ -32,7 +32,7 @@ If you don't know what the restrictions might be initially, just leave the follo
 Describe the solution in prose and provide an example.
 The example json document must be an external document, and imported with the following:
 
-{% include manifest_links.html viewers="UV, Mirador, Curation" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Curation, Theseus" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 
@@ -44,4 +44,3 @@ Provide a bulleted list of related recipes and why they are relevant.
 
 {% include acronyms.md %}
 {% include links.md %}
-

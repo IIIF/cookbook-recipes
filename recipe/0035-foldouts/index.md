@@ -52,7 +52,7 @@ The "non-paged" behavior on Canvases is not yet supported by viewers making this
 
 ![thumbnail layout example with non-paged](layout_example1.jpg)
 
-{% include manifest_links.html viewers="" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Theseus" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="10-12, 134-136"' %}
 

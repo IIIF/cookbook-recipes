@@ -31,7 +31,7 @@ In this example, we continue our use of a photograph of a square in Göttingen, 
 
 Using multiple `body` properties, as shown here, does not have any predictable consequences for a viewer's handling of the data. With this in mind, each `body` in this Manifest could stand alone.
 
-{% include manifest_links.html viewers="Glycerine Viewer" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Glycerine Viewer, Theseus" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config="data-line='49-66'"%}
 
@@ -41,4 +41,3 @@ Using multiple `body` properties, as shown here, does not have any predictable c
 * [Simple Annotation — Tagging][0021]
 
 {% include links.md %}
-

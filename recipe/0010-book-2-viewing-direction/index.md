@@ -6,10 +6,10 @@ tags: image, text, layout
 summary: "Informing a client how the Canvases should be displayed to the viewer in order to read the contents authentically in accordance with the script used, object layout, or reading practice."
 viewers:
  - UV
- - Mirador  
+ - Mirador
  - Annona
  - Theseus
-topic: 
+topic:
  - image
  - property
 property: viewingDirection
@@ -41,7 +41,7 @@ None known
 
 This Manifest shows the playbill for "Akiba gongen kaisen-banashi," "Futatsu chōchō kuruwa nikki", and "Godairiki koi no fūjime", kabuki performances at the Chikugo Theater in Osaka, from the fifth month of Kaei 2 (May, 1849).
 
-{% include manifest_links.html viewers="UV, Mirador, Annona" manifest="manifest-rtl.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Theseus" manifest="manifest-rtl.json" %}
 
 {% include jsonviewer.html src="manifest-rtl.json" config='data-line="15"' %}
 

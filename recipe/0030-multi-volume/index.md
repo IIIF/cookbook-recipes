@@ -6,7 +6,7 @@ tags: [tbc]
 summary: "tbc"
 viewers:
  - UV
- - Mirador  
+ - Mirador
  - Annona
  - Glycerine Viewer
  - Theseus
@@ -37,19 +37,19 @@ Following the Collection resource are the two Manifests for vol. 1 and vol. 2 th
 
 **Example Collection for the multi-volume work *青楼絵本年中行事 [Seirō ehon nenjū gyōji]*:**
 
-{% include manifest_links.html viewers="UV, Mirador, Annona, Glycerine Viewer" manifest="collection.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Glycerine Viewer, Theseus" manifest="collection.json" %}
 
 {% include jsonviewer.html src="collection.json" config='data-line="4, 10-12"' %}
 
 **Example Manifest for vol. 1 of *青楼絵本年中行事 [Seirō ehon nenjū gyōji]*:**
 
-{% include manifest_links.html viewers="UV, Mirador, Annona, Glycerine Viewer" manifest="manifest_v1.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Glycerine Viewer, Theseus" manifest="manifest_v1.json" %}
 
 {% include jsonviewer.html src="manifest_v1.json" %}
 
 **Example Manifest for vol. 2 of *青楼絵本年中行事 [Seirō ehon nenjū gyōji]*:**
 
-{% include manifest_links.html viewers="UV, Mirador, Annona, Glycerine Viewer" manifest="manifest_v2.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Glycerine Viewer, Theseus" manifest="manifest_v2.json" %}
 
 {% include jsonviewer.html src="manifest_v2.json" %}
 
