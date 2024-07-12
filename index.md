@@ -155,6 +155,8 @@ _(leading on to segmentation examples later)_
 * Mixed Image Service references (a mashup, with img2 and img3 services)
 * Glenn Gould - score and performance scenarios (transcribing)
 * A Map
+* [Locating a Manifest in Place and Time][0318]
+
 
 ## Access Control
 _this might be in a separate auth cookbook_
