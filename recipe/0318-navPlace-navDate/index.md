@@ -6,6 +6,7 @@ topic: geo-recipes
 tags: [maps, geolocate, navPlace, navDate]
 summary: "Use navDate together with the navPlace extension to provide geographic and temporal data"
 viewers:
+ - Navplace Viewer
 ---
 
 ### Use Case
