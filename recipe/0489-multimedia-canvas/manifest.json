@@ -9,7 +9,7 @@
         "type": "Canvas",
         "height": 3024,
         "width": 4032,
-        "duration": 120,
+        "duration": 41,
         "items": [
           {
             "id": "{{ id.path }}/page/p1/1",
@@ -33,21 +33,47 @@
                     }
                   ]
                 },
-                "target": "{{ id.path }}/canvas"
+                "target": "{{ id.path }}/canvas#t=11,41"
               },
               {
                 "id": "{{ id.path }}/annotation/p0002-video",
                 "type": "Annotation",
                 "motivation": "painting",
                 "body": {
-				  "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/vae0637_accessH264_low_act_1.mp4",
+				  "id": "https://fixtures.iiif.io/video/indiana/30-minute-clock/medium/30-minute-clock.mp4",
 				  "type": "Video",
-				  "format": "video/mp4",
 				  "height": 360,
-				  "width": 480,
-				  "duration": 3971.24
+				  "width": 640,
+				  "duration": 1801.055,
+				  "format": "video/mp4"
                 },
-                "target": "{{ id.path }}/canvas#xywh=200,200,480,360&t=27,57"
+                "target": "{{ id.path }}/canvas#xywh=200,200,360,640&t=11,41"
+              },
+              {
+                "id": "{{ id.path }}/annotation/p0004-text",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+				  "id": "{{ id.path }}/annotation/p0004-text-body",
+				  "type": "TextualBody",
+				  "format": "text/html",
+				  "value": "<p style='font-size:10em'>Press Play</p>",
+				  "language": "fr"
+                },
+                "target": "{{ id.path }}/canvas#xywh=1920,1640,500,500&t=0,1"
+              },
+              {
+                "id": "{{ id.path }}/annotation/p0005-text",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+				  "id": "{{ id.path }}/annotation/p0005-text-body",
+				  "type": "TextualBody",
+				  "format": "text/html",
+				  "value": "<p style='font-size:5em'>When this text goes away, the clock will start. When it starts, you will have 30 seconds in which to take notes on the image you see. After 30 seconds, everything will disappear.</p>",
+				  "language": "fr"
+                },
+                "target": "{{ id.path }}/canvas#xywh=1920,1640,500,500&t=1,11"
               }
             ]
           }
