@@ -7,7 +7,7 @@ summary: "Ethical ML/AI Use Tags for IIIF Manifests"
 viewers:
  - Mirador
  - UV
-topic: property
+topic: note
 property: rights, requiredStatement   
 ---
 
