@@ -66,7 +66,14 @@ def checkForNonValidationIssues(data, filename):
                         result = checkAnnotationPage(page)
                         if result:
                             anyFailed = True
-                            print (f'Manifest {filename} contains a annotation in canvas {canvas['id']} which has a label in the annotation')
+                            print (f'Manifest {filename} contains a painting annotation in canvas {canvas['id']} which has a label in the annotation')
+                if 'annotations' in canvas:
+                    for page in canvas['annotations']:            
+                        result = checkAnnotationPage(page)
+                        if result:
+                            anyFailed = True
+                            print (f'Manifest {filename} contains an annotation in canvas {canvas['id']} which has a label in the annotation')
+
             if anyFailed:
                 return False            
 
