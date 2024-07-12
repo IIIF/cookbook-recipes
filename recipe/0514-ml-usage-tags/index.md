@@ -7,9 +7,7 @@ summary: "Ethical ML/AI Use Tags for IIIF Manifests"
 viewers:
  - Mirador
  - UV
-topic: 
- - text
- - presentation
+topic: property
 property: rights, requiredStatement   
 ---
 
@@ -80,7 +78,7 @@ No known restrictions.
 
 {% include manifest_links.html manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="30-39"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="16-28"' %}
 
 ## Related Recipes
 
