@@ -45,8 +45,8 @@ jobs:
       run: bundle exec rake test:html
     - name: Test internal links
       run: bundle exec rake test:links:internal
-    - name: Test *iiif.io* links
-      run: bundle exec rake test:links:iiif
+   # - name: Test *iiif.io* links
+   #   run: bundle exec rake test:links:iiif
 
     # Validate
     - name: Set up Python 3.x

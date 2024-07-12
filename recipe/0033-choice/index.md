@@ -41,7 +41,7 @@ This recipe should not be used if the images make up multiple parts of the scene
 
 The implementation builds on the [Support Deep Viewing with Basic Use of a IIIF Image Service][0005] recipe, except that the body of the annotation isn't an image resource directly, but a resource of type `choice`. This is defined in the W3C Web Annotation Data Model:
 
-> "A 'Choice' has an ordered list of resources from which an application should select only one to process or display. The order is given from the most preferable to least preferable, according to the Annotation's creator or publisher." *— from [Choice Between Bodies](https://www.w3.org/TR/annotation-model/#choice-between-bodies)*
+> "A Choice has an ordered list of resources from which an application should select only one to process or display. The order is given from the most preferable to least preferable, according to the Annotation's creator or publisher." *— from [Choice Between Bodies](https://www.w3.org/TR/annotation-model/#choice-between-bodies)*
 
 The multiple images are now values of the `choice` body, and each image resource should have a label property with at least one entry to convey information about each choice to the user.
 

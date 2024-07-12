@@ -21,6 +21,10 @@ As part of the work to aid implementation the Cookbook group have developed a Vi
 {% include misc/button.html button_link="recipe/matrix/" button_label="See IIIF viewer support" %}
 {{ theme.block-end }}
 
+## Code samples
+
+As well as viewer support, the cookbook provides links to code samples in various development libraries to aid developers who hope to re-create these recipes in Code. You can see a full list of recipes with code samples in the [code samples](recipe/code/) page.
+
 # Contributing
 
 Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advice and support can be received from the IIIF Cookbook channel on the IIIF Slack. For detailed information on how to contribute please see the [Cookbook process][cookbook-process].
@@ -45,7 +49,8 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Book behavior (paging) variations][0011] (15,16,17)
 * [Addressing a spatial region][0299]
 * [Viewing direction and its effect on navigation][0010] (11,12,13,14)
-* [Manifest Thumbnail][0117]
+* [Missing Images in a Sequence][0283]
+* [Image Thumbnail for Manifest][0117]
 * [Implementation discussion: Thumbnails on Canvases][0232]
 * [Load a Preview Image Before the Main Content][0013]
 * [Audio Presentation with Accompanying Image][0014]
@@ -55,6 +60,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Locate a Manifest on a Web Map][0154]
 * [Locate Multiple Canvases on a Web Map][0240]
 * [Acknowledge Content Contributors][0234]
+* [Simple Collection][0032]
 
 ## Textual and other supplementary content
 
@@ -80,11 +86,13 @@ _(leading on to segmentation examples later)_
 * [Simple Annotation - Tagging][0021]
 * [Annotation with a Non-Rectangular Polygon][0261]
 * [Tagging with an External Resource][0258]
-* hotspot linking
+* [Redirecting from one Canvas to another resource (Hotspot linking)][0022]
 * [Annotate a specific images or layers][0326]
+* [Annotating a specific point of an image][0135]
 * [Geographic coordinates][0139]
 * [Embedded or Referenced Annotations][0269]
 * [Linking external Annotations targeting a Canvas to a Manifest][0306]
+* [Image in annotations][0377]
 
 ## Internal structure
 
@@ -126,6 +134,13 @@ _(leading on to segmentation examples later)_
 * Linking between Presentation API representations
 * [Linking to Structured Metadata][0053] (8)
 
+
+## Sharing IIIF content 
+Recipes using [Content State API](https://iiif.io/api/content-state/1.0/)
+
+* [Loading a manifest with a viewer using a link][0466]
+
+
 ## Technical
 
 * extensions (18)
@@ -141,11 +156,12 @@ _(leading on to segmentation examples later)_
 * A music album's audio resources
 * ...and its image resoures
 * ...combined to demonstrate _together_
+* [Multiple Choice of Audio Formats in a Single View (Canvas)][0434]
 * [Table of Contents for Multiple A/V files on a Single Canvas][0064] (64)
 * [Table of Contents for Multiple A/V files on Multiple Canvases][0065] (65)
 * Adaptive bit rate AV examples
 * A field recording
-* [A newspaper][0068]
+* [Basic Newspaper][0068]
 * Example with extensions and services
 * A manuscript with multiple orderings
 * a Sammelband

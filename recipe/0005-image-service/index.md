@@ -8,9 +8,12 @@ viewers:
  - Mirador
  - Annona
  - Clover
+ - Glycerine Viewer
 topic: 
  - basic 
  - image
+code:
+ - iiif-prezi3
 ---
 
 ## Use Case
@@ -33,7 +36,7 @@ Though a version 3 Manifest may specify a service using the version 2 `@id` and 
 
 ## Example
 
-{% include manifest_links.html viewers="Mirador, Annona, Clover" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador, Annona, Clover, Glycerine Viewer" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="36-42"' %}
 

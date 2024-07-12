@@ -58,7 +58,7 @@ Since adding a service alone doesn't gain us anything, we can take it a step fur
   {
     "id": "https://fixtures.iiif.io/other/level0/Glen/photos/gottingen/full/max/0/default.jpg",
     "type": "Image",
-    "format": "image/jpg",
+    "format": "image/jpeg",
     "width":252,
     "height":189,
     "service": [

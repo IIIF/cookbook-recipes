@@ -40,9 +40,9 @@
                 "format": "image/jpeg",
                 "service": [
                   {
-                    "@id": "https://iiif.io/api/image/3.0/example/reference/28473c77da3deebe4375c3a50572d9d3-laocoon",
-                    "@type": "ImageService3",
-                    "profile": "http://iiif.io/api/image/2/level1.json"
+                    "id": "https://iiif.io/api/image/3.0/example/reference/28473c77da3deebe4375c3a50572d9d3-laocoon",
+                    "type": "ImageService3",
+                    "profile": "level1"
                   }
                 ],
                 "height": 3000,

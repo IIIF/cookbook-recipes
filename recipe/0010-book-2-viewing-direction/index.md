@@ -12,6 +12,8 @@ topic:
  - image
  - property
 property: viewingDirection
+code:
+ - iiif-prezi3
 ---
 
 ## Use Case
