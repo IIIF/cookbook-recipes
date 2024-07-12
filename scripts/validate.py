@@ -85,11 +85,12 @@ def checkForNonValidationIssues(data, filename):
     return True
 
 def checkAnnotationPage(page):
-    for annotation in page['items']:
-        if 'label' in annotation:
-            print ('Found label in:')
-            print (annotation)
-            return True
+    if 'items' in page:
+        for annotation in page['items']:
+            if 'label' in annotation:
+                print ('Found label in:')
+                print (annotation)
+                return True
     return False        
 
 def loadYAML(location):
