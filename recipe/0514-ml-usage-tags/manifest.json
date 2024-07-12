@@ -1,78 +1,76 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "{{ id.url }}",
-  "type": "Manifest",
-  "label": {
-    "en": [
-      "Picture of Göttingen taken during the 2019 IIIF Conference"
-    ]
-  },
-  "summary": {
-    "en": [
-      "<p>Picture taken by the <a href=\"https://github.com/glenrobson\">IIIF Technical Coordinator</a></p>"
-    ]
-  },
-  "rights": "http://creativecommons.org/licenses/by-sa/3.0/",
-  "requiredStatement": [
-    {
-      "label": {
-        "en": [
-          "Attribution"
-        ]
-      },
-      "value": {
-        "en": [
-          "<span>Glen Robson, IIIF Technical Coordinator. <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a> <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" title=\"CC BY-SA 3.0\"><img src=\"https://licensebuttons.net/l/by-sa/3.0/88x31.png\"/></a></span>"
-        ]
-      }
-    },
-    {
-      "label": {
-        "en": [
-          "Regulated ML/AI Use Permitted - Consent Required"
-        ]
-      },
-      "value": {
-        "en": [
-          "Material related to this IIIF Manifest may be used for AI or ML training datasets, if Prior Written Consent is obtained from the source holding institution. Standard Attribution of source content must be maintained for the ML/AI dataset. Original URL of source IIIF manifest must be maintained and referenced."
-        ]
-      }
-    }
-  ],
-  "items": [
-    {
-      "id": "{{ id.path }}/canvas/p1",
-      "type": "Canvas",
-      "height": 3024,
-      "width": 4032,
-      "items": [
-        {
-          "id": "{{ id.path }}/page/p1/1",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "{{ id.path }}/annotation/p0001-image",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 3024,
-                "width": 4032,
-                "service": [
-                  {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
-                    "profile": "level1",
-                    "type": "ImageService3"
-                  }
-                ]
-              },
-              "target": "{{ id.path }}/canvas/p1"
-            }
-          ]
-        }
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "{{ id.url }}",
+   "type": "Manifest",
+   "label": {
+      "en": [
+         "Picture of Göttingen taken during the 2019 IIIF Conference"
       ]
-    }
-  ]
+   },
+   "summary": {
+      "en": [
+         "<p>Picture taken by the <a href=\"https://github.com/glenrobson\">IIIF Technical Coordinator</a></p>"
+      ]
+   },
+   "rights": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "requiredStatement": {
+         "label": {
+            "en": [
+               "Attribution"
+            ]
+         },
+         "value": {
+            "en": [
+               "<span>Glen Robson, IIIF Technical Coordinator. <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a> <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" title=\"CC BY-SA 3.0\"><img src=\"https://licensebuttons.net/l/by-sa/3.0/88x31.png\"/></a></span>"
+            ]
+         }
+      },
+      {
+         "label": {
+            "en": [
+               "Regulated ML/AI Use Permitted - Consent Required"
+            ]
+         },
+         "value": {
+            "en": [
+               "Material related to this IIIF Manifest may be used for AI or ML training datasets, if Prior Written Consent is obtained from the source holding institution. Standard Attribution of source content must be maintained for the ML/AI dataset. Original URL of source IIIF manifest must be maintained and referenced."
+            ]
+         }
+      },
+   "items": [
+      {
+         "id": "{{ id.path }}/canvas/p1",
+         "type": "Canvas",
+         "height": 3024,
+         "width": 4032,
+         "items": [
+            {
+               "id": "{{ id.path }}/page/p1/1",
+               "type": "AnnotationPage",
+               "items": [
+                  {
+                     "id": "{{ id.path }}/annotation/p0001-image",
+                     "type": "Annotation",
+                     "motivation": "painting",
+                     "body": {
+                        "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg",
+                        "type": "Image",
+                        "format": "image/jpeg",
+                        "height": 3024,
+                        "width": 4032,
+                        "service": [
+                           {
+                              "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
+                              "profile": "level1",
+                              "type": "ImageService3"
+                           }
+                        ]
+                     },
+                     "target": "{{ id.path }}/canvas/p1"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
 }
