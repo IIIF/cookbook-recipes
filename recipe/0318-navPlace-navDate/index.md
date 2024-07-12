@@ -34,7 +34,7 @@ The example can be displayed in a [custom viewer](https://mikeapp.github.io/mapt
 * [The Temple of Vesta, Rome, 1849](manifest-4.json)
 * [A View of Trajan's Forum, Rome, 1821](manifest-5.json)
 
-{% include manifest_links.html viewers="" manifest="manifest-1.json" %}
+{% include manifest_links.html manifest="manifest-1.json" %}
 
 {% include jsonviewer.html src="manifest-1.json" config='data-line="13-37"' %}
 
