@@ -58,7 +58,7 @@
                 "body": {
                   "id": "https://iiif.io/api/image/3.0/example/reference/71b9228e087f15c75b628214cd9f647d-A_View_of_Trajans_Forum_Rome/full/max/0/default.jpg",
                   "type": "Image",
-                  "format": "image/jpg",
+                  "format": "image/jpeg",
                   "height": 3005,
                   "width": 2048,
                   "service": [

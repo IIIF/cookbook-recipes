@@ -58,7 +58,7 @@
                 "body": {
                   "id": "https://iiif.io/api/image/3.0/example/reference/71b9228e087f15c75b628214cd9f647d-The_Temple_of_Vesta_Rome/full/max/0/default.jpg",
                   "type": "Image",
-                  "format": "image/jpg",
+                  "format": "image/jpeg",
                   "height": 2875,
                   "width": 2048,
                   "service": [
