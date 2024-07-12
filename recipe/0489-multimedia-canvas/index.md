@@ -5,25 +5,23 @@ layout: recipe
 tags: Complex Object
 summary: "tbc"
 viewers:
- - Annona
- - UV
- - Mirador
- - Clover
- - Glycerine Viewer
 topic: 
  - annotation
 ---
 
 ## Use Case
 
-You want to engage in some form of digital storytelling with one or more AV resources painted onto the same Canvas as a still image that will serve as a background. You want part of the still image to remain visible behind any video AV resources while they play. This storytelling might happen in the context of teaching narrative techniques in curricular settings, as a component of scholarly communications around research output, or for other reasons and in other contexts.
+You want to create a digital assignment by providing students with a IIIF image resource to analyze in a fixed amount of time, a timer to show students how long they have, and text instructions for how to complete the assignment. You want to keep everything in one IIIF viewer.
 
 ## Implementation Notes
 
-This recipe pulls together techniques and structures described in previous recipes. 
+This recipe pulls together techniques and structures described in previous recipes, but also adds new elements. 
+
 Multiple `item`s on one Canvas as in 0036
+
 Differing dimensions of a resource and Canvas as in 0004 but sizing and placing the resource 
-New: Mixing video (AV) and still image resources
+
+The new elements include mixing AV and image IIIF resources, setting an image to be visible for an amount of time, and resizing an AV resource.
 
 ## Restrictions
 
@@ -31,8 +29,7 @@ No restrictions known.
 
 ## Example
 
-Describe the solution in prose and provide an example.
-The example json document must be an external document, and imported with the following:
+[Theseus Viewer temporary link](https://theseus-viewer.netlify.app/?iiif-content={{ id.path }}/manifest.json)
 
 {% include manifest_links.html manifest="manifest.json" %}
 
