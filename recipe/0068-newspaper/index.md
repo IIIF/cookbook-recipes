@@ -88,12 +88,12 @@ Viewer support for any particular feature will depend on the viewer and any cust
 
 | IIIF component | Viewer Support (May 2024) |
 |-----------|------|
-| Collection | Mirador, Annona, Universal Viewer, Clover, Glycerine Viewer |
-| Manifest per issue | Mirador, Annona, Universal Viewer, Clover, Glycerine Viewer |
-| `navDate` | Universal Viewer |
-| OCR in Annotations | Annona, Glycerine Viewer |
-| ALTO via `rendering` | Glycerine Viewer |
-| `seeAlso` for dataset version | Annona, Mirador, Glycerine Viewer |
+| Collection | Mirador, Annona, Universal Viewer, Clover, Glycerine Viewer, Theseus |
+| Manifest per issue | Mirador, Annona, Universal Viewer, Clover, Glycerine Viewer, Theseus |
+| `navDate` | Universal Viewer, Theseus |
+| OCR in Annotations | Annona, Glycerine Viewer, Theseus |
+| ALTO via `rendering` | Glycerine Viewer, Theseus |
+| `seeAlso` for dataset version | Annona, Mirador, Glycerine Viewer, Theseus |
 {: .api-table style="max-width: 780px;"}
 
 Similarly, the quality of the OCR as well as the formatting and positioning data of the Annotations containing it will determine how useful it is. IIIF Presentation v3 only provides a standard for structuring it and communicating layout to a viewer.
