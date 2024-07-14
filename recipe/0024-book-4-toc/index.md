@@ -8,6 +8,7 @@ viewers:
  - UV
  - Mirador
  - Theseus
+ - Glycerine Viewer
 topic: structure
 property: structures
 ---
@@ -37,7 +38,7 @@ In this example, an Ethiopic manuscript contains multiple works, one of which co
     * Monday
     * Tuesday
 
-{% include manifest_links.html viewers="UV, Mirador, Theseus" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Glycerine Viewer, Theseus" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="246-326, 247-254, 275-282"' %}
 
