@@ -12,7 +12,7 @@
          "<p>Picture taken by the <a href=\"https://github.com/glenrobson\">IIIF Technical Coordinator</a></p>"
       ]
    },
-   "rights": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "rights": "https://www.wikidata.org/wiki/Q127518037",
    "requiredStatement": {
       "label": {
          "en": [
@@ -21,7 +21,7 @@
       },
       "value": {
          "en": [
-            "Material related to this IIIF Manifest may be used for AI or ML training datasets, if Prior Written Consent is obtained from the source holding institution. Standard Attribution of source content must be maintained for the ML/AI dataset. Original URL of source IIIF manifest must be maintained and referenced.",
+            "Material related to this Digital Object may be used for AI or ML training datasets, if Prior Written Consent is obtained from the Source Holding Institution and Standard Attribution is maintained and referenced publicly.",
             "Attribution: <span>Glen Robson, IIIF Technical Coordinator. <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a> <a href=\"https://creativecommons.org/licenses/by-sa/3.0\" title=\"CC BY-SA 3.0\"><img src=\"https://licensebuttons.net/l/by-sa/3.0/88x31.png\"/></a></span>"
          ]
       }
