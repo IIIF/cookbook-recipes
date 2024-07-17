@@ -13,7 +13,7 @@ property: rights, requiredStatement
 
 ## Use Case
 
-Similar to the initiatives crafted by other content communities in efforts to limit the scraping of images and text using “noai” and “noimageai” meta HTML tags, users of the IIIF APIs may consider implementing a set of tags their IIIF manifests to help better regulate ML/AI content scraping and non-consented or attributed use of IIIF powered content in ML/AI applications.
+Similar to the initiatives crafted by other content communities in efforts to limit the scraping of images and text using “noai” and “noimageai” meta HTML tags, users of the IIIF APIs may consider implementing a set of tags/usage statements their IIIF manifests to help better regulate ML/AI content scraping and non-consented or attributed use of IIIF powered content in ML/AI applications.
 
 ## Implementation Notes
 
@@ -21,13 +21,28 @@ Use of these standardized ML/AI Usage tags in IIIF Manifests will always need to
 
 Recommendation to use a single applicable tag, based on the particular concerns associated with an asset's use in ML/AI applications.
 
+### Using `rights` statement URIs sourced from Wikidata
+
+The examples shown here reference the Wikidata Items URIs for the different statements. As described in the [IIIF Presentation 3.0 `rights` property](https://iiif.io/api/presentation/3.0/#rights) related to  `@context` requirements, and using the [Profiles Registry](https://iiif.io/api/registry/profiles/), you need to add the specified Profile URI for the Wikidata items to the `context` property at the beginning of your IIIF Manifest:
+
+```JSON
+{
+  "@context": [
+    "https://www.wikidata.org/entity/Q115365241",
+    "http://iiif.io/api/presentation/3/context.json"
+  ]
+}
+```
+
+Please also see the [goals statement on Stable URIs Development and Maintenance in the Ethical ML/AI Usage Tags Project Repository](https://github.com/alliomeria/ethical_ml_usage_tags/blob/main/README.md#stable-uris-development-and-maintenance) for information about the longer term plans regarding related URIs. 
+
 #### For humans, within [`requiredStatement`](https://iiif.io/api/presentation/3.0/#requiredstatement)
 
 ```JSON 
 {
   "requiredStatement": {
     "label": { "en": [ "No AI" ] },
-    "value": { "en": [ "Material related to this IIIF Manifest should not be used for AI or ML training datasets." ] }
+    "value": { "en": [ "Material related to this Digital Object should not be used for AI or ML training datasets." ] }
   }
 }
 ```
@@ -35,7 +50,7 @@ Recommendation to use a single applicable tag, based on the particular concerns 
 {
   "requiredStatement": {
   "label": { "en": [ "No Image AI" ] },
-  "value": { "en": [ "Image-based material related to this IIIF Manifest should not be used for AI or ML training datasets." ] }
+  "value": { "en": [ "Image-based material related to this Digital Object should not be used for AI or ML training datasets." ] }
   }
 }
 ```
@@ -43,7 +58,7 @@ Recommendation to use a single applicable tag, based on the particular concerns 
 {
   "requiredStatement": {
   "label": { "en": [ "Regulated ML/AI Use Permitted - Attribution Required" ] },
-  "value": { "en": [ "Material related to this IIIF Manifest may be used for AI or ML training datasets, as long as Standard Attribution of source content is maintained for the ML/AI dataset. Original URL of source IIIF manifest must be maintained and referenced." ] }
+  "value": { "en": [ "material related to this Digital Object may be used for AI or ML training datasets, as long as Standard Attribution of source Digital Object Title and URL is maintained and referenced publicly for the ML/AI dataset." ] }
   }
 }
 ```
@@ -51,14 +66,36 @@ Recommendation to use a single applicable tag, based on the particular concerns 
 {
   "requiredStatement": {
   "label": { "en": [ "Regulated ML/AI Use Permitted - Consent Required" ] },
-  "value": { "en": [ "Material related to this IIIF Manifest may be used for AI or ML training datasets, if Prior Written Consent is obtained from the source holding institution. Standard Attribution of source content must be maintained for the ML/AI dataset. Original URL of source IIIF manifest must be maintained and referenced." ] }
+  "value": { "en": [ "Material related to this Digital Object may be used for AI or ML training datasets, if Prior Written Consent is obtained from the Source Holding Institution and Standard Attribution is maintained and referenced publicly." ] }
   }
 }
 ```
 
 #### For machines, within [`rights`](https://iiif.io/api/presentation/3.0/#rights)
 
-* URIs to be pursued for machineable interactions, pending further discussions within the IIIF and wider repository communities during Summer 2024 and onwards.
+* No AI
+```JSON
+{ "rights": "https://www.wikidata.org/wiki/Q127515163" }
+
+```
+
+* No Image AI
+```JSON
+{ "rights": "https://www.wikidata.org/wiki/Q127516405" }
+
+```
+
+* Regulated ML/AI Use Permitted - Attribution Required
+```JSON
+{ "rights": "https://www.wikidata.org/wiki/Q127516763" }
+
+```
+
+* Regulated ML/AI Use Permitted - Consent Required
+```JSON
+{ "rights": "https://www.wikidata.org/wiki/Q127518037" }
+
+```
 
 #### Additional Considerations
 
@@ -78,7 +115,7 @@ No known restrictions.
 
 {% include manifest_links.html manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="16-28"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="15-28"' %}
 
 ## Related Recipes
 
