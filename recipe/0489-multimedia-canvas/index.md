@@ -15,13 +15,7 @@ You want to create a digital assignment by providing students with a IIIF image 
 
 ## Implementation Notes
 
-This recipe pulls together techniques and structures described in previous recipes, but also adds new elements. 
-
-Multiple `item`s on one Canvas as in 0036
-
-Differing dimensions of a resource and Canvas as in 0004 but sizing and placing the resource 
-
-The new elements include mixing AV and image IIIF resources, setting an image to be visible for an amount of time, and resizing an AV resource.
+This recipe pulls together techniques and structures described in other recipes, and adds new elements. In other recipes, this cookbook shows [how to place multiple resources on a single Canvas][0036] and how to work with [a resource with different dimensions than its Canvas][0004]. In the Use Case for this recipe, the aim is to mix AV and image IIIF resources, set an image to be visible for an amount of time, and resize and position an AV resource on a Canvas.
 
 ## Restrictions
 
