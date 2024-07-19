@@ -7,8 +7,8 @@
       {
         "id": "{{ id.path }}/canvas",
         "type": "Canvas",
-        "height": 3024,
-        "width": 4032,
+        "height": 31722,
+        "width": 70399,
         "duration": 41,
         "items": [
           {
@@ -17,23 +17,23 @@
             "items": [
               {
                 "id": "{{ id.path }}/annotation/p0001-image",
-                "type": "Annotation",
-                "motivation": "painting",
-                "body": {
-                  "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg",
-                  "type": "Image",
-                  "format": "image/jpeg",
-                  "height": 3024,
-                  "width": 4032,
-                  "service": [
-                    {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/36ca0a3370db128ec984b33d71a1543d-100320001004/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 31722,
+                "width": 70399,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/36ca0a3370db128ec984b33d71a1543d-100320001004",
                     "profile": "level1",
                     "type": "ImageService3"
-                    }
-                  ]
-                },
-                "target": "{{ id.path }}/canvas#t=11,41"
+                  }
+                ]
+              },
+                "target": "{{ id.path }}/canvas#t=11,42"
               },
               {
                 "id": "{{ id.path }}/annotation/p0002-video",
@@ -47,7 +47,7 @@
 				  "duration": 1801.055,
 				  "format": "video/mp4"
                 },
-                "target": "{{ id.path }}/canvas#xywh=200,200,360,640&t=11,41"
+                "target": "{{ id.path }}/canvas#xywh=1000,500,5000,6000&t=11,42"
               },
               {
                 "id": "{{ id.path }}/annotation/p0004-text",
@@ -56,10 +56,10 @@
                 "body": {
 				  "type": "TextualBody",
 				  "format": "text/html",
-				  "value": "<p style='font-size:10em'>Press Play</p>",
+				  "value": "<p style='font-size:200em'>Press Play</p>",
 				  "language": "fr"
                 },
-                "target": "{{ id.path }}/canvas#xywh=1920,1640,500,500&t=0,1"
+                "target": "{{ id.path }}/canvas#xywh=30200,10200,15000,5000&t=0,1"
               },
               {
                 "id": "{{ id.path }}/annotation/p0005-text",
@@ -68,10 +68,10 @@
                 "body": {
 				  "type": "TextualBody",
 				  "format": "text/html",
-				  "value": "<p style='font-size:5em'>When this text goes away, the clock will start. When it starts, you will have 30 seconds in which to take notes on the image you see. After 30 seconds, everything will disappear.</p>",
+				  "value": "<p style='font-size:100em'>In 10 seconds, this text will be replaced by a clock and an image. You will have 30 seconds (shown on the clock) in which to take notes on the image you see. After 30 seconds, the image will be replaced by the start screen. You will not be responsible for the part of the image covered by the clock.</p>",
 				  "language": "fr"
                 },
-                "target": "{{ id.path }}/canvas#xywh=1920,1640,500,500&t=1,11"
+                "target": "{{ id.path }}/canvas#xywh=20220,5000,30000,5000&t=1,11"
               }
             ]
           }
