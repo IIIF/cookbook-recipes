@@ -92,6 +92,7 @@ _(leading on to segmentation examples later)_
 * [Geographic coordinates][0139]
 * [Embedded or Referenced Annotations][0269]
 * [Linking external Annotations targeting a Canvas to a Manifest][0306]
+* [Using Annotation collections][0309]
 * [Image in annotations][0377]
 
 ## Internal structure
