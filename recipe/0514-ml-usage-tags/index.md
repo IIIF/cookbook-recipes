@@ -23,18 +23,9 @@ Recommendation to use a single applicable tag, based on the particular concerns 
 
 ### Using `rights` statement URIs sourced from Wikidata
 
-The examples shown here reference the Wikidata Items URIs for the different statements. As described in the [IIIF Presentation 3.0 `rights` property](https://iiif.io/api/presentation/3.0/#rights) related to  `@context` requirements, and using the [Profiles Registry](https://iiif.io/api/registry/profiles/), you need to add the specified Profile URI for the Wikidata items to the `context` property at the beginning of your IIIF Manifest:
+The examples shown here reference the Wikidata URIs for the different statements. As described in the [IIIF Presentation 3.0 `rights` property](https://iiif.io/api/presentation/3.0/#rights), currently URIs should be sourced from Creative Commons or RightsStatements.org. For URIs that do not reference either of these sources, the [`extensions`](https://iiif.io/api/presentation/3.0/#46-linked-data-context-and-extensions) mechanism using a source found in one of the [IIIF Registry of Known Extensions](https://iiif.io/api/registry/) can also be used. Wikidata is included in the  [Profiles Registry](https://iiif.io/api/registry/profiles/).
 
-```JSON
-{
-  "@context": [
-    "https://www.wikidata.org/entity/Q115365241",
-    "http://iiif.io/api/presentation/3/context.json"
-  ]
-}
-```
-
-Please also see the [goals statement on Stable URIs Development and Maintenance in the Ethical ML/AI Usage Tags Project Repository](https://github.com/alliomeria/ethical_ml_usage_tags/blob/main/README.md#stable-uris-development-and-maintenance) for information about the longer term plans regarding related URIs. 
+Please see the [goals statement on Stable URIs Development and Maintenance in the Ethical ML/AI Usage Tags Project Repository](https://github.com/alliomeria/ethical_ml_usage_tags/blob/main/README.md#stable-uris-development-and-maintenance) for information about the longer term plans regarding related URIs. When those stable URIs are finalized, a proposal will be made to add to the [Rights Registry](https://iiif.io/api/registry/rights/).
 
 #### For humans, within [`requiredStatement`](https://iiif.io/api/presentation/3.0/#requiredstatement)
 
