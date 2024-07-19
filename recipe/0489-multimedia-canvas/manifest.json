@@ -57,7 +57,7 @@
 				  "type": "TextualBody",
 				  "format": "text/html",
 				  "value": "<p style='font-size:200em'>Press Play</p>",
-				  "language": "fr"
+				  "language": "en"
                 },
                 "target": "{{ id.path }}/canvas#xywh=30200,10200,15000,5000&t=0,1"
               },
@@ -69,7 +69,7 @@
 				  "type": "TextualBody",
 				  "format": "text/html",
 				  "value": "<p style='font-size:100em'>In 10 seconds, this text will be replaced by a clock and an image. You will have 30 seconds (shown on the clock) in which to take notes on the image you see. After 30 seconds, the image will be replaced by the start screen. You will not be responsible for the part of the image covered by the clock.</p>",
-				  "language": "fr"
+				  "language": "en"
                 },
                 "target": "{{ id.path }}/canvas#xywh=20220,5000,30000,5000&t=1,11"
               }
