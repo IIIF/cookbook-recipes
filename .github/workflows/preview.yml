@@ -71,7 +71,7 @@ jobs:
         pip install -r scripts/requirements.txt
 
     - name: validate      
-        # run: scripts/validate.sh
+#     run: scripts/validate.sh
 
     - name: add URL to config
       run: .github/bin/addURL.sh
