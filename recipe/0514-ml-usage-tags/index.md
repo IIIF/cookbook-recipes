@@ -65,24 +65,28 @@ Please see the [goals statement on Stable URIs Development and Maintenance in th
 #### For machines, within [`rights`](https://iiif.io/api/presentation/3.0/#rights)
 
 * No AI
+
 ```JSON
 { "rights": "https://www.wikidata.org/wiki/Q127515163" }
 
 ```
 
 * No Image AI
+
 ```JSON
 { "rights": "https://www.wikidata.org/wiki/Q127516405" }
 
 ```
 
 * Regulated ML/AI Use Permitted - Attribution Required
+
 ```JSON
 { "rights": "https://www.wikidata.org/wiki/Q127516763" }
 
 ```
 
 * Regulated ML/AI Use Permitted - Consent Required
+
 ```JSON
 { "rights": "https://www.wikidata.org/wiki/Q127518037" }
 
