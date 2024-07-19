@@ -1,6 +1,5 @@
 {
    "@context": [
-    "https://www.wikidata.org/entity/Q115365241",
     "http://iiif.io/api/presentation/3/context.json"
      ],
    "id": "{{ id.url }}",
