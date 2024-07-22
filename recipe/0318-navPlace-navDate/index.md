@@ -36,7 +36,7 @@ In a more limited way, the Collection can be displayed in the Navplace viewer. T
 * [The Temple of Vesta, Rome, 1849](manifest-4.json)
 * [A View of Trajan's Forum, Rome, 1821](manifest-5.json)
 
-{% include manifest_links.html manifest="manifest-1.json" %}
+{% include manifest_links.html manifest="collection.json" %}
 
 {% include jsonviewer.html src="collection.json" config='data-line="39-63,73-97,107-131,141-165,175-200"' %}
 
