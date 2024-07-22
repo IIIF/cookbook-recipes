@@ -38,7 +38,7 @@ In a more limited way, the Collection can be displayed in the Navplace viewer. T
 
 {% include manifest_links.html manifest="manifest-1.json" %}
 
-{% include jsonviewer.html src="manifest-1.json" config='data-line="13-37"' %}
+{% include jsonviewer.html src="collection.json" config='data-line="39-63,73-97,107-131,141-165,175-200"' %}
 
 ## Related Recipes
 * [Locate a Manifest on a Web Map][0154]
