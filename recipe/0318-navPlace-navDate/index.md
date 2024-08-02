@@ -27,7 +27,7 @@ The example consists of a [Collection](collection.json) that references five Man
 
 The example can be displayed in a [custom viewer](https://mikeapp.github.io/maptime-demo/?iiif-content=https://preview.iiif.io/cookbook/0318/recipe/0318-navPlace-navDate/collection.json). In the viewer, click on the "Limit by Date Range" button to sort the objects by date. Adjust the ends of the timeline slider to filter the objects based on a date range.
 
-In a more limited way, the Collection can be displayed in the Navplace viewer. This viewer will show all examples places appropriately on a map, but ignores the `navDate` data.
+In a more limited way, the Collection can be displayed in the Navplace viewer used elsewhere in this cookbook. This viewer will show all examples places appropriately on a map, but ignores the `navDate` data.
 
 [NavPlace and NavDate Collection](collection.json)
 * [Castel Sant'Angelo, Rome](manifest-1.json)
