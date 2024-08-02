@@ -72,17 +72,17 @@ The possible values for viewer support are YES, NO or Partial. Click on the reci
             <td width="100px">
                 {% if current.id == viewer %}
                     {% if current.support == "full" %}
-                        YES
+                        <img src="{{ site.cookbook_url | absolute_url }}/assets/images/icons/required.png" alt="Yes" title="Yes" />
                     {% else if current.support == "partial" %}
-                        Partial
+                        <img src="{{ site.cookbook_url | absolute_url }}/assets/images/icons/recommended.png" alt="Partial" title="Partial" />
                     {% else %}
-                        YES
+                        <img src="{{ site.cookbook_url | absolute_url }}/assets/images/icons/required.png" alt="Yes" title="Yes" />
                     {% endif %}
                 {% else %}
                     {% if recipe.viewers contains viewer %} 
-                        YES
+                        <img src="{{ site.cookbook_url | absolute_url }}/assets/images/icons/required.png" alt="Yes" title="Yes" />
                     {% else %}    
-                        NO
+                        <img src="{{ site.cookbook_url | absolute_url }}/assets/images/icons/not_allowed.png" alt="No" title="No"/>
                     {% endif %}
                 {% endif %}
             </td>

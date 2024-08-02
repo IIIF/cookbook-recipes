@@ -41,4 +41,5 @@ code {
 
 .viewer td {
     border: none !important;
+    text-align: center !important;
 }
