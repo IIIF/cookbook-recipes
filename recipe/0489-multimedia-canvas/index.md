@@ -17,24 +17,29 @@ You want to create a digital assignment by providing students with a IIIF image 
 
 This recipe pulls together techniques and structures described in other recipes, and adds new elements. In other recipes, this cookbook shows [how to place multiple resources on a single Canvas][0036] and how to work with [a resource with different dimensions than its Canvas][0004]. In the Use Case for this recipe, the aim is to mix AV and image IIIF resources, set an image to be visible for an amount of time, and resize and position an AV resource on a Canvas.
 
+While other recipes have discussed [simple textual annotations][0266], this recipe changes the motivation for its textual annotations to `painting` to include the text directly and visibly on the Canvas. Each of the annotations in this recipe is bound both by its placement on the Canvas and by its time of visibility.
+
 ## Restrictions
 
 No restrictions known.
 
 ## Example
 
-[Theseus Viewer temporary link](https://theseus-viewer.netlify.app/?iiif-content={{ id.path }}/manifest.json)
+In this example, a still image, a video, and plaintext annotations are combined on a single Canvas to simulate a classroom assignment designed to introduce students to image study and notetaking in a compressed period of time. Note that this example contains material pedagogical design flaws and is not to be used as is for a classroom assignment.
+
+A person using a viewer that supports this recipe is presented first with the instruction to "Press Play", added using a time-bound plaintext annotation. After pressing play, additional instructions appear, also created using a time-bound plaintext annotation. When the time elapses on this annotation, the person is presented with a clock video overlaid on top of a still image. In the hypothetical assignment, a student would follow the instructions and take notes on the still image while the clock counts up the time allotted. After 30 seconds passes, the still image and clock video disappear, replaced by text instructions to close the browser.
+
+[Theseus Viewer temporary link](https://theseus-viewer.netlify.app/?iiif-content=http://localhost:4000//recipe/0489-multimedia-canvas/manifest.json)
 
 {% include manifest_links.html manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 
-The direct link to the fixture is a useful convenience.
-
 ## Related Recipes
 
-* [Simple Image Manifest][0001]
-* [Image and Canvas with Differing Dimensions][0004] for thinking through relative dimensioning of a resource and a Canvas
+* [Image and Canvas with Differing Dimensions][0004] for relative dimensioning of a resource and a Canvas
+* [Simplest Annotation][0266] for a basic textual annotation
+* [Composition from Multiple Images][0036] for using multiple IIIF resources on a single Canvas
 
 {% include acronyms.md %}
 {% include links.md %}
