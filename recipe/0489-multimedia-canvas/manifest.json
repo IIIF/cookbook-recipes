@@ -83,7 +83,7 @@
 				  "value": "<p style='font-size:200em'>Close your browser</p>",
 				  "language": "en"
                 },
-                "target": "{{ id.path }}/canvas#xywh=27000,10200,25000,5000&t=43,180"
+                "target": "{{ id.path }}/canvas#xywh=27000,10200,25000,5000&t=42,180"
               }
             ]
           }
