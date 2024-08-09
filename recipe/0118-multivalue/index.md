@@ -39,6 +39,7 @@ In this example, the work has multiple titles in both English and French. The Ma
 
 * [Internationalization and Multi-language Values][0006]
 * [Metadata][0029]
+* [Annotating in Multiple Languages][0346]
 
 {% include acronyms.md %}
 {% include links.md %}

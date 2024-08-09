@@ -69,6 +69,7 @@
 [0318]: {{ site.cookbook_url | absolute_url }}/recipe/0318-navPlace-navDate/ "Locating an Item in Place and Time"
 [0326]: {{ site.cookbook_url | absolute_url }}/recipe/0326-annotating-image-layer/ "Annotate a specific images or layers"
 
+[0346]: {{ site.cookbook_url | absolute_url }}/recipe/0346-multilingual-annotation-body/ "Annotating in Multiple Languages"
 [0377]: {{ site.cookbook_url | absolute_url }}/recipe/0377-image-in-annotation/ "Image in annotation"
 
 [0466]: {{ site.cookbook_url | absolute_url }}/recipe/0466-link-for-loading-manifest/ "Loading a manifest with a viewer using a link"
