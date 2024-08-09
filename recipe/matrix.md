@@ -43,7 +43,7 @@ Currently [Mirador 3](https://projectmirador.org/), the [Universal Viewer](https
 
 ## Viewer Matrix
 
-The possible values for viewer support are YES, NO or Partial. Click on the recipe name to see links to supporting viewers' behaviour with the recipe manifest. This will allow you to see whether it achieves the required function in the way you expect.
+The possible values for viewer support are YES - <img src="{{ site.cookbook_url | absolute_url }}/assets/images/icons/required.png"/>, NO - <img src="{{ site.cookbook_url | absolute_url }}/assets/images/icons/not_allowed.png"/> or Partial - ![Partial][PARTIAL]. Click on the recipe name to see links to supporting viewers' behaviour with the recipe manifest. This will allow you to see whether it achieves the required function in the way you expect.
 {% for topic in page.topics  %}
 {% if topic.key %}
 {% assign topic_key = topic.key %}
@@ -82,7 +82,7 @@ The possible values for viewer support are YES, NO or Partial. Click on the reci
                     {% if recipe.viewers contains viewer %} 
                         <img src="{{ site.cookbook_url | absolute_url }}/assets/images/icons/required.png" alt="Yes" title="Yes" />
                     {% else %}    
-                        <img src="{{ site.cookbook_url | absolute_url }}/assets/images/icons/not_allowed.png" alt="No" title="No"/>
+                        ![No][NO]
                     {% endif %}
                 {% endif %}
             </td>
@@ -91,3 +91,7 @@ The possible values for viewer support are YES, NO or Partial. Click on the reci
 {% endfor %}
 </table>
 {% endfor %}
+
+[YES]: {{ site.cookbook_url | absolute_url }}/assets/images/icons/required.png
+[NO]: {{ site.cookbook_url | absolute_url }}/assets/images/icons/not_allowed.png
+[PARTIAL]: {{ site.cookbook_url | absolute_url }}/assets/images/icons/recommended.png
