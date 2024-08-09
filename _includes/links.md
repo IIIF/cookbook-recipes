@@ -65,8 +65,9 @@
 [0269]: {{ site.cookbook_url | absolute_url }}/recipe/0269-embedded-or-referenced-annotations/ "Embedded or Referenced Annotations"
 [0283]: {{ site.cookbook_url | absolute_url }}/recipe/0283-missing-image/ "Missing Images in a Sequence"
 
-[0326]: {{ site.cookbook_url | absolute_url }}/recipe/0326-annotating-image-layer/ "Annotate a specific images or layers"
 [0306]: {{ site.cookbook_url | absolute_url }}/recipe/0306-linking-annotations-to-manifests/ "Linking external Annotations targeting a Canvas to a Manifest"
+[0318]: {{ site.cookbook_url | absolute_url }}/recipe/0318-navPlace-navDate/ "Locating an Item in Place and Time"
+[0326]: {{ site.cookbook_url | absolute_url }}/recipe/0326-annotating-image-layer/ "Annotate a specific images or layers"
 
 [0377]: {{ site.cookbook_url | absolute_url }}/recipe/0377-image-in-annotation/ "Image in annotation"
 
