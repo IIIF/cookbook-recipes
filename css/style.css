@@ -32,7 +32,6 @@ code {
     display: table !important;
     overflow-x: unset !important;
     border-width: 0 0 1px !important;
-    border: none !important;
 }
 
 .viewer tr {
@@ -42,4 +41,11 @@ code {
 .viewer td {
     border: none !important;
     text-align: center !important;
+}
+
+.scrolling-header {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    box-shadow: inset 0 -1px 0 #dbdbdb;
 }
