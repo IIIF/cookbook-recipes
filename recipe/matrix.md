@@ -59,9 +59,9 @@ The possible values for viewer support are Yes - ![Yes][YES]{:title="Yes"}, No -
 
 <table class="viewer">
     <tr>
-        <th>Recipe</th>
+        <th class="scrolling-header">Recipe</th>
         {% for viewer in page.viewers %}
-            <th>{{ viewer }}</th>
+            <th class="scrolling-header">{{ viewer }}</th>
         {% endfor %}
     </tr>    
 {% for recipe in sorted %}
