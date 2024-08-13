@@ -3,7 +3,7 @@ title: Multimedia Canvas
 id: 499
 layout: recipe
 tags: Complex Object
-summary: "tbc"
+summary: "Paint a still image, a video with sound, and text onto a single Canvas"
 viewers:
 topic: 
  - annotation
