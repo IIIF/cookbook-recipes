@@ -19,7 +19,7 @@ This recipe pulls together techniques and structures described in other recipes,
 
 While other recipes have discussed [simple textual annotations][0266], this recipe uses a `painting` motivation for its textual annotations (rather than `commenting` as in that recipe) to include the text directly and visibly on the Canvas. Each of the annotations in this recipe is bound both by its placement on the Canvas and by its time of visibility.
 
-When using timing for showing and hiding resources on a Canvas, a high degree of precision is not likely to be achieved for all people viewing the Canvas. Resources may load slowly for many reasons, including on the IIIF image server side, for network traffic reasons, or from customizations in a person's browser. Except in a very predictable environment, timing should be considered approximate
+When using timing for showing and hiding resources on a Canvas, a high degree of precision is not likely to be achieved for all people viewing the Canvas. Resources may load slowly for many reasons, including image server issues, network traffic, or browser and client customizations. Except in a very predictable environment, timing should be considered approximate
 
 ## Restrictions
 
