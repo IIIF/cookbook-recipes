@@ -93,6 +93,7 @@ _(leading on to segmentation examples later)_
 * [Embedded or Referenced Annotations][0269]
 * [Linking external Annotations targeting a Canvas to a Manifest][0306]
 * [Image in annotations][0377]
+* [Annotating in Multiple Languages][0346]
 
 ## Internal structure
 
@@ -172,6 +173,8 @@ Recipes using [Content State API](https://iiif.io/api/content-state/1.0/)
 * Mixed Image Service references (a mashup, with img2 and img3 services)
 * Glenn Gould - score and performance scenarios (transcribing)
 * A Map
+* [Locating an Item in Place and Time][0318]
+
 
 ## Access Control
 _this might be in a separate auth cookbook_

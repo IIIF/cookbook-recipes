@@ -1,0 +1,79 @@
+{
+    "@context": [
+      "http://iiif.io/api/extension/navplace/context.json",
+      "http://iiif.io/api/presentation/3/context.json"
+    ],
+    "id": "{{ id.url }}",
+    "type": "Manifest",
+    "label": {
+      "en": [
+        "The Temple of Vesta, Rome, 1849"
+      ]
+    },
+    "navDate": "1849-01-01T00:00:00+00:00",
+    "navPlace": {
+      "id": "{{ id.path }}/feature-collection/4",
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "id": "{{ id.path }}/feature/4",
+          "type": "Feature",
+          "properties": {
+            "label": {
+              "en": [
+                "The Temple of Vesta, Rome, 1849"
+              ]
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              12.4862,
+              41.8917     
+            ]
+          }
+        }
+      ]
+    },
+    "items": [
+      {
+        "id": "{{ id.path }}/canvas/4",
+        "type": "Canvas",
+        "height": 2875,
+        "width": 2048,
+        "label": {
+          "en": [
+            "The Temple of Vesta, Rome, 1849"
+          ]
+        },
+        "items": [
+          {
+            "id": "{{ id.path }}/anno-page/4",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "{{ id.path }}/anno/4",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://iiif.io/api/image/3.0/example/reference/71b9228e087f15c75b628214cd9f647d-The_Temple_of_Vesta_Rome/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 2875,
+                  "width": 2048,
+                  "service": [
+                    {
+                      "id": "https://iiif.io/api/image/3.0/example/reference/71b9228e087f15c75b628214cd9f647d-The_Temple_of_Vesta_Rome",
+                      "profile": "level1",
+                      "type": "ImageService3"
+                    }
+                  ]
+                },
+                "target": "{{ id.path }}/canvas/4"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
