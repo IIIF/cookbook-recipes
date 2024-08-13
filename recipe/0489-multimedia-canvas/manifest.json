@@ -56,7 +56,7 @@
                 "body": {
 				  "type": "TextualBody",
 				  "format": "text/html",
-				  "value": "<p style='font-size:200em'>Press Play</p>",
+				  "value": "<p style='font-size:2000px'>Press Play</p>",
 				  "language": "en"
                 },
                 "target": "{{ id.path }}/canvas#xywh=30200,10200,15000,5000&t=0,1"
@@ -68,7 +68,7 @@
                 "body": {
 				  "type": "TextualBody",
 				  "format": "text/html",
-				  "value": "<p style='font-size:100em'>In 10 seconds, this text will be replaced by a clock and an image. You will have 30 seconds (shown on the clock) in which to take notes on the image you see. After 30 seconds, the image will be replaced by the start screen. You will not be responsible for the part of the image covered by the clock.</p>",
+				  "value": "<p style='font-size:1500px'>In 10 seconds, this text will be replaced by a clock and an image. You will have 30 seconds (shown on the clock) in which to take notes on the image you see. After 30 seconds, the image will be replaced by the start screen. You will not be responsible for the part of the image covered by the clock.</p>",
 				  "language": "en"
                 },
                 "target": "{{ id.path }}/canvas#xywh=20220,5000,30000,5000&t=1,11"
@@ -80,7 +80,7 @@
                 "body": {
 				  "type": "TextualBody",
 				  "format": "text/html",
-				  "value": "<p style='font-size:200em'>Close your browser</p>",
+				  "value": "<p style='font-size:2000px'>Close your browser</p>",
 				  "language": "en"
                 },
                 "target": "{{ id.path }}/canvas#xywh=27000,10200,25000,5000&t=42,180"
