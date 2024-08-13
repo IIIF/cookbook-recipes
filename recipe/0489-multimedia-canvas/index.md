@@ -17,7 +17,7 @@ You want to create a digital assignment by providing students with a IIIF image 
 
 This recipe pulls together techniques and structures described in other recipes, and adds new elements. In other recipes, this cookbook shows [how to place multiple resources on a single Canvas][0036] and how to work with [a resource with different dimensions than its Canvas][0004]. In the Use Case for this recipe, the aim is to mix AV and image IIIF resources, set an image to be visible for an amount of time, and resize and position an AV resource on a Canvas.
 
-While other recipes have discussed [simple textual annotations][0266], this recipe uses a `painting` motivation for its textual annotations (rather than `commenting` as in that recipe) to include the text directly and visibly on the Canvas. Each of the annotations in this recipe is bound both by its placement on the Canvas and by its time of visibility.
+While other recipes have discussed [simple textual annotations][0266], this recipe uses a `painting` motivation for its textual annotations (rather than `commenting` as the linked recipe does) to include the text directly and visibly on the Canvas. Each of the annotations in this recipe is bound both by its placement on the Canvas and by its time of visibility.
 
 When using timing for showing and hiding resources on a Canvas, a high degree of precision is not likely to be achieved for all people viewing the Canvas. Resources may load slowly for many reasons, including image server issues, network traffic, or browser and client customizations. Except in a very predictable environment, timing should be considered approximate
 
