@@ -70,11 +70,9 @@ Eventually, we can create an anchor tag with the link as the `href` attribute to
 <a href="https://example.org/viewer?iiif-content=JTdCJTIyJTQwY29udGV4dCUyMiUzQSUyMmh0dHAlM0ElMkYlMkZpaWlmLmlvJTJGYXBpJTJGcHJlc2VudGF0aW9uJTJGMyUyRmNvbnRleHQuanNvbiUyMiUyQyUyMmlkJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZleGFtcGxlLm9yZyUyRmltcG9ydCUyRjElMjIlMkMlMjJ0eXBlJTIyJTNBJTIyQW5ub3RhdGlvbiUyMiUyQyUyMm1vdGl2YXRpb24lMjIlM0ElNUIlMjJjb250ZW50U3RhdGUlMjIlNUQlMkMlMjJ0YXJnZXQlMjIlM0ElN0IlMjJpZCUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGaWlpZi5pbyUyRmFwaSUyRmNvb2tib29rJTJGcmVjaXBlJTJGMDAwOS1ib29rLTElMkZjYW52YXMlMkZwMiUyM3h5d2glM0QxNTI4JTJDMzAyNCUyQzM0NCUyQzQwOCUyMiUyQyUyMnR5cGUlMjIlM0ElMjJDYW52YXMlMjIlMkMlMjJwYXJ0T2YlMjIlM0ElNUIlN0IlMjJpZCUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGaWlpZi5pbyUyRmFwaSUyRmNvb2tib29rJTJGcmVjaXBlJTJGMDAwOS1ib29rLTElMkZtYW5pZmVzdC5qc29uJTIyJTJDJTIydHlwZSUyMiUzQSUyMk1hbmlmZXN0JTIyJTdEJTVEJTdEJTdE">Link for visualizing the region of a Canvas using a viewer.</a>
 ```
 
-{% include manifest_links.html viewers="UV, Mirador, Curation" manifest="annotation.json" %}
+{% include content-state-viewers.html iiif-content="annotation.json" viewers="UV, Mirador, Curation" %}
 
 {% include jsonviewer.html src="annotation.json" %}
-
-
 
 ## Related Recipes
 

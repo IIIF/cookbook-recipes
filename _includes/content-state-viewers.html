@@ -1,0 +1,39 @@
+{% if include.viewers %}
+{% assign viewers = include.viewers | split: "," %}
+{% else %}
+{% assign viewers = page.viewers %}
+{% endif %}
+[JSON-LD]({{ include.iiif-content }}) {% for viewerTxt in viewers %}{% assign viewer = viewerTxt | strip %}| {% include viewer_link.html type=viewer manifest=include.iiif-content class="content-state" %}{% endfor %}
+
+{% if page.code %}
+{% include code_links.html %}
+{% endif %}
+
+<script>
+    function encodeContentState(plainContentState) {
+        let uriEncoded = encodeURIComponent(plainContentState);  // using built in function
+        let base64 = btoa(uriEncoded);                           // using built in function
+        let base64url = base64.replace(/\+/g, "-").replace(/\//g, "_");
+        let base64urlNoPadding = base64url.replace(/=/g, "");
+        return base64urlNoPadding;
+    }
+
+    const links = document.getElementsByClassName("content-state");
+
+    Array.from(links).forEach(link => {
+        link.title = "Generating iiif-content link...."
+        fetch(link.dataset.iiifContent).then(response=> {
+            response.json().then (anno => {
+                const encoded = encodeContentState(JSON.stringify(anno));
+
+                if (/iiif-content=.*&/.test(link.href)){
+                    link.href = link.href.replace(/iiif-content=.*&/, "iiif-content=" + encoded + '&');
+                } else {
+                    link.href = link.href.replace(/iiif-content=.*$/, "iiif-content=" + encoded);
+                }    
+                link.title = "";
+            })
+
+        });
+    });
+</script>
