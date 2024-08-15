@@ -59,11 +59,6 @@
             {
               "id": "{{ id.path }}/annotation/p0002-tag",
               "type": "Annotation",
-              "label": {
-                "en": [
-                  "Annotation containing the name of the place annotated using the PointSelector."
-                ]
-              },
               "motivation": "tagging",
               "body": {
                 "type": "TextualBody",
