@@ -88,8 +88,6 @@ def checkAnnotationPage(page):
     if 'items' in page:
         for annotation in page['items']:
             if 'label' in annotation:
-                print ('Found label in:')
-                print (annotation)
                 return True
     return False        
 
