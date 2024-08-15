@@ -22,7 +22,7 @@ A Canvas has a region of interest that contains a map. You would like to associa
 ### Implementation Notes
 The third party [GeoJSON-LD](https://geojson.org/geojson-ld/) context is included in addition to the IIIF Presentation API 3.0 context. The GeoJSON-LD context supplies the vocabulary terms for the Annotation bodies since the IIIF Presentation API 3.0 context does not describe those terms. When there are multiple contexts, the `@context` property can be an array which is processed as a set. Typically order does not matter for a set. However, when the IIIF context is used in these arrays it must be the last item in the set.
 
-The GeoJSON `properties` object is generic and [can be nearly anything](https://tools.ietf.org/html/rfc7946#section-3.2). It is used to pass metadata along with the geocoordinates. This has implications on clients and parsers that must discern what data to use. For example, if the targeted resource has a `label` property and the `properties` object has a `label` property, the consuming interface must make a choice on which to prioritize for presentation purposes. In the image from the Use Case section, the "Label" uses the GeoJSON `properties` object's `label` property (lines 80-83) instead of the `label` property from the Annotation or Canvas. This is because web mapping clients are designed to look for metadata in GeoJSON `properties` for display.
+The GeoJSON `properties` object is generic and [can be nearly anything](https://tools.ietf.org/html/rfc7946#section-3.2). It is used to pass metadata along with the geocoordinates. This has implications on clients and parsers that must discern what data to use. For example, if the targeted resource had a `label` property and the `properties` object has a `label` property, the consuming interface must make a choice on which to prioritize for presentation purposes. In the image from the Use Case section, the "Label" uses the GeoJSON `properties` object's `label` property (lines 69-75) instead of the `label` property from the Annotation or Canvas. This is because web mapping clients are designed to look for metadata in GeoJSON `properties` for display.
 
 Note that [`geometry` has more types besides `Polygon`.](https://tools.ietf.org/html/rfc7946#section-3.1)
 
@@ -34,7 +34,7 @@ The Manifest has one Canvas with one Image, and the Canvas has the same size dim
 
 {% include manifest_links.html viewers="Annona" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="2-5, 67-111"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="2-5, 62-101"' %}
 
 ## Related Recipes
 * [Fragment Selectors][0020]
