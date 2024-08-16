@@ -1,5 +1,5 @@
 ---
-title: Multimedia Canvas
+title: Teaching with a Multimedia Canvas
 id: 499
 layout: recipe
 tags: Complex Object
