@@ -43,6 +43,7 @@ A person using a viewer that supports this recipe is presented first with the in
 ## Related Recipes
 
 * [Image and Canvas with Differing Dimensions][0004] for relative dimensioning of a resource and a Canvas
+* [Table of Contents for Multiple A/V Files on a Single Canvas][0064] for time ranges in `target`s
 * [Simplest Annotation][0266] for a basic textual annotation
 * [Composition from Multiple Images][0036] for using multiple IIIF resources on a single Canvas
 
