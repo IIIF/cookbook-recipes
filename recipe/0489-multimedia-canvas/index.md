@@ -19,11 +19,9 @@ This recipe pulls together techniques and structures described in other recipes,
 
 Likewise, while other recipes have discussed [simple textual annotations][0266], this recipe uses a `painting` motivation for its textual annotations (rather than `commenting` as the linked recipe does) to include the text directly and visibly on the Canvas.
 
-When using timing for showing and hiding resources on a Canvas, a high degree of precision is not likely to be achieved for all people viewing the Canvas. Resources may load slowly for many reasons, including image server issues, network traffic, or browser and client customizations. Except in a very predictable environment, timing should be considered approximate
-
 ## Restrictions
 
-No restrictions known.
+When using timing for showing and hiding resources on a Canvas, a high degree of precision is not likely to be achieved for all people viewing the Canvas. Resources may load slowly for many reasons, including image server issues, network traffic, or browser and client customizations. Except in a very predictable environment, timing should be considered approximate. As well, people interacting with a multimedia Canvas may have greater or lesser control over the Canvas timeline. Consequently, creators cannot assume rigid implementation of timeline manipulation restrictions, even implied ones as in this recipe.
 
 ## Example
 
