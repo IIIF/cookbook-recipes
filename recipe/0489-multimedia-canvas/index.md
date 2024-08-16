@@ -20,6 +20,10 @@ This recipe pulls together techniques and structures described in other recipes,
 
 Likewise, while other recipes have discussed [simple textual annotations][0266], this recipe uses a `painting` motivation for its textual annotations (rather than `commenting` as the linked recipe does) to include the text directly and visibly on the Canvas.
 
+Once there is an AV resource included on a Canvas, there exists a notional timeline whose duration and time range can then be used in targeting resources to the Canvas. When resources' appearance on a Manifest are governed in part by time, they can be entered in in the Manifest in any order. If a `target` value includes a `t` parameter, the associated resource can be expected to be shown only for that span of time on the timeline. (See "Restrictions" below for caveats.)
+
+The `t` parameter of the `target` value can also serve to trim an AV resource to be displayed for something other than its whole duration. An AV resource can thus have a `target` that governs its placement on the Canvas, its dimensions relative to the Canvas, its appearance duration, and the amount of its total running time that is used. AV resources can also take [a `timeMode` property](https://iiif.io/api/presentation/3.0/#timemode) that governs its rendering in conjunction with the `t` parameter of the target.
+
 ## Restrictions
 
 When using timing for showing and hiding resources on a Canvas, a high degree of precision is not likely to be achieved for all people viewing the Canvas. Resources may load slowly for many reasons, including image server issues, network traffic, or browser and client customizations. Except in a very predictable environment, timing should be considered approximate. As well, people interacting with a multimedia Canvas may have greater or lesser control over the Canvas timeline. Consequently, creators cannot assume rigid implementation of timeline manipulation restrictions, even implied ones as in this recipe.
