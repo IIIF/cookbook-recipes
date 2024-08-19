@@ -27,7 +27,7 @@ This example uses a leaflet with a map and a guide supplied by the Library of Co
 
 {% include manifest_links.html viewers="Glycerine Viewer" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="74-82"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="69-76"' %}
 
 # Related recipes
 
