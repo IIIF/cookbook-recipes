@@ -5,6 +5,7 @@ layout: recipe
 tags: [annotation]
 summary: "Link a portion of a Canvas to another resource. "
 viewers:
+  - Theseus
 topic: annotation
 code:
 ---
@@ -56,7 +57,7 @@ We link the Annotation of the fountain to the Canvas containing its close-up by 
 The body contains a Specific Resource with the `id` of the Canvas containing the close-up of the fountain as `source` and the `id` of the Manifest in the `partOf` property.
 
 
-{% include manifest_links.html viewers="" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Theseus" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="49-75"' %}
 
@@ -66,4 +67,3 @@ The body contains a Specific Resource with the `id` of the Canvas containing the
 
 {% include acronyms.md %}
 {% include links.md %}
-

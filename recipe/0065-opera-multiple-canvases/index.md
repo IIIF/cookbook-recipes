@@ -7,6 +7,7 @@ summary: "A real world example of an audio recording of an opera spread across m
 viewers:
  - UV
  - Ramp
+ - Theseus
 topic: AV
 ---
 
@@ -24,7 +25,7 @@ Given the need for the player to switch context when moving from one file to the
 
 ## Example
 
-{% include manifest_links.html viewers="UV, Ramp" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Ramp, Theseus" manifest="manifest.json" %}
 {% include jsonviewer.html src="manifest.json" %}
 
 ## Related Recipes

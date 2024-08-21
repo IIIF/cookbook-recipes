@@ -7,7 +7,8 @@ summary: "Provide the user with something to look at before they choose to start
 viewers:
  - Clover
  - Ramp
-topic: 
+ - Theseus
+topic:
  - property
  - AV
 property: placeholderCanvas
@@ -16,7 +17,7 @@ property: placeholderCanvas
 
 ## Use Case
 
-You have an exceptionally large video to present to site visitors. As each visitor's connection reliability and bandwidth are unknown and unpredictable, you want to show them a still image preview of the video (which will load more quickly) until the video has finished loading or has sufficiently buffered. 
+You have an exceptionally large video to present to site visitors. As each visitor's connection reliability and bandwidth are unknown and unpredictable, you want to show them a still image preview of the video (which will load more quickly) until the video has finished loading or has sufficiently buffered.
 
 ## Implementation notes
 
@@ -45,4 +46,3 @@ In the example, the main content is a video of a performance of Donizetti's _L'e
 
 {% include acronyms.md %}
 {% include links.md %}
-

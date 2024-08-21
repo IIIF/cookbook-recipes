@@ -5,10 +5,11 @@ layout: recipe
 tags: [image, presentation, canvas]
 summary: "Linking to non-IIIF representations of the object, such as a PDF."
 viewers:
- - Mirador  
+ - Mirador
  - Annona
  - Clover
  - Glycerine Viewer
+ - Theseus
 topic: property
 property: rendering
 ---
@@ -21,15 +22,15 @@ You have a IIIF format resource for which you would like to offer researchers th
 
 This property is used for pointing a viewer to a non-IIIF representation of the resource to which it is attached. In general, the other representation will need a distinct client for viewing from the one used for the IIIF resource.
 
-Three other properties may seem similar, so it's worth highlighting the differences. 
+Three other properties may seem similar, so it's worth highlighting the differences.
 
-* `homepage` [(IIIF Presentation API reference)](https://iiif.io/api/presentation/3.0/#homepage)  
+* `homepage` [(IIIF Presentation API reference)](https://iiif.io/api/presentation/3.0/#homepage)
 Where `rendering` presents an additional representation of the same resource, `homepage` points to a webpage _about_ the object represented by the resource.
 
-* `accompanyingCanvas` [(IIIF Presentation API reference)](https://iiif.io/api/presentation/3.0/#accompanyingcanvas)  
+* `accompanyingCanvas` [(IIIF Presentation API reference)](https://iiif.io/api/presentation/3.0/#accompanyingcanvas)
 An `accompanyingCanvas` resource is a IIIF resource presented simultaneously with the main resource, where a target of `rendering` is not IIIF-compatible and must be viewed outside the main resource's viewer. In addition, `accompanyingCanvas` is used for content complementary to the main resource while `rendering` points to additional representations of the same resource.
 
-* `seeAlso` [(IIIF Presentation API reference)](https://iiif.io/api/presentation/3.0/#seealso)  
+* `seeAlso` [(IIIF Presentation API reference)](https://iiif.io/api/presentation/3.0/#seealso)
 Unlike `rendering`, the `seeAlso` property provides the URI of a machine-readable resource related to the current resource. In most cases and most effectively, this will be structured metadata in a format such as Dublin Core, MODS, or RDF. `seeAlso` contributes significantly to discovery, such as by providing an aggregator what it needs for faceting its content. The `type` value for `seeAlso` is usually `dataset`, while `type` values for `rendering` vary more widely, in keeping with the variety of target formats possible.
 
 Any resource may have the `rendering` property. Each instance of it may have multiple items contained inside it, provided each has the `id`, `type`, and `label` properties at a minimum. Conforming clients should render this property in some way on a Collection, Manifest, or Canvas, but may on other resources. Note particularly that the client's display of the property has no defined form.
@@ -44,7 +45,7 @@ In this example, a PDF is made available for the program as a whole, and as such
 
 To see the property in action in Mirador, toggle the sidebar by activating the three-line ("hamburger") menu in the upper left-hand corner of the content window. You should then, in the "Related" area, see the link under the "Alternate formats" heading.
 
-{% include manifest_links.html viewers="Mirador,Annona,Clover,Glycerine Viewer" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador,Annona,Clover,Glycerine Viewer, Theseus" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="16-27"' %}
 
