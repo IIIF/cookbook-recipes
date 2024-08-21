@@ -6,10 +6,11 @@ tags: [text, presentation]
 summary: "You want to have more control on how your metadata is displayed. For example scientific names, and also links out to other sites. Also legacy systems that might include things like italic tags."
 viewers:
  - UV
- - Mirador  
+ - Mirador
  - Annona
  - Clover
  - Glycerine Viewer
+ - Theseus
 topic: property
 property: label, summary, metadata, requiredStatement
 code:
@@ -32,7 +33,7 @@ For security reasons, clients are expected to allow only `a`, `b`, `br`, `i`, `i
 
 ## Example
 
-{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer, Theseus" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="7,12,24,38"' %}
 
