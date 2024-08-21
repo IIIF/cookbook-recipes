@@ -7,10 +7,11 @@ summary: "Use the navPlace extension to provide geolocation information about an
 layout: recipe
 viewers:
  - Navplace Viewer
+ - Theseus
 ---
 
 ### Use Case
-You have a photograph of the Laocoön bronze and you would like to show the current location of the bronze as a Point on a web mapping platform. `navPlace` allows you to place the spatial representation (Point, Polygon, LineString, etc.) of your Manifest on a web map. 
+You have a photograph of the Laocoön bronze and you would like to show the current location of the bronze as a Point on a web mapping platform. `navPlace` allows you to place the spatial representation (Point, Polygon, LineString, etc.) of your Manifest on a web map.
 
 
 ### Implementation Notes
@@ -28,11 +29,11 @@ The `navPlace` property is not processed by the Universal Viewer or Mirador view
 
 
 ### Example
-The map shows the location of the object represented in the image, the Laocoön bronze by Giovanni Battista Foggini, on display at the Getty Center. 
+The map shows the location of the object represented in the image, the Laocoön bronze by Giovanni Battista Foggini, on display at the Getty Center.
 The Manifest contains one Canvas with a photograph painted onto it. The `navPlace` property in the Manifest stores geographic information about the bronze in the photograph, in this case the bronze's current location. `navPlace` contains GeoJSON-LD, and a client can parse GeoJSON features from `navPlace`. These GeoJSON features are rendered as geometric shapes by web mapping platforms. Data from the resource such as an image URL, label or summary is connected with those shapes via [`properties`](https://tools.ietf.org/html/rfc7946#section-3.2) in GeoJSON, but this is not a required step for seeing the shape on the map.
 To see an example using a polygonal shape see [Represent Canvas Fragment as a Geographic Area in a Web Mapping Client][0139].
 
-{% include manifest_links.html viewers="Navplace Viewer" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Navplace Viewer, Theseus" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="3, 13-39"' %}
 

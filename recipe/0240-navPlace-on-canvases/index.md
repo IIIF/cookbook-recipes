@@ -7,13 +7,14 @@ tags: [maps, geolocate, navPlace]
 summary: "Use the navPlace extension to provide geolocation information for the Canvas items of an IIIF Presentation API 3.0 Manifest."
 viewers:
  - Navplace Viewer
+ - Theseus
 ---
 
 ### Use Case
 You have two photographs of the subject Laocoön, one of a bronze statue and the other of a painting. You would like to show where the two works are located as Points on a web mapping platform. `navPlace` allows you to place the spatial representation (Point, Polygon, Line Segment) of your Canvas on a web map.
 
 ### Implementation Notes
-This recipe describes the use of `navPlace` at a Canvas implementation level, and is largely similar to the recipe to [Locate a Manifest on a Web Map][0154]. The main difference to note is that each Canvas will need its own Feature Collection, as described below. In this case, each image is represented in its own Canvas. Other related recipes are listed in the links at the bottom of the page. 
+This recipe describes the use of `navPlace` at a Canvas implementation level, and is largely similar to the recipe to [Locate a Manifest on a Web Map][0154]. The main difference to note is that each Canvas will need its own Feature Collection, as described below. In this case, each image is represented in its own Canvas. Other related recipes are listed in the links at the bottom of the page.
 
 It is important to note that `navPlace` is not semantic and cannot be used to state the purpose of the location it shows. The example uses `navPlace` to represent the current location of the items, but it is not specified or limited to that, and more accurately we can say that `navPlace` is used to show a location.
 
@@ -30,7 +31,7 @@ The `navPlace` property is not processed by the Universal Viewer or Mirador view
 ### Example
 The Manifest contains images of the bronze by Giovanni Battista Foggini and the painting _Laocoön_ by El Greco. The `navPlace` property in each Canvas stores geographic information about the works represented in the photographs, in this case their current location. `navPlace` contains GeoJSON-LD, and a client can parse GeoJSON features from `navPlace`. These GeoJSON features are rendered as geometric shapes by web mapping platforms. Data from the resource such as an image URL, label or summary is connected with those shapes via [`properties`](https://tools.ietf.org/html/rfc7946#section-3.2) in GeoJSON, but this is not a required step for seeing the shape on the map.
 
-{% include manifest_links.html viewers="Navplace Viewer" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Navplace Viewer, Theseus" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="3, 24-50, 90-113"' %}
 

@@ -13,6 +13,7 @@ viewers:
   - Ramp
   - Aviary
   - Glycerine Viewer
+  - Theseus
 topics:
   - basic
   - property
@@ -63,7 +64,7 @@ The possible values for viewer support are Yes - ![Yes][YES]{:title="Yes"}, No -
         {% for viewer in page.viewers %}
             <th class="scrolling-header">{{ viewer }}</th>
         {% endfor %}
-    </tr>    
+    </tr>
 {% for recipe in sorted %}
     <tr>
         <td><a href="{{ site.cookbook_url | absolute_url }}{{ recipe.url }}">{{recipe.title}}{% if recipe.property%} ({{recipe.property}}){%endif%}</a></td>

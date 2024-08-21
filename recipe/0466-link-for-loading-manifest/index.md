@@ -7,6 +7,7 @@ summary: "Allows users to use links that can be clicked to open a viewer with a 
 viewers:
   - Mirador
   - Clover
+  - Theseus
 topic:
  - content-state
 ---
@@ -43,4 +44,3 @@ Similarly with Clover we append the `iiif-content` parameter to the viewer locat
 
 {% include acronyms.md %}
 {% include links.md %}
-

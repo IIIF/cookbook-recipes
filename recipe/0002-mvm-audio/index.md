@@ -10,7 +10,8 @@ viewers:
  - Clover
  - Ramp
  - Aviary
-topic: 
+ - Theseus
+topic:
  - basic
  - AV
 code:
@@ -30,7 +31,7 @@ The implementation is identical to the [image example][0001], except that the co
 
 This example shows a Manifest with a single Canvas that lasts for 1985.024 seconds. It has a single audio file (audio-sample.mp4) which is associated with it. The mp4 also has a duration of 1985.024 seconds.
 
-{% include manifest_links.html viewers="UV, Mirador, Clover, Ramp, Aviary" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Clover, Ramp, Aviary, Theseus" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 

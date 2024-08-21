@@ -5,9 +5,10 @@ layout: recipe
 tags: [sammelband, multi-volume]
 summary: "Recipe for a multi-volume object where the volumes are bound together in a single codex."
 viewers:
-- UV
-- Mirador
-- Glycerine Viewer
+ - UV
+ - Mirador
+ - Theseus
+ - Glycerine Viewer
 topic:
  - structure
 ---
@@ -67,7 +68,7 @@ This will produce an index of the constituent volumes like so:
 * Erste Ausgabe... (Vol. 1)
 * Zweyte Ausgabe... (Vol. 2)
 
-{% include manifest_links.html viewers="UV, Mirador, Glycerine Viewer" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Glycerine Viewer, Theseus" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="246-315"'%}
 
