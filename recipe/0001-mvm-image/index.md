@@ -11,6 +11,7 @@ viewers:
  - Clover
  - Glycerine Viewer
  - Theseus
+ - Curation
 topic: 
  - basic
  - image

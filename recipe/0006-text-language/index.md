@@ -10,6 +10,7 @@ viewers:
  - Annona
  - Glycerine Viewer
  - Theseus
+ - Curation
 topic: basic
 property: label, summary, metadata, requiredStatement
 code:
@@ -42,7 +43,7 @@ To see the language choice in the linked viewers, open the settings menu (gear i
 
 The image in this example was sourced via Wikimedia Commons and is public domain.
 
-{% include manifest_links.html viewers="UV, Mirador, Annona, Glycerine Viewer, Theseus" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Glycerine Viewer, Theseus, Curation" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="6-11, 16-21, 24-26, 31-36, 39-44, 49-54, 58-63, 66-68"' %}
 
