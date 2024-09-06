@@ -53,8 +53,7 @@
 			  "id": "{{ id.path }}/annotation/p0001-comment",
 			  "type": "Annotation",
 			  "motivation": "commenting",
-			  "body": [
-			  {
+			  "body": {
 			  	"type": "Choice",
 			  	"items": [
 					{
@@ -70,8 +69,7 @@
 						"format": "text/plain"
 					}
 			  	]
-			  	}
-			  ],
+			  },
 			  "target": "{{ id.path }}/canvas/p1#xywh=1650,1200,925,1250"
 			}
 		  ]
