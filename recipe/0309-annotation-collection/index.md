@@ -19,15 +19,20 @@ The [IIIF Presentation API 3](https://iiif.io/api/presentation/3.0/#58-annotatio
 
 A large collection can be divided into multiple pages. The AnnotationCollection contains references to the first and last AnnotationPage and each AnnotationPage contains a reference to the next page in the chain.
 
-The AnnotationCollection should have a `label` property that can be shown to the user and it can optionally contain additional properties as specified in the [IIIF Presentation API 3](https://iiif.io/api/presentation/3.0/#a-summary-of-property-requirements).
+The AnnotationCollection should have a `label` property that can be shown to the user and it can optionally contain additional properties as specified in the [IIIF Presentation API 3](https://iiif.io/api/presentation/3.0/#a-summary-of-property-requirements). 
+
+The AnnotationCollection has a `first` property that contains the URI of the first AnnotationPage in the sequence, a `last` property that contains the URI of the last AnnotationPage and it should have a `total` property that contains the total number of Annotations in the collection.
+
+The IIIF Manifest requires that Annotations that should be shown on a Canvas are contained in AnnotationPages referenced in the `annotations` property of that Canvas. This means that all Annotations need to be grouped by Canvas and put into one or more AnnotationPages per Canvas. An AnnotationPage can not contain Annotations for more than one Canvas.
+
+All AnnotationPages are separate documents that have an `items` property containing the list of Annotation objects and a `partOf` property that contains the URI of the parent AnnotationCollection and a `next` property that contains the URI of the next AnnotationCollection in the sequence.
+
+A IIIF viewer that displays Annotations on a Canvas follows the URIs in the `annotations` property of the Canvas and loads the Annotations in the referenced AnnotationPages. If the viewer wants to indicate that these Annotations belong to one or more AnnotationCollections it has to follow the URI in the `partOf` property of the AnnotationPages to identify the AnnotationCollection and display its label and choose a common color for the Annotations. This means that a viewer would have to load all AnnotationPages from all Canvases to present a list of all AnnotationCollections in the Manifest.
+
 
 ISSUES
 - mention `supplementary` property of Range? seems very specialized
-- each AnnotationPage has to be referenced from a Canvas and it can only contain Annotations for that Canvas -> Annotations have to be sorted by Canvas
-- the AnnotationPages also contain `partOf` references to the AnnotationCollection and `next` references to form a chain
-- the viewer has to follow Canvas -`annotations`-> AnnotationPage -`partOf`-> AnnotationCollection to know if there are AnnotationCollections
 - can a viewer find the AnnotationCollection from the Manifest? seeAlso?
-
 
 ## Restrictions
 
