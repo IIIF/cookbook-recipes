@@ -65,10 +65,12 @@
 [0269]: {{ site.cookbook_url | absolute_url }}/recipe/0269-embedded-or-referenced-annotations/ "Embedded or Referenced Annotations"
 [0283]: {{ site.cookbook_url | absolute_url }}/recipe/0283-missing-image/ "Missing Images in a Sequence"
 
-[0326]: {{ site.cookbook_url | absolute_url }}/recipe/0326-annotating-image-layer/ "Annotate a specific images or layers"
 [0306]: {{ site.cookbook_url | absolute_url }}/recipe/0306-linking-annotations-to-manifests/ "Linking external Annotations targeting a Canvas to a Manifest"
 [0309]: {{ site.cookbook_url | absolute_url }}/recipe/0309-annotation-collection/ "Using Annotation Collections"
+[0318]: {{ site.cookbook_url | absolute_url }}/recipe/0318-navPlace-navDate/ "Locating an Item in Place and Time"
+[0326]: {{ site.cookbook_url | absolute_url }}/recipe/0326-annotating-image-layer/ "Annotate a specific images or layers"
 
+[0346]: {{ site.cookbook_url | absolute_url }}/recipe/0346-multilingual-annotation-body/ "Annotating in Multiple Languages"
 [0377]: {{ site.cookbook_url | absolute_url }}/recipe/0377-image-in-annotation/ "Image in annotation"
 
 [0466]: {{ site.cookbook_url | absolute_url }}/recipe/0466-link-for-loading-manifest/ "Loading a manifest with a viewer using a link"

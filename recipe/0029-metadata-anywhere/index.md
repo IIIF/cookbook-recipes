@@ -6,11 +6,12 @@ tags: [presentation]
 summary: "Provide item metadata for displaying to users"
 viewers:
  - UV
- - Mirador  
+ - Mirador
  - Annona
  - id: Clover
    support: partial
  - Glycerine Viewer
+ - Theseus
 topic: property
 property: metadata
 ---
@@ -37,7 +38,7 @@ Note: Clover supports Metadata at the Manifest level but not down at the Canvas.
 
 Credit: *John Dee performing an experiment before Queen Elizabeth I*. Oil painting by Henry Gillard Glindoni. Credit: Wellcome Collection. Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
-{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer, Theseus" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="10-59, 83-96, 136-149"' %}
 

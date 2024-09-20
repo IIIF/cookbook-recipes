@@ -6,6 +6,7 @@ tags: image
 summary: "This recipe explains how to annotate a specific point of an image."
 viewers:
  - Glycerine Viewer
+ - Theseus
 topic:
  - annotation
 ---
@@ -25,9 +26,9 @@ Viewers might consider implementing scale-independent point markers so that they
 
 This example uses a leaflet with a map and a guide supplied by the Library of Congress Geography and Map Division, it shows how we can annotate some locations expressed in the map.
 
-{% include manifest_links.html viewers="Glycerine Viewer" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Glycerine Viewer, Theseus" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="74-82"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="69-76"' %}
 
 # Related recipes
 

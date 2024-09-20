@@ -35,11 +35,6 @@
                      "id":"{{ id.path }}/content.json",
                      "type":"Annotation",
                      "motivation":"painting",
-                     "label":{
-                        "en":[
-                           "Pamphlet Cover"
-                        ]
-                     },
                      "body":{
                         "id":"https://iiif.io/api/image/3.0/example/reference/43153e2ec7531f14dd1c9b2fc401678a-88695674/full/max/0/default.jpg",
                         "type":"Image",
@@ -68,11 +63,6 @@
                      "id":"{{ id.path }}/geoAnno.json",
                      "type":"Annotation",
                      "motivation":"tagging",
-                     "label":{
-                        "en":[
-                           "Annotation containing GeoJSON-LD coordinates that place the map depiction onto a Leaflet web map."
-                        ]
-                     },
                      "body":{
                         "id":"{{ id.path }}/geo.json",
                         "type":"Feature",

@@ -8,6 +8,7 @@ viewers:
  - id: Mirador
    support: partial
  - Annona
+ - Theseus
 topic: structure
 property:
 ---
@@ -35,7 +36,7 @@ There are many potential user interface approaches for this model. For example, 
 
 This pattern is important because it is not uncommon, especially for artworks and for early manuscripts, to have more than one image available for the same view.
 
-This recipe should not be used if the images make up multiple parts of the scene, where the intention is to display them together. For example, a digital reconstruction of parts of a manuscript page. In that scenario the intent is not to offer the user a choice of alternative views of the same thing, it is to build an overall view from multiple source images. This scenario is covered by the recipe [Composition of one view from multiple image sources][0036].  
+This recipe should not be used if the images make up multiple parts of the scene, where the intention is to display them together. For example, a digital reconstruction of parts of a manuscript page. In that scenario the intent is not to offer the user a choice of alternative views of the same thing, it is to build an overall view from multiple source images. This scenario is covered by the recipe [Composition of one view from multiple image sources][0036].
 
 ## Implementation notes
 
@@ -69,7 +70,7 @@ In this example, we have a single Canvas with the `body.type` "Choice" containin
 
 Credit: *John Dee performing an experiment before Queen Elizabeth I*. Oil painting by Henry Gillard Glindoni. Credit: Wellcome Collection. Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
-{% include manifest_links.html viewers="Mirador, Annona" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador, Annona, Theseus" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="25-67"' %}
 

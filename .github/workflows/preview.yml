@@ -7,7 +7,7 @@ name: Deploy-preview
 on:
     push:
         branches:
-          - '*'
+          - '**'
           - '!master'
           - '!main'
           - '!beta'
