@@ -7,12 +7,11 @@
         {
             "id": "{{ id.url }}-1",
             "type": "Annotation",
-            "motivation": "supplementing",
+            "motivation": "tagging",
             "body": {
                 "type": "TextualBody",
                 "format": "text/plain",
-                "language": "de",
-                "value": "I. 54. Jahrgang"
+                "value": "text-3-1"
             },
             "target": {
                 "type": "SpecificResource",
@@ -27,9 +26,87 @@
                 "selector": {
                     "type": "FragmentSelector",
                     "conformsTo": "http://www.w3.org/TR/media-frags/",
-                    "value": "xywh=0,376,399,53"
+                    "value": "xywh=856,381,928,4200"
                 }
             }
-        }
+        },
+        {
+          "id": "{{ id.url }}-2",
+          "type": "Annotation",
+          "motivation": "tagging",
+          "body": {
+              "type": "TextualBody",
+              "format": "text/plain",
+              "value": "text-3-2"
+          },
+          "target": {
+              "type": "SpecificResource",
+              "source": {
+                  "id": "{{ id.path }}/canvas/p2",
+                  "type": "Canvas",
+                  "partOf": [{
+                      "id": "{{ id.path }}/manifest.json",
+                      "type": "Manifest"
+                  }]
+              },
+              "selector": {
+                  "type": "FragmentSelector",
+                  "conformsTo": "http://www.w3.org/TR/media-frags/",
+                  "value": "xywh=1784,2461,952,2064"
+              }
+          }
+        },
+        {
+          "id": "{{ id.url }}-3",
+          "type": "Annotation",
+          "motivation": "tagging",
+          "body": {
+              "type": "TextualBody",
+              "format": "text/plain",
+              "value": "text-3-3"
+          },
+          "target": {
+              "type": "SpecificResource",
+              "source": {
+                  "id": "{{ id.path }}/canvas/p2",
+                  "type": "Canvas",
+                  "partOf": [{
+                      "id": "{{ id.path }}/manifest.json",
+                      "type": "Manifest"
+                  }]
+              },
+              "selector": {
+                  "type": "FragmentSelector",
+                  "conformsTo": "http://www.w3.org/TR/media-frags/",
+                  "value": "xywh=2736,2485,816,2064"
+              }
+          }
+        },
+        {
+          "id": "{{ id.url }}-4",
+          "type": "Annotation",
+          "motivation": "tagging",
+          "body": {
+              "type": "TextualBody",
+              "format": "text/plain",
+              "value": "text-4"
+          },
+          "target": {
+              "type": "SpecificResource",
+              "source": {
+                  "id": "{{ id.path }}/canvas/p2",
+                  "type": "Canvas",
+                  "partOf": [{
+                      "id": "{{ id.path }}/manifest.json",
+                      "type": "Manifest"
+                  }]
+              },
+              "selector": {
+                  "type": "FragmentSelector",
+                  "conformsTo": "http://www.w3.org/TR/media-frags/",
+                  "value": "xywh=1792,373,1744,2064"
+              }
+          }
+      }
     ]
 }
