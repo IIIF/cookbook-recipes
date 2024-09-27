@@ -1,5 +1,5 @@
 ---
-title: Teaching with a Multimedia Canvas
+title: Rendering Multiple Media Types on a Time-Based Canvas
 id: 499
 layout: recipe
 tags: Complex Object
