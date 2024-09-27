@@ -8,8 +8,10 @@ viewers:
  - UV
  - Mirador
  - Annona
- - Theseus
- - Curation
+ - id: Theseus
+   support: partial
+ - id: Curation
+   support: partial
 topic:
  - image
  - property
