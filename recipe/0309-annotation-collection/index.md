@@ -29,6 +29,9 @@ All AnnotationPages are separate documents that have an `items` property contain
 
 A IIIF viewer that displays Annotations on a Canvas follows the URIs in the `annotations` property of the Canvas and loads the Annotations in the referenced AnnotationPages. If the viewer wants to indicate that these Annotations belong to one or more AnnotationCollections it has to follow the URI in the `partOf` property of the AnnotationPages to identify the AnnotationCollection and display its label and choose a common color for the Annotations. This means that a viewer has to load all AnnotationPages from all Canvases if it wants to present a list of all AnnotationCollections in the Manifest to the user.
 
+issues:
+- partOf in Prezi3 wants a list with id and type https://iiif.io/api/presentation/3.0/#partof
+
 ## Restrictions
 
 ???
@@ -41,9 +44,15 @@ We use a Manifest containing two pages from a newspaper (Berliner Tageblatt, Feb
 
 {% include jsonviewer.html src="manifest.json" %}
 
+AnnotationPage with Annotations on the first Canvas.
+
 {% include jsonviewer.html src="anno_p1.json" %}
 
+AnnotationPage with Annotations on the second Canvas.
+
 {% include jsonviewer.html src="anno_p2.json" %}
+
+AnnotationCollection referencing the AnnotationPages.
 
 {% include jsonviewer.html src="anno_coll.json" %}
 
