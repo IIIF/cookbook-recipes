@@ -38,7 +38,7 @@ A person using a viewer that supports this recipe is presented first with the in
 
 {% include manifest_links.html manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" %}
+{% include jsonviewer.html src="manifest.json" config='data-line="16,40,49-51,54,59,66,71,78,83,90"' %}
 
 ## Related Recipes
 
