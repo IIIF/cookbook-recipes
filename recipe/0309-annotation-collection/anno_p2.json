@@ -1,0 +1,34 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "{{ id.url }}",
+    "type": "AnnotationPage",
+    "items": [
+        {
+            "id": "{{ id.url }}-1",
+            "type": "Annotation",
+            "motivation": "supplementing",
+            "body": {
+                "type": "TextualBody",
+                "format": "text/plain",
+                "language": "de",
+                "value": "I. 54. Jahrgang"
+            },
+            "target": {
+                "type": "SpecificResource",
+                "source": {
+                    "id": "{{ id.path }}/canvas/p2",
+                    "type": "Canvas",
+                    "partOf": [{
+                        "id": "{{ id.path }}/manifest.json",
+                        "type": "Manifest"
+                    }]
+                },
+                "selector": {
+                    "type": "FragmentSelector",
+                    "conformsTo": "http://www.w3.org/TR/media-frags/",
+                    "value": "xywh=0,376,399,53"
+                }
+            }
+        }
+    ]
+}

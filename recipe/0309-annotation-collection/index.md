@@ -27,12 +27,14 @@ The IIIF Manifest requires that Annotations that should be shown on a Canvas are
 
 All AnnotationPages are separate documents that have an `items` property containing the list of Annotation objects and a `partOf` property that contains the URI of the parent AnnotationCollection and a `next` property that contains the URI of the next AnnotationCollection in the sequence.
 
-A IIIF viewer that displays Annotations on a Canvas follows the URIs in the `annotations` property of the Canvas and loads the Annotations in the referenced AnnotationPages. If the viewer wants to indicate that these Annotations belong to one or more AnnotationCollections it has to follow the URI in the `partOf` property of the AnnotationPages to identify the AnnotationCollection and display its label and choose a common color for the Annotations. This means that a viewer would have to load all AnnotationPages from all Canvases to present a list of all AnnotationCollections in the Manifest.
+A IIIF viewer that displays Annotations on a Canvas follows the URIs in the `annotations` property of the Canvas and loads the Annotations in the referenced AnnotationPages. If the viewer wants to indicate that these Annotations belong to one or more AnnotationCollections it has to follow the URI in the `partOf` property of the AnnotationPages to identify the AnnotationCollection and display its label and choose a common color for the Annotations. This means that a viewer has to load all AnnotationPages from all Canvases if it wants to present a list of all AnnotationCollections in the Manifest to the user.
+
 
 
 ISSUES
 - mention `supplementary` property of Range? seems very specialized
 - can a viewer find the AnnotationCollection from the Manifest? seeAlso?
+- images from https://fixtures.iiif.io/
 
 ## Restrictions
 
@@ -40,14 +42,17 @@ ISSUES
 
 ## Example
 
-Describe the solution in prose and provide an example.
-The example json document must be an external document, and imported with the following:
+We use a Manifest containing two pages from a newspaper (Berliner Tageblatt, February 16, 1925, from Europeana) and a set of Annotations concerning layout elements.
 
 {% include manifest_links.html viewers="UV, Mirador, Curation" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 
-The direct link to the fixture is a useful convenience.
+{% include jsonviewer.html src="anno_p1.json" %}
+
+{% include jsonviewer.html src="anno_p2.json" %}
+
+{% include jsonviewer.html src="anno_coll.json" %}
 
 ## Related Recipes
 
