@@ -5,7 +5,10 @@ layout: recipe
 tags: video, audio, image, av
 summary: "Provide the user with something to look at before they choose to start interacting with the main content, and/or while they wait for it to load/buffer."
 viewers:
-topic: 
+ - Clover
+ - Ramp
+ - Theseus
+topic:
  - property
  - AV
 property: placeholderCanvas
@@ -14,7 +17,7 @@ property: placeholderCanvas
 
 ## Use Case
 
-You have an exceptionally large video to present to site visitors. As each visitor's connection reliability and bandwidth are unknown and unpredictable, you want to show them a still image preview of the video (which will load more quickly) until the video has finished loading or has sufficiently buffered. 
+You have an exceptionally large video to present to site visitors. As each visitor's connection reliability and bandwidth are unknown and unpredictable, you want to show them a still image preview of the video (which will load more quickly) until the video has finished loading or has sufficiently buffered.
 
 ## Implementation notes
 
@@ -32,9 +35,7 @@ Each instance of `placeholderCanvas` may only contain one Canvas, and as such ma
 
 In the example, the main content is a video of a performance of Donizetti's _L'elisir d'amore_ and the `placeholderCanvas` is a still frame from the video. For a site visitor with limited bandwidth, showing the still frame allows them to get an advance look at performance aspects such as costuming, staging, and set design.
 
-_Note: The `placeholderCanvas` property is not yet supported in viewers._
-
-{% include manifest_links.html viewers="" manifest="manifest.json" %}
+{% include manifest_links.html manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config="data-line='17-43'"%}
 
@@ -45,4 +46,3 @@ _Note: The `placeholderCanvas` property is not yet supported in viewers._
 
 {% include acronyms.md %}
 {% include links.md %}
-

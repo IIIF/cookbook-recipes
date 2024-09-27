@@ -5,8 +5,11 @@ layout: recipe
 tags: [video, presentation, opera]
 summary: "Complex nested table of contents for an opera."
 viewers:
- - UV  
-topic: 
+ - UV
+ - Ramp
+ - Aviary
+ - Theseus
+topic:
  - AV
  - structure
 ---
@@ -34,7 +37,7 @@ Leaf Range nodes in a structure are played linearly so they should be contiguous
 
 The opera covers the whole length of the Canvas and is divided into two Ranges for the two acts. Atto Primo has a Range for the prelude and first song and then a Range for the remainder of the act. Atto Secondo has not been subdivided into Ranges for simplicity of this example.
 
-{% include manifest_links.html viewers="UV" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Ramp, Aviary, Theseus" manifest="manifest.json" %}
 {% include jsonviewer.html src="manifest.json" %}
 
 ## Related Recipes

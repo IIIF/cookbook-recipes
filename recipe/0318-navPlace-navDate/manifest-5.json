@@ -1,0 +1,79 @@
+{
+    "@context": [
+      "http://iiif.io/api/extension/navplace/context.json",
+      "http://iiif.io/api/presentation/3/context.json"
+    ],
+    "id": "{{ id.url }}",
+    "type": "Manifest",
+    "label": {
+      "en": [
+        "A View of Trajan's Forum, Rome, 1821"
+      ]
+    },
+    "navDate": "1821-01-01T00:00:00+00:00",
+    "navPlace": {
+      "id": "{{ id.path }}/feature-collection/5",
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "id": "{{ id.path }}/feature/5",
+          "type": "Feature",
+          "properties": {
+            "label": {
+              "en": [
+                "A View of Trajan's Forum, Rome, 1821"
+              ]
+            }
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              12.485869,
+              41.895419    
+            ]
+          }
+        }
+      ]
+    },
+    "items": [
+      {
+        "id": "{{ id.path }}/canvas/5",
+        "type": "Canvas",
+        "height": 3005,
+        "width": 2048,
+        "label": {
+          "en": [
+            "A View of Trajan's Forum, Rome, 1821"
+          ]
+        },
+        "items": [
+          {
+            "id": "{{ id.path }}/anno-page/5",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "{{ id.path }}/anno/5",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://iiif.io/api/image/3.0/example/reference/71b9228e087f15c75b628214cd9f647d-A_View_of_Trajans_Forum_Rome/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "height": 3005,
+                  "width": 2048,
+                  "service": [
+                    {
+                      "id": "https://iiif.io/api/image/3.0/example/reference/71b9228e087f15c75b628214cd9f647d-A_View_of_Trajans_Forum_Rome",
+                      "profile": "level1",
+                      "type": "ImageService3"
+                    }
+                  ]
+                },
+                "target": "{{ id.path }}/canvas/5"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -7,9 +7,15 @@ summary: "The simplest viable manifest for image content. If all you have for an
 viewers:
  - Mirador
  - UV
+ - Annona
+ - Clover
+ - Glycerine Viewer
+ - Theseus
 topic: 
  - basic
  - image
+code:
+ - iiif-prezi3
 ---
 
 
@@ -31,7 +37,7 @@ This recipe is not for large images or deep zoom functionality. For this, see th
 
 ## Example
 
-{% include manifest_links.html viewers="UV, Mirador" manifest="manifest.json" %}
+{% include manifest_links.html manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 

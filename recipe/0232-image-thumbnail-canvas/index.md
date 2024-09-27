@@ -58,7 +58,7 @@ Since adding a service alone doesn't gain us anything, we can take it a step fur
   {
     "id": "https://fixtures.iiif.io/other/level0/Glen/photos/gottingen/full/max/0/default.jpg",
     "type": "Image",
-    "format": "image/jpg",
+    "format": "image/jpeg",
     "width":252,
     "height":189,
     "service": [
@@ -96,11 +96,11 @@ None
 
 The two Manifests below demonstrate the use of the `thumbnail` property on Canvases: the first specifies a thumbnail for a video file following the **Minimal thumbnail requirements** option; the second a thumbnail for an image file using the **Thumbnails with a IIIF image service + JSON image response sizes** option. *Note: the image thumbnail here specifies a level0 profile, but could be changed to a level1 profile if leaving it open for custom sizes is desirable.*
 
-{% include manifest_links.html viewers="Mirador, UV" manifest="manifest-av.json" %}
+{% include manifest_links.html viewers="Mirador, UV, Theseus" manifest="manifest-av.json" %}
 
 {% include jsonviewer.html src="manifest-av.json" config='data-line="22-30, 65-73"' %}
 
-{% include manifest_links.html viewers="Mirador, UV" manifest="manifest-image.json" %}
+{% include manifest_links.html viewers="Mirador, UV, Annona, Theseus" manifest="manifest-image.json" %}
 
 {% include jsonviewer.html src="manifest-image.json" config='data-line="21-50, 90-119"' %}
 

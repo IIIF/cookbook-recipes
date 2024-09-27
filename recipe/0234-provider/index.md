@@ -5,6 +5,10 @@ layout: recipe
 tags: provider
 summary: "Include a rich set of information for each content contributor so clients can make this information visible."
 viewers:
+ - id: Mirador
+   support: partial
+ - Glycerine Viewer
+ - Theseus
 topic: property
 property: provider
 ---
@@ -32,19 +36,18 @@ None known.
 
 In this example, we reuse the front page of a kabuki playbill that was contributed to the IIIF Cookbook by UCLA Library Digital Collections. The `id` for them as an Agent is the US Library of Congress authority ID for the UCLA Library, the `homepage` is their actual homepage, the `logo` is also for the library as a whole, and the `seeAlso` is the US Library of Congress MADS/XML. In your use of this property, you might want to and be able to unify the information in the property differently.
 
-No viewer currently implements `provider` sufficiently fully and correctly.
+Only Mirador implements `provider`, and only partially. The property must be on the Manifest level, Mirador will only display the text from a `label` and the image from a  `logo` under `provider`, and the information will only be found in the list of manifests.
 
-{% include manifest_links.html viewers="" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador, Glycerine Viewer, Theseus" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="15-82"' %}
 
 ## Related Recipes
 
-* [homepage][0047] for demonstrating the use of `homepage`
+* [Linking to Web Page of an Object][0047] for demonstrating the use of `homepage` at the Manifest level
 * [Add Identifying Graphic][0217] for demonstrating the use of `logo`
 * [Linking to Structured Metadata][0053] for demonstrating the use of `seeAlso`
 * [Rights][0008] for demonstrating use of `requiredStatement`
 
 {% include acronyms.md %}
 {% include links.md %}
-

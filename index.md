@@ -21,6 +21,10 @@ As part of the work to aid implementation the Cookbook group have developed a Vi
 {% include misc/button.html button_link="recipe/matrix/" button_label="See IIIF viewer support" %}
 {{ theme.block-end }}
 
+## Code samples
+
+As well as viewer support, the cookbook provides links to code samples in various development libraries to aid developers who hope to re-create these recipes in Code. You can see a full list of recipes with code samples in the [code samples](recipe/code/) page.
+
 # Contributing
 
 Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advice and support can be received from the IIIF Cookbook channel on the IIIF Slack. For detailed information on how to contribute please see the [Cookbook process][cookbook-process].
@@ -43,15 +47,20 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Rights statement\(s\)][0008] (7)
 * [Simple Manifest - Book][0009] (19)
 * [Book behavior (paging) variations][0011] (15,16,17)
+* [Addressing a spatial region][0299]
 * [Viewing direction and its effect on navigation][0010] (11,12,13,14)
-* [Manifest Thumbnail][0117]
+* [Missing Images in a Sequence][0283]
+* [Image Thumbnail for Manifest][0117]
 * [Implementation discussion: Thumbnails on Canvases][0232]
 * [Load a Preview Image Before the Main Content][0013]
 * [Audio Presentation with Accompanying Image][0014]
 * [Load Manifest Beginning with a Specific Canvas][0202]
 * [Begin playback at a specific point - Time-based media][0015] (65)
 * [Navigation by Chronology][0230]
+* [Locate a Manifest on a Web Map][0154]
+* [Locate Multiple Canvases on a Web Map][0240]
 * [Acknowledge Content Contributors][0234]
+* [Simple Collection][0032]
 
 ## Textual and other supplementary content
 
@@ -72,13 +81,19 @@ _(leading on to segmentation examples later)_
 
 * comments - various examples (51,52,54)
 * [Simplest Annotation][0266]
+* [HTML in Annotations][0019]
 * Fragment selectors (61)
 * [Simple Annotation - Tagging][0021]
+* [Annotation with a Non-Rectangular Polygon][0261]
 * [Tagging with an External Resource][0258]
-* hotspot linking
-* Annotation in the context of a particular content resource https://github.com/IIIF/iiif-stories/issues/101
+* [Redirecting from one Canvas to another resource (Hotspot linking)][0022]
+* [Annotate a specific images or layers][0326]
+* [Annotating a specific point of an image][0135]
 * [Geographic coordinates][0139]
 * [Embedded or Referenced Annotations][0269]
+* [Linking external Annotations targeting a Canvas to a Manifest][0306]
+* [Image in annotations][0377]
+* [Annotating in Multiple Languages][0346]
 
 ## Internal structure
 
@@ -91,18 +106,17 @@ _(leading on to segmentation examples later)_
 ## Higher-level structure
 
 * [Multi-volume Work with Individually-bound Volumes][0030]
-* bound multi-volume work
+* [Multiple Volumes in a Single Bound Volume][0031]
 * paged Collections (from #1343)
 
 ## Segmentation and complex resources
 
-* Choice (simplest) (28)
-* Choice - multispectral flavored example, with image services (29)
-* foldouts, etc (Choice or non-paged interlude (flaps vs maps))?
-* [Multiple images (master/detail)][detail-image] (30,31)
+* [Multiple choice of images in a single view][0033] (29)
+* [Foldouts, Flaps, and Maps][0035]
+* [Composition from Multiple Images][0036] (30,31)
 * Multiple images and multiple choices (32,33,34)
 * [Annotating part of an image to a Canvas][recipe-segment-image-part] (e.g., crop out scanner) (35,36,37,38)
-* Image with CSS Rotation (39)
+* [Image Rotation Two Ways][0040]
 * Reusing an image service (ImageApiSelector) (41)
 * non-rectangular segmentation
 * temporal segmentation
@@ -113,13 +127,20 @@ _(leading on to segmentation examples later)_
 ## Linking
 
 * alternative representations (rendering (?))
-* Homepage
+* [Linking to Web Page of an Object (homepage)][0047]
 * Linking from Image API to Presentation API (via partOf as per #600, #1507)
 * Linking from Image API to external metadata
 * Linking from external metadata to Image API
 * Linking from external metadata to Presentation API
 * Linking between Presentation API representations
 * [Linking to Structured Metadata][0053] (8)
+
+
+## Sharing IIIF content 
+Recipes using [Content State API](https://iiif.io/api/content-state/1.0/)
+
+* [Loading a manifest with a viewer using a link][0466]
+
 
 ## Technical
 
@@ -136,11 +157,12 @@ _(leading on to segmentation examples later)_
 * A music album's audio resources
 * ...and its image resoures
 * ...combined to demonstrate _together_
+* [Multiple Choice of Audio Formats in a Single View (Canvas)][0434]
 * [Table of Contents for Multiple A/V files on a Single Canvas][0064] (64)
 * [Table of Contents for Multiple A/V files on Multiple Canvases][0065] (65)
 * Adaptive bit rate AV examples
 * A field recording
-* [A newspaper][0068]
+* [Basic Newspaper][0068]
 * Example with extensions and services
 * A manuscript with multiple orderings
 * a Sammelband
@@ -150,13 +172,15 @@ _(leading on to segmentation examples later)_
 * Mixed Image Service references (a mashup, with img2 and img3 services)
 * Glenn Gould - score and performance scenarios (transcribing)
 * A Map
+* [Locating an Item in Place and Time][0318]
+
 
 ## Access Control
 _this might be in a separate auth cookbook_
 
 * probe service for simple resource
 * auth for adaptive bit rate media (MPEG-DASH)
-* [Anyone can deep zoom, auth reqd for hi-res download](https://digirati-co-uk.github.io/iiif-auth-client/?image=https://iiifauth.digtest.co.uk/img/11_kitty_joyner.jpg/info.json)
+* Anyone can deep zoom, auth reqd for hi-res download
 
 {% include acronyms.md %}
 {% include links.md %}

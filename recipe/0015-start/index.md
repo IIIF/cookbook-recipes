@@ -5,12 +5,15 @@ layout: recipe
 tags: [audio, video]
 summary: "This manifest uses the 'start' property to specify a point in an audio or video object where a client application should begin playback."
 viewers:
- - id: UV
-   support: partial
-topic: 
+ - Ramp
+ - Aviary
+ - Theseus
+topic:
  - AV
  - property
 property: start
+code:
+ - iiif-prezi3
 ---
 
 ## Use Case
@@ -37,9 +40,7 @@ For more information on other Selector classes, see: [IIIF Open/Web Annotation E
 
 This example shows a Manifest with a single Canvas with a duration of 1801.055 seconds. It has a single video file (30-minute-clock.mp4) which is associated with it. The `start` property specifies a start point of 120.5 seconds into the playback. The video was created by [DrLex1](https://www.youtube.com/watch?v=Lsq0FiXjGHg) and was released using a [Creative Commons Attribution license](https://creativecommons.org/licenses/by/3.0/).
 
-*Note: As of the writing of this recipe, playback of video content is supported by some viewers (Universal Viewer), but the `start` property for time-based objects is not yet supported in viewers.*
-
-{% include manifest_links.html viewers="UV" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Ramp, Aviary, Theseus" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="10-18"' %}
 

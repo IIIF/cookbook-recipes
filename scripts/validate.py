@@ -54,6 +54,43 @@ def validateIIIF(jsonData, filepath):
     else:    
         return True
 
+def checkForNonValidationIssues(data, filename):
+    type = data["type"]
+    # Look for label in annotation
+    if type == 'Manifest':
+        anyFailed = False
+        if 'items' in data:
+            for canvas in data['items']:
+                if 'items' in canvas:
+                    for page in canvas['items']:
+                        result = checkAnnotationPage(page)
+                        if result:
+                            anyFailed = True
+                            print (f'Manifest {filename} contains a painting annotation in canvas {canvas['id']} which has a label in the annotation')
+                if 'annotations' in canvas:
+                    for page in canvas['annotations']:            
+                        result = checkAnnotationPage(page)
+                        if result:
+                            anyFailed = True
+                            print (f'Manifest {filename} contains an annotation in canvas {canvas['id']} which has a label in the annotation')
+
+            if anyFailed:
+                return False            
+
+    elif type == 'AnnotationPage':
+        result = checkAnnotationPage(data)
+        if result:
+            print (f'AnnotationPage {filename} has a label in the annotation')
+            return False
+    return True
+
+def checkAnnotationPage(page):
+    if 'items' in page:
+        for annotation in page['items']:
+            if 'label' in annotation:
+                return True
+    return False        
+
 def loadYAML(location):
     with open(location, "r") as stream:
         try:
@@ -64,7 +101,7 @@ def loadYAML(location):
 if __name__ == "__main__":
     allPassed = True
     files = findFilesToValidate("../recipe", ".md");
-    ignore = ["../recipe/index.md", "../recipe/matrix.md", "../recipe/all.md"]
+    ignore = ["../recipe/index.md", "../recipe/matrix.md", "../recipe/all.md", "../recipe/code.md"]
     
     topics = loadYAML("../_data/topics.yml")
     ignoreFromViewerMatrix = loadYAML("../_data/viewer_ignore.yml")
@@ -94,9 +131,6 @@ if __name__ == "__main__":
                 if not ignoreViewer:
                     print ('Recipe {} is missing a `viewers` entry either add it or add the name of the recipe to _data.viewer_ignore.yml'.format(recipepath))
                     allPassed = False
-                    
-                
-
 
     files = findFilesToValidate("../_site", ".json")
     # Get JSON Schema
@@ -110,11 +144,15 @@ if __name__ == "__main__":
                 continue
 
             if 'type' in jsonData:
-                if jsonData['type'] in ['Manifest', 'Collection']:
+                if jsonData['type'] in ['Manifest', 'Collection', 'AnnotationPage']:
+                    print ('Validating {}'.format(jsonFilename.replace('../_site/','')))
                     passed = validateIIIF(jsonData, jsonFilename)
                     if not passed:
                         allPassed = False
                     # else it passed    
+                    passed = checkForNonValidationIssues(jsonData, jsonFilename)
+                    if not passed:
+                        allPassed = False
                 else:
                     print ('{}: Do not know how to validate JSON with type: {}'.format(errorJsonFilename, jsonData['type']))
             else:
