@@ -39,7 +39,11 @@ In the `metadata` and `requiredStatement` properties, the `label` strings for "C
 
 Finally, the `summary` property (lines 49-54) has values in both English and French.
 
-To see the language choice in the linked viewers, open the settings menu (gear icon) and choose either English or French.
+With the Universal Viewer, Mirador and Glycerine you can open the settings menu (gear icon) and choose either English or French.
+
+For the Curation viewer you need to add a `lang=fr` parameter to access the French properties. You can see the French values on the [IIIF Curation Viewer](http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://iiif.io/api/cookbook/recipe/0006-text-language/manifest.json&lang=fr) demo site.
+
+Note the viewers included in this recipe are for the specific languages in the example of this recipe i.e. French and English. Not all viewers support all languages and users should check the viewers with their manifests to see if they need to configure the viewer to make the extra languages available. 
 
 The image in this example was sourced via Wikimedia Commons and is public domain.
 
