@@ -2,6 +2,7 @@
     "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "{{ id.url }}",
     "type": "AnnotationPage",
+    "partOf": "{{ id.path }}/anno_coll.json",
     "items": [
         {
             "id": "{{ id.url }}-1",

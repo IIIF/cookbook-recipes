@@ -29,20 +29,13 @@ All AnnotationPages are separate documents that have an `items` property contain
 
 A IIIF viewer that displays Annotations on a Canvas follows the URIs in the `annotations` property of the Canvas and loads the Annotations in the referenced AnnotationPages. If the viewer wants to indicate that these Annotations belong to one or more AnnotationCollections it has to follow the URI in the `partOf` property of the AnnotationPages to identify the AnnotationCollection and display its label and choose a common color for the Annotations. This means that a viewer has to load all AnnotationPages from all Canvases if it wants to present a list of all AnnotationCollections in the Manifest to the user.
 
-
-
-ISSUES
-- mention `supplementary` property of Range? seems very specialized
-- can a viewer find the AnnotationCollection from the Manifest? seeAlso?
-- images from https://fixtures.iiif.io/
-
 ## Restrictions
 
 ???
 
 ## Example
 
-We use a Manifest containing two pages from a newspaper (Berliner Tageblatt, February 16, 1925, from Europeana) and a set of Annotations concerning layout elements.
+We use a Manifest containing two pages from a newspaper (Berliner Tageblatt, February 16, 1925, from Staatsbibliothek Berlin via Europeana) and a set of Annotations concerning layout elements.
 
 {% include manifest_links.html viewers="UV, Mirador, Curation" manifest="manifest.json" %}
 
