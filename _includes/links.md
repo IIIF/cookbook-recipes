@@ -54,7 +54,7 @@
 [0232]: {{ site.cookbook_url | absolute_url }}/recipe/0232-image-thumbnail-canvas/ "Implementation discussion: Thumbnails on Canvases"
 [0219]: {{ site.cookbook_url | absolute_url }}/recipe/0219-using-caption-file/ "Using Caption and Subtitle Files with Video Content"
 [0229]: {{ site.cookbook_url | absolute_url }}/recipe/0229-behavior-ranges/ "Navigation in a video by thumbnails"
-[0230]: {{ site.cookbook_url | absolute_url }}/recipe/0230-navdate/ "Navigation by Chronology"
+[0230]: {{ site.cookbook_url | absolute_url }}/recipe/0230-navdate/ "Uses of Behavior with Ranges"
 [0231]: {{ site.cookbook_url | absolute_url }}/recipe/0231-transcript-meta-recipe/ "Transcripts, Captions, and Subtitles - General Considerations"
 
 [0234]: {{ site.cookbook_url | absolute_url }}/recipe/0234-provider/ "Acknowledge Content Contributors"
