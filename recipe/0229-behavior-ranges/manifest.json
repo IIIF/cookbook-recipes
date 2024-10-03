@@ -60,7 +60,7 @@
           "items": [
             {
               "type": "Canvas",
-              "id": "{{ id.path }}/canvas/1#t=0,5"
+              "id": "{{ id.path }}/canvas/1#t=0,9"
             }
           ]
         },
@@ -71,7 +71,7 @@
           "items": [
             {
               "type": "Canvas",
-              "id": "{{ id.path }}/canvas/1#t=5,305"
+              "id": "{{ id.path }}/canvas/1#t=9,305"
             }
           ],
 		  "thumbnail": [
