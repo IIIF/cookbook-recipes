@@ -3,6 +3,258 @@
     "id": "{{ id.url }} ",
     "type": "Manifest",
     "label": { 
-        "none": [""]
+        "en": ["Video navigation with thumbnails in a Range"]
+    },
+  "metadata": [
+    {
+      "label": { "en": ["Date Issued"] },
+      "value": { "en": ["2019"] }
+    },
+    {
+      "label": { "en": ["Publisher"] },
+      "value": { "en": ["Indiana University Jacobs School of Music"] }
     }
+  ],
+  "items": [
+    {
+      "id": "{{ id.path }}/canvas/1",
+      "type": "Canvas",
+      "height": 1080,
+      "width": 1920,
+      "duration": 3307.22,
+      "items": [
+        {
+          "id": "{{ id.path }}/canvas/1/annotation_page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/canvas/1/annotation_page/1/annotation/2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/vae0637_accessH264_low_act_2.mp4",
+                "type": "Video",
+                "format": "video/mp4",
+                "height": 1080,
+                "width": 1920,
+                "duration": 3307.22
+              },
+              "target": "{{ id.path }}/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "id": "{{ id.path }}/range/1",
+      "type": "Range",
+      "label": { "en": [ "Thumbnail navigation" ] },
+      "behavior": "thumbnail-nav",
+      "items": [
+        {
+          "type": "Range",
+          "id": "{{ id.path }}/range/2",
+          "label": { "en": [ "Start – 305s" ] },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "{{ id.path }}/canvas/1#t=0,305"
+            }
+          ],
+		  "thumbnail": [
+			{
+			  "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/thumbnails/thumb-nav-01.png",
+			  "type": "Image",
+			  "format": "image/png",
+			  "width": "2250",
+			  "height": "1266"
+			}
+		  ]
+        },
+        {
+          "type": "Range",
+          "id": "{{ id.path }}/range/3",
+          "label": { "en": [ "305s – 610s" ] },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "{{ id.path }}/canvas/1#t=305,610"
+            }
+          ],
+		  "thumbnail": [
+			{
+			  "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/thumbnails/thumb-nav-02.png",
+			  "type": "Image",
+			  "format": "image/png",
+			  "width": "2250",
+			  "height": "1266"
+			}
+		  ]
+        },
+        {
+          "type": "Range",
+          "id": "{{ id.path }}/range/4",
+          "label": { "en": [ "610s – 915s" ] },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "{{ id.path }}/canvas/1#t=610,915"
+            }
+          ],
+		  "thumbnail": [
+			{
+			  "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/thumbnails/thumb-nav-03.png",
+			  "type": "Image",
+			  "format": "image/png",
+			  "width": "2250",
+			  "height": "1266"
+			}
+		  ]
+        },
+        {
+          "type": "Range",
+          "id": "{{ id.path }}/range/5",
+          "label": { "en": [ "915s – 1220s" ] },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "{{ id.path }}/canvas/1#t=915,1220"
+            }
+          ],
+		  "thumbnail": [
+			{
+			  "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/thumbnails/thumb-nav-04.png",
+			  "type": "Image",
+			  "format": "image/png",
+			  "width": "2250",
+			  "height": "1266"
+			}
+		  ]
+        },
+        {
+          "type": "Range",
+          "id": "{{ id.path }}/range/6",
+          "label": { "en": [ "1220s – 1525s" ] },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "{{ id.path }}/canvas/1#t=1220,1525"
+            }
+          ],
+		  "thumbnail": [
+			{
+			  "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/thumbnails/thumb-nav-05.png",
+			  "type": "Image",
+			  "format": "image/png",
+			  "width": "2250",
+			  "height": "1266"
+			}
+		  ]
+        },
+        {
+          "type": "Range",
+          "id": "{{ id.path }}/range/7",
+          "label": { "en": [ "1525s – 1830s" ] },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "{{ id.path }}/canvas/1#t=1525,1830"
+            }
+          ],
+		  "thumbnail": [
+			{
+			  "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/thumbnails/thumb-nav-06.png",
+			  "type": "Image",
+			  "format": "image/png",
+			  "width": "2250",
+			  "height": "1266"
+			}
+		  ]
+        },
+        {
+          "type": "Range",
+          "id": "{{ id.path }}/range/8",
+          "label": { "en": [ "1830s – 2135s" ] },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "{{ id.path }}/canvas/1#t=1830,2135"
+            }
+          ],
+		  "thumbnail": [
+			{
+			  "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/thumbnails/thumb-nav-07.png",
+			  "type": "Image",
+			  "format": "image/png",
+			  "width": "2250",
+			  "height": "1266"
+
+			}
+		  ]
+        },
+        {
+          "type": "Range",
+          "id": "{{ id.path }}/range/9",
+          "label": { "en": [ "2135s – 2440s" ] },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "{{ id.path }}/canvas/1#t=2135,2440"
+            }
+          ],
+		  "thumbnail": [
+			{
+			  "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/thumbnails/thumb-nav-08.png",
+			  "type": "Image",
+			  "format": "image/png",
+			  "width": "2250",
+			  "height": "1266"
+			}
+		  ]
+        },
+        {
+          "type": "Range",
+          "id": "{{ id.path }}/range/10",
+          "label": { "en": [ "2440s – 2745s" ] },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "{{ id.path }}/canvas/1#t=2440,2745"
+            }
+          ],
+		  "thumbnail": [
+			{
+			  "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/thumbnails/thumb-nav-09.png",
+			  "type": "Image",
+			  "format": "image/png",
+			  "width": "2250",
+			  "height": "1266"
+			}
+		  ]
+        },
+        {
+          "type": "Range",
+          "id": "{{ id.path }}/range/11",
+          "label": { "en": [ "2745s – end" ] },
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "{{ id.path }}/canvas/1#t=2745,3307.22"
+            }
+          ],
+		  "thumbnail": [
+			{
+			  "id": "thumb-nav-10.png",
+			  "type": "Image",
+			  "format": "image/png",
+			  "width": "2250",
+			  "height": "1266"
+			}
+		  ]
+        }
+      ]
+    }
+  ]
 }
