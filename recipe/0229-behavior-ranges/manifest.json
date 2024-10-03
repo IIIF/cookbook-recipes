@@ -55,12 +55,23 @@
       "items": [
         {
           "type": "Range",
+          "id": "{{ id.path }}/range/1.1",
+          "behavior": "no-nav",
+          "items": [
+            {
+              "type": "Canvas",
+              "id": "{{ id.path }}/canvas/1#t=0,5"
+            }
+          ]
+        },
+        {
+          "type": "Range",
           "id": "{{ id.path }}/range/2",
           "label": { "en": [ "Start – 305s" ] },
           "items": [
             {
               "type": "Canvas",
-              "id": "{{ id.path }}/canvas/1#t=0,305"
+              "id": "{{ id.path }}/canvas/1#t=5,305"
             }
           ],
 		  "thumbnail": [
