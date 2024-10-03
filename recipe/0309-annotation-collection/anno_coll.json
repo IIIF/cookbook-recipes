@@ -10,5 +10,4 @@
     "total": 8,
     "first": "{{ id.path }}/anno_p1.json",
     "last": "{{ id.path }}/anno_p2.json"
-
 }

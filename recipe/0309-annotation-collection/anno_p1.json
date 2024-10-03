@@ -2,7 +2,10 @@
     "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "{{ id.url }}",
     "type": "AnnotationPage",
-    "partOf": "{{ id.path }}/anno_coll.json",
+    "partOf": [{
+        "id": "{{ id.path }}/anno_coll.json",
+        "type": "AnnotationCollection"
+    }],
     "next": "{{ id.path }}/anno_p2.json",
     "items": [
         {
