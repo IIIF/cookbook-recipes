@@ -22,20 +22,6 @@
       ]
     }
   },
-  "provider": [{
-    "id": "https://www.europeana.eu/",
-    "type": "Agent",
-    "label": { "en": [ "Europeana" ] },
-    "logo": [
-        {
-          "id": "https://style.europeana.eu/images/europeana-logo-default.png",
-          "type": "Image",
-          "format": "image/png",
-          "height": 310,
-          "width": 100
-        }
-    ]
-  }],
   "items": [
     {
       "id": "{{ id.path }}/canvas/p1",
@@ -76,7 +62,12 @@
       "annotations": [
         {
           "id": "{{ id.path }}/anno_p1.json",
-          "type": "AnnotationPage"
+          "type": "AnnotationPage",
+          "partOf": [{
+              "id": "{{ id.path }}/anno_coll.json",
+              "type": "AnnotationCollection"
+          }],
+          "next": "{{ id.path }}/anno_p2.json"
         }
       ]
     },
@@ -119,7 +110,11 @@
       "annotations": [
         {
           "id": "{{ id.path }}/anno_p2.json",
-          "type": "AnnotationPage"
+          "type": "AnnotationPage",
+          "partOf": [{
+            "id": "{{ id.path }}/anno_coll.json",
+            "type": "AnnotationCollection"
+          }]
         }
       ]
     }

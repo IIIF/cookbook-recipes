@@ -23,13 +23,9 @@ The AnnotationCollection has a `first` property that contains the URI of the fir
 
 The IIIF Manifest requires that Annotations that should be shown on a Canvas are contained in AnnotationPages referenced in the `annotations` property of that Canvas. This means that all Annotations need to be grouped by Canvas and put into one or more AnnotationPages per Canvas. An AnnotationPage can not contain Annotations for more than one Canvas.
 
-The AnnotationPages are separate documents that have an `items` property containing the list of Annotations, a `partOf` property that contains the URI of the parent AnnotationCollection, and a `next` property that contains the URI of the next AnnotationCollection in the sequence.
+The AnnotationPages have an `items` property containing the list of Annotations, a `partOf` property that contains the URI of the parent AnnotationCollection, and a `next` property that contains the URI of the next AnnotationPage in the sequence. AnnotationPages are often separate documents that are [referenced][0269] in the manifest using a reference object that can additionally provide some properties for access inside the manifest.
 
-A IIIF viewer that displays Annotations on a Canvas follows the URIs in the `annotations` property of the Canvas and loads the Annotations in the referenced AnnotationPages. If the viewer wants to indicate that these Annotations belong to one or more AnnotationCollections it has to follow the URI in the `partOf` property of the AnnotationPages to identify the AnnotationCollection and display its label and choose a common color for the Annotations. The indirect way from the Manifest to the AnnotationCollection means that a viewer has to load all AnnotationPages from all Canvases if it wants to present a complete list of all AnnotationCollections in the Manifest to the user.
-
-issues:
-- partOf in Prezi3 wants a list https://iiif.io/api/presentation/3.0/#partof but example https://iiif.io/api/presentation/3.0/#58-annotation-collection doesn't
-- what to do with the viewer links? annotations show fine but the collection doesn't
+A IIIF viewer that displays Annotations on a Canvas follows the URIs in the `annotations` property of the Canvas and loads the Annotations in the referenced AnnotationPages. If the viewer wants to indicate that these Annotations belong to one or more AnnotationCollections it has to follow the URI in the `partOf` property of the AnnotationPages to identify the AnnotationCollection and display its label and choose a common color for the Annotations. The indirect connection from the Manifest to the AnnotationCollection means that a viewer would have to load all AnnotationPages from all Canvases if it wants to present a complete list of all AnnotationCollections in the Manifest to the user. This potentially slow process can be avoided if the `partOf` and `next` properties of the AnnotationPages are provided in the reference object inside the Manifest like in the example below. 
 
 ## Example
 
@@ -39,21 +35,19 @@ The Annotations select rectangular regions on the Canvases in the Manifest and a
 
 The AnnotationCollection is in the file "anno_coll.json". It has a `label` and references "anno_p1.json" as the `first` and "anno_p2.json" as the `last` page and contains the `total` number of Annotations.
 
-{% include manifest_links.html viewers="UV, Mirador, Curation" manifest="manifest.json" %}
+The AnnotationCollection referencing the AnnotationPages:
+
+{% include jsonviewer.html src="anno_coll.json" %}
+
+The Manifest containing the two Canvases and referencing the AnnotationPages:
+
+{% include manifest_links.html viewers="" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 
-First AnnotationPage with Annotations on the first Canvas.
+The first AnnotationPage with Annotations on the first Canvas: [anno_p1.json](anno_p1.json)
 
-{% include jsonviewer.html src="anno_p1.json" %}
-
-Second AnnotationPage with Annotations on the second Canvas.
-
-{% include jsonviewer.html src="anno_p2.json" %}
-
-The AnnotationCollection referencing the AnnotationPages.
-
-{% include jsonviewer.html src="anno_coll.json" %}
+The second AnnotationPage with Annotations on the second Canvas: [anno_p2.json](anno_p2.json)
 
 ## Related Recipes
 
@@ -63,4 +57,3 @@ The AnnotationCollection referencing the AnnotationPages.
 
 {% include acronyms.md %}
 {% include links.md %}
-
