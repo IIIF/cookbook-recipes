@@ -73,7 +73,16 @@
               "type": "Canvas",
               "id": "{{ id.path }}/canvas/1#t=9,305"
             }
-          ]
+          ],
+		  "thumbnail": [
+			{
+			  "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/thumbnails/thumb-nav-01.png",
+			  "type": "Image",
+			  "format": "image/png",
+			  "width": "2250",
+			  "height": "1266"
+			}
+		  ]
         },
         {
           "type": "Range",
