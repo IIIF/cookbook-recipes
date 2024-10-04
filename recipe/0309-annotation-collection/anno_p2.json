@@ -6,6 +6,7 @@
         "id": "{{ id.path }}/anno_coll.json",
         "type": "AnnotationCollection"
     }],
+    "prev": "{{ id.path }}/anno_p1.json",
     "items": [
         {
             "id": "{{ id.url }}-1",

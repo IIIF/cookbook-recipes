@@ -114,7 +114,8 @@
           "partOf": [{
             "id": "{{ id.path }}/anno_coll.json",
             "type": "AnnotationCollection"
-          }]
+          }],
+          "prev": "{{ id.path }}/anno_p1.json"
         }
       ]
     }
