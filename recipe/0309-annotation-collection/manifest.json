@@ -65,7 +65,13 @@
           "type": "AnnotationPage",
           "partOf": [{
               "id": "{{ id.path }}/anno_coll.json",
-              "type": "AnnotationCollection"
+              "type": "AnnotationCollection",
+              "label": {
+                "en": [
+                  "Newspaper layout markup"
+                ]
+              },
+              "total": 8
           }],
           "next": "{{ id.path }}/anno_p2.json"
         }
@@ -113,7 +119,13 @@
           "type": "AnnotationPage",
           "partOf": [{
             "id": "{{ id.path }}/anno_coll.json",
-            "type": "AnnotationCollection"
+            "type": "AnnotationCollection",
+            "label": {
+              "en": [
+                "Newspaper layout markup"
+              ]
+            },
+            "total": 8
           }],
           "prev": "{{ id.path }}/anno_p1.json"
         }
