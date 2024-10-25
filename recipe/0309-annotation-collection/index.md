@@ -45,9 +45,9 @@ The second AnnotationPage with Annotations on the second Canvas: [anno_p2.json](
 
 The Manifest containing the two Canvases and referencing the AnnotationPages:
 
-{% include manifest_links.html viewers="" manifest="manifest.json" config='data-line="66-77,121-131"' %}
+{% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" %}
+{% include jsonviewer.html src="manifest.json" config='data-line="66-77,121-131"' %}
 
 ## Related Recipes
 
