@@ -64,4 +64,4 @@
 {% else %}
     {% capture default_text %}Unknown Viewer type '{{ include.type}}'{% endcapture %}
     {% capture viewer_url %}{{manifest_url |strip}}{% endcapture %}
-{% endif %}<a href="{{ viewer_url | strip }}" target="_blank">{{ include.text | default: default_text }}</a>
+{% endif %}<a href="{{ viewer_url | strip }}" class="{{ include.class }}" data-iiif-content="{{manifest_url |strip}}" target="_blank">{{ include.text | default: default_text }}</a>

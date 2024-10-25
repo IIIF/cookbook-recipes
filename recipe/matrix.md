@@ -14,6 +14,7 @@ viewers:
   - Aviary
   - Glycerine Viewer
   - Theseus
+  - Curation
 topics:
   - basic
   - property
