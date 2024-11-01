@@ -71,7 +71,9 @@
                   "Newspaper layout markup"
                 ]
               },
-              "total": 8
+              "total": 8,
+              "first": "{{ id.path }}/anno_p1.json",
+              "last": "{{ id.path }}/anno_p2.json"
           }],
           "next": "{{ id.path }}/anno_p2.json"
         }
@@ -125,7 +127,9 @@
                 "Newspaper layout markup"
               ]
             },
-            "total": 8
+            "total": 8,
+            "first": "{{ id.path }}/anno_p1.json",
+            "last": "{{ id.path }}/anno_p2.json"
           }],
           "prev": "{{ id.path }}/anno_p1.json"
         }

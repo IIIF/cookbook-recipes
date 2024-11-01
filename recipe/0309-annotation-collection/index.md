@@ -23,9 +23,9 @@ The Annotation Collection has a `first` property that contains the URI of the fi
 
 The IIIF Manifest requires that Annotations that are intended to be shown on a Canvas are contained in Annotation Pages referenced in the `annotations` property of that Canvas. This means that all Annotations need to be grouped by Canvas and put into one or more Annotation Pages per Canvas. An Annotation Page can not contain Annotations for more than one Canvas.
 
-The Annotation Pages must have a `type` of "AnnotationPage" and have an `items` property containing the list of Annotations, a `partOf` property that contains the URI of the parent Annotation Collection, and `next` and `prev` properties that contain the URIs of the next and previous Annotation Pages in the sequence. Annotation Pages are often separate documents that are [referenced][0269] in the manifest using a reference object that can additionally provide some properties for access inside the manifest.
+The Annotation Pages must have a `type` of "AnnotationPage" and have an `items` property containing the list of Annotations, a `partOf` property that contains the URI of the parent Annotation Collection, and `next` and `prev` properties that contain the URIs of the next and previous Annotation Pages in the sequence. Annotation Pages are often separate documents that are [referenced][0269] in the manifest using a reference object with an `id` property containing the URI of the external document and `type` containing its type. The reference object can also provide copies of other properties from the external document for access inside the Manifest.
 
-A IIIF viewer that displays Annotations on a Canvas follows the URIs in the `annotations` property of the Canvas and loads the Annotations in the referenced Annotation Pages. If the viewer wants to indicate that these Annotations belong to one or more Annotation Collections it has to follow the URI in the `partOf` property of the Annotation Pages to identify the Annotation Collection and display its label and choose a common color for the Annotations. The indirect connection from the Manifest to the Annotation Collection means that a viewer would have to load all Annotation Pages from all Canvases if it wants to present a complete list of all Annotation Collections in the Manifest to the user. This potentially slow process can be avoided if the `partOf`, `next`, `prev` properties of the Annotation Pages are provided in the reference object inside the Manifest and also the relevant properties of the Annotation Collection and provided in the `partOf` reference object like in the example below.
+For an Annotation Page you can provide the `partOf`, `next`, `prev` property in the reference object in the `annotations` property of the Canvas. In the `partOf` property of the Annotation Page you can provide a reference object for the Annotation Collection and its `label`, `total`, `first`, and `last` properties as in the example below. In the case of the Annotation Collection it is strongly suggested that you provide these properties in the Manifest to make it possible for the IIIF viewer to know that the Annotations are part of a Collection and display its label without having to load any of the external documents. If the information is not in the Manifest the viewer has to load all Annotation Pages referenced in the Canvases to find and load the Annotation Collections.
 
 ## Example
 
@@ -33,9 +33,9 @@ We use a Manifest containing two pages from a newspaper (Berliner Tageblatt, Feb
 
 The Annotations select rectangular regions on the Canvases in the Manifest and add textual tags describing layout elements. They are contained in two AnnotationPages "anno_p1.json" for Annotations on the first Canvas and "anno_p2.json" for Annotations on the second Canvas. "anno_p1.json" contains a `next` reference to "anno_p2.json", "anno_p2.json" contains a `prev` reference to "anno_p1.json", and both pages contain a `partOf` reference to the AnnotationCollection.
 
-The AnnotationCollection is in the file "anno_coll.json". It has a `label` and references "anno_p1.json" as the `first` and "anno_p2.json" as the `last` page and contains the `total` number of Annotations.
+The Annotation Collection is in the file "anno_coll.json". It has a `label` and references "anno_p1.json" as the `first` and "anno_p2.json" as the `last` page and contains the `total` number of Annotations.
 
-The AnnotationCollection referencing the AnnotationPages:
+The Annotation Collection referencing the Annotation Pages:
 
 {% include jsonviewer.html src="anno_coll.json" %}
 
@@ -43,7 +43,7 @@ The first AnnotationPage with Annotations on the first Canvas: [anno_p1.json](an
 
 The second AnnotationPage with Annotations on the second Canvas: [anno_p2.json](anno_p2.json)
 
-The Manifest containing the two Canvases and referencing the AnnotationPages:
+The Manifest containing the two Canvases and referencing the Annotation Pages:
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
@@ -51,7 +51,7 @@ The Manifest containing the two Canvases and referencing the AnnotationPages:
 
 ## Related Recipes
 
-* [Embedded or Referenced Annotations][0269] for referencing Annotations in external AnnotationPages
+* [Embedded or Referenced Annotations][0269] for referencing Annotations in external Annotation Pages
 * [Simple Annotation - Tagging][0021] annotating a rectangular Canvas region
 * [Annotation with a Non-Rectangular Polygon][0261] annotating an irregular shape on a Canvas
 
