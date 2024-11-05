@@ -47,7 +47,7 @@ The Manifest containing the two Canvases and referencing the Annotation Pages:
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="66-77,121-131"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="66-79,122-135"' %}
 
 ## Related Recipes
 
