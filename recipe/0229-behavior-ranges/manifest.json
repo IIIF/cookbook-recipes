@@ -257,7 +257,7 @@
           ],
 		  "thumbnail": [
 			{
-			  "id": "thumb-nav-10.png",
+			  "id": "https://fixtures.iiif.io/video/indiana/donizetti-elixir/thumbnails/thumb-nav-10.png",
 			  "type": "Image",
 			  "format": "image/png",
 			  "width": "2250",
