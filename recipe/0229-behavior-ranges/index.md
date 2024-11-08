@@ -43,8 +43,6 @@ This example uses a video (roughly 55 minutes long) of a live opera performance.
 
 {% include jsonviewer.html src="manifest.json" config='data-line="78,83"'%}
 
-The direct link to the fixture is a useful convenience.
-
 ## Related Recipes
 
 {% include links.md %}
