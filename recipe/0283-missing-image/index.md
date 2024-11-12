@@ -9,6 +9,7 @@ viewers:
  - Mirador
  - Glycerine Viewer
  - Theseus
+ - Curation
 topic:
  - image
  - basic
