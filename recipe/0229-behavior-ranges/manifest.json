@@ -50,7 +50,7 @@
     {
       "id": "{{ id.path }}/range/1",
       "type": "Range",
-      "label": { "en": [ "Alternate Thumbnail Navigation" ] },
+      "label": { "en": [ "Thumbnail Navigation" ] },
       "behavior": "thumbnail-nav",
       "items": [
         {
