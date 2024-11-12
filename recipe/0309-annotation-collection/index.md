@@ -23,6 +23,10 @@ The Annotation Collection has a `first` property that contains the URI of the fi
 
 The IIIF Manifest requires that Annotations that are intended to be shown on a Canvas are contained in Annotation Pages referenced in the `annotations` property of that Canvas. This means that all Annotations need to be grouped by Canvas and put into one or more Annotation Pages per Canvas. An Annotation Page can not contain Annotations for more than one Canvas.
 
+<p style="float: right">
+  <img src="diagram-309.png" alt="Annotation Collection Data Model" width="359"><br/>
+</p>
+
 The Annotation Pages must have a `type` of "AnnotationPage" and have an `items` property containing the list of Annotations, a `partOf` property that contains the URI of the parent Annotation Collection, and `next` and `prev` properties that contain the URIs of the next and previous Annotation Pages in the sequence. Annotation Pages are often separate documents that are [referenced][0269] in the manifest using a reference object with an `id` property containing the URI of the external document and `type` containing its type. The reference object can also provide copies of other properties from the external document for access inside the Manifest.
 
 For an Annotation Page you can provide the `partOf`, `next`, `prev` property in the reference object in the `annotations` property of the Canvas. In the `partOf` property of the Annotation Page you can provide a reference object for the Annotation Collection and its `label`, `total`, `first`, and `last` properties as in the example below. In the case of the Annotation Collection it is strongly suggested that you provide these properties in the Manifest to make it possible for the IIIF viewer to know that the Annotations are part of a Collection and display its label without having to load any of the external documents. If the information is not in the Manifest the viewer has to load all Annotation Pages referenced in the Canvases to find and load the Annotation Collections.
@@ -53,7 +57,6 @@ The Manifest containing the two Canvases and referencing the Annotation Pages:
 
 * [Embedded or Referenced Annotations][0269] for referencing Annotations in external Annotation Pages
 * [Simple Annotation - Tagging][0021] annotating a rectangular Canvas region
-* [Annotation with a Non-Rectangular Polygon][0261] annotating an irregular shape on a Canvas
 
 {% include acronyms.md %}
 {% include links.md %}
