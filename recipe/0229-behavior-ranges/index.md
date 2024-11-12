@@ -19,8 +19,6 @@ In watching a single-file IIIF video resource you will display in a client, visi
 
 ## Implementation Notes
 
-The cookbook discusses elsewhere ways to use the `behavior` property for determining paging in a book ([simple book][0009] and [book `behavior` variations][0011]), [viewing direction for a visual resource][0010], [visibility of `tagging` Annotations][0021], tables of contents ([chapters][0024], [an opera on one canvas][0064], and [an opera on multiple canvases][0065]), [collection structure of a multi-volume work][0030], and how to indicate [an alternate view of book contents][0035] such as for a foldout.
-
 This recipe shows two ways that `behavior` can serve in a Range to tell clients how navigation should work. (For a fuller discussion of Ranges, see [the Presentation API Range section][prezi3-range].) 
 
 One of the present ways to influence navigation behavior is to use the `no-nav` value, telling a client explicitly to not include a portion of the resource in navigation. When this value appears, whatever Canvases or portions of Canvases are used in the `items` part of the Range should not appear in the interface's navigation. The `id` of a Canvas in the `items` section indicates a Canvas from the Manifest's own `items` section or can be such an `id` with a bounding fragment for AV resources.
@@ -30,6 +28,8 @@ The other value used in this recipe is the `thumbnail-nav` value, which directs 
 Note that `behavior` values are inherited. In order to determine the behaviors governing a particular resource, [there are four inheritance rules to observe](https://iiif.io/api/presentation/3.0/#behavior), two of which apply to Ranges:
 + Canvases inherit behaviors from their referencing Manifest, but DO NOT inherit behaviors from any referencing Ranges, as there might be several with different behaviors.
 + Ranges inherit behaviors from any referencing Range and referencing Manifest.
+
+The cookbook discusses elsewhere several other uses of the `behavior` property, collected in the Related Recipes section below.
 
 ## Restrictions
 
@@ -45,5 +45,15 @@ This example uses a video (roughly 55 minutes long) of a live opera performance.
 
 ## Related Recipes
 
-{% include links.md %}
+* [Simple book][0009] gives an example of a basic paging interface
+* [Book paging variations][0011] shows selected `behavior` options for a book
+* [Viewing direction and its effect on navigation][0010] uses `behavior` for objects with other than left-to-right, top-to-bottom viewing directions
+* [Simple Annotation — Tagging][0021] notes, but does not show, how `behavior` in a tagging annotation can be used to hide the annotation
+* [Table of contents: Book chapters][0024]
+* [Table of contents: One video resource on one canvas][0064]
+* [Table of contents: One video resource on multiple canvases][0065]
+* [Multi-volume work with individually-bound volumes][0030] uses `behavior` to distinguish a multi-volume Collection from other Collection types
+* [Foldouts, flaps, and maps][0035] uses `behavior` to mark a Manifest as paged and a Canvas within the Manifest as not participating in the paging
 
+{% include acronyms.md %}
+{% include links.md %}
