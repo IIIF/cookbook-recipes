@@ -26,8 +26,8 @@ One of the present ways to influence navigation behavior is to use the `no-nav` 
 The other value used in this recipe is the `thumbnail-nav` value, which directs the consuming client to present an alternate, visual navigation structure using the thumbnail(s) with this `behavior` value. The API is quite clear that a traditional table of contents is not the place to put this visual navigation. Something more akin to thumbnail scrubbing is the metaphor to aim for. This can work with AV resources, where thumbnails might be put along a timeline to represent key moments a viewer might want to use in navigation. It can also be used with still images, where thumbnails might be employed usefully to navigate very large images (long, tall, or both dimensions). For those large still images, thumbnail based navigation — independent of the manifest's Canvases' thumbnails — may be arranged in any way that presents a helpful experience.
 
 Note that `behavior` values are inherited. In order to determine the behaviors governing a particular resource, [there are four inheritance rules to observe](https://iiif.io/api/presentation/3.0/#behavior), two of which apply to Ranges:
-+ Canvases inherit behaviors from their referencing Manifest, but DO NOT inherit behaviors from any referencing Ranges, as there might be several with different behaviors.
-+ Ranges inherit behaviors from any referencing Range and referencing Manifest.
+> + Canvases inherit behaviors from their referencing Manifest, but **DO NOT** inherit behaviors from any referencing Ranges, as there might be several with different behaviors.
+> + Ranges inherit behaviors from any referencing Range and referencing Manifest.
 
 The cookbook discusses elsewhere several other uses of the `behavior` property, collected in the Related Recipes section below.
 
