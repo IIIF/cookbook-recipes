@@ -1,5 +1,5 @@
 ---
-title: Two Uses of Behavior with Ranges
+title: Adding Thumbnail Navigation and no-nav to a Video Resource
 id: 229
 layout: recipe
 tags: structure
