@@ -15,7 +15,7 @@ topic:
 
 ## Use Case
 
-In watching a single-file IIIF video resource you will display in a client, visitors could benefit from the ability to navigation within it visually, a bit like having thumbnail scrubbing. You're not able to segment the video, and you prefer visual navigation to a textual table of contents.
+You would like to provide visitors with the ability to navigate a video visually using thumbnails, excluding portions of the video with no meaningful video or audio.
 
 ## Implementation Notes
 
