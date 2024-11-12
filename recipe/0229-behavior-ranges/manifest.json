@@ -67,7 +67,7 @@
         {
           "type": "Range",
           "id": "{{ id.path }}/range/2",
-          "label": { "en": [ "Start – 305s" ] },
+          "label": { "en": [ "9s – 305s" ] },
           "items": [
             {
               "type": "Canvas",
