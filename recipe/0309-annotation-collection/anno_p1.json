@@ -6,10 +6,7 @@
         "id": "{{ id.path }}/anno_coll.json",
         "type": "AnnotationCollection"
     }],
-    "next": {
-        "id": "{{ id.path }}/anno_p2.json",
-        "type": "AnnotationPage"
-    },
+    "next": "{{ id.path }}/anno_p2.json",
     "items": [
         {
             "id": "{{ id.url }}-1",
