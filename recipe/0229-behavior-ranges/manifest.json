@@ -5,16 +5,6 @@
     "label": { 
         "en": ["Video navigation with thumbnails in a Range"]
     },
-  "metadata": [
-    {
-      "label": { "en": ["Date Issued"] },
-      "value": { "en": ["2019"] }
-    },
-    {
-      "label": { "en": ["Publisher"] },
-      "value": { "en": ["Indiana University Jacobs School of Music"] }
-    }
-  ],
   "items": [
     {
       "id": "{{ id.path }}/canvas/1",
