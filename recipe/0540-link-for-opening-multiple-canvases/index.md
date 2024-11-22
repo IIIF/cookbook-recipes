@@ -28,13 +28,7 @@ None known.
 
 ## Example
 In this example we want to compare two painting of the Colosseum from two different Manifests.
-One of the two Manifest is reported here:
-
-{% include manifest_links.html viewers="" manifest="manifest.json" %}
-
-{% include jsonviewer.html src="manifest.json" %}
-
-We can notice that the Colosseum painting is in the second Canvas. The other Manifest is from another recipe, and can be [accessed here](https://iiif.io/api/cookbook/recipe/0318-navPlace-navDate/manifest-2.json).
+One of the two Manifest is available at the following [link]({{ id.url }}/manifest.json). We can notice that the Colosseum painting is in the second Canvas. The other Manifest is from another recipe, and can be [accessed here](https://iiif.io/api/cookbook/recipe/0318-navPlace-navDate/manifest-2.json).
 
 The Annotation will target the `id` of the two Canvases we want to compare and contain a reference to the two Manifests as shown in the example:
 
