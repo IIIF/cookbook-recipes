@@ -9,7 +9,7 @@
     },
     "items": [
       {
-        "id": "{{ id.url }}/canvas/p1",
+        "id": "{{ id.path }}/canvas/p1",
         "type": "Canvas",
         "label": {
           "en": [
@@ -20,11 +20,11 @@
         "width": 2048,
         "items": [
           {
-            "id": "{{ id.url }}/page/p1/1",
+            "id": "{{ id.path }}/page/p1/1",
             "type": "AnnotationPage",
             "items": [
               {
-                "id": "{{ id.url }}/annotation/p0001-image",
+                "id": "{{ id.path }}/annotation/p0001-image",
                 "type": "Annotation",
                 "motivation": "painting",
                 "body": {
@@ -34,14 +34,14 @@
                   "height": 1464,
                   "width": 2048
                 },
-                "target": "{{ id.url }}/canvas/p1"
+                "target": "{{ id.path }}/canvas/p1"
               }
             ]
           }
         ]
       },
       {
-        "id": "{{ id.url }}/canvas/p2",
+        "id": "{{ id.path }}/canvas/p2",
         "type": "Canvas",
         "label": {
           "en": [
@@ -52,11 +52,11 @@
         "width": 2048,
         "items": [
           {
-            "id": "{{ id.url }}/page/p2/1",
+            "id": "{{ id.path }}/page/p2/1",
             "type": "AnnotationPage",
             "items": [
               {
-                "id": "{{ id.url }}/annotation/p0002-image",
+                "id": "{{ id.path }}/annotation/p0002-image",
                 "type": "Annotation",
                 "motivation": "painting",
                 "body": {
@@ -66,7 +66,7 @@
                   "height": 1302,
                   "width": 2048
                 },
-                "target": "{{ id.url }}/canvas/p2"
+                "target": "{{ id.path }}/canvas/p2"
               }
             ]
           }
