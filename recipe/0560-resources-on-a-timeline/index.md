@@ -6,7 +6,7 @@ tags: timleline
 summary: "Placing resources on a timeline independent of format and individual duration"
 viewers:
 topic:
- - complex
+ - realWorldObject
 ---
 
 ## Use Case
