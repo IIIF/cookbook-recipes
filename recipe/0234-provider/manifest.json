@@ -38,7 +38,7 @@
       ],
       "logo": [
         {
-          "id": "https://iiif.library.ucla.edu/iiif/2/UCLA-Library-Logo-double-line-2/full/full/0/default.png",
+          "id": "https://iiif.library.ucla.edu/iiif/2/UCLA-Library-Logo-double-line-2/full/max/0/default.png",
           "type": "Image",
           "service": [
             {
