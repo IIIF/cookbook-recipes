@@ -13,6 +13,8 @@ topic:
 
 I want to compare pages from two different manuscripts and share a link to open both on the same view. I want to share a link to a colleague showing two similar paintings in two different collections. I want to save my current workspace (open Canvases in the current viewer) for later use. I want to open my current workspace with another viewer.
 
+![Illustration of a possible way of visualizing two Canvases from different IIIF objects.](canvases_sides_by_side.jpeg)
+
 ## Implementation Notes
 
 Some viewers already implement custom formats for exporting the current workspace for sharing or later use. The Content State API could be used for the same purpose, adding the advantage of direct loading of the workspace using a crafted link with the `iiif-content` query parameter. The [multiple targets for a comparison view section](https://iiif.io/api/content-state/1.0/#53-multiple-targets-for-a-comparison-view) describes a method for targetting two Canvases at the same time; each Canvas could be from a different Manifest.
