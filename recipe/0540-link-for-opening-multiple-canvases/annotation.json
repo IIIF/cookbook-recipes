@@ -19,7 +19,7 @@
            "type": "Canvas",
            "partOf": [
                {
-                   "id": "{{ id.path }}/manifest",
+                   "id": "{{ id.path }}/manifest.json",
                    "type": "Manifest"
                }
            ]
