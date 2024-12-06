@@ -22,24 +22,20 @@ Some viewers already implement custom formats for exporting the current workspac
 For this purpose, we create an Annotation with `motivation` set to `["contentState"]`.
 The value of the the `target` property of the Annotation is a list containing the `id` of the Canvases and a `partOf` property with the `id` of the Manifests they belong to.
 
-We can hence encode the Annotation as explained in the [Content State encoding guidelines](https://iiif.io/api/content-state/1.0/#6-content-state-encoding), and then pass the encoded string to the viewer as the value of the `iiif-content` query parameter.
-We can pass the encoded value, using the `iiif-content` query parameter of the viewer landing page:
+We can hence encode the Annotation as explained in the [Content State encoding guidelines](https://iiif.io/api/content-state/1.0/#6-content-state-encoding), and then pass the encoded value, using the `iiif-content` query parameter of the viewer landing page:
+
 [https://example.org/viewer?iiif-content=JTdCJTIyJTQwY29udGV4dCUyMiUzQSUyMmh0dHAlM0ElMkYlMkZpaWlmLmlvJTJGYXBpJTJGcHJlc2VudGF0aW9uJTJGMyUyRmNvbnRleHQuanNvbiUyMiUyQyUyMmlkJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZwcmV2aWV3LmlpaWYuaW8lMkZjb29rYm9vayUyRjA1NDAtbGluay1mb3Itb3BlbmluZy1tdWx0aXBsZS1jYW52YXNlcyUyRnJlY2lwZSUyRjA1NDAtbGluay1mb3Itb3BlbmluZy1tdWx0aXBsZS1jYW52YXNlcyUyRmFubm90YXRpb24uanNvbiUyMiUyQyUyMnR5cGUlMjIlM0ElMjJBbm5vdGF0aW9uJTIyJTJDJTIybW90aXZhdGlvbiUyMiUzQSU1QiUyMmNvbnRlbnRTdGF0ZSUyMiU1RCUyQyUyMnRhcmdldCUyMiUzQSU1QiU3QiUyMmlkJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZpaWlmLmlvJTJGYXBpJTJGY29va2Jvb2slMkZyZWNpcGUlMkYwMzE4LW5hdlBsYWNlLW5hdkRhdGUlMkZjYW52YXMlMkYyJTIyJTJDJTIydHlwZSUyMiUzQSUyMkNhbnZhcyUyMiUyQyUyMnBhcnRPZiUyMiUzQSU1QiU3QiUyMmlkJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZpaWlmLmlvJTJGYXBpJTJGY29va2Jvb2slMkZyZWNpcGUlMkYwMzE4LW5hdlBsYWNlLW5hdkRhdGUlMkZtYW5pZmVzdC0yLmpzb24lMjIlMkMlMjJ0eXBlJTIyJTNBJTIyTWFuaWZlc3QlMjIlN0QlNUQlN0QlMkMlN0IlMjJpZCUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGcHJldmlldy5paWlmLmlvJTJGY29va2Jvb2slMkYwNTQwLWxpbmstZm9yLW9wZW5pbmctbXVsdGlwbGUtY2FudmFzZXMlMkZyZWNpcGUlMkYwNTQwLWxpbmstZm9yLW9wZW5pbmctbXVsdGlwbGUtY2FudmFzZXMlMkZjYW52YXMlMkZwMiUyMiUyQyUyMnR5cGUlMjIlM0ElMjJDYW52YXMlMjIlMkMlMjJwYXJ0T2YlMjIlM0ElNUIlN0IlMjJpZCUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGcHJldmlldy5paWlmLmlvJTJGY29va2Jvb2slMkYwNTQwLWxpbmstZm9yLW9wZW5pbmctbXVsdGlwbGUtY2FudmFzZXMlMkZyZWNpcGUlMkYwNTQwLWxpbmstZm9yLW9wZW5pbmctbXVsdGlwbGUtY2FudmFzZXMlMkZtYW5pZmVzdC5qc29uJTIyJTJDJTIydHlwZSUyMiUzQSUyMk1hbmlmZXN0JTIyJTdEJTVEJTdEJTVEJTdE](https://example.org/)
 
-We can also create an anchor tag with the link as the `href` attribute for use in a web page:
-
-```html
-<a href="https://example.org/viewer?iiif-content=JTdCJTIyJTQwY29udGV4dCUyMiUzQSUyMmh0dHAlM0ElMkYlMkZpaWlmLmlvJTJGYXBpJTJGcHJlc2VudGF0aW9uJTJGMyUyRmNvbnRleHQuanNvbiUyMiUyQyUyMmlkJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZwcmV2aWV3LmlpaWYuaW8lMkZjb29rYm9vayUyRjA1NDAtbGluay1mb3Itb3BlbmluZy1tdWx0aXBsZS1jYW52YXNlcyUyRnJlY2lwZSUyRjA1NDAtbGluay1mb3Itb3BlbmluZy1tdWx0aXBsZS1jYW52YXNlcyUyRmFubm90YXRpb24uanNvbiUyMiUyQyUyMnR5cGUlMjIlM0ElMjJBbm5vdGF0aW9uJTIyJTJDJTIybW90aXZhdGlvbiUyMiUzQSU1QiUyMmNvbnRlbnRTdGF0ZSUyMiU1RCUyQyUyMnRhcmdldCUyMiUzQSU1QiU3QiUyMmlkJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZpaWlmLmlvJTJGYXBpJTJGY29va2Jvb2slMkZyZWNpcGUlMkYwMzE4LW5hdlBsYWNlLW5hdkRhdGUlMkZjYW52YXMlMkYyJTIyJTJDJTIydHlwZSUyMiUzQSUyMkNhbnZhcyUyMiUyQyUyMnBhcnRPZiUyMiUzQSU1QiU3QiUyMmlkJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZpaWlmLmlvJTJGYXBpJTJGY29va2Jvb2slMkZyZWNpcGUlMkYwMzE4LW5hdlBsYWNlLW5hdkRhdGUlMkZtYW5pZmVzdC0yLmpzb24lMjIlMkMlMjJ0eXBlJTIyJTNBJTIyTWFuaWZlc3QlMjIlN0QlNUQlN0QlMkMlN0IlMjJpZCUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGcHJldmlldy5paWlmLmlvJTJGY29va2Jvb2slMkYwNTQwLWxpbmstZm9yLW9wZW5pbmctbXVsdGlwbGUtY2FudmFzZXMlMkZyZWNpcGUlMkYwNTQwLWxpbmstZm9yLW9wZW5pbmctbXVsdGlwbGUtY2FudmFzZXMlMkZjYW52YXMlMkZwMiUyMiUyQyUyMnR5cGUlMjIlM0ElMjJDYW52YXMlMjIlMkMlMjJwYXJ0T2YlMjIlM0ElNUIlN0IlMjJpZCUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGcHJldmlldy5paWlmLmlvJTJGY29va2Jvb2slMkYwNTQwLWxpbmstZm9yLW9wZW5pbmctbXVsdGlwbGUtY2FudmFzZXMlMkZyZWNpcGUlMkYwNTQwLWxpbmstZm9yLW9wZW5pbmctbXVsdGlwbGUtY2FudmFzZXMlMkZtYW5pZmVzdC5qc29uJTIyJTJDJTIydHlwZSUyMiUzQSUyMk1hbmlmZXN0JTIyJTdEJTVEJTdEJTVEJTdE">Link for visualizing the region of a Canvas using a viewer.</a>
 ## Restrictions
 
-Note: Content State does not define how the viewer should show the two Canvases. It only mentions:
+The Content State API does not define how the viewer should show the two Canvases. It only mentions:
 
-“This data structure can be used by clients to load the resource required, present a particular part of the resource to the user.” https://iiif.io/api/content-state/1.0/#content-state
+“This data structure can be used by clients to load the resource required, present a particular part of the resource to the user.” [https://iiif.io/api/content-state/1.0/#content-state](https://iiif.io/api/content-state/1.0/#content-state)
 
 Viewers may show the Canvases side by side or decide to use different approaches (e.g. opening two browser tabs).
 ## Example
-In this example we want to compare two painting of the Colosseum from two different Manifests.
-We can notice that the Colosseum painting is in the second Canvas.
+In this example we want to compare two paintings of the Colosseum from two different Manifests.
+We can notice that the Colosseum painting of the first Manifest is in the second Canvas.
 
 The Annotation will target the `id` of the two Canvases we want to compare and contain a reference to the two Manifests as shown in the example:
 
@@ -51,8 +47,7 @@ The expected result should show the two Canvases of the two Manifest depicting t
 
 ## Related Recipes
 
-* [Simplest Manifest - Image][0001] shows the basic structure of a IIIF Manifest using Presentation API 3.0.
-* [A simple book][0009] shows the manifest structure.
+* [Open a specific region of a canvas in a viewer][0485] shows how open a region of interest of a Canvas.
 * [Link for loading a manifest][0466] another example of Content State API.
 
 {% include acronyms.md %}
