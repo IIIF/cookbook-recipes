@@ -24,14 +24,14 @@ We can hence encode the Annotation as explained in the [Content State encoding g
 
 ## Restrictions
 
-Note Content State does not define how the viewer should show the two Canvas. It only mentions:
+Note: Content State does not define how the viewer should show the two Canvases. It only mentions:
 
 “This data structure can be used by clients to load the resource required, present a particular part of the resource to the user.” https://iiif.io/api/content-state/1.0/#content-state
 
 Viewers may show the Canvases side by side or decide to use different approaches (e.g. opening two browser tabs).
 ## Example
 In this example we want to compare two painting of the Colosseum from two different Manifests.
-One of the two Manifest is available at the following [link](manifest.json). We can notice that the Colosseum painting is in the second Canvas. The other Manifest is from another recipe, and can be [accessed here](https://iiif.io/api/cookbook/recipe/0318-navPlace-navDate/manifest-2.json).
+We can notice that the Colosseum painting is in the second Canvas.
 
 The Annotation will target the `id` of the two Canvases we want to compare and contain a reference to the two Manifests as shown in the example:
 
