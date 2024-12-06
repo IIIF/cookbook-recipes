@@ -15,17 +15,20 @@ I want to compare pages from two different manuscripts and share a link to open 
 
 ## Implementation Notes
 
-Some viewers already implement custom formats for exporting the current workspace for sharing or later use. Content State API could be used for the same purpose, adding the advantage of direct loading of the workspace using a crafted link with the `iiif-content` query parameter. The [multiple targets for a comparison view section](https://iiif.io/api/content-state/1.0/#53-multiple-targets-for-a-comparison-view) describes a method for targetting two Canvases at the same time; each Canvas could be from a different Manifest.
+Some viewers already implement custom formats for exporting the current workspace for sharing or later use. The Content State API could be used for the same purpose, adding the advantage of direct loading of the workspace using a crafted link with the `iiif-content` query parameter. The [multiple targets for a comparison view section](https://iiif.io/api/content-state/1.0/#53-multiple-targets-for-a-comparison-view) describes a method for targetting two Canvases at the same time; each Canvas could be from a different Manifest.
 
 For this purpose, we create an Annotation with `motivation` set to `["contentState"]`.
-The value of the the `target` attribute of the Annotation is a list containing the `id` of the Canvases and a `partOf` attribute with the `id` of the Manifests they belong to.
+The value of the the `target` property of the Annotation is a list containing the `id` of the Canvases and a `partOf` property with the `id` of the Manifests they belong to.
 
 We can hence encode the Annotation as explained in the [Content State encoding guidelines](https://iiif.io/api/content-state/1.0/#6-content-state-encoding), and then pass the encoded string to the viewer as the value of the `iiif-content` query parameter.
 
 ## Restrictions
 
-None known.
+Note Content State does not define how the viewer should show the two Canvas. It only mentions:
 
+“This data structure can be used by clients to load the resource required, present a particular part of the resource to the user.” https://iiif.io/api/content-state/1.0/#content-state
+
+Viewers may show the Canvases side by side or decide to use different approaches (e.g. opening two browser tabs).
 ## Example
 In this example we want to compare two painting of the Colosseum from two different Manifests.
 One of the two Manifest is available at the following [link](manifest.json). We can notice that the Colosseum painting is in the second Canvas. The other Manifest is from another recipe, and can be [accessed here](https://iiif.io/api/cookbook/recipe/0318-navPlace-navDate/manifest-2.json).
