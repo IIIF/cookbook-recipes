@@ -5,11 +5,11 @@
    "motivation": ["contentState"],
    "target": [
        {
-           "id": "https://iiif.io/api/cookbook/recipe/0318-navPlace-navDate/canvas/2",
+           "id": "{{ id.path }}/canvas/2",
            "type": "Canvas",
            "partOf": [
                {
-                   "id": "https://iiif.io/api/cookbook/recipe/0318-navPlace-navDate/manifest-2.json",
+                   "id": "{{ id.path }}/manifest-2.json",
                    "type": "Manifest"
                }
            ]
@@ -19,7 +19,7 @@
            "type": "Canvas",
            "partOf": [
                {
-                   "id": "{{ id.path }}/manifest",
+                   "id": "{{ id.path }}/manifest.json",
                    "type": "Manifest"
                }
            ]
