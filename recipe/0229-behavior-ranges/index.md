@@ -37,7 +37,7 @@ This example uses a video (roughly 55 minutes long) of a live opera performance.
 
 {% include manifest_links.html manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="78,83"'%}
+{% include jsonviewer.html src="manifest.json" config='data-line="52,57"'%}
 
 ## Related Recipes
 
