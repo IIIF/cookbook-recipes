@@ -3,6 +3,7 @@
     "id": "{{ id.url }}",
     "type": "Manifest",
     "label": { "en": [ "Resources on a Timeline" ] },
+    "behavior": ["auto-advance", "repeat"],
     "items": [
       {
         "id": "{{ id.path }}/canvas",
