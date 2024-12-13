@@ -1,0 +1,13 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "{{ id.url }}",
+  "type": "AnnotationCollection",
+  "label": {
+    "en": [
+      "Newspaper layout markup"
+    ]
+  },
+  "total": 8,
+  "first": "{{ id.path }}/anno_p1.json",
+  "last": "{{ id.path }}/anno_p2.json"
+}
