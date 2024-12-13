@@ -10,7 +10,7 @@
         "type": "Canvas",
         "height": 2572,
         "width": 3764,
-        "duration": 16,
+        "duration": 2,
         "items": [
           {
             "id": "{{ id.path }}/page/p1/1",
@@ -34,7 +34,7 @@
                   }
                 ]
               },
-                "target": "{{ id.path }}/canvas#t=0,5"
+                "target": "{{ id.path }}/canvas#t=0,1"
               },
               {
                 "id": "{{ id.path }}/annotation/p0001a-image",
@@ -54,7 +54,7 @@
                     }
                   ]
               },
-                "target": "{{ id.path }}/canvas#t=5.1,10"
+                "target": "{{ id.path }}/canvas#t=1,2"
               }
             ]
           }
