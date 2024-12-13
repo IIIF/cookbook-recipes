@@ -137,11 +137,13 @@ _(leading on to segmentation examples later)_
 * [Linking to Structured Metadata][0053] (8)
 
 
-## Sharing IIIF content 
+## Sharing IIIF content
 Recipes using [Content State API](https://iiif.io/api/content-state/1.0/)
 
 * [Loading a manifest with a viewer using a link][0466]
 * [Open a specific region of a canvas in a viewer][0485]
+* [Sharing a link for opening two or more Canvases][0540]
+
 
 
 ## Technical
