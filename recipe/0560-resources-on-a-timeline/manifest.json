@@ -12,18 +12,18 @@
   ],
   "items": [
     {
-      "id": "{{ id.path }}/canvas",
+      "id": "{{ id.path }}/canvas1",
       "type": "Canvas",
       "height": 2572,
       "width": 3764,
       "duration": 2,
       "items": [
         {
-          "id": "{{ id.path }}/page/p1/1",
+          "id": "{{ id.path }}/canvas1/page/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "{{ id.path }}/annotation/p0001-image",
+              "id": "{{ id.path }}/canvas1/annotation/p0001-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -40,10 +40,25 @@
                   }
                 ]
               },
-              "target": "{{ id.path }}/canvas#t=0,1"
-            },
+              "target": "{{ id.path }}/canvas1#t=0,1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "{{ id.path }}/canvas2",
+      "type": "Canvas",
+      "height": 2572,
+      "width": 3764,
+      "duration": 2,
+      "items": [
+        {
+          "id": "{{ id.path }}/canvas2/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
             {
-              "id": "{{ id.path }}/annotation/p0001a-image",
+              "id": "{{ id.path }}/canvas2/annotation/p0001a-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -60,7 +75,7 @@
                   }
                 ]
               },
-              "target": "{{ id.path }}/canvas#t=1,2"
+              "target": "{{ id.path }}/canvas2#t=1,2"
             }
           ]
         }
