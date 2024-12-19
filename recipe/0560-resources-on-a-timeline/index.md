@@ -11,13 +11,14 @@ topic:
 
 ## Use Case
 
-Describe the use case that the pattern is intended to solve.
-Why is this pattern important?
+You have a group of photographs taken in a temporal sequence that you would like to present as a simulation of animation, in the manner of a zoetrope.
 
 ## Implementation Notes
 
 What do you need to know to use this pattern?
 How do you implement the pattern?
+
+This recipe is very similar to [Composition from Multiple Images][0036], which describes using multiple IIIF resources on a single Canvas. The substantial difference between that recipe and this one is the incorporation of the `duration` property and timing fragment references in the `target` URLs.
 
 ## Restrictions
 
@@ -44,3 +45,5 @@ Provide a bulleted list of related recipes and why they are relevant.
 
 {% include acronyms.md %}
 {% include links.md %}
+
+* [Composition from Multiple Images][0036] for using multiple IIIF resources on a single Canvas
