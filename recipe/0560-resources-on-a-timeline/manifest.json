@@ -8,7 +8,7 @@
     ]
   },
   "behavior": [
-    "auto-advance", "repeat"
+    "repeat"
   ],
   "items": [
     {
@@ -17,6 +17,9 @@
       "height": 2572,
       "width": 3764,
       "duration": 2,
+      "behavior": [
+        "auto-advance"
+      ],
       "items": [
         {
           "id": "{{ id.path }}/canvas1/page/p1/1",
@@ -52,6 +55,9 @@
       "height": 2572,
       "width": 3764,
       "duration": 2,
+      "behavior": [
+        "auto-advance"
+      ],
       "items": [
         {
           "id": "{{ id.path }}/canvas2/page/p1/1",
