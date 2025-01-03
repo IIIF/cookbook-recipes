@@ -2,7 +2,7 @@
 title: Rendering Resources Sequentially on a Timeline
 id: 560
 layout: recipe
-tags: timleline
+tags: timeline
 summary: "Placing resources on a timeline independent of format and individual duration"
 viewers:
 topic:
