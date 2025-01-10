@@ -43,7 +43,7 @@
                   {
                     "id": "https://fixtures.iiif.io/audio/ucla/egbe-iyawo-ucla.mp3",
                     "type": "Sound",
-                    "format": "audio/mp3",
+                    "format": "audio/mpeg",
                     "duration": 16.0,
                     "label": {
                       "en": ["MP3"]
