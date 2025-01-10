@@ -79,6 +79,8 @@
 [0434]: {{ site.cookbook_url | absolute_url }}/recipe/0434-choice-av/ "Multiple Choice of Audio Formats in a Single View (Canvas)"
 [0489]: {{ site.cookbook_url | absolute_url }}/recipe/0489-multimedia-canvas/ "Rendering Multiple Media Types on a Time-Based Canvas"
 
+[0561]: {{ site.cookbook_url | absolute_url }}/recipe/0561-text-on-image/ "Visible Text Annotation"
+
 [cookbook-process]: {{site.cookbook_url | absolute_url }}/recipe
 
 [trc]: {{ site.root_url | absolute_url }}/community/trc/
