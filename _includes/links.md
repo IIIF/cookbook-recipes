@@ -79,6 +79,7 @@
 
 [0434]: {{ site.cookbook_url | absolute_url }}/recipe/0434-choice-av/ "Multiple Choice of Audio Formats in a Single View (Canvas)"
 [0489]: {{ site.cookbook_url | absolute_url }}/recipe/0489-multimedia-canvas/ "Rendering Multiple Media Types on a Time-Based Canvas"
+[0540]: {{ site.cookbook_url | absolute_url }}/recipe/0540-link-for-opening-multiple-canvases/ "Sharing a link for opening two or more Canvases"
 
 [cookbook-process]: {{site.cookbook_url | absolute_url }}/recipe
 
