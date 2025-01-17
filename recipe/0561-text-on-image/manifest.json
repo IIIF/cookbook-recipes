@@ -2,7 +2,7 @@
     "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "{{ id.url }}",
     "type": "Manifest",
-    "label": { "en": [ "Multimedia Canvas" ] },
+    "label": { "en": [ "Visible Text Annotation" ] },
     "items": [
       {
         "id": "{{ id.path }}/canvas",
@@ -35,13 +35,13 @@
                 "target": "{{ id.path }}/canvas"
               },
               {
-                "id": "{{ id.path }}/annotation/p0006-text",
+                "id": "{{ id.path }}/annotation/p0001-text",
                 "type": "Annotation",
                 "motivation": "painting",
                 "body": {
 				  "type": "TextualBody",
 				  "format": "text/html",
-				  "value": "<p style='font-size:2000px'>Close your browser</p>",
+				  "value": "<p style='font-size:2000px'>Textual annotation</p>",
 				  "language": "en"
                 },
                 "target": "{{ id.path }}/canvas#xywh=27000,10200,25000,5000"
