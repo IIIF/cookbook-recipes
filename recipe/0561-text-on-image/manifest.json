@@ -15,6 +15,18 @@
             "type": "AnnotationPage",
             "items": [
               {
+                "id": "{{ id.path }}/annotation/p0001-text",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+				  "type": "TextualBody",
+				  "format": "text/html",
+				  "value": "<p style='font-size:2000px'>Textual annotation</p>",
+				  "language": "en"
+                },
+                "target": "{{ id.path }}/canvas#xywh=27000,10200,25000,5000"
+              },
+              {
                 "id": "{{ id.path }}/annotation/p0001-image",
               "type": "Annotation",
               "motivation": "painting",
@@ -33,18 +45,6 @@
                 ]
               },
                 "target": "{{ id.path }}/canvas"
-              },
-              {
-                "id": "{{ id.path }}/annotation/p0001-text",
-                "type": "Annotation",
-                "motivation": "painting",
-                "body": {
-				  "type": "TextualBody",
-				  "format": "text/html",
-				  "value": "<p style='font-size:2000px'>Textual annotation</p>",
-				  "language": "en"
-                },
-                "target": "{{ id.path }}/canvas#xywh=27000,10200,25000,5000"
               }
             ]
           }
