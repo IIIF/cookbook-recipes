@@ -11,34 +11,40 @@ topic:
 
 ## Use Case
 
-You have an 
+You would like to add text visibly over some portion of a IIIF image resource without making a derivative of the original image and retaining its deep zoom possibilities.
 
 ## Implementation Notes
 
-This recipe aims to show the simplest form of a combination that is more likely to be used in combination with other IIIF recipes. For example, it forms a part of the [Multimedia Canvas] recipe.
+This recipe aims to show the simplest form of a combination that is more likely to be used in combination with other IIIF recipes. For example, it forms a part of the [Multimedia Canvas][0489] recipe.
 
-Fundamentally, what it is showing is the importance of the `motivation` property on an annotation, in combination itself with making that annotation directly inside a Canvas resource instead of as part of an `annotations` section. Making these two changes tells a viewer to display the text directly instead of separating it as an annotation to be handled in the viewer's manner of showing those.
+Though the implementation is not complex, the implications get well into the nuances of IIIF. Making a textual annotation visible is the consequence of using a `motivation` value of `painting` on an Annotation in combination with placing that Annotation as an item inside an Annotation Page instead of as part of an `annotations` section. Making these two changes tells a client to display the text directly instead of separating it as an annotation to be handled in the client's manner of showing those. The [Presentation API][prezi3] states clearly that
++ Annotations in an `annotation` section are not permitted to have the `motivation` value `painting` ([Annotations](https://iiif.io/api/presentation/3.0/#annotations))
++ Conversely, Annotations in pages referenced in Items have to have the `motivation` value `painting`. ([Canvas](https://iiif.io/api/presentation/3.0/#53-canvas))
++ Finally, content to be rendered must be in an Annotation with the `motivation` value `painting`. ([Motivation values](https://iiif.io/api/presentation/3.0/#values-for-motivation) and [Canvas](https://iiif.io/api/presentation/3.0/#53-canvas))
 
-Styling text or using HTML in text painted onto a Canvas is possible, but the options are limited. 
+Styling text or using HTML in text painted onto a Canvas is possible, but the options are limited. In addition, styling added to a manifest may be unreliable across viewers. For one example, since IIIF Canvas dimensions are unit-less, using pixels for text size is valid but may not be interpreted identically by different viewers.
+
+The presentation of resources is upwards in a z-index from the first `painting` Annotation encountered to all subsequent `painting` Annotations. Therefore, for the textual annotation to be visible, it must come later in the manifest order of Annotations than the image resource it marks.
 
 ## Restrictions
 
-For security reasons, clients are expected to allow only `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, and `sup` tags in the textual annotation, and may remove any or all of those. For more details of permitted and prohibited markup, see [the specification](https://iiif.io/api/presentation/3.0/#45-html-markup-in-property-values).
+Markup in the textual annotation is limited for security reasons. Clents are expected to allow only `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, and `sup` tags, and may remove any or all of those. For more details of permitted and prohibited markup, see [the specification](https://iiif.io/api/presentation/3.0/#45-html-markup-in-property-values).
 
 ## Example
 
-In this example, we have a base image showing people in the countryside, one of whom is carrying a wrapped koto. Hypothesizing for our use case that the wrapped koto is less recognizable to people unfamiliar with the scene, there is a textual annotation adjacent to it that identifies it.
+In this example, we have a base image showing people in the countryside, one of whom is carrying a wrapped koto. Hypothesizing for our use case that the wrapped koto is less identifiable to people unfamiliar with the scene, there is a textual annotation adjacent to it that indicates it.
 
-{% include manifest_links.html viewers="" manifest="manifest.json" %}
+{% include manifest_links.html manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 
-The direct link to the fixture is a useful convenience.
 
 ## Related Recipes
 
 * [Embedding HTML in descriptive properties][0007]
 * [Image Rotation Two Ways][0040] to see an example of using a CSS class for style manipulation
+* [Image and Canvas with Differing Dimensions][0004] has more discussion about the nature of IIIF dimensioning
+* [Multiple Choice of Images in a Single View (Canvas)][0033] contains additional text about z-index ordering
 
 {% include acronyms.md %}
 {% include links.md %}
