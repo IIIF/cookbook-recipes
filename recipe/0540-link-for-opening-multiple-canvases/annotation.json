@@ -1,0 +1,28 @@
+{
+   "@context": "http://iiif.io/api/presentation/3/context.json",
+   "id": "{{ id.url }}",
+   "type": "Annotation",
+   "motivation": ["contentState"],
+   "target": [
+       {
+           "id": "{{ id.path }}/canvas/2",
+           "type": "Canvas",
+           "partOf": [
+               {
+                   "id": "{{ id.path }}/manifest-2.json",
+                   "type": "Manifest"
+               }
+           ]
+       },
+       {
+           "id": "{{ id.path }}/canvas/p2",
+           "type": "Canvas",
+           "partOf": [
+               {
+                   "id": "{{ id.path }}/manifest.json",
+                   "type": "Manifest"
+               }
+           ]
+       }
+   ]
+ }

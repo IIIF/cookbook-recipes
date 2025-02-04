@@ -67,6 +67,7 @@
 [0283]: {{ site.cookbook_url | absolute_url }}/recipe/0283-missing-image/ "Missing Images in a Sequence"
 
 [0306]: {{ site.cookbook_url | absolute_url }}/recipe/0306-linking-annotations-to-manifests/ "Linking external Annotations targeting a Canvas to a Manifest"
+[0309]: {{ site.cookbook_url | absolute_url }}/recipe/0309-annotation-collection/ "Using Annotation Collections"
 [0318]: {{ site.cookbook_url | absolute_url }}/recipe/0318-navPlace-navDate/ "Locating an Item in Place and Time"
 [0326]: {{ site.cookbook_url | absolute_url }}/recipe/0326-annotating-image-layer/ "Annotate a specific images or layers"
 
@@ -79,6 +80,7 @@
 
 [0434]: {{ site.cookbook_url | absolute_url }}/recipe/0434-choice-av/ "Multiple Choice of Audio Formats in a Single View (Canvas)"
 [0489]: {{ site.cookbook_url | absolute_url }}/recipe/0489-multimedia-canvas/ "Rendering Multiple Media Types on a Time-Based Canvas"
+[0540]: {{ site.cookbook_url | absolute_url }}/recipe/0540-link-for-opening-multiple-canvases/ "Sharing a link for opening two or more Canvases"
 
 [cookbook-process]: {{site.cookbook_url | absolute_url }}/recipe
 
