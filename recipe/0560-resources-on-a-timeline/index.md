@@ -27,11 +27,11 @@ Within a Canvas's `items` the parameterized `target` values tell viewers to show
 
 ## Restrictions
 
-No known restrictions, but a caution: When using timing for presenting Canvases, a high degree of precision is not likely to be achieved for all people. Resources may load slowly for many reasons, including image server issues, network traffic, or browser and client customizations. Except in a very predictable environment, timing should be considered approximate.
+No known restrictions, but a caution: When using timing, a high degree of precision is not likely to be achieved for all people. Resources may load slowly for many reasons, including image server issues, network traffic, or browser and client customizations. Except in a very predictable environment, timing should be considered approximate.
 
 ## Example
 
-In this example (a minimal implementation of the use case), there are two paintings from Winslow Homer to be displayed one after the other in a loop. For demonstration purposes, the `duration` on each Canvas is quite short (4.0 seconds) while the timing in a real-world situation would undoubtedly be longer. They are together on a single Canvas and should progress automatically once they 
+In this example (a minimal implementation of the use case), there are two paintings from Winslow Homer to be displayed one after the other in a loop. For demonstration purposes, the Canvas `duration` is quite short (4.0 seconds) while the timing in a real-world situation would probably be longer. The paintings are `items` on a single Canvas and should progress automatically once the timeline is started.
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
