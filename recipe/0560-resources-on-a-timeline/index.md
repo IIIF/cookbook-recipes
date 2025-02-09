@@ -3,7 +3,7 @@ title: Rendering Resources Sequentially on a Timeline
 id: 560
 layout: recipe
 tags: timeline
-summary: "Placing resources on a timeline independent of format and individual duration"
+summary: "Placing image resources on a timeline to be shown in a sequence"
 viewers:
 topic:
  - realWorldObject
@@ -11,27 +11,27 @@ topic:
 
 ## Use Case
 
-You have a group of photographs taken in a temporal sequence that you would like to present as a simulation of animation, in the manner of a zoetrope.
+You have a set of images you would like to present sequentially in time, in the manner of an automated slide show.
 
 ## Implementation Notes
 
 This recipe is very similar to [Composition from Multiple Images][0036], which describes using multiple IIIF resources on a single Canvas. The substantial difference between that recipe and this one is the incorporation of [the `duration` property](https://iiif.io/api/presentation/3.0/#duration) and [`behavior` values](https://iiif.io/api/presentation/3.0/#behavior) for instructing viewers on Canvas sequencing.
 
-As soon as a Canvas has a `duration` property with a floating point number as the value, the viewer is expected to display that Canvas for only that many seconds.Though it is not shown in this recipe, resources can use the time fragment selector — with syntax `#t=[value in seconds]` — to display for only a portion of their containing Canvases `duration` value.
+If a Canvas has a `duration` property, the viewer is expected to provide a means of displaying that Canvas for the value of the `duration`. For a resource to be shown during that duration, it can use a time fragment on its `target` value, in the form `#t=`. This parameter's value can be a range, a starting time (to indicate the resource should display until the end of the `duration`), or an ending time (to indicate the resource should display from the beginning of the `duration`). For details on these formats, see the [W3C Media Fragments section on Temporal Dimension](https://www.w3.org/TR/media-frags/#naming-time). Fragment values can be individually or in the aggregate greater than the `duration` value. See [Rendering Multiple Media Types on a Time-Based Canvas][0489] for a brief explanation of the `timeMode` property and for more on the `t` parameter on a `target`.
 
-Nothing in [the spec][prezi3] says anything explicitly about a viewer initiating play upon loading a Canvas with a `duration` property, even with a`start` value. In addition, for browser-based viewers, people may configure their browsers to disable autoplay. Consequently, manifest creators should not assume a resource with a duration will engage without interaction.
+Nothing in [the spec][prezi3] says anything explicitly about a viewer initiating play upon loading a Canvas with a `duration` property, even with a`start` value. In addition, for browser-based viewers, people may configure their browsers to disable autoplay. Consequently, manifest creators should not assume a resource with `duration` will begin without interaction.
 
-With only the `duration` property on a Canvas, the default action in IIIF is to display a Canvas for that value and stop, even if there are multiple Canvases with durations. In order to display a series of resources without interaction, the Manifest needs added behaviors. For this recipe, the Manifest behavior is `repeat`, a value applicable only on Collections or Manifests containing Canvases with a duration value. Once the end of the timeline is reached, this behavior tells the viewer to start over at the beginning. In addition, each Canvas is assigned a behavior value of `auto-advance` to override the default IIIF temporal behavior. Once the timeline is started, the viewer can be expected to show each Canvas in sequence for its declared duration, not stopping absent interaction or until and unless it reaches a Canvas with no behavior or a Canvas with an explicit (but unnecessary) `no-auto-advance` behavior.
+Once the timeline has started, the default action in IIIF is to display a Canvas for the `duration` value and stop, regardless of the individual or aggregate `t` parameter values on the `target`s of the Canvas's descendent `items`. To get the Canvas to repeat the sequential `items` display, the `behavior` value used is `repeat`. This value is applicable only on Collections or Manifests containing Canvases with `duration`. Once the end of the `duration` (the end of the timeline) is reached, this behavior tells the viewer to start over at the beginning. Note that there is no mechanism for repeating a fixed number of times.
+
+Within a Canvas's `items` the parameterized `target` values tell viewers to show each item for the `t` parameter value, not stopping until an appropriate interaction or until and unless it reaches a Canvas with no `behavior` or a Canvas with an explicit `no-auto-advance` behavior. (The default is `no-auto-advance`, so no `behavior` is functionally equivalent to declaring `no-auto-advance`.)
 
 ## Restrictions
 
-No known restrictions, but pay careful attention to validity of property, value, and resource interactions. Publishers should consider target viewing environments and clients when providing complex views of this nature.
-
-When using timing for presenting Canvases, a high degree of precision is not likely to be achieved for all people. Resources may load slowly for many reasons, including image server issues, network traffic, or browser and client customizations. Except in a very predictable environment, timing should be considered approximate.
+No known restrictions, but a caution: When using timing for presenting Canvases, a high degree of precision is not likely to be achieved for all people. Resources may load slowly for many reasons, including image server issues, network traffic, or browser and client customizations. Except in a very predictable environment, timing should be considered approximate.
 
 ## Example
 
-In this example, there are two paintings from Winslow Homer to be displayed one after the other in a loop, imagining perhaps that an institution might want to display a slide show at its entrance. For demonstration purposes, the `duration` on each Canvas is quite short (4.0 seconds) while the timing in a real-world situation would undoubtedly be longer. 
+In this example (a minimal implementation of the use case), there are two paintings from Winslow Homer to be displayed one after the other in a loop. For demonstration purposes, the `duration` on each Canvas is quite short (4.0 seconds) while the timing in a real-world situation would undoubtedly be longer. They are together on a single Canvas and should progress automatically once they 
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
@@ -41,6 +41,7 @@ In this example, there are two paintings from Winslow Homer to be displayed one 
 
 * [Composition from Multiple Images][0036] for using multiple IIIF resources on a single Canvas
 * [Image and Canvas with Differing Dimensions][0004] for details about the way this recipe uses resources with different dimensions on a Canvas with unchanging dimensions.
+* [Rendering Multiple Media Types on a Time-Based Canvas][0489] is a more complex combination of still and time-based resources with various IIIF properties.
 
 {% include acronyms.md %}
 {% include links.md %}
