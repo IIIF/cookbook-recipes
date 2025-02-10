@@ -21,18 +21,20 @@ This recipe builds on the pattern for [Using Caption and Subtitle Files with Vid
 
 Similarly to offering a single caption/subtitle file, the multiple subtitle/caption files are provided as a `supplementing` Annotation on the Canvas that contains the video file. In the case of multiple captions/subtitles, however, the Annotation provides all the available languages as choices. IIIF viewers are then able to offer to end-users the choice for displaying subtitles/captions in one of the available languages during the video playback.
 
+Similarly to offering a single caption/subtitle file, the multiple subtitle/caption files are provided as `supplementing` Annotations on the Canvas that contains the video file, which also contain the `provides` property with the value `subtitles` or `closedCaptions`. One Annotation is used for each of the available captions/subtitles. IIIF viewers  are then able to identify which annotations contain captions/subtitles by checking the value of the `provides` property, and offer to end-users the choice for displaying subtitles/captions in one of the available languages during the video playback.
+
 In addition to this implementation, one might consider to provide the captions/subtitles also as multiple timed annotations. Although redundant, providing both implementations will enable more IIIF viewers to display the captions/subtitles, since they may use whichever implementation they support. See [Using Annotations for Timed Text][0079].
 
 ## Restrictions
 
-Formats other than WebVTT (Web Video Text Tracks) are supported by the [Presentation API 3.0](https://iiif.io/api/presentation/3.0/), but current IIIF viewers do not support the display of captions/subtitles. Nevertheless, WebVTT is the format most likely to be implemented.
+Formats other than WebVTT (Web Video Text Tracks) are supported by the Presentation API 4.0, but current IIIF viewers do not support the display of captions/subtitles. Nevertheless, WebVTT is the format most likely to be implemented.
 
 When using segmented WebVTT with HLS (HTTP Live Streaming), see [Serving HLS Files][0257].
 
 ## Example
 
-In this example we represent a video with subtitles in two languages: English and Italian.
-For expressing the availability of the subtitles in the two languages, we use an Annotation with a Choice body that contains two items, one for each language. The language of each subtitle file is expressed with a `language` property  containing a [BCP 47](https://tools.ietf.org/html/bcp47) language code as specified by the [Presentation API 3.0](https://iiif.io/api/presentation/3.0/#language-of-property-values).
+In this example we represent a video with subtitles in two languages: English and Italian. 
+For expressing the availability of the subtitles in the two languages, we use two Annotations, one for each language. The language of each subtitle file is expressed with a `language` property containing a [BCP 47](https://tools.ietf.org/html/bcp47) language code as specified by the Presentation API 4.0.
 
 In this example we use subtitle files in the WebVTT format. Other format options include SRT (SubRip Text) or TTML (Timed Text Markup Language), but these are less likely to be supported in IIIF viewers.
 
