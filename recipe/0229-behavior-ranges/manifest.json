@@ -41,12 +41,12 @@
       "id": "{{ id.path }}/range/1",
       "type": "Range",
       "label": { "en": [ "Thumbnail Navigation" ] },
-      "behavior": "thumbnail-nav",
+      "behavior": [ "thumbnail-nav" ],
       "items": [
         {
           "type": "Range",
           "id": "{{ id.path }}/range/1.1",
-          "behavior": "no-nav",
+          "behavior": [ "no-nav" ],
           "items": [
             {
               "type": "Canvas",
