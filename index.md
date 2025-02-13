@@ -92,6 +92,7 @@ _(leading on to segmentation examples later)_
 * [Geographic coordinates][0139]
 * [Embedded or Referenced Annotations][0269]
 * [Linking external Annotations targeting a Canvas to a Manifest][0306]
+* [Using Annotation collections][0309]
 * [Image in annotations][0377]
 * [Annotating in Multiple Languages][0346]
 
@@ -100,6 +101,7 @@ _(leading on to segmentation examples later)_
 * [Table of Contents for Book Chapters][0024]
 * table of contents (ranges) - articles in a newspaper
 * [Table of contents for A/V content][0026] (26)
+* [Adding Thumbnail Navigation and `no-nav` to a Video Resource][0229]
 * Alternative Sequence (via `sequence` Range) (20,22,23)
 * `sequence` Range with partial canvases
 
@@ -114,6 +116,7 @@ _(leading on to segmentation examples later)_
 * [Multiple choice of images in a single view][0033] (29)
 * [Foldouts, Flaps, and Maps][0035]
 * [Composition from Multiple Images][0036] (30,31)
+* [Rendering Multiple Media Types on a Time-Based Canvas][0489]
 * Multiple images and multiple choices (32,33,34)
 * [Annotating part of an image to a Canvas][recipe-segment-image-part] (e.g., crop out scanner) (35,36,37,38)
 * [Image Rotation Two Ways][0040]
@@ -136,10 +139,13 @@ _(leading on to segmentation examples later)_
 * [Linking to Structured Metadata][0053] (8)
 
 
-## Sharing IIIF content 
+## Sharing IIIF content
 Recipes using [Content State API](https://iiif.io/api/content-state/1.0/)
 
 * [Loading a manifest with a viewer using a link][0466]
+* [Open a specific region of a canvas in a viewer][0485]
+* [Sharing a link for opening two or more Canvases][0540]
+
 
 
 ## Technical
