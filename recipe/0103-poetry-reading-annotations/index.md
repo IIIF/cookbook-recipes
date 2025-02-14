@@ -63,24 +63,7 @@ Media Fragment using "#t=702,705" appended to the canvas URL. Instead of "source
 "target":"{{ id.path }}/canvas/1#t=702,705"
 ```
 
-But you could also use the more verbose form:
-
-    ```
-              "target":{
-                "source":"{{ id.path }}/canvas/1",
-                "selector":{
-                  "type":"RangeSelector",
-                  "startSelector":{
-                    "type":"PointSelector",
-                    "t":702
-                  },
-                  "endSelector":{
-                    "type":"PointSelector",
-                    "t":705
-                  }
-                }
-    ```
-
+If you are targeting a single point, you should use a point selector.  See related recipes.  See [Begin playback at a specific point - Time-based media][0015].
 
 3.  Because the annotations are pointing out features of the audio, rather than transcriptions, the "motivation" for each annotation is "commenting" not "supplementing".  (If the annotations were transcriptions, their motivation would be "supplementing".)
 
