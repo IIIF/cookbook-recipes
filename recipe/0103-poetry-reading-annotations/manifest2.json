@@ -15,6 +15,7 @@
          "items":[
             {
                "type":"AnnotationPage",
+               "id":"{{ id.path }}/canvas/1/item_page/1",
                "items":[
                   {
                      "id":"{{ id.path }}/canvas/1/painting/1",
@@ -91,7 +92,8 @@
                            "motivation":"commenting"
                         }
                      ],
-                     "target":{
+                     "target":[
+                       {
                         "type":"SpecificResource",
                         "source":{
                            "id":"{{ id.path }}/canvas/1",
@@ -109,6 +111,7 @@
                            "value":"t=705,707"
                         }
                      }
+                    ]
                   },
                   {
                      "@context":"http://www.w3.org/ns/anno.jsonld",
