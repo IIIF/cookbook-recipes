@@ -10,8 +10,7 @@ viewers:
   - Ramp
   - UV
 topic:
-  - basic
-  - audio
+  - AV
 code:
   - iiif-prezi3
 ---
