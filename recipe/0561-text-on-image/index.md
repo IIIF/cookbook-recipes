@@ -1,9 +1,9 @@
 ---
-title: Visible Text Annotation
+title: Visible Text Resource on a Canvas
 id: 561
 layout: recipe
 tags: annotation
-summary: "Overlaying (painting) visible text on top of an image resource"
+summary: "Overlaying (painting) text on top of an image resource"
 viewers:
 topic:
  - realWorldObject
