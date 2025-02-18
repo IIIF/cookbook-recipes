@@ -40,12 +40,11 @@ In this example we use a caption file in the WebVTT format, but other options in
 
 # Related recipes
 
-- [Simplest Manifest - Video][0003]
+- [Using Transcript Files with Video and Audio Content][0253]
 - [Using Caption and Subtitle Files in Multiple Languages with Video Content][0074]
-- [A Side-by-side Transcript of a Video Recording][0253]
-- [Providing Access to Transcripts of A/V Content][0017]
 - [Using Annotations for Timed Text][0079]
-- [Serving HLS Files][0257]
+- [Providing Access to Transcripts of A/V Content][0017]
+- [Annotating a Poetry Reading][0103]
 
 {% include acronyms.md %}
 {% include links.md %}
