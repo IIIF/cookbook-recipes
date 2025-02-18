@@ -59,24 +59,6 @@
               },
               "target": "{{ id.path }}/canvas"
             }
-            {
-              "id": "{{ id.path }}/canvas/page2/a2",
-              "type": "Annotation",
-              "motivation": "supplementing",
-              "provides": "transcript",
-              "body": {
-                "id": "https://fixtures.iiif.io/video/indiana/lunchroom_manners/lunchroom_manners.docx",
-                "type": "Text",
-                "format": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-                "label": {
-                  "en": [
-                    "Transcript in Word format"
-                  ]
-                },
-                "language": "en"
-              },
-              "target": "{{ id.path }}/canvas"
-            }
           ]
         }
       ]
