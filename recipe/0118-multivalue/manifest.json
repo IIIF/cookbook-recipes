@@ -1,0 +1,61 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "{{ id.url }}",
+    "type": "Manifest",
+    "label": {
+      "fr": [
+        "Arrangement en gris et noir no 1"
+      ]
+    },
+    "metadata": [
+      {
+        "label": {
+          "en": [
+            "Alternative titles"
+          ]
+        },
+        "value": {
+          "en": [
+            "Whistler's Mother",
+            "Arrangement in Grey and Black No. 1"
+          ],
+          "fr": [
+            "Portrait de la mère de l'artiste",
+            "La Mère de Whistler"
+          ]
+        }
+      }
+    ],
+    "summary": {
+      "en": [
+        "A painting in oil on canvas created by the American-born painter James McNeill Whistler, in 1871."
+      ]
+    },
+    "items": [
+      {
+        "id": "{{ id.path }}/canvas/1",
+        "type": "Canvas",
+        "width": 1114,
+        "height": 991,
+        "items": [
+          {
+            "id": "{{ id.path }}/canvas/1/page/1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "{{ id.path }}/canvas/1/page/1/annotation/1",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Whistlers_Mother_high_res.jpg/1114px-Whistlers_Mother_high_res.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg"
+                },
+                "target": "{{ id.path }}/canvas/1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

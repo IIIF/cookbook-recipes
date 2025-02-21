@@ -1,0 +1,20 @@
+basic:
+  label: Basic Recipes
+property:
+  label: IIIF Properties
+note:
+  label: Implementation Notes
+structure: 
+  label: Structuring Resources
+annotation:
+  label: Annotation Recipes
+image:
+  label: Image Recipes
+AV:
+  label: Audio/Visual Recipes
+realWorldObject:
+  label: Real World Object Recipes
+geo-recipes:
+  label: Geo Recipes
+content-state:
+  label: Recipes involving Content State

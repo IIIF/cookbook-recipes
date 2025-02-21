@@ -1,0 +1,53 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "{{ id.url }}",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Volleyball for Boys"
+      ]
+    },
+  "items": [
+    {
+      "id": "{{ id.path }}/canvas",
+      "type": "Canvas",
+      "height": 1080,
+      "width": 1920,
+      "duration": 662.037,
+      "items": [
+        {
+          "id": "{{ id.path }}/canvas/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/canvas/page/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "target": "{{ id.path }}/canvas",
+              "body": {
+                "id": "https://fixtures.iiif.io/video/indiana/volleyball/high/volleyball-for-boys.mp4",
+                "type": "Video",
+                "format": "video/mp4",
+                "height": 1080,
+                "width": 1920,
+                "duration": 662.037
+              }
+            }
+          ]
+        }
+      ],
+      "rendering": [
+        {
+          "id": "https://fixtures.iiif.io/video/indiana/volleyball/volleyball.txt",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Transcript"
+              ]
+            },
+          "format": "text/plain"
+        }
+      ]
+    }
+  ]
+}

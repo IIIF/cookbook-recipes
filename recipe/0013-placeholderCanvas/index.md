@@ -1,44 +1,48 @@
 ---
-title: "Posters: placeholderCanvas"
+title: "Load a Preview Image Before the Main Content"
 id: 13
 layout: recipe
-tags: [tbc]
-summary: "tbc"
----
+tags: video, audio, image, av
+summary: "Provide the user with something to look at before they choose to start interacting with the main content, and/or while they wait for it to load/buffer."
+viewers:
+ - Clover
+ - Ramp
+ - Theseus
+topic:
+ - property
+ - AV
+property: placeholderCanvas
 
+---
 
 ## Use Case
 
-Why is this pattern is important?
+You have an exceptionally large video to present to site visitors. As each visitor's connection reliability and bandwidth are unknown and unpredictable, you want to show them a still image preview of the video (which will load more quickly) until the video has finished loading or has sufficiently buffered.
 
 ## Implementation notes
 
-How does one implement the pattern?
+Across a Manifest and its resources, you may use more than one `placeholderCanvas`, allowing you to have an authentic `placeholderCanvas` for each appropriate resource (Collection, Manifest, Canvas, and Range).
+
+The target of the Annotation of a `placeholderCanvas` should have as its value the id of the `placeholderCanvas`, not the id of the resource that has the `placeholderCanvas`.
+
+Always keep in mind the wide latitude given conforming clients: It is up to the client whether and in what sort of UI to display content you place in a `placeholderCanvas` property. Do not use this property for content that must be displayed. On the other hand, placing content in a `placeholderCanvas` does communicate to a conforming client that the content, if displayed, should be displayed before the resource to which it is attached.
 
 ## Restrictions
 
-When is this pattern is usable / not usable? Is it deprecated? If it uses multiple specifications, which versions are needed, etc.? (Not present if not needed.)
+Each instance of `placeholderCanvas` may only contain one Canvas, and as such may specifically not contain an additional `placeholderCanvas` or an `accompanyingCanvas`.
 
 ## Example
 
-Describe in prose and provide examples, e.g.: 
+In the example, the main content is a video of a performance of Donizetti's _L'elisir d'amore_ and the `placeholderCanvas` is a still frame from the video. For a site visitor with limited bandwidth, showing the still frame allows them to get an advance look at performance aspects such as costuming, staging, and set design.
 
-``` json-doc
-{
-  "@context": [
-    "http://www.w3.org/ns/anno.jsonld",
-    "http://iiif.io/api/presentation/{{ page.major }}/context.json"
-  ],
-  "id": "https://example.org/iiif/book1/manifest",
-  "type": "Manifest" 
-}
-```
+{% include manifest_links.html manifest="manifest.json" %}
+
+{% include jsonviewer.html src="manifest.json" config="data-line='17-43'"%}
 
 # Related recipes
 
-Provide a bulleted list of related recipes and why they are relevant.
-
+* [Simplest Manifest - Video][0003]
+* [Audio Presentation with Accompanying Image][0014], using `accompanyingCanvas` to present one resource simultaneously with another.
 
 {% include acronyms.md %}
 {% include links.md %}
-

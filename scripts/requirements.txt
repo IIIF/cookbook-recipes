@@ -1,3 +1,5 @@
 jsonschema
 requests
 jsonpath_rw
+python-frontmatter
+pyyaml
