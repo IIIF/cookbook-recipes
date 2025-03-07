@@ -64,9 +64,9 @@ The first example shows a basic request to an HTTP service, but with an explicit
 This provides a default response of a IIIF v2 manifest. Looking at the request (`>`) and response (`<`) (truncated for 
 clarity):
 
-    > GET /0057-publishing-v2-and-v3/manifest.json HTTP/2
-    > Host: example.iiif.io
-    > User-Agent: curl/7.64.1
+    > GET /api/cookbook/recipe/0057-publishing-v2-and-v3/manifest.json HTTP/2
+    > Host: iiif.io
+    > User-Agent: curl/8.7.1
     > Accept: application/ld+json
     >
 
