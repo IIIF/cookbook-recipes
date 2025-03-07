@@ -61,14 +61,12 @@ The first example shows a basic request to an HTTP service, but with an explicit
 
     $ curl -v -H "Accept: application/ld+json" "https://iiif.io/api/cookbook/recipe/0057-publishing-v2-and-v3/manifest.json"
 
-This provides a default response of a IIIF v2 manifest. Looking at the request (`>`) and response (`<`) (truncated for 
-clarity):
+This provides a default response of a IIIF v2 manifest. Looking at some of the request (`>`) and response (`<`) values from cURL:
 
     > GET /api/cookbook/recipe/0057-publishing-v2-and-v3/manifest.json HTTP/2
     > Host: iiif.io
     > User-Agent: curl/8.7.1
     > Accept: application/ld+json
-    >
 
     < HTTP/2 200
     < server: nginx
@@ -83,7 +81,7 @@ To request a IIIF v3 manifest at the same URL the `Accept` header value can be a
 
     $ curl -v -H "Accept: application/ld+json;profile=http://iiif.io/api/presentation/3/context.json" "https://iiif.io/api/cookbook/recipe/0057-publishing-v2-and-v3/manifest.json"
 
-The response has varied accordingly:
+Looking at the same request (`>`) and response (`<`) values from cURL as for the previous example, we see the difference in the request's `Accept` header:
 
     > GET /api/cookbook/recipe/0057-publishing-v2-and-v3/manifest.json HTTP/2
     > Host: iiif.io
@@ -95,7 +93,7 @@ The response has varied accordingly:
 	< date: Fri, 07 Mar 2025 15:54:11 GMT
 	< content-type: application/json
 
-The response should be a v3 manifest. Note that the value of the `id` field remains the same as the v2 response:
+The response now should be a v3 manifest. Note that the value of the manifest's `id` field is the same as in the v2 manifest.
 
 {% include jsonviewer.html src="manifest-v3.json" %}
 
