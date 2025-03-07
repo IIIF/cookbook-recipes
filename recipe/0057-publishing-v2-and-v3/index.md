@@ -57,7 +57,7 @@ that the response headers can be inspected. The leading `$` is used to illustrat
 
 The first example shows a basic request to an HTTP service, but with an explicitly-set `Accept` header:
 
-    $ curl -v -H "Accept: application/ld+json" "https://example.iiif.io/0057-publishing-v2-and-v3/manifest.json"
+    $ curl -v -H "Accept: application/ld+json" "https://iiif.io/api/cookbook/recipe/0057-publishing-v2-and-v3/manifest.json"
 
 This provides a default response of a IIIF v2 manifest. Looking at the request (`>`) and response (`<`) (truncated for 
 clarity):
@@ -69,8 +69,8 @@ clarity):
     >
 
     < HTTP/2 200
-    < server: nginx/1.18.0
-    < date: Wed, 24 Jun 2020 06:21:42 GMT
+    < server: nginx
+	< date: Fri, 07 Mar 2025 15:49:39 GMT
     < content-type: application/json; charset=utf-8    
 
 The response content should be a v2 manifest:
@@ -79,20 +79,19 @@ The response content should be a v2 manifest:
 
 To request a IIIF v3 manifest at the same URL the `Accept` header value can be adjusted:
 
-    $ curl -v -H "Accept: application/ld+json;profile="http://iiif.io/api/presentation/3/context.json"" "https://example.iiif.io/0057-publishing-v2-and-v3/manifest.json"
+    $ curl -v -H "Accept: application/ld+json;profile=http://iiif.io/api/presentation/3/context.json" "https://iiif.io/api/cookbook/recipe/0057-publishing-v2-and-v3/manifest.json"
 
 The response has varied accordingly:
 
-    > GET /0057-publishing-v2-and-v3/manifest.json HTTP/2
-    > Host: example.iiif.io
-    > User-Agent: curl/7.64.1
+    > GET /api/cookbook/recipe/0057-publishing-v2-and-v3/manifest.json HTTP/2
+    > Host: iiif.io
+    > User-Agent: curl/8.7.1
     > Accept: application/ld+json;profile=http://iiif.io/api/presentation/3/context.json
-    >
 
     < HTTP/2 200
-    < server: nginx/1.18.0
-    < date: Wed, 24 Jun 2020 06:29:39 GMT
-    < content-type: application/ld+json;profile="http://iiif.io/api/presentation/3/context.json"
+    < server: nginx
+	< date: Fri, 07 Mar 2025 15:54:11 GMT
+	< content-type: application/json
 
 The response should be a v3 manifest. Note that the value of the `id` field remains the same as the v2
 response:
