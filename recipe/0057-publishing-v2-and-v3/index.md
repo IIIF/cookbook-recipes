@@ -93,8 +93,7 @@ The response has varied accordingly:
 	< date: Fri, 07 Mar 2025 15:54:11 GMT
 	< content-type: application/json
 
-The response should be a v3 manifest. Note that the value of the `id` field remains the same as the v2
-response:
+The response should be a v3 manifest. Note that the value of the `id` field remains the same as the v2 response:
 
 {% include jsonviewer.html src="manifest-v3.json" %}
 
