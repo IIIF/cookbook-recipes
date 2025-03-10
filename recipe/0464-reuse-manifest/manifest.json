@@ -6,7 +6,7 @@
   "type": "Manifest",
   "label": {
     "en": [
-      "Picture of Göttingen taken during the 2019 IIIF Conference, annotated."
+      "Picture of Göttingen taken during the 2019 IIIF Conference, re-used and annotated."
     ]
   },
   "rights": "http://creativecommons.org/licenses/by-sa/3.0/",
@@ -22,6 +22,12 @@
       ]
     }
   },
+  "metadata": [
+    {
+      "label": { "en": [ "Re-use" ] },
+      "value": { "en": [ "<span>Re-use of <a href=\"https://iiif.io/api/cookbook/recipe/0008-rights/manifest.json\">Manifest</a> with added Annotation" ] }
+    }
+  ],
   "items": [
     {
       "id": "https://iiif.io/api/cookbook/recipe/0008-rights/canvas/p1",
