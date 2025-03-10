@@ -48,7 +48,7 @@
                             "id": "{{ id.url }}/subtitles_captions-files-vtt-en",
                             "type": "Annotation",
                             "motivation": "supplementing",
-							"provides": "subtitles",
+							"provides": [ "subtitles" ],
                             "body": {
                                 "id": "{{ id.path }}/Per_voi_signore_Modelli_francesi_en.vtt",
                                 "type": "Text",
@@ -64,7 +64,7 @@
                             "id": "{{ id.url }}/subtitles_captions-files-vtt-it",
                             "type": "Annotation",
                             "motivation": "supplementing",
-							"provides": "closedCaptions",
+							"provides": [ "closedCaptions" ],
                             "body": {
                                 "id": "{{ id.path }}/Per_voi_signore_Modelli_francesi_it.vtt",
                                 "type": "Text",
