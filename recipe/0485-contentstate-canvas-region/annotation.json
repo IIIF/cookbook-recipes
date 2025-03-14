@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://example.org/import/1",
+    "id": "https://iiif.io/api/cookbook/recipe/0485-contentstate-canvas-region/annotation.json",
     "type": "Annotation",
     "motivation": ["contentState"],
     "target": {
