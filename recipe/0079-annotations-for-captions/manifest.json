@@ -38,7 +38,7 @@
       ],
       "annotations": [
         {
-		  "id": "{{ id.url }}/lunchroom_manners-captions-en.json",
+		  "id": "{{ id.path }}/lunchroom_manners-captions-en.json",
 		  "type": "AnnotationPage"
 	    }
       ]
