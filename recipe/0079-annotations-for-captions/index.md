@@ -1,6 +1,6 @@
 ---
 title: Using Annotations for Timed Text
-id: 0079
+id: 79
 layout: recipe
 tags: [video, caption, subtitle, presentation]
 summary: "Providing captions, represented as annotations, to a video resource."
