@@ -45,8 +45,7 @@
                                     ]
                                 },
                                 "selector": {
-                                    "@context": "http://iiif.io/api/annex/openannotation/context.json",
-                                    "type": "iiif:ImageApiSelector",
+                                    "type": "ImageApiSelector",
                                     "rotation": "90"
                                 }
                             },
