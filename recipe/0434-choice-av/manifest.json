@@ -17,7 +17,7 @@
     {
       "id": "{{ id.path }}/canvas/1",
       "type": "Canvas",
-      "duration": 16,
+      "duration": 16.0,
       "items": [
         {
           "id": "{{ id.path }}/canvas/1/annotation_page/1",
