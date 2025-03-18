@@ -25,7 +25,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     # store branch name in ${BRANCH_NAME}
     - name: Export BRANCH_NAME # store branch name in $BRANCH_NAME
       run: echo BRANCH_NAME=`git rev-parse --abbrev-ref HEAD` >> $GITHUB_ENV
@@ -48,14 +48,14 @@ jobs:
 
     # Validate
     - name: Set up Python 3.x
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v5
       with:
         # Semantic version range syntax or exact version of a Python version
         python-version: '3.x' 
         # Optional - x64 or x86 architecture, defaults to x64
         architecture: 'x64' 
     - name: Cache pip
-      uses: actions/cache@v2
+      uses: actions/cache@v4
       with:
         # This path is specific to Ubuntu
         path: ~/.cache/pip
