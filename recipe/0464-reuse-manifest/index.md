@@ -44,7 +44,7 @@ The original Manifest label "Picture of Göttingen taken during the 2019 IIIF Co
 
 {% include manifest_links.html manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="26-31,73-92"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="26-37,73-92"' %}
 
 ## Related Recipes
 
