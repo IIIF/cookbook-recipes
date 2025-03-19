@@ -42,7 +42,7 @@ The new Manifest reproduces the `rights` and `requiredStatement` properties from
 
 The original Manifest label "Picture of Göttingen taken during the 2019 IIIF Conference" has been modified to indicate that an Annotation has been added and a metadata element with a link to the original Manifest and a note about the changes was added.
 
-{% include manifest_links.html manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador,Annona,Glycerine Viewer,Theseus" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="26-37,73-92"' %}
 
