@@ -41,7 +41,7 @@
                 "body": {
 				  "type": "TextualBody",
 				  "format": "text/html",
-				  "value": "<p style='font-size:2000px'>Textual annotation</p>",
+				  "value": "<p style='font-size:1000px; background-color: rgba(16, 16, 16, 0.5); padding:300px'>The koto is to the right, carried in a cloth wrapping.</p>",
 				  "language": "en"
                 },
                 "target": "{{ id.path }}/canvas#xywh=27000,10200,25000,5000"
