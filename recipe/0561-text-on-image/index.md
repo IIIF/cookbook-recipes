@@ -19,7 +19,7 @@ This recipe aims to show the simplest form of a combination that is more likely 
 
 Though the implementation is not complex, the implications get well into the nuances of IIIF. Making a textual annotation visible is the consequence of using a `motivation` value of `painting` on an Annotation in combination with placing that Annotation as an item inside an Annotation Page instead of as part of an `annotations` section. Making these two changes tells a client to display the text directly instead of separating it as an annotation to be handled in the client's manner of showing those. The Presentation API 3.0 states clearly that
 + Annotations in an `annotations` section are not permitted to have the `motivation` value `painting` ([Annotations](https://iiif.io/api/presentation/3.0/#annotations))
-+ Conversely, Annotations referenced in `items` have to have the `motivation` value `painting`. ([Canvas](https://iiif.io/api/presentation/3.0/#53-canvas))
++ Conversely, Annotations referenced in `items` must have the `motivation` value `painting`. ([Canvas](https://iiif.io/api/presentation/3.0/#53-canvas))
 + Finally, content to be rendered must be in an Annotation with the `motivation` value `painting`. ([Motivation values](https://iiif.io/api/presentation/3.0/#values-for-motivation) and [Canvas](https://iiif.io/api/presentation/3.0/#53-canvas))
 
 Styling text or using HTML in text painted onto a Canvas is possible, but the options are limited. In addition, styling added to a manifest may be unreliable across viewers. For one example, since IIIF Canvas dimensions are unit-less, using pixels for text size is valid but may not be interpreted identically by different viewers.
