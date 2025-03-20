@@ -42,8 +42,6 @@ In this example, we have a base image showing people in the countryside, one of 
 ## Related Recipes
 
 * [Embedding HTML in descriptive properties][0007]
-* [Image Rotation Two Ways][0040] to see an example of using a CSS class for style manipulation
-* [Image and Canvas with Differing Dimensions][0004] has more discussion about the nature of IIIF dimensioning
 * [Multiple Choice of Images in a Single View (Canvas)][0033] contains additional text about z-index ordering
 
 {% include acronyms.md %}
