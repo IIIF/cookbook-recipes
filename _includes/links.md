@@ -53,6 +53,7 @@
 
 [0232]: {{ site.cookbook_url | absolute_url }}/recipe/0232-image-thumbnail-canvas/ "Implementation discussion: Thumbnails on Canvases"
 [0219]: {{ site.cookbook_url | absolute_url }}/recipe/0219-using-caption-file/ "Using Caption and Subtitle Files with Video Content"
+[0229]: {{ site.cookbook_url | absolute_url }}/recipe/0229-behavior-ranges/ "Adding Thumbnail Navigation and `no-nav` to a Video Resource"
 [0230]: {{ site.cookbook_url | absolute_url }}/recipe/0230-navdate/ "Navigation by Chronology"
 [0231]: {{ site.cookbook_url | absolute_url }}/recipe/0231-transcript-meta-recipe/ "Transcripts, Captions, and Subtitles - General Considerations"
 
@@ -66,6 +67,7 @@
 [0283]: {{ site.cookbook_url | absolute_url }}/recipe/0283-missing-image/ "Missing Images in a Sequence"
 
 [0306]: {{ site.cookbook_url | absolute_url }}/recipe/0306-linking-annotations-to-manifests/ "Linking external Annotations targeting a Canvas to a Manifest"
+[0309]: {{ site.cookbook_url | absolute_url }}/recipe/0309-annotation-collection/ "Using Annotation Collections"
 [0318]: {{ site.cookbook_url | absolute_url }}/recipe/0318-navPlace-navDate/ "Locating an Item in Place and Time"
 [0326]: {{ site.cookbook_url | absolute_url }}/recipe/0326-annotating-image-layer/ "Annotate a specific images or layers"
 
@@ -78,6 +80,7 @@
 
 [0434]: {{ site.cookbook_url | absolute_url }}/recipe/0434-choice-av/ "Multiple Choice of Audio Formats in a Single View (Canvas)"
 [0489]: {{ site.cookbook_url | absolute_url }}/recipe/0489-multimedia-canvas/ "Rendering Multiple Media Types on a Time-Based Canvas"
+[0540]: {{ site.cookbook_url | absolute_url }}/recipe/0540-link-for-opening-multiple-canvases/ "Sharing a link for opening two or more Canvases"
 
 [0561]: {{ site.cookbook_url | absolute_url }}/recipe/0561-text-on-image/ "Visible Text Resource on a Canvas"
 
