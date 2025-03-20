@@ -24,7 +24,7 @@ Though the implementation is not complex, the implications get well into the nua
 
 Styling text or using HTML in text painted onto a Canvas is possible, but the options are limited. In addition, styling added to a manifest may be unreliable across viewers. For one example, since IIIF Canvas dimensions are unit-less, using pixels for text size is valid but may not be interpreted identically by different viewers.
 
-The presentation of resources is upwards in a z-index from the first `painting` Annotation encountered to all subsequent `painting` Annotations. Therefore, for the textual annotation to be visible, it must come later in the manifest order of Annotations than the image resource it marks.
+The presentation of resources is upwards in a z-index from the first "painting" Annotation encountered to all subsequent "painting" Annotations. Therefore, for the textual annotation to be visible, it must come later in the manifest order of Annotations than the image resource it marks.
 
 ## Restrictions
 
