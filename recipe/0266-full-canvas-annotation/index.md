@@ -38,6 +38,8 @@ The semantic of annotating the full Canvas as a whole can be specified by either
 
 This example Manifest contains an embedded Annotation containing the text "Göttinger Marktplatz mit Gänseliesel Brunnen" with the motivation `commenting` targeting the whole Canvas. The Annotation is the single content of an Annotation Page contained in the `annotations` property of the Canvas.
 
+Note that viewers may not add a visual indicator of the Annotation when it targets the Canvas as a whole, or may only add it under certain circumstances, such as when targeting with a fragment.
+
 {% include manifest_links.html viewers="Mirador,Annona,Glycerine Viewer, Theseus" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="44-63"' %}
