@@ -22,7 +22,7 @@ Though the implementation is not complex, the implications get well into the nua
 + Conversely, Annotations referenced in `items` must have the `motivation` value `painting`. ([Canvas](https://iiif.io/api/presentation/3.0/#53-canvas))
 + Finally, content to be rendered must be in an Annotation with the `motivation` value `painting`. ([Motivation values](https://iiif.io/api/presentation/3.0/#values-for-motivation) and [Canvas](https://iiif.io/api/presentation/3.0/#53-canvas))
 
-Styling text or using HTML in text painted onto a Canvas is possible, but the options are limited. In addition, styling added to a manifest may be unreliable across viewers. For one example, since IIIF Canvas dimensions are unit-less, using pixels for text size is valid but may not be interpreted identically by different viewers.
+Styling text or using HTML in text painted onto a Canvas is possible, but the options are limited. In addition, styling added to a manifest may be unreliable across viewers. For one example, since IIIF Canvas dimensions are unit-less, using pixels for text size is valid but may not be interpreted identically by different viewers. For a more detailed look at styles in Web Annotations, see [the W3C Web Annotation Data Model’s Styles section](https://www.w3.org/TR/annotation-model/#styles).
 
 The presentation of resources is upwards in a z-index from the first "painting" Annotation encountered to all subsequent "painting" Annotations. Therefore, for the textual annotation to be visible, it must come later in the manifest order of Annotations than the image resource it marks.
 
