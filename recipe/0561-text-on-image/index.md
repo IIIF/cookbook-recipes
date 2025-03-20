@@ -32,7 +32,9 @@ Markup in the textual annotation is limited for security reasons. Clents are exp
 
 ## Example
 
-In this example, we have a base image showing people in the countryside, one of whom is carrying a wrapped koto. Hypothesizing for our use case that the wrapped koto is less identifiable to people unfamiliar with the scene, there is a textual annotation adjacent to it that indicates it.
+In this example, we have a base image showing people in the countryside, one of whom is carrying a wrapped koto. Hypothesizing for our use case that the wrapped koto is less identifiable to people unfamiliar with the scene, there is a textual annotation adjacent to it that indicates it. A viewer might render it as shown in this image:
+
+![One possible rendering of this recipe's manifest](image_visible_text.png)
 
 {% include manifest_links.html manifest="manifest.json" %}
 
