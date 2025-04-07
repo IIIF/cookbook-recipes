@@ -12,7 +12,6 @@ viewers:
 topic: AV
 ---
 
-
 ## Use Case
 
 You want to represent captions for your video content as timed annotations.
