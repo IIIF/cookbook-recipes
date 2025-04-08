@@ -14,15 +14,11 @@ viewers:
   - Curation
 v4-viewers:  
   - Mirador
-
 topic: 
  - basic
  - image
 code:
  - iiif-prezi3
-versions:
- - 3
- - 4
 top_tabs:
   - label: Version 3
     content: "{% capture my_include %}{%- include_relative recipe.md version='3' -%}{% endcapture %}{{ my_include | markdownify }}"
