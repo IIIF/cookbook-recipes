@@ -28,7 +28,7 @@ The presentation of resources is upwards in a z-index from the first "painting" 
 
 ## Restrictions
 
-Markup in the textual annotation is limited for security reasons. Clents are expected to allow only `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, and `sup` tags, and may remove any or all of those. For more details of permitted and prohibited markup, see [the specification](https://iiif.io/api/presentation/3.0/#45-html-markup-in-property-values).
+Markup in the textual annotation is limited for security reasons. Clents are expected to allow only `a`, `b`, `br`, `i`, `img`, `p`, `small`, `span`, `sub`, and `sup` tags, and may remove any or all of those. For more details of permitted and prohibited markup, see the [HTML Markup in Property Values](https://iiif.io/api/presentation/3.0/#45-html-markup-in-property-values) section of the IIIF Presentation specification.
 
 ## Example
 
