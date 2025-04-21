@@ -38,7 +38,7 @@ In this example, we have a base image showing people in the countryside, one of 
 
 {% include manifest_links.html manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" %}
+{% include jsonviewer.html src="manifest.json" config='data-line="41-52"' %}
 
 
 ## Related Recipes
