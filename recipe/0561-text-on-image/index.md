@@ -43,7 +43,7 @@ In this example, we have a base image showing people in the countryside, one of 
 
 ## Related Recipes
 
-* [Embedding HTML in descriptive properties][0007]
+* [HTML in Annotations][0019] for further discussion on markup in an Annotation
 * [Multiple Choice of Images in a Single View (Canvas)][0033] contains additional text about z-index ordering
 
 {% include acronyms.md %}
