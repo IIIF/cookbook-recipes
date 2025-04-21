@@ -35,7 +35,7 @@ In this example (a minimal implementation of the use case), there are two painti
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" %}
+{% include jsonviewer.html src="manifest.json" config='data-line="10-12,19,43,63"' %}
 
 ## Related Recipes
 
