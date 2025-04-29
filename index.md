@@ -101,6 +101,7 @@ _(leading on to segmentation examples later)_
 * [Table of Contents for Book Chapters][0024]
 * table of contents (ranges) - articles in a newspaper
 * [Table of contents for A/V content][0026] (26)
+* [Adding Thumbnail Navigation and `no-nav` to a Video Resource][0229]
 * Alternative Sequence (via `sequence` Range) (20,22,23)
 * `sequence` Range with partial canvases
 
