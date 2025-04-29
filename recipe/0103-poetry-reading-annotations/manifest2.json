@@ -25,7 +25,7 @@
                         "id":"https://soundbox.ok.ubc.ca/wp-content/uploads/2023/02/Performing-the-Archive%EF%BC%9A-Leaf-leaf%E2%A7%B8s-by-Daphne-Marlatt.mp3",
                         "type":"Sound",
                         "format":"audio/mpeg",
-                        "duration":707
+                        "duration":707.0
                      },
                      "target":"{{ id.path }}/canvas/1"
                   }
@@ -38,7 +38,7 @@
                "type":"AnnotationPage",
                "label":{
                   "en":[
-                     "Default"
+                     "Environmental Noise"
                   ]
                },
                "items":[
@@ -56,7 +56,7 @@
                            "motivation":"commenting"
                         }
                      ],
-                     "target":"{{ id.path }}/canvas/1#t=702,705"
+                     "target":"{{ id.path }}/canvas/1#t=702.0,70.05"
                   }
                ]
             }
