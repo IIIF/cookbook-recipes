@@ -21,7 +21,7 @@ To create this new document you can copy most elements of the source Manifest an
 
 You must change the `id` property of the Manifest to match the URI that your published new Manifest will have.
 
-You should copy the Canvases preserving the URI in their `id` property unless you modify the Canvas itself. This indicates that additions like Annotations made by you would also apply to the original Canvas in the source Manifest.
+You should copy the Canvases preserving the URI in their `id` property unless you modify the Canvas itself. This indicates that additions you make, such as Annotations, also refer to the original Canvas in the source Manifest.
 
 You can copy the `label` property of the Manifest but you should modify it to indicate what you have changed so that users of your new Manifest can easily differentiate it from the source Manifest.
 
