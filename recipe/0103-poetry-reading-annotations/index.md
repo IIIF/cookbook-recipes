@@ -71,7 +71,7 @@ Because the annotations are pointing out features of the audio, rather than tran
 A manifest for a poetry reading by Canadian poet Daphne Marlatt in 2018.  The recording is 707 seconds long.
 {% include manifest_links.html manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest2.json" %}
+{% include jsonviewer.html src="manifest.json" %}
 
 
 # Related recipes
