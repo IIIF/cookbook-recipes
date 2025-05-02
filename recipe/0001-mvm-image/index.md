@@ -28,7 +28,12 @@ top_tabs:
 
 {{ theme.block-center-start }}
 
-
 {% include blocks/tabs.html  tabs=page.top_tabs %}
 
 {{ theme.block-end }}
+<script>
+  if (!window.location.hash) {
+    let el = document.getElementById("version-3-heading");
+    el.className += " is-active";
+  }  
+</script>
