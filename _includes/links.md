@@ -76,12 +76,12 @@
 
 [0464]: {{ site.cookbook_url | absolute_url }}/recipe/0464-reuse-manifest/ "Reuse parts of a Manifest"
 [0466]: {{ site.cookbook_url | absolute_url }}/recipe/0466-link-for-loading-manifest/ "Loading a manifest with a viewer using a link"
-
 [0485]: {{ site.cookbook_url | absolute_url }}/recipe/0485-contentstate-canvas-region/ "Open a specific region of a canvas in a viewer"
-
 [0434]: {{ site.cookbook_url | absolute_url }}/recipe/0434-choice-av/ "Multiple Choice of Audio Formats in a Single View (Canvas)"
 [0489]: {{ site.cookbook_url | absolute_url }}/recipe/0489-multimedia-canvas/ "Rendering Multiple Media Types on a Time-Based Canvas"
 [0540]: {{ site.cookbook_url | absolute_url }}/recipe/0540-link-for-opening-multiple-canvases/ "Sharing a link for opening two or more Canvases"
+
+[0560]: {{ site.cookbook_url | absolute_url }}/recipe/0560-resources-on-a-timeline/ "Rendering Resources Sequentially on a Timeline"
 
 [cookbook-process]: {{site.cookbook_url | absolute_url }}/recipe
 
