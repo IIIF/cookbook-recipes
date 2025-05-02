@@ -29,8 +29,8 @@ A researcher might want to annotate the following types of information:
 
 ## Implementation notes
 
-This implementation builds off of the [audio example][0002], but adds Web Annotations. We show both annotation targeting using a simplified Media Fragment appended to the canvas URL.
-Media Fragment using "#t=702.0,705.0" appended to the canvas URL. Instead of "source" you'd condense it into the "target" field:
+This implementation builds off of the [audio example][0002], but adds Web Annotations. We show annotation targeting using a simplified Media Fragment appended to the canvas URL.
+Media Fragment using `#t=702.0,705.0` appended to the canvas URL:
 
 ```
 "target":"{{ id.path }}/canvas/1#t=702.0,705.0"
@@ -38,7 +38,7 @@ Media Fragment using "#t=702.0,705.0" appended to the canvas URL. Instead of "so
 
 If you are targeting a single point, you should use a point selector.  The [Begin playback at a specific point - Time-based media][0015] recipe demonstrates that approach.
 
-Because the annotations are pointing out features of the audio, rather than transcriptions, the `motivation` for each annotation is `commenting` not `supplementing`.  (If the annotations were transcriptions, their motivation would be `supplementing`.)
+Because the annotations are pointing out features of the audio, rather than transcriptions, the `motivation` for each annotation is `commenting` not `supplementing`.  If the annotations were transcriptions, their motivation would be `supplementing`.
 
 
 ## Example
