@@ -7,6 +7,7 @@ summary: "Use annotations to indicate aspects of the performance of a particular
 viewers:
   - Mirador
   - Aviary
+  - Clover
   - Ramp
 topic:
   - AV
