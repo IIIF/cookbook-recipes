@@ -82,6 +82,7 @@
 [0540]: {{ site.cookbook_url | absolute_url }}/recipe/0540-link-for-opening-multiple-canvases/ "Sharing a link for opening two or more Canvases"
 
 [0560]: {{ site.cookbook_url | absolute_url }}/recipe/0560-resources-on-a-timeline/ "Rendering Resources Sequentially on a Timeline"
+[0561]: {{ site.cookbook_url | absolute_url }}/recipe/0561-text-on-image/ "Visible Text Resource on a Canvas"
 
 [cookbook-process]: {{site.cookbook_url | absolute_url }}/recipe
 

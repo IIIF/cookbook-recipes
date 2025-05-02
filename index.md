@@ -96,6 +96,7 @@ _(leading on to segmentation examples later)_
 * [Using Annotation collections][0309]
 * [Image in annotations][0377]
 * [Annotating in Multiple Languages][0346]
+* [Visible Text Resource on a Canvas][0561]
 
 ## Internal structure
 
