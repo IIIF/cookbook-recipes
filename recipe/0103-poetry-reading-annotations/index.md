@@ -8,7 +8,6 @@ viewers:
   - Mirador
   - Aviary
   - Ramp
-  - UV
 topic:
   - AV
 code:
