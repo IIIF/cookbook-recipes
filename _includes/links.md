@@ -1,6 +1,6 @@
 
 [0001]: {{ site.cookbook_url | absolute_url }}/recipe/0001-mvm-image/ "Simplest Manifest - Image"
-[0001-4]: {{ site.cookbook_url | absolute_url }}/recipe/v4/0001-mvm-image/ "Simplest Manifest - Image"
+[0001-4]: {{ site.cookbook_url | absolute_url }}/recipe/0001-mvm-image/#version-4 "Simplest Manifest - Image"
 [0002]: {{ site.cookbook_url | absolute_url }}/recipe/0002-mvm-audio/ "Simplest Manifest - Audio"
 [0003]: {{ site.cookbook_url | absolute_url }}/recipe/0003-mvm-video/ "Simplest Manifest - Video"
 [0004]: {{ site.cookbook_url | absolute_url }}/recipe/0004-canvas-size/ "Image and Canvas with Differing Dimensions"
