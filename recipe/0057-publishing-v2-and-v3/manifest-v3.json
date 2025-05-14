@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "{{ id.path }}/manifest.json",
+  "id": "https://iiif.io/api/cookbook/recipe/0057-publishing-v2-and-v3/manifest.json",
   "type": "Manifest",
   "label": { "en": [ "Image 1" ] },
   "items": [
