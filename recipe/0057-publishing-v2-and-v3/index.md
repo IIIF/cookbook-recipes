@@ -59,14 +59,14 @@ that the response headers can be inspected. The leading `$` is used to illustrat
 
 The first example shows a basic request to an HTTP service, but with an explicitly-set `Accept` header:
 
-    $ curl -v -H "Accept: application/ld+json" "https://iiif.io/api/cookbook/recipe/0057-publishing-v2-and-v3/manifest.json"
+    $ curl -v -H "Accept: application/ld+json;profile=http://iiif.io/api/presentation/2/context.json" "https://iiif.io/api/cookbook/recipe/0057-publishing-v2-and-v3/manifest.json"
 
 This provides a default response of a IIIF v2 manifest. Looking at some of the request (`>`) and response (`<`) values from cURL:
 
     > GET /api/cookbook/recipe/0057-publishing-v2-and-v3/manifest.json HTTP/2
     > Host: iiif.io
     > User-Agent: curl/8.7.1
-    > Accept: application/ld+json
+    > Accept: application/ld+json;profile=http://iiif.io/api/presentation/2/context.json
 
     < HTTP/2 200
     < server: nginx
