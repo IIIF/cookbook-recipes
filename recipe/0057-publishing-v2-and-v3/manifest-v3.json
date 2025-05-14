@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "https://iiif.io/api/cookbook/recipe/0057-publishing-v2-and-v3/manifest.json",
   "type": "Manifest",
-  "label": { "en": [ "Image 1" ] },
+  "label": { "en": [ "IIIF Presentation Version 3 Minimum Viable Manifest" ] },
   "items": [
     {
       "id": "{{ id.path }}/canvas/p1",
