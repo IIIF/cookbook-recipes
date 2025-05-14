@@ -28,7 +28,7 @@ In this recipe, annotations are used to mark up video content shown on a canvas 
 
 ## Example
 
-In this example we show the same captions and video from [Using Caption Files with Video Content][0219]. but the `annotations` section of the manifest links to a `AnnotationPage` instead of the WebVTT file.
+In this example we show the same captions and video from [Using Caption Files with Video Content][0219]. but the `annotations` section of the manifest links to a `AnnotationPage` instead of the WebVTT file. For readability, the example contains only the annotations that concern the captions of the first minute of the video. 
 
 The `AnnotationPage` contains one annotation per individual caption entry, and these are provided as `supplementing` annotations on the Canvas that contains the video file. The references to the canvas uses Media Fragment URIs with a begin time and an end time. The annotations also contain the `provides` property with the value `closedCaptions` to inform the IIIF viewer that these annotations are representing captions. The language of the captions is expressed with a `language` property containing a [BCP 47](https://tools.ietf.org/html/bcp47) language code as specified by the Presentation API 4.0.
 
@@ -45,9 +45,8 @@ Note: This recipe may also be applied for subtitles. In such cases, the `provide
 - [Simplest Manifest - Video][0003]
 - [Using Caption Files with Video Content][0219]
 - [Using Caption and Subtitle Files in Multiple Languages with Video Content][0074]
-- [A Side-by-side Transcript of a Video Recording][0253]
+- [Using Transcript Files with Audio or Video Content][0253]
 - [Providing Access to Transcripts of A/V Content][0017]
-- [Serving HLS Files][0257]
 
 {% include acronyms.md %}
 {% include links.md %}
