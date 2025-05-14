@@ -52,7 +52,7 @@ This provides a default response of a IIIF v2 manifest. Looking at some of the r
     < HTTP/2 200
     < server: nginx
 	< date: Fri, 07 Mar 2025 15:49:39 GMT
-    < content-type: application/json; charset=utf-8    
+    < content-type: application/json
 
 The response content should be a v2 manifest:
 
