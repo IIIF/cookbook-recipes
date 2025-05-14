@@ -20,7 +20,7 @@
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
                 "resource": {
-                  "@id": "http://iiif.io/api/presentation/2.1/example/fixtures/resources/page1-full.png",
+                  "@id": "https://iiif.io/api/presentation/2.1/example/fixtures/resources/page1-full.png",
                   "@type": "dctypes:Image",
                   "format": "image/png",
                   "height": 1800,
