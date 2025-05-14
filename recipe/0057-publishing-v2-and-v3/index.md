@@ -25,7 +25,7 @@ The IIIF API specifications give the values for the header. It follows a straigh
 
 `application/ld+json;profile="http://iiif.io/api/presentation/{VERSION}/context.json"`
 
-If successful, the server should respond with a value in the `Content-Type` header that mirrors the requested value. If the server is unable to respond as requested--for example, it does not support v3 manifests--then it may either choose to return its default response (a v2 manifest), or it may choose to return a `406 Not Acceptable` status code. 
+If successful, the server should respond with a value in the `Content-Type` header that mirrors the requested value. If the server is unable to respond as requested &#8212; for example, it does not support v3 manifests &#8212; then it may either choose to return its default response (a v2 manifest), or it may choose to return a `406 Not Acceptable` status code. 
 
 ## Restrictions
 
