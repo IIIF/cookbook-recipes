@@ -46,9 +46,7 @@ not allow clients to vary their `Accept` headers, so viewing IIIF resources in a
 the server's default response. To view varying responses, the user must have the ability to control the HTTP request 
 headers. This is available in tools such as [Postman](https://www.postman.com/).
 
-This is an active area of work in web specifications, and may change as methodologies develop. The W3C has a current 
-working group looking at [Content Negotiation by Profile](https://www.w3.org/TR/2019/WD-dx-prof-conneg-20191126/). 
-This specification offers dedicated `Accept-Profile` and `Content-Profile` headers, however these recommendations are
+This is an active area of work in web specifications, and may change as methodologies develop. The W3C has a current working group looking at [Content Negotiation by Profile](https://www.w3.org/TR/dx-prof-conneg/.). This specification offers dedicated `Accept-Profile` and `Content-Profile` headers, however these recommendations are
 still in draft form.
 
 ## Example
