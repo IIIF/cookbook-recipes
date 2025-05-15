@@ -1,0 +1,84 @@
+{
+    "@context": "http://iiif.io/api/presentation/4/context.json",
+    "id": "{{ id.url }}",
+    "type": "Manifest",
+    "label": {
+        "it": ["Per voi signore. Modelli francesi"],
+        "en": ["For ladies. French models"]
+    },
+    "rights": "http://rightsstatements.org/vocab/InC/1.0/",
+    "requiredStatement": {
+        "label": {
+            "en": ["Rights"]
+        },
+        "value": {
+            "en": ["All rights reserved Cinecittà Luce spa"]
+        }
+    },
+    "items": [{
+            "id": "{{ id.path }}/canvas",
+            "type": "Canvas",
+            "height": 384,
+            "width": 288,
+            "duration": 65.0,
+            "items": [{
+                    "id": "{{ id.path }}/canvas/page",
+                    "type": "AnnotationPage",
+                    "items": [{
+                            "id": "{{ id.path }}/canvas/page/annotation",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://fixtures.iiif.io/video/europeana/Per_voi_signore_Modelli_francesi.mp4",
+                                "type": "Video",
+                                "height": 384,
+                                "width": 288,
+                                "duration": 65.0,
+                                "format": "video/mp4"
+                            },
+                            "target": "{{ id.path }}/canvas"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [{
+                    "id": "{{ id.url }}/anno/page/1",
+                    "type": "AnnotationPage",
+                    "items": [{
+                            "id": "{{ id.url }}/subtitles_captions-files-vtt-en",
+                            "type": "Annotation",
+                            "motivation": "supplementing",
+							"provides": [ "subtitles" ],
+                            "body": {
+                                "id": "{{ id.path }}/Per_voi_signore_Modelli_francesi_en.vtt",
+                                "type": "Text",
+                                "format": "text/vtt",
+                                "label": {
+                                    "en": ["English subtitles in WebVTT format"]
+                                },
+                                "language": "en"
+                            },
+                            "target": "{{ id.path }}/canvas"
+                        },                        
+                        {
+                            "id": "{{ id.url }}/subtitles_captions-files-vtt-it",
+                            "type": "Annotation",
+                            "motivation": "supplementing",
+							"provides": [ "closedCaptions" ],
+                            "body": {
+                                "id": "{{ id.path }}/Per_voi_signore_Modelli_francesi_it.vtt",
+                                "type": "Text",
+                                "format": "text/vtt",
+                                "label": {
+                                    "en": ["Italian captions in WebVTT format"]
+                                },
+                                "language": "it"
+                            },
+                            "target": "{{ id.path }}/canvas"
+                        } 
+                    ]
+                }
+            ]
+        }
+    ]
+}
