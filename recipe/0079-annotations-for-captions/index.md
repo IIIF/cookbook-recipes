@@ -1,22 +1,16 @@
 ---
-title: Simplest Manifest - Single Image File
-id: 1
+title: Using Annotations for Timed Text
+id: 79
 layout: recipe
-tags: [image, presentation]
-summary: "The simplest viable manifest for image content. If all you have for an object is one image on the web and a label, this pattern turns it into a IIIF Presentation resource."
+tags: [video, caption, subtitle, presentation]
+summary: "Providing captions, represented as annotations, to a video resource."
 viewers:
-  - Mirador
-  - UV
-  - Annona
-  - Clover
-  - Glycerine Viewer
-  - Theseus
-  - Curation
+ - Ramp
+ - Theseus
 v4-viewers:  
-  - Mirador
+ - Mirador
 topic: 
- - basic
- - image
+ - AV
 code:
  - iiif-prezi3
 top_tabs:
