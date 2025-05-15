@@ -16,7 +16,7 @@ As a manifest creator or host, or as a viewer or client developer, you may want 
 
 This recipe describes publishing IIIF v2 and v3 resources (both Presentation and Image API) at the same URL by using Content Negotiation. It is presented as an alternative approach both to publishing version-specific URLs and either requiring direct requests for retrieving the desired resource version or redirecting manifest requests from an neutral URL to a version-specific one. 
 
-Using Content Negotiation is useful in cases where changing the location of these resources would cause annotations targeting those resources, particularly those created and stored by third-party users, to no longer work. For example, an annotation targeting a region of a canvas that relies on resolving that canvas and any media (image, video, or audio) to show to end users. Using multiple URLs risks losing any work your users have done to annotate these canvases. Content negotiation also provides a stable URL to reference a IIIF Manifest that will work, even as providers transition through 
+Using Content Negotiation is useful in cases where changing the location of these resources would cause annotations targeting those resources, particularly those created and stored by third-party users, to no longer work. For example, an annotation targeting a region of a canvas that relies on resolving that canvas and any media (image, video, or audio) to show to end users. Using multiple URLs risks losing any work your users have done to annotate these canvases. Content Negotiation also provides a stable URL to reference a IIIF Manifest that will work, even as providers transition through 
 supported IIIF versions.
 
 [Content Negotiation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation) is an established method of requesting varying responses from a server. In this case, the server will be asked to vary its response for either a version 2 or version 3 formatted JSON-LD. This can be accomplished by using the `Accept` HTTP header. The value of this header contains a `profile` section that varies according to the IIIF version that is desired. Servers that implement this method should also provide a default response if the request does not contain these values. The examples below illustrate this process.
@@ -25,7 +25,11 @@ The IIIF API specifications give the values for the header. It follows a straigh
 
 `application/ld+json;profile="http://iiif.io/api/presentation/{VERSION}/context.json"`
 
-If successful, the server should respond with a value in the `Content-Type` header that mirrors the requested value. If the server is unable to respond as requested &#8212; for example, it does not support v3 manifests &#8212; then it may either choose to return its default response (a v2 manifest), or it may choose to return a `406 Not Acceptable` status code. 
+If successful, the server should respond with a value in the `Content-Type` header that mirrors the requested value. 
+
+If the server is unable to respond as requested &#8212; for example, it does not support the version requested &#8212; then it may either choose to return its default response (a manifest for a different IIIF Presentation version), or it may choose to return a `406 Not Acceptable` status code. Returning such an error implies support for Content Negotiation.
+
+Where possible, servers are encouraged to return by default the latest IIIF Presentation API version. Since the server may substitute a different version than the one requested if the requested one is not available, clients will need to check the version information in the returned manifest. Simultaneously, client software must account for the response indicating the server does not support Content Negotiation and is responding with the manifest available at the requested URL. Put another way, clients must consider multiple possibilities and inconsistent affordances when requesting IIIF manifests from a server.
 
 ## Restrictions
 
