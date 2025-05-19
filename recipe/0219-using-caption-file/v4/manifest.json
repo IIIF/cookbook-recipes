@@ -1,5 +1,5 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "@context": "http://iiif.io/api/presentation/4/context.json",
   "id": "{{ id.url }}",
   "type": "Manifest",
   "label": {
@@ -45,6 +45,7 @@
               "id": "{{ id.path }}/canvas/page2/a1",
               "type": "Annotation",
               "motivation": "supplementing",
+              "provides": ["closedCaptions"],
               "body": {
                 "id": "https://fixtures.iiif.io/video/indiana/lunchroom_manners/lunchroom_manners.vtt",
                 "type": "Text",
