@@ -54,7 +54,7 @@ Captions are textual representations of spoken word and non-speech audio that ar
 
 ## Subtitles
 
-Subtitles are translations of captions into a different language than the original spoken audio. They are intended for users who can hear, but do not understand the spoken language in the recording. Just like captions, subtitles must be synchronized with playback. To provide subtitles, follow the pattern for the captions recipes above, but use a `provides` property value of `subtitles` in the appropriate annotations(s).
+Subtitles are translations of captions into a different language than the original spoken audio. They are intended for users who can hear, but do not understand the spoken language in the recording. Just like captions, subtitles must be synchronized with playback. To provide subtitles, follow the pattern for the captions recipes above, but use a `provides` property value of `subtitles` in the appropriate annotation(s).
 
 1. For an example of how to provide both captions and subtitles for a video recording, see [Using Caption and Subtitle Files in Multiple Languages with Video Content][0074].
 
