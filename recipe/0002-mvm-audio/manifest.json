@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "{{ id.url }}",
   "type": "Manifest",
-  "label": { "en": [ "Simplest Audio Example 1" ] },
+  "label": { "en": [ "Simplest Audio Example (IIIF Presentation v3)" ] },
   "items": [
     {
       "id": "{{ id.path }}/canvas",
