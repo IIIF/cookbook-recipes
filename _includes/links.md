@@ -97,6 +97,9 @@
 [prezi3-pointselector]: {{ site.api_url | absolute_url }}/annex/openannotation/#point-selector "PointSelector"
 [prezi3-range]: {{ site.api_url | absolute_url }}/presentation/3.0/#54-range "Range"
 
+[prezi4-model]: {{ site.api_url | absolute_url }}/presentation/4.0/model/ "IIIF Presentation API version 4 Data Model"
+[prezi4-overview]: {{ site.api_url | absolute_url }}/presentation/4.0/model/ "IIIF Presentation API version 4 Overview"
+
 [service-registry]: {{ site.api_url | absolute_url }}/registry/services/ "the IIIF Registry of Services"
 
 [cookbook-repo]: https://github.com/IIIF/cookbook-recipes
