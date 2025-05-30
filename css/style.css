@@ -54,6 +54,9 @@ code {
     padding: 0px !important;
     padding-bottom: 2.75rem !important;
 }
+.hero-body .has-text-centered h1 {
+    text-align: center !important;
+}
 .has-text-centered {
     text-align: left !important;
 }
