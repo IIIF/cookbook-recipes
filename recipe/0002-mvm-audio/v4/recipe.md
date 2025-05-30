@@ -10,9 +10,9 @@ Audio resources are contained inside a [Timeline](https://preview.iiif.io/api/pr
 
 This example shows a Manifest with a single Timeline that lasts for 1985.024 seconds. It has a single audio file which is associated with it. The mp4 also has a duration of 1985.024 seconds.
 
-{% include manifest_links.html manifest="v4/manifest.json" version="4" config='data-line="13"' %}
+{% include manifest_links.html manifest="v4/manifest.json" version="4" %}
 
-{% include jsonviewer.html src="v4/manifest.json" %}
+{% include jsonviewer.html src="v4/manifest.json" config='data-line="13"' %}
 
 ## Related Recipes
 
