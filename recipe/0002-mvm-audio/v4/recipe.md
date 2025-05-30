@@ -16,8 +16,9 @@ This example shows a Manifest with a single Timeline that lasts for 1985.024 sec
 
 ## Related Recipes
 
-* [Simplest Manifest - Image][0001] for the most minimal image Manifest
-* [Simplest Manifest - Video][0003] for the most minimal video Manifest
+* [Simplest Manifest - Image][0001] for a minimal image Manifest
+* [Simplest Manifest - Video][0003] for a minimal video Manifest
+* [Simplest Manifest - 3D][0608] for a minimal 3D object Manifest
 
 {% include acronyms.md %}
 {% include links.md %}
