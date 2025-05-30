@@ -4,6 +4,7 @@
 [0002]: {{ site.cookbook_url | absolute_url }}/recipe/0002-mvm-audio/ "Simplest Manifest - Audio"
 [0002-4]: {{ site.cookbook_url | absolute_url }}/recipe/0002-mvm-audio/#version-4 "Simplest Manifest - Audio"
 [0003]: {{ site.cookbook_url | absolute_url }}/recipe/0003-mvm-video/ "Simplest Manifest - Video"
+[0003-4]: {{ site.cookbook_url | absolute_url }}/recipe/0003-mvm-video/#version-4 "Simplest Manifest - Video"
 [0004]: {{ site.cookbook_url | absolute_url }}/recipe/0004-canvas-size/ "Image and Canvas with Differing Dimensions"
 [0005]: {{ site.cookbook_url | absolute_url }}/recipe/0005-image-service/ "Support Deep Viewing with Basic Use of a IIIF Image Service"
 [0006]: {{ site.cookbook_url | absolute_url }}/recipe/0006-text-language/ "Internationalization and Multi-language Values"

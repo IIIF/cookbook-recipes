@@ -12,33 +12,30 @@ viewers:
  - Aviary
  - Theseus
  - Glycerine Viewer
+v4-viewers:
+ - Mirador
+ - UV
+ - Aviary
 topic:
  - basic
  - AV
 code:
  - iiif-prezi3
+top_tabs:
+  - label: Version 3
+    content: "{% capture my_include %}{%- include_relative recipe.md version='3' -%}{% endcapture %}{{ my_include | markdownify }}"
+  - label: Version 4
+    content: "{% capture my_include %}{%- include_relative v4/recipe.md version='4' -%}{% endcapture %}{{ my_include | markdownify }}"
 ---
 
+{{ theme.block-center-start }}
 
-## Use Case
+{% include blocks/tabs.html  tabs=page.top_tabs %}
 
-The simplest viable manifest for video content. This pattern presents a single video file in a IIIF Presentation resource.
-
-## Implementation Notes
-
-The implementation is identical to the [image example][0001], except that the content is video and the canvas has the `duration` property instead of the `height` and `width` properties. The value of the `duration` property [must be a floating point number](https://iiif.io/api/presentation/3.0/#duration). If the duration value you have is an integer, it therefore needs to be written with at least a decimal point and a trailing zero: `1985.0` rather than `1985`.
-
-## Example
-
-This example shows a Manifest with a single Canvas that lasts for 572 seconds, or just under 10 minutes. It has a single video file (lunchroom_manners_1024kb.mp4) which is associated with it. The mp4 also has a duration of 572 seconds.
-
-{% include manifest_links.html viewers="UV, Mirador, Clover, Ramp, Aviary, Theseus, Glycerine Viewer" manifest="manifest.json" %}
-
-{% include jsonviewer.html src="manifest.json" %}
-
-# Related Recipes
-
-* [Simplest Manifest - Image][0001] and [Simplest Manifest - Audio][0002] are equivalent to this example.
-
-{% include acronyms.md %}
-{% include links.md %}
+{{ theme.block-end }}
+<script>
+  if (!window.location.hash) {
+    let el = document.getElementById("version-3-heading");
+    el.className += " is-active";
+  }  
+</script>
