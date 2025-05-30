@@ -67,6 +67,7 @@
 [0485]: {{ site.cookbook_url | absolute_url }}/recipe/0485-contentstate-canvas-region/ "Open a specific region of a canvas in a viewer"
 [0489]: {{ site.cookbook_url | absolute_url }}/recipe/0489-multimedia-canvas/ "Rendering Multiple Media Types on a Time-Based Canvas"
 [0540]: {{ site.cookbook_url | absolute_url }}/recipe/0540-link-for-opening-multiple-canvases/ "Sharing a link for opening two or more Canvases"
+[0608-4]: {{ site.cookbook_url | absolute_url }}/recipe/0608-mvm-3d/#version-4 "Simplest Manifest - 3D model"
 
 [cookbook-process]: {{site.cookbook_url | absolute_url }}/recipe
 
