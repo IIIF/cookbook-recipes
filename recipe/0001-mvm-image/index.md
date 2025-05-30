@@ -14,6 +14,10 @@ viewers:
   - Curation
 v4-viewers:  
   - Mirador
+  - UV
+  - Annona
+  - Clover
+  - Theseus
 topic: 
  - basic
  - image
