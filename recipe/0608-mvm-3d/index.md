@@ -5,16 +5,9 @@ layout: recipe
 tags: [presentation]
 summary: "The simplest viable manifest for 3D content. If all you have for an object is one model on the web and a label, this pattern turns it into a IIIF Presentation resource."
 v4-viewers:  
-  - Mirador
-  - UV
-  - Annona
-  - Clover
-  - Theseus
 topic: 
  - basic
  - image
-code:
- - iiif-prezi3
 top_tabs:
   - label: Version 4
     content: "{% capture my_include %}{%- include_relative v4/recipe.md version='4' -%}{% endcapture %}{{ my_include | markdownify }}"
