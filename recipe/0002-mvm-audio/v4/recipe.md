@@ -4,7 +4,7 @@ You have some digital or digitized audio that you would like to present on the w
 
 ## Implementation Notes
 
-The implementation is identical to the [image example][0001], except that the content is audio, which requires the use of a [Timeline](https://preview.iiif.io/api/prezi-4/presentation/4.0/model/#timeline) instead of a Canvas. The Timeline has the `duration` property instead of the Canvas' `height` and `width` properties. The value of the `duration` property [must be a floating point number](https://iiif.io/api/presentation/3.0/#duration). If the duration value you have is an integer, it therefore needs to be written with at least a decimal point and a trailing zero: `1985.0` rather than `1985`.
+Audio resources are contained inside a [Timeline](https://preview.iiif.io/api/prezi-4/presentation/4.0/model/#timeline), which is required to have a `duration` property. The value of the `duration` property [must be a floating point number](https://preview.iiif.io/api/prezi-4/presentation/4.0/model/#duration). If the duration value you have is an integer, it needs to be written with at least a decimal point and a trailing zero: `1985.0` rather than `1985`.
 
 ## Example
 
