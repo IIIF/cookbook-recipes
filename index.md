@@ -35,9 +35,9 @@ Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advi
 
 _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..(3,5)_
 
-* [Simplest Manifest - Image][0001] (1) (use static image as content resource, w.h)
-* [Simplest Manifest - Audio][0002] (1) (use single audio as content resource, d)
-* [Simplest Manifest - Video][0003] (1) (use single video as content resource, w,h,d)
+* [Simplest Manifest - Image][0001] - [version 4][0001-4]
+* [Simplest Manifest - Audio][0002] 
+* [Simplest Manifest - Video][0003] - [version 4][0003-4] (1) (use single video as content resource, w,h,d)
 * [Image and Canvas with Differing Dimensions][0004] (26)
 * [Support Deep Viewing with Basic Use of a IIIF Image Service][0005] (24,25)
 * [Internationalization and Multi-language Values][0006] (3,4,6)

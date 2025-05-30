@@ -49,3 +49,35 @@ code {
     background-color: white;
     box-shadow: inset 0 -1px 0 #dbdbdb;
 }
+
+.container-block {
+    padding: 0px !important;
+    padding-bottom: 2.75rem !important;
+}
+.has-text-centered {
+    text-align: left !important;
+}
+.has-text-centered p {
+    text-align: left !important;
+}
+
+.tabs {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    opacity: 1;
+    z-index: 1;
+}
+
+.is-active {
+    color: #0073b0;
+}
+
+.is-active h3 {
+    color: #0073b0;
+    background: #f7f5f5;
+}
+.is-active a {
+    border-top-style: solid;
+    border-top-width: 2px;
+}
