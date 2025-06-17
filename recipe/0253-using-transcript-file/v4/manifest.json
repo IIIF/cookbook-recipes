@@ -47,7 +47,7 @@
               "motivation": "supplementing",
               "provides": ["transcript"],
               "body": {
-                "id": "https://fixtures.iiif.io/video/indiana/lunchroom_manners/lunchroom_manners.vtt",
+                "id": "https://fixtures.iiif.io/video/indiana/lunchroom_manners/lunchroom_manners.docx",
                 "type": "Text",
                 "format": "text/vtt",
                 "label": {
