@@ -32,7 +32,7 @@ For expressing the availability of captions and subtitles in the two languages, 
 
 In this example we use files in the WebVTT format. Other format options include SRT (SubRip Text) or TTML (Timed Text Markup Language), but these are less likely to be supported in IIIF viewers.
 
-{% include manifest_links.html viewers="Ramp, Theseus" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Ramp, Theseus" manifest="v4/manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="60-95"'%}
 
