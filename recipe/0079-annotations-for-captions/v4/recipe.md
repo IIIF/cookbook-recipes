@@ -34,7 +34,7 @@ The `AnnotationPage` contains one annotation per individual caption entry, and t
 
 Note: This recipe may also be applied for subtitles. In such cases, the `provides` property of the annotations must have the value `subtitles`. 
 
-{% include manifest_links.html viewers="Clover, Ramp, Aviary, Theseus" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Clover, Ramp, Aviary, Theseus" manifest="v4/manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="39-44"'%}
 
