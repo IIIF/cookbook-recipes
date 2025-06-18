@@ -15,7 +15,7 @@ While captions, subtitles, and transcripts each present some text interpretation
 
 In this example we use a caption file in the WebVTT format, but other options include a caption file in the [SRT](https://en.wikipedia.org/wiki/SubRip) (SubRip Text) or [TTML](https://w3c.github.io/ttml3/index.html) (Timed Text Markup Language) formats, or other text-based format used for the same purpose.
 
-{% include manifest_links.html viewers="" manifest="manifest.json" %}
+{% include manifest_links.html viewers="" manifest="v4/manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="41-67"'%}
 
