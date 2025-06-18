@@ -1,6 +1,6 @@
 ## Use Case
 
-Transcripts may be available for your audio and/or video content and should be enabled for side-by-side display for your IIIF media resources.
+Transcripts may be available for your audio and/or video content and should be enabled for side-by-side display alongside your IIIF media resources.
 
 ## Implementation notes
 
@@ -16,9 +16,9 @@ While captions, subtitles, and transcripts each present some text interpretation
 
 ## Example
 
-In this example we demonstrate a transcript file in the WebVTT format, but other formats are possible (see above).
+In this example we demonstrate a transcript file in the docx format, but other formats are possible (see above).
 
-{% include manifest_links.html viewers="Clover, Ramp, Aviary, Theseus" manifest="v4/manifest.json" %}
+{% include manifest_links.html viewers="" manifest="v4/manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="43-61"'%}
 
