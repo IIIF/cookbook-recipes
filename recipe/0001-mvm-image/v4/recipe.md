@@ -1,52 +1,33 @@
----
-title: Using Caption and Subtitle Files with Video Content
-id: 219
-layout: recipe
-tags: [video, caption, subtitle, presentation]
-summary: "Providing a caption or subtitle file to a video resource."
-viewers:
- - Clover
- - Ramp
- - Aviary
- - Theseus
-topic: AV
----
-
 
 ## Use Case
 
-Captions and subtitles may be available for your video content and you may want to enable them for your IIIF video resources.
+The simplest viable manifest for image content. If all you have for an object is one image on the web and a label to go along with it, this pattern turns it into a IIIF Presentation resource. If you would like to enable deep zooming, you will need to use a IIIF Image server. For this, see the [Support Deep Viewing with Basic Use of a IIIF Image Service (v3)][0005] recipe.
 
-## Implementation notes
+## Implementation Notes
 
-Caption and subtitle file formats are used to mark up the external text track resources in connection with the HTML track element of a video file. The markup file formats use time tags that allow for time alignment of the video content with the captions or subtitles.
+This illustrates the mandatory structure and properties of a manifest, with the simplest possible content. 
 
-Offering the caption file as an Annotation on the Canvas that contains the media file itself enables us to express the relationship between the two. The `type` and `format` properties of the Annotation can be used by the client to identify files in a format supported by the media player for captions. The `motivation` value of `supplementing` indicates the fact that processing this Annotation is optional.
+The JSON-LD opens with the `@context` declaration, which identifies the terms used in the document as belonging to the IIIF specification. The `id` property identifies this manifest with the URL at which it is available online. The `type` property must be `Manifest`. The `label` property is mandatory, and the language of its value must be given (or the special value `none`), using a [language map][prezi3-languages]. Here the language of the label is English and its value is "Single Image Example". The manifest's `items` property is a list of canvases. In this example there is only one canvas, with a `height` of 1800 and a `width` of 1200. These units have no dimension: they establish a coordinate space that in this case the single image will fill. The canvas's `id` property is used later as the `target` of the annotation that links to the single image. 
 
-In addition to this implementation, one should consider offering the captions or subtitles as multiple timed annotations, making the text available in multiple ways. See [Using Annotations for Timed Text][0079].
-
-While captions, subtitles, and transcripts each present some text interpretation of the A/V content, the ways in which they are consumed by users differ. For a more detailed discussion about these differences see [Transcripts, Captions, and Subtitles - General Considerations][0231].
+The `items` property of the Canvas is a list of annotation pages, in this case there is only one page. The `items` property of the annotation page is a list of annotations, in this case there is only one annotation. This annotation is what links the image resource with the canvas. The `body` of the annotation is an image, the url of which is the `id` property of the body. The dimensions of the image, in pixels, are given and here match the canvas dimensions exactly. The `target` property tells us that the image is associated with the entirety of the canvas, and the `motivation` property of `painting` tells us that a client should render the image to fill the canvas.
 
 ## Restrictions
 
-Formats other than [WebVTT](https://w3c.github.io/webvtt/) (Web Video Text Tracks) are supported in IIIF, but may not be as widely supported in viewers.
-
-When using segmented WebVTT with HLS, see [Serving HLS Files][0257].
+This recipe is not for large images or deep zoom functionality. For this, see the [Support Deep Viewing with Basic Use of a IIIF Image Service (v3)][0005] recipe.
 
 ## Example
 
-In this example we use a caption file in the WebVTT format, but other options include a subtitle file in the [SRT](https://en.wikipedia.org/wiki/SubRip) (SubRip Text) or [TTML](https://w3c.github.io/ttml3/index.html) (Timed Text Markup Language) formats, or other text-based format used for the same purpose.
+{% include manifest_links.html manifest="v4/manifest.json" version="4" %}
 
-{% include manifest_links.html viewers="Clover, Ramp, Aviary, Theseus" manifest="manifest.json" %}
+{% include jsonviewer.html src="v4/manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="41-67"'%}
-
-# Related recipes
+# Related Recipes
 
 * [Simplest Manifest - Audio][0002-4] and [Simplest Manifest - Video][0003-4] are equivalent to this example but for other media.
 * [Support Deep Viewing with Basic Use of a IIIF Image Service][0005] (v3) shows a basic manifest for use with a IIIF Image server.
 * [Image different size to canvas][0004] (v3) shows a canvas with dimensions different from the pixel dimensions of its content.
 * [Multiple values and languages][0006] (v3) demonstrates language map variations, for multiple values and multiple languages. 
+
 
 {% include acronyms.md %}
 {% include links.md %}
