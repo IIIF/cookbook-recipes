@@ -18,7 +18,7 @@ While captions, subtitles, and transcripts each present some text interpretation
 
 In this example we demonstrate a transcript file in the WebVTT format, but other formats are possible (see above).
 
-{% include manifest_links.html viewers="Clover, Ramp, Aviary, Theseus" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Clover, Ramp, Aviary, Theseus" manifest="v4/manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="43-61"'%}
 
