@@ -60,7 +60,6 @@ This provides a default response of a IIIF v2 manifest. Looking at some of the r
 
 The response content should be a v2 manifest:
 
-{% include manifest_links.html viewers="UV, Mirador, Annona, Glycerine Viewer, Theseus, Curation" manifest="manifest.json" %}
 {% include jsonviewer.html src="manifest-v2.json" %}
 
 To request a IIIF v3 manifest at the same URL the `Accept` header value can be adjusted:
