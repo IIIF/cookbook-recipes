@@ -33,9 +33,9 @@ Where possible, servers are encouraged to return by default the latest IIIF Pres
 
 ## Restrictions
 
-There are several restrictions to using this pattern. Perhaps the most notable is that web browsers do not allow clients to vary their `Accept` headers, so viewing IIIF resources in a browser is restricted to viewing the server's default response. To view varying responses, the user must have the ability to control the HTTP request headers. This is available in tools such as [Postman](https://www.postman.com/).
+There are several restrictions to using this pattern. Perhaps the most notable is that typical people using a web browser to view IIIF resources cannot be expected to know how to vary their `Accept` headers, so their viewing will likely be dependent on the client they are using. To view varying responses, a person must have the ability to set the HTTP request headers. A web-based client can provide this capability, but none currently do. People with sufficient combination of knowledge, access, and support can also use non-browser tools such as [Postman](https://www.postman.com/).
 
-This is an active area of work in web specifications, and may change as methodologies develop. The W3C has a current working group looking at [Content Negotiation by Profile](https://www.w3.org/TR/dx-prof-conneg/.). This specification offers dedicated `Accept-Profile` and `Content-Profile` headers, however these recommendations are
+This is an active area of work in web specifications, and may change as methodologies develop. The W3C has a current working group looking at [Content Negotiation by Profile](https://www.w3.org/TR/dx-prof-conneg/.). This specification offers dedicated `Accept-Profile` and `Content-Profile` headers; however, these recommendations are
 still in draft form.
 
 ## Example
