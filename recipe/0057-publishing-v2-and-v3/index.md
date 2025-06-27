@@ -21,7 +21,7 @@ supported IIIF versions.
 
 [Content Negotiation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation) is an established method of requesting varying responses from a server. In this case, the server will be asked to vary its response for either a version 2 or version 3 of a IIIF resource formatted in JSON-LD. This can be accomplished by using the `Accept` HTTP header. The value of this header contains a `profile` section that varies according to the IIIF version that is desired. Servers that implement this method should also provide a default response if the request does not contain these values. The examples below illustrate this process.
 
-The IIIF API specifications give the values for the header. It follows a straightforward format:
+The [IIIF API specification](https://iiif.io/api/presentation/3.0/#63-responses) gives the values for the header. It follows a straightforward format:
 
 `application/ld+json;profile="http://iiif.io/api/presentation/{VERSION}/context.json"`
 
