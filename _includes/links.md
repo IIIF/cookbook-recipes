@@ -10,7 +10,6 @@
 [0009]: {{ site.cookbook_url | absolute_url }}/recipe/0009-book-1/ "Simple Manifest - Book"
 [0010]: {{ site.cookbook_url | absolute_url }}/recipe/0010-book-2-viewing-direction "Viewing direction and its effect on navigation"
 [0011]: {{ site.cookbook_url | absolute_url }}/recipe/0011-book-3-behavior/ "Book behavior (paging) variations"
-[0299]: {{ site.cookbook_url | absolute_url }}/recipe/0299-region/ "Addressing a spatial region"
 [0013]: {{ site.cookbook_url | absolute_url }}/recipe/0013-placeholderCanvas/ "Load a Preview Image Before the Main Content"
 [0202]: {{ site.cookbook_url | absolute_url }}/recipe/0202-start-canvas/ "Load Manifest Beginning with a Specific Canvas"
 [0014]: {{ site.cookbook_url | absolute_url }}/recipe/0014-accompanyingcanvas/ "Audio Presentation with Accompanying Image"
@@ -65,6 +64,7 @@
 [0266]: {{ site.cookbook_url | absolute_url }}/recipe/0266-full-canvas-annotation/ "Simplest Annotation"
 [0269]: {{ site.cookbook_url | absolute_url }}/recipe/0269-embedded-or-referenced-annotations/ "Embedded or Referenced Annotations"
 [0283]: {{ site.cookbook_url | absolute_url }}/recipe/0283-missing-image/ "Missing Images in a Sequence"
+[0299]: {{ site.cookbook_url | absolute_url }}/recipe/0299-region/ "Addressing a spatial region"
 
 [0306]: {{ site.cookbook_url | absolute_url }}/recipe/0306-linking-annotations-to-manifests/ "Linking external Annotations targeting a Canvas to a Manifest"
 [0309]: {{ site.cookbook_url | absolute_url }}/recipe/0309-annotation-collection/ "Using Annotation Collections"
