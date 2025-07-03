@@ -156,7 +156,7 @@ Recipes using [Content State API](https://iiif.io/api/content-state/1.0/)
 * extensions (18)
 * services (9,10)
 * Mixed version scenarios (Prezi 3+Image 2)
-* Publishing v2 and v3 versions
+* [Making IIIF Presentation API v2 and v3 manifests available at the same URL][0057]
 
 ## Real-world complex objects (ideally taken from actual collections)
 
