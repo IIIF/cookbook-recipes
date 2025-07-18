@@ -35,8 +35,9 @@
 [0040]: {{ site.cookbook_url | absolute_url }}/recipe/0040-image-rotation-service/ "Image Rotation Two Ways"
 
 [0047]: {{ site.cookbook_url | absolute_url }}/recipe/0047-homepage/ "Linking to Web Page of an Object"
-[0053]: {{ site.cookbook_url | absolute_url }}/recipe/0053-seeAlso/ "Linking to Structured Metadata"
 [0046]: {{ site.cookbook_url | absolute_url }}/recipe/0046-rendering/ "Providing Alternative Representations"
+[0053]: {{ site.cookbook_url | absolute_url }}/recipe/0053-seeAlso/ "Linking to Structured Metadata"
+[0057]: {{ site.cookbook_url | absolute_url }}/recipe/0057-publishing-v2-and-v3/ "Making IIIF Presentation API v2 and v3 manifests available at the same URL"
 [0064]: {{ site.cookbook_url | absolute_url }}/recipe/0064-opera-one-canvas/ "Table of Contents for Multiple A/V Files on a Single Canvas"
 [0065]: {{ site.cookbook_url | absolute_url }}/recipe/0065-opera-multiple-canvases/ "Table of Contents for Multiple A/V Files on Multiple Canvases"
 
