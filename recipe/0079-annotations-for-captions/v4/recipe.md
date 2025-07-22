@@ -1,17 +1,3 @@
----
-title: Using Annotations for Timed Text
-id: 79
-layout: recipe
-tags: [video, caption, subtitle, presentation]
-summary: "Providing captions, represented as annotations, to a video resource."
-viewers:
- - Clover
- - Ramp
- - Aviary
- - Theseus
-topic: AV
----
-
 ## Use Case
 
 You want to represent captions for your video content as timed annotations.
@@ -36,9 +22,9 @@ Note: This recipe may also be applied for subtitles. In such cases, the `provide
 
 {% include manifest_links.html viewers="Clover, Ramp, Aviary, Theseus" manifest="v4/manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="39-44"'%}
+{% include jsonviewer.html src="v4/manifest.json" config='data-line="39-44"'%}
 
-{% include jsonviewer.html src="lunchroom_manners-captions-en.json" config='data-line="6-18"'%}
+{% include jsonviewer.html src="v4/lunchroom_manners-captions-en.json" config='data-line="6-18"'%}
 
 # Related recipes
 
