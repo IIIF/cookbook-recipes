@@ -1,20 +1,20 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "@context": "http://iiif.io/api/presentation/4/context.json",
   "id": "{{ id.url }}",
   "type": "Manifest",
-  "label": { "en": [ "Simplest Audio Example (IIIF Presentation v3)" ] },
+  "label": { "en": [ "Simplest Audio Example (IIIF Presentation v4)" ] },
   "items": [
     {
-      "id": "{{ id.path }}/canvas",
-      "type": "Canvas",
+      "id": "{{ id.path }}/timeline",
+      "type": "Timeline",
       "duration": 1985.024,
       "items": [
         {
-          "id": "{{ id.path }}/canvas/page",
+          "id": "{{ id.path }}/timeline/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "{{ id.path }}/canvas/page/annotation",
+              "id": "{{ id.path }}/timeline/page/annotation",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
@@ -23,7 +23,7 @@
                 "format": "audio/mp4",
                 "duration": 1985.024
               },
-              "target": "{{ id.path }}/canvas"
+              "target": "{{ id.path }}/timeline"
             }
           ]
         }
