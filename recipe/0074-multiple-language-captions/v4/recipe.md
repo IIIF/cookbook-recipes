@@ -1,16 +1,3 @@
----
-title: Using Caption and Subtitle Files in Multiple Languages with Video Content
-id: 74
-layout: recipe
-tags: [video, caption, subtitle, presentation]
-summary: "Representing the relationship between a video file and its caption or subtitle files for multiple languages."
-topic: AV
-viewers:
-- Ramp
-- Theseus
----
-
-
 ## Use Case
 
 Captions and subtitles may be available in multiple languages for video content and the IIIF Manifest representing the video can give access to representations of all the available languages. Because users will likely want to see captions/subtitles in their preferred language, the available languages should be presented as options from which one should be chosen.

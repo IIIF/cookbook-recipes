@@ -1,15 +1,3 @@
----
-title: Using Caption and Subtitle Files in Multiple Languages with Video Content
-id: 74
-layout: recipe
-tags: [video, caption, subtitle, presentation]
-summary: "Representing the relationship between a video file and its caption or subtitle files for multiple languages."
-topic: AV
-viewers:
-- Ramp
-- Theseus
----
-
 
 ## Use Case
 
