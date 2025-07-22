@@ -23,7 +23,7 @@ This recipe is not for large images or deep zoom functionality. For this, see th
 
 # Related Recipes
 
-* [Simplest Manifest - Audio][0002] (v3) and [Simplest Manifest - Video][0003] (v3) are equivalent to this example but for other media.
+* [Simplest Manifest - Audio][0002-4] and [Simplest Manifest - Video][0003-4] are equivalent to this example but for other media.
 * [Support Deep Viewing with Basic Use of a IIIF Image Service][0005] (v3) shows a basic manifest for use with a IIIF Image server.
 * [Image different size to canvas][0004] (v3) shows a canvas with dimensions different from the pixel dimensions of its content.
 * [Multiple values and languages][0006] (v3) demonstrates language map variations, for multiple values and multiple languages. 
