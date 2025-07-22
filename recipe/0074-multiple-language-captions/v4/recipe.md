@@ -34,7 +34,7 @@ In this example we use files in the WebVTT format. Other format options include 
 
 {% include manifest_links.html viewers="Ramp, Theseus" manifest="v4/manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="60-95"'%}
+{% include jsonviewer.html src="v4/manifest.json" config='data-line="60-95"'%}
 
 # Related recipes
 
