@@ -23,7 +23,7 @@ There are several options for handling transcripts using the IIIF Presentation A
 
     When the intention is to have the client display the transcript alongside the resource, one should use an annotation with the `supplementing` motivation and with the `provides` property specified to indicate a `transcript`. Note that this option offers the transcript file as a single annotation. The transcript file can take many different formats and may or may not include spatial/temporal information that allows synchronization between transcript fragments and display or streaming of media.
 
-    a. For an example of this option in the A/V space, see [Using Transcript Files with Audio or Video Content][0253].
+    a. For an example of this option in the A/V space, see [Using Transcript Files with Audio or Video Content][0253-4].
 
 
 3. Providing access to transcript alongside the resource via textual annotations 
@@ -34,7 +34,7 @@ There are several options for handling transcripts using the IIIF Presentation A
     
     b. For an example in the newspaper space see the example annotations in a [A basic newspaper][0068] recipe.
     
-    c. For an example in the A/V space see [Using Annotations for Timed Text][0079].
+    c. For an example in the A/V space see [Using Annotations for Timed Text][0079-4].
 
 ## Captions
 
@@ -44,19 +44,19 @@ Captions are textual representations of spoken word and non-speech audio that ar
     
     The manifest for this case is nearly identical to option 2 above but, given the support for these standard file formats by modern viewers, the text is presented on top of the video, thus providing for a completely different viewing experience. The `provides` property is used to indicate that the annotation includes captions, rather than transcripts.
 
-    a. See [Using Caption Files with Video Content][0219] for implementation details.
+    a. See [Using Caption Files with Video Content][0219-4] for implementation details.
 
 2. Transforming captions into textual annotations
     
     Like transcript files, caption files can be transformed into a series of textual annotations that include temporal information in the media fragment portion of the annotation target url. Each annotation includes the `provides` property to differentiate between captions and transcripts and enable display on top of video. 
     
-    a. See [Using Annotations for Timed Text][0079].
+    a. See [Using Annotations for Timed Text][0079-4].
 
 ## Subtitles
 
 Subtitles are translations of captions into a different language than the original spoken audio. They are intended for users who can hear, but do not understand the spoken language in the recording. Just like captions, subtitles must be synchronized with playback. To provide subtitles, follow the pattern for the captions recipes above, but use a `provides` property value of `subtitles` in the appropriate annotation(s).
 
-1. For an example of how to provide both captions and subtitles for a video recording, see [Using Caption and Subtitle Files in Multiple Languages with Video Content][0074].
+1. For an example of how to provide both captions and subtitles for a video recording, see [Using Caption and Subtitle Files in Multiple Languages with Video Content][0074-4].
 
 
 ## Related Recipes
@@ -64,11 +64,11 @@ Subtitles are translations of captions into a different language than the origin
 * [Providing Alternative Representations][0046]
 * [Providing Access to Transcript Files of A/V Content][0017]
 * [A basic newspaper][0068]
-* [Using Transcript Files with Audio or Video Content][0253]
+* [Using Transcript Files with Audio or Video Content][0253-4]
 * [Transcription of image-based content][016]
-* [Using annotations for Timed Text][0079]
-* [Using Caption Files with Video Content][0219]
-* [Using Caption and Subtitle Files in Multiple Languages with Video Content][0219]
+* [Using annotations for Timed Text][0079-4]
+* [Using Caption Files with Video Content][0219-4]
+* [Using Caption and Subtitle Files in Multiple Languages with Video Content][0074-4]
 
 
 {% include acronyms.md %}

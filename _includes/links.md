@@ -56,7 +56,7 @@
 
 [0232]: {{ site.cookbook_url | absolute_url }}/recipe/0232-image-thumbnail-canvas/ "Implementation discussion: Thumbnails on Canvases"
 [0219]: {{ site.cookbook_url | absolute_url }}/recipe/0219-using-caption-file/ "Using Caption and Subtitle Files with Video Content"
-[0219-4]: {{ site.cookbook_url | absolute_url }}/recipe/0219-using-caption-file/#version-4 "Using Caption and Subtitle Files with Video Content"
+[0219-4]: {{ site.cookbook_url | absolute_url }}/recipe/0219-using-caption-file/#version-4 "Using Caption Files with Video Content"
 [0229]: {{ site.cookbook_url | absolute_url }}/recipe/0229-behavior-ranges/ "Adding Thumbnail Navigation and `no-nav` to a Video Resource"
 [0230]: {{ site.cookbook_url | absolute_url }}/recipe/0230-navdate/ "Navigation by Chronology"
 [0231]: {{ site.cookbook_url | absolute_url }}/recipe/0231-transcript-meta-recipe/ "Transcripts, Captions, and Subtitles - General Considerations"
@@ -64,7 +64,7 @@
 [0232]: {{ site.cookbook_url | absolute_url }}/recipe/0232-image-thumbnail-canvas/ "Implementation discussion: Thumbnails on Canvases"
 [0234]: {{ site.cookbook_url | absolute_url }}/recipe/0234-provider/ "Acknowledge Content Contributors"
 [0240]: {{ site.cookbook_url | absolute_url }}/recipe/0240-navPlace-on-canvases/ "Locate Multiple Canvases on a Web Map"
-[253-4]: {{ site.cookbook_url | absolute_url }}/recipe/0253-using-transcript-file/ "Using Transcript Files with Audio or Video Content" 
+[0253-4]: {{ site.cookbook_url | absolute_url }}/recipe/0253-using-transcript-file/ "Using Transcript Files with Audio or Video Content" 
 [0258]: {{ site.cookbook_url | absolute_url }}/recipe/0258-tagging-external-resource/ "Tagging with an External Resource"
 [0261]: {{ site.cookbook_url | absolute_url }}/recipe/0261-non-rectangular-commenting/ "Annotation with a Non-Rectangular Polygon"
 [0258]: {{ site.cookbook_url | absolute_url }}/recipe/0258-tagging-external-resource/ "Tagging with an External Resource"
