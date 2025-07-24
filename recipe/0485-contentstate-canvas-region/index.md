@@ -5,6 +5,8 @@ layout: recipe
 tags: [annotation, content-state]
 summary: "Allows users to use Content State API to open a specific region of a Canvas by means of supported viewers."
 viewers:
+  - Clover
+  - Theseus
 topic:
  - content-state
 ---
@@ -79,7 +81,7 @@ and this is located in the following region of the second image:
 
 ![Location of the region to be highlighted.](page.jpg)
 
-{% include content-state-viewers.html iiif-content="annotation.json" viewers="" %}
+{% include content-state-viewers.html iiif-content="annotation.json" viewers="Clover, Theseus" %}
 
 {% include jsonviewer.html src="annotation.json" %}
 
