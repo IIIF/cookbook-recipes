@@ -54,6 +54,7 @@
 [0232]: {{ site.cookbook_url | absolute_url }}/recipe/0232-image-thumbnail-canvas/ "Implementation discussion: Thumbnails on Canvases"
 [0234]: {{ site.cookbook_url | absolute_url }}/recipe/0234-provider/ "Acknowledge Content Contributors"
 [0240]: {{ site.cookbook_url | absolute_url }}/recipe/0240-navPlace-on-canvases/ "Locate Multiple Canvases on a Web Map"
+
 [0253-4]: {{ site.cookbook_url | absolute_url }}/recipe/0253-using-transcript-file/ "Using Transcript Files with Audio or Video Content" 
 [0258]: {{ site.cookbook_url | absolute_url }}/recipe/0258-tagging-external-resource/ "Tagging with an External Resource"
 [0261]: {{ site.cookbook_url | absolute_url }}/recipe/0261-non-rectangular-commenting/ "Annotation with a Non-Rectangular Polygon"
