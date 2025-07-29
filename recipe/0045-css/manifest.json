@@ -53,9 +53,11 @@
               "id": "{{ id.path }}/page/p2/anno-1",
               "type": "Annotation",
 			  "motivation": "commenting",
+			  "stylesheet": "{{ id.path }}/style.css",
 			  "body": {
 			  	"id": "{{ id.path }}/body/sr1",
 				"type": "SpecificResource",
+				"styleClass": "redEmphasis",
 				"source": {
 			  	  "id": "{{ id.path }}/body/text1",
 				  "type": "TextualBody",
@@ -74,16 +76,16 @@
 			  "body": {
 			  	"id": "{{ id.path }}/body/sr2",
 				"type": "SpecificResource",
-				"styleClass": "yellowHighlight",
+				"styleClass": "yellowEmphasis",
 				"source": {
 			  	  "id": "{{ id.path }}/body/text2",
 				  "type": "TextualBody",
 				  "language": "en",
 				  "format": "text/html",
-				  "value": "<p>The natural beauty of the setting could be seen as a contrast to the manufactured pursuits of noble men.</p>"
+				  "value": "<p>The detail in the natural beauty of the setting could be seen as a contrast (or balance) to the manufactured pursuits of noble men.</p>"
 				}
 			  },
-              "target": "{{ id.path }}/canvas/p1#xywh=2500,1550,850,1150"
+              "target": "{{ id.path }}/canvas/p1#xywh=170,160,2200,1000"
 			}
 		  ]
 		}
