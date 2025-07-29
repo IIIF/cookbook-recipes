@@ -1,46 +1,51 @@
 ---
-title: Name of Recipe
-id: -1
+title: CSS in Annotations
+id: 45
 layout: recipe
-tags: [tbc]
-summary: "tbc"
+tags: [style]
+summary: "Using basic CSS, annotations can be styled in limited ways"
 viewers:
 topic:
  - basic
+code:
+ - iiif-prezi3
 ---
 
 ## Use Case
 
-Describe the use case that the pattern is intended to solve.
-Why is this pattern important?
+You have two annotations to make on a visual resource. To distinguish them, one should have red text and the other should have yellow text.
 
 ## Implementation Notes
 
-What do you need to know to use this pattern?
-How do you implement the pattern?
+Using CSS to alter resource presentation styles is not specified in the [IIIF Presentation 3.0 API](https://iiif.io/api/presentation/3.0/). The Presentation API section is provided as a convenient but light explanation of this approach. For a more detailed look at styles in Web Annotations, see [the W3C Web Annotation Data Model's Styles section](https://www.w3.org/TR/annotation-model/#styles).
+
+Styling added to a manifest may be unreliable across viewers. For one example, since IIIF Canvas dimensions are unit-less, using pixels for text size is valid but may not be interpreted identically by different viewers.
+
+CSS can be added in 3 ways: inline, with an inline stylesheet, or with an external stylesheet. Inline styles are written conventionally, using markup elements as content containers or style delimiters. See [HTML in Annotations][0019] for a brief discussion of limitations to markup in annotations. Inline stylesheets and external stylesheets are incorporated in similar ways. For each, the `target` property of an Annotation contains two subsidiary properties, `source` and `styleClass`. The former takes the URI of the Canvas containing the IIIF resource to be annotated and the latter takes an arbitrary string with a class name. Each also uses a `stylesheet` property at the same level as the Annotation's `id`.
+
+For an inline stylesheet, the `stylesheet` property has two subsidiary properties, `type` and `value`. The `type` value is invariantly `CssStylesheet`, and the `value` is a CSS rule for a class whose name is the same as the `styleClass` value used in the Annotation's `target`.
+
+For an external stylesheet, the `stylesheet` property value is a string containing the stylesheet's URI.
 
 ## Restrictions
 
-When is this pattern is usable / not usable? Is it deprecated? If it uses multiple specifications, which versions are needed, etc.?
-
-Delete this section if it is not needed.
-If you don't know what the restrictions might be initially, just leave the following line:
-**Unknown - Help Needed**
+The CSS approach depends wholly on viewer implementation of CSS as applied to a resource. Viewers have no requirement to support CSS styling. Browser-based viewers may defer CSS implementation in whole or in part to the browser.
 
 ## Example
 
-Describe the solution in prose and provide an example.
-The example json document must be an external document, and imported with the following:
+This recipe focuses on annotations with motivations other than painting and on an external CSS stylesheet. For styling a IIIF resource that uses a `motivation` of `painting`, see [Image Rotation Two Ways][0040] (inline stylesheet) and [Visible Text Resource on a Canvas][0561] (inline CSS). A viewer might render the manifest in this recipe as shown in this image:
 
-{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Ramp, Aviary, Glycerine, Theseus" manifest="manifest.json" %}
+![One possible rendering of this recipe's manifest](image_css_external_stylesheet.png)
+
+{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer, Theseus" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 
-The direct link to the fixture is a useful convenience.
-
 ## Related Recipes
 
-Provide a bulleted list of related recipes and why they are relevant.
+* [Image Rotation Two Ways][0040], for an inline CSS stylesheet used with a IIIF resource
+* [HTML in Annotations][0019], a complementary recipe (for markup), including a brief discussion of cautions
+* [Visible Text Resource on a Canvas][0561], for inline CSS used with a painted textual resource
 
 {% include acronyms.md %}
 {% include links.md %}
