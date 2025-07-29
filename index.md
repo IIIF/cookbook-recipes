@@ -61,6 +61,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
 * [Locate Multiple Canvases on a Web Map][0240]
 * [Acknowledge Content Contributors][0234]
 * [Simple Collection][0032]
+* [Reuse parts of a Manifest][0464]
 
 ## Textual and other supplementary content
 
@@ -95,6 +96,7 @@ _(leading on to segmentation examples later)_
 * [Using Annotation collections][0309]
 * [Image in annotations][0377]
 * [Annotating in Multiple Languages][0346]
+* [Visible Text Resource on a Canvas][0561]
 
 ## Internal structure
 
@@ -116,6 +118,7 @@ _(leading on to segmentation examples later)_
 * [Multiple choice of images in a single view][0033] (29)
 * [Foldouts, Flaps, and Maps][0035]
 * [Composition from Multiple Images][0036] (30,31)
+* [Rendering Resources Sequentially on a Timeline][0560]
 * [Rendering Multiple Media Types on a Time-Based Canvas][0489]
 * Multiple images and multiple choices (32,33,34)
 * [Annotating part of an image to a Canvas][recipe-segment-image-part] (e.g., crop out scanner) (35,36,37,38)
@@ -153,7 +156,7 @@ Recipes using [Content State API](https://iiif.io/api/content-state/1.0/)
 * extensions (18)
 * services (9,10)
 * Mixed version scenarios (Prezi 3+Image 2)
-* Publishing v2 and v3 versions
+* [Making IIIF Presentation API v2 and v3 manifests available at the same URL][0057]
 
 ## Real-world complex objects (ideally taken from actual collections)
 

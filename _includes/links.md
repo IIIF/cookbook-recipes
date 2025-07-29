@@ -35,8 +35,9 @@
 [0040]: {{ site.cookbook_url | absolute_url }}/recipe/0040-image-rotation-service/ "Image Rotation Two Ways"
 
 [0047]: {{ site.cookbook_url | absolute_url }}/recipe/0047-homepage/ "Linking to Web Page of an Object"
-[0053]: {{ site.cookbook_url | absolute_url }}/recipe/0053-seeAlso/ "Linking to Structured Metadata"
 [0046]: {{ site.cookbook_url | absolute_url }}/recipe/0046-rendering/ "Providing Alternative Representations"
+[0053]: {{ site.cookbook_url | absolute_url }}/recipe/0053-seeAlso/ "Linking to Structured Metadata"
+[0057]: {{ site.cookbook_url | absolute_url }}/recipe/0057-publishing-v2-and-v3/ "Making IIIF Presentation API v2 and v3 manifests available at the same URL"
 [0064]: {{ site.cookbook_url | absolute_url }}/recipe/0064-opera-one-canvas/ "Table of Contents for Multiple A/V Files on a Single Canvas"
 [0065]: {{ site.cookbook_url | absolute_url }}/recipe/0065-opera-multiple-canvases/ "Table of Contents for Multiple A/V Files on Multiple Canvases"
 
@@ -75,13 +76,15 @@
 [0346]: {{ site.cookbook_url | absolute_url }}/recipe/0346-multilingual-annotation-body/ "Annotating in Multiple Languages"
 [0377]: {{ site.cookbook_url | absolute_url }}/recipe/0377-image-in-annotation/ "Image in annotation"
 
+[0464]: {{ site.cookbook_url | absolute_url }}/recipe/0464-reuse-manifest/ "Reuse parts of a Manifest"
 [0466]: {{ site.cookbook_url | absolute_url }}/recipe/0466-link-for-loading-manifest/ "Loading a manifest with a viewer using a link"
-
 [0485]: {{ site.cookbook_url | absolute_url }}/recipe/0485-contentstate-canvas-region/ "Open a specific region of a canvas in a viewer"
-
 [0434]: {{ site.cookbook_url | absolute_url }}/recipe/0434-choice-av/ "Multiple Choice of Audio Formats in a Single View (Canvas)"
 [0489]: {{ site.cookbook_url | absolute_url }}/recipe/0489-multimedia-canvas/ "Rendering Multiple Media Types on a Time-Based Canvas"
 [0540]: {{ site.cookbook_url | absolute_url }}/recipe/0540-link-for-opening-multiple-canvases/ "Sharing a link for opening two or more Canvases"
+
+[0560]: {{ site.cookbook_url | absolute_url }}/recipe/0560-resources-on-a-timeline/ "Rendering Resources Sequentially on a Timeline"
+[0561]: {{ site.cookbook_url | absolute_url }}/recipe/0561-text-on-image/ "Visible Text Resource on a Canvas"
 
 [cookbook-process]: {{site.cookbook_url | absolute_url }}/recipe
 
