@@ -14,8 +14,8 @@
     {
       "id": "{{ id.path }}/canvas/p1",
       "type": "Canvas",
-      "height": 31722,
-      "width": 70399,
+      "height": 3966,
+      "width": 8800,
       "items": [
         {
           "id": "{{ id.path }}/page/p1/1",
@@ -29,8 +29,8 @@
                 "id": "https://iiif.io/api/image/3.0/example/reference/36ca0a3370db128ec984b33d71a1543d-100320001004/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 31722,
-                "width": 70399,
+                "height": 3966,
+                "width": 8800,
                 "service": [
                   {
                     "id": "https://iiif.io/api/image/3.0/example/reference/36ca0a3370db128ec984b33d71a1543d-100320001004",
@@ -57,13 +57,13 @@
 			  "body": {
 			  	"id": "{{ id.path }}/body/sr1",
 				"type": "SpecificResource",
-				"styleClass": "redEmphasis",
+				"styleClass": "author1",
 				"source": {
 			  	  "id": "{{ id.path }}/body/text1",
 				  "type": "TextualBody",
 				  "language": "en",
 				  "format": "text/html",
-				  "value": "<p>Three of the four thematic pursuits of refined and noble men are shown on this side of the screen: the koto, go, and calligraphy (each in a container or wrapper).</p>"
+				  "value": "<p>Three of the four pursuits of refined and noble men named in the screen's title are shown on this side of the screen: go, the koto, and tools for calligraphy. Each is in a container or wrapper. (GR)</p>"
 				}
 			  },
               "target": "{{ id.path }}/canvas/p1#xywh=700,1250,1850,1150"
@@ -76,13 +76,13 @@
 			  "body": {
 			  	"id": "{{ id.path }}/body/sr2",
 				"type": "SpecificResource",
-				"styleClass": "yellowEmphasis",
+				"styleClass": "author2",
 				"source": {
 			  	  "id": "{{ id.path }}/body/text2",
 				  "type": "TextualBody",
 				  "language": "en",
 				  "format": "text/html",
-				  "value": "<p>The detail in the natural beauty of the setting could be seen as a contrast (or balance) to the manufactured pursuits of noble men.</p>"
+				  "value": "<p>The detail in the natural beauty of the setting could be seen as a contrast (or balance) to the manufactured pursuits of noble men. (TK)</p>"
 				}
 			  },
               "target": "{{ id.path }}/canvas/p1#xywh=170,160,2200,1000"
