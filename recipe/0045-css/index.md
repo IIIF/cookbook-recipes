@@ -3,7 +3,7 @@ title: CSS in an Annotation Body
 id: 45
 layout: recipe
 tags: [style]
-summary: "Using basic CSS, annotations can be styled in limited ways"
+summary: "Using an external CSS stylesheet in an annotation body, annotations can be styled in limited ways"
 viewers:
 topic:
  - basic
@@ -13,7 +13,7 @@ code:
 
 ## Use Case
 
-You have two annotations to make on a visual resource. To distinguish them, one should have red text and the other should have yellow text.
+You have two annotations to make on a visual resource. To distinguish their authors, each will be in a different text color.
 
 ## Implementation Notes
 
@@ -29,7 +29,7 @@ For an external stylesheet, the `stylesheet` property value is a string containi
 
 ## Restrictions
 
-The CSS approach depends wholly on viewer implementation of CSS as applied to a resource. Viewers have no requirement to support CSS styling. Browser-based viewers may defer CSS implementation in whole or in part to the browser.
+The CSS approach depends wholly on viewer implementation of CSS as applied to a resource. Viewers have no requirement to support CSS styling. Browser-based viewers may defer CSS implementation in whole or in part to the browser. Consequently, and also for reasons of accessibility, annotations should not rely on styling for semantics and should be readable by a human or machine without styling.
 
 ## Example
 
@@ -37,9 +37,9 @@ This recipe focuses on annotations with motivations other than painting and on a
 
 ![One possible rendering of this recipe's manifest](image_css_external_stylesheet.png)
 
-{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer, Theseus" manifest="manifest.json" %}
+{% include manifest_links.html manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" %}
+{% include jsonviewer.html src="manifest.json" config='data-line="56,60,75,79"' %}
 
 ## Related Recipes
 
