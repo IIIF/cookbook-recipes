@@ -1,9 +1,9 @@
-.redHighlight {
-	color: white;
-	background-color: red;
+.author1 {
+	color: #f00;
+	background-color: #fff;
 }
 
-.yellowHighlight {
-	color: black;
-	background-color: yellow;
+.author2 {
+	color: #00f;
+	background-color: #fff;
 }
