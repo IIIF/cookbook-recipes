@@ -30,7 +30,7 @@
 [0031]: {{ site.cookbook_url | absolute_url }}/recipe/0031-bound-multivolume/ "Multiple Volumes in a Single Bound Volume"
 
 [0040]: {{ site.cookbook_url | absolute_url }}/recipe/0040-image-rotation-service/ "Image Rotation Two Ways"
-[0045]: {{ site.cookbook_url | absolute_url }}/recipe/0045-css/ "CSS in Annotations"
+[0045]: {{ site.cookbook_url | absolute_url }}/recipe/0045-css/ "CSS in an Annotation Body"
 
 [0047]: {{ site.cookbook_url | absolute_url }}/recipe/0047-homepage/ "Linking to Web Page of an Object"
 [0046]: {{ site.cookbook_url | absolute_url }}/recipe/0046-rendering/ "Providing Alternative Representations"
