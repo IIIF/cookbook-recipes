@@ -9,7 +9,7 @@ gem 'iiifc-theme', github: 'iiif/iiifc-theme', branch: 'ignore-font-awsome'
 # For open graph and Twitter Card elements
 gem 'jekyll-seo-tag'
 
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.8"
 
 # Pining jekyll-liquify as 0.0.3 is broken
 gem "jekyll-liquify", "0.0.2"
