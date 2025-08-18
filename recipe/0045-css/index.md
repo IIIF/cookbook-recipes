@@ -24,7 +24,7 @@ CSS can be added in 3 ways: inline, with an inline stylesheet, or with an extern
 
 For an inline stylesheet, the `stylesheet` property has two subsidiary properties, `type` and `value`. The `type` value is invariantly `CssStylesheet`, and the `value` is a CSS rule for a class whose name is the same as the `styleClass` value used in the Annotation's `target`.
 
-For an external stylesheet, the `stylesheet` property value is a string containing the stylesheet's URI.
+For an external stylesheet, the `stylesheet` property value is a string containing the stylesheet's URI. It is advisable to set appropriate CORS headers for the stylesheet to improve its chances of working in generic viewers.
 
 ## Restrictions
 
