@@ -46,7 +46,7 @@ This recipe focuses on annotations with motivations other than painting and on a
 ## Related Recipes
 
 * [Image Rotation Two Ways][0040], for an inline CSS stylesheet used with a IIIF resource
-* [HTML in Annotations][0019], a complementary recipe (for markup), including a brief discussion of cautions
+* [HTML in Annotations][0019], a complementary recipe for markup, including a fuller discussion of markup use cautions
 * [Visible Text Resource on a Canvas][0561], for inline CSS used with a painted textual resource
 
 {% include acronyms.md %}
