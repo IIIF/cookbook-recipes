@@ -5,6 +5,7 @@ layout: recipe
 tags: [style]
 summary: "Using an external CSS stylesheet in an annotation body, annotations can be styled in limited ways"
 viewers:
+ - Theseus
 topic:
  - basic
 code:
@@ -33,13 +34,14 @@ One example: Since IIIF Canvas dimensions are unit-less, using pixels for text s
 
 ## Example
 
-This recipe focuses on annotations with motivations other than painting and on an external CSS stylesheet. For styling a IIIF resource that uses a `motivation` of `painting`, see [Image Rotation Two Ways][0040] (inline stylesheet) and [Visible Text Resource on a Canvas][0561] (inline CSS). A viewer might render the manifest in this recipe as shown in this image:
-
-![One possible rendering of this recipe's manifest](image_css_external_stylesheet.png)
+This recipe focuses on annotations with motivations other than painting and on an external CSS stylesheet. For styling a IIIF resource that uses a `motivation` of `painting`, see [Image Rotation Two Ways][0040] (inline stylesheet) and [Visible Text Resource on a Canvas][0561] (inline CSS).
 
 {% include manifest_links.html manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="56,60,75,79"' %}
+
+### Stylesheet
+{% include jsonviewer.html src="style.css" %}
 
 ## Related Recipes
 
