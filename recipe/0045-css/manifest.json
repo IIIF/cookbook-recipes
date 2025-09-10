@@ -66,7 +66,10 @@
 				  "value": "<p>Three of the four pursuits of refined and noble men named in the screen's title are shown on this side of the screen: go, the koto, and tools for calligraphy. Each is in a container or wrapper. (GR)</p>"
 				}
 			  },
-              "target": "{{ id.path }}/canvas/p1#xywh=700,1250,1850,1150"
+              "target": {
+              	"source": "{{ id.path }}/canvas/p1#xywh=700,1250,1850,1150",
+              	"styleClass": "author1"
+              }
 			},
 			{
               "id": "{{ id.path }}/page/p2/anno-2",
@@ -85,7 +88,10 @@
 				  "value": "<p>The detail in the natural beauty of the setting could be seen as a contrast (or balance) to the manufactured pursuits of noble men. (TK)</p>"
 				}
 			  },
-              "target": "{{ id.path }}/canvas/p1#xywh=170,160,2200,1000"
+              "target": {
+                "source": "{{ id.path }}/canvas/p1#xywh=170,160,2200,1000",
+                "styleClass": "author2"
+              }
 			}
 		  ]
 		}
