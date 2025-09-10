@@ -26,7 +26,7 @@ For an inline stylesheet, the `stylesheet` property has two subsidiary propertie
 
 For an external stylesheet, the `stylesheet` property value is a string containing the stylesheet's URI. The `styleClass` property can then be used to reference rules in that external stylesheet, such as in the annotation body or composite target containing a `source` as well. It is advisable to set appropriate CORS headers for the stylesheet to improve its chances of working in generic viewers.
 
-Viewer behavior and the specifics of an annotation's target will affect this, but broadly speaking, styling the `body` of an annotation will add styling to the content of the annotation and styling the `target` will add styling to the highlighting on the Canvas.
+Viewer behavior and the specifics of an annotation's `target` will have effects, but broadly speaking, using CSS to style the `body` of an annotation will style the content of the annotation and a CSS class in the `target` will style the annotation's highlight on a Canvas.
 
 ## Restrictions
 
