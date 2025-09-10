@@ -38,9 +38,9 @@ One example: Since IIIF Canvas dimensions are unit-less, using pixels for text s
 
 This recipe focuses on annotations with motivations other than painting and on an external CSS stylesheet. For styling a IIIF resource that uses a `motivation` of `painting`, see [Image Rotation Two Ways][0040] (inline stylesheet) and [Visible Text Resource on a Canvas][0561] (inline CSS).
 
-{% include manifest_links.html manifest="manifest.json" %}
+{% include manifest_links.html manifest="manifest-alt.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="56,60,75,79"' %}
+{% include jsonviewer.html src="manifest-alt.json" config='data-line="56,60,69-72,78,82,91-94"' %}
 
 ### Stylesheet
 {% include jsonviewer.html src="style.css" %}
