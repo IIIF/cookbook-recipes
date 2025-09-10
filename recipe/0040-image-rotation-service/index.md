@@ -31,7 +31,7 @@ Finally, you may use an image service to rotate a region — rather than a whol
 
 If your resource is not being served from an image server that supports the desired rotation (or rotation at all) through the IIIF Image API, then you can use CSS for the rotation. Using CSS for rotation depends on the viewer to rotate the image rather than the server. This approach is used when your image server does not have a IIIF Image API service for the image, or if your image server does not allow rotation through service calls.
 
-By using CSS, you may specify arbitrary rotation figures as well as incorporate additional styling values.
+By using CSS, you may specify arbitrary rotation figures as well as incorporate additional styling values. In order for the rotated image to line up properly with the Canvas, the `transform-origin` CSS property must have the correct value. For rectilinear resources, the value will very often be represented as a pair of points in x, y order where each is half the smaller dimension of the resource. This value may differ meaningfully if other styling that affects the box model is applied.
 
 Using CSS to alter resource presentation styles is not specified in the [IIIF Presentation 3.0 API](https://iiif.io/api/presentation/3.0/). The Presentation API section is provided as a convenient but light explanation of this approach. For a more detailed look at styles in Web Annotations, see [the W3C Web Annotation Data Model's Styles section](https://www.w3.org/TR/annotation-model/#styles).
 
