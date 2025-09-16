@@ -264,14 +264,14 @@
                             "type": "Annotation",
                             "motivation": "painting",
                             "body": {
-                                "id": "https://iiif.io/api/image/3.0/example/reference/e48785dffe01f9b930dcbddf08a57efb-numbered_image_07/full/max/0/default.jpg",
+                                "id": "https://iiif.io/api/image/3.0/example/reference/e48785dffe01f9b930dcbddf08a57efb-numbered_image_07_04/full/max/0/default.jpg",
                                 "type": "Image",
                                 "format": "image/jpeg",
                                 "height": 600,
                                 "width": 300,
                                 "service": [
                                     {
-                                        "id": "https://iiif.io/api/image/3.0/example/reference/e48785dffe01f9b930dcbddf08a57efb-numbered_image_07",
+                                        "id": "https://iiif.io/api/image/3.0/example/reference/e48785dffe01f9b930dcbddf08a57efb-numbered_image_07_04",
                                         "type": "ImageService3",
                                         "profile": "level1"
                                     }
@@ -403,7 +403,7 @@
     ],
     "structures": [
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0024-book-4-toc/range/r1",
+            "id": "{{ id.path }}/range/r1",
             "type": "Range",
             "behavior": "sequence",
             "label": {
@@ -455,7 +455,7 @@
             ]
         },
         {
-            "id": "https://iiif.io/api/cookbook/recipe/0024-book-4-toc/range/r2",
+            "id": "{{ id.path }}/range/r2",
             "type": "Range",
             "behavior": "sequence",
             "label": {
