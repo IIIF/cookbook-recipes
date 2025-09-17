@@ -14,8 +14,8 @@
     {
       "id": "{{ id.path }}/canvas/p1",
       "type": "Canvas",
-      "height": 31722,
-      "width": 70399,
+      "height": 3966,
+      "width": 8800,
       "items": [
         {
           "id": "{{ id.path }}/page/p1/1",
@@ -29,8 +29,8 @@
                 "id": "https://iiif.io/api/image/3.0/example/reference/36ca0a3370db128ec984b33d71a1543d-100320001004/full/max/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 31722,
-                "width": 70399,
+                "height": 3966,
+                "width": 8800,
                 "service": [
                   {
                     "id": "https://iiif.io/api/image/3.0/example/reference/36ca0a3370db128ec984b33d71a1543d-100320001004",
