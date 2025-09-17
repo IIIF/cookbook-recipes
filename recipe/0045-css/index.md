@@ -14,7 +14,7 @@ code:
 
 ## Use Case
 
-Two different authors have each made an annotation on a visual resource. To distinguish their authors, each will be in a different text color.
+You have two different authors who have each made an annotation on a visual resource. You'd like to distinguish the authors visually in the presentation, putting each annotation text in a different text color.
 
 ## Implementation Notes
 
