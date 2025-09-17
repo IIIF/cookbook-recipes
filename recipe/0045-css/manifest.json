@@ -67,6 +67,7 @@
 				}
 			  },
               "target": {
+				"type": "SpecificResource",
               	"source": "{{ id.path }}/canvas/p1#xywh=700,1250,1850,1150",
               	"styleClass": "author1"
               }
@@ -89,6 +90,7 @@
 				}
 			  },
               "target": {
+				"type": "SpecificResource",
                 "source": "{{ id.path }}/canvas/p1#xywh=170,160,2200,1000",
                 "styleClass": "author2"
               }
