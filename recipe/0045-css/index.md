@@ -18,17 +18,17 @@ You have two different authors who have each made an annotation on a visual reso
 
 ## Implementation Notes
 
-Using CSS to alter resource presentation styles is not specified in the [IIIF Presentation 3.0 API](https://iiif.io/api/presentation/3.0/) except insofar as the Presentation API incorporates types from the W3C Web Annotation Data Model. For a more detailed look at the model's approach to styles in Web Annotations, see [the W3C Web Annotation Data Model's Styles section](https://www.w3.org/TR/annotation-model/#styles). Note in particular changes needed to the `target` property if styling is intended for a IIIF Canvas.
+Using CSS in annotations is covered in the W3C Web Annotation Data Model. For a look at its approach to styles in Web Annotations, see [the W3C Web Annotation Data Model's Styles section](https://www.w3.org/TR/annotation-model/#styles). Note in particular changes needed to the `target` property if styling is intended for a IIIF Canvas.
 
-CSS can be added in 3 ways: inline, with an inline stylesheet, or with an external stylesheet. Inline styles are written conventionally, using markup elements as content containers or style delimiters. See [HTML in Annotations][0019] for a brief discussion of limitations to markup in annotations. Inline stylesheets and external stylesheets are incorporated in similar ways. For each, the `target` property of an Annotation contains two subsidiary properties, `source` and `styleClass`. The former takes the URI of the Canvas containing the IIIF resource to be annotated and the latter takes an arbitrary string with a class name. Each also uses a `stylesheet` property at the same level as the Annotation's `id`.
-
-For an inline stylesheet, the `stylesheet` property has two subsidiary properties, `type` and `value`. The `type` value is invariantly `CssStylesheet`, and the `value` is a CSS rule for a class whose name is the same as the `styleClass` value used in the Annotation's `target`.
-
-For an external stylesheet, the `stylesheet` property value is a string containing the stylesheet's URI. The `styleClass` property can then be used to reference rules in that external stylesheet, such as in the annotation body or composite target containing a `source` as well. It is advisable to set appropriate CORS headers for the stylesheet to improve its chances of working in generic viewers.
+Annotations can be styled using CSS in three ways. This recipe focuses on using an external stylesheet. To add CSS using an external stylesheet, insert the stylesheet's URI as the the value of a `stylesheet` property on the Annotation. The `styleClass` property can then be used to reference rules in that external stylesheet, such as in the annotation `body` or composite `target` containing a `source` as well. It is advisable to set appropriate CORS headers for the stylesheet to improve its chances of working in generic viewers.
 
 Viewer behavior and the specifics of an annotation's `target` will have effects, but broadly speaking, using CSS to style the `body` of an annotation will style the content of the annotation and a CSS class in the `target` will style the annotation's highlight on a Canvas.
 
+The two other methods for adding CSS to a manifest are inline CSS and an inline stylesheet. To see how to use an inline stylesheet, see [Image Rotation Two Ways][0040]. To see how to use inline CSS, see [Visible Text Resource on a Canvas][0561]. Each of these also shows styling a IIIF resource in an annotation with a `motivation` of `painting` — that is, styling content that can be expected to be visible in the content space of a viewer.
+
 ## Restrictions
+
+See the Restrictions section of the [HTML in Annotations][0019] recipe for a brief discussion of limitations to markup in annotations. These limitations can affect, in turn, the possible selectors in your external stylesheet.
 
 The CSS approach depends wholly on viewer implementation of CSS as applied to a resource. Viewers have no requirement to support CSS styling. Browser-based viewers may defer CSS implementation in whole or in part to the browser. Consequently, and also for reasons of accessibility, annotations should not rely on styling for semantics and should be readable by a human or machine without styling.
 
@@ -36,11 +36,11 @@ One example: Since IIIF Canvas dimensions are unit-less, using pixels for text s
 
 ## Example
 
-This recipe focuses on annotations with motivations other than painting and on an external CSS stylesheet. For styling a IIIF resource that uses a `motivation` of `painting`, see [Image Rotation Two Ways][0040] (inline stylesheet) and [Visible Text Resource on a Canvas][0561] (inline CSS).
+This recipe focuses on annotations with motivations other than painting and on an external CSS stylesheet. The Theseus viewer is included here for its support of styling the annotation text, but it does not currently support styling the `target`.
 
 {% include manifest_links.html manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="56,60,69-72,78,82,91-94"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="56,60,71,78,82,93"' %}
 
 ### Stylesheet
 {% include jsonviewer.html src="style.css" %}
