@@ -1,5 +1,5 @@
 ---
-title: CSS in an Annotation Body
+title: CSS in an Annotation
 id: 45
 layout: recipe
 tags: [style]
