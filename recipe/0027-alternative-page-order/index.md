@@ -1,5 +1,5 @@
 ---
-title: Alternative Page Order
+title: Alternative Page Sequences
 id: 27
 layout: recipe
 tags: [book, presentation]
