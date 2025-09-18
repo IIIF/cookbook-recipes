@@ -28,6 +28,7 @@
 [0035]: {{site.baseurl}}/recipe/0035-foldouts/ "Foldouts, Flaps, and Maps"
 [0036]: {{site.baseurl}}/recipe/0036-composition-from-multiple-images/ "Composition from Multiple Images"
 [0026]: {{ site.cookbook_url | absolute_url }}/recipe/0026-toc-opera/ "Table of Contents for A/V Content"
+[0027]: {{ site.cookbook_url | absolute_url }}/recipe/0027-alternative-page-order/ "Alternative Page Sequence"
 [0029]: {{ site.cookbook_url | absolute_url }}/recipe/0029-metadata-anywhere/ "Metadata on any Resource"
 [0030]: {{ site.cookbook_url | absolute_url }}/recipe/0030-multi-volume/ "Multi-volume Work with Individually-bound Volumes"
 [0031]: {{ site.cookbook_url | absolute_url }}/recipe/0031-bound-multivolume/ "Multiple Volumes in a Single Bound Volume"
