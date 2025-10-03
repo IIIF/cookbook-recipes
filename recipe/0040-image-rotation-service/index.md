@@ -53,6 +53,8 @@ The image service approach is not usable if you do not have a IIIF Image API ser
 
 The CSS approach depends wholly on viewer implementation of CSS as applied to a resource. Viewers have no requirement to support CSS styling.
 
+Be aware that values, especially `transform-origin` and translation, may differ meaningfully if other styling affecting the box model is applied. Translations may differ from the above in use of `translateX` or `translateY`, whether a translation has a positive value or negative value.
+
 ## Example
 
 For this recipe, we conveniently had a work on hand that had a page whose text direction was oriented perpendicularly to the facing page. For simplicity's sake, we are using the page in isolation. Because no viewers currently support rotation, we have included here a picture of the page in its original orientation followed by a picture of the page oriented according to the manifests' declarations for rotation.
