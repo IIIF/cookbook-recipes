@@ -46,7 +46,7 @@
                                 },
                                 "selector": {
                                     "type": "ImageApiSelector",
-                                    "rotation": "90"
+                                    "rotation": "270"
                                 }
                             },
                             "target": "{{ id.path }}/canvas/p1"
