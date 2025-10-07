@@ -81,12 +81,12 @@ but we would welcome other viewers. To see the requirements for adding other vie
 This provides a standard link to the JSON and also to viewers. A full example is as follows:
 
 ```
-{% include manifest_links.html viewers="UV, Mirador, Tify, Curation" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, TIFY, Curation" manifest="manifest.json" %}
 ```
 
 and this would produce the following line:
 
-[JSON-LD]() | [View in Universal Viewer]() | [View in Mirador]() | [View in Tify]() | [View in IIIF Curation Viewer]()
+[JSON-LD]() | [View in Universal Viewer]() | [View in Mirador]() | [View in TIFY]() | [View in IIIF Curation Viewer]()
 
 The `manifest` parameter allows you to pass a relative link to the manifest and the `viewers` parameter is a list of Viewer links to show. For the Viewers property you have the following options:
 

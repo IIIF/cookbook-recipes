@@ -6,6 +6,7 @@ tags: [images, behavior, non-paged]
 summary: "Demonstrates how to model a foldout diagram or map."
 viewers:
  - Theseus
+ - TIFY
 topic: structure
 property: behavior
 ---
@@ -52,7 +53,7 @@ The "non-paged" behavior on Canvases is not yet supported by viewers making this
 
 ![thumbnail layout example with non-paged](layout_example1.jpg)
 
-{% include manifest_links.html viewers="Theseus" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Theseus, TIFY" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="10-12, 134-136"' %}
 
