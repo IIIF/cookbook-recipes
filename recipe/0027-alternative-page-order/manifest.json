@@ -1,510 +1,226 @@
 {
-    "@context": [
-        "http://iiif.io/api/presentation/3/context.json"
-    ],
-    "id": "{{ id.url }} ",
-    "type": "Manifest",
-    "label": {
-        "en": [
-            "Misbound Book Example"
-        ]
-    },
-    "items": [
-        {
-            "id": "{{ id.path }}/canvas/p1",
-            "type": "Canvas",
-            "label": {
-                "en": [
-                    "p.01 (p.06)"
-                ]
-            },
-            "height": 600,
-            "width": 300,
-            "items": [
-                {
-                    "id": "{{ id.path }}/page/p1/1",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "{{ id.path }}/annotation/p0001-image",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://iiif.io/api/image/3.0/example/reference/e48785dffe01f9b930dcbddf08a57efb-numbered_image_01_06/full/max/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 600,
-                                "width": 300,
-                                "service": [
-                                    {
-                                        "id": "https://iiif.io/api/image/3.0/example/reference/e48785dffe01f9b930dcbddf08a57efb-numbered_image_01_06",
-                                        "type": "ImageService3",
-                                        "profile": "level1"
-                                    }
-                                ]
-                            },
-                            "target": "{{ id.path }}/canvas/p1"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "{{ id.path }}/canvas/p2",
-            "type": "Canvas",
-            "label": {
-                "en": [
-                    "p.02 (p.10)"
-                ]
-            },
-            "height": 600,
-            "width": 300,
-            "items": [
-                {
-                    "id": "{{ id.path }}/page/p2/1",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "{{ id.path }}/annotation/p0002-image",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://iiif.io/api/image/3.0/example/reference/e48785dffe01f9b930dcbddf08a57efb-numbered_image_02_10/full/max/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 600,
-                                "width": 300,
-                                "service": [
-                                    {
-                                        "id": "https://iiif.io/api/image/3.0/example/reference/e48785dffe01f9b930dcbddf08a57efb-numbered_image_02_10",
-                                        "type": "ImageService3",
-                                        "profile": "level1"
-                                    }
-                                ]
-                            },
-                            "target": "{{ id.path }}/canvas/p2"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "{{ id.path }}/canvas/p3",
-            "type": "Canvas",
-            "label": {
-                "en": [
-                    "p.03 (p.02)"
-                ]
-            },
-            "height": 600,
-            "width": 300,
-            "items": [
-                {
-                    "id": "{{ id.path }}/page/p3/1",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "{{ id.path }}/annotation/p0003-image",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://iiif.io/api/image/3.0/example/reference/e48785dffe01f9b930dcbddf08a57efb-numbered_image_03_02/full/max/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 600,
-                                "width": 300,
-                                "service": [
-                                    {
-                                        "id": "https://iiif.io/api/image/3.0/example/reference/e48785dffe01f9b930dcbddf08a57efb-numbered_image_03_02",
-                                        "type": "ImageService3",
-                                        "profile": "level1"
-                                    }
-                                ]
-                            },
-                            "target": "{{ id.path }}/canvas/p3"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "{{ id.path }}/canvas/p4",
-            "type": "Canvas",
-            "label": {
-                "en": [
-                    "p.04 (p.08)"
-                ]
-            },
-            "height": 600,
-            "width": 300,
-            "items": [
-                {
-                    "id": "{{ id.path }}/page/p4/1",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "{{ id.path }}/annotation/p0004-image",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://iiif.io/api/image/3.0/example/reference/e48785dffe01f9b930dcbddf08a57efb-numbered_image_04_08/full/max/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 600,
-                                "width": 300,
-                                "service": [
-                                    {
-                                        "id": "https://iiif.io/api/image/3.0/example/reference/e48785dffe01f9b930dcbddf08a57efb-numbered_image_04_08",
-                                        "type": "ImageService3",
-                                        "profile": "level1"
-                                    }
-                                ]
-                            },
-                            "target": "{{ id.path }}/canvas/p4"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "{{ id.path }}/canvas/p5",
-            "type": "Canvas",
-            "label": {
-                "en": [
-                    "p.05 (p.01)"
-                ]
-            },
-            "height": 600,
-            "width": 300,
-            "items": [
-                {
-                    "id": "{{ id.path }}/page/p5/1",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "{{ id.path }}/annotation/p0005-image",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://iiif.io/api/image/3.0/example/reference/e48785dffe01f9b930dcbddf08a57efb-numbered_image_05_01/full/max/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 600,
-                                "width": 300,
-                                "service": [
-                                    {
-                                        "id": "https://iiif.io/api/image/3.0/example/reference/e48785dffe01f9b930dcbddf08a57efb-numbered_image_05_01",
-                                        "type": "ImageService3",
-                                        "profile": "level1"
-                                    }
-                                ]
-                            },
-                            "target": "{{ id.path }}/canvas/p5"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "{{ id.path }}/canvas/p6",
-            "type": "Canvas",
-            "label": {
-                "en": [
-                    "p.06 (p.07)"
-                ]
-            },
-            "height": 600,
-            "width": 300,
-            "items": [
-                {
-                    "id": "{{ id.path }}/page/p6/1",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "{{ id.path }}/annotation/p0006-image",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://iiif.io/api/image/3.0/example/reference/e48785dffe01f9b930dcbddf08a57efb-numbered_image_06_07/full/max/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 600,
-                                "width": 300,
-                                "service": [
-                                    {
-                                        "id": "https://iiif.io/api/image/3.0/example/reference/e48785dffe01f9b930dcbddf08a57efb-numbered_image_06_07",
-                                        "type": "ImageService3",
-                                        "profile": "level1"
-                                    }
-                                ]
-                            },
-                            "target": "{{ id.path }}/canvas/p6"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "{{ id.path }}/canvas/p7",
-            "type": "Canvas",
-            "label": {
-                "en": [
-                    "p.07 (p.04)"
-                ]
-            },
-            "height": 600,
-            "width": 300,
-            "items": [
-                {
-                    "id": "{{ id.path }}/page/p7/1",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "{{ id.path }}/annotation/p0007-image",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://iiif.io/api/image/3.0/example/reference/e48785dffe01f9b930dcbddf08a57efb-numbered_image_07_04/full/max/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 600,
-                                "width": 300,
-                                "service": [
-                                    {
-                                        "id": "https://iiif.io/api/image/3.0/example/reference/e48785dffe01f9b930dcbddf08a57efb-numbered_image_07_04",
-                                        "type": "ImageService3",
-                                        "profile": "level1"
-                                    }
-                                ]
-                            },
-                            "target": "{{ id.path }}/canvas/p7"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "{{ id.path }}/canvas/p8",
-            "type": "Canvas",
-            "label": {
-                "en": [
-                    "p.08 (p.09)"
-                ]
-            },
-            "height": 600,
-            "width": 300,
-            "items": [
-                {
-                    "id": "{{ id.path }}/page/p8/1",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "{{ id.path }}/annotation/p0008-image",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://iiif.io/api/image/3.0/example/reference/e48785dffe01f9b930dcbddf08a57efb-numbered_image_08_09/full/max/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 600,
-                                "width": 300,
-                                "service": [
-                                    {
-                                        "id": "https://iiif.io/api/image/3.0/example/reference/e48785dffe01f9b930dcbddf08a57efb-numbered_image_08_09",
-                                        "type": "ImageService3",
-                                        "profile": "level1"
-                                    }
-                                ]
-                            },
-                            "target": "{{ id.path }}/canvas/p8"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "{{ id.path }}/canvas/p9",
-            "type": "Canvas",
-            "label": {
-                "en": [
-                    "p.09 (p.05)"
-                ]
-            },
-            "height": 600,
-            "width": 300,
-            "items": [
-                {
-                    "id": "{{ id.path }}/page/p9/1",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "{{ id.path }}/annotation/p0009-image",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://iiif.io/api/image/3.0/example/reference/e48785dffe01f9b930dcbddf08a57efb-numbered_image_09_05/full/max/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 600,
-                                "width": 300,
-                                "service": [
-                                    {
-                                        "id": "https://iiif.io/api/image/3.0/example/reference/e48785dffe01f9b930dcbddf08a57efb-numbered_image_09_05",
-                                        "type": "ImageService3",
-                                        "profile": "level1"
-                                    }
-                                ]
-                            },
-                            "target": "{{ id.path }}/canvas/p9"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "{{ id.path }}/canvas/p10",
-            "type": "Canvas",
-            "label": {
-                "en": [
-                    "p.10 (p.03)"
-                ]
-            },
-            "height": 600,
-            "width": 300,
-            "items": [
-                {
-                    "id": "{{ id.path }}/page/p10/1",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "{{ id.path }}/annotation/p0010-image",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://iiif.io/api/image/3.0/example/reference/e48785dffe01f9b930dcbddf08a57efb-numbered_image_10_03/full/max/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 600,
-                                "width": 300,
-                                "service": [
-                                    {
-                                        "id": "https://iiif.io/api/image/3.0/example/reference/e48785dffe01f9b930dcbddf08a57efb-numbered_image_10_03",
-                                        "type": "ImageService3",
-                                        "profile": "level1"
-                                    }
-                                ]
-                            },
-                            "target": "{{ id.path }}/canvas/p10"
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "structures": [
-        {
-            "id": "{{ id.path }}/range/r1",
-            "type": "Range",
-            "behavior": "sequence",
-            "label": {
-                "en": [
-                    "Sequence A"
-                ]
-            },
-            "items": [
-                {
-                    "id": "{{ id.path }}/canvas/p1",
-                    "type": "Canvas"
-                },
-                {
-                    "id": "{{ id.path }}/canvas/p2",
-                    "type": "Canvas"
-                },
-                {
-                    "id": "{{ id.path }}/canvas/p3",
-                    "type": "Canvas"
-                },
-                {
-                    "id": "{{ id.path }}/canvas/p4",
-                    "type": "Canvas"
-                },
-                {
-                    "id": "{{ id.path }}/canvas/p5",
-                    "type": "Canvas"
-                },
-                {
-                    "id": "{{ id.path }}/canvas/p6",
-                    "type": "Canvas"
-                },
-                {
-                    "id": "{{ id.path }}/canvas/p7",
-                    "type": "Canvas"
-                },
-                {
-                    "id": "{{ id.path }}/canvas/p8",
-                    "type": "Canvas"
-                },
-                {
-                    "id": "{{ id.path }}/canvas/p9",
-                    "type": "Canvas"
-                },
-                {
-                    "id": "{{ id.path }}/canvas/p10",
-                    "type": "Canvas"
-                }
-            ]
-        },
-        {
-            "id": "{{ id.path }}/range/r2",
-            "type": "Range",
-            "behavior": "sequence",
-            "label": {
-                "en": [
-                    "Sequence B"
-                ]
-            },
-            "items": [
-                {
-                    "id": "{{ id.path }}/canvas/p5",
-                    "type": "Canvas"
-                },
-                {
-                    "id": "{{ id.path }}/canvas/p3",
-                    "type": "Canvas"
-                },
-                {
-                    "id": "{{ id.path }}/canvas/p10",
-                    "type": "Canvas"
-                },
-                {
-                    "id": "{{ id.path }}/canvas/p7",
-                    "type": "Canvas"
-                },
-                {
-                    "id": "{{ id.path }}/canvas/p9",
-                    "type": "Canvas"
-                },
-                {
-                    "id": "{{ id.path }}/canvas/p1",
-                    "type": "Canvas"
-                },
-                {
-                    "id": "{{ id.path }}/canvas/p6",
-                    "type": "Canvas"
-                },
-                {
-                    "id": "{{ id.path }}/canvas/p4",
-                    "type": "Canvas"
-                },
-                {
-                    "id": "{{ id.path }}/canvas/p8",
-                    "type": "Canvas"
-                },
-                {
-                    "id": "{{ id.path }}/canvas/p2",
-                    "type": "Canvas"
-                }
-            ]
-        }
-    ]
+	"@context": "http://iiif.io/api/presentation/3/context.json",
+	"id": "{{ id.url }}",
+	"type": "Manifest",
+	"label": {
+		"en": [
+			"Italy, Vicenza, Biblioteca Civica Bertoliana, CF. 1.1"
+		]
+	},
+	"items": [
+		{
+			"id": "{{ id.path }}/canvas/p1",
+			"type": "Canvas",
+			"label": {
+				"en": [
+					"171r (387)"
+				]
+			},
+			"height": 3184,
+			"width": 2156,
+			"items": [
+				{
+					"id": "{{ id.path }}/page/p1/1",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "{{ id.path }}/annotation/p0001-image",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif.io/api/image/3.0/example/reference/3ec31f43ce55cfcc076804c88c06aa43-CF-f0186r_aVISNK_387/full/max/0/default.jpg",
+								"type": "Image",
+								"format": "image/jpeg",
+								"height": 3184,
+								"width": 2156,
+								"service": [
+									{
+										"id": "https://iiif.io/api/image/3.0/example/reference/3ec31f43ce55cfcc076804c88c06aa43-CF-f0186r_aVISNK_387",
+										"type": "ImageService3",
+										"profile": "level1"
+									}
+								]
+							},
+							"target": "{{ id.path }}/canvas/p1"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "{{ id.path }}/canvas/p2",
+			"type": "Canvas",
+			"label": {
+				"en": [
+					"171v (384)"
+				]
+			},
+			"height": 3184,
+			"width": 2156,
+			"items": [
+				{
+					"id": "{{ id.path }}/page/p2/1",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "{{ id.path }}/annotation/p0002-image",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif.io/api/image/3.0/example/reference/3ec31f43ce55cfcc076804c88c06aa43-CF-f0186v_aVISNK_384/full/max/0/default.jpg",
+								"type": "Image",
+								"format": "image/jpeg",
+								"height": 3184,
+								"width": 2156,
+								"service": [
+									{
+										"id": "https://iiif.io/api/image/3.0/example/reference/3ec31f43ce55cfcc076804c88c06aa43-CF-f0186v_aVISNK_384",
+										"type": "ImageService3",
+										"profile": "level1"
+									}
+								]
+							},
+							"target": "{{ id.path }}/canvas/p2"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "{{ id.path }}/canvas/p3",
+			"type": "Canvas",
+			"label": {
+				"en": [
+					"172r (385)"
+				]
+			},
+			"height": 3184,
+			"width": 2156,
+			"items": [
+				{
+					"id": "{{ id.path }}/page/p3/1",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "{{ id.path }}/annotation/p0003-image",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif.io/api/image/3.0/example/reference/3ec31f43ce55cfcc076804c88c06aa43-CF-f0187r_aVISNK_385/full/max/0/default.jpg",
+								"type": "Image",
+								"format": "image/jpeg",
+								"height": 3184,
+								"width": 2156,
+								"service": [
+									{
+										"id": "https://iiif.io/api/image/3.0/example/reference/3ec31f43ce55cfcc076804c88c06aa43-CF-f0187r_aVISNK_385",
+										"type": "ImageService3",
+										"profile": "level1"
+									}
+								]
+							},
+							"target": "{{ id.path }}/canvas/p3"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "{{ id.path }}/canvas/p4",
+			"type": "Canvas",
+			"label": {
+				"en": [
+					"172v ([386])"
+				]
+			},
+			"height": 3184,
+			"width": 2156,
+			"items": [
+				{
+					"id": "{{ id.path }}/page/p4/1",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "{{ id.path }}/annotation/p0004-image",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif.io/api/image/3.0/example/reference/3ec31f43ce55cfcc076804c88c06aa43-CF-f0187v_aVISNK_386/full/max/0/default.jpg",
+								"type": "Image",
+								"format": "image/jpeg",
+								"height": 3184,
+								"width": 2156,
+								"service": [
+									{
+										"id": "https://iiif.io/api/image/3.0/example/reference/3ec31f43ce55cfcc076804c88c06aa43-CF-f0187v_aVISNK_386",
+										"type": "ImageService3",
+										"profile": "level1"
+									}
+								]
+							},
+							"target": "{{ id.path }}/canvas/p4"
+						}
+					]
+				}
+			]
+		}
+	],
+	"structures": [
+		{
+			"id": "{{ id.path }}/range/r1",
+			"type": "Range",
+			"behavior": "sequence",
+			"label": {
+				"en": [
+					"Corrected Page Order"
+				]
+			},
+			"items": [
+				{
+					"id": "{{ id.path }}/canvas/p1",
+					"type": "Canvas"
+				},
+				{
+					"id": "{{ id.path }}/canvas/p2",
+					"type": "Canvas"
+				},
+				{
+					"id": "{{ id.path }}/canvas/p3",
+					"type": "Canvas"
+				},
+				{
+					"id": "{{ id.path }}/canvas/p4",
+					"type": "Canvas"
+				}
+			]
+		},
+		{
+			"id": "{{ id.path }}/range/r2",
+			"type": "Range",
+			"behavior": "sequence",
+			"label": {
+				"en": [
+					"Original Page Order"
+				]
+			},
+			"items": [
+				{
+					"id": "{{ id.path }}/canvas/p2",
+					"type": "Canvas"
+				},
+				{
+					"id": "{{ id.path }}/canvas/p3",
+					"type": "Canvas"
+				},
+				{
+					"id": "{{ id.path }}/canvas/p4",
+					"type": "Canvas"
+				},
+				{
+					"id": "{{ id.path }}/canvas/p1",
+					"type": "Canvas"
+				}
+			]
+		}
+	]
 }
