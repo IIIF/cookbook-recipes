@@ -40,7 +40,7 @@ Images provided by permission of [Biblioteca Civica Bertoliana](https://www.bibl
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="168-225"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="200-261"' %}
 
 ## Related Recipes
 
