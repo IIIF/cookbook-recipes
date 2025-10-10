@@ -4,9 +4,41 @@
 	"type": "Manifest",
 	"label": {
 		"en": [
-			"Italy, Vicenza, Biblioteca Civica Bertoliana, CF. 1.1"
+			"Alternative Page Order"
 		]
 	},
+	"provider": [
+		{
+			"id": "https://www.bibliotecabertoliana.it/",
+			"type": "Agent",
+			"label": {
+				"en": [
+					"Biblioteca Civica Bertoliana"
+				]
+			},
+			"homepage": [
+				{
+					"id": "https://www.bibliotecabertoliana.it/",
+					"type": "Text",
+					"label": {
+						"en": [
+							"Biblioteca Civica Bertoliana Homepage"
+						]
+					},
+					"format": "text/html"
+				}
+			],
+			"logo": [
+				{
+					"id": "https://www.bibliotecabertoliana.it/img/logo-bertoliana.png",
+					"type": "Image",
+					"format": "image/png",
+					"height": 346,
+					"width": 89
+				}
+			]
+		}
+	],
 	"items": [
 		{
 			"id": "{{ id.path }}/canvas/p1",
@@ -169,7 +201,9 @@
 		{
 			"id": "{{ id.path }}/range/r1",
 			"type": "Range",
-			"behavior": "sequence",
+			"behavior": [
+				"sequence"
+			],
 			"label": {
 				"en": [
 					"Corrected Page Order"
@@ -197,7 +231,9 @@
 		{
 			"id": "{{ id.path }}/range/r2",
 			"type": "Range",
-			"behavior": "sequence",
+			"behavior": [
+				"sequence"
+			],
 			"label": {
 				"en": [
 					"Original Page Order"
