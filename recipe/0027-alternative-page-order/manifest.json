@@ -45,7 +45,7 @@
 			"type": "Canvas",
 			"label": {
 				"en": [
-					"171r (387)"
+					"384 (171v)"
 				]
 			},
 			"height": 3184,
@@ -57,45 +57,6 @@
 					"items": [
 						{
 							"id": "{{ id.path }}/annotation/p0001-image",
-							"type": "Annotation",
-							"motivation": "painting",
-							"body": {
-								"id": "https://iiif.io/api/image/3.0/example/reference/3ec31f43ce55cfcc076804c88c06aa43-CF-f0186r_aVISNK_387/full/max/0/default.jpg",
-								"type": "Image",
-								"format": "image/jpeg",
-								"height": 3184,
-								"width": 2156,
-								"service": [
-									{
-										"id": "https://iiif.io/api/image/3.0/example/reference/3ec31f43ce55cfcc076804c88c06aa43-CF-f0186r_aVISNK_387",
-										"type": "ImageService3",
-										"profile": "level1"
-									}
-								]
-							},
-							"target": "{{ id.path }}/canvas/p1"
-						}
-					]
-				}
-			]
-		},
-		{
-			"id": "{{ id.path }}/canvas/p2",
-			"type": "Canvas",
-			"label": {
-				"en": [
-					"171v (384)"
-				]
-			},
-			"height": 3184,
-			"width": 2156,
-			"items": [
-				{
-					"id": "{{ id.path }}/page/p2/1",
-					"type": "AnnotationPage",
-					"items": [
-						{
-							"id": "{{ id.path }}/annotation/p0002-image",
 							"type": "Annotation",
 							"motivation": "painting",
 							"body": {
@@ -112,29 +73,29 @@
 									}
 								]
 							},
-							"target": "{{ id.path }}/canvas/p2"
+							"target": "{{ id.path }}/canvas/p1"
 						}
 					]
 				}
 			]
 		},
 		{
-			"id": "{{ id.path }}/canvas/p3",
+			"id": "{{ id.path }}/canvas/p2",
 			"type": "Canvas",
 			"label": {
 				"en": [
-					"172r (385)"
+					"385 (172r)"
 				]
 			},
 			"height": 3184,
 			"width": 2156,
 			"items": [
 				{
-					"id": "{{ id.path }}/page/p3/1",
+					"id": "{{ id.path }}/page/p2/1",
 					"type": "AnnotationPage",
 					"items": [
 						{
-							"id": "{{ id.path }}/annotation/p0003-image",
+							"id": "{{ id.path }}/annotation/p0002-image",
 							"type": "Annotation",
 							"motivation": "painting",
 							"body": {
@@ -151,6 +112,45 @@
 									}
 								]
 							},
+							"target": "{{ id.path }}/canvas/p2"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "{{ id.path }}/canvas/p3",
+			"type": "Canvas",
+			"label": {
+				"en": [
+					"[386] (172v)"
+				]
+			},
+			"height": 3184,
+			"width": 2156,
+			"items": [
+				{
+					"id": "{{ id.path }}/page/p3/1",
+					"type": "AnnotationPage",
+					"items": [
+						{
+							"id": "{{ id.path }}/annotation/p0003-image",
+							"type": "Annotation",
+							"motivation": "painting",
+							"body": {
+								"id": "https://iiif.io/api/image/3.0/example/reference/3ec31f43ce55cfcc076804c88c06aa43-CF-f0187v_aVISNK_386/full/max/0/default.jpg",
+								"type": "Image",
+								"format": "image/jpeg",
+								"height": 3184,
+								"width": 2156,
+								"service": [
+									{
+										"id": "https://iiif.io/api/image/3.0/example/reference/3ec31f43ce55cfcc076804c88c06aa43-CF-f0187v_aVISNK_386",
+										"type": "ImageService3",
+										"profile": "level1"
+									}
+								]
+							},
 							"target": "{{ id.path }}/canvas/p3"
 						}
 					]
@@ -162,7 +162,7 @@
 			"type": "Canvas",
 			"label": {
 				"en": [
-					"172v ([386])"
+					"387 (171r)"
 				]
 			},
 			"height": 3184,
@@ -177,14 +177,14 @@
 							"type": "Annotation",
 							"motivation": "painting",
 							"body": {
-								"id": "https://iiif.io/api/image/3.0/example/reference/3ec31f43ce55cfcc076804c88c06aa43-CF-f0187v_aVISNK_386/full/max/0/default.jpg",
+								"id": "https://iiif.io/api/image/3.0/example/reference/3ec31f43ce55cfcc076804c88c06aa43-CF-f0186r_aVISNK_387/full/max/0/default.jpg",
 								"type": "Image",
 								"format": "image/jpeg",
 								"height": 3184,
 								"width": 2156,
 								"service": [
 									{
-										"id": "https://iiif.io/api/image/3.0/example/reference/3ec31f43ce55cfcc076804c88c06aa43-CF-f0187v_aVISNK_386",
+										"id": "https://iiif.io/api/image/3.0/example/reference/3ec31f43ce55cfcc076804c88c06aa43-CF-f0186r_aVISNK_387",
 										"type": "ImageService3",
 										"profile": "level1"
 									}
@@ -206,7 +206,7 @@
 			],
 			"label": {
 				"en": [
-					"Corrected Page Order"
+					"Original Page Order"
 				]
 			},
 			"items": [
@@ -236,24 +236,24 @@
 			],
 			"label": {
 				"en": [
-					"Original Page Order"
+					"Corrected Page Order"
 				]
 			},
 			"items": [
-				{
-					"id": "{{ id.path }}/canvas/p2",
-					"type": "Canvas"
-				},
-				{
-					"id": "{{ id.path }}/canvas/p3",
-					"type": "Canvas"
-				},
 				{
 					"id": "{{ id.path }}/canvas/p4",
 					"type": "Canvas"
 				},
 				{
 					"id": "{{ id.path }}/canvas/p1",
+					"type": "Canvas"
+				},
+				{
+					"id": "{{ id.path }}/canvas/p2",
+					"type": "Canvas"
+				},
+				{
+					"id": "{{ id.path }}/canvas/p3",
 					"type": "Canvas"
 				}
 			]
