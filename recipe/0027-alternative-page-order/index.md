@@ -1,5 +1,5 @@
 ---
-title: Alternative Page Order
+title: Alternative Page Sequences
 id: 27
 layout: recipe
 tags: [book, presentation]
@@ -23,13 +23,13 @@ If reordering the Canvases affects the reading layout or direction, properties c
 
 ## Restrictions
 
-Ranges with `behavior` set to `sequence` define an alternative reading order and must be directly within the `structures` property of the Manifest, not embedded within or referenced by other Ranges ([see specification](https://iiif.io/api/presentation/3.0/#54-range)). Such Ranges cannot be used to describe more complex structures, such as a [Table of Contents for Book Chapters][0024].
+Ranges with the `behavior` value set to `sequence` must be directly within the `structures` property of the Manifest and must not be referenced or embedded within other Ranges ([see specification](https://iiif.io/api/presentation/3.0/#54-range)). Such Ranges have limited hierarchical nesting and cannot be used to describe more complex structures, such as a [Table of Contents for Book Chapters][0024].
 
 ## Example
 
 These manuscript folios are an excerpt from the original draft of the 1895 novel _Piccolo mondo antico_ by novelist and Nobel Prize nominee for Literature, Antonio Fogazzaro. The original autograph numbering in pen (384, 385, [386], 387) is incorrect, so archivists noted the correct reading order in pencil: 171r (387), 171v (384), 172r (385), 172v ([386]).
 
-Two ranges are provided within the `structures` to represent this case study. From the two Ranges with the `behavior` value `sequence`, the first Range should be used as the navigation default, and the other should be selectable.
+Two Ranges are provided within the `structures` to represent this case study. From the two Ranges with the `behavior` value `sequence`, the first Range should be used as the navigation default, and the other should be selectable.
 
 Images provided by permission of Biblioteca Civica Bertoliana.
 
