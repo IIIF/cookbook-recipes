@@ -34,7 +34,8 @@ The example json document must be an external document, and imported with the fo
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-<img src="https://collections.library.yale.edu/assets/iiif-ca042537b7cca44f9a22d3960ae9e3a8d990bc6e442b1376b928d7c79ab353c9.png" draggable="true" ondragstart="drag(event)" alt="IIIF logo; drag and drop onto a supporting viewer to see this resource in that viewer">
+
+<img src="https://iiif.io/api/cookbook/assets/images/logos/logo-sm.png" draggable="true" ondragstart="drag(event)" alt="IIIF logo; drag and drop onto a supporting viewer to see this resource in that viewer">
 
 <script>
    function drag(ev) {
