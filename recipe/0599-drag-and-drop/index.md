@@ -15,12 +15,11 @@ As a person wanting to annotate a IIIF resource, you would like to open a manife
 
 ## Implementation Notes
 
-What do you need to know to use this pattern?
-How do you implement the pattern?
+Implementing this recipe requires a resource provider and a viewer provider each to implement their part. The resource provider must have a draggable item that can have a `dataTransfer.setData` method attached to the item's `dragstart` event and the viewer provider must have an interface capable of handling the data in its `drop` event.
 
 ## Restrictions
 
-Implementing this recipe requires a resource provider and a viewer provider each to implement their part. The resource provider must have a draggable item that can have a `dataTransfer.setData` method attached to the item's `dragstart` event and the viewer provider must have an interface capable of handling the data in its `drop` event.
+Because implementation is two-part, you may only have control over one half of the ability to drag and drop. Consequently, and since this action is only in a GUI environment, you will need to consider whether visitors to your IIIF interface would benefit from some kind of support text.
 
 ## Example
 
