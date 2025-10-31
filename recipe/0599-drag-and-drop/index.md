@@ -20,11 +20,7 @@ How do you implement the pattern?
 
 ## Restrictions
 
-When is this pattern is usable / not usable? Is it deprecated? If it uses multiple specifications, which versions are needed, etc.?
-
-Delete this section if it is not needed.
-If you don't know what the restrictions might be initially, just leave the following line:
-**Unknown - Help Needed**
+Implementing this recipe requires a resource provider and a viewer provider each to implement their part. The resource provider must have a draggable item that can have a `dataTransfer.setData` method attached to the item's `dragstart` event and the viewer provider must have an interface capable of handling the data in its `drop` event.
 
 ## Example
 
@@ -33,7 +29,7 @@ The example json document must be an external document, and imported with the fo
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-<img src="https://iiif.io/api/image/3.0/example/reference/899da506920824588764bc12b10fc800-bnf_chateauroux/full/!500,500/0/default.jpg" draggable="true" ondragstart="drag(event)" alt="IIIF logo; drag and drop onto a supporting viewer to see this resource in that viewer">
+<img src="https://iiif.io/api/cookbook/assets/images/logos/logo-sm.png" draggable="true" ondragstart="drag(event)" alt="IIIF logo; drag and drop onto a supporting viewer to see this resource in that viewer">
 
 <script>
    function drag(ev) {
