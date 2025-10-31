@@ -87,12 +87,12 @@
 [prezi3]: {{ site.api_url | absolute_url }}/presentation/3 "IIIF Presentation API"
 [prezi3-languages]: {{ site.api_url | absolute_url }}/presentation/3.0/#language-of-property-values "Language of Property Values"
 [prezi3-metadata]: {{ site.api_url | absolute_url }}/presentation/3.0/#metadata "Metadata"
-[prezi3-service]: {{ site.api_url | absolute_url }}/presentation/3.0/#service "IIIF Presentation API service property"
-[prezi3-thumbnail]: {{ site.api_url | absolute_url }}/presentation/3.0/#thumbnail "Thumbnail"
-[prezi3-start]: {{ site.api_url | absolute_url }}/presentation/3.0/#start "Start Property"
 [prezi3-openannotation]: {{ site.api_url | absolute_url }}/annex/openannotation "IIIF Open/Web Annotation Extensions"
 [prezi3-pointselector]: {{ site.api_url | absolute_url }}/annex/openannotation/#point-selector "PointSelector"
 [prezi3-range]: {{ site.api_url | absolute_url }}/presentation/3.0/#54-range "Range"
+[prezi3-service]: {{ site.api_url | absolute_url }}/presentation/3.0/#service "IIIF Presentation API service property"
+[prezi3-start]: {{ site.api_url | absolute_url }}/presentation/3.0/#start "Start Property"
+[prezi3-thumbnail]: {{ site.api_url | absolute_url }}/presentation/3.0/#thumbnail "Thumbnail"
 
 [service-registry]: {{ site.api_url | absolute_url }}/registry/services/ "the IIIF Registry of Services"
 
