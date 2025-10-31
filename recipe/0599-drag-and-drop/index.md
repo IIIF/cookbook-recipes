@@ -11,8 +11,7 @@ topic:
 
 ## Use Case
 
-Describe the use case that the pattern is intended to solve.
-Why is this pattern important?
+As a person wanting to annotate a IIIF resource, you would like to open a manifest in a viewer not present or available in the web interface where you first find the resource.
 
 ## Implementation Notes
 
@@ -34,8 +33,7 @@ The example json document must be an external document, and imported with the fo
 
 {% include manifest_links.html viewers="" manifest="manifest.json" %}
 
-
-<img src="https://iiif.io/api/cookbook/assets/images/logos/logo-sm.png" draggable="true" ondragstart="drag(event)" alt="IIIF logo; drag and drop onto a supporting viewer to see this resource in that viewer">
+<img src="https://iiif.io/api/image/3.0/example/reference/899da506920824588764bc12b10fc800-bnf_chateauroux/full/!500,500/0/default.jpg" draggable="true" ondragstart="drag(event)" alt="IIIF logo; drag and drop onto a supporting viewer to see this resource in that viewer">
 
 <script>
    function drag(ev) {
