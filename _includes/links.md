@@ -84,6 +84,7 @@
 
 [0560]: {{ site.cookbook_url | absolute_url }}/recipe/0560-resources-on-a-timeline/ "Rendering Resources Sequentially on a Timeline"
 [0561]: {{ site.cookbook_url | absolute_url }}/recipe/0561-text-on-image/ "Visible Text Resource on a Canvas"
+[0599]: {{ site.cookbook_url | absolute_url }}/recipe/0599-drag-and-drop/ "Drag and Drop"
 
 [cookbook-process]: {{site.cookbook_url | absolute_url }}/recipe
 
