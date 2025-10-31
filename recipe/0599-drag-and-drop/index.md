@@ -33,7 +33,7 @@ The example json document must be an external document, and imported with the fo
 
 <script>
    function drag(ev) {
-            ev.dataTransfer.setData("text/plain", {
+            ev.dataTransfer.setData("text/plain", JSON.stringify({
                  "@context": "http://iiif.io/api/presentation/3/context.json",
                  "id": "https://example.org/content-states/1",
                  "type": "Annotation",
@@ -42,7 +42,7 @@ The example json document must be an external document, and imported with the fo
                     "id": "https://iiif.io/api/cookbook/recipe/0006-text-language/manifest.json",
                     "type": "Manifest"
                 }
-      });
+      }));
    }
 </script>
 
