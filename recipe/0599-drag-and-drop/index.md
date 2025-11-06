@@ -11,7 +11,7 @@ topic:
 
 ## Use Case
 
-As a person wanting to annotate a IIIF resource, you would like to open a manifest in a viewer not present or available in the web interface where you first find the resource.
+As a person wanting to annotate a IIIF resource, you would like to open a manifest in a viewer not available in the web interface where you first find the resource.
 
 ## Implementation Notes
 
