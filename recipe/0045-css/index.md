@@ -30,9 +30,11 @@ The two other methods for adding CSS to a manifest are inline CSS and an inline 
 
 See the Restrictions section of the [HTML in Annotations][0019] recipe for a brief discussion of limitations to markup in annotations. These limitations can affect, in turn, the possible selectors in your external stylesheet.
 
-The CSS approach depends wholly on viewer implementation of CSS as applied to a resource. Viewers have no requirement to support CSS styling. Browser-based viewers may defer CSS implementation in whole or in part to the browser. Consequently, and also for reasons of accessibility, annotations should not rely on styling for semantics and should be readable by a human or machine without styling.
+The CSS approach depends wholly on viewer implementation of CSS as applied to a resource. Even more broadly than with HTML, viewers have no requirement to support any particular approach to CSS styling or even to support CSS at all. Browser-based viewers may defer CSS implementation in whole or in part to the browser and may allow only a defined subset of CSS either for internal or for deferred application. Consequently, and also for reasons of accessibility, annotations should not rely on styling for semantics and should be meaningful to a human and parsable by machine without styling.
 
-One example: Since IIIF Canvas dimensions are unit-less, using pixels for text size is valid but may be interpreted variably across viewers or other clients.
+CSS can also be used as the vector for unethical or insecure actions. For instance, a `background` rule could include a tracking image in its value: `background: lightblue url(http://example.com/tracker/image.jpg) no-repeat fixed center;` This image could phone home data about accesses to the annotation. To be more certain of security, viewers and annotation stores that allow annotations from anonymous sources could strip any stylesheet propery entirely.
+
+Even where a viewer supports CSS broadly, the intersection of IIIF and CSS can result in uncertainty. For instance, since IIIF Canvas dimensions are unit-less, using pixels for text size in CSS is valid but may be interpreted variably across viewers or other clients.
 
 ## Example
 
