@@ -42,7 +42,7 @@ This recipe focuses on annotations with motivations other than painting and on a
 
 {% include manifest_links.html manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="56,60,71,78,82,93"' %}
+{% include jsonviewer.html src="manifest.json" config='data-line="56,60,72,79,83,95"' %}
 
 ### Stylesheet
 {% include jsonviewer.html src="style.css" %}
