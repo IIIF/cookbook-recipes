@@ -57,7 +57,7 @@
 			  "body": {
 			  	"id": "{{ id.path }}/body/sr1",
 				"type": "SpecificResource",
-				"styleClass": "author1",
+				"styleClass": "author1note",
 				"source": {
 			  	  "id": "{{ id.path }}/body/text1",
 				  "type": "TextualBody",
@@ -69,7 +69,7 @@
               "target": {
 				"type": "SpecificResource",
                 "source": "{{ id.path }}/canvas/p1",
-                "styleClass": "author2",
+                "styleClass": "author2highlight",
                 "selector": {
                   "type": "FragmentSelector",
                   "value": "xywh=700,1250,1850,1150"
@@ -84,7 +84,7 @@
 			  "body": {
 			  	"id": "{{ id.path }}/body/sr2",
 				"type": "SpecificResource",
-				"styleClass": "author2",
+				"styleClass": "author2note",
 				"source": {
 			  	  "id": "{{ id.path }}/body/text2",
 				  "type": "TextualBody",
@@ -96,7 +96,7 @@
               "target": {
 				"type": "SpecificResource",
                 "source": "{{ id.path }}/canvas/p1",
-                "styleClass": "author2",
+                "styleClass": "author2highlight",
                 "selector": {
                   "type": "FragmentSelector",
                   "value": "xywh=170,160,2200,1000"
