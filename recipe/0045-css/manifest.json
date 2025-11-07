@@ -68,8 +68,12 @@
 			  },
               "target": {
 				"type": "SpecificResource",
-              	"source": "{{ id.path }}/canvas/p1#xywh=700,1250,1850,1150",
-              	"styleClass": "author1"
+                "source": "{{ id.path }}/canvas/p1",
+                "styleClass": "author2",
+                "selector": {
+                  "type": "FragmentSelector",
+                  "value": "xywh=700,1250,1850,1150"
+                }
               }
 			},
 			{
