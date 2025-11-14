@@ -11,6 +11,7 @@ viewers:
  - Clover
  - Glycerine Viewer
  - Theseus
+ - TIFY
 topic:
  - basic
 ---
@@ -47,24 +48,24 @@ Note: Each supporting viewer has a distinct method for toggling between Collecti
 
 - Universal Viewer presents items in an _Index_ tab;
 - Mirador presents items in a dialog component;
-- Annona presents items in a toggleable information panel;
+- Annona and TIFY present items in a toggleable information panel;
 - Clover presents items as options in a dropdown element.
 
 **Example Collection**
 
-{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer, Theseus" manifest="collection.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer, Theseus, TIFY" manifest="collection.json" %}
 
 {% include jsonviewer.html src="collection.json" %}
 
 **Example Manifest for _The Gulf Stream_**
 
-{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer, Theseus" manifest="manifest-01.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer, Theseus, TIFY" manifest="manifest-01.json" %}
 
 {% include jsonviewer.html src="manifest-01.json" %}
 
 **Example Manifest for _Northeaster_**
 
-{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer, Theseus" manifest="manifest-02.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer, Theseus, TIFY" manifest="manifest-02.json" %}
 
 {% include jsonviewer.html src="manifest-02.json" %}
 
