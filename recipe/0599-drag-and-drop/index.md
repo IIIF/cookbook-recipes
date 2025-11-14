@@ -13,7 +13,7 @@ topic:
 
 As a person wanting to annotate a IIIF resource, you would like to open a manifest in a viewer not available in the web interface where you first find the resource.
 
-Alternately, as a viewer developer, you would like to allow your viewer to accept manifests from dragged-over items.
+Alternately, as a viewer developer, you would like to allow your viewer to receive dragged-over items.
 
 ## Implementation Notes
 
@@ -22,6 +22,46 @@ Implementing this recipe requires a resource provider and a viewer each to imple
 ### For Resource Providers
 
 The resource provider must have a draggable item — such as an image — that makes use of the DataTransfer object. It will have a [`dataTransfer.setData` method](https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer) attached to the item's `dragstart` event.
+
+A script implementing such a method for a Manifest could look like the below.
+```
+<script>
+function drag(ev) {
+  ev.dataTransfer.setData("text/plain", JSON.stringify({
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://iiif.io/api/cookbook/recipe/0599-drag-and-drop/dnd-manifest",
+    "type": "Manifest",
+    "motivation": ["contentState"],
+    "target": {
+      "id": "https://iiif.io/api/cookbook/recipe/0006-text-language/manifest.json",
+      "type": "Manifest"
+    }
+  }));
+}
+</script>
+```
+
+Note that the script forces the manifest content into a string, which the receiving viewer's handling script is  A script implementing such a method for a single Canvas of a Manifest could look like the below. (Noting that there is no likely practical difference from the above since this manifest contains but one Canvas.)
+```
+<script>
+function drag(ev) {
+  ev.dataTransfer.setData("text/plain", JSON.stringify({
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://iiif.io/api/cookbook/recipe/0599-drag-and-drop/dnd-manifest",
+    "type": "Annotation",
+    "motivation": ["contentState"],
+    "target": {
+      "id": "https://iiif.io/api/cookbook/recipe/0006-text-language/canvas/p1",
+      "type": "Canvas",
+      "partOf": [{
+      	"id": "https://iiif.io/api/cookbook/recipe/0006-text-language/manifest.json",
+      	"type": "Manifest"
+      }]
+    }
+  }));
+}
+</script>
+```
 
 ### For Viewer Developers
 
@@ -37,32 +77,13 @@ Viewer developers will have a special need to consider security when implementin
 
 Below are a link to this recipe's Manifest, an image of the IIIF logo decorated with the appropriate JavaScript event handler attributes, and a visible version of the script called by the image's event handlers. For a supporting viewer, the IIIF logo image below could be dragged onto its viewing area and dropped, which would result in the viewer retrieving the manifest for the IIIF Cookbook recipe titled ["Internationalization and Multi-language Values"][0006].
 
-{% include manifest_links.html viewers="" manifest="manifest.json" %}
-
-<img src="https://iiif.io/api/cookbook/assets/images/logos/logo-sm.png" draggable="true" ondragstart="drag(event)" alt="IIIF logo; drag and drop onto a supporting viewer to see this resource in that viewer">
-
-```
-<script>
-function drag(ev) {
-  ev.dataTransfer.setData("text/plain", JSON.stringify({
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://iiif.io/api/cookbook/recipe/0599-drag-and-drop/dnd-manifest.json",
-    "type": "Annotation",
-    "motivation": ["contentState"],
-    "target": {
-      "id": "https://iiif.io/api/cookbook/recipe/0006-text-language/manifest.json",
-      "type": "Manifest"
-    }
-  }));
-}
-</script>
-```
+<img src="logo-sm.png" draggable="true" ondragstart="drag(event)" alt="IIIF logo; drag and drop onto a supporting viewer to see this resource in that viewer">
 
 <script>
 function drag(ev) {
   ev.dataTransfer.setData("text/plain", JSON.stringify({
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://iiif.io/api/cookbook/recipe/0599-drag-and-drop/dnd-manifest.json",
+    "id": "https://iiif.io/api/cookbook/recipe/0599-drag-and-drop/dnd-manifest",
     "type": "Annotation",
     "motivation": ["contentState"],
     "target": {
