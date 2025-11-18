@@ -67,13 +67,13 @@ function drag(ev) {
 
 ### For Viewer Developers
 
-A supporting viewer must have an interface capable of handling the DataTransfer object's data carried by the draggable item in its `drop` event.
+A supporting viewer must have an interface capable of handling the DataTransfer object's data carried by the draggable item in its `drop` event. Somewhat as for resource providers, [the `getData` method of Web Assembly can specify other content types](https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/getData) but the spec for [IIIF Content State](https://iiif.io/api/content-state/1.0/#initialization-mechanisms-dragdrop) requires a content type of `text/plain` for maximum compatibility. See the immediately following section for cautions about receiving content.
 
 ## Restrictions
 
 Because implementation is two-part, you may only have control over one half of the ability to drag and drop. Consequently, and since this action is only in a GUI environment, you will need to consider whether visitors to your IIIF interface would benefit from some kind of support text.
 
-Viewer developers will have a special need to consider security when implementing a droppable interface.
+Viewer developers will have a special need to consider security when implementing a droppable interface. This recipe cannot cover all of data transfer security, but will note that all content provided to a site should be sanitized.
 
 ## Example
 
