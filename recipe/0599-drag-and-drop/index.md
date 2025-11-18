@@ -30,7 +30,7 @@ function drag(ev) {
   ev.dataTransfer.setData("text/plain", JSON.stringify({
     "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "https://iiif.io/api/cookbook/recipe/0599-drag-and-drop/dnd-manifest",
-    "type": "Manifest",
+    "type": "Annotation",
     "motivation": ["contentState"],
     "target": {
       "id": "https://iiif.io/api/cookbook/recipe/0006-text-language/manifest.json",
