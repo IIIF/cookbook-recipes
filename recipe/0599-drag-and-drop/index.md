@@ -77,6 +77,8 @@ Viewer developers will have a special need to consider security when implementin
 
 Below are a link to this recipe's Manifest, an image of the IIIF logo decorated with the appropriate JavaScript event handler attributes, and a visible version of the script called by the image's event handlers. For a supporting viewer, the IIIF logo image below could be dragged onto its viewing area and dropped, which would result in the viewer retrieving the manifest for the IIIF Cookbook recipe titled ["Internationalization and Multi-language Values"][0006].
 
+No viewers currently support this approach to dragging and dropping a manifest.
+
 <img src="logo-sm.png" draggable="true" ondragstart="drag(event)" alt="IIIF logo; drag and drop onto a supporting viewer to see this resource in that viewer">
 
 <script>
