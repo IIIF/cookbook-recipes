@@ -41,7 +41,7 @@ function drag(ev) {
 </script>
 ```
 
-Note that the script represents the manifest content as JSON, but converts it to a string to match the content type parameter. While [the `setData` method of Web Assembly can use other content types](https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/setData), the spec for [IIIF Content State](https://iiif.io/api/content-state/1.0/#initialization-mechanisms-dragdrop) requires a content type of `text/plain` for maximum compatibility.
+Note that the script represents the manifest content as JSON to parallel other cookbook resource content, but converts it to a string to match the content type parameter. While [the `setData` method of Web Assembly can use other content types](https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/setData), the spec for [IIIF Content State](https://iiif.io/api/content-state/1.0/#initialization-mechanisms-dragdrop) requires a content type of `text/plain` for maximum compatibility.
 
 The content does not have to be a full Manifest. A script implementing this same method for a single Canvas of a Manifest could look like the below. (Noting that there would be no likely practical difference from the above since this manifest contains but one Canvas.)
 ```
