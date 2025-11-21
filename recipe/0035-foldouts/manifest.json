@@ -149,8 +149,8 @@
         {
           "id": "{{ id.path }}/canvas/5",
           "type": "Canvas",
-          "height": 1968,
-          "width": 3688,
+          "height": 4278,
+          "width": 2197,
           "label": { "en": [ "Foldout, folded (recto)" ] },
           "items": [
             {
@@ -165,8 +165,8 @@
                     "id": "https://iiif.io/api/image/3.0/example/reference/0a469c27256eda739d43124cc448a3ba-3_foldout-rotated/full/max/0/default.jpg",
                     "type": "Image",
                     "format": "image/jpeg",
-                    "height": 1968,
-                    "width": 3688,
+                    "height": 4278,
+                    "width": 2197,
                     "service": [
                         {
                             "id": "https://iiif.io/api/image/3.0/example/reference/0a469c27256eda739d43124cc448a3ba-3_foldout-rotated",
