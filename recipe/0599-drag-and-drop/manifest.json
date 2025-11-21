@@ -1,0 +1,10 @@
+{
+	"@context": "http://iiif.io/api/presentation/3/context.json",
+	"id": "https://iiif.io/api/cookbook/recipe/0599-drag-and-drop/dnd-manifest.json",
+	"type": "Annotation",
+	"motivation": ["contentState"],
+	"target": {
+		"id": "https://iiif.io/api/cookbook/recipe/0006-text-language/manifest.json",
+		"type": "Manifest"
+	}
+}
