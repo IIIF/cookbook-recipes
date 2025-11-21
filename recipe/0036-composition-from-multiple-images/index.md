@@ -60,7 +60,7 @@ When composing a scene from multiple images, some images will require positionin
 
 A manifest with a single canvas that has two images painted on it. One is of the entire object, and one fills in a missing detail from the first image. Note that the `target` property for the second image (line 69) is appended with coordinates in order to position the the image on the appropriate region of the Canvas.
 
-*Note: Currently, Mirador 3 only partially supports the layering of multiple images on a single Canvas and it is particularly noteworthy in this use case. While previous iterations of Mirador processed the images upwards from the first painting annotation, Mirador 3 does this in reverse. This means that the second image (the missing illustration detail) is hidden behind the image of the full folio and the user cannot view the reconstructed scene.*
+*Note: Mirador 4 fully supports this recipe, but Mirador 3 only partially supports the layering of multiple images on a single Canvas. While previous iterations of Mirador, as well as the new Mirador 4, process the images upwards from the first painting annotation, Mirador 3 does this in reverse. This means that the second image (the missing illustration detail) is hidden behind the image of the full folio in Mirador 3 and the user cannot view the reconstructed scene.*
 
 {% include manifest_links.html viewers="Mirador, Annona, Theseus, TIFY" manifest="manifest.json" %}
 

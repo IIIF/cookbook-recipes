@@ -67,7 +67,7 @@ Clients that don't wish to offer a Choice UI should at least understand the cons
 
 In this example, we have a single Canvas with the `body.type` "Choice" containing two different photographs of the same painting: one using natural light and the other an x-ray image.
 
-*Note: Currently, Mirador 3 only partially supports the layering of multiple images on a single Canvas. While previous iterations of Mirador processed the images upwards from the first painting annotation, Mirador 3 does this in reverse. This means that the first image in the "choice" body sits at the top of the "stack" in Mirador 3 rather than at the bottom.*
+*Note: Mirador 4 fully supports this recipe, but Mirador 3 only partially supports the layering of multiple images on a single Canvas. While previous iterations of Mirador, as well as the new Mirador 4, process the images upwards from the first painting annotation, Mirador 3 does this in reverse. This means that the first image in the "choice" body sits at the top of the "stack" in Mirador 3 rather than at the bottom.*
 
 Credit: *John Dee performing an experiment before Queen Elizabeth I*. Oil painting by Henry Gillard Glindoni. Credit: Wellcome Collection. Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
