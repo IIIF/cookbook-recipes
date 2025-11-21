@@ -10,14 +10,11 @@
 [0009]: {{ site.cookbook_url | absolute_url }}/recipe/0009-book-1/ "Simple Manifest - Book"
 [0010]: {{ site.cookbook_url | absolute_url }}/recipe/0010-book-2-viewing-direction "Viewing direction and its effect on navigation"
 [0011]: {{ site.cookbook_url | absolute_url }}/recipe/0011-book-3-behavior/ "Book behavior (paging) variations"
-[0299]: {{ site.cookbook_url | absolute_url }}/recipe/0299-region/ "Addressing a spatial region"
 [0013]: {{ site.cookbook_url | absolute_url }}/recipe/0013-placeholderCanvas/ "Load a Preview Image Before the Main Content"
 [0202]: {{ site.cookbook_url | absolute_url }}/recipe/0202-start-canvas/ "Load Manifest Beginning with a Specific Canvas"
 [0014]: {{ site.cookbook_url | absolute_url }}/recipe/0014-accompanyingcanvas/ "Audio Presentation with Accompanying Image"
 [0015]: {{ site.cookbook_url | absolute_url }}/recipe/0015-start/ "Begin playback at a specific point - Time-based media"
 [0017]: {{ site.cookbook_url | absolute_url }}/recipe/0017-transcription-av/ "Providing Access to Transcript Files of A/V Content"
-
-[0139]: {{ site.cookbook_url | absolute_url }}/recipe/0139-geolocate-canvas-fragment/ "Represent Canvas Fragment as a Geographic Area on a Web Map"
 
 [0019]: {{ site.cookbook_url | absolute_url }}/recipe/0019-html-in-annotations/ "HTML in Annotations"
 [0021]: {{ site.cookbook_url | absolute_url }}/recipe/0021-tagging/ "Simple Annotation — Tagging"
@@ -34,6 +31,7 @@
 [0031]: {{ site.cookbook_url | absolute_url }}/recipe/0031-bound-multivolume/ "Multiple Volumes in a Single Bound Volume"
 
 [0040]: {{ site.cookbook_url | absolute_url }}/recipe/0040-image-rotation-service/ "Image Rotation Two Ways"
+[0045]: {{ site.cookbook_url | absolute_url }}/recipe/0045-css/ "CSS in an Annotation"
 
 [0047]: {{ site.cookbook_url | absolute_url }}/recipe/0047-homepage/ "Linking to Web Page of an Object"
 [0046]: {{ site.cookbook_url | absolute_url }}/recipe/0046-rendering/ "Providing Alternative Representations"
@@ -50,7 +48,7 @@
 [0118]: {{ site.cookbook_url | absolute_url }}/recipe/0118-multivalue/ "Displaying Multiple Values with Language Maps"
 
 [0135]: {{ site.cookbook_url | absolute_url }}/recipe/0135-annotating-point-in-canvas/ "Annotating a specific point of an image"
-
+[0139]: {{ site.cookbook_url | absolute_url }}/recipe/0139-geolocate-canvas-fragment/ "Represent Canvas Fragment as a Geographic Area on a Web Map"
 [0154]: {{ site.cookbook_url | absolute_url }}/recipe/0154-geo-extension/ "Locate a Manifest on a Web Map"
 
 [0232]: {{ site.cookbook_url | absolute_url }}/recipe/0232-image-thumbnail-canvas/ "Implementation discussion: Thumbnails on Canvases"
@@ -67,6 +65,7 @@
 [0266]: {{ site.cookbook_url | absolute_url }}/recipe/0266-full-canvas-annotation/ "Simplest Annotation"
 [0269]: {{ site.cookbook_url | absolute_url }}/recipe/0269-embedded-or-referenced-annotations/ "Embedded or Referenced Annotations"
 [0283]: {{ site.cookbook_url | absolute_url }}/recipe/0283-missing-image/ "Missing Images in a Sequence"
+[0299]: {{ site.cookbook_url | absolute_url }}/recipe/0299-region/ "Addressing a spatial region"
 
 [0306]: {{ site.cookbook_url | absolute_url }}/recipe/0306-linking-annotations-to-manifests/ "Linking external Annotations targeting a Canvas to a Manifest"
 [0309]: {{ site.cookbook_url | absolute_url }}/recipe/0309-annotation-collection/ "Using Annotation Collections"
