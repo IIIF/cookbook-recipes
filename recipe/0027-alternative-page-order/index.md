@@ -1,0 +1,42 @@
+---
+title: Alternative Page Sequences
+id: 27
+layout: recipe
+tags: [book, presentation]
+summary: "Using Ranges to offer alternative orderings of book pages."
+viewers:
+topic:
+ - structure
+---
+
+## Use Case
+
+A book may contain pages in the incorrect order; for example, a codex that was rebound at some point in history may have certain folios or quires accidentally misplaced. You want to digitally represent the book object in its current order while offering users the option to browse its contents in the intended order.
+
+## Implementation Notes
+
+In [Presentation API 3.0](https://iiif.io/api/presentation/3.0/#54-range), setting a Range’s `behavior` value to `sequence` allows you to define a specific viewing order for Canvases that differs from the default order in the Manifest’s `items` property. Such Ranges must be directly within the `structures` property of the Manifest and must not be referenced or embedded within other Ranges ([see specification](https://iiif.io/api/presentation/3.0/#54-range)). When `behavior` is set to `sequence`, user interfaces that interact with this order should use the order within the selected Range, rather than the default order of items.
+
+There may be more than one Range, each representing an alternative sequence of items (such as different orderings of book pages). The first Range should act as the default ordering, and any additional Ranges should be available for the user to select. For a IIIF viewer to display the selectable Ranges, each Range should have a `label`.
+
+If reordering the Canvases affects the reading layout or direction, properties can be set on the Range (such as `viewingDirection` or other [valid behaviors](https://iiif.io/api/presentation/3.0/#behavior) besides `sequence`) to override those inherited from the Manifest.
+
+## Example
+
+These manuscript folios are an excerpt from the original draft of the 1895 novel _Piccolo mondo antico_ by novelist and Nobel Prize nominee for Literature, Antonio Fogazzaro. The pencil numbering in the upper right of each page (171r–172v) follows the bifolio's physical order, but does not correspond to the author's intended sequence, which he noted in ink: 384 (171v), 385 (172r), [386] (172v), 387 (171r).
+
+Two Ranges are provided within the `structures` to represent this case study. From the two Ranges with the `behavior` value `sequence`, the first Range should be used as the navigation default, and the other should be selectable via its supplied `label`.
+
+Images provided by permission of Biblioteca Civica Bertoliana.
+
+{% include manifest_links.html viewers="" manifest="manifest.json" %}
+
+{% include jsonviewer.html src="manifest.json" config='data-line="200-261"' %}
+
+## Related Recipes
+
+* [Simple Manifest - Book][0009] shows an example where the order of the pages follows the order in the `items` property.
+* [Table of Contents for Book Chapters][0024] shows how to use Ranges to create a table of contents rather than to represent alternative orders.
+
+{% include acronyms.md %}
+{% include links.md %}
