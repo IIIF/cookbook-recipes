@@ -104,7 +104,8 @@ function drag(ev) {
 
 ## Related Recipes
 
-Provide a bulleted list of related recipes and why they are relevant.
+* [Open a specific region of a canvas in a viewer][0485] for one use of IIIF Content State
+* [Sharing a link for opening two or more Canvases][0540] for another use of IIIF Content State
 
 {% include acronyms.md %}
 {% include links.md %}
