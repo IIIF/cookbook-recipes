@@ -1,12 +1,12 @@
 ---
-title: Name of Recipe
-id: -1
+title: Drag and Drop
+id: 599
 layout: recipe
-tags: [tbc]
-summary: "tbc"
+tags: [content-state]
+summary: "A model for manifest publishers and viewer developers for how to facilitate and accommodate dragging a IIIF manifest from one application to another."
 viewers:
 topic:
- - basic
+ - content-state
 ---
 
 ## Use Case
