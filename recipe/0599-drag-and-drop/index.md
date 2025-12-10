@@ -24,7 +24,7 @@ Implementing this recipe requires a resource provider and a viewer each to imple
 The resource provider must have a draggable item — such as an image — that makes use of the DataTransfer object. It will have a [`dataTransfer.setData` method](https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer) attached to the item's `dragstart` event.
 
 A script implementing such a method for a Manifest could look like the below.
-```
+```javascript
 <script>
 function drag(ev) {
   ev.dataTransfer.setData("text/plain", JSON.stringify({
@@ -44,7 +44,7 @@ function drag(ev) {
 Note that the script represents the manifest content as JSON to parallel other cookbook resource content, but converts it to a string to match the content type parameter. While [the `setData` method of Web Assembly can use other content types](https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/setData), the spec for [IIIF Content State](https://iiif.io/api/content-state/1.0/#initialization-mechanisms-dragdrop) requires a content type of `text/plain` for maximum compatibility.
 
 The content does not have to be a full Manifest. A script implementing this same method for a single Canvas of a Manifest could look like the below. (Noting that there would be no likely practical difference from the above since this manifest contains but one Canvas.)
-```
+```javascript
 <script>
 function drag(ev) {
   ev.dataTransfer.setData("text/plain", JSON.stringify({
@@ -83,7 +83,7 @@ No viewers currently support this approach to dragging and dropping a manifest.
 
 <img src="logo-sm.png" draggable="true" ondragstart="drag(event)" alt="IIIF logo; drag and drop onto a supporting viewer to see this resource in that viewer">
 
-```
+```html
 <img src="logo-sm.png" draggable="true" ondragstart="drag(event)" alt="IIIF logo; drag and drop onto a supporting viewer to see this resource in that viewer">
 ```
 
