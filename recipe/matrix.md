@@ -16,6 +16,7 @@ viewers:
   - Theseus
   - Curation
   - liiive
+  - TIFY
 topics:
   - basic
   - property
@@ -38,7 +39,7 @@ In the 2021 Working meeting there was a presentation on viewer support for IIIF 
 
 ## Which viewers are included?
 
-Currently [Mirador 3](https://projectmirador.org/), the [Universal Viewer](https://universalviewer.io/) (UV) V3, [Annona](https://ncsu-libraries.github.io/annona/multistoryboard/), [Clover](https://samvera-labs.github.io/clover-iiif/), [Navplace Viewer](https://map.rerum.io/), [Ramp](https://iiif-react-media-player.netlify.app/), [Aviary](https://iiif.aviaryplatform.com/), [Glycerine](https://demo.viewer.glycerine.io/), [Theseus](https://theseusviewer.org/), [Curation Viewer](https://codh.rois.ac.jp/software/iiif-curation-viewer/) and [liiive](https://liiive.now/) are listed on the cookbook and we welcome the addition of other IIIF viewers but they must support the following features:
+Currently [Mirador 3](https://projectmirador.org/), the [Universal Viewer](https://universalviewer.io/) (UV) V3, [Annona](https://ncsu-libraries.github.io/annona/multistoryboard/), [Clover](https://samvera-labs.github.io/clover-iiif/), [Navplace Viewer](https://map.rerum.io/), [Ramp](https://iiif-react-media-player.netlify.app/), [Aviary](https://iiif.aviaryplatform.com/), [Glycerine](https://demo.viewer.glycerine.io/), [Theseus](https://theseusviewer.org/), [Curation Viewer](https://codh.rois.ac.jp/software/iiif-curation-viewer/), [liiive](https://liiive.now/) and [TIFY](https://tify.rocks/) are listed on the cookbook. We welcome the addition of other IIIF viewers, but they must support the following features:
 
 - Support for the [IIIF version 3.0 Presentation API](https://iiif.io/api/presentation/3.0/)
 - A public, linkable instance, ideally using the `iiif-content` parameter from the [IIIF Content State API](https://iiif.io/api/content-state/)

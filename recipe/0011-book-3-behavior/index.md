@@ -9,6 +9,8 @@ viewers:
    support: partial
  - Mirador
  - Theseus
+ - id: TIFY
+   support: partial
 topic: property
 property:
  - behavior
@@ -53,7 +55,7 @@ This Manifest represents an Ethiopic accordion book with a continuous layout run
 
 This Manifest represents a book imaged as 2-page spreads (two facing pages in a single image). When using the `"behavior": "individuals"` property, the presentation client will force a one-at-a-time view and remove the "book view" option.
 
-{% include manifest_links.html viewers="UV, Mirador, Theseus" manifest="manifest-individuals.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Theseus, TIFY" manifest="manifest-individuals.json" %}
 
 {% include jsonviewer.html src="manifest-individuals.json" config='data-line="10-12"' %}
 

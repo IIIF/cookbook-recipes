@@ -12,6 +12,7 @@ viewers:
  - Glycerine Viewer
  - Theseus
  - Curation
+ - TIFY
 topic:
  - image
  - basic
@@ -39,7 +40,7 @@ You should also consider providing a [thumbnail][prezi3-thumbnail] for each Canv
 
 ## Example
 
-{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer, Theseus, Curation" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer, Theseus, Curation, TIFY" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 

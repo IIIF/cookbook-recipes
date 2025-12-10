@@ -66,6 +66,11 @@
     https://liiive.now/?iiif-content={{manifest_url |strip}}
     {% endcapture %}
     {% assign default_text="View in liiive" %}
+{% elsif include.type == 'TIFY' %}
+    {% capture viewer_url %}
+    https://tify-iiif-viewer.github.io/tify/?iiif-content={{manifest_url |strip}}
+    {% endcapture %}
+    {% assign default_text="View in TIFY" %}
 {% else %}
     {% capture default_text %}Unknown Viewer type '{{ include.type}}'{% endcapture %}
     {% capture viewer_url %}{{manifest_url |strip}}{% endcapture %}
