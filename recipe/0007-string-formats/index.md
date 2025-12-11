@@ -13,6 +13,7 @@ viewers:
  - Theseus
  - Curation
  - liiive
+ - TIFY
 topic: property
 property: label, summary, metadata, requiredStatement
 code:
@@ -35,7 +36,7 @@ For security reasons, clients are expected to allow only `a`, `b`, `br`, `i`, `i
 
 ## Example
 
-{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer, Theseus, Curation, liiive" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer, Theseus, Curation, liiive, TIFY" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="7,12,24,38"' %}
 
