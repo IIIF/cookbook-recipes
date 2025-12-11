@@ -83,6 +83,7 @@ _(leading on to segmentation examples later)_
 * comments - various examples (51,52,54)
 * [Simplest Annotation][0266]
 * [HTML in Annotations][0019]
+* [CSS in an Annotation][0045]
 * Fragment selectors (61)
 * [Simple Annotation - Tagging][0021]
 * [Annotation with a Non-Rectangular Polygon][0261]
@@ -104,7 +105,7 @@ _(leading on to segmentation examples later)_
 * table of contents (ranges) - articles in a newspaper
 * [Table of contents for A/V content][0026] (26)
 * [Adding Thumbnail Navigation and `no-nav` to a Video Resource][0229]
-* Alternative Sequence (via `sequence` Range) (20,22,23)
+* [Alternative Page Sequences][0027]
 * `sequence` Range with partial canvases
 
 ## Higher-level structure

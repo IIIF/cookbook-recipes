@@ -14,14 +14,15 @@
 [0014]: {{ site.cookbook_url | absolute_url }}/recipe/0014-accompanyingcanvas/ "Audio Presentation with Accompanying Image"
 [0015]: {{ site.cookbook_url | absolute_url }}/recipe/0015-start/ "Begin playback at a specific point - Time-based media"
 [0017]: {{ site.cookbook_url | absolute_url }}/recipe/0017-transcription-av/ "Providing Access to Transcript Files of A/V Content"
+
 [0019]: {{ site.cookbook_url | absolute_url }}/recipe/0019-html-in-annotations/ "HTML in Annotations"
 
 [0021]: {{ site.cookbook_url | absolute_url }}/recipe/0021-tagging/ "Simple Annotation — Tagging"
 [0022]: {{ site.cookbook_url | absolute_url }}/recipe/0022-linking-with-a-hotspot/ "Redirecting from one Canvas to another resource (Hotspot linking)"
 [0024]: {{ site.cookbook_url | absolute_url }}/recipe/0024-book-4-toc/ "Book with Table of contents (ranges)"
 [0026]: {{ site.cookbook_url | absolute_url }}/recipe/0026-toc-opera/ "Table of Contents for A/V Content"
+[0027]: {{ site.cookbook_url | absolute_url }}/recipe/0027-alternative-page-order/ "Alternative Page Sequences"
 [0029]: {{ site.cookbook_url | absolute_url }}/recipe/0029-metadata-anywhere/ "Metadata on any Resource"
-
 [0030]: {{ site.cookbook_url | absolute_url }}/recipe/0030-multi-volume/ "Multi-volume Work with Individually-bound Volumes"
 [0031]: {{ site.cookbook_url | absolute_url }}/recipe/0031-bound-multivolume/ "Multiple Volumes in a Single Bound Volume"
 [0032]: {{ site.cookbook_url | absolute_url }}/recipe/0032-collection/ "Simple Collection"
@@ -30,6 +31,8 @@
 [0036]: {{site.baseurl}}/recipe/0036-composition-from-multiple-images/ "Composition from Multiple Images"
 
 [0040]: {{ site.cookbook_url | absolute_url }}/recipe/0040-image-rotation-service/ "Image Rotation Two Ways"
+
+[0045]: {{ site.cookbook_url | absolute_url }}/recipe/0045-css/ "CSS in an Annotation"
 [0046]: {{ site.cookbook_url | absolute_url }}/recipe/0046-rendering/ "Providing Alternative Representations"
 [0047]: {{ site.cookbook_url | absolute_url }}/recipe/0047-homepage/ "Linking to Web Page of an Object"
 
