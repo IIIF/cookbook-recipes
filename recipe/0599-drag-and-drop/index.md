@@ -102,6 +102,11 @@ function drag(ev) {
 }
 </script>
 
+Though no viewer supports it, IIIF-C Technical Director Glen Robson has [a working version of a non-canonical viewer implementation](https://iiif.gdmrdigital.com/import_to_viewers/DragDropDestination.html) publicly available. This brief screencast demonstrates what it could look like to use that viewer:
+<video controls width="720">
+	<source src="drag-and-drop-resized-00.mov" type="video/mp4" />
+</video>
+
 ## Related Recipes
 
 * [Sharing a link for opening two or more Canvases][0540] for another use of IIIF Content State
