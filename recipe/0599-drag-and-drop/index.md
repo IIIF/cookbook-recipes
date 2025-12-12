@@ -21,7 +21,7 @@ Implementing this recipe requires a resource provider and a viewer each to imple
 
 ### For Resource Providers
 
-The resource provider must have a draggable item — such as an image — that makes use of the DataTransfer object. It will have a [`dataTransfer.setData` method](https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer) attached to the item's `dragstart` event.
+The resource provider must have a draggable item — customarily the IIIF logo image — that makes use of the DataTransfer object. It will have a [`dataTransfer.setData` method](https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer) attached to the item's `dragstart` event.
 
 A script implementing such a method for a Manifest could look like the below.
 ```javascript
