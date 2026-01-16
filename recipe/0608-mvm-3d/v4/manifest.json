@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/4/context.json",
   "id": "{{ id.url }}",
   "type": "Manifest",
-  "label": { "en": ["Single Model"] },
+  "label": { "en": ["Simplest Model Example (IIIF Presentation v4)"] },
   "summary": { "en": ["Viewer should render the model at the scene origin and then add default lighting and camera"] },
   "items": [
     {
