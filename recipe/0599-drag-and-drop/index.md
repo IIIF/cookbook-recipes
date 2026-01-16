@@ -81,10 +81,10 @@ Below is an image of the IIIF logo, decorated with the appropriate JavaScript ev
 
 No viewers currently support this approach to dragging and dropping a manifest.
 
-<img src="logo-sm.png" draggable="true" ondragstart="drag(event)" alt="IIIF logo; drag and drop onto a supporting viewer to see this resource in that viewer" style="cursor:pointer;">
+<img src="logo-sm.png" draggable="true" ondragstart="drag(event)" alt="IIIF logo; drag and drop onto a supporting viewer to see this resource in that viewer" style="cursor:grab;">
 
 ```html
-<img src="logo-sm.png" draggable="true" ondragstart="drag(event)" alt="IIIF logo; drag and drop onto a supporting viewer to see this resource in that viewer">
+<img src="logo-sm.png" draggable="true" ondragstart="drag(event)" alt="IIIF logo; drag and drop onto a supporting viewer to see this resource in that viewer" style="cursor:grab;">
 ```
 
 <script>
