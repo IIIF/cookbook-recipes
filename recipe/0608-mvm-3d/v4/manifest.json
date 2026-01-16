@@ -3,7 +3,7 @@
   "id": "{{ id.url }}",
   "type": "Manifest",
   "label": { "en": ["Single Model"] },
-  "summary": { "en": ["Viewer should render the model at the scene origin, and then viewer should add default lighting and camera"] },
+  "summary": { "en": ["Viewer should render the model at the scene origin and then add default lighting and camera"] },
   "items": [
     {
       "id": "{{ id.path }}/scene/1",
