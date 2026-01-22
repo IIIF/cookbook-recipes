@@ -73,7 +73,7 @@ _The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..
     * [Providing Access to Transcript Files of A/V Content][0017]
     * [Using Annotations for Timed Text][0079]
     * [Using Caption and Subtitle Files with Video Content][0219]
-    * [A Side-by-side Transcript of a Video Recording][0253]
+    * [A Side-by-side Transcript of a Video Recording][0253-4]
 * Transcription of content into XML, with XPaths to select a segment
 
 ## Other kinds of annotations
