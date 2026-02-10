@@ -33,30 +33,28 @@ Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advi
 
 ## Building a manifest in stages, adding more complexity at each stage
 
-_The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..(3,5)_
-
 * Simplest Manifest - Image ([version 3][0001] / [version 4][0001-4])
 * Simplest Manifest - Audio (Presentation API [v3][0002] / [v4][0002-4])
-* [Simplest Manifest - Video][0003] - [version 4][0003-4] (1) (use single video as content resource, w,h,d)
+* [Simplest Manifest - Video][0003] - [version 4][0003-4]
 * [Simplest Manifest - 3D][0608-4]
-* [Image and Canvas with Differing Dimensions][0004] (26)
-* [Support Deep Viewing with Basic Use of a IIIF Image Service][0005] (24,25)
-* [Internationalization and Multi-language Values][0006] (3,4,6)
+* [Image and Canvas with Differing Dimensions][0004]
+* [Support Deep Viewing with Basic Use of a IIIF Image Service][0005]
+* [Internationalization and Multi-language Values][0006]
 * [Displaying Multiple Values with Language Maps][0118]
-* [Embedding HTML in descriptive properties][0007] (64)
-* [Metadata on any Resource][0029] (21)
-* [Rights statement\(s\)][0008] (7)
-* [Simple Manifest - Book][0009] (19)
-* [Book behavior (paging) variations][0011] (15,16,17)
+* [Embedding HTML in descriptive properties][0007]
+* [Metadata on any Resource][0029]
+* [Rights statement\(s\)][0008]
+* [Simple Manifest - Book][0009]
+* [Book behavior (paging) variations][0011]
 * [Addressing a spatial region][0299]
-* [Viewing direction and its effect on navigation][0010] (11,12,13,14)
+* [Viewing direction and its effect on navigation][0010]
 * [Missing Images in a Sequence][0283]
 * [Image Thumbnail for Manifest][0117]
 * [Implementation discussion: Thumbnails on Canvases][0232]
 * [Load a Preview Image Before the Main Content][0013]
 * [Audio Presentation with Accompanying Image][0014]
 * [Load Manifest Beginning with a Specific Canvas][0202]
-* [Begin playback at a specific point - Time-based media][0015] (65)
+* [Begin playback at a specific point - Time-based media][0015]
 * [Navigation by Chronology][0230]
 * [Locate a Manifest on a Web Map][0154]
 * [Locate Multiple Canvases on a Web Map][0240]
@@ -103,7 +101,7 @@ _(leading on to segmentation examples later)_
 
 * [Table of Contents for Book Chapters][0024]
 * table of contents (ranges) - articles in a newspaper
-* [Table of contents for A/V content][0026] (26)
+* [Table of contents for A/V content][0026]
 * [Adding Thumbnail Navigation and `no-nav` to a Video Resource][0229]
 * [Alternative Page Sequences][0027]
 * `sequence` Range with partial canvases
@@ -116,9 +114,9 @@ _(leading on to segmentation examples later)_
 
 ## Segmentation and complex resources
 
-* [Multiple choice of images in a single view][0033] (29)
+* [Multiple choice of images in a single view][0033]
 * [Foldouts, Flaps, and Maps][0035]
-* [Composition from Multiple Images][0036] (30,31)
+* [Composition from Multiple Images][0036]
 * [Rendering Resources Sequentially on a Timeline][0560]
 * [Rendering Multiple Media Types on a Time-Based Canvas][0489]
 * Multiple images and multiple choices (32,33,34)
@@ -140,7 +138,7 @@ _(leading on to segmentation examples later)_
 * Linking from external metadata to Image API
 * Linking from external metadata to Presentation API
 * Linking between Presentation API representations
-* [Linking to Structured Metadata][0053] (8)
+* [Linking to Structured Metadata][0053]
 
 
 ## Sharing IIIF content
@@ -168,8 +166,8 @@ Recipes using [Content State API](https://iiif.io/api/content-state/1.0/)
 * ...and its image resoures
 * ...combined to demonstrate _together_
 * [Multiple Choice of Audio Formats in a Single View (Canvas)][0434]
-* [Table of Contents for Multiple A/V files on a Single Canvas][0064] (64)
-* [Table of Contents for Multiple A/V files on Multiple Canvases][0065] (65)
+* [Table of Contents for Multiple A/V files on a Single Canvas][0064]
+* [Table of Contents for Multiple A/V files on Multiple Canvases][0065]
 * Adaptive bit rate AV examples
 * A field recording
 * [Basic Newspaper][0068]
