@@ -69,15 +69,12 @@ Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advi
 
 ## Textual and other supplementary content
 
-* [Transcription of image-based content][016]
 * [Using Transcripts with A/V Content][0017]
 * [Using Captions and Subtitles with Video Content][0219]
 * [Providing Alternative Representations][0046]
 * [Transcripts, Captions, and Subtitles - General Considerations][0231]
     * [Providing Access to Transcript Files of A/V Content][0017]
-    * [Using Annotations for Timed Text][0079]
     * [Using Caption and Subtitle Files with Video Content][0219]
-    * [A Side-by-side Transcript of a Video Recording][0253]
 
 
 ## Other kinds of annotations
@@ -122,7 +119,6 @@ _(leading on to segmentation examples later)_
 * [Composition from Multiple Images][0036]
 * [Rendering Resources Sequentially on a Timeline][0560]
 * [Rendering Multiple Media Types on a Time-Based Canvas][0489]
-* [Annotating part of an image to a Canvas][recipe-segment-image-part]
 * [Image Rotation Two Ways][0040]
 
 
