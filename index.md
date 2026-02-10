@@ -21,6 +21,10 @@ As part of the work to aid implementation the Cookbook group have developed a Vi
 {% include misc/button.html button_link="recipe/matrix/" button_label="See IIIF viewer support" %}
 {{ theme.block-end }}
 
+## Presentation API Versions
+
+The cookbook contains recipes primarily for version 3 of the IIIF Presentation API. Where a recipe has been written for only version 4, or for both versions 3 and 4, that is indicated following the recipe title.
+
 ## Code samples
 
 As well as viewer support, the cookbook provides links to code samples in various development libraries to aid developers who hope to re-create these recipes in Code. You can see a full list of recipes with code samples in the [code samples](recipe/code/) page.
