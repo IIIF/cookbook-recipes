@@ -62,6 +62,7 @@ Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advi
 * [Simple Collection][0032]
 * [Reuse parts of a Manifest][0464]
 
+
 ## Textual and other supplementary content
 
 * [Transcription of image-based content][016]
@@ -73,16 +74,14 @@ Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advi
     * [Using Annotations for Timed Text][0079]
     * [Using Caption and Subtitle Files with Video Content][0219]
     * [A Side-by-side Transcript of a Video Recording][0253]
-* Transcription of content into XML, with XPaths to select a segment
+
 
 ## Other kinds of annotations
 _(leading on to segmentation examples later)_
 
-* comments - various examples (51,52,54)
 * [Simplest Annotation][0266]
 * [HTML in Annotations][0019]
 * [CSS in an Annotation][0045]
-* Fragment selectors (61)
 * [Simple Annotation - Tagging][0021]
 * [Annotation with a Non-Rectangular Polygon][0261]
 * [Tagging with an External Resource][0258]
@@ -97,20 +96,20 @@ _(leading on to segmentation examples later)_
 * [Annotating in Multiple Languages][0346]
 * [Visible Text Resource on a Canvas][0561]
 
+
 ## Internal structure
 
 * [Table of Contents for Book Chapters][0024]
-* table of contents (ranges) - articles in a newspaper
 * [Table of contents for A/V content][0026]
 * [Adding Thumbnail Navigation and `no-nav` to a Video Resource][0229]
 * [Alternative Page Sequences][0027]
-* `sequence` Range with partial canvases
+
 
 ## Higher-level structure
 
 * [Multi-volume Work with Individually-bound Volumes][0030]
 * [Multiple Volumes in a Single Bound Volume][0031]
-* paged Collections (from #1343)
+
 
 ## Segmentation and complex resources
 
@@ -119,25 +118,13 @@ _(leading on to segmentation examples later)_
 * [Composition from Multiple Images][0036]
 * [Rendering Resources Sequentially on a Timeline][0560]
 * [Rendering Multiple Media Types on a Time-Based Canvas][0489]
-* Multiple images and multiple choices (32,33,34)
-* [Annotating part of an image to a Canvas][recipe-segment-image-part] (e.g., crop out scanner) (35,36,37,38)
+* [Annotating part of an image to a Canvas][recipe-segment-image-part]
 * [Image Rotation Two Ways][0040]
-* Reusing an image service (ImageApiSelector) (41)
-* non-rectangular segmentation
-* temporal segmentation
-* Audio only from video (and other xxxContentSelector scenarios)
-* canvas on canvas (#1191)
-* CSS styling
+
 
 ## Linking
 
-* alternative representations (rendering (?))
 * [Linking to Web Page of an Object (homepage)][0047]
-* Linking from Image API to Presentation API (via partOf as per #600, #1507)
-* Linking from Image API to external metadata
-* Linking from external metadata to Image API
-* Linking from external metadata to Presentation API
-* Linking between Presentation API representations
 * [Linking to Structured Metadata][0053]
 
 
@@ -152,43 +139,18 @@ Recipes using [Content State API](https://iiif.io/api/content-state/1.0/)
 
 ## Technical
 
-* extensions (18)
-* services (9,10)
-* Mixed version scenarios (Prezi 3+Image 2)
 * [Making IIIF Presentation API v2 and v3 manifests available at the same URL][0057]
+
 
 ## Real-world complex objects (ideally taken from actual collections)
 
-* An Image gallery
-* museum object (fwd ref to renderings)
-* A complex printed work with foldouts and choice
-* A music album's audio resources
-* ...and its image resoures
-* ...combined to demonstrate _together_
 * [Multiple Choice of Audio Formats in a Single View (Canvas)][0434]
 * [Table of Contents for Multiple A/V files on a Single Canvas][0064]
 * [Table of Contents for Multiple A/V files on Multiple Canvases][0065]
-* Adaptive bit rate AV examples
-* A field recording
 * [Basic Newspaper][0068]
-* Example with extensions and services
-* A manuscript with multiple orderings
-* a Sammelband
-* Archival collection (hierarchy, paging)
-* Thumbnail range for video navigation
 * [Using Caption and Subtitle Files in Multiple Languages with Video Content][0074]
-* Mixed Image Service references (a mashup, with img2 and img3 services)
-* Glenn Gould - score and performance scenarios (transcribing)
-* A Map
 * [Locating an Item in Place and Time][0318]
 
-
-## Access Control
-_this might be in a separate auth cookbook_
-
-* probe service for simple resource
-* auth for adaptive bit rate media (MPEG-DASH)
-* Anyone can deep zoom, auth reqd for hi-res download
 
 {% include acronyms.md %}
 {% include links.md %}
