@@ -78,7 +78,7 @@ Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advi
 
 
 ## Other kinds of annotations
-(These are building blocks for segmentation, below)
+(These are also building blocks for segmentation, below)
 
 * [Simplest Annotation][0266]
 * [HTML in Annotations][0019]
