@@ -29,7 +29,7 @@
               "motivation": "painting",
               "stylesheet": {
                 "type": "CssStylesheet",
-                "value": ".rotated { transform-origin: center; transform: rotate(90deg); }"
+                "value": ".rotated { transform-origin: 761px 1344px; transform: rotate(90deg) translateY(-582px); }"
               },
               "body": {
                 "id": "{{ id.path }}/body/sr1",
@@ -43,7 +43,7 @@
                   "height": 2105,
                   "service": [
                     {
-                      "id": "https://iiif.io/api/image/3.0/example/reference/85a96c630f077e6ac6cb984f1b752bbf-0-21198-zz00022840-1-master",
+                      "id": "https://iiif.io/api/image/3.0/example/reference/85a96c630f077e6ac6cb984f1b752bbf-0-21198-zz00022840-1-page1",
                       "type": "ImageService3",
                       "profile": "level1"
                     }

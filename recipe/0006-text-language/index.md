@@ -11,6 +11,7 @@ viewers:
  - Glycerine Viewer
  - Theseus
  - Curation
+ - TIFY
 topic: basic
 property: label, summary, metadata, requiredStatement
 code:
@@ -47,7 +48,7 @@ Note not all viewers support all languages and users should check the viewers wi
 
 The image in this example was sourced via Wikimedia Commons and is public domain.
 
-{% include manifest_links.html viewers="UV, Mirador, Annona, Glycerine Viewer, Theseus, Curation" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Glycerine Viewer, Theseus, Curation, TIFY" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="6-11, 16-21, 24-26, 31-36, 39-44, 49-54, 58-63, 66-68"' %}
 

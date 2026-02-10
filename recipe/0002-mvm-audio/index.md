@@ -12,6 +12,7 @@ viewers:
  - Aviary
  - Theseus
  - Glycerine Viewer
+ - TIFY
 v4-viewers:  
  - Mirador
  - UV

@@ -35,7 +35,7 @@ The fields are as follows:
  * `tags` this is used in the recipe listing page and is currently uncontrolled and optional. It is shown on the [full list of recipes](https://iiif.io/api/cookbook/recipe/all/)
  * `summary` a short summary of the recipe. It is shown on the [full list of recipes](https://iiif.io/api/cookbook/recipe/all/)
  * `viewers` see further details below but this drives the Viewer Matrix
- * `topic` a controlled list of headings that are used on the viewer matrix. Allowed values are **basic, property, structure, image, AV, annotation or geo-recipes**. A recipe may have multiple topics and these would be expressed as a list for example:
+ * `topic` a controlled list of headings that are used on the viewer matrix. Allowed values are **basic, property, note, structure, annotation, image, AV, realWorldObject, geo-recipes, content-state**. (The current set of topics at any time are in the [`topics.yml`](_data/topics.yml) file.) A recipe may have multiple topics and these would be expressed as a list for example:
 ```
 topic: 
  - basic
@@ -81,12 +81,12 @@ but we would welcome other viewers. To see the requirements for adding other vie
 This provides a standard link to the JSON and also to viewers. A full example is as follows:
 
 ```
-{% include manifest_links.html viewers="UV, Mirador, Tify, Curation" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, TIFY, Curation" manifest="manifest.json" %}
 ```
 
 and this would produce the following line:
 
-[JSON-LD]() | [View in Universal Viewer]() | [View in Mirador]() | [View in Tify]() | [View in IIIF Curation Viewer]()
+[JSON-LD]() | [View in Universal Viewer]() | [View in Mirador]() | [View in TIFY]() | [View in IIIF Curation Viewer]()
 
 The `manifest` parameter allows you to pass a relative link to the manifest and the `viewers` parameter is a list of Viewer links to show. For the Viewers property you have the following options:
 
