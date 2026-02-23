@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "https://example.org/import/1",
+    "id": "{{ id.url }}",
     "type": "Annotation",
     "motivation": ["contentState"],
     "target": {

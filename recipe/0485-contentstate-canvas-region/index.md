@@ -5,8 +5,13 @@ layout: recipe
 tags: [annotation, content-state]
 summary: "Allows users to use Content State API to open a specific region of a Canvas by means of supported viewers."
 viewers:
+<<<<<<< HEAD
   - Clover
   - Theseus
+=======
+ - Clover
+ - Theseus
+>>>>>>> 527598a (Fix issue 591)
 topic:
  - content-state
 ---
@@ -34,7 +39,7 @@ First, we create an Annotation:
 ```json
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://example.org/import/1",
+  "id": "https://iiif.io/api/cookbook/recipe/0485-contentstate-canvas-region/annotation.json",
   "type": "Annotation",
   "motivation": ["contentState"],
   "target": {
@@ -53,12 +58,12 @@ We can create an Annotation with `motivation` set to `contentState` and a target
 We can now use one of the methods listed in the [examples of Content State encoding section](https://iiif.io/api/content-state/1.0/#63-examples-of-content-state-encoding) to generate a base64url string (**note: for brevity, we removed new line characters and white space before computing the base64url**).
 
 We can pass the encoded value, using the `iiif-content` query parameter of the viewer landing page:
-[https://example.org/viewer?iiif-content=JTdCJTIyJTQwY29udGV4dCUyMiUzQSUyMmh0dHAlM0ElMkYlMkZpaWlmLmlvJTJGYXBpJTJGcHJlc2VudGF0aW9uJTJGMyUyRmNvbnRleHQuanNvbiUyMiUyQyUyMmlkJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZleGFtcGxlLm9yZyUyRmltcG9ydCUyRjElMjIlMkMlMjJ0eXBlJTIyJTNBJTIyQW5ub3RhdGlvbiUyMiUyQyUyMm1vdGl2YXRpb24lMjIlM0ElNUIlMjJjb250ZW50U3RhdGUlMjIlNUQlMkMlMjJ0YXJnZXQlMjIlM0ElN0IlMjJpZCUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGaWlpZi5pbyUyRmFwaSUyRmNvb2tib29rJTJGcmVjaXBlJTJGMDAwOS1ib29rLTElMkZjYW52YXMlMkZwMiUyM3h5d2glM0QxNTI4JTJDMzAyNCUyQzM0NCUyQzQwOCUyMiUyQyUyMnR5cGUlMjIlM0ElMjJDYW52YXMlMjIlMkMlMjJwYXJ0T2YlMjIlM0ElNUIlN0IlMjJpZCUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGaWlpZi5pbyUyRmFwaSUyRmNvb2tib29rJTJGcmVjaXBlJTJGMDAwOS1ib29rLTElMkZtYW5pZmVzdC5qc29uJTIyJTJDJTIydHlwZSUyMiUzQSUyMk1hbmlmZXN0JTIyJTdEJTVEJTdEJTdE](https://example.org/)
+[https://example.org/viewer?iiif-content=ewogICJAY29udGV4dCI6ICJodHRwOi8vaWlpZi5pby9hcGkvcHJlc2VudGF0aW9uLzMvY29udGV4dC5qc29uIiwKICAiaWQiOiAiaHR0cHM6Ly9leGFtcGxlLm9yZy9pbXBvcnQvMSIsCiAgInR5cGUiOiAiQW5ub3RhdGlvbiIsCiAgIm1vdGl2YXRpb24iOiBbCiAgICAiY29udGVudFN0YXRlIgogIF0sCiAgInRhcmdldCI6IHsKICAgICJpZCI6ICJodHRwczovL2lpaWYuaW8vYXBpL2Nvb2tib29rL3JlY2lwZS8wMDA5LWJvb2stMS9jYW52YXMvcDIjeHl3aD0xNTI4LDMwMjQsMzQ0LDQwOCIsCiAgICAidHlwZSI6ICJDYW52YXMiLAogICAgInBhcnRPZiI6IFsKICAgICAgewogICAgICAgICJpZCI6ICJodHRwczovL2lpaWYuaW8vYXBpL2Nvb2tib29rL3JlY2lwZS8wMDA5LWJvb2stMS9tYW5pZmVzdC5qc29uIiwKICAgICAgICAidHlwZSI6ICJNYW5pZmVzdCIKICAgICAgfQogICAgXQogIH0KfQ==](https://example.org/)
 
 We can also create an anchor tag with the link as the `href` attribute for use in a web page:
 
 ```html
-<a href="https://example.org/viewer?iiif-content=JTdCJTIyJTQwY29udGV4dCUyMiUzQSUyMmh0dHAlM0ElMkYlMkZpaWlmLmlvJTJGYXBpJTJGcHJlc2VudGF0aW9uJTJGMyUyRmNvbnRleHQuanNvbiUyMiUyQyUyMmlkJTIyJTNBJTIyaHR0cHMlM0ElMkYlMkZleGFtcGxlLm9yZyUyRmltcG9ydCUyRjElMjIlMkMlMjJ0eXBlJTIyJTNBJTIyQW5ub3RhdGlvbiUyMiUyQyUyMm1vdGl2YXRpb24lMjIlM0ElNUIlMjJjb250ZW50U3RhdGUlMjIlNUQlMkMlMjJ0YXJnZXQlMjIlM0ElN0IlMjJpZCUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGaWlpZi5pbyUyRmFwaSUyRmNvb2tib29rJTJGcmVjaXBlJTJGMDAwOS1ib29rLTElMkZjYW52YXMlMkZwMiUyM3h5d2glM0QxNTI4JTJDMzAyNCUyQzM0NCUyQzQwOCUyMiUyQyUyMnR5cGUlMjIlM0ElMjJDYW52YXMlMjIlMkMlMjJwYXJ0T2YlMjIlM0ElNUIlN0IlMjJpZCUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGaWlpZi5pbyUyRmFwaSUyRmNvb2tib29rJTJGcmVjaXBlJTJGMDAwOS1ib29rLTElMkZtYW5pZmVzdC5qc29uJTIyJTJDJTIydHlwZSUyMiUzQSUyMk1hbmlmZXN0JTIyJTdEJTVEJTdEJTdE">Link for visualizing the region of a Canvas using a viewer.</a>
+<a href="https://example.org/viewer?iiif-content=ewogICJAY29udGV4dCI6ICJodHRwOi8vaWlpZi5pby9hcGkvcHJlc2VudGF0aW9uLzMvY29udGV4dC5qc29uIiwKICAiaWQiOiAiaHR0cHM6Ly9leGFtcGxlLm9yZy9pbXBvcnQvMSIsCiAgInR5cGUiOiAiQW5ub3RhdGlvbiIsCiAgIm1vdGl2YXRpb24iOiBbCiAgICAiY29udGVudFN0YXRlIgogIF0sCiAgInRhcmdldCI6IHsKICAgICJpZCI6ICJodHRwczovL2lpaWYuaW8vYXBpL2Nvb2tib29rL3JlY2lwZS8wMDA5LWJvb2stMS9jYW52YXMvcDIjeHl3aD0xNTI4LDMwMjQsMzQ0LDQwOCIsCiAgICAidHlwZSI6ICJDYW52YXMiLAogICAgInBhcnRPZiI6IFsKICAgICAgewogICAgICAgICJpZCI6ICJodHRwczovL2lpaWYuaW8vYXBpL2Nvb2tib29rL3JlY2lwZS8wMDA5LWJvb2stMS9tYW5pZmVzdC5qc29uIiwKICAgICAgICAidHlwZSI6ICJNYW5pZmVzdCIKICAgICAgfQogICAgXQogIH0KfQ==">Link for visualizing the region of a Canvas using a viewer.</a>
 ```
 
 An alternative way of sharing a region of an image is to use the [Image API](https://iiif.io/api/image/3.0/#41-region). However, the context from which the region is extracted is not easily accessible. Instead, sharing a link to open the specific region with a viewer allows the users to explore another part of the image or related content and metadata in the Manifest.
