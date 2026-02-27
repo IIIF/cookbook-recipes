@@ -10,7 +10,7 @@
         "The Temple of Vesta, Rome, 1849"
       ]
     },
-    "navDate": "1849-01-01T00:00:00+00:00",
+    "navDate": "1849-01-01T00:00:00Z",
     "navPlace": {
       "id": "{{ id.path }}/feature-collection/4",
       "type": "FeatureCollection",
