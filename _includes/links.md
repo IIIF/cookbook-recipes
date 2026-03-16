@@ -1,6 +1,9 @@
 [0001]: {{ site.cookbook_url | absolute_url }}/recipe/0001-mvm-image/ "Simplest Manifest - Image"
+[0001-4]: {{ site.cookbook_url | absolute_url }}/recipe/0001-mvm-image/#version-4 "Simplest Manifest - Image"
 [0002]: {{ site.cookbook_url | absolute_url }}/recipe/0002-mvm-audio/ "Simplest Manifest - Audio"
+[0002-4]: {{ site.cookbook_url | absolute_url }}/recipe/0002-mvm-audio/#version-4 "Simplest Manifest - Audio"
 [0003]: {{ site.cookbook_url | absolute_url }}/recipe/0003-mvm-video/ "Simplest Manifest - Video"
+[0003-4]: {{ site.cookbook_url | absolute_url }}/recipe/0003-mvm-video/#version-4 "Simplest Manifest - Video"
 [0004]: {{ site.cookbook_url | absolute_url }}/recipe/0004-canvas-size/ "Image and Canvas with Differing Dimensions"
 [0005]: {{ site.cookbook_url | absolute_url }}/recipe/0005-image-service/ "Support Deep Viewing with Basic Use of a IIIF Image Service"
 [0006]: {{ site.cookbook_url | absolute_url }}/recipe/0006-text-language/ "Internationalization and Multi-language Values"
@@ -44,7 +47,8 @@
 [0068]: {{ site.cookbook_url | absolute_url }}/recipe/0068-newspaper/ "Basic Newspaper"
 
 [0074]: {{ site.cookbook_url | absolute_url}}/recipe/0074-multiple-language-captions/ "Using Caption and Subtitle Files in Multiple Languages with Video Content"
-
+[0074-4]: {{ site.cookbook_url | absolute_url}}/recipe/0074-multiple-language-captions/#version-4 "Using Caption and Subtitle Files in Multiple Languages with Video Content"
+[0079-4]: {{ site.cookbook_url | absolute_url }}/recipe/0079-annotations-for-captions/#version-4 "Using Annotations for Timed Text"
 [0117]: {{ site.cookbook_url | absolute_url }}/recipe/0117-add-image-thumbnail/ "Image Thumbnail for Manifest"
 [0118]: {{ site.cookbook_url | absolute_url }}/recipe/0118-multivalue/ "Displaying Multiple Values with Language Maps"
 [0135]: {{ site.cookbook_url | absolute_url }}/recipe/0135-annotating-point-in-canvas/ "Annotating a specific point of an image"
@@ -53,12 +57,15 @@
 
 [0202]: {{ site.cookbook_url | absolute_url }}/recipe/0202-start-canvas/ "Load Manifest Beginning with a Specific Canvas"
 [0219]: {{ site.cookbook_url | absolute_url }}/recipe/0219-using-caption-file/ "Using Caption and Subtitle Files with Video Content"
+[0219-4]: {{ site.cookbook_url | absolute_url }}/recipe/0219-using-caption-file/#version-4 "Using Caption and Subtitle Files with Video Content"
 [0229]: {{ site.cookbook_url | absolute_url }}/recipe/0229-behavior-ranges/ "Adding Thumbnail Navigation and `no-nav` to a Video Resource"
 [0230]: {{ site.cookbook_url | absolute_url }}/recipe/0230-navdate/ "Navigation by Chronology"
 [0231]: {{ site.cookbook_url | absolute_url }}/recipe/0231-transcript-meta-recipe/ "Transcripts, Captions, and Subtitles - General Considerations"
+[0231-4]: {{ site.cookbook_url | absolute_url }}/recipe/0231-transcript-meta-recipe/#version-4 "Transcripts, Captions, and Subtitles - General Considerations"
 [0232]: {{ site.cookbook_url | absolute_url }}/recipe/0232-image-thumbnail-canvas/ "Implementation discussion: Thumbnails on Canvases"
 [0234]: {{ site.cookbook_url | absolute_url }}/recipe/0234-provider/ "Acknowledge Content Contributors"
 [0240]: {{ site.cookbook_url | absolute_url }}/recipe/0240-navPlace-on-canvases/ "Locate Multiple Canvases on a Web Map"
+[253-4]: {{ site.cookbook_url | absolute_url }}/recipe/0253-using-transcript-file/ "Using Transcript Files with Audio or Video Content" 
 [0258]: {{ site.cookbook_url | absolute_url }}/recipe/0258-tagging-external-resource/ "Tagging with an External Resource"
 [0261]: {{ site.cookbook_url | absolute_url }}/recipe/0261-non-rectangular-commenting/ "Annotation with a Non-Rectangular Polygon"
 [0266]: {{ site.cookbook_url | absolute_url }}/recipe/0266-full-canvas-annotation/ "Simplest Annotation"
@@ -84,6 +91,8 @@
 [0561]: {{ site.cookbook_url | absolute_url }}/recipe/0561-text-on-image/ "Visible Text Resource on a Canvas"
 [0599]: {{ site.cookbook_url | absolute_url }}/recipe/0599-drag-and-drop/ "Drag and Drop"
 
+[0608-4]: {{ site.cookbook_url | absolute_url }}/recipe/0608-mvm-3d/#version-4 "Simplest Manifest - 3D model"
+
 [cookbook-process]: {{site.cookbook_url | absolute_url }}/recipe
 
 [trc]: {{ site.root_url | absolute_url }}/community/trc/
@@ -97,6 +106,9 @@
 [prezi3-service]: {{ site.api_url | absolute_url }}/presentation/3.0/#service "IIIF Presentation API service property"
 [prezi3-start]: {{ site.api_url | absolute_url }}/presentation/3.0/#start "Start Property"
 [prezi3-thumbnail]: {{ site.api_url | absolute_url }}/presentation/3.0/#thumbnail "Thumbnail"
+
+[prezi4-model]: {{ site.api_url | absolute_url }}/presentation/4.0/model/ "IIIF Presentation API version 4 Data Model"
+[prezi4-overview]: {{ site.api_url | absolute_url }}/presentation/4.0/model/ "IIIF Presentation API version 4 Overview"
 
 [service-registry]: {{ site.api_url | absolute_url }}/registry/services/ "the IIIF Registry of Services"
 
