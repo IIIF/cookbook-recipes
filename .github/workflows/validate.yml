@@ -23,5 +23,5 @@ jobs:
       - name: Run IIIF validator
         uses: IIIF/presentation-validator@refactor-2026
         with:
-          directory: _site/recipe
+          directory: _site/root/HEAD/recipe
           version: "3.0"
