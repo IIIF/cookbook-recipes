@@ -11,8 +11,18 @@ jobs:
       - name: Check out this repository
         uses: actions/checkout@v5
 
+      # Setup ruby and build site
+      - name: Setup ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+      - run: gem install bundler && bundle  
+
+      - name: Build preview site
+        run: bundle exec jekyll build
+
       - name: Run IIIF validator
         uses: IIIF/presentation-validator@refactor-2026
         with:
-          directory: recipe
+          directory: _site/recipe
           version: "3.0"
