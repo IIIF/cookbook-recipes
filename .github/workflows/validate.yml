@@ -16,10 +16,9 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
-      - run: gem install bundler && bundle  
 
-      - name: Build preview site
-        run: bundle exec jekyll build
+      - name: Build site
+        run: bundle exec rake build:preview
 
       - name: Run IIIF validator
         uses: IIIF/presentation-validator@refactor-2026
