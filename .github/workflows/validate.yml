@@ -32,4 +32,3 @@ jobs:
         uses: IIIF/presentation-validator@refactor-2026
         with:
           directory: _site/cookbook/HEAD/recipe
-          version: "3.0"
