@@ -15,4 +15,4 @@ jobs:
         uses: IIIF/presentation-validator@refactor-2026
         with:
           directory: recipe
-          version: "3.0"
+          version: 3.0
