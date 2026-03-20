@@ -12,6 +12,7 @@
         {
           "@id": "{{ id.path }}/canvas/p1",
           "@type": "sc:Canvas",
+          "label": "p. 1",
           "height": 1800,
           "width": 1200,
           "images": [
