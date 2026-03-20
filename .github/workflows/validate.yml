@@ -7,6 +7,11 @@ on:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    env:
+      BUNDLE_WITH: test jekyll_plugins
+      SITE_ID:  'cookbook' # which iiif site this is
+      URL: 'https://preview.iiif.io'
+      
     steps:
       - name: Check out this repository
         uses: actions/checkout@v5
@@ -17,11 +22,14 @@ jobs:
         with:
           bundler-cache: true
 
+      - name: add URL to config
+        run: .github/bin/addURL.sh
+
       - name: Build site
         run: bundle exec rake build:preview
 
       - name: Run IIIF validator
         uses: IIIF/presentation-validator@refactor-2026
         with:
-          directory: _site/root/HEAD/recipe
+          directory: _site/recipe
           version: "3.0"
