@@ -29,6 +29,6 @@ jobs:
         run: bundle exec rake build:preview
 
       - name: Run IIIF validator
-        uses: IIIF/presentation-validator@refactor-2026
+        uses: IIIF/presentation-validator@main
         with:
           directory: _site/cookbook/HEAD/recipe
