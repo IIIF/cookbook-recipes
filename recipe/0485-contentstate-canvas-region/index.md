@@ -5,13 +5,8 @@ layout: recipe
 tags: [annotation, content-state]
 summary: "Allows users to use Content State API to open a specific region of a Canvas by means of supported viewers."
 viewers:
-<<<<<<< HEAD
-  - Clover
-  - Theseus
-=======
  - Clover
  - Theseus
->>>>>>> 527598a (Fix issue 591)
 topic:
  - content-state
 ---
