@@ -11,6 +11,7 @@ viewers:
   - Glycerine Viewer
   - Theseus
   - TIFY
+  - Triiiceratops
 topic: property
 property: homepage
 ---
@@ -39,7 +40,7 @@ In this example we have a Manifest representing an object housed at the Getty Mu
 
 _Laocöon_. Credit: Getty.
 
-{% include manifest_links.html viewers="Mirador, Clover, Annona, Glycerine Viewer, Theseus, TIFY" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador, Clover, Annona, Glycerine Viewer, Theseus, TIFY, Triiiceratops" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="10-24"' %}
 

@@ -10,6 +10,7 @@ viewers:
  - Glycerine Viewer
  - Theseus
  - liiive
+ - Triiiceratops
 topic: annotation
 ---
 
@@ -56,7 +57,7 @@ This approach should not be used to describe non-rotated rectangular regions.
 
 In this Manifest, we are highlighting a fountain with a statue on top of it and imagining that we want to be fairly precise in our highlight. The client should not show the bounding box on the image.
 
-{% include manifest_links.html viewers="Mirador,Annona,Glycerine Viewer, Theseus, liiive" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador,Annona,Glycerine Viewer, Theseus, liiive, Triiiceratops" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="44-70"' %}
 
