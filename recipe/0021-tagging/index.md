@@ -11,6 +11,7 @@ viewers:
  - Theseus
  - liiive
  - TIFY
+ - Triiiceratops
 topic: annotation
 code:
  - iiif-prezi3
@@ -36,7 +37,7 @@ In this Manifest, we use a photograph of Göttingen from the 2019 IIIF annual co
 
 Because the statue is not the sole or dominant element of the photo, we've targeted the tag to a portion of the photo using fragment selector syntax.
 
-{% include manifest_links.html viewers="Mirador,Annona,Glycerine Viewer, Theseus, liiive, TIFY" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador,Annona,Glycerine Viewer, Theseus, liiive, TIFY, Triiiceratops" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="44-63"' %}
 
