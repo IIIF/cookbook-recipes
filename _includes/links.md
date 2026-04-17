@@ -20,6 +20,7 @@
 [0021]: {{ site.cookbook_url | absolute_url }}/recipe/0021-tagging/ "Simple Annotation — Tagging"
 [0022]: {{ site.cookbook_url | absolute_url }}/recipe/0022-linking-with-a-hotspot/ "Redirecting from one Canvas to another resource (Hotspot linking)"
 [0024]: {{ site.cookbook_url | absolute_url }}/recipe/0024-book-4-toc/ "Book with Table of contents (ranges)"
+[0025]: {{ site.cookbook_url | absolute_url }}/recipe/0025-newspaper-article-index/ "Newspaper Article Index"
 [0026]: {{ site.cookbook_url | absolute_url }}/recipe/0026-toc-opera/ "Table of Contents for A/V Content"
 [0027]: {{ site.cookbook_url | absolute_url }}/recipe/0027-alternative-page-order/ "Alternative Page Sequences"
 [0029]: {{ site.cookbook_url | absolute_url }}/recipe/0029-metadata-anywhere/ "Metadata on any Resource"
