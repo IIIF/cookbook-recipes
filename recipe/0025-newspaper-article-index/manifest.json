@@ -1,0 +1,415 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "{{ id.url }}",
+  "type": "Manifest",
+  "label": {
+    "de": [
+      "Bozner Zeitung - 1903-08-18"
+    ]
+  },
+  "items": [
+    {
+      "id": "{{ id.path }}/canvas/p1",
+      "type": "Canvas",
+      "label": {
+        "de": [
+          "Seite 1."
+        ]
+      },
+      "height": 2402,
+      "width": 1634,
+      "items": [
+        {
+          "id": "{{ id.path }}/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/c0f1e980f00f66ef47caaf52cead8119-p1/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2402,
+                "width": 1634,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/c0f1e980f00f66ef47caaf52cead8119-p1",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "{{ id.path }}/canvas/p1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "{{ id.path }}/canvas/p2",
+      "type": "Canvas",
+      "label": {
+        "de": [
+          "Seite 2."
+        ]
+      },
+      "height": 2402,
+      "width": 1634,
+      "items": [
+        {
+          "id": "{{ id.path }}/page/p2/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/annotation/p0002-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/c0f1e980f00f66ef47caaf52cead8119-p2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2402,
+                "width": 1634,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/c0f1e980f00f66ef47caaf52cead8119-p2",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "{{ id.path }}/canvas/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "{{ id.path }}/canvas/p3",
+      "type": "Canvas",
+      "label": {
+        "de": [
+          "Seite 3."
+        ]
+      },
+      "height": 2402,
+      "width": 1634,
+      "items": [
+        {
+          "id": "{{ id.path }}/page/p3/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/annotation/p0003-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/c0f1e980f00f66ef47caaf52cead8119-p3/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2402,
+                "width": 1634,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/c0f1e980f00f66ef47caaf52cead8119-p3",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "{{ id.path }}/canvas/p3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "{{ id.path }}/canvas/p4",
+      "type": "Canvas",
+      "label": {
+        "de": [
+          "Seite 4."
+        ]
+      },
+      "height": 2402,
+      "width": 1634,
+      "items": [
+        {
+          "id": "{{ id.path }}/page/p4/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/annotation/p0004-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/c0f1e980f00f66ef47caaf52cead8119-p4/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2402,
+                "width": 1634,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/c0f1e980f00f66ef47caaf52cead8119-p4",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "{{ id.path }}/canvas/p4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "{{ id.path }}/canvas/p5",
+      "type": "Canvas",
+      "label": {
+        "de": [
+          "Seite 5."
+        ]
+      },
+      "height": 2402,
+      "width": 1634,
+      "items": [
+        {
+          "id": "{{ id.path }}/page/p5/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/annotation/p0005-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/c0f1e980f00f66ef47caaf52cead8119-p5/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2402,
+                "width": 1634,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/c0f1e980f00f66ef47caaf52cead8119-p5",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "{{ id.path }}/canvas/p5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "{{ id.path }}/canvas/p6",
+      "type": "Canvas",
+      "label": {
+        "de": [
+          "Seite 6."
+        ]
+      },
+      "height": 2402,
+      "width": 1634,
+      "items": [
+        {
+          "id": "{{ id.path }}/page/p6/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/annotation/p0006-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/c0f1e980f00f66ef47caaf52cead8119-p6/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2402,
+                "width": 1634,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/c0f1e980f00f66ef47caaf52cead8119-p6",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "{{ id.path }}/canvas/p6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "{{ id.path }}/canvas/p7",
+      "type": "Canvas",
+      "label": {
+        "de": [
+          "Seite 7."
+        ]
+      },
+      "height": 2402,
+      "width": 1634,
+      "items": [
+        {
+          "id": "{{ id.path }}/page/p7/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/annotation/p0007-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/c0f1e980f00f66ef47caaf52cead8119-p7/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2402,
+                "width": 1634,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/c0f1e980f00f66ef47caaf52cead8119-p7",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "{{ id.path }}/canvas/p7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "{{ id.path }}/canvas/p8",
+      "type": "Canvas",
+      "label": {
+        "de": [
+          "Seite 8."
+        ]
+      },
+      "height": 2402,
+      "width": 1634,
+      "items": [
+        {
+          "id": "{{ id.path }}/page/p8/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/annotation/p0008-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.io/api/image/3.0/example/reference/c0f1e980f00f66ef47caaf52cead8119-p8/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2402,
+                "width": 1634,
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/c0f1e980f00f66ef47caaf52cead8119-p8",
+                    "type": "ImageService3",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "{{ id.path }}/canvas/p8"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "structures": [
+    {
+      "id": "{{ id.path }}/range/r0",
+      "type": "Range",
+      "label": {
+        "en": [
+          "Index"
+        ]
+      },
+      "items": [
+        {
+          "id": "{{ id.path }}/range/r1",
+          "type": "Range",
+          "label": {
+            "de": [
+              "Tagesneuigkeiten."
+            ]
+          },
+          "items": [
+            {
+              "type": "SpecificResource",
+              "source": "{{ id.path }}/canvas/p2",
+              "selector": {
+                "type": "FragmentSelector",
+                "value": "xywh=542,1152,491,1105"
+              }
+            },
+            {
+              "type": "SpecificResource",
+              "source": "{{ id.path }}/canvas/p2",
+              "selector": {
+                "type": "FragmentSelector",
+                "value": "xywh=1008,94,484,246"
+              }
+            },
+            {
+              "type": "SpecificResource",
+              "source": "{{ id.path }}/canvas/p5",
+              "selector": {
+                "type": "FragmentSelector",
+                "value": "xywh=562,94,490,2171"
+              }
+            },
+            {
+              "type": "SpecificResource",
+              "source": "{{ id.path }}/canvas/p5",
+              "selector": {
+                "type": "FragmentSelector",
+                "value": "xywh=1030,108,482,2120"
+              }
+            }
+          ]
+        },
+        {
+          "id": "{{ id.path }}/range/r2",
+          "type": "Range",
+          "label": {
+            "de": [
+              "Das Turnier."
+            ]
+          },
+          "items": [
+            {
+              "type": "SpecificResource",
+              "source": "{{ id.path }}/canvas/p3",
+              "selector": {
+                "type": "FragmentSelector",
+                "value": "xywh=116,1485,488,824"
+              }
+            },
+            {
+              "type": "SpecificResource",
+              "source": "{{ id.path }}/canvas/p3",
+              "selector": {
+                "type": "FragmentSelector",
+                "value": "xywh=578,130,517,2167"
+              }
+            },
+            {
+              "type": "SpecificResource",
+              "source": "{{ id.path }}/canvas/p3",
+              "selector": {
+                "type": "FragmentSelector",
+                "value": "xywh=1069,119,506,2109"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
