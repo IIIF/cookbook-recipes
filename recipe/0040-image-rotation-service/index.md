@@ -5,6 +5,7 @@ layout: recipe
 tags: image, manipulation, service, CSS
 summary: "Two approaches for rotating an image or annotation on a canvas"
 viewers:
+  - Theseus
 topic: 
  - image
 ---
