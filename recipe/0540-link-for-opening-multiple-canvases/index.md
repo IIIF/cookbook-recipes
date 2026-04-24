@@ -5,6 +5,7 @@ layout: recipe
 tags: [annotation, content-state]
 summary: "Allows users to use Content State API to open two canvases at the same time."
 viewers:
+  - Theseus
 topic:
  - content-state
 ---
