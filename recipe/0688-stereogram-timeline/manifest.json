@@ -1,0 +1,87 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "{{ id.url }}",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Alternating Stereogram Views on a Timeline"
+    ]
+  },
+  "behavior": [
+    "repeat"
+  ],
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Source"
+      ]
+    },
+    "value": {
+      "en": [
+        "Yale University Library, Fort Marion (stereograms)"
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "{{ id.path }}/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Fort Marion stereogram animation"
+        ]
+      },
+      "height": 1628,
+      "width": 1409,
+      "duration": 1.6,
+      "items": [
+        {
+          "id": "{{ id.path }}/canvas/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/canvas/1/annotation/left-eye",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://collections.library.yale.edu/iiif/2/1073279/0,0,1409,1628/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1628,
+                "width": 1409,
+                "service": [
+                  {
+                    "@id": "https://collections.library.yale.edu/iiif/2/1073279",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "{{ id.path }}/canvas/1#t=0,0.8"
+            },
+            {
+              "id": "{{ id.path }}/canvas/1/annotation/right-eye",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://collections.library.yale.edu/iiif/2/1073279/1409,0,1409,1628/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1628,
+                "width": 1409,
+                "service": [
+                  {
+                    "@id": "https://collections.library.yale.edu/iiif/2/1073279",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ]
+              },
+              "target": "{{ id.path }}/canvas/1#t=0.8,1.6"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
