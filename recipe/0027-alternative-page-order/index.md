@@ -5,6 +5,7 @@ layout: recipe
 tags: [book, presentation]
 summary: "Using Ranges to offer alternative orderings of book pages."
 viewers:
+ - Triiiceratops
 topic:
  - structure
 ---
@@ -29,7 +30,7 @@ Two Ranges are provided within the `structures` to represent this case study. Fr
 
 Images provided by permission of Biblioteca Civica Bertoliana.
 
-{% include manifest_links.html viewers="" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Triiiceratops" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="200-261"' %}
 

@@ -11,6 +11,7 @@ viewers:
  - Theseus
  - id: TIFY
    support: partial
+ - Triiiceratops
 topic: property
 property: provider
 ---
@@ -38,9 +39,9 @@ None known.
 
 In this example, we reuse the front page of a kabuki playbill that was contributed to the IIIF Cookbook by UCLA Library Digital Collections. The `id` for them as an Agent is the US Library of Congress authority ID for the UCLA Library, the `homepage` is their actual homepage, the `logo` is also for the library as a whole, and the `seeAlso` is the US Library of Congress MADS/XML. In your use of this property, you might want to and be able to unify the information in the property differently.
 
-Only Mirador implements `provider`, and only partially. The property must be on the Manifest level, Mirador will only display the text from a `label` and the image from a  `logo` under `provider`, and the information will only be found in the list of manifests.
+Note: Mirador only partially implements `provider`. The property must be on the Manifest level, Mirador will only display the text from a `label` and the image from a  `logo` under `provider`, and the information will only be found in the list of manifests.
 
-{% include manifest_links.html viewers="Mirador, Glycerine Viewer, Theseus, TIFY" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador, Glycerine Viewer, Theseus, TIFY, Triiiceratops" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="15-82"' %}
 

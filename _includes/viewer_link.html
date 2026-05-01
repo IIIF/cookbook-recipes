@@ -74,6 +74,11 @@ http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest={{manifest_u
     https://tify-iiif-viewer.github.io/tify/?iiif-content={{manifest_url |strip}}
     {% endcapture %}
     {% assign default_text="View in TIFY" %}
+{% elsif include.type == 'Triiiceratops' %}
+    {% capture viewer_url %}
+    https://d-flood.github.io/triiiceratops/viewer/?iiif-content={{manifest_url |strip}}
+    {% endcapture %}
+    {% assign default_text="View in Triiiceratops" %}
 {% else %}
     {% capture default_text %}Unknown Viewer type '{{ include.type}}'{% endcapture %}
     {% capture viewer_url %}{{manifest_url |strip}}{% endcapture %}
