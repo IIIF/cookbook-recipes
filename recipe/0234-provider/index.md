@@ -12,6 +12,8 @@ viewers:
  - id: TIFY
    support: partial
 topic: property
+code:
+ - iiif-prezi3
 property: provider
 ---
 

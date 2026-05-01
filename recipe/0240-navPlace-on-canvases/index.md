@@ -8,6 +8,8 @@ summary: "Use the navPlace extension to provide geolocation information for the 
 viewers:
  - Navplace Viewer
  - Theseus
+code:
+ - iiif-prezi3
 ---
 
 ### Use Case

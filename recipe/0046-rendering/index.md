@@ -11,6 +11,8 @@ viewers:
  - Glycerine Viewer
  - Theseus
  - TIFY
+code:
+ - iiif-prezi3
 topic: property
 property: rendering
 ---

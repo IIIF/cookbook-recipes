@@ -7,6 +7,8 @@ summary: "Demonstrates how to model a foldout diagram or map."
 viewers:
  - Theseus
 topic: structure
+code:
+ - iiif-prezi3
 property: behavior
 ---
 
