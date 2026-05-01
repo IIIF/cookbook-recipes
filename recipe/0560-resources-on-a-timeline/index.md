@@ -5,6 +5,7 @@ layout: recipe
 tags: timeline
 summary: "Placing image resources on a timeline to be shown in a sequence"
 viewers:
+ - Clover
 topic:
  - realWorldObject
 ---
