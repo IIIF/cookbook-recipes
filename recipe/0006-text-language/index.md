@@ -43,7 +43,8 @@ Finally, the `summary` property (lines 49-54) has values in both English and Fre
 
 With the Universal Viewer, Mirador, and Glycerine you can open the settings menu (gear icon) and choose either English or French.
 
-For the Curation viewer you need to add a `lang=fr` parameter to access the French properties. You can see the French values on the [IIIF Curation Viewer](http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://iiif.io/api/cookbook/recipe/0006-text-language/manifest.json&lang=fr) demo site.
+<!--
+For the Curation viewer you need to add a `lang=fr` parameter to access the French properties. You can see the French values on the [IIIF Curation Viewer](http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://iiif.io/api/cookbook/recipe/0006-text-language/manifest.json&lang=fr) demo site. -->
 
 Note not all viewers support all languages and users should check the viewers with their manifests to see if they need to configure the viewer to make the extra languages available. 
 

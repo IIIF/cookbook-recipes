@@ -21,10 +21,13 @@
     {% endcapture %}
     {% assign default_text="View in Mirador" %}
 {% elsif include.type == 'Curation' %}
+{% comment %}
+http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest={{manifest_url |strip}}
+{% endcomment %}
     {% capture viewer_url %}
-        http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest={{manifest_url |strip}}
+       {{manifest_url |strip}}
     {% endcapture %}
-    {% assign default_text="View in IIIF Curation Viewer" %}
+    {% assign default_text="View in IIIF Curation Viewer (currently unavailable)" %}
 {% elsif include.type == 'Annona' %}
     {% if include.annotationurl %}
         {% capture viewer_url %}
