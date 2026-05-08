@@ -323,91 +323,32 @@
   ],
   "structures": [
     {
-      "id": "{{ id.path }}/range/r0",
+      "id": "{{ id.path }}/range/articles",
       "type": "Range",
       "label": {
-        "en": [
-          "Index"
+        "none": [
+          "Articles"
         ]
       },
       "items": [
         {
-          "id": "{{ id.path }}/range/r1",
+          "id": "{{ id.path }}/range/5ee30fe6-cc3d-431a-9acf-2a715b770306",
           "type": "Range",
           "label": {
             "de": [
-              "Tagesneuigkeiten."
+              "Tagesneuigkeiten"
             ]
           },
           "items": [
-            {
-              "type": "SpecificResource",
-              "source": "{{ id.path }}/canvas/p2",
-              "selector": {
-                "type": "FragmentSelector",
-                "value": "xywh=542,1152,491,1105"
-              }
-            },
-            {
-              "type": "SpecificResource",
-              "source": "{{ id.path }}/canvas/p2",
-              "selector": {
-                "type": "FragmentSelector",
-                "value": "xywh=1008,94,484,246"
-              }
-            },
-            {
-              "type": "SpecificResource",
-              "source": "{{ id.path }}/canvas/p5",
-              "selector": {
-                "type": "FragmentSelector",
-                "value": "xywh=562,94,490,2171"
-              }
-            },
-            {
-              "type": "SpecificResource",
-              "source": "{{ id.path }}/canvas/p5",
-              "selector": {
-                "type": "FragmentSelector",
-                "value": "xywh=1030,108,482,2120"
-              }
-            }
-          ]
-        },
-        {
-          "id": "{{ id.path }}/range/r2",
-          "type": "Range",
-          "label": {
-            "de": [
-              "Das Turnier."
-            ]
-          },
-          "items": [
-            {
-              "type": "SpecificResource",
-              "source": "{{ id.path }}/canvas/p3",
-              "selector": {
-                "type": "FragmentSelector",
-                "value": "xywh=116,1485,488,824"
-              }
-            },
-            {
-              "type": "SpecificResource",
-              "source": "{{ id.path }}/canvas/p3",
-              "selector": {
-                "type": "FragmentSelector",
-                "value": "xywh=578,130,517,2167"
-              }
-            },
-            {
-              "type": "SpecificResource",
-              "source": "{{ id.path }}/canvas/p3",
-              "selector": {
-                "type": "FragmentSelector",
-                "value": "xywh=1069,119,506,2109"
-              }
-            }
-          ]
+            "{{ id.path }}/canvas/p2#xywh=553,1157,470,1103",
+            "{{ id.path }}/canvas/p2#xywh=1018,95,461,245",
+            "{{ id.path }}/canvas/p5#xywh=580,105,460,2165",
+            "{{ id.path }}/canvas/p5#xywh=1044,104,466,2147"
+          ],
+          "supplementary": {
+            "id": "{{ id.path }}/annotations/5ee30fe6-cc3d-431a-9acf-2a715b770306.json",
+            "type": "AnnotationCollection"
+          }
         }
       ]
     }
