@@ -10,6 +10,7 @@ viewers:
  - Annona
  - Theseus
  - TIFY
+ - Triiiceratops
 topic: structure
 property:
 ---
@@ -71,7 +72,7 @@ In this example, we have a single Canvas with the `body.type` "Choice" containin
 
 Credit: *John Dee performing an experiment before Queen Elizabeth I*. Oil painting by Henry Gillard Glindoni. Credit: Wellcome Collection. Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
-{% include manifest_links.html viewers="Mirador, Annona, Theseus, TIFY" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador, Annona, Theseus, TIFY, Triiiceratops" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="25-67"' %}
 
