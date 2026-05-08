@@ -2,10 +2,12 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "{{ id.url }}",
   "type": "AnnotationPage",
-  "partOf": [{
-    "id": "{{ id.path }}.json",
-    "type": "AnnotationCollection"
-  }],
+  "partOf": [
+    {
+      "id": "{{ id.path }}.json",
+      "type": "AnnotationCollection"
+    }
+  ],
   "next": {
     "id": "{{ id.path }}/zone3.json",
     "type": "AnnotationPage"
@@ -40,7 +42,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "fid\u201dfofart"
+        "value": "fid”fofart"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=1142,103,84,21"
     },
@@ -62,7 +64,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "B\u00f4rie,"
+        "value": "Bôrie,"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=1273,105,53,19"
     },
@@ -260,7 +262,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "Munbre\u00effe"
+        "value": "Munbreïfe"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=1332,144,86,20"
     },
@@ -271,7 +273,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "dur\u00e9"
+        "value": "duré"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=1432,144,44,19"
     },
@@ -282,7 +284,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "\u0152uropa"
+        "value": "Œuropa"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=1020,164,66,19"
     },
@@ -337,7 +339,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "\u00fcbrigen"
+        "value": "übrigen"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=1286,164,66,24"
     },
@@ -359,7 +361,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "\u0152uropas"
+        "value": "Œuropas"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=1022,185,73,19"
     },
@@ -381,7 +383,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "\u00fcber"
+        "value": "über"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=1142,184,37,17"
     },
@@ -403,7 +405,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "Rrebitj\u00e4bigteit"
+        "value": "Rrebitjäbigteit"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=1224,184,128,20"
     },
@@ -469,7 +471,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "\u2014"
+        "value": "—"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=1050,238,22,3"
     },
@@ -491,7 +493,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "Anl\u00e4bli\u00ff"
+        "value": "Anläbliÿ"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=1252,229,82,20"
     },
@@ -513,7 +515,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "Mi\u00fcndner"
+        "value": "Miündner"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=1389,230,87,18"
     },
@@ -524,7 +526,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "M\u00e4nnenwalfabrt"
+        "value": "Männenwalfabrt"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=1021,250,151,19"
     },
@@ -546,7 +548,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "Alt\u00f4tting"
+        "value": "Altôtting"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=1232,250,80,20"
     },
@@ -579,7 +581,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "L\u00f4men-"
+        "value": "Lômen-"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=1413,250,64,16"
     },

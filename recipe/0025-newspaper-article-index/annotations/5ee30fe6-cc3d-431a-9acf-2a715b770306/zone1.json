@@ -2,10 +2,12 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "{{ id.url }}",
   "type": "AnnotationPage",
-  "partOf": [{
-    "id": "{{ id.path }}.json",
-    "type": "AnnotationCollection"
-  }],
+  "partOf": [
+    {
+      "id": "{{ id.path }}.json",
+      "type": "AnnotationCollection"
+    }
+  ],
   "next": {
     "id": "{{ id.path }}/zone2.json",
     "type": "AnnotationPage"
@@ -73,7 +75,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "\u2014"
+        "value": "—"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=586,1270,21,3"
     },
@@ -106,7 +108,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "Tapjerfeit\u00e9mebaifle"
+        "value": "Tapjerfeitémebaifle"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=745,1261,167,20"
     },
@@ -139,7 +141,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "S\u00f4nig"
+        "value": "Sônig"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=556,1281,51,20"
     },
@@ -458,7 +460,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "pit\u00e4n"
+        "value": "pitän"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=556,1362,45,19"
     },
@@ -513,7 +515,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "\u2014"
+        "value": "—"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=586,1396,21,3"
     },
@@ -667,7 +669,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "\u2014"
+        "value": "—"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=587,1461,21,3"
     },
@@ -689,7 +691,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "Majeit\u00e4t\u00e9beleidigung"
+        "value": "Majeitätébeleidigung"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=697,1453,184,20"
     },
@@ -722,7 +724,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "f\u00e4fterung"
+        "value": "fäfterung"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=558,1473,77,19"
     },
@@ -766,7 +768,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "\u00a9palato"
+        "value": "©palato"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=798,1473,71,18"
     },
@@ -810,7 +812,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "S\u00fcbrer"
+        "value": "Sübrer"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=593,1493,61,19"
     },
@@ -909,7 +911,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "\u2014"
+        "value": "—"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=588,1546,20,3"
     },
@@ -986,7 +988,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "au\u00eb"
+        "value": "auë"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=981,1539,31,16"
     },
@@ -1261,7 +1263,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "\u2014"
+        "value": "—"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=588,1651,21,3"
     },
@@ -1371,7 +1373,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "L\u00fcttid"
+        "value": "Lüttid"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=731,1663,59,19"
     },
@@ -1470,7 +1472,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "Gch\u00e4ude"
+        "value": "Gchäude"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=905,1683,73,17"
     },
@@ -1657,7 +1659,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "m\u00e4b-"
+        "value": "mäb-"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=971,1724,41,19"
     },
@@ -1734,7 +1736,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "\u00c6rapez"
+        "value": "Ærapez"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=896,1744,60,19"
     },
@@ -2086,7 +2088,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "u\u00e9geworfenen"
+        "value": "uégeworfenen"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=574,1845,118,18"
     },
@@ -2152,7 +2154,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "R\u00fcfte"
+        "value": "Rüfte"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=553,1864,52,20"
     },
@@ -2196,7 +2198,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "anf\u00e4nglid"
+        "value": "anfänglid"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=813,1863,88,20"
     },
@@ -2207,7 +2209,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "Bef\u00fcrdtun-"
+        "value": "Befürdtun-"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=912,1863,101,19"
     },
@@ -2229,7 +2231,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "\u00fcber"
+        "value": "über"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=600,1884,37,16"
     },
@@ -2251,7 +2253,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "\u00a9didjal."
+        "value": "©didjal."
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=690,1884,78,18"
     },
@@ -2438,7 +2440,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "gl\u00fcdfide"
+        "value": "glüdfide"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=673,1924,75,20"
     },
@@ -2471,7 +2473,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "\u2014"
+        "value": "—"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=589,1958,21,2"
     },
@@ -2482,7 +2484,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "Unj\u00e4lle"
+        "value": "Unjälle"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=621,1948,63,20"
     },
@@ -2614,7 +2616,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "Se\u00eet-"
+        "value": "Seît-"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=974,1969,40,19"
     },
@@ -2834,7 +2836,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "\u0152rplojion"
+        "value": "Œrplojion"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=880,2030,83,18"
     },
@@ -2856,7 +2858,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "eucrmerfef\u00fcrpers"
+        "value": "eucrmerfefürpers"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=553,2050,169,20"
     },
@@ -2933,7 +2935,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "get\u00f4tet"
+        "value": "getôtet"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=627,2071,55,19"
     },
@@ -2988,7 +2990,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "(eben\u00ebge-"
+        "value": "(ebenëge-"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=936,2069,79,19"
     },
@@ -2999,7 +3001,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "f\u00e4brlid"
+        "value": "fäbrlid"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=560,2090,64,20"
     },
@@ -3010,7 +3012,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "verle\u00ebt."
+        "value": "verleët."
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=636,2091,63,19"
     },
@@ -3098,7 +3100,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "\u2014"
+        "value": "—"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=590,2145,21,2"
     },
@@ -3109,7 +3111,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "S\u00f4\u00fcnig"
+        "value": "Sôünig"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=622,2135,52,21"
     },
@@ -3175,7 +3177,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "S\u00f4nig\u00eb"
+        "value": "Sônigë"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=561,2156,61,20"
     },
@@ -3252,7 +3254,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "Ofenpe\u00f1ter"
+        "value": "Ofenpeñter"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=925,2155,91,23"
     },
@@ -3307,7 +3309,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "f\u00fcr"
+        "value": "für"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=893,2175,27,19"
     },
@@ -3483,7 +3485,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "Begr\u00fcndung,"
+        "value": "Begründung,"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=860,2215,115,23"
     },
@@ -3494,7 +3496,7 @@
       "body": {
         "type": "TextualBody",
         "format": "text/plain",
-        "value": "do\u00ff"
+        "value": "doÿ"
       },
       "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p2#xywh=986,2213,37,21"
     },
