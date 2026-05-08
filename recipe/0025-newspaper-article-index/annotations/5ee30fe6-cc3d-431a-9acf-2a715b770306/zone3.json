@@ -2,10 +2,15 @@
   "@context": "http://iiif.io/api/presentation/3/context.json",
   "id": "{{ id.url }}",
   "type": "AnnotationPage",
-  "partOf": {
+  "label": {
+    "de": [
+      "Tagesneuigkeiten"
+    ]
+  },
+  "partOf": [{
     "id": "{{ id.path }}.json",
     "type": "AnnotationCollection"
-  },
+  }],
   "next": {
     "id": "{{ id.path }}/zone4.json",
     "type": "AnnotationPage"
