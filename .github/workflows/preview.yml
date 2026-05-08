@@ -25,7 +25,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
     # store branch name in ${BRANCH_NAME}
     - name: Export BRANCH_NAME # store branch name in $BRANCH_NAME
       run: echo BRANCH_NAME=`git rev-parse --abbrev-ref HEAD` >> $GITHUB_ENV
