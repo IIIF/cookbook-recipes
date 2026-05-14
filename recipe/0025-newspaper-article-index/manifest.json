@@ -323,91 +323,120 @@
   ],
   "structures": [
     {
-      "id": "{{ id.path }}/range/r0",
+      "id": "{{ id.path }}/range/articles",
       "type": "Range",
       "label": {
-        "en": [
-          "Index"
+        "none": [
+          "Articles"
         ]
       },
       "items": [
         {
-          "id": "{{ id.path }}/range/r1",
+          "id": "{{ id.path }}/range/5ee30fe6-cc3d-431a-9acf-2a715b770306",
           "type": "Range",
           "label": {
             "de": [
-              "Tagesneuigkeiten."
+              "Tagesneuigkeiten"
             ]
           },
           "items": [
             {
               "type": "SpecificResource",
-              "source": "{{ id.path }}/canvas/p2",
+              "source": {
+                "id": "{{ id.path }}/canvas/p2",
+                "type": "Canvas"
+              },
               "selector": {
                 "type": "FragmentSelector",
-                "value": "xywh=542,1152,491,1105"
+                "value": "xywh=553,1157,470,1103"
               }
             },
             {
               "type": "SpecificResource",
-              "source": "{{ id.path }}/canvas/p2",
+              "source": {
+                "id": "{{ id.path }}/canvas/p2",
+                "type": "Canvas"
+              },
               "selector": {
                 "type": "FragmentSelector",
-                "value": "xywh=1008,94,484,246"
+                "value": "xywh=1018,95,461,245"
               }
             },
             {
               "type": "SpecificResource",
-              "source": "{{ id.path }}/canvas/p5",
+              "source": {
+                "id": "{{ id.path }}/canvas/p5",
+                "type": "Canvas"
+              },
               "selector": {
                 "type": "FragmentSelector",
-                "value": "xywh=562,94,490,2171"
+                "value": "xywh=580,105,460,2165"
               }
             },
             {
               "type": "SpecificResource",
-              "source": "{{ id.path }}/canvas/p5",
+              "source": {
+                "id": "{{ id.path }}/canvas/p5",
+                "type": "Canvas"
+              },
               "selector": {
                 "type": "FragmentSelector",
-                "value": "xywh=1030,108,482,2120"
+                "value": "xywh=1044,104,466,2147"
               }
             }
-          ]
+          ],
+          "supplementary": {
+            "id": "{{ id.path }}/annotations/5ee30fe6-cc3d-431a-9acf-2a715b770306.json",
+            "type": "AnnotationCollection"
+          }
         },
         {
-          "id": "{{ id.path }}/range/r2",
+          "id": "{{ id.path }}/range/e7b8a637-6864-4d1c-b2a3-a3f2e5fe3abc",
           "type": "Range",
           "label": {
             "de": [
-              "Das Turnier."
+              "Das Turnier"
             ]
           },
           "items": [
             {
               "type": "SpecificResource",
-              "source": "{{ id.path }}/canvas/p3",
+              "source": {
+                "id": "{{ id.path }}/canvas/p3",
+                "type": "Canvas"
+              },
               "selector": {
                 "type": "FragmentSelector",
-                "value": "xywh=116,1485,488,824"
+                "value": "xywh=113,1489,488,808"
               }
             },
             {
               "type": "SpecificResource",
-              "source": "{{ id.path }}/canvas/p3",
+              "source": {
+                "id": "{{ id.path }}/canvas/p3",
+                "type": "Canvas"
+              },
               "selector": {
                 "type": "FragmentSelector",
-                "value": "xywh=578,130,517,2167"
+                "value": "xywh=583,130,495,2169"
               }
             },
             {
               "type": "SpecificResource",
-              "source": "{{ id.path }}/canvas/p3",
+              "source": {
+                "id": "{{ id.path }}/canvas/p3",
+                "type": "Canvas"
+              },
               "selector": {
                 "type": "FragmentSelector",
-                "value": "xywh=1069,119,506,2109"
+                "value": "xywh=1073,117,497,2173"
               }
             }
-          ]
+          ],
+          "supplementary": {
+            "id": "{{ id.path }}/annotations/e7b8a637-6864-4d1c-b2a3-a3f2e5fe3abc.json",
+            "type": "AnnotationCollection"
+          }
         }
       ]
     }
