@@ -10,6 +10,10 @@ viewers:
  - Clover
  - Glycerine Viewer
  - Theseus
+ - TIFY
+ - Triiiceratops
+code
+ - iiif-prezi3
 topic: property
 property: rendering
 ---
@@ -45,7 +49,7 @@ In this example, a PDF is made available for the program as a whole, and as such
 
 To see the property in action in Mirador, toggle the sidebar by activating the three-line ("hamburger") menu in the upper left-hand corner of the content window. You should then, in the "Related" area, see the link under the "Alternate formats" heading.
 
-{% include manifest_links.html viewers="Mirador,Annona,Clover,Glycerine Viewer, Theseus" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador,Annona,Clover,Glycerine Viewer, Theseus, TIFY, Triiiceratops" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="16-27"' %}
 

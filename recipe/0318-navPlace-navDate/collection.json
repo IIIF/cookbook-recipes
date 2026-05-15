@@ -70,7 +70,7 @@
           "The Colosseum"
         ]
       },
-      "navDate": "1776-01-01T00:00:00+00:00",
+      "navDate": "1776-01-01T00:00:00Z",
       "navPlace": {
         "id": "{{ id.path }}/feature-collection/2",
         "type": "FeatureCollection",
@@ -104,7 +104,7 @@
           "The Arch of Titus from the Forum, Rome, ca. 1725"
         ]
       },
-      "navDate": "1725-01-01T00:00:00+00:00",
+      "navDate": "1725-01-01T00:00:00Z",
       "navPlace": {
         "id": "{{ id.path }}/feature-collection/3",
         "type": "FeatureCollection",
@@ -138,7 +138,7 @@
           "The Temple of Vesta, Rome, 1849"
         ]
       },
-      "navDate": "1849-01-01T00:00:00+00:00",
+      "navDate": "1849-01-01T00:00:00Z",
       "navPlace": {
         "id": "{{ id.path }}/feature-collection/4",
         "type": "FeatureCollection",
@@ -172,7 +172,7 @@
           "A View of Trajan's Forum, Rome, 1821"
         ]
       },
-      "navDate": "1821-01-01T00:00:00+00:00",
+      "navDate": "1821-01-01T00:00:00Z",
       "navPlace": {
         "id": "{{ id.path }}/feature-collection/5",
         "type": "FeatureCollection",
