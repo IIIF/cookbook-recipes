@@ -5,6 +5,7 @@ layout: recipe
 tags: structure
 summary: "How to tell a viewer to create a thumbnail-based visual navigation of a video as well as to exclude a segment of that video from any such navigation."
 viewers:
+  - Theseus
 topic: 
  - structure
 ---
