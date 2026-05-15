@@ -8,8 +8,6 @@ viewers:
  - Theseus
 topic:
  - basic
-code:
- - iiif-prezi3
 ---
 
 ## Use Case
