@@ -9,7 +9,10 @@ viewers:
  - Ramp
  - Aviary
  - Theseus
+ - TIFY
 topic: AV
+code:
+ - iiif-prezi3
 ---
 
 
@@ -34,7 +37,7 @@ Formats other than [WebVTT](https://w3c.github.io/webvtt/) (Web Video Text Track
 
 In this example we use a caption file in the WebVTT format, but other options include a caption file in the [SRT](https://en.wikipedia.org/wiki/SubRip) (SubRip Text) or [TTML](https://w3c.github.io/ttml3/index.html) (Timed Text Markup Language) formats, or other text-based format used for the same purpose.
 
-{% include manifest_links.html viewers="Clover, Ramp, Aviary, Theseus" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Clover, Ramp, Aviary, Theseus, TIFY" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="41-67"'%}
 
