@@ -5,6 +5,7 @@ layout: recipe
 tags: image, manipulation, service, CSS
 summary: "Two approaches for rotating an image or annotation on a canvas"
 viewers:
+  - Theseus
 topic: 
  - image
 ---
@@ -19,7 +20,7 @@ There are two ways to direct a client to rotate a IIIF resource: By using an ima
 
 ### Image Service
 
-Rotation of an image may be supported by your IIIF Image API server, and if so, using the image service for rotation is a great way to handle changing the view of an image. To be able to support this recipe your Image API server must support the rotation requested in the selector. Rotation by 90º increments is mandatory for [level 2 IIIF Image API servers](https://iiif.io/api/image/3.0/compliance/#33-rotation) but can be implemented at all levels. Rotation by an arbitrary amount other than 90º, 180º, or 270º (360º being equal to 0º) is always optional, so you would need to familiarize yourself with what your image server supports and look into the profile portion of the server's `info.json`.
+Rotation of an image may be supported by your IIIF Image API server, and if so, using the image service for rotation is a great way to handle changing the view of an image. To be able to support this recipe your Image API server must support the rotation requested in the selector. Rotation by 90º increments is mandatory for [level 2 IIIF Image API servers](https://iiif.io/api/image/3.0/compliance/#33-rotation) but can be implemented at all levels. Rotation by an arbitrary amount other than 90º, 180º, or 270º (360º being equal to 0º) is always optional, so you would need to familiarize yourself with what your image server supports and look into the profile portion of the server's `info.json`. Finally, the IIIF Image API v3 states that [rotation is clockwise](https://iiif.io/api/image/3.0/#43-rotation).
 
 In the image service section of your manifest, you must use a `@context` field in order to point to [the `ImageApiSelector` definition](https://iiif.io/api/annex/openannotation/#iiif-image-api-selector) for canonical rotation options. The selector as defined must contain a `type` property whose value must be `ImageApiSelector`. The `rotation` property takes as its value just a positive numeric amount of rotation in degrees. For more  information about the selector and its use outside of rotation, read the full [selector document](https://iiif.io/api/annex/openannotation/#iiif-image-api-selector).
 
@@ -71,7 +72,7 @@ Image showing the same codex page after rotating 90 degrees clockwise:
 
 This Manifest shows how to rotate the image using an Image Service.
 
-{% include manifest_links.html viewers="" manifest="manifest-service.json" %}
+{% include manifest_links.html viewers="Theseus" manifest="manifest-service.json" %}
 
 {% include jsonviewer.html src="manifest-service.json" config='data-line="32-51"' %}
 
@@ -79,7 +80,7 @@ This Manifest shows how to rotate the image using an Image Service.
 
 This Manifest shows how to rotate the image using CSS. For clarity, we are using embedded CSS. Note the declaration of the CSS class in the `value` property of the AnnotationPage's `stylesheet` and the application of that class to the `styleClass` property on the `body`. The `stylesheet` property may instead point to an external stylesheet using a URI in a string or an id and value in a JSON object. See [the W3C Web Annotation Data Model's Styles section](https://www.w3.org/TR/annotation-model/#styles) for more.
 
-{% include manifest_links.html viewers="" manifest="manifest-css.json" %}
+{% include manifest_links.html viewers="Theseus" manifest="manifest-css.json" %}
 
 {% include jsonviewer.html src="manifest-css.json" config='data-line="30-51"' %}
 
