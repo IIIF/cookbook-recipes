@@ -35,9 +35,19 @@ Timing behavior and autoplay are viewer-dependent. The interval values in this r
 
 In this example, both stereogram views come from the image behind `https://collections.library.yale.edu/iiif/2/1073279/`. The manifest crops the source image into left and right halves and alternates them on one Canvas.
 
+The primary manifest includes `service` on each Annotation body. A second variant removes those `service` entries so viewers that resolve the full service rather than the `xywh` image URL can still render the intended alternation.
+
 {% include manifest_links.html viewers="Clover" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="10-12,18,31,53"' %}
+
+### No-service variant
+
+Use this version if timeline playback is interrupted by viewer behavior around image services.
+
+{% include manifest_links.html viewers="Clover" manifest="manifest-no-service.json" %}
+
+{% include jsonviewer.html src="manifest-no-service.json" config='data-line="10-12,18,31,53"' %}
 
 ## Related Recipes
 
