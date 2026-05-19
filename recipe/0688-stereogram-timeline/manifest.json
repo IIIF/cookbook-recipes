@@ -18,7 +18,7 @@
     },
     "value": {
       "en": [
-        "Yale University Library, Fort Marion (stereograms)"
+        "University of Minnesota Libraries, Bell Museum of Natural History Negatives"
       ]
     }
   },
@@ -28,12 +28,12 @@
       "type": "Canvas",
       "label": {
         "en": [
-          "Fort Marion stereogram animation"
+          "Stereographic film, men with fish"
         ]
       },
-      "height": 1628,
-      "width": 1409,
-      "duration": 1.6,
+      "height": 3801,
+      "width": 3752,
+      "duration": 0.4,
       "items": [
         {
           "id": "{{ id.path }}/canvas/1/page/1",
@@ -44,40 +44,26 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://collections.library.yale.edu/iiif/2/1073279/0,0,1409,1628/full/0/default.jpg",
+                "id": "https://cdm16022.contentdm.oclc.org/iiif/2/p16022coll349:856/256,260,3752,3801/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 1628,
-                "width": 1409,
-                "service": [
-                  {
-                    "@id": "https://collections.library.yale.edu/iiif/2/1073279",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
-                  }
-                ]
+                "height": 3801,
+                "width": 3752
               },
-              "target": "{{ id.path }}/canvas/1#t=0,0.8"
+              "target": "{{ id.path }}/canvas/1#t=0,0.2"
             },
             {
               "id": "{{ id.path }}/canvas/1/annotation/right-eye",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://collections.library.yale.edu/iiif/2/1073279/1409,0,1409,1628/full/0/default.jpg",
+                "id": "https://cdm16022.contentdm.oclc.org/iiif/2/p16022coll349:856/4239,185,3752,3801/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
-                "height": 1628,
-                "width": 1409,
-                "service": [
-                  {
-                    "@id": "https://collections.library.yale.edu/iiif/2/1073279",
-                    "@type": "ImageService2",
-                    "profile": "http://iiif.io/api/image/2/level2.json"
-                  }
-                ]
+                "height": 3801,
+                "width": 3752
               },
-              "target": "{{ id.path }}/canvas/1#t=0.8,1.6"
+              "target": "{{ id.path }}/canvas/1#t=0.2,0.4"
             }
           ]
         }
