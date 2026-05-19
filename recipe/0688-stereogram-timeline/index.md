@@ -1,9 +1,9 @@
 ---
-title: Alternating Stereogram Views on a Timeline
+title: Alternating Stereograph Views on a Timeline
 id: 688
 layout: recipe
 tags: [timeline, image]
-summary: "Alternating left-eye and right-eye stereogram views on a single Canvas"
+summary: "Alternating left-eye and right-eye stereograph views on a single Canvas"
 viewers:
  - Clover
 topic:
@@ -12,7 +12,7 @@ topic:
 
 ## Use Case
 
-You have a stereogram image that contains left-eye and right-eye views side by side, and you want to present those views in a single-canvas animation that rapidly alternates between them.
+You have a stereograph image that contains left-eye and right-eye views side by side, and you want to present those views in a single-canvas animation that rapidly alternates between them.
 
 This can help people inspect depth cues or compare small positional differences between the two views.
 
@@ -25,7 +25,9 @@ This recipe uses one Canvas with a short `duration` and two `painting` Annotatio
 
 Both Annotation `target` values point to the same Canvas with different temporal fragments (`#t=0,0.2` and `#t=0.2,0.4`). Because both image regions are painted to the same Canvas area, the two views overlay each other in time and produce a back-and-forth stereogram effect.
 
-To repeat continuously, the Manifest sets `behavior` to `repeat`. As in [Rendering Resources Sequentially on a Timeline](https://iiif.io/api/cookbook/recipe/0560-resources-on-a-timeline/), playback start is viewer-dependent and may require user interaction.
+To repeat continuously, the Manifest sets `behavior` to `repeat`. As in [Rendering Resources Sequentially on a Timeline](https://iiif.io/api/cookbook/recipe/0560-resources-on-a-timeline/), playback start is viewer-dependent and may require user interaction. This may cause flashing images, which may be undesirable for some audiences.
+
+This recipe is an exclusive way to present stereographs. While this approach is available using the IIIF Presentation API, you may want to also include a more traditional side-by-side presentation of the same views in your Manifest.
 
 ## Restrictions
 
@@ -39,9 +41,18 @@ In this example, both stereogram views come from UMedia item 856, `Stereographic
 
 {% include jsonviewer.html src="manifest.json" config='data-line="10-12,18,31,53"' %}
 
+### ImageApiSelector variant
+
+This version of the Manifest uses `ImageApiSelector` regions on a `SpecificResource` body so you can test Clover behavior against the direct-region URL approach.
+
+{% include manifest_links.html viewers="Clover" manifest="manifest-imageapiselector.json" %}
+
+{% include jsonviewer.html src="manifest-imageapiselector.json" config='data-line="10-12,18,31,44-66,76-98"' %}
+
 ## Related Recipes
 
 * [Rendering Resources Sequentially on a Timeline](https://iiif.io/api/cookbook/recipe/0560-resources-on-a-timeline/) for the baseline timing pattern on a single Canvas
+* [Addressing a Spatial Region](https://iiif.io/api/cookbook/recipe/0299-region/) for using ImageApiSelector regions to show a fragment of an image on the Canvas
 * [Composition from Multiple Images](https://iiif.io/api/cookbook/recipe/0036-composition-from-multiple-images/) for painting multiple image resources onto one Canvas
 
 {% include acronyms.md %}
