@@ -49,9 +49,9 @@ Use this version if timeline playback is interrupted by viewer behavior around i
 
 {% include jsonviewer.html src="manifest-no-service.json" config='data-line="10-12,18,31,53"' %}
 
-### UMedia variant using xywh selector
+### UMedia variant (no-service style)
 
-This version uses UMedia's IIIF source and `body.selector` (`FragmentSelector`) for `xywh` cropping, instead of embedding cropped region URLs directly in `body.id`.
+This version uses UMedia's IIIF source and follows the same no-service pattern as above, with direct region URLs in `body.id`.
 
 {% include manifest_links.html viewers="Clover" manifest="manifest-umedia.json" %}
 

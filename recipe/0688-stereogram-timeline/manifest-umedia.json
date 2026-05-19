@@ -4,7 +4,7 @@
   "type": "Manifest",
   "label": {
     "en": [
-      "Alternating Stereogram Views on a Timeline (UMedia, xywh selector)"
+      "Alternating Stereogram Views on a Timeline (UMedia, No Service)"
     ]
   },
   "behavior": [
@@ -44,14 +44,11 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "type": "SpecificResource",
-                "source": {
-                  "id": "https://cdm16022.contentdm.oclc.org/digital/iiif/p16022coll349/811/full/full/0/default.jpg#xywh=261,0,3818,4289",
-                  "type": "Image",
-                  "format": "image/jpeg",
-                  "height": 4289,
-                  "width": 8171
-                }
+                "id": "https://cdm16022.contentdm.oclc.org/digital/iiif/p16022coll349/811/261,0,3818,4289/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4289,
+                "width": 3818
               },
               "target": "{{ id.path }}/canvas/1#t=0,0.2"
             },
@@ -60,14 +57,11 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "type": "SpecificResource",
-                "source": {
-                  "id": "https://cdm16022.contentdm.oclc.org/digital/iiif/p16022coll349/811/full/full/0/default.jpg#xywh=4031,0,3818,4289",
-                  "type": "Image",
-                  "format": "image/jpeg",
-                  "height": 4289,
-                  "width": 8171
-                }
+                "id": "https://cdm16022.contentdm.oclc.org/digital/iiif/p16022coll349/811/4031,0,3818,4289/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 4289,
+                "width": 3818
               },
               "target": "{{ id.path }}/canvas/1#t=0.2,0.4"
             }
