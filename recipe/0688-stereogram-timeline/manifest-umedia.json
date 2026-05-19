@@ -46,15 +46,11 @@
               "body": {
                 "type": "SpecificResource",
                 "source": {
-                  "id": "https://cdm16022.contentdm.oclc.org/digital/iiif/p16022coll349/811/full/full/0/default.jpg",
+                  "id": "https://cdm16022.contentdm.oclc.org/digital/iiif/p16022coll349/811/full/full/0/default.jpg#xywh=261,0,3818,4289",
                   "type": "Image",
                   "format": "image/jpeg",
                   "height": 4289,
                   "width": 8171
-                },
-                "selector": {
-                  "type": "FragmentSelector",
-                  "value": "xywh=261,0,3818,4289"
                 }
               },
               "target": "{{ id.path }}/canvas/1#t=0,0.2"
@@ -66,15 +62,11 @@
               "body": {
                 "type": "SpecificResource",
                 "source": {
-                  "id": "https://cdm16022.contentdm.oclc.org/digital/iiif/p16022coll349/811/full/full/0/default.jpg",
+                  "id": "https://cdm16022.contentdm.oclc.org/digital/iiif/p16022coll349/811/full/full/0/default.jpg#xywh=4031,0,3818,4289",
                   "type": "Image",
                   "format": "image/jpeg",
                   "height": 4289,
                   "width": 8171
-                },
-                "selector": {
-                  "type": "FragmentSelector",
-                  "value": "xywh=4031,0,3818,4289"
                 }
               },
               "target": "{{ id.path }}/canvas/1#t=0.2,0.4"
