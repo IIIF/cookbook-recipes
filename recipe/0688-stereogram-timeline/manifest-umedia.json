@@ -32,7 +32,7 @@
         ]
       },
       "height": 4289,
-      "width": 3818,
+      "width": 3700,
       "duration": 0.4,
       "items": [
         {
@@ -44,11 +44,11 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://cdm16022.contentdm.oclc.org/digital/iiif/p16022coll349/811/261,0,3818,4289/full/0/default.jpg",
+                "id": "https://cdm16022.contentdm.oclc.org/digital/iiif/p16022coll349/811/261,0,3700,4289/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 4289,
-                "width": 3818
+                "width": 3700
               },
               "target": "{{ id.path }}/canvas/1#t=0,0.2"
             },
@@ -57,11 +57,11 @@
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://cdm16022.contentdm.oclc.org/digital/iiif/p16022coll349/811/4031,0,3818,4289/full/0/default.jpg",
+                "id": "https://cdm16022.contentdm.oclc.org/digital/iiif/p16022coll349/811/4231,0,3718,4289/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 4289,
-                "width": 3818
+                "width": 3718
               },
               "target": "{{ id.path }}/canvas/1#t=0.2,0.4"
             }
