@@ -1,0 +1,73 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "{{ id.url }}",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Alternating Stereogram Views on a Timeline (UMedia 856, No Service)"
+    ]
+  },
+  "behavior": [
+    "repeat"
+  ],
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Source"
+      ]
+    },
+    "value": {
+      "en": [
+        "University of Minnesota Libraries, Bell Museum of Natural History Negatives"
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "{{ id.path }}/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Stereographic film, men with fish"
+        ]
+      },
+      "height": 3801,
+      "width": 3752,
+      "duration": 0.4,
+      "items": [
+        {
+          "id": "{{ id.path }}/canvas/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "{{ id.path }}/canvas/1/annotation/left-eye",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://cdm16022.contentdm.oclc.org/iiif/2/p16022coll349:856/256,260,3752,3801/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3801,
+                "width": 3752
+              },
+              "target": "{{ id.path }}/canvas/1#t=0,0.2"
+            },
+            {
+              "id": "{{ id.path }}/canvas/1/annotation/right-eye",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://cdm16022.contentdm.oclc.org/iiif/2/p16022coll349:856/4160,253,3752,3801/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3801,
+                "width": 3752
+              },
+              "target": "{{ id.path }}/canvas/1#t=0.2,0.4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

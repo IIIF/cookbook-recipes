@@ -29,7 +29,7 @@ To repeat continuously, the Manifest sets `behavior` to `repeat`. As in [Renderi
 
 ## Restrictions
 
-Timing behavior and autoplay are viewer-dependent. The interval values in this recipe are intended as a compact demonstration and may need adjustment for different audiences, devices, or network conditions.
+Timing behavior and autoplay are viewer-dependent. The interval values in this recipe are intended as a compact demonstration and may need adjustment for different audiences, devices, or network conditions. Similarly, viewers have shown a lot of variability in how they handle image services, so the example includes a variant that removes `service` entries from the Annotation bodies to allow viewers to resolve the full image URL directly. Alternative options, such as using a fragment selector or an `xywh` region in the `id`, are also correct but not supported.
 
 ## Example
 
@@ -56,6 +56,14 @@ This version uses UMedia's IIIF source and follows the same no-service pattern a
 {% include manifest_links.html viewers="Clover" manifest="manifest-umedia.json" %}
 
 {% include jsonviewer.html src="manifest-umedia.json" config='data-line="10-12,18,31,47-57,67-77"' %}
+
+### UMedia variant (item 856, no-service style)
+
+This version uses UMedia item 856 (`Stereographic film, men with fish`) and follows the same no-service pattern with direct region URLs in `body.id`.
+
+{% include manifest_links.html viewers="Clover" manifest="manifest-umedia-856.json" %}
+
+{% include jsonviewer.html src="manifest-umedia-856.json" config='data-line="10-12,18,31,47-57,67-77"' %}
 
 ## Related Recipes
 
