@@ -6,7 +6,7 @@ Captions and subtitles may be available in multiple languages for video content 
 
 This recipe builds on the pattern for [Using Caption Files with Video Content][0219], extending it to represent the availability of captions and subtitles in multiple languages.
 
-Similarly to offering a single caption file, the multiple subtitle/caption files are provided as `supplementing` Annotations on the Canvas that contains the video file, which also contain the `provides` property with the value `subtitles` or `closedCaptions`. One Annotation is used for each of the available captions/subtitles and languages. IIIF viewers  are then able to identify which annotations contain captions/subtitles by checking the value of the `provides` property, and offer to end-users the choice for displaying subtitles/captions in one of the available languages during the video playback.
+Similarly to offering a single caption file, the multiple subtitle/caption files are provided as `supplementing` Annotations on the Canvas that contains the video resource. Annotations of this Canvas contain the `provides` property with the value `subtitles` or `closedCaptions`, as appropriate. One Annotation is used for each of the available captions/subtitles and languages. IIIF viewers are then able to identify which annotations contain text for the video and what kind of text by checking the value of the `provides` property. With that information, viewers offer to end-users choices for displaying subtitles/captions in one of the available languages during the video playback.
 
 ## Restrictions
 
