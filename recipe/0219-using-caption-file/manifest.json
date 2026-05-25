@@ -54,7 +54,7 @@
                     "Captions in WebVTT format"
                   ]
                 },
-                "language": "en"
+                "language": ["en"]
               },
               "target": "{{ id.path }}/canvas"
             }
