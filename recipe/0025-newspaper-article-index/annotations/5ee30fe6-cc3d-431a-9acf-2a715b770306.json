@@ -1,0 +1,18 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "{{ id.url }}",
+  "type": "AnnotationCollection",
+  "label": {
+    "de": [
+      "Tagesneuigkeiten"
+    ]
+  },
+  "first": {
+    "id": "{{ id.path }}/5ee30fe6-cc3d-431a-9acf-2a715b770306/zone1.json",
+    "type": "AnnotationPage"
+  },
+  "last": {
+    "id": "{{ id.path }}/5ee30fe6-cc3d-431a-9acf-2a715b770306/zone4.json",
+    "type": "AnnotationPage"
+  }
+}

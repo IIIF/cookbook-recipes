@@ -102,7 +102,7 @@ _(leading on to segmentation examples later)_
 ## Internal structure
 
 * [Table of Contents for Book Chapters][0024]
-* table of contents (ranges) - articles in a newspaper
+* [Newspaper Article Index][0025]
 * [Table of contents for A/V content][0026] (26)
 * [Adding Thumbnail Navigation and `no-nav` to a Video Resource][0229]
 * [Alternative Page Sequences][0027]
