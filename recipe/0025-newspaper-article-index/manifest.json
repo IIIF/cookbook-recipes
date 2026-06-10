@@ -202,123 +202,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "{{ id.path }}/canvas/p6",
-      "type": "Canvas",
-      "label": {
-        "de": [
-          "Seite 6."
-        ]
-      },
-      "height": 2402,
-      "width": 1634,
-      "items": [
-        {
-          "id": "{{ id.path }}/page/p6/1",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "{{ id.path }}/annotation/p0006-image",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif.io/api/image/3.0/example/reference/c0f1e980f00f66ef47caaf52cead8119-p6/full/max/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 2402,
-                "width": 1634,
-                "service": [
-                  {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/c0f1e980f00f66ef47caaf52cead8119-p6",
-                    "type": "ImageService3",
-                    "profile": "level1"
-                  }
-                ]
-              },
-              "target": "{{ id.path }}/canvas/p6"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "{{ id.path }}/canvas/p7",
-      "type": "Canvas",
-      "label": {
-        "de": [
-          "Seite 7."
-        ]
-      },
-      "height": 2402,
-      "width": 1634,
-      "items": [
-        {
-          "id": "{{ id.path }}/page/p7/1",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "{{ id.path }}/annotation/p0007-image",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif.io/api/image/3.0/example/reference/c0f1e980f00f66ef47caaf52cead8119-p7/full/max/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 2402,
-                "width": 1634,
-                "service": [
-                  {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/c0f1e980f00f66ef47caaf52cead8119-p7",
-                    "type": "ImageService3",
-                    "profile": "level1"
-                  }
-                ]
-              },
-              "target": "{{ id.path }}/canvas/p7"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "{{ id.path }}/canvas/p8",
-      "type": "Canvas",
-      "label": {
-        "de": [
-          "Seite 8."
-        ]
-      },
-      "height": 2402,
-      "width": 1634,
-      "items": [
-        {
-          "id": "{{ id.path }}/page/p8/1",
-          "type": "AnnotationPage",
-          "items": [
-            {
-              "id": "{{ id.path }}/annotation/p0008-image",
-              "type": "Annotation",
-              "motivation": "painting",
-              "body": {
-                "id": "https://iiif.io/api/image/3.0/example/reference/c0f1e980f00f66ef47caaf52cead8119-p8/full/max/0/default.jpg",
-                "type": "Image",
-                "format": "image/jpeg",
-                "height": 2402,
-                "width": 1634,
-                "service": [
-                  {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/c0f1e980f00f66ef47caaf52cead8119-p8",
-                    "type": "ImageService3",
-                    "profile": "level1"
-                  }
-                ]
-              },
-              "target": "{{ id.path }}/canvas/p8"
-            }
-          ]
-        }
-      ]
     }
   ],
   "structures": [
@@ -384,11 +267,7 @@
                 "value": "xywh=1044,104,466,2147"
               }
             }
-          ],
-          "supplementary": {
-            "id": "{{ id.path }}/annotations/5ee30fe6-cc3d-431a-9acf-2a715b770306.json",
-            "type": "AnnotationCollection"
-          }
+          ]
         },
         {
           "id": "{{ id.path }}/range/e7b8a637-6864-4d1c-b2a3-a3f2e5fe3abc",
@@ -432,11 +311,7 @@
                 "value": "xywh=1073,117,497,2173"
               }
             }
-          ],
-          "supplementary": {
-            "id": "{{ id.path }}/annotations/e7b8a637-6864-4d1c-b2a3-a3f2e5fe3abc.json",
-            "type": "AnnotationCollection"
-          }
+          ]
         }
       ]
     }
