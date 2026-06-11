@@ -1,6 +1,6 @@
 {
     "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "{{ id.url }} ",
+    "id": "{{ id.url }}",
     "type": "Manifest",
     "label": {
         "ca": [
@@ -46,7 +46,7 @@
                                 },
                                 "selector": {
                                     "type": "ImageApiSelector",
-                                    "rotation": "270"
+                                    "rotation": "90"
                                 }
                             },
                             "target": "{{ id.path }}/canvas/p1"

@@ -10,7 +10,7 @@
         "The Arch of Titus from the Forum, Rome, ca. 1725"
       ]
     },
-    "navDate": "1725-01-01T00:00:00+00:00",
+    "navDate": "1725-01-01T00:00:00Z",
     "navPlace": {
       "id": "{{ id.path }}/feature-collection/3",
       "type": "FeatureCollection",
