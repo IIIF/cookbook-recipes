@@ -10,6 +10,7 @@ viewers:
  - Glycerine Viewer
  - Theseus
  - Curation
+ - TIFY
 topic:
  - image
  - basic

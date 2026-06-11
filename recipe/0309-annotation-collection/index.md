@@ -5,6 +5,7 @@ layout: recipe
 tags: [tbc]
 summary: "tbc"
 viewers:
+ - Glycerine Viewer
 topic: 
  - basic
 ---
@@ -51,7 +52,7 @@ The second AnnotationPage with Annotations on the second Canvas: [anno_p2.json](
 
 The Manifest containing the two Canvases and referencing the Annotation Pages:
 
-{% include manifest_links.html viewers="" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Glycerine Viewer" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="66-80,124-138"' %}
 

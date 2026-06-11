@@ -9,6 +9,7 @@ viewers:
   - Annona
   - Glycerine Viewer
   - Theseus
+  - TIFY
 topic:
  - basic
 code:
@@ -45,7 +46,7 @@ If you have requirements outside of these rules you may be able to configure a c
 
 This example Manifest contains an embedded Annotation containing the HTML text "Göttinger Marktplatz mit Gänseliesel Brunnen" with a link to the Wikipedia Article "Gänseliesel-Brunnen (Göttingen)" behind the words "Gänseliesel Brunnen" and an image of the Wikipedia logo. The Annotation has the motivation `commenting` targeting the whole Canvas. The Annotation is the single content of an Annotation Page contained in the `annotations` property of the Canvas.
 
-{% include manifest_links.html viewers="Mirador,Annona, Glycerine Viewer, Theseus" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador,Annona, Glycerine Viewer, Theseus, TIFY" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="53-58"' %}
 
