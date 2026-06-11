@@ -12,6 +12,8 @@ viewers:
   - Glycerine Viewer
   - Theseus
   - Curation
+  - liiive
+  - TIFY
 v4-viewers:  
   - Mirador
   - UV
