@@ -5,6 +5,7 @@ layout: recipe
 tags: image, manipulation, service, CSS
 summary: "Two approaches for rotating an image or annotation on a canvas"
 viewers:
+  - Theseus
 topic: 
  - image
 ---
@@ -71,7 +72,7 @@ Image showing the same codex page after rotating 90 degrees clockwise:
 
 This Manifest shows how to rotate the image using an Image Service.
 
-{% include manifest_links.html viewers="" manifest="manifest-service.json" %}
+{% include manifest_links.html viewers="Theseus" manifest="manifest-service.json" %}
 
 {% include jsonviewer.html src="manifest-service.json" config='data-line="32-51"' %}
 
@@ -79,7 +80,7 @@ This Manifest shows how to rotate the image using an Image Service.
 
 This Manifest shows how to rotate the image using CSS. For clarity, we are using embedded CSS. Note the declaration of the CSS class in the `value` property of the AnnotationPage's `stylesheet` and the application of that class to the `styleClass` property on the `body`. The `stylesheet` property may instead point to an external stylesheet using a URI in a string or an id and value in a JSON object. See [the W3C Web Annotation Data Model's Styles section](https://www.w3.org/TR/annotation-model/#styles) for more.
 
-{% include manifest_links.html viewers="" manifest="manifest-css.json" %}
+{% include manifest_links.html viewers="Theseus" manifest="manifest-css.json" %}
 
 {% include jsonviewer.html src="manifest-css.json" config='data-line="30-51"' %}
 
