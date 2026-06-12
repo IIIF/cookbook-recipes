@@ -10,7 +10,7 @@ In this recipe, annotations are used to mark up video content shown on a canvas 
 
 ## Restrictions
 
-
+None known.
 
 ## Example
 
