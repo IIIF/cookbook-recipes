@@ -18,7 +18,9 @@ In this example we show the same captions and video from [Using Caption Files wi
 
 The `AnnotationPage` contains one annotation per individual caption entry, and these are provided as `supplementing` annotations on the Canvas that contains the video file. The references to the canvas uses Media Fragment URIs with a begin time and an end time. The annotations also contain the `provides` property with the value `closedCaptions` to inform the IIIF viewer that these annotations are representing captions. The language of the captions is expressed with a `language` property containing a [BCP 47](https://tools.ietf.org/html/bcp47) language code as specified by the Presentation API 4.0.
 
-Note: This recipe may also be applied for subtitles. In such cases, the `provides` property of the annotations must have the value `subtitles`. 
+Notes:
++ This recipe may also be applied for subtitles. In such cases, the `provides` property of the annotations must have the value `subtitles`. 
++ This recipe only exists for IIIF Presentation API v4.
 
 {% include manifest_links.html viewers="Clover, Ramp, Aviary, Theseus" manifest="v4/manifest.json" %}
 
