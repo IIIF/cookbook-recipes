@@ -1,5 +1,5 @@
 ---
-title: Using Transcript Files with Audio or Video Content
+title: A Side-by-Side Transcript of a Video Recording
 id: 253
 layout: recipe
 tags: [video, audio, transcript, presentation]
