@@ -1,8 +1,8 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "@context": "http://iiif.io/api/presentation/4/context.json",
     "id": "{{ id.url }}",
     "type": "Manifest",
-    "label": { "en": [ "Simplest Image Example (IIIF Presentation v3)" ] },
+    "label": { "en": [ "Simplest Image Example (IIIF Presentation v4)" ] },
     "items": [
       {
         "id": "{{ id.path }}/canvas/p1",
@@ -25,7 +25,10 @@
                   "height": 1800,
                   "width": 1200
                 },
-                "target": "{{ id.path }}/canvas/p1"
+                "target": {
+                	"id": "{{ id.path }}/canvas/p1",
+                	"type": "Canvas"
+                }
               }
             ]
           }
