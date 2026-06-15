@@ -18,6 +18,8 @@ While captions, subtitles, and transcripts each present some text interpretation
 
 In this example we demonstrate a transcript file in the docx format, but other formats are possible (see above).
 
+Note: This recipe only exists for IIIF Presentation API v4.
+
 {% include manifest_links.html viewers="" manifest="v4/manifest.json" version="4"%}
 
 {% include jsonviewer.html src="v4/manifest.json" config='data-line="43-61"'%}
