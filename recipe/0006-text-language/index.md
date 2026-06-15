@@ -12,6 +12,7 @@ viewers:
  - Theseus
  - Curation
  - TIFY
+ - Triiiceratops
 topic: basic
 property: label, summary, metadata, requiredStatement
 code:
@@ -42,13 +43,14 @@ Finally, the `summary` property (lines 49-54) has values in both English and Fre
 
 With the Universal Viewer, Mirador, and Glycerine you can open the settings menu (gear icon) and choose either English or French.
 
-For the Curation viewer you need to add a `lang=fr` parameter to access the French properties. You can see the French values on the [IIIF Curation Viewer](http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://iiif.io/api/cookbook/recipe/0006-text-language/manifest.json&lang=fr) demo site.
+<!--
+For the Curation viewer you need to add a `lang=fr` parameter to access the French properties. You can see the French values on the [IIIF Curation Viewer](http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest=https://iiif.io/api/cookbook/recipe/0006-text-language/manifest.json&lang=fr) demo site. -->
 
 Note not all viewers support all languages and users should check the viewers with their manifests to see if they need to configure the viewer to make the extra languages available. 
 
 The image in this example was sourced via Wikimedia Commons and is public domain.
 
-{% include manifest_links.html viewers="UV, Mirador, Annona, Glycerine Viewer, Theseus, Curation, TIFY" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Glycerine Viewer, Theseus, Curation, TIFY, Triiiceratops" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="6-11, 16-21, 24-26, 31-36, 39-44, 49-54, 58-63, 66-68"' %}
 
