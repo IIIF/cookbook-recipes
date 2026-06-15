@@ -25,7 +25,10 @@
                   "height": 1800,
                   "width": 1200
                 },
-                "target": "{{ id.path }}/canvas/p1"
+                "target": {
+                	"id": "{{ id.path }}/canvas/p1",
+                	"type": "Canvas"
+                }
               }
             ]
           }

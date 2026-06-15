@@ -23,7 +23,10 @@
                 "type": "Model",
                 "format": "model/gltf-binary"
               },
-              "target": "{{ id.path }}/scene/1/annotationPage/1"
+              "target": {
+              	"id": "{{ id.path }}/scene/1/annotationPage/1",
+              	"type": "Scene"
+              }
             }
           ]
         }

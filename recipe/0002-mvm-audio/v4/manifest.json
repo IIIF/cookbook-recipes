@@ -23,7 +23,10 @@
                 "format": "audio/mp4",
                 "duration": 1985.024
               },
-              "target": "{{ id.path }}/timeline"
+              "target": {
+              	"id": "{{ id.path }}/timeline",
+              	"type": "Timeline"
+              }
             }
           ]
         }

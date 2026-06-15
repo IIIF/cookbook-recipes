@@ -27,7 +27,10 @@
                     "duration": 572.034,
                     "format": "video/mp4"
                 },
-                "target": "{{ id.path }}/canvas"
+                "target": {
+                	"id": "{{ id.path }}/canvas",
+                	"type": "Canvas"
+                }
               }
             ]
           }
