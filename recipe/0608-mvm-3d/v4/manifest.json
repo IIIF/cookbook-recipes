@@ -6,7 +6,7 @@
   "summary": { "en": ["Viewer should render the model at the scene origin and then add default lighting and camera"] },
   "items": [
     {
-      "id": "{{ id.path }}/scene/1",
+      "id": "{{ id.path }}/scene",
       "type": "Scene",
       "label": { "en": ["A Scene"] },
       "items": [
@@ -24,7 +24,7 @@
                 "format": "model/gltf-binary"
               },
               "target": {
-              	"id": "{{ id.path }}/scene/1/annotationPage/1",
+              	"id": "{{ id.path }}/scene",
               	"type": "Scene"
               }
             }
