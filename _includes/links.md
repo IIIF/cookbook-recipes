@@ -49,6 +49,7 @@
 [0074]: {{ site.cookbook_url | absolute_url}}/recipe/0074-multiple-language-captions/ "Using Caption and Subtitle Files in Multiple Languages with Video Content"
 [0074-4]: {{ site.cookbook_url | absolute_url}}/recipe/0074-multiple-language-captions/#version-4 "Using Caption and Subtitle Files in Multiple Languages with Video Content"
 [0079-4]: {{ site.cookbook_url | absolute_url }}/recipe/0079-annotations-for-captions/#version-4 "Using Annotations for Timed Text"
+
 [0117]: {{ site.cookbook_url | absolute_url }}/recipe/0117-add-image-thumbnail/ "Image Thumbnail for Manifest"
 [0118]: {{ site.cookbook_url | absolute_url }}/recipe/0118-multivalue/ "Displaying Multiple Values with Language Maps"
 [0135]: {{ site.cookbook_url | absolute_url }}/recipe/0135-annotating-point-in-canvas/ "Annotating a specific point of an image"
