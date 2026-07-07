@@ -18,7 +18,8 @@ The issues of the [Cookbook Recipes repository][cookbook-issues] are used to ide
 ## Viewer Support
 As part of the work to aid implementation the Cookbook group have developed a Viewer Matrix which shows which recipe is supported by which IIIF viewer.
 
-{% include misc/button.html button_link="recipe/matrix/" button_label="See IIIF viewer support" %}
+{% include misc/button.html button_link="recipe/matrix/" button_label="IIIF v3 viewer support" %}
+{% include misc/button.html button_link="recipe/matrix-v4/" button_label="IIIF v4 viewer support" %}
 {{ theme.block-end }}
 
 ## Presentation API Versions

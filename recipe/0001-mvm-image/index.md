@@ -15,11 +15,12 @@ viewers:
   - liiive
   - TIFY
 v4-viewers:  
-  - Mirador
   - UV
   - Annona
   - Clover
   - Theseus
+  - liiive
+  - TIFY
 topic: 
  - basic
  - image
