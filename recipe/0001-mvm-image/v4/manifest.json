@@ -17,7 +17,7 @@
               {
                 "id": "{{ id.path }}/annotation/p0001-image",
                 "type": "Annotation",
-                "motivation": "painting",
+                "motivation": ["painting"],
                 "body": {
                   "id": "http://iiif.io/api/presentation/2.1/example/fixtures/resources/page1-full.png",
                   "type": "Image",

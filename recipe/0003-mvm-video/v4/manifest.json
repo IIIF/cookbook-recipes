@@ -18,7 +18,7 @@
               {
                 "id": "{{ id.path }}/canvas/page/annotation",
                 "type": "Annotation",
-                "motivation": "painting",
+                "motivation": ["painting"],
                 "body": {
                     "id": "https://fixtures.iiif.io/video/indiana/lunchroom_manners/high/lunchroom_manners_1024kb.mp4",
                     "type": "Video",
