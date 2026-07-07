@@ -45,7 +45,7 @@
 [0139]: {{ site.cookbook_url | absolute_url }}/recipe/0139-geolocate-canvas-fragment/ "Represent Canvas Fragment as a Geographic Area on a Web Map"
 [0154]: {{ site.cookbook_url | absolute_url }}/recipe/0154-geo-extension/ "Locate a Manifest on a Web Map"
 [0202]: {{ site.cookbook_url | absolute_url }}/recipe/0202-start-canvas/ "Load Manifest Beginning with a Specific Canvas"
-[0219]: {{ site.cookbook_url | absolute_url }}/recipe/0219-using-caption-file/ "Using Caption and Subtitle Files with Video Content"
+[0219]: {{ site.cookbook_url | absolute_url }}/recipe/0219-using-caption-file/ "Using Caption Files with Video Content"
 [0219-4]: {{ site.cookbook_url | absolute_url }}/recipe/0219-using-caption-file/#version-4 "Using Caption Files with Video Content"
 [0229]: {{ site.cookbook_url | absolute_url }}/recipe/0229-behavior-ranges/ "Adding Thumbnail Navigation and `no-nav` to a Video Resource"
 [0230]: {{ site.cookbook_url | absolute_url }}/recipe/0230-navdate/ "Navigation by Chronology"
