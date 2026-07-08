@@ -75,6 +75,7 @@ Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advi
 * [Providing Alternative Representations][0046]
 * [Transcripts, Captions, and Subtitles - General Considerations][0231]
     * [Providing Access to Transcript Files of A/V Content][0017]
+    * [Using Annotations for Timed Text][0079-4]
     * [Using Caption and Subtitle Files with Video Content][0219]
 
 
