@@ -47,8 +47,6 @@
 [0068]: {{ site.cookbook_url | absolute_url }}/recipe/0068-newspaper/ "Basic Newspaper"
 
 [0074]: {{ site.cookbook_url | absolute_url}}/recipe/0074-multiple-language-captions/ "Using Caption and Subtitle Files in Multiple Languages with Video Content"
-# [0074-4]: {{ site.cookbook_url | absolute_url}}/recipe/0074-multiple-language-captions/#version-4 "Using Caption and Subtitle Files in Multiple Languages with Video Content"
-# [0079-4]: {{ site.cookbook_url | absolute_url }}/recipe/0079-annotations-for-captions/#version-4 "Using Annotations for Timed Text"
 [0117]: {{ site.cookbook_url | absolute_url }}/recipe/0117-add-image-thumbnail/ "Image Thumbnail for Manifest"
 [0118]: {{ site.cookbook_url | absolute_url }}/recipe/0118-multivalue/ "Displaying Multiple Values with Language Maps"
 [0135]: {{ site.cookbook_url | absolute_url }}/recipe/0135-annotating-point-in-canvas/ "Annotating a specific point of an image"
@@ -57,11 +55,9 @@
 
 [0202]: {{ site.cookbook_url | absolute_url }}/recipe/0202-start-canvas/ "Load Manifest Beginning with a Specific Canvas"
 [0219]: {{ site.cookbook_url | absolute_url }}/recipe/0219-using-caption-file/ "Using Caption and Subtitle Files with Video Content"
-# [0219-4]: {{ site.cookbook_url | absolute_url }}/recipe/0219-using-caption-file/#version-4 "Using Caption Files with Video Content"
 [0229]: {{ site.cookbook_url | absolute_url }}/recipe/0229-behavior-ranges/ "Adding Thumbnail Navigation and `no-nav` to a Video Resource"
 [0230]: {{ site.cookbook_url | absolute_url }}/recipe/0230-navdate/ "Navigation by Chronology"
 [0231]: {{ site.cookbook_url | absolute_url }}/recipe/0231-transcript-meta-recipe/ "Transcripts, Captions, and Subtitles - General Considerations"
-# [0231-4]: {{ site.cookbook_url | absolute_url }}/recipe/0231-transcript-meta-recipe/#version-4 "Transcripts, Captions, and Subtitles - General Considerations"
 [0232]: {{ site.cookbook_url | absolute_url }}/recipe/0232-image-thumbnail-canvas/ "Implementation discussion: Thumbnails on Canvases"
 [0234]: {{ site.cookbook_url | absolute_url }}/recipe/0234-provider/ "Acknowledge Content Contributors"
 [0240]: {{ site.cookbook_url | absolute_url }}/recipe/0240-navPlace-on-canvases/ "Locate Multiple Canvases on a Web Map"
