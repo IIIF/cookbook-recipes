@@ -1,0 +1,54 @@
+<head>
+    <!-- from: https://github.com/IIIF/iiifc-theme/blob/main/_includes/head.html with extra JS at the end -->
+  <meta charset="utf-8">
+  <title>
+{% if page.title %}{{ page.title }} — {% endif %} {{ theme.acronym }} | {{ theme.title }}
+  </title>
+  <meta name="description" content="{{ site.tagline | default: site.organization.tagline }}">
+  <link rel="shortcut icon" href="{%- if site.logo -%}{{ site.logo | absolute_url }}{%- else -%}{{ site.organization.logo | absolute_url }}{%- endif -%}">
+ <link rel="apple-touch-icon" sizes="180x180" href="{{ 'assets/apple-touch-icon.png' | absolute_url }}">
+ <link rel="icon" type="image/png" sizes="32x32" href="{{ 'assets/favicon-32x32.png' | absolute_url }}">
+ <link rel="icon" type="image/png" sizes="16x16" href="{{ 'assets/favicon-16x16.png' | absolute_url }}">
+ <link rel="manifest" href="{{ 'assets/site.webmanifest' | absolute_url }}">
+ <link rel="mask-icon" href="{{ 'assets/safari-pinned-tab.svg' | absolute_url }}" color="#E82334">
+ <meta name="msapplication-TileColor" content="#da532c">
+ <meta name="theme-color" content="#ffffff">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{% link assets/css/style.scss %}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}" />
+{%- if jekyll.environment == 'production' and site.google_analytics -%}
+{%- include misc/google-analytics.html -%}
+{%- endif -%}
+{% if page.hero.image %}
+  <link rel="preload" as="image" href="{{ page.hero.image | absolute_url }}">
+{% endif %}
+{% seo title=false %}
+<!-- add for Mastodon verification -->
+<link rel="me" href="https://glammr.us/@iiif">
+
+<script>
+(function () {
+  if (window.location.hash) {
+    window.__initialHash = window.location.hash;
+    history.replaceState(null, '', window.location.origin + window.location.pathname + window.location.search);
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    if (window.__initialHash) {
+      if (typeof openTab === 'function') {
+        openTab(window.__initialHash.substr(1));
+        // openTab() calls history.pushState with the tab hash, putting the
+        // fragment back in the URL. That lets the browser's own delayed
+        // "scroll to fragment" retry (fired again once the page finishes
+        // loading) jump to the now-visible tab panel. Strip it again so
+        // that retry has nothing left to scroll to.
+        history.replaceState(null, '', window.location.origin + window.location.pathname + window.location.search);
+      } else {
+        console.warn('openTab is not defined - could not open tab from URL hash');
+      }
+    }
+  });
+})();
+</script>
+</head>

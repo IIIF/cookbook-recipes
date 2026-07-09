@@ -42,7 +42,7 @@ top_tabs:
 
 {{ theme.block-end }}
 <script>
-  if (!window.location.hash) {
+  if (!window.__initialHash) {
     let el = document.getElementById("version-3-heading");
     el.className += " is-active";
   }  
