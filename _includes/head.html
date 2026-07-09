@@ -30,25 +30,28 @@
 <script>
 (function () {
   if (window.location.hash) {
-    window.__initialHash = window.location.hash;
-    history.replaceState(null, '', window.location.origin + window.location.pathname + window.location.search);
-  }
+    // The browser's native "scroll to fragment" behaviour retries right
+    // up until the page finishes loading (the 'load' event), which is
+    // what makes the tab panel jump into view once tabSwitch.js's own
+    // hash handling shows it. Lock scrolling for that window instead of
+    // touching the URL/hash - with nothing able to visibly scroll, the
+    // native jump has nowhere to go, and #version-4 etc. stay in the
+    // address bar the whole time.
+    document.documentElement.style.overflow = 'hidden';
 
-  document.addEventListener('DOMContentLoaded', function () {
-    if (window.__initialHash) {
-      if (typeof openTab === 'function') {
-        openTab(window.__initialHash.substr(1));
-        // openTab() calls history.pushState with the tab hash, putting the
-        // fragment back in the URL. That lets the browser's own delayed
-        // "scroll to fragment" retry (fired again once the page finishes
-        // loading) jump to the now-visible tab panel. Strip it again so
-        // that retry has nothing left to scroll to.
-        history.replaceState(null, '', window.location.origin + window.location.pathname + window.location.search);
-      } else {
-        console.warn('openTab is not defined - could not open tab from URL hash');
+    window.addEventListener('load', function () {
+      // Reset in case a scroll got queued while locked, then release.
+      window.scrollTo({
+  top: 0,
+  left: 0,
+  behavior: "instant",
+});
+      document.documentElement.style.overflow = '';
+      if (document.body) {
+        document.body.style.overflow = '';
       }
-    }
-  });
+    });
+  }
 })();
 </script>
 </head>
