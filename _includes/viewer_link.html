@@ -25,7 +25,7 @@
 http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest={{manifest_url |strip}}
 {% endcomment %}
     {% capture viewer_url %}
-       {{manifest_url |strip}}
+        http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest={{manifest_url |strip}}
     {% endcapture %}
     {% assign default_text="View in IIIF Curation Viewer (currently unavailable)" %}
 {% elsif include.type == 'Annona' %}
