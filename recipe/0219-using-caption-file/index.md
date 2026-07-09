@@ -18,8 +18,6 @@ top_tabs:
   - label: Version 4
     content: "{% capture my_include %}{%- include_relative v4/recipe.md version='4' -%}{% endcapture %}{{ my_include | markdownify }}"
 
----
-
 {{ theme.block-center-start }}
 
 {% include blocks/tabs.html  tabs=page.top_tabs %}

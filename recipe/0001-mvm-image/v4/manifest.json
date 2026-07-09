@@ -2,7 +2,7 @@
     "@context": "http://iiif.io/api/presentation/4/context.json",
     "id": "{{ id.url }}",
     "type": "Manifest",
-    "label": { "en": [ "Single Image Example" ] },
+    "label": { "en": [ "Simplest Image Example (IIIF Presentation v4)" ] },
     "items": [
       {
         "id": "{{ id.path }}/canvas/p1",
@@ -17,7 +17,7 @@
               {
                 "id": "{{ id.path }}/annotation/p0001-image",
                 "type": "Annotation",
-                "motivation": "painting",
+                "motivation": ["painting"],
                 "body": {
                   "id": "http://iiif.io/api/presentation/2.1/example/fixtures/resources/page1-full.png",
                   "type": "Image",
@@ -25,7 +25,10 @@
                   "height": 1800,
                   "width": 1200
                 },
-                "target": "{{ id.path }}/canvas/p1"
+                "target": {
+                	"id": "{{ id.path }}/canvas/p1",
+                	"type": "Canvas"
+                }
               }
             ]
           }
