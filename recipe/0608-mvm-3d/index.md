@@ -1,13 +1,14 @@
 ---
 title: Simplest Manifest - Single 3D Model
-id: 1
+id: 608
 layout: recipe
 tags: [presentation]
 summary: "The simplest viable manifest for 3D content. If all you have for an object is one model on the web and a label, this pattern turns it into a IIIF Presentation resource."
 v4-viewers:  
+ - UV
 topic: 
  - basic
- - image
+ - 3d
 top_tabs:
   - label: Version 4
     content: "{% capture my_include %}{%- include_relative v4/recipe.md version='4' -%}{% endcapture %}{{ my_include | markdownify }}"

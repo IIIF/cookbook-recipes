@@ -18,3 +18,5 @@ geo-recipes:
   label: Geo Recipes
 content-state:
   label: Recipes involving Content State
+3d:
+  label: 3D Recipes  

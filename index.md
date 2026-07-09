@@ -18,8 +18,13 @@ The issues of the [Cookbook Recipes repository][cookbook-issues] are used to ide
 ## Viewer Support
 As part of the work to aid implementation the Cookbook group have developed a Viewer Matrix which shows which recipe is supported by which IIIF viewer.
 
-{% include misc/button.html button_link="recipe/matrix/" button_label="See IIIF viewer support" %}
+{% include misc/button.html button_link="recipe/matrix/" button_label="IIIF v3 viewer support" %}
+{% include misc/button.html button_link="recipe/matrix-v4/" button_label="IIIF v4 viewer support" %}
 {{ theme.block-end }}
+
+## Presentation API Versions
+
+The cookbook contains recipes primarily for version 3 of the IIIF Presentation API. Where a recipe has been written for only version 4, or for both versions 3 and 4, that is indicated following the recipe title.
 
 ## Code samples
 
@@ -33,160 +38,122 @@ Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advi
 
 ## Building a manifest in stages, adding more complexity at each stage
 
-_The corresponding 2.1 test fixture(s) is given like this, where appropriate: ..(3,5)_
+* Simplest Manifest - Image ([version 3][0001] / [version 4][0001-4])
+* Simplest Manifest - Audio ([version 3][0002] / [version 4][0002-4])
+* Simplest Manifest - Video ([version 3][0003] / [version 4][0003-4])
+* Simplest Manifest - 3D ([version 4][0608-4])
+* Image and Canvas with Differing Dimensions ([version 3][0004])
+* Support Deep Viewing with Basic Use of a IIIF Image Service ([version 3][0005])
+* Internationalization and Multi-language Values ([version 3][0006])
+* Displaying Multiple Values with Language Maps ([version 3][0118])
+* Embedding HTML in descriptive properties ([version 3][0007])
+* Metadata on any Resource ([version 3][0029])
+* Rights statement\(s\) ([version 3][0008])
+* Simple Manifest - Book ([version 3][0009])
+* Book behavior (paging) variations ([version 3][0011])
+* Addressing a spatial region ([version 3][0299])
+* Viewing direction and its effect on navigation ([version 3][0010])
+* Missing Images in a Sequence ([version 3][0283])
+* Image Thumbnail for Manifest ([version 3][0117])
+* Implementation discussion: Thumbnails on Canvases ([version 3][0232])
+* Load a Preview Image Before the Main Content ([version 3][0013])
+* Audio Presentation with Accompanying Image ([version 3][0014])
+* Load Manifest Beginning with a Specific Canvas ([version 3][0202])
+* Begin playback at a specific point - Time-based media ([version 3][0015])
+* Navigation by Chronology ([version 3][0230])
+* Locate a Manifest on a Web Map ([version 3][0154])
+* Locate Multiple Canvases on a Web Map ([version 3][0240])
+* Acknowledge Content Contributors ([version 3][0234])
+* Simple Collection ([version 3][0032])
+* Reuse parts of a Manifest ([version 3][0464])
 
-* [Simplest Manifest - Image][0001] - [version 4][0001-4]
-* [Simplest Manifest - Audio][0002] - [version 4][0002-4]
-* [Simplest Manifest - Video][0003] - [version 4][0003-4] (1) (use single video as content resource, w,h,d)
-* [Simplest Manifest - 3D][0608-4]
-* [Image and Canvas with Differing Dimensions][0004] (26)
-* [Support Deep Viewing with Basic Use of a IIIF Image Service][0005] (24,25)
-* [Internationalization and Multi-language Values][0006] (3,4,6)
-* [Displaying Multiple Values with Language Maps][0118]
-* [Embedding HTML in descriptive properties][0007] (64)
-* [Metadata on any Resource][0029] (21)
-* [Rights statement\(s\)][0008] (7)
-* [Simple Manifest - Book][0009] (19)
-* [Book behavior (paging) variations][0011] (15,16,17)
-* [Addressing a spatial region][0299]
-* [Viewing direction and its effect on navigation][0010] (11,12,13,14)
-* [Missing Images in a Sequence][0283]
-* [Image Thumbnail for Manifest][0117]
-* [Implementation discussion: Thumbnails on Canvases][0232]
-* [Load a Preview Image Before the Main Content][0013]
-* [Audio Presentation with Accompanying Image][0014]
-* [Load Manifest Beginning with a Specific Canvas][0202]
-* [Begin playback at a specific point - Time-based media][0015] (65)
-* [Navigation by Chronology][0230]
-* [Locate a Manifest on a Web Map][0154]
-* [Locate Multiple Canvases on a Web Map][0240]
-* [Acknowledge Content Contributors][0234]
-* [Simple Collection][0032]
 
 ## Textual and other supplementary content
 
-* [Transcription of image-based content][016]
-* [Using Transcripts with A/V Content][0017]
-* [Using Captions and Subtitles with Video Content][0219]
-* [Providing Alternative Representations][0046]
-* [Transcripts, Captions, and Subtitles - General Considerations][0231]
-    * [Providing Access to Transcript Files of A/V Content][0017]
-    * [Using Annotations for Timed Text][0079]
-    * [Using Caption and Subtitle Files with Video Content][0219]
-    * [A Side-by-Side Transcript of a Video Recording][0253-4]
-* Transcription of content into XML, with XPaths to select a segment
+<!-- * Transcription of image-based content ([version 3][016]) -->
+* Using Transcripts with A/V Content ([version 3][0017])
+* Using Captions and Subtitles with Video Content ([version 3][0219])
+* Providing Alternative Representations ([version 3][0046])
+* Transcripts, Captions, and Subtitles - General Considerations ([version 3][0231])
+    * Providing Access to Transcript Files of A/V Content ([version 3][0017])
+<!--    * Using Annotations for Timed Text ([version 3][0079]) -->
+    * Using Caption and Subtitle Files with Video Content ([version 3][0219])
+    * A Side-by-Side Transcript of a Video Recording ([version 4][0253-4])
 
 ## Other kinds of annotations
-_(leading on to segmentation examples later)_
+(These are also building blocks for segmentation, below)
 
-* comments - various examples (51,52,54)
-* [Simplest Annotation][0266]
-* [HTML in Annotations][0019]
-* Fragment selectors (61)
-* [Simple Annotation - Tagging][0021]
-* [Annotation with a Non-Rectangular Polygon][0261]
-* [Tagging with an External Resource][0258]
-* [Redirecting from one Canvas to another resource (Hotspot linking)][0022]
-* [Annotate a specific images or layers][0326]
-* [Annotating a specific point of an image][0135]
-* [Geographic coordinates][0139]
-* [Embedded or Referenced Annotations][0269]
-* [Linking external Annotations targeting a Canvas to a Manifest][0306]
-* [Using Annotation collections][0309]
-* [Image in annotations][0377]
-* [Annotating in Multiple Languages][0346]
+* Simplest Annotation ([version 3][0266])
+* HTML in Annotations ([version 3][0019])
+* CSS in an Annotation ([version 3][0045])
+* Simple Annotation - Tagging ([version 3][0021])
+* Annotation with a Non-Rectangular Polygon ([version 3][0261])
+* Tagging with an External Resource ([version 3][0258])
+* Redirecting from one Canvas to another resource (Hotspot linking) ([version 3][0022])
+* Annotate a specific images or layers ([version 3][0326])
+* Annotating a specific point of an image ([version 3][0135])
+* Geographic coordinates ([version 3][0139])
+* Embedded or Referenced Annotations ([version 3][0269])
+* Linking external Annotations targeting a Canvas to a Manifest ([version 3][0306])
+* Using Annotation collections ([version 3][0309])
+* Image in annotations ([version 3][0377])
+* Annotating in Multiple Languages ([version 3][0346])
+* Visible Text Resource on a Canvas ([version 3][0561])
+
 
 ## Internal structure
 
-* [Table of Contents for Book Chapters][0024]
-* table of contents (ranges) - articles in a newspaper
-* [Table of contents for A/V content][0026] (26)
-* [Adding Thumbnail Navigation and `no-nav` to a Video Resource][0229]
-* Alternative Sequence (via `sequence` Range) (20,22,23)
-* `sequence` Range with partial canvases
+* Table of Contents for Book Chapters ([version 3][0024])
+* Table of contents for A/V content ([version 3][0026])
+* Adding Thumbnail Navigation and `no-nav` to a Video Resource ([version 3][0229])
+* Alternative Page Sequences ([version 3][0027])
+
 
 ## Higher-level structure
 
-* [Multi-volume Work with Individually-bound Volumes][0030]
-* [Multiple Volumes in a Single Bound Volume][0031]
-* paged Collections (from #1343)
+* Multi-volume Work with Individually-bound Volumes ([version 3][0030])
+* Multiple Volumes in a Single Bound Volume ([version 3][0031])
+
 
 ## Segmentation and complex resources
 
-* [Multiple choice of images in a single view][0033] (29)
-* [Foldouts, Flaps, and Maps][0035]
-* [Composition from Multiple Images][0036] (30,31)
-* [Rendering Multiple Media Types on a Time-Based Canvas][0489]
-* Multiple images and multiple choices (32,33,34)
-* [Annotating part of an image to a Canvas][recipe-segment-image-part] (e.g., crop out scanner) (35,36,37,38)
-* [Image Rotation Two Ways][0040]
-* Reusing an image service (ImageApiSelector) (41)
-* non-rectangular segmentation
-* temporal segmentation
-* Audio only from video (and other xxxContentSelector scenarios)
-* canvas on canvas (#1191)
-* CSS styling
+* Multiple choice of images in a single view ([version 3][0033])
+* Foldouts, Flaps, and Maps ([version 3][0035])
+* Composition from Multiple Images ([version 3][0036])
+* Rendering Resources Sequentially on a Timeline ([version 3][0560])
+* Rendering Multiple Media Types on a Time-Based Canvas ([version 3][0489])
+* Image Rotation Two Ways ([version 3][0040])
+
 
 ## Linking
 
-* alternative representations (rendering (?))
-* [Linking to Web Page of an Object (homepage)][0047]
-* Linking from Image API to Presentation API (via partOf as per #600, #1507)
-* Linking from Image API to external metadata
-* Linking from external metadata to Image API
-* Linking from external metadata to Presentation API
-* Linking between Presentation API representations
-* [Linking to Structured Metadata][0053] (8)
+* Linking to Web Page of an Object (homepage) ([version 3][0047])
+* Linking to Structured Metadata ([version 3][0053])
 
 
 ## Sharing IIIF content
 Recipes using [Content State API](https://iiif.io/api/content-state/1.0/)
 
-* [Loading a manifest with a viewer using a link][0466]
-* [Open a specific region of a canvas in a viewer][0485]
-* [Sharing a link for opening two or more Canvases][0540]
-
+* Loading a manifest with a viewer using a link ([version 3][0466])
+* Open a specific region of a canvas in a viewer ([version 3][0485])
+* Sharing a link for opening two or more Canvases ([version 3][0540])
+* Drag and drop ([version 3][0599])
 
 
 ## Technical
 
-* extensions (18)
-* services (9,10)
-* Mixed version scenarios (Prezi 3+Image 2)
-* Publishing v2 and v3 versions
+* Making IIIF Presentation API v2 and v3 manifests available at the same URL ([version 3][0057])
+
 
 ## Real-world complex objects (ideally taken from actual collections)
 
-* An Image gallery
-* museum object (fwd ref to renderings)
-* A complex printed work with foldouts and choice
-* A music album's audio resources
-* ...and its image resoures
-* ...combined to demonstrate _together_
-* [Multiple Choice of Audio Formats in a Single View (Canvas)][0434]
-* [Table of Contents for Multiple A/V files on a Single Canvas][0064] (64)
-* [Table of Contents for Multiple A/V files on Multiple Canvases][0065] (65)
-* Adaptive bit rate AV examples
-* A field recording
-* [Basic Newspaper][0068]
-* Example with extensions and services
-* A manuscript with multiple orderings
-* a Sammelband
-* Archival collection (hierarchy, paging)
-* Thumbnail range for video navigation
-* [Using Caption and Subtitle Files in Multiple Languages with Video Content][0074]
-* Mixed Image Service references (a mashup, with img2 and img3 services)
-* Glenn Gould - score and performance scenarios (transcribing)
-* A Map
-* [Locating an Item in Place and Time][0318]
+* Multiple Choice of Audio Formats in a Single View (Canvas) ([version 3][0434])
+* Table of Contents for Multiple A/V files on a Single Canvas ([version 3][0064])
+* Table of Contents for Multiple A/V files on Multiple Canvases ([version 3][0065])
+* Basic Newspaper ([version 3][0068])
+* Using Caption and Subtitle Files in Multiple Languages with Video Content ([version 3][0074])
+* Locating an Item in Place and Time ([version 3][0318])
 
-
-## Access Control
-_this might be in a separate auth cookbook_
-
-* probe service for simple resource
-* auth for adaptive bit rate media (MPEG-DASH)
-* Anyone can deep zoom, auth reqd for hi-res download
 
 {% include acronyms.md %}
 {% include links.md %}
