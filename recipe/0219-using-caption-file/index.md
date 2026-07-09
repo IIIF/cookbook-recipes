@@ -17,6 +17,7 @@ top_tabs:
     content: "{% capture my_include %}{%- include_relative recipe.md version='3' -%}{% endcapture %}{{ my_include | markdownify }}"
   - label: Version 4
     content: "{% capture my_include %}{%- include_relative v4/recipe.md version='4' -%}{% endcapture %}{{ my_include | markdownify }}"
+---
 
 {{ theme.block-center-start }}
 
