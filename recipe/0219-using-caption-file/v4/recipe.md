@@ -1,10 +1,10 @@
 ## Use Case
 
-Captions may be available for your video content and should be enabled for display on top of your IIIF video resources.
+Captions are available for your video content and you want to enable them for display on top of your IIIF video resources.
 
 ## Implementation notes
 
-Caption markup file formats use time tags that allow for time alignment and synchronized display of the video content with the captions. Captions are typically overlaid on top of the video. To improve accessibility, IIIF media viewers should support both [WebVTT](http://en.wikipedia.org/wiki/WebVTT) and [SRT](https://en.wikipedia.org/wiki/SubRip) formats for caption files if possible.
+Caption markup file formats use time tags that allow for time alignment and synchronized display of the video content with the captions. Captions are typically overlaid on top of the video. IIIF media viewers can best support all people experiencing multimedia content by supporting both [WebVTT](http://en.wikipedia.org/wiki/WebVTT) and [SRT](https://en.wikipedia.org/wiki/SubRip) formats for caption files wherever possible.
 
 Offering the caption file as an Annotation on the Canvas that contains the media file itself enables us to express the relationship between the two. The `provides` property of the Annotation can be used by the client to identify caption files to be rendered on top of video content. The `format` property of the Annotation can also be used to verify that the file is in a usable format.
 
