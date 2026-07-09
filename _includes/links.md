@@ -44,6 +44,7 @@
 [0068]: {{ site.cookbook_url | absolute_url }}/recipe/0068-newspaper/ "Basic Newspaper"
 
 [0074]: {{ site.cookbook_url | absolute_url}}/recipe/0074-multiple-language-captions/ "Using Caption and Subtitle Files in Multiple Languages with Video Content"
+[0103]: {{ site.cookbook_url | absolute_url}}/recipe/0103-poetry-reading-annotations/ "Scholarly Annotation of a Poetry Reading"
 
 [0117]: {{ site.cookbook_url | absolute_url }}/recipe/0117-add-image-thumbnail/ "Image Thumbnail for Manifest"
 [0118]: {{ site.cookbook_url | absolute_url }}/recipe/0118-multivalue/ "Displaying Multiple Values with Language Maps"
