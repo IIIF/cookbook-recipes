@@ -12,7 +12,7 @@ viewers:
  - Theseus
  - TIFY
  - Triiiceratops
-code
+code:
  - iiif-prezi3
 topic: property
 property: rendering
