@@ -10,6 +10,9 @@ viewers:
  - Aviary
  - Theseus
 v4-viewers:
+ - Clover
+ - Aviary
+ - Theseus
 topic: AV
 
 top_tabs:
@@ -17,6 +20,8 @@ top_tabs:
     content: "{% capture my_include %}{%- include_relative recipe.md version='3' -%}{% endcapture %}{{ my_include | markdownify }}"
   - label: Version 4
     content: "{% capture my_include %}{%- include_relative v4/recipe.md version='4' -%}{% endcapture %}{{ my_include | markdownify }}"
+  - label: Manifest Comparison
+    content: "{% assign path_parts = page.path | split: '/' %}{% assign recipe_dir = path_parts[1] %}{% capture my_include %}{%- include diff.html recipe=recipe_dir -%}{% endcapture %}{{ my_include | markdownify }}"
 ---
 
 {{ theme.block-center-start }}
