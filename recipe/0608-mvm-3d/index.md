@@ -5,7 +5,6 @@ layout: recipe
 tags: [presentation]
 summary: "The simplest viable manifest for 3D content. If all you have for an object is one model on the web and a label, this pattern turns it into a IIIF Presentation resource."
 v4-viewers:  
- - "" # Without this this recipe won't show in the matrix
 topic: 
  - basic
  - 3d
