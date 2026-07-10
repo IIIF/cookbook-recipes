@@ -25,6 +25,8 @@ viewers:
  - id: UV
    support: partial
  - Mirador  
+code:
+ - iiif-prezi3 
 topic: AV
 property: start
 ---
@@ -34,7 +36,8 @@ The fields are as follows:
  * `layout` must be `recipe` for all recipes. This controls the layout of the page
  * `tags` this is used in the recipe listing page and is currently uncontrolled and optional. It is shown on the [full list of recipes](https://iiif.io/api/cookbook/recipe/all/)
  * `summary` a short summary of the recipe. It is shown on the [full list of recipes](https://iiif.io/api/cookbook/recipe/all/)
- * `viewers` see further details below but this drives the Viewer Matrix
+ * `viewers` see further details below but this drives the Viewer Matrix. `v4-viewers` for version 4 recipes.
+ * `code` link to code samples for implementing this recipe. `v4-code` for version 4 code samples.
  * `topic` a controlled list of headings that are used on the viewer matrix. Allowed values are **basic, property, note, structure, annotation, image, AV, realWorldObject, geo-recipes, content-state**. (The current set of topics at any time are in the [`topics.yml`](_data/topics.yml) file.) A recipe may have multiple topics and these would be expressed as a list for example:
 ```
 topic: 

@@ -25,7 +25,7 @@ This recipe is not for large images or deep zoom functionality. For this, see th
 
 * [Simplest Manifest - Audio][0002-4] for a minimal audio Manifest
 * [Simplest Manifest - Video][0003-4] for a minimal video Manifest
-* [Simplest Manifest - 3D][0608] for a minimal 3D Manifest
+* [Simplest Manifest - 3D][0608-4] for a minimal 3D Manifest
 * [Support Deep Viewing with Basic Use of a IIIF Image Service][0005] (v3) shows a basic manifest for use with a IIIF Image server.
 * [Image and Canvas with Differing Dimensions][0004] (v3) shows a canvas with dimensions different from the pixel dimensions of its content.
 * [Multiple values and languages][0006] (v3) demonstrates language map variations, for multiple values and multiple languages.

@@ -14,8 +14,8 @@ viewers:
  - Glycerine Viewer
  - TIFY
 v4-viewers:  
- - Mirador
  - UV
+ - Theseus
  - Aviary
 topic:
  - basic
