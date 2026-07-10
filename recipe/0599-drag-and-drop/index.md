@@ -5,6 +5,7 @@ layout: recipe
 tags: [content-state]
 summary: "A model for manifest publishers and viewer developers for how to facilitate and accommodate dragging a IIIF manifest from one application to another."
 viewers:
+  - Theseus
 topic:
  - content-state
 ---
