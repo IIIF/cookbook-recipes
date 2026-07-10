@@ -16,7 +16,10 @@ viewers:
 v4-viewers:
  - Mirador
  - UV
+ - Clover
  - Aviary
+ - Theseus
+ - TIFY
 topic:
  - basic
  - AV
