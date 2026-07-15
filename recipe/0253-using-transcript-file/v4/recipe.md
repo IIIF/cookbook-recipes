@@ -1,12 +1,14 @@
 ## Use Case
 
-Transcripts may be available for your audio and/or video content and should be enabled for display with your IIIF media resources.
+Transcripts may be available for your audio and/or video content. You would like to give a viewer clear information on their purposeful relationship to your IIIF media resources.
 
 ## Implementation notes
 
 External transcript files may exist in a wide variety of formats. To improve accessibility, it is ideal for a IIIF media viewer to display as many potential formats as possible. Common file formats for transcripts include WebVTT, SubRip Text, and plain text.
 
-Offering the transcript file(s) as an Annotation on the Canvas that contains the media file itself enables us to express the relationship between the two. The `provides` property of the Annotation can be used by the client to identify transcript files that should be usably rendered along with the resource. The `format` property of the Annotation can be used to determine if the transcript file format can be rendered directly to the user by the media viewer.
+Offering the transcript file(s) as an Annotation on the Canvas that contains the media file itself enables us to express the relationship between the two. The `provides` property of the Annotation can be used by the client to identify transcript files to usably render along with the resource. The `format` property of the Annotation can be used to determine if the transcript file format can be rendered directly to the user by the media viewer.
+
+
 
 In addition to this implementation, one could also or instead offer a transcript as a series of time-coded textual annotations, making the text available in multiple ways. See [Using Annotations for Timed Text][0079-4].
 
