@@ -1,6 +1,6 @@
 ## Use Case
 
-You have some digital or digitized video that you would like to present on the web using IIIF.
+The simplest viable manifest for video content. This pattern presents a single video file in a IIIF Presentation resource.
 
 ## Implementation Notes
 
