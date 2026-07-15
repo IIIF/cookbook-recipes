@@ -55,7 +55,7 @@
                 "format": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
                 "label": {
                   "en": [
-                    "Transcript in WebVTT format"
+                    "Transcript in plain text format"
                   ]
                 },
                 "language": ["en"]
