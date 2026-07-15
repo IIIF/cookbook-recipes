@@ -78,7 +78,7 @@ Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advi
     * Providing Access to Transcript Files of A/V Content ([version 3][0017])
 <!--    * Using Annotations for Timed Text ([version 3][0079]) -->
     * Using Caption and Subtitle Files with Video Content ([version 3][0219])
-    * A Side-by-Side Transcript of a Video Recording ([version 4][0253-4])
+    * Video with Accompanying Transcript ([version 4][0253-4])
 
 ## Other kinds of annotations
 (These are also building blocks for segmentation, below)

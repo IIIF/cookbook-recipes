@@ -1,5 +1,5 @@
 ---
-title: A Side-by-Side Transcript of a Video Recording
+title: Video with Accompanying Transcript
 id: 253
 layout: recipe
 tags: [video, audio, transcript, presentation]
