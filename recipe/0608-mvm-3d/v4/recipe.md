@@ -1,6 +1,6 @@
 ## Use Case
 
-You have a 3D model that you would like to present on the web using IIIF.
+The simplest viable manifest for 3D model. This pattern presents a single glb file in a IIIF Presentation Manifest.
 
 ## Implementation Notes
 
@@ -21,8 +21,6 @@ This asset (astronaut.glb) was originally uploaded by the user 'Poly by Google' 
 # Related Recipes
 
 * [Simplest Manifest - Image][0001-4] a basic image example 
-* [Simplest Manifest - Audio][0002-4] a basic audio example 
-* [Simplest Manifest - Video][0003-4] a basic video example 
 
 {% include acronyms.md %}
 {% include links.md %}

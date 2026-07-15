@@ -1,6 +1,6 @@
 ## Use Case
 
-You have some digital or digitized video that you would like to present on the web using IIIF.
+The simplest viable manifest for video content. This pattern presents a single video file in a IIIF Presentation resource.
 
 ## Implementation Notes
 
@@ -24,7 +24,7 @@ This example shows a Manifest with a single Canvas that lasts for 572 seconds, o
 
 * [Simplest Manifest - Image][0001-4] for a minimal image Manifest
 * [Simplest Manifest - Audio][0002-4] for a minimal audio Manifest
-* [Simplest Manifest - 3D][0608] for a minimal 3D object Manifest
+* [Simplest Manifest - 3D][0608-4] for a minimal 3D object Manifest
 
 {% include acronyms.md %}
 {% include links.md %}

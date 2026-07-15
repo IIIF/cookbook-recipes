@@ -72,6 +72,7 @@ Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advi
 
 <!-- * Transcription of image-based content ([version 3][016]) -->
 * Using Transcripts with A/V Content ([version 3][0017])
+* Scholarly Annotation of a Poetry Reading ([version 3][0103])
 * Using Captions and Subtitles with Video Content ([version 3][0219])
 * Providing Alternative Representations ([version 3][0046])
 * Transcripts, Captions, and Subtitles - General Considerations ([version 3][0231])

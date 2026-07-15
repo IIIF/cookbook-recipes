@@ -1,5 +1,5 @@
 {
-  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "@context": "http://iiif.io/api/presentation/4/context.json",
   "id": "{{ id.url }}",
   "type": "Manifest",
   "label": {
@@ -22,7 +22,7 @@
             {
               "id": "{{ id.path }}/canvas/page/annotation1",
               "type": "Annotation",
-              "motivation": "painting",
+              "motivation": [ "painting" ],
               "body": {
                 "id": "https://fixtures.iiif.io/video/indiana/lunchroom_manners/high/lunchroom_manners_1024kb.mp4",
                 "type": "Video",
@@ -31,7 +31,10 @@
                 "duration": 572.034,
                 "format": "video/mp4"
               },
-              "target": "{{ id.path }}/canvas"
+              "target": {
+                "id": "{{ id.path }}/canvas",
+                "type": "Canvas"
+              }
             }
           ]
         }
@@ -44,7 +47,7 @@
             {
               "id": "{{ id.path }}/canvas/page2/a1",
               "type": "Annotation",
-              "motivation": "supplementing",
+              "motivation": ["supplementing"],
               "provides": ["transcript"],
               "body": {
                 "id": "https://fixtures.iiif.io/video/indiana/lunchroom_manners/lunchroom_manners.docx",
@@ -55,9 +58,12 @@
                     "Transcript in WebVTT format"
                   ]
                 },
-                "language": "en"
+                "language": ["en"]
               },
-              "target": "{{ id.path }}/canvas"
+              "target": {
+                "id": "{{ id.path }}/canvas",
+                "type": "Canvas"
+              }
             }
           ]
         }
