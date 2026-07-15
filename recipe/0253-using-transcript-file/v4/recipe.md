@@ -8,7 +8,7 @@ External transcript files may exist in a wide variety of formats. To improve acc
 
 Offering the transcript file(s) as an Annotation on the Canvas that contains the media file itself enables us to express the relationship between the two. The `provides` property of the Annotation can be used by the client to identify transcript files that should be usably rendered along with the resource. The `format` property of the Annotation can be used to determine if the transcript file format can be rendered directly to the user by the media viewer.
 
-In addition to this implementation, one could also offer transcripts as a series of timed textual annotations, making the text available in multiple ways. See [Using Annotations for Timed Text][0079-4].
+In addition to this implementation, one could also or instead offer a transcript as a series of time-coded textual annotations, making the text available in multiple ways. See [Using Annotations for Timed Text][0079-4].
 
 While captions, subtitles, and transcripts each present some text interpretation of the A/V content, the ways in which they are consumed by users differ. For a more detailed discussion about these differences see [Transcripts, Captions, and Subtitles - General Considerations][0231-4]. For a particular comparison tho this recipe, note the [Using Caption Files with Video Content][0219-4] recipe. Caption/subtitle files, linked from a manifest using an Annotation with a `provides` value of `closedCaptions` or `subtitles`, accompany time-based media such as video or audio. The content of the files are text versions of the audio information in an audio or video resource. The content is time-coded so it can be presented at appropriate points in the time-based media resource.
 
