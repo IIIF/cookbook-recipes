@@ -4,11 +4,9 @@ Transcripts may be available for your audio and/or video content and should be e
 
 ## Implementation notes
 
-External transcript files may exist in a wide variety of formats, including .vtt, .srt, .docx, .txt, and .pdf. To improve accessibility, it is ideal for a IIIF media viewer to display as many potential formats as possible.
-Some markup file formats use time tags that allow for time alignment of the audio or video content with the transcript, primarily [WebVTT](http://en.wikipedia.org/wiki/WebVTT) or [SRT](https://en.wikipedia.org/wiki/SubRip) (SubRip Text).
+External transcript files may exist in a wide variety of formats. To improve accessibility, it is ideal for a IIIF media viewer to display as many potential formats as possible. Common file formats for transcripts include WebVTT, SubRip Text, Microsoft Word, plain text, and PDF
 
-Offering the transcript file(s) as an Annotation on the Canvas that contains the media file itself enables us to express the relationship between the two. The `provides` property of the Annotation can be used by the client to identify transcript files that should be usably rendered along with the resource. 
-The `format` property of the Annotation can be used to determine if the transcript file format can be rendered directly to the user by the media viewer.
+Offering the transcript file(s) as an Annotation on the Canvas that contains the media file itself enables us to express the relationship between the two. The `provides` property of the Annotation can be used by the client to identify transcript files that should be usably rendered along with the resource. The `format` property of the Annotation can be used to determine if the transcript file format can be rendered directly to the user by the media viewer.
 
 In addition to this implementation, one could also offer transcripts as a series of timed textual annotations, making the text available in multiple ways. See [Using Annotations for Timed Text][0079-4].
 
