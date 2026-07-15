@@ -6,9 +6,9 @@ Transcripts may be available for your audio and/or video content. You would like
 
 External transcript files may exist in a wide variety of formats. To improve accessibility, it is ideal for a IIIF media viewer to display as many potential formats as possible. Common file formats for transcripts include WebVTT, SubRip Text, and plain text.
 
-Offering the transcript file(s) as an Annotation on the Canvas that contains the media file itself enables us to express the relationship between the two. The `provides` property of the Annotation can be used by the client to identify transcript files to usably render along with the resource. The `format` property of the Annotation can be used to determine if the transcript file format can be rendered directly to the user by the media viewer.
+Offering the transcript file(s) as an Annotation on the Canvas that contains the media file itself enables us to express the relationship between the two. The `provides` property of the Annotation can be used by the client to identify transcript files for usable rendering along with the resource. The `format` property of the Annotation can be used to determine if the transcript file format can be rendered directly to the user by the media viewer.
 
-
+The `provides` property is new in IIIF Presentation API v4. It exists to allow manifest creators to declare information about the function of a linked resource in relation to the linking resource. The value of `provides` tells a viewer or other manifest consumer what the point of the linked resource is, but does not define viewer behavior as a consequence. While people encountering a resource with a transcript file may have reasonable expectations for conventional viewer behaviors with that transcript, the IIIF Presentation API v4 does not prescribe any. Within the viewer's idiom, context, and other behaviors, viewer access to information about the function of a linked file in a manifest allows it to facilitate interaction with the file content by the widest possible range of people.
 
 In addition to this implementation, one could also or instead offer a transcript as a series of time-coded textual annotations, making the text available in multiple ways. See [Using Annotations for Timed Text][0079-4].
 
