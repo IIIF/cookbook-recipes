@@ -20,9 +20,9 @@ When using segmented WebVTT with HLS, see [Serving HLS Files][0257].
 
 In this example we use a caption file in the WebVTT format. Other options include the [SRT](https://en.wikipedia.org/wiki/SubRip) (SubRip Text) or [TTML](https://w3c.github.io/ttml3/index.html) (Timed Text Markup Language) formats, or other text-based formats used for the same purpose.
 
-{% include manifest_links.html viewers="" manifest="v4/manifest.json" version="4" %}
+{% include manifest_links.html viewers="" manifest="manifest.json" version="4" %}
 
-{% include jsonviewer.html src="v4/manifest.json" config='data-line="41-67"'%}
+{% include jsonviewer.html src="manifest.json" config='data-line="41-67"'%}
 
 # Related recipes
 

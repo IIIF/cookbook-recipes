@@ -22,7 +22,7 @@ In this example we use a caption file in the WebVTT format. Other options includ
 
 {% include manifest_links.html viewers="" manifest="v4/manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="41-67"'%}
+{% include jsonviewer.html src="v4/manifest.json" config='data-line="41-67"'%}
 
 # Related recipes
 
