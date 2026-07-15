@@ -20,7 +20,7 @@ No known restrictions.
 
 In this example we demonstrate a transcript file in the docx format, but other formats are possible (see above).
 
-Note: This recipe only exists for IIIF Presentation API v4.
+Note: This recipe only exists for IIIF Presentation API v4. Transcript, caption, and subtitle files can be linked via annotations in IIIF Presentation API v3 manifests with an Annotation `motivation` of `supplementing`. However, the lack of the `provides` property means viewers must infer the use of the file content rather than receiving that information directly.
 
 {% include manifest_links.html viewers="" manifest="v4/manifest.json" version="4"%}
 
