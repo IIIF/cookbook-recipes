@@ -1,6 +1,6 @@
 ## Use Case
 
-Captions are available for your video content and you want to enable them for display on top of your IIIF video resources.
+Captions are available for your video content and you want to enable them for display with your IIIF video resources.
 
 ## Implementation notes
 
