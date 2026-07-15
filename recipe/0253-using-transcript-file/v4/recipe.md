@@ -12,6 +12,10 @@ In addition to this implementation, one could also offer transcripts as a series
 
 While captions, subtitles, and transcripts each present some text interpretation of the A/V content, the ways in which they are consumed by users differ. For a more detailed discussion about these differences see [Transcripts, Captions, and Subtitles - General Considerations][0231-4].
 
+## Restrictions
+
+No known restrictions.
+
 ## Example
 
 In this example we demonstrate a transcript file in the docx format, but other formats are possible (see above).
