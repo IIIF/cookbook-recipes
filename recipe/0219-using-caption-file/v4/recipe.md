@@ -29,7 +29,7 @@ In this example we use a caption file in the WebVTT format. Other options includ
 - [Simplest Manifest - Video][0003]
 - [Providing Access to Transcripts of A/V Content][0017]
 - [Providing Alternative Representations][0046]
-- [Using Caption and Subtitle Files in Multiple Languages with Video Content][0074-4]
+- [Using Caption Files in Multiple Languages with Video Content][0074-4]
 - [Using Annotations for Timed Text][0079-4]
 - [Annotating a Poetry Reading][0103]
 - [Using Transcript Files with Video and Audio Content][0253-4]
