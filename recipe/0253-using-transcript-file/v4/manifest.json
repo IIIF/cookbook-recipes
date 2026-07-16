@@ -52,7 +52,7 @@
               "body": {
                 "id": "https://fixtures.iiif.io/video/indiana/lunchroom_manners/lunchroom_manners.txt",
                 "type": "Text",
-                "format": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "format": "text/plain",
                 "label": {
                   "en": [
                     "Transcript in plain text format"
