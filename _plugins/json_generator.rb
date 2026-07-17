@@ -73,16 +73,15 @@ module Jekyll
             end
           end
         end  
-        def processList(value, replacements) 
-            value.each do | object |
-                if (object.is_a? String) 
-                    processString(object, replacements)
-                    # TODO need to add this back into the array somehow
+        def processList(value, replacements)
+            value.each_with_index do | object, index |
+                if (object.is_a? String)
+                    value[index] = processString(object, replacements)
                 end
-                if (object.is_a?(Hash)) 
+                if (object.is_a?(Hash))
                     processHash(object, replacements)
                 end
-                if (object.is_a?(Array)) 
+                if (object.is_a?(Array))
                     processList(object, replacements)
                 end
             end
