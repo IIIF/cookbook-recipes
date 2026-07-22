@@ -1,24 +1,24 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "@context": "http://iiif.io/api/presentation/4/context.json",
     "id": "{{ id.url }}",
     "type": "Manifest",
-    "label": { "en": [ "Simplest Video Example (IIIF Presentation 3)" ] },
+    "label": { "en": [ "Simplest Video Example (IIIF Presentation 4)" ] },
     "items": [
       {
-        "id": "{{ id.path }}/canvas",
+        "id": "{{ id.parent.path }}/canvas",
         "type": "Canvas",
         "height": 360,
         "width": 480,
         "duration": 572.034,
         "items": [
           {
-            "id": "{{ id.path }}/canvas/page",
+            "id": "{{ id.parent.path }}/canvas/page",
             "type": "AnnotationPage",
             "items": [
               {
-                "id": "{{ id.path }}/canvas/page/annotation",
+                "id": "{{ id.parent.path }}/canvas/page/annotation",
                 "type": "Annotation",
-                "motivation": "painting",
+                "motivation": ["painting"],
                 "body": {
                     "id": "https://fixtures.iiif.io/video/indiana/lunchroom_manners/high/lunchroom_manners_1024kb.mp4",
                     "type": "Video",
@@ -27,11 +27,14 @@
                     "duration": 572.034,
                     "format": "video/mp4"
                 },
-                "target": "{{ id.path }}/canvas"
+                "target": {
+                	"id": "{{ id.parent.path }}/canvas",
+                	"type": "Canvas"
+                }
               }
             ]
           }
         ]
-      }    
+      }
     ]
-  }
+}

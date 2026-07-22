@@ -76,6 +76,16 @@
     https://d-flood.github.io/triiiceratops/viewer/?iiif-content={{manifest_url |strip}}
     {% endcapture %}
     {% assign default_text="View in Triiiceratops" %}
+{% elsif include.type == 'Voyager' %}
+    {% capture viewer_url %}
+    https://smithsonian.github.io/voyager-dev/iiif/iiif_demo?iiif-content={{manifest_url |strip}}
+    {% endcapture %}
+    {% assign default_text="View in Voyager" %}    
+{% elsif include.type == 'Kompakkt' %}
+    {% capture viewer_url %}
+    https://kompakkt.github.io/Viewer/?locale=en&standalone=true&manifest={{manifest_url |strip}}
+    {% endcapture %}
+    {% assign default_text="View in Kompakkt" %}    
 {% else %}
     {% capture default_text %}Unknown Viewer type '{{ include.type}}'{% endcapture %}
     {% capture viewer_url %}{{manifest_url |strip}}{% endcapture %}
