@@ -13,6 +13,8 @@ viewers:
   - Theseus
   - TIFY
   - Triiiceratops
+  - Voyager
+  - Kompakkt
 topics:
   - basic
   - property
