@@ -102,10 +102,10 @@ Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advi
 ## Internal structure
 
 * Table of Contents for Book Chapters ([version 3][0024])
+* Navigation by Newspaper Article ([version 3][0025])
 * Table of contents for A/V content ([version 3][0026])
 * Adding Thumbnail Navigation and `no-nav` to a Video Resource ([version 3][0229])
 * Alternative Page Sequences ([version 3][0027])
-
 
 ## Higher-level structure
 
