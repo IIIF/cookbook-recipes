@@ -26,7 +26,7 @@ Note: This recipe only exists for IIIF Presentation API v4. Transcript, caption,
 
 {% include manifest_links.html viewers="" manifest="v4/manifest.json" version="4"%}
 
-{% include jsonviewer.html src="v4/manifest.json" config='data-line="43-61"'%}
+{% include jsonviewer.html src="v4/manifest.json" config='data-line="44-76"'%}
 
 # Related recipes
 
