@@ -70,13 +70,16 @@ Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advi
 
 ## Textual and other supplementary content
 
+<!-- * Transcription of image-based content ([version 3][016]) -->
 * Using Transcripts with A/V Content ([version 3][0017])
 * Scholarly Annotation of a Poetry Reading ([version 3][0103])
 * Using Captions and Subtitles with Video Content ([version 3][0219])
 * Providing Alternative Representations ([version 3][0046])
 * Transcripts, Captions, and Subtitles - General Considerations ([version 3][0231])
     * Providing Access to Transcript Files of A/V Content ([version 3][0017])
+<!--    * Using Annotations for Timed Text ([version 3][0079]) -->
     * Using Caption and Subtitle Files with Video Content ([version 3][0219])
+    * Video with Accompanying Transcript ([version 4][0253-4])
 
 ## Other kinds of annotations
 (These are also building blocks for segmentation, below)

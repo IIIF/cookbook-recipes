@@ -30,7 +30,7 @@ There are 3 options for handling transcript files using the IIIF Presentation AP
 
     When the intention is to have the client display the transcript alongside the resource, one should follow the pattern used with other supplementing materials, i.e., via an annotation with the `supplementing` motivation associated with the corresponding Canvas or at the Manifest level. Note that this option offers the transcript file as a single annotation.
 
-    a. For an example of this option in the A/V space, see [A Side-by-side Transcript of a Video Recording][0253].
+    a. For an example of this option in the A/V space, see [Video with Accompanying Transcript][0253-4].
 
 3. Providing synchronized access to transcript and resource
 
@@ -64,7 +64,7 @@ Captions and subtitles are used to optionally mark up the external text track re
 * [Providing Alternative Representations][0046]
 * [Providing Access to Transcript Files of A/V Content][0017]
 * [A basic newspaper][0068]
-* [A Side-by-side Transcript of a Video Recording][0253]
+* [Video with Accompanying Transcript][0253-4]
 * [Transcription of image-based content][016]
 * [Using annotations for Timed Text][0079]
 * [Using Caption and Subtitle Files with Video Content][0219]
