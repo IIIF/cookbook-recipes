@@ -16,64 +16,58 @@
         }
     },
     "items": [{
-            "id": "{{ id.path }}/canvas",
-            "type": "Canvas",
-            "height": 384,
-            "width": 288,
-            "duration": 65.0,
-            "items": [{
-                    "id": "{{ id.path }}/canvas/page",
-                    "type": "AnnotationPage",
-                    "items": [{
-                            "id": "{{ id.path }}/canvas/page/annotation",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "body": {
-                                "id": "https://fixtures.iiif.io/video/europeana/Per_voi_signore_Modelli_francesi.mp4",
-                                "type": "Video",
-                                "height": 384,
-                                "width": 288,
-                                "duration": 65.0,
-                                "format": "video/mp4"
-                            },
-                            "target": "{{ id.path }}/canvas"
-                        }
-                    ]
-                }
-            ],
-            "annotations": [{
-                    "id": "{{ id.url }}/anno/page/1",
-                    "type": "AnnotationPage",
-                    "items": [{
-                            "id": "{{ id.url }}/subtitles_captions-files-vtt",
-                            "type": "Annotation",
-                            "motivation": "supplementing",
-                            "body": {
-                                "type": "Choice",
-                                "items": [{
-                                        "id": "{{ id.path }}/Per_voi_signore_Modelli_francesi_en.vtt",
-                                        "type": "Text",
-                                        "format": "text/vtt",
-                                        "label": {
-                                            "en": ["Captions in WebVTT format"]
-                                        },
-                                        "language": "en"
-                                    }, {
-                                        "id": "{{ id.path }}/Per_voi_signore_Modelli_francesi_it.vtt",
-                                        "type": "Text",
-                                        "format": "text/vtt",
-                                        "label": {
-                                            "it": ["Sottotitoli in formato WebVTT"]
-                                        },
-                                        "language": "it"
-                                    }
-                                ]
-                            },
-                            "target": "{{ id.path }}/canvas"
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+		"id": "{{ id.path }}/canvas",
+		"type": "Canvas",
+		"height": 384,
+		"width": 288,
+		"duration": 65.0,
+		"items": [{
+			"id": "{{ id.path }}/canvas/page",
+			"type": "AnnotationPage",
+			"items": [{
+				"id": "{{ id.path }}/canvas/page/annotation",
+				"type": "Annotation",
+				"motivation": "painting",
+				"body": {
+					"id": "https://fixtures.iiif.io/video/europeana/Per_voi_signore_Modelli_francesi.mp4",
+					"type": "Video",
+					"height": 384,
+					"width": 288,
+					"duration": 65.0,
+					"format": "video/mp4"
+				},
+				"target": "{{ id.path }}/canvas"
+			}]
+		}],
+		"annotations": [{
+			"id": "{{ id.url }}/anno/page/1",
+			"type": "AnnotationPage",
+			"items": [{
+				"id": "{{ id.url }}/subtitles_captions-files-vtt",
+				"type": "Annotation",
+				"motivation": "supplementing",
+				"body": {
+					"type": "Choice",
+					"items": [{
+						"id": "{{ id.path }}/Per_voi_signore_Modelli_francesi_en.vtt",
+						"type": "Text",
+						"format": "text/vtt",
+						"label": {
+							"en": ["Captions in WebVTT format"]
+						},
+						"language": "en"
+					}, {
+						"id": "{{ id.path }}/Per_voi_signore_Modelli_francesi_it.vtt",
+						"type": "Text",
+						"format": "text/vtt",
+						"label": {
+							"it": ["Sottotitoli in formato WebVTT"]
+						},
+						"language": "it"
+					}]
+				},
+				"target": "{{ id.path }}/canvas"
+			}]
+		}]
+    }]
 }
