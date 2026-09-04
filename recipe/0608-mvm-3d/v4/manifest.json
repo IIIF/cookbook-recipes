@@ -2,11 +2,11 @@
   "@context": "http://iiif.io/api/presentation/4/context.json",
   "id": "{{ id.url }}",
   "type": "Manifest",
-  "label": { "en": ["Single Model"] },
-  "summary": { "en": ["Viewer should render the model at the scene origin, and then viewer should add default lighting and camera"] },
+  "label": { "en": ["Simplest Model Example (IIIF Presentation v4)"] },
+  "summary": { "en": ["Viewer should render the model at the scene origin and then add default lighting and camera"] },
   "items": [
     {
-      "id": "{{ id.path }}/scene/1",
+      "id": "{{ id.path }}/scene",
       "type": "Scene",
       "label": { "en": ["A Scene"] },
       "items": [
@@ -19,11 +19,14 @@
               "type": "Annotation",
               "motivation": ["painting"],
               "body": {
-                "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/astronaut/astronaut.glb",
+                "id": "https://fixtures.iiif.io/3d/google/astronaut.glb",
                 "type": "Model",
                 "format": "model/gltf-binary"
               },
-              "target": "{{ id.path }}/scene/1/annotationPage/1"
+              "target": {
+              	"id": "{{ id.path }}/scene",
+              	"type": "Scene"
+              }
             }
           ]
         }

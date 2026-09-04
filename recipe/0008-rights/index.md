@@ -12,6 +12,8 @@ viewers:
  - Glycerine Viewer
  - Theseus
  - Curation
+ - TIFY
+ - Triiiceratops
 topic: property
 property: rights, requiredStatement
 code:
@@ -42,7 +44,7 @@ None known.
 
 ## Example
 
-{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer, Theseus, Curation" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Glycerine Viewer, Theseus, Curation, TIFY, Triiiceratops" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="15-27"' %}
 

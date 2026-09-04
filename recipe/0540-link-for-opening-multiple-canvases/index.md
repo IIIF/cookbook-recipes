@@ -5,6 +5,7 @@ layout: recipe
 tags: [annotation, content-state]
 summary: "Allows users to use Content State API to open two canvases at the same time."
 viewers:
+  - Theseus
 topic:
  - content-state
 ---
@@ -41,7 +42,7 @@ We can notice that the Colosseum painting of the first Manifest is in the second
 
 The Annotation will target the `id` of the two Canvases we want to compare and contain a reference to the two Manifests as shown in the example:
 
-{% include content-state-viewers.html iiif-content="annotation.json" viewers="" %}
+{% include content-state-viewers.html iiif-content="annotation.json" %}
 
 {% include jsonviewer.html src="annotation.json" %}
 
