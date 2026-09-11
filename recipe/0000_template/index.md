@@ -32,7 +32,7 @@ If you don't know what the restrictions might be initially, just leave the follo
 Describe the solution in prose and provide an example.
 The example json document must be an external document, and imported with the following:
 
-{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Ramp, Aviary, Glycerine, Theseus" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Annona, Clover, Ramp, Aviary, Glycerine, Theseus, TIFY" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 

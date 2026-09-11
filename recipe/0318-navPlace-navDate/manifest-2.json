@@ -10,7 +10,7 @@
         "The Colosseum"
       ]
     },
-    "navDate": "1776-01-01T00:00:00+00:00",
+    "navDate": "1776-01-01T00:00:00Z",
     "navPlace": {
       "id": "{{ id.path }}/feature-collection/2",
       "type": "FeatureCollection",

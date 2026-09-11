@@ -10,6 +10,8 @@ viewers:
  - Glycerine Viewer
  - Theseus
  - Curation
+ - TIFY
+ - Triiiceratops
 topic:
  - image
  - basic
