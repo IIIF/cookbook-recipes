@@ -1,5 +1,5 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "@context": "http://iiif.io/api/presentation/4/context.json",
     "id": "{{ id.url }}",
     "type": "Manifest",
     "label": {
@@ -43,28 +43,34 @@
 			"id": "{{ id.url }}/anno/page/1",
 			"type": "AnnotationPage",
 			"items": [{
-				"id": "{{ id.url }}/subtitles_captions-files-vtt",
+				"id": "{{ id.url }}/subtitles_captions-files-vtt-en",
 				"type": "Annotation",
 				"motivation": "supplementing",
+				"provides": [ "subtitles" ],
 				"body": {
-					"type": "Choice",
-					"items": [{
-						"id": "{{ id.path }}/Per_voi_signore_Modelli_francesi_en.vtt",
-						"type": "Text",
-						"format": "text/vtt",
-						"label": {
-							"en": ["Captions in WebVTT format"]
-						},
-						"language": "en"
-					}, {
-						"id": "{{ id.path }}/Per_voi_signore_Modelli_francesi_it.vtt",
-						"type": "Text",
-						"format": "text/vtt",
-						"label": {
-							"it": ["Sottotitoli in formato WebVTT"]
-						},
-						"language": "it"
-					}]
+					"id": "{{ id.path }}/Per_voi_signore_Modelli_francesi_en.vtt",
+					"type": "Text",
+					"format": "text/vtt",
+					"label": {
+						"en": ["English subtitles in WebVTT format"]
+					},
+					"language": "en"
+				},
+				"target": "{{ id.path }}/canvas"
+			},                        
+			{
+				"id": "{{ id.url }}/subtitles_captions-files-vtt-it",
+				"type": "Annotation",
+				"motivation": "supplementing",
+				"provides": [ "closedCaptions" ],
+				"body": {
+					"id": "{{ id.path }}/Per_voi_signore_Modelli_francesi_it.vtt",
+					"type": "Text",
+					"format": "text/vtt",
+					"label": {
+						"en": ["Italian captions in WebVTT format"]
+					},
+					"language": "it"
 				},
 				"target": "{{ id.path }}/canvas"
 			}]
