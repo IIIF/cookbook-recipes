@@ -6,7 +6,7 @@ You want to represent captions for your video content as timed annotations.
 
 This recipe follows the pattern for [Using Caption Files with Video Content][0219], but shows an alternative form of representing a caption file using annotations.
 
-In this recipe, annotations are used to mark up video content shown on a canvas of the manifest. The time alignment of the captions with the video content is achieved by annotations that target the canvas by using Media Fragments URIs with a [temporal dimenstion](https://www.w3.org/TR/media-frags/#naming-time). The `provides` property of the Annotation is used by the IIIF client to identify the annotations containing captions and be used as such by the media player. 
+In this recipe, annotations are used to mark up video content shown on a canvas of the manifest. The time alignment of the captions with the video content is achieved by annotations that target the canvas by using Media Fragments URIs with a [temporal dimenstion](https://www.w3.org/TR/media-frags/#naming-time). The `provides` property of the Annotation can be used by the IIIF client to identify the annotations containing captions to be rendered on top of video content. (Read more about `provides` in [the IIIF Presentation API 4.0](https://iiif.io/api/presentation/4.0/#accessibility) and [the IIIF Presentation API 4.0 Data Model](https://iiif.io/api/presentation/4.0/model/#provides).)
 
 ## Restrictions
 
