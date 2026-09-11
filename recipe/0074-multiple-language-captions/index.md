@@ -20,7 +20,7 @@ Captions and subtitles may be available in multiple languages for video content 
 
 ## Implementation notes
 
-This recipe builds on the pattern for [Using Caption and Subtitle Files with Video Content][0219], extending it to represent the availability of captions and subtitles in multiple languages.
+This recipe builds on the pattern for [Using Caption Files with Video Content][0219], extending it to represent the availability of captions and subtitles in multiple languages.
 
 Similarly to offering a single caption/subtitle file, the multiple subtitle/caption files are provided as a `supplementing` Annotation on the Canvas that contains the video file. In the case of multiple captions/subtitles, however, the Annotation provides all the available languages as choices. IIIF viewers are then able to offer to end-users the choice for displaying subtitles/captions in one of the available languages during the video playback.
 
@@ -46,7 +46,7 @@ In this example we use subtitle files in the WebVTT format. Other format options
 # Related recipes
 
 - [Simplest Manifest - Video][0003]
-- [Using Caption and Subtitle Files with Video Content][0219]
+- [Using Caption Files with Video Content][0219]
 - [Transcripts, Captions, and Subtitles - General Considerations][0231]
 - [Using Annotations for Timed Text][0079]
 - [Providing Access to Transcript Files of A/V Content][0017]

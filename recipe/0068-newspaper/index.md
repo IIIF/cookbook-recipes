@@ -32,7 +32,7 @@ Because manifests have no enforced truth relation to digital objects, an arbitra
 ### Linking to OCR Text
 
 #### As Annotations
-Digitized newspapers often have associated OCR text. To make this available inside a IIIF viewer, it needs to be in the form of one or more Annotations in the appropriate manifest, structured substantially similarly to [the captions or subtitles of an A/V file][0219]. Each OCR file should correspond to a Canvas, and should be an Annotation in an Annotation Page, with
+Digitized newspapers often have associated OCR text. To make this available inside a IIIF viewer, it needs to be in the form of one or more Annotations in the appropriate manifest, structured substantially similarly to [the captions of an A/V file][0219]. Each OCR file should correspond to a Canvas, and should be an Annotation in an Annotation Page, with
 + a `motivation` of `supplementing`,
 + the URI of the OCR file in the `id` property of the Annotation body, and
 + the `target` set to the applicable Canvas.
