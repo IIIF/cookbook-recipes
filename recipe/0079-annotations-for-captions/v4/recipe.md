@@ -4,7 +4,7 @@ You want to represent captions for your video content as timed annotations.
 
 ## Implementation notes
 
-This recipe follows the pattern for [Using Caption Files with Video Content][0219], but shows an alternative form of representing a caption file using annotations.
+This recipe follows the pattern for [Using Caption Files with Video Content][0219-4], but shows an alternative form of representing a caption file using annotations.
 
 In this recipe, annotations are used to mark up video content shown on a canvas of the manifest. The time alignment of the captions with the video content is achieved by annotations that target the canvas by using Media Fragments URIs with a [temporal dimenstion](https://www.w3.org/TR/media-frags/#naming-time).
 
