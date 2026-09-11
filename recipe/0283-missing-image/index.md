@@ -11,6 +11,7 @@ viewers:
  - Theseus
  - Curation
  - TIFY
+ - Triiiceratops
 topic:
  - image
  - basic

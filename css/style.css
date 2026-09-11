@@ -22,6 +22,11 @@ code {
     margin-top: 0px;
 }
 
+/* TODO: styles for the first tab's use-case container */
+.content:first-child:has(> #use-case) {
+    margin-top:1.5rem;
+}
+
 .code-toolbar {
     width: 70vw;
 }

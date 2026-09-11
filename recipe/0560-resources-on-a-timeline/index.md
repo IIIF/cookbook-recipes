@@ -5,6 +5,7 @@ layout: recipe
 tags: timeline
 summary: "Placing image resources on a timeline to be shown in a sequence"
 viewers:
+ - Clover
 topic:
  - realWorldObject
 ---
@@ -33,7 +34,7 @@ No known restrictions, but a caution: When using timing, a high degree of precis
 
 In this example (a minimal implementation of the use case), there are two paintings from Winslow Homer to be displayed one after the other in a loop. For demonstration purposes, the Canvas `duration` is quite short (4.0 seconds) while the timing in a real-world situation would probably be longer. The paintings are `items` on a single Canvas and should progress automatically once the timeline is started.
 
-{% include manifest_links.html viewers="" manifest="manifest.json" %}
+{% include manifest_links.html manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="10-12,19,43,63"' %}
 

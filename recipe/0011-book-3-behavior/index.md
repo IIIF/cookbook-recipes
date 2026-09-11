@@ -5,12 +5,12 @@ layout: recipe
 tags: [image, text, layout]
 summary: "The 'behavior' property specifies how Canvases should be displayed in the viewer in relation to one another, such as paged for book-view, continuous for a scroll or accordion book, or as individuals for a book imaged as full page spreads."
 viewers:
- - id: UV
-   support: partial
+ - UV
  - Mirador
  - Theseus
  - id: TIFY
    support: partial
+ - Triiiceratops
 topic: property
 property:
  - behavior
@@ -47,7 +47,7 @@ The property is permissible for all resource types, but some values (`unordered`
 
 This Manifest represents an Ethiopic accordion book with a continuous layout running left-to-right. It has four images that, when using the `"behavior": "continuous"` property, will display as a single continuous image in the viewer.
 
-{% include manifest_links.html viewers="Mirador, Theseus" manifest="manifest-continuous.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Theseus, Triiiceratops" manifest="manifest-continuous.json" %}
 
 {% include jsonviewer.html src="manifest-continuous.json" config='data-line="10-12"' %}
 
@@ -55,7 +55,7 @@ This Manifest represents an Ethiopic accordion book with a continuous layout run
 
 This Manifest represents a book imaged as 2-page spreads (two facing pages in a single image). When using the `"behavior": "individuals"` property, the presentation client will force a one-at-a-time view and remove the "book view" option.
 
-{% include manifest_links.html viewers="UV, Mirador, Theseus, TIFY" manifest="manifest-individuals.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Theseus, TIFY, Triiiceratops" manifest="manifest-individuals.json" %}
 
 {% include jsonviewer.html src="manifest-individuals.json" config='data-line="10-12"' %}
 

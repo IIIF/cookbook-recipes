@@ -23,6 +23,7 @@
 [0021]: {{ site.cookbook_url | absolute_url }}/recipe/0021-tagging/ "Simple Annotation — Tagging"
 [0022]: {{ site.cookbook_url | absolute_url }}/recipe/0022-linking-with-a-hotspot/ "Redirecting from one Canvas to another resource (Hotspot linking)"
 [0024]: {{ site.cookbook_url | absolute_url }}/recipe/0024-book-4-toc/ "Book with Table of contents (ranges)"
+[0025]: {{ site.cookbook_url | absolute_url }}/recipe/0025-newspaper-article-index/ "Navigation by Newspaper Article"
 [0026]: {{ site.cookbook_url | absolute_url }}/recipe/0026-toc-opera/ "Table of Contents for A/V Content"
 [0027]: {{ site.cookbook_url | absolute_url }}/recipe/0027-alternative-page-order/ "Alternative Page Sequences"
 [0029]: {{ site.cookbook_url | absolute_url }}/recipe/0029-metadata-anywhere/ "Metadata on any Resource"
@@ -50,6 +51,7 @@
 [0074-4]: {{ site.cookbook_url | absolute_url}}/recipe/0074-multiple-language-captions/#version-4 "Using Caption and Subtitle Files in Multiple Languages with Video Content"
 [0079-4]: {{ site.cookbook_url | absolute_url }}/recipe/0079-annotations-for-captions/#version-4 "Using Annotations for Timed Text"
 
+[0103]: {{ site.cookbook_url | absolute_url}}/recipe/0103-poetry-reading-annotations/ "Scholarly Annotation of a Poetry Reading"
 [0117]: {{ site.cookbook_url | absolute_url }}/recipe/0117-add-image-thumbnail/ "Image Thumbnail for Manifest"
 [0118]: {{ site.cookbook_url | absolute_url }}/recipe/0118-multivalue/ "Displaying Multiple Values with Language Maps"
 [0135]: {{ site.cookbook_url | absolute_url }}/recipe/0135-annotating-point-in-canvas/ "Annotating a specific point of an image"
@@ -109,7 +111,7 @@
 [prezi3-thumbnail]: {{ site.api_url | absolute_url }}/presentation/3.0/#thumbnail "Thumbnail"
 
 [prezi4-model]: {{ site.api_url | absolute_url }}/presentation/4.0/model/ "IIIF Presentation API version 4 Data Model"
-[prezi4-overview]: {{ site.api_url | absolute_url }}/presentation/4.0/model/ "IIIF Presentation API version 4 Overview"
+[prezi4-languages]: {{ site.api_url | absolute_url }}/presentation/4.0/model/#language-of-property-values "Language of Property Values"
 
 [service-registry]: {{ site.api_url | absolute_url }}/registry/services/ "the IIIF Registry of Services"
 

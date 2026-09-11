@@ -40,7 +40,7 @@
                   }
                 ]
               },
-              "target": "{{ id.path }}/canvas1&t=0,2"
+              "target": "{{ id.path }}/canvas1#t=0,2"
             },
             {
               "id": "{{ id.path }}/canvas1/annotation/p1a2-image",
@@ -60,7 +60,7 @@
                   }
                 ]
               },
-              "target": "{{ id.path }}/canvas1&t=2,4"
+              "target": "{{ id.path }}/canvas1#t=2,4"
             }
           ]
         }

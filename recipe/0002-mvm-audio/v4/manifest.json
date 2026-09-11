@@ -5,25 +5,28 @@
   "label": { "en": [ "Simplest Audio Example (IIIF Presentation v4)" ] },
   "items": [
     {
-      "id": "{{ id.path }}/timeline",
+      "id": "{{ id.parent.path }}/timeline",
       "type": "Timeline",
       "duration": 1985.024,
       "items": [
         {
-          "id": "{{ id.path }}/timeline/page",
+          "id": "{{ id.parent.path }}/timeline/page",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "{{ id.path }}/timeline/page/annotation",
+              "id": "{{ id.parent.path }}/timeline/page/annotation",
               "type": "Annotation",
-              "motivation": "painting",
+              "motivation": ["painting"],
               "body": {
                 "id": "https://fixtures.iiif.io/audio/indiana/mahler-symphony-3/CD1/medium/128Kbps.mp4",
-                "type": "Sound",
+                "type": "Audio",
                 "format": "audio/mp4",
                 "duration": 1985.024
               },
-              "target": "{{ id.path }}/timeline"
+              "target": {
+              	"id": "{{ id.parent.path }}/timeline",
+              	"type": "Timeline"
+              }
             }
           ]
         }

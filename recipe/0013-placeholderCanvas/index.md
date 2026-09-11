@@ -12,6 +12,8 @@ viewers:
 topic:
  - property
  - AV
+code:
+ - iiif-prezi3
 property: placeholderCanvas
 
 ---

@@ -10,6 +10,7 @@ viewers:
  - Glycerine Viewer
  - Theseus
  - TIFY
+ - Triiiceratops
 topic: annotation
 ---
 
@@ -41,7 +42,7 @@ This example Manifest contains an embedded Annotation containing the text "Gött
 
 Note that viewers may not add a visual indicator of the Annotation when it targets the Canvas as a whole, or may only add it under certain circumstances, such as when targeting with a fragment.
 
-{% include manifest_links.html viewers="Mirador,Annona,Glycerine Viewer, Theseus, TIFY" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador,Annona,Glycerine Viewer, Theseus, TIFY, Triiiceratops" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="44-63"' %}
 
