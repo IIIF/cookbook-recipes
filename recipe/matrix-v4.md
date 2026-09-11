@@ -38,7 +38,7 @@ In the 2021 Working meeting there was a presentation on viewer support for IIIF 
 
 ## Which viewers are included?
 
-Currently [Mirador](https://projectmirador.org/), the [Universal Viewer](https://universalviewer.io/) (UV) V3, [Clover](https://samvera-labs.github.io/clover-iiif/),  [Aviary](https://iiif.aviaryplatform.com/), [Theseus](https://theseusviewer.org/), [TIFY](https://tify.rocks/) and [Triiiceratops](https://d-flood.github.io/triiiceratops/) are listed on the cookbook. We welcome the addition of other IIIF viewers, but they must support the following features:
+Currently [Mirador](https://projectmirador.org/), the [Universal Viewer](https://universalviewer.io/), [Clover](https://samvera-labs.github.io/clover-iiif/),  [Aviary](https://iiif.aviaryplatform.com/), [Theseus](https://theseusviewer.org/), [TIFY](https://tify.rocks/) and [Triiiceratops](https://d-flood.github.io/triiiceratops/) are listed on the cookbook. We welcome the addition of other IIIF viewers, but they must support the following features:
 
 - Support for the [IIIF version 4.0 Presentation API](https://iiif.io/api/presentation/4.0/)
 - A public, linkable instance, ideally using the `iiif-content` parameter from the [IIIF Content State API](https://iiif.io/api/content-state/)
