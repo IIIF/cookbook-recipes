@@ -73,7 +73,7 @@
     {% assign default_text="View in TIFY" %}
 {% elsif include.type == 'Triiiceratops' %}
     {% capture viewer_url %}
-    https://d-flood.github.io/triiiceratops/viewer/?iiif-content={{manifest_url |strip}}
+    https://triiiceratops.org/viewer/?iiif-content={{manifest_url |strip}}
     {% endcapture %}
     {% assign default_text="View in Triiiceratops" %}
 {% elsif include.type == 'Voyager' %}
@@ -89,4 +89,9 @@
 {% else %}
     {% capture default_text %}Unknown Viewer type '{{ include.type}}'{% endcapture %}
     {% capture viewer_url %}{{manifest_url |strip}}{% endcapture %}
-{% endif %}<a href="{{ viewer_url | strip }}" class="{{ include.class }}" data-iiif-content="{{manifest_url |strip}}" target="_blank">{{ include.text | default: default_text }}</a>
+{% endif %}
+
+{% if include.bare %}
+    {% assign viewer_url = viewer_url | strip | split: '?' | first %}
+    {% assign default_text = include.type %}
+{% endif %}<a href="{{ viewer_url | strip }}" class="{{ include.class }}"{% unless include.bare %} data-iiif-content="{{manifest_url |strip}}"{% endunless %} target="_blank">{{ include.text | default: default_text }}</a>

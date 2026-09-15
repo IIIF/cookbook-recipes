@@ -9,6 +9,7 @@ viewers:
  - Clover
  - Ramp
  - Theseus
+ - Triiiceratops
 topic:
  - basic
  - AV

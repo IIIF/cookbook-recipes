@@ -10,6 +10,7 @@ viewers:
  - Aviary
  - Theseus
  - TIFY
+ - Triiiceratops
 topic: AV
 code:
  - iiif-prezi3
@@ -40,7 +41,7 @@ When using segmented WebVTT with HLS, see [Serving HLS Files][0257].
 
 In this example we use a caption file in the WebVTT format, but other options include a subtitle file in the [SRT](https://en.wikipedia.org/wiki/SubRip) (SubRip Text) or [TTML](https://w3c.github.io/ttml3/index.html) (Timed Text Markup Language) formats, or other text-based format used for the same purpose.
 
-{% include manifest_links.html viewers="Clover, Ramp, Aviary, Theseus, TIFY" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Clover, Ramp, Aviary, Theseus, TIFY, Triiiceratops" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="41-67"'%}
 

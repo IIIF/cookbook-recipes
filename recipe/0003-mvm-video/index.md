@@ -13,6 +13,7 @@ viewers:
  - Theseus
  - Glycerine Viewer
  - TIFY
+ - Triiiceratops
 v4-viewers:
  - Mirador
  - UV
@@ -20,6 +21,7 @@ v4-viewers:
  - Aviary
  - Theseus
  - TIFY
+ - Triiiceratops
 topic:
  - basic
  - AV
