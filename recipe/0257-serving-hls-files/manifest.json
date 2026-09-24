@@ -22,7 +22,6 @@
                 "target": "{{ id.path }}/canvas",
                 "body": {
                   "type": "Choice",
-                  "choiceHint": "user",
                   "items": [
                     {
                       "id": "https://fixtures.iiif.io/video/indiana/lunchroom_manners/hls-fixture/master.m3u8",
