@@ -33,13 +33,6 @@ The "auto" option points at the master/multivariant playlist, so a player choosi
 adaptive bitrate switching handled by its own HLS engine. The remaining options each point at a single-rendition 
 playlist. Selecting one of these locks playback to that quality rather than letting the player renegotiate mid-stream.
 
-Setting `choiceHint` to `"user"` signals that this Choice is meant to be exposed to the viewer as an explicit UI control,
-rather than resolved automatically by the client. This is a different use of `Choice` than in 
-[Multiple Choice of Audio Formats in a Single View (Canvas)][0434], where the options are different container/codec 
-formats and the client is expected to auto-select the first one it can play. Here, the options are different quality 
-renditions of the same stream, and picking one is expected to be a user decision. Not every viewer may honor 
-`choiceHint`, so also order the `items` from most to least preferable as a fallback.
-
 Every playlist referenced from a Choice option, and every media segment referenced by each of those, must be reachable 
 by the client. Because browser-based HLS players fetch playlists and segments themselves via JavaScript, cross-origin 
 requests (CORS) must be enabled on all of these resources, not only on the one initially requested. A manifest that 
