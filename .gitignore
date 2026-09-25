@@ -4,3 +4,5 @@ presentation-validator
 scripts/schema
 .jekyll-cache
 vendor
+.DS_Store
+.venv

@@ -70,12 +70,14 @@ Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advi
 
 ## Textual and other supplementary content
 
+<!-- * Transcription of image-based content ([version 3][016]) -->
 * Using Transcripts with A/V Content ([version 3][0017])
 * Scholarly Annotation of a Poetry Reading ([version 3][0103])
 * Providing Alternative Representations ([version 3][0046])
 * Transcripts, Captions, and Subtitles - General Considerations ([version 3][0231])
     * Providing Access to Transcript Files of A/V Content ([version 3][0017])
     * Using Caption Files with Video Content ([version 3][0219] / [version 4][0219-4])
+    * Video with Accompanying Transcript ([version 4][0253-4])
 
 ## Other kinds of annotations
 (These are also building blocks for segmentation, below)
@@ -101,10 +103,10 @@ Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advi
 ## Internal structure
 
 * Table of Contents for Book Chapters ([version 3][0024])
+* Navigation by Newspaper Article ([version 3][0025])
 * Table of contents for A/V content ([version 3][0026])
 * Adding Thumbnail Navigation and `no-nav` to a Video Resource ([version 3][0229])
 * Alternative Page Sequences ([version 3][0027])
-
 
 ## Higher-level structure
 

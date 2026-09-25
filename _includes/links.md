@@ -23,6 +23,7 @@
 [0021]: {{ site.cookbook_url | absolute_url }}/recipe/0021-tagging/ "Simple Annotation — Tagging"
 [0022]: {{ site.cookbook_url | absolute_url }}/recipe/0022-linking-with-a-hotspot/ "Redirecting from one Canvas to another resource (Hotspot linking)"
 [0024]: {{ site.cookbook_url | absolute_url }}/recipe/0024-book-4-toc/ "Book with Table of contents (ranges)"
+[0025]: {{ site.cookbook_url | absolute_url }}/recipe/0025-newspaper-article-index/ "Navigation by Newspaper Article"
 [0026]: {{ site.cookbook_url | absolute_url }}/recipe/0026-toc-opera/ "Table of Contents for A/V Content"
 [0027]: {{ site.cookbook_url | absolute_url }}/recipe/0027-alternative-page-order/ "Alternative Page Sequences"
 [0029]: {{ site.cookbook_url | absolute_url }}/recipe/0029-metadata-anywhere/ "Metadata on any Resource"
@@ -57,6 +58,7 @@
 [0154]: {{ site.cookbook_url | absolute_url }}/recipe/0154-geo-extension/ "Locate a Manifest on a Web Map"
 
 [0202]: {{ site.cookbook_url | absolute_url }}/recipe/0202-start-canvas/ "Load Manifest Beginning with a Specific Canvas"
+
 [0219]: {{ site.cookbook_url | absolute_url }}/recipe/0219-using-caption-file/ "Using Caption Files with Video Content"
 [0219-4]: {{ site.cookbook_url | absolute_url }}/recipe/0219-using-caption-file/#version-4 "Using Caption Files with Video Content"
 [0229]: {{ site.cookbook_url | absolute_url }}/recipe/0229-behavior-ranges/ "Adding Thumbnail Navigation and `no-nav` to a Video Resource"
@@ -65,6 +67,7 @@
 [0232]: {{ site.cookbook_url | absolute_url }}/recipe/0232-image-thumbnail-canvas/ "Implementation discussion: Thumbnails on Canvases"
 [0234]: {{ site.cookbook_url | absolute_url }}/recipe/0234-provider/ "Acknowledge Content Contributors"
 [0240]: {{ site.cookbook_url | absolute_url }}/recipe/0240-navPlace-on-canvases/ "Locate Multiple Canvases on a Web Map"
+[0253-4]: {{ site.cookbook_url | absolute_url }}/recipe/0253-using-transcript-file/ "Video with Accompanying Transcript" 
 [0258]: {{ site.cookbook_url | absolute_url }}/recipe/0258-tagging-external-resource/ "Tagging with an External Resource"
 [0261]: {{ site.cookbook_url | absolute_url }}/recipe/0261-non-rectangular-commenting/ "Annotation with a Non-Rectangular Polygon"
 [0266]: {{ site.cookbook_url | absolute_url }}/recipe/0266-full-canvas-annotation/ "Simplest Annotation"
