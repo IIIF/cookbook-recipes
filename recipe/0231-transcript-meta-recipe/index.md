@@ -30,7 +30,7 @@ There are 3 options for handling transcript files using the IIIF Presentation AP
 
     When the intention is to have the client display the transcript alongside the resource, one should follow the pattern used with other supplementing materials, i.e., via an annotation with the `supplementing` motivation associated with the corresponding Canvas or at the Manifest level. Note that this option offers the transcript file as a single annotation.
 
-    a. For an example of this option in the A/V space, see [A Side-by-side Transcript of a Video Recording][0253].
+    a. For an example of this option in the A/V space, see [Video with Accompanying Transcript][0253-4].
 
 3. Providing synchronized access to transcript and resource
 
@@ -50,7 +50,7 @@ Captions and subtitles are used to optionally mark up the external text track re
     
     The manifest for this case is identical to option 2 above but, given the support for these standard file formats by modern viewers, the text is presented on top of the video as it is expected for captions and subtitles, thus providing for a completely different viewing experience. 
 
-    a. See [Using Caption and Subtitle Files with Video Content][0219] for implementation details.
+    a. See [Using Caption Files with Video Content][0219] for implementation details.
 
     b. See [Serving HLS Files][0257] for details on using segmented WebVTT with HLS content.
 
@@ -64,10 +64,10 @@ Captions and subtitles are used to optionally mark up the external text track re
 * [Providing Alternative Representations][0046]
 * [Providing Access to Transcript Files of A/V Content][0017]
 * [A basic newspaper][0068]
-* [A Side-by-side Transcript of a Video Recording][0253]
+* [Video with Accompanying Transcript][0253-4]
 * [Transcription of image-based content][016]
 * [Using annotations for Timed Text][0079]
-* [Using Caption and Subtitle Files with Video Content][0219]
+* [Using Caption Files with Video Content][0219]
 * [Serving HLS Files][0257]
 
 
