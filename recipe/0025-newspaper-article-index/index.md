@@ -6,6 +6,7 @@ tags: [text, image, newspaper]
 summary: "Using Ranges to build a navigable index for newspaper articles spanning multiple non-consecutive pages"
 viewers:
 - Theseus
+- Triiiceratops
 topic: structure
 property: structures
 ---
@@ -39,7 +40,7 @@ In the following example, the “Tagesneuigkeiten” (Today’s News) section of
 
 We define a top-level Range that serves as the structural index for the entire newspaper issue, with each nested Range containing an article. The Range dedicated to the “Tagesneuigkeiten” contains four partial Canvases in their intended reading sequence, each targeting a specific column region using a `FragmentSelector`. For demonstration purposes, a second Range is given for “Das Turnier”, the article occupying most of page 3. When the user selects an article from the index, the viewer should display the first region of the article and allow the user to move through the reading sequence defined in the Range's `items` property.
 
-{% include manifest_links.html viewers="Theseus" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Theseus, Triiiceratops" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="207-318"' %}
 

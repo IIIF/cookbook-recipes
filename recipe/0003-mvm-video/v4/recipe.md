@@ -16,7 +16,7 @@ The duration of the video file, in seconds, is given and here matches the Canvas
 
 This example shows a Manifest with a single Canvas that lasts for 572 seconds, or just under 10 minutes. It has a single video file associated with it. The mp4 also has a duration of 572 seconds.
 
-{% include manifest_links.html manifest="v4/manifest.json" version="4" viewers="UV, Mirador, Clover, Ramp, Aviary, Theseus" %}
+{% include manifest_links.html manifest="v4/manifest.json" version="4" viewers="UV, Mirador, Clover, Ramp, Aviary, Theseus, Triiiceratops" %}
 
 {% include jsonviewer.html src="v4/manifest.json" %}
 
