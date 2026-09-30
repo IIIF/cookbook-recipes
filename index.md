@@ -149,7 +149,7 @@ Recipes using [Content State API](https://iiif.io/api/content-state/1.0/)
 * Table of Contents for Multiple A/V files on a Single Canvas ([version 3][0064])
 * Table of Contents for Multiple A/V files on Multiple Canvases ([version 3][0065])
 * Basic Newspaper ([version 3][0068])
-* Using Caption and Subtitle Files in Multiple Languages with Video Content ([version 3][0074])
+* Using Caption and Subtitle Files in Multiple Languages with Video Content ([version 3][0074] / [version 4][0074-4])
 * Locating an Item in Place and Time ([version 3][0318])
 
 
