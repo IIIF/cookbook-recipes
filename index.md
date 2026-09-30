@@ -43,7 +43,7 @@ Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advi
 * Simplest Manifest - Video ([version 3][0003] / [version 4][0003-4])
 * Simplest Manifest - 3D ([version 4][0608-4])
 * Image and Canvas with Differing Dimensions ([version 3][0004])
-* Support Deep Viewing with Basic Use of a IIIF Image Service ([version 3][0005])
+* Support Deep Viewing with Basic Use of a IIIF Image Service ([version 3][0005] / [version 4][0005-4])
 * Internationalization and Multi-language Values ([version 3][0006])
 * Displaying Multiple Values with Language Maps ([version 3][0118])
 * Embedding HTML in descriptive properties ([version 3][0007])
