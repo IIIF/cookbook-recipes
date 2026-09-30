@@ -16,9 +16,9 @@ None known.
 
 ## Example
 
-In this example we show the same captions and video from [Using Caption Files with Video Content][0219]. but the `annotations` section of the manifest links to a `AnnotationPage` instead of the WebVTT file. For readability, the example contains only the annotations that concern the captions of the first minute of the video. 
+In this example we show the same video from [Using Caption Files with Video Content][0219], but the `annotations` section of the manifest links to a `AnnotationPage` JSON file instead of the WebVTT file. To keep the annotations file readable easily, it contains annotations only for the captions of the video's first minute. 
 
-The `AnnotationPage` contains one annotation per individual caption entry, and these are provided as `supplementing` annotations on the Canvas that contains the video file. The references to the canvas uses Media Fragment URIs with a begin time and an end time. The annotations also contain the `provides` property with the value `closedCaptions` to inform the IIIF viewer that these annotations are representing captions. The language of the captions is expressed with a `language` property containing a [BCP 47](https://tools.ietf.org/html/bcp47) language code as specified by the Presentation API 4.0.
+The `AnnotationPage` contains one annotation per individual caption entry, provided as `supplementing` annotations on the Canvas containing the video file. The references to the Canvas use Media Fragment URIs with a start time and an end time. The annotations also contain the `provides` property with the value `closedCaptions` to inform a IIIF viewer that these annotations are representing captions. The language of the captions is expressed with a `language` property containing a [BCP 47](https://tools.ietf.org/html/bcp47) language code as specified by the Presentation API 4.0.
 
 Notes:
 + This recipe may also be applied for subtitles. In such cases, the `provides` property of the annotations must have the value `subtitles`. 
@@ -27,6 +27,12 @@ Notes:
 {% include manifest_links.html viewers="Clover, Ramp, Aviary, Theseus" manifest="v4/manifest.json" %}
 
 {% include jsonviewer.html src="v4/manifest.json" config='data-line="39-44"'%}
+
+### Timed Text Annotations
+
+Only the first annotation is highlighted. The others follow the same pattern.
+
+{% include manifest_links.html viewers="" manifest="v4/lunchroom_manners-captions-en.json" %}
 
 {% include jsonviewer.html src="v4/lunchroom_manners-captions-en.json" config='data-line="6-18"'%}
 
