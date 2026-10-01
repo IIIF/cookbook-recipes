@@ -8,7 +8,7 @@ viewers:
  - Ramp
  - Aviary
  - Theseus
- - TIFY
+ - Clover
 v4-viewers:
  - Clover
  - Aviary
