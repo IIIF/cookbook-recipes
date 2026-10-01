@@ -1,5 +1,5 @@
 /* PrismJS 1.24.1
-https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javascript+json+json5&plugins=line-highlight+line-numbers+custom-class+file-highlight+toolbar */
+https://prismjs.com/download.html#themes=prism&languages=markup+css+clike+javascript+json+json5+diff&plugins=line-highlight+line-numbers+custom-class+file-highlight+toolbar+diff-highlight */
 /**
  * prism.js default theme for JavaScript, CSS and HTML
  * Based on dabblet (http://dabblet.com)
@@ -318,3 +318,7 @@ div.code-toolbar > .toolbar > .toolbar-item > span:focus {
 	text-decoration: none;
 }
 
+
+/* Diff Highlight plugin
+https://prismjs.com/plugins/diff-highlight/ */
+pre.diff-highlight>code .token.deleted:not(.prefix),pre>code.diff-highlight .token.deleted:not(.prefix){background-color:rgba(255,0,0,.1);color:inherit;display:block}pre.diff-highlight>code .token.inserted:not(.prefix),pre>code.diff-highlight .token.inserted:not(.prefix){background-color:rgba(0,255,128,.1);color:inherit;display:block}

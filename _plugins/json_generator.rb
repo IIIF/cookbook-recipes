@@ -33,15 +33,18 @@ module Jekyll
 		def write(dest)
             dest_path = destination(dest)
             return false if File.exist?(dest_path) && !modified?
+            parent_dir = File.dirname(@dir.to_s)
             if ENV['URL']
                 replacements = {
                     "id.url" => ENV['URL'] + @site.config['baseurl'].to_s+ @dir.to_s + "/" + @name.to_s,
-                    "id.path" => ENV['URL'] + @site.config['baseurl'].to_s+ @dir.to_s
+                    "id.path" => ENV['URL'] + @site.config['baseurl'].to_s+ @dir.to_s,
+                    "id.parent.path" => ENV['URL'] + @site.config['baseurl'].to_s + parent_dir
                 }
             else
                 replacements = {
                     "id.url" => @site.config['url'].to_s + @site.config['baseurl'].to_s+ @dir.to_s + "/" + @name.to_s,
-                    "id.path" => @site.config['url'].to_s + @site.config['baseurl'].to_s+ @dir.to_s
+                    "id.path" => @site.config['url'].to_s + @site.config['baseurl'].to_s+ @dir.to_s,
+                    "id.parent.path" => @site.config['url'].to_s + @site.config['baseurl'].to_s + parent_dir
                 }
 
             end

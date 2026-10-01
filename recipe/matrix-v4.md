@@ -1,5 +1,5 @@
 ---
-title: Viewer Matrix
+title: Viewer Matrix V4
 layout: spec
 breadcrumbs:
   - label: IIIF Cookbook
@@ -9,15 +9,12 @@ viewers:
   - UV
   - Annona
   - Clover
-  - Navplace Viewer
-  - Ramp
   - Aviary
-  - Glycerine Viewer
   - Theseus
-  - Curation
-  - liiive
   - TIFY
   - Triiiceratops
+  - Voyager
+  - Kompakkt
 topics:
   - basic
   - property
@@ -25,6 +22,7 @@ topics:
   - image
   - key: AV
     note: Please note there are other IIIF AV viewers that are not listed like the [Europeana Player](https://github.com/europeana/media-player). These are not included in the matrix due to a lack of public linkable instance rather than them not supporting some of the recipes.
+  - 3d
   - annotation
   - key: content-state
     note: These recipes demonstrate use cases for the [content-state](https://iiif.io/api/content-state/) API. 
@@ -34,15 +32,15 @@ topics:
 
 <link rel='stylesheet' href="{{ site.cookbook_url | absolute_url }}/css/style.css"/>
 
-# IIIF 3.0 Viewer Matrix
+# IIIF 4.0 Viewer Matrix
 
 In the 2021 Working meeting there was a presentation on viewer support for IIIF Presentation 3.0. The community asked if this presentation could be turned into a matrix so people can see which viewers support which area(s) of the IIIF specifications. This matrix, shown below, is generated automatically from the latest version of cookbook recipes approved by the IIIF TRC. If you notice an error or inaccuracy, please report it as an Issue at the [cookbook GitHub site](https://github.com/IIIF/cookbook-recipes/issues/new).
 
 ## Which viewers are included?
 
-Currently [Mirador](https://projectmirador.org/), the [Universal Viewer](https://universalviewer.io/), [Annona](https://ncsu-libraries.github.io/annona/multistoryboard/), [Clover](https://samvera-labs.github.io/clover-iiif/), [Navplace Viewer](https://map.rerum.io/), [Ramp](https://iiif-react-media-player.netlify.app/), [Aviary](https://iiif.aviaryplatform.com/), [Glycerine](https://demo.viewer.glycerine.io/), [Theseus](https://theseusviewer.org/), [Curation Viewer](https://codh.rois.ac.jp/software/iiif-curation-viewer/), [liiive](https://liiive.now/), [TIFY](https://tify.rocks/) and [Triiiceratops](https://d-flood.github.io/triiiceratops/) are listed on the cookbook. We welcome the addition of other IIIF viewers, but they must support the following features:
+Currently [Mirador](https://projectmirador.org/), the [Universal Viewer](https://universalviewer.io/), [Clover](https://samvera-labs.github.io/clover-iiif/),  [Aviary](https://iiif.aviaryplatform.com/), [Theseus](https://theseusviewer.org/), [TIFY](https://tify.rocks/) and [Triiiceratops](https://d-flood.github.io/triiiceratops/) are listed on the cookbook. We welcome the addition of other IIIF viewers, but they must support the following features:
 
-- Support for the [IIIF version 3.0 Presentation API](https://iiif.io/api/presentation/3.0/)
+- Support for the [IIIF version 4.0 Presentation API](https://iiif.io/api/presentation/4.0/)
 - A public, linkable instance, ideally using the `iiif-content` parameter from the [IIIF Content State API](https://iiif.io/api/content-state/)
 - Support at least 1 cookbook recipe
 
@@ -56,11 +54,15 @@ The possible values for viewer support are Yes - ![Yes][YES]{:title="Yes"}, No -
 {% assign topic_key = topic %}
 {% endif %}
 
+{% assign topic_matches = site.pages | where_exp: "recipe", "recipe.topic == topic_key or recipe.topic contains topic_key" %}
+{% assign recipes = topic_matches | where_exp: "recipe", "recipe.id != -1 and recipe['v4-viewers']" %}
+{% assign sorted = recipes | sort: "id" %}
+
+{% if sorted.size > 0 %}
+
 ### {{ site.data.topics[topic_key].label }}
 
 {{ topic.note }}
-{% assign recipes = site.pages | where_exp: "recipe", "recipe.topic == topic_key or recipe.topic contains topic_key and recipe.id != -1" %}
-{% assign sorted = recipes | sort: "id" %}
 
 <table class="viewer">
     <tr>
@@ -71,20 +73,20 @@ The possible values for viewer support are Yes - ![Yes][YES]{:title="Yes"}, No -
     </tr>
 {% for recipe in sorted %}
     <tr>
-        <td><a href="{{ site.cookbook_url | absolute_url }}{{ recipe.url }}">{{recipe.title}}{% if recipe.property%} ({{recipe.property}}){%endif%}</a></td>
+        <td><a href="{{ site.cookbook_url | absolute_url }}{{ recipe.url }}#version-4">{{recipe.title}}{% if recipe.property%} ({{recipe.property}}){%endif%}</a></td>
         {% for viewer in page.viewers %}
-            {% assign current = recipe.viewers | where: "id",viewer | first %}
+            {% assign current = recipe['v4-viewers'] | where: "id",viewer | first %}
             <td width="100px">
                 {% if current.id == viewer %}
                     {% if current.support == "full" %}
                         <img src="{{ site.cookbook_url | absolute_url }}/assets/images/icons/yes.png" alt="Yes" title="Yes" />
                     {% else if current.support == "partial" %}
-                        <img src="{{ site.cookbook_url | absolute_url }}/assets/images/icons/partial.png" alt="Partial" title="Partial" />
+                        <img src="{{ site.cookbook_url | absolute_url }}/assets/images/icons/partial.png" alt="Partial" title="Partial" />b
                     {% else %}
                         <img src="{{ site.cookbook_url | absolute_url }}/assets/images/icons/yes.png" alt="Yes" title="Yes" />
                     {% endif %}
                 {% else %}
-                    {% if recipe.viewers contains viewer %} 
+                    {% if recipe['v4-viewers'] contains viewer %} 
                         <img src="{{ site.cookbook_url | absolute_url }}/assets/images/icons/yes.png" alt="Yes" title="Yes" />
                     {% else %}    
                         <img src="{{ site.cookbook_url | absolute_url }}/assets/images/icons/no.png" alt="No" title="No" />
@@ -95,6 +97,7 @@ The possible values for viewer support are Yes - ![Yes][YES]{:title="Yes"}, No -
     </tr>
 {% endfor %}
 </table>
+{% endif %}
 {% endfor %}
 
 [YES]: {{ site.cookbook_url | absolute_url }}/assets/images/icons/yes.png

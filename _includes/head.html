@@ -1,0 +1,57 @@
+<head>
+    <!-- from: https://github.com/IIIF/iiifc-theme/blob/main/_includes/head.html with extra JS at the end -->
+  <meta charset="utf-8">
+  <title>
+{% if page.title %}{{ page.title }} — {% endif %} {{ theme.acronym }} | {{ theme.title }}
+  </title>
+  <meta name="description" content="{{ site.tagline | default: site.organization.tagline }}">
+  <link rel="shortcut icon" href="{%- if site.logo -%}{{ site.logo | absolute_url }}{%- else -%}{{ site.organization.logo | absolute_url }}{%- endif -%}">
+ <link rel="apple-touch-icon" sizes="180x180" href="{{ 'assets/apple-touch-icon.png' | absolute_url }}">
+ <link rel="icon" type="image/png" sizes="32x32" href="{{ 'assets/favicon-32x32.png' | absolute_url }}">
+ <link rel="icon" type="image/png" sizes="16x16" href="{{ 'assets/favicon-16x16.png' | absolute_url }}">
+ <link rel="manifest" href="{{ 'assets/site.webmanifest' | absolute_url }}">
+ <link rel="mask-icon" href="{{ 'assets/safari-pinned-tab.svg' | absolute_url }}" color="#E82334">
+ <meta name="msapplication-TileColor" content="#da532c">
+ <meta name="theme-color" content="#ffffff">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{% link assets/css/style.scss %}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}" />
+{%- if jekyll.environment == 'production' and site.google_analytics -%}
+{%- include misc/google-analytics.html -%}
+{%- endif -%}
+{% if page.hero.image %}
+  <link rel="preload" as="image" href="{{ page.hero.image | absolute_url }}">
+{% endif %}
+{% seo title=false %}
+<!-- add for Mastodon verification -->
+<link rel="me" href="https://glammr.us/@iiif">
+
+<script>
+(function () {
+  if (window.location.hash) {
+    // The browser's native "scroll to fragment" behaviour retries right
+    // up until the page finishes loading (the 'load' event), which is
+    // what makes the tab panel jump into view once tabSwitch.js's own
+    // hash handling shows it. Lock scrolling for that window instead of
+    // touching the URL/hash - with nothing able to visibly scroll, the
+    // native jump has nowhere to go, and #version-4 etc. stay in the
+    // address bar the whole time.
+    document.documentElement.style.overflow = 'hidden';
+
+    window.addEventListener('load', function () {
+      // Reset in case a scroll got queued while locked, then release.
+      window.scrollTo({
+  top: 0,
+  left: 0,
+  behavior: "instant",
+});
+      document.documentElement.style.overflow = '';
+      if (document.body) {
+        document.body.style.overflow = '';
+      }
+    });
+  }
+})();
+</script>
+</head>
