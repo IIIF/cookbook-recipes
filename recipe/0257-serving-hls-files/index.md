@@ -9,10 +9,12 @@ viewers:
  - Aviary
  - Theseus
  - Clover
+ - Triiiceratops
 v4-viewers:
  - Clover
  - Aviary
  - Theseus
+ - Triiiceratops
 topic: AV
 
 top_tabs:
