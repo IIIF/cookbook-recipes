@@ -1,17 +1,3 @@
----
-title: Serving HLS Files
-id: 257
-layout: recipe
-tags: [video, streaming, hls]
-summary: "Referencing an HTTP Live Streaming (HLS) adaptive bitrate stream as the painting resource on a video Canvas."
-viewers:
- - Ramp
- - Aviary
- - Theseus
- - TIFY
-topic: AV
----
-
 ## Use Case
 
 You have video served via HTTP Live Streaming (HLS) rather than as a single progressive-download file, and you 

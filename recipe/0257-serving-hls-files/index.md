@@ -1,0 +1,37 @@
+---
+title: Serving HLS Files
+id: 257
+layout: recipe
+tags: [video, streaming, hls]
+summary: "Referencing an HTTP Live Streaming (HLS) adaptive bitrate stream as the painting resource on a video Canvas."
+viewers:
+ - Ramp
+ - Aviary
+ - Theseus
+ - TIFY
+v4-viewers:
+ - Clover
+ - Aviary
+ - Theseus
+topic: AV
+
+top_tabs:
+  - label: Version 3
+    content: "{% capture my_include %}{%- include_relative recipe.md version='3' -%}{% endcapture %}{{ my_include | markdownify }}"
+  - label: Version 4
+    content: "{% capture my_include %}{%- include_relative v4/recipe.md version='4' -%}{% endcapture %}{{ my_include | markdownify }}"
+  - label: Manifest Comparison
+    content: "{% assign path_parts = page.path | split: '/' %}{% assign recipe_dir = path_parts[1] %}{% capture my_include %}{%- include diff.html recipe=recipe_dir -%}{% endcapture %}{{ my_include | markdownify }}"
+---
+
+{{ theme.block-center-start }}
+
+{% include blocks/tabs.html  tabs=page.top_tabs %}
+
+{{ theme.block-end }}
+<script>
+  if (!window.location.hash) {
+    let el = document.getElementById("version-3-heading");
+    el.className += " is-active";
+  }  
+</script>
