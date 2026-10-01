@@ -7,7 +7,7 @@ want to reference that stream in a IIIF Manifest while also letting a user switc
 
 Streaming media servers often deliver video and audio using HLS. HLS splits the source 
 media into short segments and describes them in playlist files (`.m3u8`). A "master" (or "multivariant") playlist can in
-turn list several bitrate/resolution renditions of the same content, allowing an HLS-capable player to switch between 
+turn list several bitrate/resolution renditions of the same content. This allows an HLS-capable player to switch between 
 them automatically as network conditions change, while the individual rendition playlists can also be served and linked
 to on their own.
 
@@ -45,8 +45,6 @@ segments on the server.
 {% include manifest_links.html viewers="Ramp, Aviary, Theseus, TIFY" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
-
-The direct link to the fixture is a useful convenience.
 
 ## Related Recipes
 
