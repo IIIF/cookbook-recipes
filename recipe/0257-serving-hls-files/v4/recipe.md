@@ -43,7 +43,7 @@ This example uses the "Lunchroom Manners" excerpt from Indiana University, also 
 alongside three fixed-bitrate renditions (high/1200kbps, medium/800kbps, and low/400kbps), each already broken into 
 segments on the server.
 
-{% include manifest_links.html manifest="manifest.json" %}
+{% include manifest_links.html viewers="Aviary, Theseus, Clover" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" %}
 
