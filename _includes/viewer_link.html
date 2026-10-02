@@ -90,7 +90,6 @@
     {% capture default_text %}Unknown Viewer type '{{ include.type}}'{% endcapture %}
     {% capture viewer_url %}{{manifest_url |strip}}{% endcapture %}
 {% endif %}
-
 {% if include.bare %}
     {% assign viewer_url = viewer_url | strip | split: '?' | first %}
     {% assign default_text = include.type %}
