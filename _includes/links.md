@@ -95,7 +95,9 @@
 
 [0608-4]: {{ site.cookbook_url | absolute_url }}/recipe/0608-mvm-3d/#version-4 "Simplest Manifest - 3D model"
 
-[cookbook-process]: {{site.cookbook_url | absolute_url }}/recipe
+[cookbook-process]: {{site.cookbook_url | absolute_url }}/doc/process/
+[multi-version]: {{site.cookbook_url | absolute_url }}/doc/multi-version/
+
 
 [trc]: {{ site.root_url | absolute_url }}/community/trc/
 
