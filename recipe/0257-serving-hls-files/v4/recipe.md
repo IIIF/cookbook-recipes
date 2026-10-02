@@ -6,7 +6,7 @@ want to reference that stream in a IIIF Manifest while also letting a user switc
 ## Implementation Notes
 
 Streaming media servers often deliver video and audio using HLS. HLS splits the source 
-media into short segments and describes them in playlist files (`.m3u8`). A "master" (or "multivariant") playlist can in
+media into short segments and describes them in playlist files (`.m3u8`). A multivariant playlist can in
 turn list several bitrate and resolution renditions of the same content. This allows an HLS-capable viewer to switch between 
 them automatically as network conditions change, while the individual rendition playlists can also be served and linked
 to on their own.
@@ -15,7 +15,7 @@ To reference HLS content in a Manifest, the body of the painting Annotation is a
 list being one HLS playlist as an `.m3u8` file. Each option has a `type` of "Video" and a `label` identifying the quality 
 of the rendition (e.g., "auto", "high", "medium", "low").
 
-The "auto" option points at the master (multivariant) playlist, so a viewer choosing it (or defaulting to it) still gets 
+The "auto" option points at the multivariant playlist, so a viewer choosing it (or defaulting to it) still gets 
 adaptive bitrate switching handled by its own HLS engine. The remaining options each point at a single-rendition 
 playlist. Selecting one of these locks playback to that quality rather than letting the viewer renegotiate mid-stream.
 The Manifest does not need to, and should not, expose the individual HLS media segments.
@@ -39,7 +39,7 @@ with no HLS support will be unable to play any of the options even though the Ma
 ## Example
 
 This example uses the *Lunchroom Manners* excerpt from Indiana University, also used as a progressive MP4 in 
-[Simplest Manifest - Video][0003], here instead served as HLS. The `Choice` offers the adaptive master playlist ("auto") 
+[Simplest Manifest - Video][0003], here instead served as HLS. The `Choice` offers the adaptive multivariant playlist ("auto") 
 alongside three fixed-bitrate renditions: high (1,200 kbps), medium (800 kbps), and low (400 kbps). Each is already
 broken into segments on the server.
 
