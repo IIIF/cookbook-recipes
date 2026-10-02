@@ -42,9 +42,9 @@ In this example we use files in the WebVTT format. Other format options include 
 # Related recipes
 
 - [Simplest Manifest - Video][0003]
-- [Using Caption Files with Video Content][0219]
+- [Using Caption Files with Video Content]([version 3][0219] / [version 4][0219-4])
 - [Transcripts, Captions, and Subtitles - General Considerations][0231]
-- [Using Annotations for Timed Text][0079]
+- [Using Annotations for Timed Text][0079-4]
 - [Providing Access to Transcript Files of A/V Content][0017]
 
 

@@ -36,11 +36,11 @@ There are 3 options for handling transcript files using the IIIF Presentation AP
 
     When the transcript includes spatial and/or temporal information, one can use that information to enable synchronization of the display or streaming of the media and the display of the individual transcript fragments. To accomplish that, create one annotation for each transcript fragment, including its spatial and/or temporal information in the media fragment portion of the annotation target url. The motivation of the corresponding Annotation is `supplementing`.
 
-    a. For an example in the image space see [Transcription of image-based content][016].
+    a. For an example in the image space see [Transcription of image-based content][0016].
     
     b. For an example in the newspaper space see the example annotations in a [A basic newspaper][0068] recipe.
     
-    c. For an example in the A/V space see [Using Annotations for Timed Text][0079].
+    c. For an example in the A/V space see [Using Annotations for Timed Text][0079-4].
 
 ## Captions and Subtitles
 
@@ -56,7 +56,7 @@ Captions and subtitles are used to optionally mark up the external text track re
 
 2. Transforming captions into annotations
     
-    Like transcription files, caption files can be transformed into annotations. This option aligns better with image-based annotations, so providers are encouraged to offer their captions and subtitles in this way. See [Using Annotations for Timed Text][0079].
+    Like transcription files, caption files can be transformed into annotations. This option aligns better with image-based annotations, so providers are encouraged to offer their captions and subtitles in this way. See [Using Annotations for Timed Text][0079-4].
 
 
 ## Related Recipes
@@ -65,9 +65,9 @@ Captions and subtitles are used to optionally mark up the external text track re
 * [Providing Access to Transcript Files of A/V Content][0017]
 * [A basic newspaper][0068]
 * [Video with Accompanying Transcript][0253-4]
-* [Transcription of image-based content][016]
-* [Using annotations for Timed Text][0079]
-* [Using Caption Files with Video Content][0219]
+* [Transcription of image-based content][0016]
+* [Using annotations for Timed Text][0079-4]
+* [Using Caption Files with Video Content]([version 3][0219] / [version 4][0219-4])
 * [Serving HLS Files][0257]
 
 
