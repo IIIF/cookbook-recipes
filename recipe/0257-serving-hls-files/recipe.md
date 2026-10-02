@@ -11,29 +11,28 @@ turn list several bitrate/resolution renditions of the same content. This allows
 them automatically as network conditions change, while the individual rendition playlists can also be served and linked
 to on their own.
 
-To do this, the body of the painting Annotation is a `Choice`, with each item in its `items` list being one HLS playlist
-as an `.m3u8` file. Each option has `type` of `Video` and a `label` identifying the quality of the rendition (e.g. 
-"auto", "high", "medium", "low").
+To reference HLS content in a Manifest, the body of the painting Annotation is a `Choice`, with each item in its `items`
+list being one HLS playlist as an `.m3u8` file. Each option has `type` of `Video` and a `label` identifying the quality 
+of the rendition (e.g. "auto", "high", "medium", "low").
 
 The "auto" option points at the master/multivariant playlist, so a player choosing it (or defaulting to it) still gets 
 adaptive bitrate switching handled by its own HLS engine. The remaining options each point at a single-rendition 
 playlist. Selecting one of these locks playback to that quality rather than letting the player renegotiate mid-stream.
+The manifest does not need to, and should not, expose the individual HLS media segments.
 
 Every playlist referenced from a Choice option, and every media segment referenced by each of those, must be reachable 
 by the client. Because browser-based HLS players fetch playlists and segments themselves via JavaScript, cross-origin 
 requests (CORS) must be enabled on all of these resources, not only on the one initially requested. A manifest that 
-resolves correctly can still fail to play if it is misconfigured.
+resolves correctly can still fail to play if CORS is misconfigured on any playlist or segment.
 
 Even though the video itself is delivered in segments, an associated caption or subtitle file does not need to be 
 segmented to match. It should still be referenced as a single WebVTT resource via a `supplementing` Annotation on the 
-Canvas, exactly as in [Using Caption and Subtitle Files with Video Content][0219]. The manifest does not need to, and 
-should not, expose the individual HLS media segments.
+Canvas, exactly as in [Using Caption and Subtitle Files with Video Content][0219].
 
 ## Restrictions
 
-Native HLS playback is currently limited to Safari; other browsers require a JavaScript-based HLS engine 
-(such as hls.js) bundled into the viewer. A viewer with no HLS support will be unable to play any of the options even 
-though the manifest itself is valid.
+Not all browsers support HLS natively. Viewers running in those browsers need a JavaScript-based HLS engine. A viewer 
+with no HLS support will be unable to play any of the options even though the manifest itself is valid.
 
 ## Example
 
