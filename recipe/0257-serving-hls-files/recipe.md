@@ -48,7 +48,7 @@ broken into segments on the server.
 ## Related Recipes
 
 * [Multiple Choice of Audio Formats in a Single View (Canvas)][0434]
-* [Using Caption and Subtitle Files with Video Content][0219]
+* [Using Caption Files with Video Content][0219]
 * [Transcripts, Captions, and Subtitles - General Considerations][0231]
 * [Simplest Manifest - Video][0003]
 
