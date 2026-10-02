@@ -6,7 +6,7 @@
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a1",
             "type": "Annotation",
-            "motivation": "supplementing",
+            "motivation": ["supplementing"],
             "provides": [ "closedCaptions" ],
             "body": {
                 "type": "TextualBody",
@@ -14,12 +14,15 @@
                 "language": "en",
                 "value": "[music]"
             },
-            "target": "{{ id.path }}/canvas#t=1.200,21.000"
+            "target": {
+              "id": "{{ id.path }}/canvas#t=1.200,21.000",
+              "type": "Canvas"
+            }
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a2",
             "type": "Annotation",
-            "motivation": "supplementing",
+            "motivation": ["supplementing"],
             "provides": [ "closedCaptions" ],
             "body": {
                 "type": "TextualBody",
@@ -27,12 +30,15 @@
                 "language": "en",
                 "value": "Just before lunch one day, a puppet show \nwas put on at school."
             },
-            "target": "{{ id.path }}/canvas#t=22.200,26.600"
+            "target": {
+              "id": "{{ id.path }}/canvas#t=22.200,26.600",
+              "type": "Canvas"
+            }
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a3",
             "type": "Annotation",
-            "motivation": "supplementing",
+            "motivation": ["supplementing"],
             "provides": [ "closedCaptions" ],
             "body": {
                 "type": "TextualBody",
@@ -40,12 +46,15 @@
                 "language": "en",
                 "value": "It was called \"Mister Bungle Goes to Lunch\"."
             },
-            "target": "{{ id.path }}/canvas#t=26.700,31.500"
+            "target": {
+              "id": "{{ id.path }}/canvas#t=26.700,31.500",
+              "type": "Canvas"
+            }
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a4",
             "type": "Annotation",
-            "motivation": "supplementing",
+            "motivation": ["supplementing"],
             "provides": [ "closedCaptions" ],
             "body": {
                 "type": "TextualBody",
@@ -53,12 +62,15 @@
                 "language": "en",
                 "value": "It was fun to watch."
             },
-            "target": "{{ id.path }}/canvas#t=31.600,34.500"
+            "target": {
+              "id": "{{ id.path }}/canvas#t=31.600,34.500",
+              "type": "Canvas"
+            }
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a5",
             "type": "Annotation",
-            "motivation": "supplementing",
+            "motivation": ["supplementing"],
             "provides": [ "closedCaptions" ],
             "body": {
                 "type": "TextualBody",
@@ -66,12 +78,15 @@
                 "language": "en",
                 "value": "In the puppet show, Mr. Bungle came to the \nboys' room on his way to lunch."
             },
-            "target": "{{ id.path }}/canvas#t=36.100,41.300"
+            "target": {
+              "id": "{{ id.path }}/canvas#t=36.100,41.300",
+              "type": "Canvas"
+            }
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a6",
             "type": "Annotation",
-            "motivation": "supplementing",
+            "motivation": ["supplementing"],
             "provides": [ "closedCaptions" ],
             "body": {
                 "type": "TextualBody",
@@ -79,12 +94,15 @@
                 "language": "en",
                 "value": "He looked at his hands. His hands were dirty \nand his hair was messy."
             },
-            "target": "{{ id.path }}/canvas#t=41.400,46.200"
+            "target": {
+              "id": "{{ id.path }}/canvas#t=41.400,46.200",
+              "type": "Canvas"
+            }
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a7",
             "type": "Annotation",
-            "motivation": "supplementing",
+            "motivation": ["supplementing"],
             "provides": [ "closedCaptions" ],
             "body": {
                 "type": "TextualBody",
@@ -92,12 +110,15 @@
                 "language": "en",
                 "value": "But Mr. Bungle didn't stop to wash his hands \nor comb his hair."
             },
-            "target": "{{ id.path }}/canvas#t=46.300,51.100"
+            "target": {
+              "id": "{{ id.path }}/canvas#t=46.300,51.100",
+              "type": "Canvas"
+            }
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a8",
             "type": "Annotation",
-            "motivation": "supplementing",
+            "motivation": ["supplementing"],
             "provides": [ "closedCaptions" ],
             "body": {
                 "type": "TextualBody",
@@ -105,12 +126,15 @@
                 "language": "en",
                 "value": "He went right to lunch."
             },
-            "target": "{{ id.path }}/canvas#t=51.200,54.900"
+            "target": {
+              "id": "{{ id.path }}/canvas#t=51.200,54.900",
+              "type": "Canvas"
+            }
         },
         {
             "id": "https://data.europeana.eu/annotation/2051943/data_euscreenXL_EUS_2BAA81D23D6F41578CB2C2071D0325FC/en/a9",
             "type": "Annotation",
-            "motivation": "supplementing",
+            "motivation": ["supplementing"],
             "provides": [ "closedCaptions" ],
             "body": {
                 "type": "TextualBody",
@@ -118,7 +142,10 @@
                 "language": "en",
                 "value": "Then, instead of getting into line at the \nlunchroom, Mr. Bungle pushed everyone aside \nand went right to the front."
             },
-            "target": "{{ id.path }}/canvas#t=57.900,65.700"
+            "target": {
+              "id": "{{ id.path }}/canvas#t=57.900,65.700",
+              "type": "Canvas"
+            }
         }
     ]
 }
