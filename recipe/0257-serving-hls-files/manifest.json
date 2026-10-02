@@ -29,7 +29,7 @@
                       "height": 360,
                       "width": 480,
                       "duration": 572.034,
-                      "format": "application/x-mpegURL",
+                      "format": "application/vnd.apple.mpegurl",
                       "label": { "none": [ "auto" ] }
                     },
                     {
@@ -38,7 +38,7 @@
                       "height": 360,
                       "width": 480,
                       "duration": 572.034,
-                      "format": "application/x-mpegURL",
+                      "format": "application/vnd.apple.mpegurl",
                       "label": { "none": [ "high" ] }
                     },
                     {
@@ -47,7 +47,7 @@
                       "height": 360,
                       "width": 480,
                       "duration": 572.034,
-                      "format": "application/x-mpegURL",
+                      "format": "application/vnd.apple.mpegurl",
                       "label": { "none": [ "medium" ] }
                     },
                     {
@@ -56,7 +56,7 @@
                       "height": 360,
                       "width": 480,
                       "duration": 572.034,
-                      "format": "application/x-mpegURL",
+                      "format": "application/vnd.apple.mpegurl",
                       "label": { "none": [ "low" ] }
                     }
                   ]
