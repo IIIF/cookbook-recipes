@@ -13,10 +13,12 @@ viewers:
  - Theseus
  - Glycerine Viewer
  - TIFY
+ - Triiiceratops
 v4-viewers:  
  - UV
  - Theseus
  - Aviary
+ - Triiiceratops
 topic:
  - basic
  - AV
