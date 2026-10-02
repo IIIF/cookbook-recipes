@@ -89,8 +89,7 @@
 {% else %}
     {% capture default_text %}Unknown Viewer type '{{ include.type}}'{% endcapture %}
     {% capture viewer_url %}{{manifest_url |strip}}{% endcapture %}
-{% endif %}
-{% if include.bare %}
+{% endif %}{% if include.bare %}
     {% assign viewer_url = viewer_url | strip | split: '?' | first %}
     {% assign default_text = include.type %}
 {% endif %}<a href="{{ viewer_url | strip }}" class="{{ include.class }}"{% unless include.bare %} data-iiif-content="{{manifest_url |strip}}"{% endunless %} target="_blank">{{ include.text | default: default_text }}</a>
