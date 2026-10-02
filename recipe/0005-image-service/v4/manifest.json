@@ -18,7 +18,7 @@
             {
 			  "id": "{{ id.path }}/annotation/p0001-image",
               "type": "Annotation",
-              "motivation": "painting",
+              "motivation": ["painting"],
 				"body": {
 				  "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen/full/max/0/default.jpg",
 				  "type": "Image",
@@ -33,7 +33,10 @@
 				    }
 				  ]
 				},
-              "target": "{{ id.path }}/canvas/p1"
+              "target": {
+                "id": "{{ id.path }}/canvas/p1",
+                "type": "Canvas"
+              }
             }
           ]
         }
