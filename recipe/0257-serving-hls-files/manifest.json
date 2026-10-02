@@ -30,7 +30,7 @@
                       "width": 480,
                       "duration": 572.034,
                       "format": "application/vnd.apple.mpegurl",
-                      "label": { "none": [ "auto" ] }
+                      "label": { "en": [ "auto" ] }
                     },
                     {
                       "id": "https://fixtures.iiif.io/video/indiana/lunchroom_manners/hls-fixture/high/lunchroom_manners_1200kb.m3u8",
@@ -39,7 +39,7 @@
                       "width": 480,
                       "duration": 572.034,
                       "format": "application/vnd.apple.mpegurl",
-                      "label": { "none": [ "high" ] }
+                      "label": { "en": [ "high" ] }
                     },
                     {
                       "id": "https://fixtures.iiif.io/video/indiana/lunchroom_manners/hls-fixture/medium/lunchroom_manners_800kb.m3u8",
@@ -48,7 +48,7 @@
                       "width": 480,
                       "duration": 572.034,
                       "format": "application/vnd.apple.mpegurl",
-                      "label": { "none": [ "medium" ] }
+                      "label": { "en": [ "medium" ] }
                     },
                     {
                       "id": "https://fixtures.iiif.io/video/indiana/lunchroom_manners/hls-fixture/low/lunchroom_manners_400kb.m3u8",
@@ -57,7 +57,7 @@
                       "width": 480,
                       "duration": 572.034,
                       "format": "application/vnd.apple.mpegurl",
-                      "label": { "none": [ "low" ] }
+                      "label": { "en": [ "low" ] }
                     }
                   ]
                 }
