@@ -1,7 +1,7 @@
 
 ## Use Case
 
-The simplest viable manifest for image content. If all you have for an object is one image on the web and a label to go along with it, this pattern turns it into a IIIF Presentation resource. If you would like to enable deep zooming, you will need to use a IIIF Image server. For this, see the [Support Deep Viewing with Basic Use of a IIIF Image Service (v3)][0005] recipe.
+The simplest viable manifest for image content. If all you have for an object is one image on the web and a label to go along with it, this pattern turns it into a IIIF Presentation resource. If you would like to enable deep zooming, you will need to use a IIIF Image server. For this, see the [Support Deep Viewing with Basic Use of a IIIF Image Service (v4)][0005-4] recipe.
 
 ## Implementation Notes
 
@@ -13,7 +13,7 @@ The `items` property of the Canvas is a list of annotation pages. In this case t
 
 ## Restrictions
 
-This recipe is not for large images or deep zoom functionality. For this, see the [Support Deep Viewing with Basic Use of a IIIF Image Service (v3)][0005] recipe.
+This recipe is not for large images or deep zoom functionality. For this, see the [Support Deep Viewing with Basic Use of a IIIF Image Service (v4)][0005-4] recipe.
 
 ## Example
 
@@ -26,7 +26,7 @@ This recipe is not for large images or deep zoom functionality. For this, see th
 * [Simplest Manifest - Audio][0002-4] for a minimal audio Manifest
 * [Simplest Manifest - Video][0003-4] for a minimal video Manifest
 * [Simplest Manifest - 3D][0608-4] for a minimal 3D Manifest
-* [Support Deep Viewing with Basic Use of a IIIF Image Service][0005] (v3) shows a basic manifest for use with a IIIF Image server.
+* [Support Deep Viewing with Basic Use of a IIIF Image Service][0005-4] shows a basic manifest for use with a IIIF Image server.
 * [Image and Canvas with Differing Dimensions][0004] (v3) shows a canvas with dimensions different from the pixel dimensions of its content.
 * [Multiple values and languages][0006] (v3) demonstrates language map variations, for multiple values and multiple languages.
 
