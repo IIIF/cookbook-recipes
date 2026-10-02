@@ -27,7 +27,7 @@
 			"items": [{
 				"id": "{{ id.path }}/canvas/page/annotation",
 				"type": "Annotation",
-				"motivation": "painting",
+				"motivation": ["painting"],
 				"body": {
 					"id": "https://fixtures.iiif.io/video/europeana/Per_voi_signore_Modelli_francesi.mp4",
 					"type": "Video",
@@ -36,7 +36,10 @@
 					"duration": 65.0,
 					"format": "video/mp4"
 				},
-				"target": "{{ id.path }}/canvas"
+				"target": {
+				  "id": "{{ id.path }}/canvas",
+				  "type": "Canvas"
+				}
 			}]
 		}],
 		"annotations": [{
@@ -45,7 +48,7 @@
 			"items": [{
 				"id": "{{ id.url }}/subtitles_captions-files-vtt-en",
 				"type": "Annotation",
-				"motivation": "supplementing",
+				"motivation": ["supplementing"],
 				"provides": [ "subtitles" ],
 				"body": {
 					"id": "{{ id.path }}/Per_voi_signore_Modelli_francesi_en.vtt",
@@ -56,12 +59,15 @@
 					},
 					"language": "en"
 				},
-				"target": "{{ id.path }}/canvas"
+				"target": {
+				  "id": "{{ id.path }}/canvas",
+				  "type": "Canvas"
+				}
 			},                        
 			{
 				"id": "{{ id.url }}/subtitles_captions-files-vtt-it",
 				"type": "Annotation",
-				"motivation": "supplementing",
+				"motivation": ["supplementing"],
 				"provides": [ "closedCaptions" ],
 				"body": {
 					"id": "{{ id.path }}/Per_voi_signore_Modelli_francesi_it.vtt",
@@ -72,7 +78,10 @@
 					},
 					"language": "it"
 				},
-				"target": "{{ id.path }}/canvas"
+				"target": {
+				  "id": "{{ id.path }}/canvas",
+				  "type": "Canvas"
+				}
 			}]
 		}]
     }]
