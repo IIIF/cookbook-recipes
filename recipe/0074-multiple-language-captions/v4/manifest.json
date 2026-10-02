@@ -57,7 +57,7 @@
 					"label": {
 						"en": ["English subtitles in WebVTT format"]
 					},
-					"language": "en"
+					"language": ["en"]
 				},
 				"target": {
 				  "id": "{{ id.path }}/canvas",
@@ -76,7 +76,7 @@
 					"label": {
 						"en": ["Italian captions in WebVTT format"]
 					},
-					"language": "it"
+					"language": ["it"]
 				},
 				"target": {
 				  "id": "{{ id.path }}/canvas",
