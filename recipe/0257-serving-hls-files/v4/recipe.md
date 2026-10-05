@@ -43,9 +43,9 @@ This example uses the *Lunchroom Manners* excerpt from Indiana University, also 
 alongside three fixed-bitrate renditions: high (1,200 kbps), medium (800 kbps), and low (400 kbps). Each is already
 broken into segments on the server.
 
-{% include manifest_links.html manifest="manifest.json" version="4" %}
+{% include manifest_links.html manifest="v4/manifest.json" version="4" %}
 
-{% include jsonviewer.html src="manifest.json" %}
+{% include jsonviewer.html src="v4/manifest.json" %}
 
 ## Related Recipes
 
