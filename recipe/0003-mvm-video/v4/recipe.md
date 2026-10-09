@@ -8,7 +8,7 @@ This illustrates the mandatory structure and properties of a manifest, with the 
 
 The implementation is substantively identical to the [image example][0001-4], except that the content is video and the Canvas has the `duration` property additional to the `height` and `width` properties. See [Simplest Manifest - Image][0001-4] for enumeration and brief description of required properties.
 
-The value of the `duration` property [must be a floating point number](https://iiif.io/api/presentation/4.0/model/#duration). If the duration value you have is an integer, it therefore needs to be written with at least a decimal point and a trailing zero: `1985.0` rather than `1985`.
+The value of the `duration` property [must be a positive number](https://iiif.io/api/presentation/4.0/model/#duration) of seconds, such as `572` or `572.034`.
 
 The duration of the video file, in seconds, is given and here matches the Canvas's `duration` property exactly. Matching is not required, but mismatches will change how much of the video is presented and may change what happens after the video finishes playing. Likewise, the pixel dimensions of the video file match the dimensionless coordinate space units. Matching is also not required here, but mismatches may change the visual display.
 
