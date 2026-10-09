@@ -9,6 +9,7 @@ viewers:
  - Ramp
  - Aviary
  - Theseus
+ - Triiiceratops
 topic: AV
 property: rendering
 code:
