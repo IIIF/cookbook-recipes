@@ -8,7 +8,7 @@ Caption markup file formats use time tags that allow for time alignment and sync
 
 Offering the caption file as an Annotation on the Canvas that contains the media file itself enables us to express the relationship between the two. The `type` and `format` properties of the Annotation can be used by the client to identify caption files to be rendered on top of video content. The `format` property of the Annotation can also be used to verify that the file is in a usable format. The `motivation` value of `supplementing` indicates the fact that this Annotation is in addition to the media resource.
 
-In addition to this implementation, you can also offer captions as multiple timed annotations, making the text available in multiple ways. See [Using Annotations for Timed Text][0079].
+In addition to this implementation, you can also offer captions as multiple timed annotations, making the text available in multiple ways. See [Using Annotations for Timed Text][0079-4].
 
 While transcripts, captions, and subtitles each present some text interpretation of the A/V content, the ways in which they are consumed by users differ. For a more detailed discussion about these differences see [Transcripts, Captions, and Subtitles - General Considerations][0231].
 
@@ -26,11 +26,11 @@ In this example we use a caption file in the WebVTT format. Other options includ
 
 # Related recipes
 
-- [Simplest Manifest - Video][0003]
+- [Simplest Manifest - Video]([version 3][0003] / [version-4][0003-4])
 - [Providing Access to Transcripts of A/V Content][0017]
 - [Providing Alternative Representations][0046]
 - [Using Caption and Subtitle Files in Multiple Languages with Video Content][0074]
-- [Using Annotations for Timed Text][0079]
+- [Using Annotations for Timed Text][0079-4]
 - [Annotating a Poetry Reading][0103]
 - [Using Transcript Files with Video and Audio Content][0253]
 - [Serving HLS Files][0257]

@@ -25,7 +25,7 @@ You have a transcription file for your A/V resource and want to allow users to d
 
 A transcription file is a text-based representation of an audio or video file, which may or may not be in a timed-text format. As an alternative representation of the main resource, a transcription is added to a resource via the linking property `rendering`.
 
-See [Using Annotations for Timed Text][0079] when the transcript is in a timed-text format and you want to take advantage of a client's ability to synchronize it with its A/V resource during playback.
+See [Using Annotations for Timed Text][0079-4] when the transcript is in a timed-text format and you want to take advantage of a client's ability to synchronize it with its A/V resource during playback.
 
 While transcripts, captions, and subtitles each present some text interpretation of the A/V content, the ways they are consumed by the users differ. For a more detailed discussion about these differences see [Transcripts, Captions, and Subtitles - General Considerations][0231].
 
@@ -47,7 +47,7 @@ In Ramp, the transcript file is made available to download on the right of the p
 
 - [Simplest Manifest - Video][0003]
 - [Providing Alternative Representations][0046]
-- [Using Annotations for Timed Text][0079]
+- [Using Annotations for Timed Text][0079-4]
 - [Transcripts, Captions, and Subtitles - General Considerations][0231]
 - [A side by side transcript of a video recording][0253]
 

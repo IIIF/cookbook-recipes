@@ -44,7 +44,7 @@ A manifest for a poetry reading by Canadian poet Daphne Marlatt in 2018 that inc
 # Related recipes
 
 * [Simple Manifest - Audio][0002]
-* [Transformation - WebVTT or OHMS XML to Annotations][0079]
+* [Using Annotations for Timed Text][0079-4]
 * [Begin playback at a specific point - Time-based media][0015]
 * [Embedded or Referenced Annotations][0269]
 
