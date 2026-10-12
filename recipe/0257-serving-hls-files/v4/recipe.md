@@ -26,7 +26,7 @@ The `format` value should be one of the media types defined for HLS playlists in
 
 The unregistered "application/x-mpegURL" is also widely used by streaming servers and recognized by many players, but 
 publishers should prefer "application/vnd.apple.mpegurl". The same `format` applies whether the stream is video or 
-audio only. The `type` of the body should ("Video" or "Sound") distinguish the two.
+audio only. The `type` of the body should ("Video" or "Sound") to distinguish the two.
 
 This recipe uses a single-rendition playlist, so the stream is delivered at one fixed bitrate and resolution. HLS also 
 supports multivariant playlists that list several renditions of the same content so that a player can switch between 
