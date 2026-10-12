@@ -3,7 +3,7 @@ title: Serving HLS Files
 id: 257
 layout: recipe
 tags: [video, streaming, hls]
-summary: "Referencing an HTTP Live Streaming (HLS) adaptive bitrate stream as the painting resource on a video Canvas."
+summary: "Referencing an HTTP Live Streaming (HLS) playlist as the painting resource on a video Canvas."
 viewers:
  - Ramp
  - Aviary
