@@ -1,5 +1,5 @@
 ---
-title: Serving HLS Files
+title: Serving HLS Video Files
 id: 257
 layout: recipe
 tags: [video, streaming, hls]
