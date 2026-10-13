@@ -53,7 +53,7 @@
 						"type": "Text",
 						"format": "text/vtt",
 						"label": {
-							"en": ["Captions in WebVTT format"]
+							"en": ["English captions in WebVTT format"]
 						},
 						"language": "en"
 					}, {

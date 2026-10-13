@@ -55,7 +55,7 @@
 					"type": "Text",
 					"format": "text/vtt",
 					"label": {
-						"en": ["English subtitles in WebVTT format"]
+						"en": ["English captions in WebVTT format"]
 					},
 					"language": ["en"]
 				},
@@ -74,7 +74,7 @@
 					"type": "Text",
 					"format": "text/vtt",
 					"label": {
-						"en": ["Italian captions in WebVTT format"]
+						"en": ["Sottotitoli in formato WebVTT"]
 					},
 					"language": ["it"]
 				},
