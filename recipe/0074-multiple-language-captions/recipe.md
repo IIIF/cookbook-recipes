@@ -9,7 +9,7 @@ This recipe builds on the pattern for [Using Caption Files with Video Content][0
 
 Similarly to offering a single caption/subtitle file, the multiple subtitle/caption files are provided as a `supplementing` Annotation on the Canvas that contains the video file. In the case of multiple captions/subtitles, however, the Annotation provides all the available languages as choices. IIIF viewers are then able to offer to end-users the choice for displaying subtitles/captions in one of the available languages during the video playback.
 
-In addition to this implementation, one might consider to provide the captions/subtitles also as multiple timed annotations. Although redundant, providing both implementations will enable more IIIF viewers to display the captions/subtitles, since they may use whichever implementation they support. See [Using Annotations for Timed Text][0079].
+Likewise, there is no prohibition against also providing the captions/subtitles [as timed annotations][0079]. With variability and unpredictability in IIIF viewer support for captioning, providing multiple caption implementations may enable more people to see the captions or subtitles accompanying the video resource.
 
 ## Restrictions
 

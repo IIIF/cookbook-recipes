@@ -8,6 +8,8 @@ This recipe builds on the pattern for [Using Caption Files with Video Content][0
 
 Similarly to offering a single caption file, the multiple subtitle/caption files are provided as `supplementing` Annotations on the Canvas that contains the video resource. Annotations of this Canvas contain the `provides` property with the value `subtitles` or `closedCaptions`, as appropriate. One Annotation is used for each of the available captions/subtitles and languages. IIIF viewers are then able to identify which annotations contain text for the video and what kind of text by examining the value of the `provides` property. With that information, viewers offer to end-users choices for displaying subtitles/captions in one of the available languages during the video playback. (Read more about provides in the [IIIF Presentation API 4.0](https://iiif.io/api/presentation/4.0/#accessibility) and [the IIIF Presentation API 4.0 Data Model](https://iiif.io/api/presentation/4.0/model/#provides).)
 
+Likewise, there is no prohibition against also providing the captions/subtitles [as timed annotations][0079]. With variability and unpredictability in IIIF viewer support for captioning, providing multiple caption implementations may enable more people to see the captions or subtitles accompanying the video resource.
+
 ## Restrictions
 
 Formats other than WebVTT (Web Video Text Tracks) are supported by the Presentation API 4.0, but WebVTT is the format most likely to be implemented in current IIIF viewers.
