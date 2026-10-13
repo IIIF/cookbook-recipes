@@ -1,4 +1,3 @@
-
 ## Use Case
 
 Captions and subtitles may be available in multiple languages for video content and the IIIF Manifest representing the video can give access to representations of all the available languages. Because users will likely want to see captions/subtitles in their preferred language, you want to present the available languages as options from which one should be chosen.
@@ -26,7 +25,7 @@ We are using subtitle files in the WebVTT format. Other format options include S
 
 {% include manifest_links.html viewers="Ramp, Theseus" manifest="manifest.json" %}
 
-{% include jsonviewer.html src="manifest.json" config='data-line="60-92"'%}
+{% include jsonviewer.html src="manifest.json" config='data-line="55-95"'%}
 
 # Related recipes
 
