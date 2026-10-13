@@ -24,7 +24,7 @@ We are using subtitle files in the WebVTT format. Other format options include S
 
 {% include manifest_links.html viewers="Ramp, Theseus" manifest="v4/manifest.json" %}
 
-{% include jsonviewer.html src="v4/manifest.json" config='data-line="55-102"'%}
+{% include jsonviewer.html src="v4/manifest.json" config='data-line="60-121"'%}
 
 # Related recipes
 
