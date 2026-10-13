@@ -5,6 +5,8 @@ layout: recipe
 tags: [content-state]
 summary: "A model for manifest publishers and viewer developers for how to facilitate and accommodate dragging a IIIF manifest from one application to another."
 viewers:
+ - Theseus
+ - Triiiceratops
 topic:
  - content-state
 ---
@@ -79,7 +81,10 @@ Viewer developers will have a special need to consider security when implementin
 
 Below is an image of the IIIF logo, decorated with the appropriate JavaScript event handler attributes, and a visible version of the markup for that image, showing the connection to the page script for the `drag` event. For a supporting viewer, the IIIF logo image below could be dragged onto its viewing area and dropped, which would result in the viewer retrieving the [manifest for the IIIF Cookbook recipe](https://iiif.io/api/cookbook/recipe/0006-text-language/manifest.json) titled ["Internationalization and Multi-language Values"][0006].
 
-No viewers currently support this approach to dragging and dropping a manifest.
+{% capture viewer_links %}{% for viewerTxt in page.viewers %}{% assign viewer = viewerTxt | strip %}{% unless forloop.first %} &#124; {% endunless %}{% include viewer_link.html type=viewer bare=true %}{% endfor %}{% endcapture %}
+Open a supporting viewer in a second window, then drag the logo below onto its viewing area. Each link opens the viewer without setting a manifest.
+
+{{ viewer_links | strip_newlines | strip }}
 
 <img src="logo-sm.png" draggable="true" ondragstart="drag(event)" alt="IIIF logo; drag and drop onto a supporting viewer to see this resource in that viewer" style="cursor:grab;">
 
@@ -102,7 +107,7 @@ function drag(ev) {
 }
 </script>
 
-Though no viewer supports it, IIIF-C Technical Director Glen Robson has [a working version of a non-canonical viewer implementation](https://iiif.gdmrdigital.com/import_to_viewers/DragDropDestination.html) publicly available. This brief screencast demonstrates what it could look like to use that viewer:
+IIIF-C Technical Director Glen Robson also has [a working version of a non-canonical viewer implementation](https://iiif.gdmrdigital.com/import_to_viewers/DragDropDestination.html) publicly available. This brief screencast demonstrates what it could look like to use that viewer:
 <video controls width="720">
 	<source src="drag-and-drop.mov" type="video/mp4" />
 </video>
