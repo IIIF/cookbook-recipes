@@ -12,7 +12,7 @@ Likewise, there is no prohibition against also providing the captions/subtitles 
 
 ## Restrictions
 
-Formats other than WebVTT (Web Video Text Tracks) are supported by the [IIIF Presentation API 4.0](https://iiif.io/api/presentation/4.0), but WebVTT is the format most likely to be implemented in current IIIF viewers.
+Formats other than WebVTT (Web Video Text Tracks) are supported by the [Presentation API 4.0](https://iiif.io/api/presentation/4.0), but WebVTT is the format most likely to be implemented in current IIIF viewers.
 
 When using segmented WebVTT with HLS (HTTP Live Streaming), see [Serving HLS Files][0257].
 
