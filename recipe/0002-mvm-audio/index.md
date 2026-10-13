@@ -19,6 +19,7 @@ v4-viewers:
  - Theseus
  - Aviary
  - Triiiceratops
+ - Kasane
 topic:
  - basic
  - AV

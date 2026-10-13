@@ -6,6 +6,7 @@ tags: [video, audio, transcript, presentation]
 summary: "Providing a transcript file to to be rendered alongside an audio or video resource."
 v4-viewers:
  - Triiiceratops
+ - Kasane
 topic: AV
 top_tabs:
   - label: Version 4
