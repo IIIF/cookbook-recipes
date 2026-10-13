@@ -30,7 +30,6 @@ We are using subtitle files in the WebVTT format. Other format options include S
 
 # Related recipes
 
-- [Simplest Manifest - Video][0003]
 - [Using Caption Files with Video Content][0219]
 - [Transcripts, Captions, and Subtitles - General Considerations][0231]
 - [Using Annotations for Timed Text][0079]
