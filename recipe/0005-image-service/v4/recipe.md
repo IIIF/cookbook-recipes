@@ -28,8 +28,6 @@ Though a version 4 Manifest may specify a service using the version 2 `@id` and 
 
 * [Simplest Manifest - Image][0001] demonstrates use of an image without a IIIF Image API service.
 * [Add Image Thumbnail][0117] discusses {how to work with thumbnail images}
-* [Presentation version 3 manifest containing images on a version 2 service][00XX] forms part of the recipes connected with upgrading your offerings from v2 to v3.
-* [Services][0055]
 
 {% include acronyms.md %}
 {% include links.md %}
