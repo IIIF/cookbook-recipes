@@ -12,6 +12,7 @@ viewers:
  - id: TIFY
    support: partial
  - Triiiceratops
+ - Kasane
 topic: property
 code:
  - iiif-prezi3

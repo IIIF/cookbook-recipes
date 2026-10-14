@@ -9,6 +9,7 @@ viewers:
  - Glycerine Viewer
  - Theseus
  - Triiiceratops
+ - Kasane
 topic:
  - basic
 code:

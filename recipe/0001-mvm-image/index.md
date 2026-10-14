@@ -15,6 +15,7 @@ viewers:
   - liiive
   - TIFY
   - Triiiceratops
+  - Kasane
 v4-viewers:  
   - UV
   - Annona

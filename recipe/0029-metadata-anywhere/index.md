@@ -15,6 +15,7 @@ viewers:
  - Curation
  - TIFY
  - Triiiceratops
+ - Kasane
 topic: property
 code:
  - iiif-prezi3

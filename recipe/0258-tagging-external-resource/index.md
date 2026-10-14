@@ -8,6 +8,7 @@ viewers:
  - Glycerine Viewer
  - Theseus
  - Triiiceratops
+ - Kasane
 topic: annotation
 code:
  - iiif-prezi3

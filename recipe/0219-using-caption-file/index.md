@@ -11,6 +11,7 @@ viewers:
  - Theseus
  - TIFY
  - Triiiceratops
+ - Kasane
 v4-viewers:
  - Clover
  - Aviary

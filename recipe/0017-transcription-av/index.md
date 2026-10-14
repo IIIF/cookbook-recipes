@@ -10,6 +10,7 @@ viewers:
  - Aviary
  - Theseus
  - Triiiceratops
+ - Kasane
 topic: AV
 property: rendering
 code:
