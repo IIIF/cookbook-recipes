@@ -19,14 +19,13 @@ The `format` property is especially important for HLS. A browser cannot play an 
 so a viewer needs to know ahead of time that the resource is HLS in order to hand it to an HLS engine rather than to a 
 plain `<video>` element. Viewers should not have to rely on the `.m3u8` file extension or on the `Content-Type` 
 header returned by the server, which is often missing or generic (e.g., "text/plain" or "application/octet-stream"). 
-The `format` value should be one of the media types defined for HLS playlists in [RFC 8216][rfc8216]:
+Publishers should use "application/vnd.apple.mpegurl" as the `format` value. It is the IANA-registered media type for 
+HLS playlists defined in [RFC 8216][rfc8216], and it is the value used in this recipe. The same `format` applies 
+whether the stream is video or audio only; the `type` of the body should be "Video" or "Sound" to distinguish the two.
 
-* "application/vnd.apple.mpegurl" (the IANA-registered type, used in this recipe)
-* "audio/mpegurl"
-
-The unregistered "application/x-mpegURL" is also widely used by streaming servers and recognized by many players, but 
-publishers should prefer "application/vnd.apple.mpegurl". The same `format` applies whether the stream is video or 
-audio only. The `type` of the body should ("Video" or "Sound") to distinguish the two.
+RFC 8216 also lists "audio/mpegurl" for compatibility with older software. Publishers should not use it in new 
+Manifests, but viewers may still find it in existing content. The unregistered "application/x-mpegURL" is also 
+widely used by streaming servers and recognized by many players, so viewers may encounter it as well.
 
 This recipe uses a single-rendition playlist, so the stream is delivered at one fixed bitrate and resolution. HLS also 
 supports multivariant playlists that list several renditions of the same content so that a player can switch between 
