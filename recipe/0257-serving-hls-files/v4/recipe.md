@@ -60,9 +60,7 @@ This example uses the *Lunchroom Manners* excerpt from Indiana University, also 
 ## Related Recipes
 
 * [Adaptive Bitrate Video][0731]
-* [Simplest Manifest - Video][0003]
 * [Using Caption Files with Video Content][0219]
-* [Transcripts, Captions, and Subtitles - General Considerations][0231]
 
 {% include acronyms.md %}
 {% include links.md %}
