@@ -6,6 +6,7 @@ tags: [style]
 summary: "Using an external CSS stylesheet in an annotation body, annotations can be styled in limited ways"
 viewers:
  - Theseus
+ - Kasane
 topic:
  - basic
 ---

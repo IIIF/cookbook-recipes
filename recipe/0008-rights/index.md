@@ -14,6 +14,7 @@ viewers:
  - Curation
  - TIFY
  - Triiiceratops
+ - Kasane
 topic: property
 property: rights, requiredStatement
 code:

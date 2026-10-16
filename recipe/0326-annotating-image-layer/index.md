@@ -6,6 +6,7 @@ tags: [annotation, multiple-images, layers]
 summary: "Annotate a single image or layer when more than one image is present on the Canvas."
 viewers:
   - Theseus
+  - Kasane
 topic: annotation
 ---
 

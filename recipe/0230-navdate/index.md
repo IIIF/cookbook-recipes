@@ -9,6 +9,7 @@ viewers:
  - Mirador
  - Theseus
  - Triiiceratops
+ - Kasane
 topic: property
 property: navDate
 code:

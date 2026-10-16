@@ -14,6 +14,7 @@ viewers:
  - Glycerine Viewer
  - TIFY
  - Triiiceratops
+ - Kasane
 v4-viewers:
  - Mirador
  - UV
@@ -22,6 +23,7 @@ v4-viewers:
  - Theseus
  - TIFY
  - Triiiceratops
+ - Kasane
 topic:
  - basic
  - AV

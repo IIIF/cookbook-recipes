@@ -14,11 +14,13 @@ viewers:
  - Glycerine Viewer
  - TIFY
  - Triiiceratops
+ - Kasane
 v4-viewers:  
  - UV
  - Theseus
  - Aviary
  - Triiiceratops
+ - Kasane
 topic:
  - basic
  - AV

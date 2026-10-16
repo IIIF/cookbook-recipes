@@ -7,6 +7,7 @@ summary: "Demonstrates how to model a foldout diagram or map."
 viewers:
  - Theseus
  - Triiiceratops
+ - Kasane
 topic: structure
 code:
  - iiif-prezi3

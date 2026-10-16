@@ -14,6 +14,7 @@ viewers:
  - id: TIFY
    support: partial
  - Triiiceratops
+ - Kasane
 topic:
  - image
  - property

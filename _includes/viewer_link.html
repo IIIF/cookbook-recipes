@@ -86,6 +86,11 @@
     https://kompakkt.github.io/Viewer/?locale=en&standalone=true&manifest={{manifest_url |strip}}
     {% endcapture %}
     {% assign default_text="View in Kompakkt" %}    
+{% elsif include.type == 'Kasane' %}
+    {% capture viewer_url %}
+    https://kasane.ldas.jp/viewer/?iiif-content={{manifest_url |strip}}
+    {% endcapture %}
+    {% assign default_text="View in IIIF Kasane" %}
 {% else %}
     {% capture default_text %}Unknown Viewer type '{{ include.type}}'{% endcapture %}
     {% capture viewer_url %}{{manifest_url |strip}}{% endcapture %}

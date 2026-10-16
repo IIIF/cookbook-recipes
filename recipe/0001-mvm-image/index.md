@@ -15,6 +15,7 @@ viewers:
   - liiive
   - TIFY
   - Triiiceratops
+  - Kasane
 v4-viewers:  
   - UV
   - Annona
@@ -22,6 +23,7 @@ v4-viewers:
   - Theseus
   - TIFY
   - Triiiceratops
+  - Kasane
 topic: 
  - basic
  - image

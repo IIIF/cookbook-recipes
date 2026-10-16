@@ -11,6 +11,7 @@ viewers:
 - Theseus
 - TIFY
 - Triiiceratops
+- Kasane
 topic: structure
 code:
  - iiif-prezi3

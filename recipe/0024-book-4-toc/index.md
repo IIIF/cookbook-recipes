@@ -11,6 +11,7 @@ viewers:
  - Glycerine Viewer
  - TIFY
  - Triiiceratops
+ - Kasane
 topic: structure
 code:
  - iiif-prezi3
