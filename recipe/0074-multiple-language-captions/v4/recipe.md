@@ -14,8 +14,6 @@ Likewise, there is no prohibition against also providing the captions/subtitles 
 
 Formats other than WebVTT (Web Video Text Tracks) are supported by the [Presentation API 4.0](https://iiif.io/api/presentation/4.0), but WebVTT is the format most likely to be implemented in current IIIF viewers.
 
-When using segmented WebVTT with HLS (HTTP Live Streaming), see [Serving HLS Files][0257].
-
 ## Example
 
 In this example we represent a video with captions in Italian and subtitles in English. For expressing their availability, we use two Annotations, one for each language/function pair. The language of each file is expressed with a `language` property containing a [BCP 47](https://tools.ietf.org/html/bcp47) language code as specified by the Presentation API 4.0.
