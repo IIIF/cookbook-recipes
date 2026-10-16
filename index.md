@@ -71,8 +71,8 @@ Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advi
 ## Textual and other supplementary content
 
 <!-- * Transcription of image-based content ([version 3][016]) -->
-* Using Transcripts with A/V Content ([version 3][0017])
 * Scholarly Annotation of a Poetry Reading ([version 3][0103])
+* Using Annotations for Timed Text ([version 4][0079-4])
 * Providing Alternative Representations ([version 3][0046])
 * Transcripts, Captions, and Subtitles - General Considerations ([version 3][0231])
     * Providing Access to Transcript Files of A/V Content ([version 3][0017])
@@ -150,7 +150,7 @@ Recipes using [Content State API](https://iiif.io/api/content-state/1.0/)
 * Table of Contents for Multiple A/V files on a Single Canvas ([version 3][0064])
 * Table of Contents for Multiple A/V files on Multiple Canvases ([version 3][0065])
 * Basic Newspaper ([version 3][0068])
-* Using Caption and Subtitle Files in Multiple Languages with Video Content ([version 3][0074])
+* Using Caption Files in Multiple Languages with Video Content ([version 3][0074])
 * Locating an Item in Place and Time ([version 3][0318])
 
 
