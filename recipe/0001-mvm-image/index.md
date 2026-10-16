@@ -14,6 +14,7 @@ viewers:
   - Curation
   - liiive
   - TIFY
+  - Triiiceratops
 v4-viewers:  
   - UV
   - Annona
