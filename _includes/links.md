@@ -6,6 +6,7 @@
 [0003-4]: {{ site.cookbook_url | absolute_url }}/recipe/0003-mvm-video/#version-4 "Simplest Manifest - Video"
 [0004]: {{ site.cookbook_url | absolute_url }}/recipe/0004-canvas-size/ "Image and Canvas with Differing Dimensions"
 [0005]: {{ site.cookbook_url | absolute_url }}/recipe/0005-image-service/ "Support Deep Viewing with Basic Use of a IIIF Image Service"
+[0005-4]: {{ site.cookbook_url | absolute_url }}/recipe/0005-image-service/#version-4 "Support Deep Viewing with Basic Use of a IIIF Image Service"
 [0006]: {{ site.cookbook_url | absolute_url }}/recipe/0006-text-language/ "Internationalization and Multi-language Values"
 [0007]: {{ site.cookbook_url | absolute_url }}/recipe/0007-string-formats/ "Embedding HTML"
 [0008]: {{ site.cookbook_url | absolute_url }}/recipe/0008-rights/ "Rights"
