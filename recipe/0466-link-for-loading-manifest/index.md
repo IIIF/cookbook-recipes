@@ -38,7 +38,7 @@ To open the IIIF Manifest [https://iiif.io/api/cookbook/recipe/0001-mvm-image/ma
 
 Similarly with Clover we append the `iiif-content` parameter to the viewer location as so:
 
-[https://samvera-labs.github.io/clover-iiif/docs/viewer/demo?iiif-content=https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json](https://samvera-labs.github.io/clover-iiif/docs/viewer/demo?iiif-content=https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json)
+[https://clover.iiif.library.northwestern.edu/?iiif-content=https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json](https://clover.iiif.library.northwestern.edu/?iiif-content=https://iiif.io/api/cookbook/recipe/0001-mvm-image/manifest.json)
 
 ## Related Recipes
 

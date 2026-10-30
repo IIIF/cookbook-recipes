@@ -7,6 +7,7 @@ summary: "tbc"
 viewers:
  - UV
  - Mirador
+ - Clover
  - Theseus
  - Triiiceratops
 topic: property
@@ -40,19 +41,19 @@ This recipe presents an imaginary Collection containing 2 instances from the run
 
 ### Collection
 
-{% include manifest_links.html viewers="UV, Mirador, Theseus, Triiiceratops" manifest="navdate-collection.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Clover, Theseus, Triiiceratops" manifest="navdate-collection.json" %}
 
 {% include jsonviewer.html src="navdate-collection.json" config='data-line="35,45"' %}
 
 ### 1986 Map
 
-{% include manifest_links.html viewers="UV, Mirador, Theseus, Triiiceratops" manifest="navdate_map_2-manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Clover, Theseus, Triiiceratops" manifest="navdate_map_2-manifest.json" %}
 
 {% include jsonviewer.html src="navdate_map_2-manifest.json" config='data-line="10"' %}
 
 ### 1987 Map
 
-{% include manifest_links.html viewers="UV, Mirador, Theseus, Triiiceratops" manifest="navdate_map_1-manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Clover, Theseus, Triiiceratops" manifest="navdate_map_1-manifest.json" %}
 
 {% include jsonviewer.html src="navdate_map_1-manifest.json" config='data-line="10"' %}
 

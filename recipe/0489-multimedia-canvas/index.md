@@ -5,6 +5,7 @@ layout: recipe
 tags: Complex Object
 summary: "Paint a still image, a video with sound, and text onto a single Canvas"
 viewers:
+ - Clover
  - Theseus
 topic: 
  - annotation
