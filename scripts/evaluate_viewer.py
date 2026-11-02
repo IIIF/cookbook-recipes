@@ -17,7 +17,7 @@ if __name__ == "__main__":
     viewer = sys.argv[1]
 
     files = findFilesToValidate(f"{project_dir}/recipe", ".md")
-    ignore = [f"{project_dir}/recipe/index.md", f"{project_dir}/recipe/matrix.md", f"{project_dir}/recipe/all.md", f"{project_dir}/recipe/code.md"]
+    ignore = [f"{project_dir}/recipe/index.md", f"{project_dir}/recipe/matrix.md",f"{project_dir}/recipe/matrix-v4.md" f"{project_dir}/recipe/all.md", f"{project_dir}/recipe/code.md"]
     
     ignoreFromViewerMatrix = loadYAML(f"{project_dir}/_data/viewer_ignore.yml")
     filename="uv.csv"
@@ -27,8 +27,13 @@ if __name__ == "__main__":
 
     print(f"## Evaluating {viewer}")
     print(f"[Viewer matrix](https://preview.iiif.io/cookbook/{branch}/recipe/matrix/)")
+    print(f"[V4 Viewer matrix](https://preview.iiif.io/cookbook/{branch}/recipe/matrix-v4/)")
     print()
     print("Checklist:")
+
+    print ("## V3 Recipes:")            
+
+    v4_recipes = []
     # order by recipe id which is the first part of the filename
     files.sort(key=lambda x: x.split("/")[-2].split("-")[0])
     for recipepath in files:
@@ -42,3 +47,12 @@ if __name__ == "__main__":
 
             if recipe.get('viewers', []) is not None and viewer in recipe.get('viewers', []):
                 print(f" - [ ] [🔗 {recipe_id} - {recipe.get('title')}](https://preview.iiif.io/cookbook/{branch}/recipe/{recipe_name}/)")
+
+            if recipe.get('v4-viewers', []) is not None and viewer in recipe.get('v4-viewers', []):
+                v4_recipes.append(f" - [ ] [🔗 {recipe_id} - {recipe.get('title')}](https://preview.iiif.io/cookbook/{branch}/recipe/{recipe_name}/#version-4)")
+
+
+    if v4_recipes:
+        print ("## V4 Recipes:")            
+        for line in v4_recipes:
+            print (line)

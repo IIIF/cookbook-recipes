@@ -7,6 +7,7 @@ summary: "Using Ranges to build a navigable index for newspaper articles spannin
 viewers:
 - Theseus
 - Triiiceratops
+- Kasane
 topic: structure
 property: structures
 ---

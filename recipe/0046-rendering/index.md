@@ -13,6 +13,7 @@ viewers:
  - Theseus
  - TIFY
  - Triiiceratops
+ - Kasane
 code:
  - iiif-prezi3
 topic: property

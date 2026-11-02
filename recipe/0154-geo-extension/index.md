@@ -9,6 +9,7 @@ viewers:
  - Navplace Viewer
  - Theseus
  - Curation
+ - Kasane
 ---
 
 ### Use Case

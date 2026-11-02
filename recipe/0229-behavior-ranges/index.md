@@ -7,6 +7,7 @@ summary: "How to tell a viewer to create a thumbnail-based visual navigation of 
 viewers:
   - Theseus
   - Triiiceratops
+  - Kasane
 topic: 
  - structure
 ---

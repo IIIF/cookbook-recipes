@@ -10,6 +10,7 @@ viewers:
  - Aviary
  - Theseus
  - Triiiceratops
+ - Kasane
 code:
   - iiif-prezi3
 topic:

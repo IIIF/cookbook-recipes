@@ -13,6 +13,7 @@ viewers:
  - Curation
  - TIFY
  - Triiiceratops
+ - Kasane
 topic: basic
 property: label, summary, metadata, requiredStatement
 code:

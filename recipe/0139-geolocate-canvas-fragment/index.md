@@ -7,6 +7,7 @@ summary: "Use Web Annotation to provide geocoordinates for a fragment of an IIIF
 viewers:
 - Annona
 - Theseus
+- Kasane
 topic: geo-recipes
 ---
 

@@ -7,6 +7,7 @@ summary: "A model for manifest publishers and viewer developers for how to facil
 viewers:
  - Theseus
  - Triiiceratops
+ - Kasane
 topic:
  - content-state
 ---

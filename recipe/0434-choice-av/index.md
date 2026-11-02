@@ -10,6 +10,7 @@ viewers:
  - Ramp
  - Theseus
  - Triiiceratops
+ - Kasane
 topic:
  - basic
  - AV

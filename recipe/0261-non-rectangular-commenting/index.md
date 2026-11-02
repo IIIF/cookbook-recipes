@@ -11,6 +11,7 @@ viewers:
  - Theseus
  - liiive
  - Triiiceratops
+ - Kasane
 topic: annotation
 code:
  - iiif-prezi3

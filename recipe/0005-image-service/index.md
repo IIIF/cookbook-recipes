@@ -15,6 +15,7 @@ viewers:
  - liiive
  - TIFY
  - Triiiceratops
+ - Kasane
 topic:
  - basic
  - image

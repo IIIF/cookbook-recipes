@@ -7,6 +7,7 @@ summary: "The simplest viable manifest for 3D content. If all you have for an ob
 v4-viewers:  
  - Voyager
  - Kompakkt
+ - Kasane
 topic: 
  - basic
  - 3d

@@ -6,6 +6,7 @@ tags: [annotation]
 summary: "Link a portion of a Canvas to another resource. "
 viewers:
   - Theseus
+  - Kasane
 topic: annotation
 code:
 ---

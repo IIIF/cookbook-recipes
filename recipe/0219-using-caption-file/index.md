@@ -11,11 +11,13 @@ viewers:
  - Theseus
  - TIFY
  - Triiiceratops
+ - Kasane
 v4-viewers:
  - Clover
  - Aviary
  - Theseus
  - Triiiceratops
+ - Kasane
 topic: AV
 
 top_tabs:
