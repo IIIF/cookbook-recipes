@@ -48,6 +48,7 @@
 [0068]: {{ site.cookbook_url | absolute_url }}/recipe/0068-newspaper/ "Basic Newspaper"
 
 [0074]: {{ site.cookbook_url | absolute_url}}/recipe/0074-multiple-language-captions/ "Using Caption and Subtitle Files in Multiple Languages with Video Content"
+[0074-4]: {{ site.cookbook_url | absolute_url}}/recipe/0074-multiple-language-captions/#version-4 "Using Caption and Subtitle Files in Multiple Languages with Video Content"
 
 [0103]: {{ site.cookbook_url | absolute_url}}/recipe/0103-poetry-reading-annotations/ "Scholarly Annotation of a Poetry Reading"
 
