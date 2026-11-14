@@ -37,8 +37,10 @@ enabled on all of these resources, not only on the playlist. A Manifest that res
 if CORS is misconfigured on any segment.
 
 Even though the video itself is delivered in segments, an associated caption or subtitle file does not need to be 
-segmented to match. It should still be referenced as a single WebVTT resource via a `supplementing` Annotation on the 
-Canvas, as in [Using Caption Files with Video Content][0219].
+segmented to match. If the HLS playlist already includes segmented WebVTT subtitle renditions, those are part of the 
+HLS stream and are not described in the Manifest; whether they are displayed depends on the viewer's HLS engine. To 
+make captions or subtitles available through the Manifest, reference a single WebVTT resource via a `supplementing` 
+Annotation on the Canvas, as in [Using Caption Files with Video Content][0219].
 
 ## Restrictions
 
