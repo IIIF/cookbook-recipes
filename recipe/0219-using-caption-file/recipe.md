@@ -14,7 +14,7 @@ While transcripts, captions, and subtitles each present some text interpretation
 
 ## Restrictions
 
-When using segmented WebVTT with HLS, see [Serving HLS Files][0257].
+When the video is served using HLS, see [Serving HLS Video Files][0257].
 
 ## Example
 

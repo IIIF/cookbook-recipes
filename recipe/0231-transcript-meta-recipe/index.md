@@ -52,7 +52,7 @@ Captions and subtitles are used to optionally mark up the external text track re
 
     a. See [Using Caption Files with Video Content][0219] for implementation details.
 
-    b. See [Serving HLS Files][0257] for details on using segmented WebVTT with HLS content.
+    b. See [Serving HLS Video Files][0257] for using caption files with video served using HLS.
 
 2. Transforming captions into annotations
     
