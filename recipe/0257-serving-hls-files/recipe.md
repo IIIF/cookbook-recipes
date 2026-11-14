@@ -38,7 +38,7 @@ if CORS is misconfigured on any segment.
 
 Even though the video itself is delivered in segments, an associated caption or subtitle file does not need to be 
 segmented to match. It should still be referenced as a single WebVTT resource via a `supplementing` Annotation on the 
-Canvas, as in [Using Caption and Subtitle Files with Video Content][0219].
+Canvas, as in [Using Caption Files with Video Content][0219].
 
 ## Restrictions
 
