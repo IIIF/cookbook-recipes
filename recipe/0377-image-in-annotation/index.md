@@ -6,6 +6,7 @@ tags: [annotation]
 summary: "Provides an image in an annotation"
 viewers:
   - Annona
+  - Clover
   - Glycerine Viewer
   - Theseus
   - TIFY
@@ -29,7 +30,7 @@ Our supplementary image is not part of the Canvas content, thus it must not have
 
 The main content is a photo of a square in Göttingen, which shows, among others things, a fountain. We wanted to show the lights on the fountain during the night, so we associated the part of the Canvas containing the fountain with an Annotation consisting of a picture of the fountain at night and a text comment.
 
-{% include manifest_links.html viewers="Annona, Glycerine Viewer, Theseus, TIFY" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Annona, Clover, Glycerine Viewer, Theseus, TIFY" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config="data-line='49-66'" %}
 

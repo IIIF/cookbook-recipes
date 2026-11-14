@@ -16,6 +16,7 @@ viewers:
  - Triiiceratops
 v4-viewers:  
  - UV
+ - Clover
  - Theseus
  - Aviary
  - Triiiceratops

@@ -5,6 +5,8 @@ layout: recipe
 tags: image, manipulation, service, CSS
 summary: "Two approaches for rotating an image or annotation on a canvas"
 viewers:
+  - id: Clover
+    support: partial
   - Theseus
 topic: 
  - image
@@ -72,7 +74,9 @@ Image showing the same codex page after rotating 90 degrees clockwise:
 
 This Manifest shows how to rotate the image using an Image Service.
 
-{% include manifest_links.html viewers="Theseus" manifest="manifest-service.json" %}
+Note: Clover supports rotation by image service but does not support rotation by CSS.
+
+{% include manifest_links.html viewers="Clover, Theseus" manifest="manifest-service.json" %}
 
 {% include jsonviewer.html src="manifest-service.json" config='data-line="32-51"' %}
 

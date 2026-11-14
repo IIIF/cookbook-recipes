@@ -5,6 +5,7 @@ layout: recipe
 tags: [annotation, multiple-images, layers]
 summary: "Annotate a single image or layer when more than one image is present on the Canvas."
 viewers:
+  - Clover
   - Theseus
 topic: annotation
 ---
@@ -41,7 +42,7 @@ The example is based on the recipe [Multiple Choice of Images in a Single View (
 
 Credit: John Dee performing an experiment before Queen Elizabeth I. Oil painting by Henry Gillard Glindoni. Credit: Wellcome Collection. Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
-{% include manifest_links.html viewers="" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Clover" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="65-92"' %}
 

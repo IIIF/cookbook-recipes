@@ -5,6 +5,7 @@ layout: recipe
 tags: [video, presentation, opera]
 summary: "A real world example of an audio recording of an opera spread across multiple Canvases."
 viewers:
+ - Clover
  - Ramp
  - Theseus
  - Triiiceratops
@@ -27,7 +28,7 @@ Given the need for the player to switch context when moving from one file to the
 
 ## Example
 
-{% include manifest_links.html viewers="Ramp, Theseus, Triiiceratops" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Clover, Ramp, Theseus, Triiiceratops" manifest="manifest.json" %}
 {% include jsonviewer.html src="manifest.json" %}
 
 ## Related Recipes

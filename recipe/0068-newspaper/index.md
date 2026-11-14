@@ -8,6 +8,7 @@ viewers:
  - Mirador
  - Annona
  - UV
+ - Clover
  - Glycerine Viewer
  - Theseus
 topic:
