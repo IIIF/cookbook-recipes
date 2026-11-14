@@ -50,7 +50,7 @@ with no HLS support will be unable to play the video even though the Manifest it
 ## Example
 
 This example uses the *Lunchroom Manners* excerpt from Indiana University, also used as a progressive MP4 in 
-[Simplest Manifest - Video][0003], here instead served as HLS.
+[Simplest Manifest - Video][0003-4], here instead served as HLS.
 
 {% include manifest_links.html manifest="v4/manifest.json" version="4" %}
 
