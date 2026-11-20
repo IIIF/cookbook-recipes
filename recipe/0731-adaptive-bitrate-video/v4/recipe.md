@@ -21,7 +21,7 @@ playlist. Selecting one of these locks playback to that quality rather than lett
 The Manifest does not need to, and should not, expose the individual HLS media segments.
 
 Each item in the `Choice` must carry its own `format` of "application/vnd.apple.mpegurl" so that a viewer knows to hand 
-that option to an HLS engine; see [Serving HLS Files][0257-4] for the valid HLS media types and why viewers should not 
+that option to an HLS engine; see [Serving HLS Video Files][0257-4] for the valid HLS media types and why viewers should not 
 rely on file extensions or server headers. Multivariant and single-rendition playlists share the same media type, so 
 `format` alone does not tell a viewer which option is adaptive. The `label` is what tells a user that "auto" will switch 
 between renditions while the others stay at a fixed quality.
@@ -32,8 +32,12 @@ requests (CORS) must be enabled on all of these resources, not only on the one i
 resolves correctly can still fail to play if CORS is misconfigured on any playlist or segment.
 
 Even though the video itself is delivered in segments, an associated caption or subtitle file does not need to be 
-segmented to match. It should still be referenced as a single WebVTT resource via a `supplementing` Annotation on the 
-Canvas, as in [Using Caption and Subtitle Files with Video Content][0219].
+segmented to match. If the HLS playlist already includes segmented WebVTT subtitle renditions, those are part of the 
+HLS stream and are not described in the Manifest; whether they are displayed depends on the viewer's HLS engine. To 
+make captions or subtitles available through the Manifest, reference a single WebVTT resource via a `supplementing` 
+Annotation on the Canvas, as in [Using Caption Files with Video Content][0219-4]. In IIIF Presentation API 4, that Annotation should also 
+carry a `provides` property (for example `["subtitles"]` or `["closedCaptions"]`) indicating the accessibility feature the 
+WebVTT file supplies.
 
 ## Restrictions
 
@@ -43,7 +47,7 @@ with no HLS support will be unable to play any of the options even though the Ma
 ## Example
 
 This example uses the *Lunchroom Manners* excerpt from Indiana University, also used as a progressive MP4 in 
-[Simplest Manifest - Video][0003], here instead served as HLS. The `Choice` offers the adaptive multivariant playlist ("auto") 
+[Simplest Manifest - Video][0003-4], here instead served as HLS. The `Choice` offers the adaptive multivariant playlist ("auto") 
 alongside three fixed-bitrate renditions: high (1,200 kbps), medium (800 kbps), and low (400 kbps).
 
 {% include manifest_links.html manifest="v4/manifest.json" version="4" %}
@@ -52,10 +56,11 @@ alongside three fixed-bitrate renditions: high (1,200 kbps), medium (800 kbps), 
 
 ## Related Recipes
 
+* [Serving HLS Video Files][0257-4]
 * [Multiple Choice of Audio Formats in a Single View (Canvas)][0434]
-* [Using Caption Files with Video Content][0219]
+* [Using Caption Files with Video Content][0219-4]
 * [Transcripts, Captions, and Subtitles - General Considerations][0231]
-* [Simplest Manifest - Video][0003]
+* [Simplest Manifest - Video][0003-4]
 
 {% include acronyms.md %}
 {% include links.md %}
