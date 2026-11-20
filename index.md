@@ -32,7 +32,7 @@ As well as viewer support, the cookbook provides links to code samples in variou
 
 # Contributing
 
-Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advice and support can be received from the IIIF Cookbook channel on the IIIF Slack. For detailed information on how to contribute please see the [Cookbook process][cookbook-process].
+Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advice and support can be received from the IIIF Cookbook channel on the IIIF Slack. For detailed information on how to contribute please see the [Cookbook process][cookbook-process] and for details on how to structure a multi version recipe see the [multi version guide][multi-version].
 
 # The Recipes
 
