@@ -1,0 +1,37 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "{{ id.url }}",
+    "type": "Manifest",
+    "label": { "en": [ "Lunchroom Manners" ] },
+    "items": [
+      {
+        "id": "{{ id.path }}/canvas",
+        "type": "Canvas",
+        "height": 360,
+        "width": 480,
+        "duration": 572.034,
+        "items": [
+          {
+            "id": "{{ id.path }}/canvas/page",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "{{ id.path }}/canvas/page/annotation",
+                "type": "Annotation",
+                "motivation": "painting",
+                "target": "{{ id.path }}/canvas",
+                "body": {
+                  "id": "https://fixtures.iiif.io/video/indiana/lunchroom_manners/hls-fixture/high/lunchroom_manners_1200kb.m3u8",
+                  "type": "Video",
+                  "height": 360,
+                  "width": 480,
+                  "duration": 572.034,
+                  "format": "application/vnd.apple.mpegurl"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

@@ -6,6 +6,7 @@ tags: [video, presentation, opera]
 summary: "A video recording of an opera on one Canvas."
 viewers:
  - UV
+ - Clover
  - Ramp
  - Theseus
  - Triiiceratops
@@ -30,7 +31,7 @@ Metadata and thumbnail properties have been added for more context. Implementati
 
 ## Example
 
-{% include manifest_links.html viewers="UV, Ramp, Triiiceratops" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Clover, Ramp, Triiiceratops" manifest="manifest.json" %}
 {% include jsonviewer.html src="manifest.json" %}
 
 ## Related Recipes

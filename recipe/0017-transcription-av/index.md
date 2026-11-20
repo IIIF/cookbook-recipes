@@ -6,6 +6,7 @@ tags: [audio, video, presentation, transcript]
 summary: "Transcripts as alternative representation of A/V content"
 viewers:
  - UV
+ - Clover
  - Ramp
  - Aviary
  - Theseus

@@ -5,6 +5,7 @@ layout: recipe
 tags: [annotation, multiple-images]
 summary: "Keep a resolvable link between annotations (contained in an external Annotation Page) and the Manifest containing the Canvases they are pointing at."
 viewers:
+ - Clover
  - Theseus
 topic: annotation
 ---
@@ -39,7 +40,7 @@ Annotation Page file
 {% include jsonviewer.html src="annotationpage.json" config='data-line="16-33"' %}
 
 Manifest file
-{% include manifest_links.html viewers="Mirador, Annona, Glycerine Viewer, Theseus" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador, Annona, Clover, Glycerine Viewer, Theseus" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="44-49"' %}
 

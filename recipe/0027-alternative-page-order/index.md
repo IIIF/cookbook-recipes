@@ -6,6 +6,7 @@ tags: [book, presentation]
 summary: "Using Ranges to offer alternative orderings of book pages."
 viewers:
  - UV
+ - Clover
  - Theseus
  - Triiiceratops
 topic:
