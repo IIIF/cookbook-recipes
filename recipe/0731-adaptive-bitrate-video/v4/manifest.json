@@ -5,22 +5,22 @@
     "label": { "en": [ "Lunchroom Manners" ] },
     "items": [
       {
-        "id": "{{ id.path }}/canvas",
+        "id": "{{ id.parent.path }}/canvas",
         "type": "Canvas",
         "height": 360,
         "width": 480,
         "duration": 572.034,
         "items": [
           {
-            "id": "{{ id.path }}/canvas/page",
+            "id": "{{ id.parent.path }}/canvas/page",
             "type": "AnnotationPage",
             "items": [
               {
-                "id": "{{ id.path }}/canvas/page/annotation",
+                "id": "{{ id.parent.path }}/canvas/page/annotation",
                 "type": "Annotation",
                 "motivation": [ "painting" ],
                 "target": {
-                  "id": "{{ id.path }}/canvas",
+                  "id": "{{ id.parent.path }}/canvas",
                   "type": "Canvas"
                 },
                 "body": {
