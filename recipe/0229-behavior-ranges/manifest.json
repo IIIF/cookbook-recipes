@@ -1,8 +1,8 @@
 {
     "@context": [ "http://iiif.io/api/presentation/3/context.json" ],
-    "id": "{{ id.url }} ",
+    "id": "{{ id.url }}",
     "type": "Manifest",
-    "label": { 
+    "label": {
         "en": ["Video navigation with thumbnails in a Range"]
     },
   "items": [
