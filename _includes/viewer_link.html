@@ -7,7 +7,7 @@
 {% endcapture %}
 {% if include.type == 'UV' %}
     {% capture viewer_url %}
-        https://uv-v3.netlify.app/#?c=&amp;m=&amp;s=&amp;cv=&amp;manifest={{manifest_url |strip}}
+        https://uv-v4.netlify.app/#?manifest={{manifest_url |strip}}
     {% endcapture %}
     {% assign default_text="View in Universal Viewer" %}
 {% elsif include.type == 'Aviary' %}
@@ -21,13 +21,10 @@
     {% endcapture %}
     {% assign default_text="View in Mirador" %}
 {% elsif include.type == 'Curation' %}
-{% comment %}
-http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest={{manifest_url |strip}}
-{% endcomment %}
     {% capture viewer_url %}
-       {{manifest_url |strip}}
+       http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest={{manifest_url |strip}}
     {% endcapture %}
-    {% assign default_text="View in IIIF Curation Viewer (currently unavailable)" %}
+    {% assign default_text="View in IIIF Curation Viewer" %}
 {% elsif include.type == 'Annona' %}
     {% if include.annotationurl %}
         {% capture viewer_url %}
@@ -41,7 +38,7 @@ http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest={{manifest_u
     {% assign default_text="View in Annona" %}
 {% elsif include.type == 'Clover' %}
     {% capture viewer_url %}
-        https://samvera-labs.github.io/clover-iiif/docs/viewer/demo?iiif-content={{manifest_url |strip}}
+        https://clover.iiif.library.northwestern.edu/?iiif-content={{manifest_url |strip}}
     {% endcapture %}
     {% assign default_text="View in Clover" %}
 {% elsif include.type == 'Navplace Viewer' %}
@@ -76,10 +73,23 @@ http://codh.rois.ac.jp/software/iiif-curation-viewer/demo/?manifest={{manifest_u
     {% assign default_text="View in TIFY" %}
 {% elsif include.type == 'Triiiceratops' %}
     {% capture viewer_url %}
-    https://d-flood.github.io/triiiceratops/viewer/?iiif-content={{manifest_url |strip}}
+    https://triiiceratops.org/viewer/?iiif-content={{manifest_url |strip}}
     {% endcapture %}
     {% assign default_text="View in Triiiceratops" %}
+{% elsif include.type == 'Voyager' %}
+    {% capture viewer_url %}
+    https://smithsonian.github.io/voyager-dev/iiif/iiif_demo?iiif-content={{manifest_url |strip}}
+    {% endcapture %}
+    {% assign default_text="View in Voyager" %}    
+{% elsif include.type == 'Kompakkt' %}
+    {% capture viewer_url %}
+    https://kompakkt.github.io/Viewer/?locale=en&standalone=true&manifest={{manifest_url |strip}}
+    {% endcapture %}
+    {% assign default_text="View in Kompakkt" %}    
 {% else %}
     {% capture default_text %}Unknown Viewer type '{{ include.type}}'{% endcapture %}
     {% capture viewer_url %}{{manifest_url |strip}}{% endcapture %}
-{% endif %}<a href="{{ viewer_url | strip }}" class="{{ include.class }}" data-iiif-content="{{manifest_url |strip}}" target="_blank">{{ include.text | default: default_text }}</a>
+{% endif %}{% if include.bare %}
+    {% assign viewer_url = viewer_url | strip | split: '?' | first %}
+    {% assign default_text = include.type %}
+{% endif %}<a href="{{ viewer_url | strip }}" class="{{ include.class }}"{% unless include.bare %} data-iiif-content="{{manifest_url |strip}}"{% endunless %} target="_blank">{{ include.text | default: default_text }}</a>

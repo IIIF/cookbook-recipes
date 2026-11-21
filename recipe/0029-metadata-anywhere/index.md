@@ -8,8 +8,7 @@ viewers:
  - UV
  - Mirador
  - Annona
- - id: Clover
-   support: partial
+ - Clover
  - Glycerine Viewer
  - Theseus
  - Curation
@@ -38,8 +37,6 @@ The content of these entries is intended for presentation only; descriptive sema
 ## Example
 
 In this example, we have two Canvases, each with a different photograph of the same painting: one using natural light and the other an x-ray image. Metadata is provided at the Manifest level to convey information about the resource and additional metadata is provided on each Canvas to provide image-specific details.
-
-Note: Clover supports Metadata at the Manifest level but not down at the Canvas.
 
 Credit: *John Dee performing an experiment before Queen Elizabeth I*. Oil painting by Henry Gillard Glindoni. Credit: Wellcome Collection. Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 

@@ -8,6 +8,7 @@ viewers:
  - Clover
  - Aviary
  - Theseus
+ - Triiiceratops
 topic:
  - property
  - AV
@@ -36,7 +37,7 @@ Each instance of `accompanyingCanvas` may only contain one Canvas, and as such m
 
 In the example, the main Canvas contains audio of a performance of Gustav Mahler's Symphony No. 3 and the `accompanyingCanvas` contains an image of a page from the score.
 
-{% include manifest_links.html viewers="Clover, Aviary, Theseus" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Clover, Aviary, Theseus, Triiiceratops" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config="data-line='20-58'"%}
 

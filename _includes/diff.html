@@ -1,0 +1,44 @@
+
+<h2>Manifest Comparison</h2>
+<p>Below is an auto generated diff showing the changes between IIIF Presentation API version 3 and version 4 of the recipe Manifest. </p>
+
+<div id="diff-panel"  class="manifest-diff">
+  <p>Loading diff&hellip;</p>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/diff@5.2.0/dist/diff.min.js"></script>
+<script>
+(function () {
+  var recipe = {{ include.recipe | jsonify }};
+  var base = {{ site.cookbook_url | absolute_url | jsonify }} + "/recipe/" + recipe;
+  var container = document.getElementById("diff-panel");
+
+  Promise.all([
+    fetch(base + "/manifest.json").then(function (r) { return r.json(); }),
+    fetch(base + "/v4/manifest.json").then(function (r) { return r.json(); })
+  ]).then(function (results) {
+    var v3 = JSON.stringify(results[0], null, 2);
+    var v4 = JSON.stringify(results[1], null, 2);
+    var parts = Diff.diffLines(v3, v4);
+    var lines = [];
+    parts.forEach(function (part) {
+      var prefix = part.added ? "+" : part.removed ? "-" : " ";
+      part.value.replace(/\n$/, "").split("\n").forEach(function (line) {
+        lines.push(prefix + line);
+      });
+    });
+
+    var pre = document.createElement("pre");
+    pre.className = "language-diff-json diff-highlight";
+    var code = document.createElement("code");
+    code.className = "language-diff-json diff-highlight";
+    code.textContent = lines.join("\n");
+    pre.appendChild(code);
+
+    container.innerHTML = "";
+    container.appendChild(pre);
+    Prism.highlightElement(code);
+  }).catch(function (err) {
+    container.textContent = "Unable to load manifests for comparison: " + err.message;
+  });
+})();
+</script>

@@ -8,6 +8,7 @@ topic: annotation
 viewers:
  - Mirador
  - Annona
+ - Clover
  - Glycerine Viewer
  - Theseus
  - TIFY
@@ -55,7 +56,7 @@ The rendering of this referenced Annotation should be virtually indistiguishable
 
 ### Manifest file
 
-{% include manifest_links.html viewers="Mirador, Annona, Glycerine Viewer, Theseus, TIFY, Triiiceratops" manifest="manifest.json" %}
+{% include manifest_links.html viewers="Mirador, Annona, Clover, Glycerine Viewer, Theseus, TIFY, Triiiceratops" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="44-49"' %}
 

@@ -33,15 +33,18 @@ module Jekyll
 		def write(dest)
             dest_path = destination(dest)
             return false if File.exist?(dest_path) && !modified?
+            parent_dir = File.dirname(@dir.to_s)
             if ENV['URL']
                 replacements = {
                     "id.url" => ENV['URL'] + @site.config['baseurl'].to_s+ @dir.to_s + "/" + @name.to_s,
-                    "id.path" => ENV['URL'] + @site.config['baseurl'].to_s+ @dir.to_s
+                    "id.path" => ENV['URL'] + @site.config['baseurl'].to_s+ @dir.to_s,
+                    "id.parent.path" => ENV['URL'] + @site.config['baseurl'].to_s + parent_dir
                 }
             else
                 replacements = {
                     "id.url" => @site.config['url'].to_s + @site.config['baseurl'].to_s+ @dir.to_s + "/" + @name.to_s,
-                    "id.path" => @site.config['url'].to_s + @site.config['baseurl'].to_s+ @dir.to_s
+                    "id.path" => @site.config['url'].to_s + @site.config['baseurl'].to_s+ @dir.to_s,
+                    "id.parent.path" => @site.config['url'].to_s + @site.config['baseurl'].to_s + parent_dir
                 }
 
             end
@@ -73,16 +76,15 @@ module Jekyll
             end
           end
         end  
-        def processList(value, replacements) 
-            value.each do | object |
-                if (object.is_a? String) 
-                    processString(object, replacements)
-                    # TODO need to add this back into the array somehow
+        def processList(value, replacements)
+            value.each_with_index do | object, index |
+                if (object.is_a? String)
+                    value[index] = processString(object, replacements)
                 end
-                if (object.is_a?(Hash)) 
+                if (object.is_a?(Hash))
                     processHash(object, replacements)
                 end
-                if (object.is_a?(Array)) 
+                if (object.is_a?(Array))
                     processList(object, replacements)
                 end
             end

@@ -7,6 +7,7 @@ summary: "Using Ranges to create a table of contents for a book"
 viewers:
  - UV
  - Mirador
+ - Clover
  - Theseus
  - Glycerine Viewer
  - TIFY
@@ -42,7 +43,7 @@ In this example, an Ethiopic manuscript contains multiple works, one of which co
     * Monday
     * Tuesday
 
-{% include manifest_links.html viewers="UV, Mirador, Glycerine Viewer, Theseus, TIFY, Triiiceratops" manifest="manifest.json" %}
+{% include manifest_links.html viewers="UV, Mirador, Clover, Glycerine Viewer, Theseus, TIFY, Triiiceratops" manifest="manifest.json" %}
 
 {% include jsonviewer.html src="manifest.json" config='data-line="246-326, 247-254, 275-282"' %}
 

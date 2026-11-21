@@ -7,6 +7,7 @@ summary: "Allows users to use Content State API to open a specific region of a C
 viewers:
  - Clover
  - Theseus
+ - Triiiceratops
 topic:
  - content-state
 ---
@@ -81,7 +82,7 @@ and this is located in the following region of the second image:
 
 ![Location of the region to be highlighted.](page.jpg)
 
-{% include content-state-viewers.html iiif-content="annotation.json" viewers="Clover, Theseus" %}
+{% include content-state-viewers.html iiif-content="annotation.json" viewers="Clover, Theseus, Triiiceratops" %}
 
 {% include jsonviewer.html src="annotation.json" %}
 

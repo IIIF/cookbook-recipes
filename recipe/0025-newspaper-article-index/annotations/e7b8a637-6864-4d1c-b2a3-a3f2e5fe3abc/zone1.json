@@ -1,0 +1,2151 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "{{ id.url }}",
+  "type": "AnnotationPage",
+  "partOf": [
+    {
+      "id": "{{ id.path }}.json",
+      "type": "AnnotationCollection"
+    }
+  ],
+  "next": {
+    "id": "{{ id.path }}/zone2.json",
+    "type": "AnnotationPage"
+  },
+  "items": [
+    {
+      "id": "{{ id.path }}/zone1/annotation/0",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Das"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=253,1505,60,35"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/1",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Cuxvuicr."
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=333,1503,130,30"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/2",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Rufiitdge"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=215,1555,109,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/3",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Geridtsicene"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=333,1553,166,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/4",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "von"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=341,1589,32,14"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/5",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Sücft"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=198,1619,61,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/6",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Golibpn-Muramwmlin"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=272,1615,245,24"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/7",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "(Radbrut"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=295,1648,60,24"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/8",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "verfoten.)"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=363,1648,62,24"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/9",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Gélus."
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=325,1687,64,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/10",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Sn"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=176,1716,27,20"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/11",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "ben"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=216,1715,30,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/12",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Gaal"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=260,1715,44,16"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/13",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "trat"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=318,1716,33,16"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/14",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Olga"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=365,1714,43,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/15",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "YWajfiljewna,"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=422,1713,115,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/16",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "bie"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=560,1713,25,18"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/17",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Œodter"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=132,1736,67,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/18",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "bde3"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=214,1737,28,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/19",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Vorlipenben"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=257,1736,109,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/20",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Djafrufdeff"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=381,1736,111,27"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/21",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "und"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=507,1736,33,18"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/22",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "bdie"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=560,1736,25,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/23",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Braut"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=132,1759,55,19"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/24",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "be3"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=200,1759,28,18"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/25",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Ctaatsantalts"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=241,1759,133,18"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/26",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Mifulin,"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=387,1759,76,20"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/27",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "ein"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=478,1759,26,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/28",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "fhônes,"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=517,1758,68,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/29",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "junges"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=132,1781,60,23"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/30",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Mäbdjen,"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=205,1780,84,23"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/31",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "bas"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=304,1782,30,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/32",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "‘in"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=348,1782,18,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/33",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "ben"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=380,1782,30,16"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/34",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Geridtsjaal"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=424,1781,107,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/35",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "tam,"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=545,1781,40,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/36",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "um"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=133,1809,29,13"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/37",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "ben"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=173,1805,30,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/38",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Proze"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=214,1804,62,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/39",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "ber"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=288,1804,26,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/40",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Galiémünger"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=326,1803,120,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/41",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "mitangubôren,"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=457,1804,128,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/42",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "aber"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=134,1827,38,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/43",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "bafelbit"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=182,1826,64,24"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/44",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "au"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=255,1831,20,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/45",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "früf"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=285,1824,38,23"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/46",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "erfcien."
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=333,1826,70,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/47",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "\"39"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=178,1847,42,23"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/48",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "fan,"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=233,1849,40,19"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/49",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "mid"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=286,1848,38,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/50",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "an"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=338,1854,22,11"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/51",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Deinem"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=373,1849,69,16"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/52",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Unblié"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=455,1849,63,16"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/53",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "gu"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=530,1853,20,16"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/54",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "er-"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=562,1853,24,12"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/55",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "gôben!“"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=135,1871,71,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/56",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "fpraden"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=219,1870,72,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/57",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "bie"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=304,1870,25,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/58",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Mugen"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=341,1870,58,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/59",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "des"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=412,1870,28,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/60",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Müäbdens,"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=453,1870,94,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/61",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "afs"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=560,1870,26,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/62",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "e3"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=135,1894,18,16"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/63",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "ben"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=164,1893,30,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/64",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Bräutigan"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=204,1892,99,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/65",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "fofett"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=315,1892,46,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/66",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "anjab."
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=372,1892,54,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/67",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "{Das"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=179,1915,50,27"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/68",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "ift"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=240,1915,17,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/69",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "bot)"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=268,1915,35,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/70",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "verbrieÿlig!\""
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=315,1915,122,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/71",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "badjte"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=449,1915,50,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/72",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "itutin."
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=510,1903,76,30"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/73",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Dub"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=136,1938,56,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/74",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "mir"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=199,1939,32,16"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/75",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "gerade"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=238,1938,56,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/76",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "bas"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=302,1938,30,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/77",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Unalüd"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=341,1938,66,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/78",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "begegnen,"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=414,1938,84,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/79",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "daÿ"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=506,1938,31,20"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/80",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Olga"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=543,1938,45,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/81",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "jebt"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=136,1960,33,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/82",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "bierher"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=178,1961,61,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/83",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "fommt,"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=250,1960,62,20"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/84",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "two"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=322,1964,24,13"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/85",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "id"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=357,1960,21,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/86",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "die"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=388,1961,24,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/87",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Anflage"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=422,1960,70,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/88",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "jofl"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=501,1961,29,20"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/89",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "fallen"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=538,1960,50,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/90",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "laïjen."
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=137,1983,54,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/91",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Der"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=208,1983,35,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/92",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Teujel"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=255,1982,57,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/93",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "tweif,"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=324,1983,45,20"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/94",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "ivie"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=382,1983,30,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/95",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "unangenebm!"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=424,1983,120,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/96",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Gi,"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=562,1983,26,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/97",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "weun"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=136,2009,47,14"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/98",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "ftatt"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=195,2006,37,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/99",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "bieje3"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=244,2005,54,20"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/100",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Betudjoff"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=306,2005,82,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/101",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "ei"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=400,2006,27,16"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/102",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "iwirilider,"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=439,2006,89,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/103",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "edter"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=541,2005,48,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/104",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Môrder"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=137,2027,69,18"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/105",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "hier"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=219,2028,33,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/106",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "jâbe,"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=264,2027,41,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/107",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "id"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=318,2027,21,23"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/108",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Dätte"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=353,2028,42,20"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/109",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "ibn"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=408,2028,28,20"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/110",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "abgefertigt"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=449,2028,109,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/111",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "."
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=551,2023,11,31"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/112",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Mas"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=137,2049,46,19"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/113",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "aber"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=189,2051,38,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/114",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "verbrieblider"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=237,2049,118,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/115",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "und"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=365,2050,33,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/116",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "unangenchmer"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=409,2050,129,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/117",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "ben"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=548,2041,41,27"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/118",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Ufles"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=138,2072,47,18"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/119",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "ift,"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=198,2073,23,20"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/120",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "ba"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=234,2072,31,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/121",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "id)"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=278,2072,21,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/122",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "des"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=313,2072,27,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/123",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Herrn"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=353,2072,53,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/124",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Bribiloffs"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=419,2072,88,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/125",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "jelbfiqu-"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=519,2073,71,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/126",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "friebene"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=138,2094,68,27"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/127",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Srage"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=211,2095,53,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/128",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "mit"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=273,2095,30,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/129",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "anfefen"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=312,2095,67,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/130",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "mu!"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=388,2095,47,20"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/131",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Diefen"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=444,2095,59,26"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/132",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Retudoif"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=508,2095,82,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/133",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "muf"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=138,2117,48,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/134",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "man"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=196,2123,39,12"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/135",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "freijpredjen,"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=245,2117,106,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/136",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "haë"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=361,2117,30,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/137",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "ijt"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=397,2117,23,26"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/138",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Far"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=430,2117,32,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/139",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "tie"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=471,2117,30,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/140",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "der"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=510,2117,26,18"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/141",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Tag;"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=545,2117,45,23"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/142",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "aber."
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=139,2140,39,18"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/143",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Olga"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=189,2140,44,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/144",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "ift"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=246,2140,18,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/145",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "unerfaÿren;"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=277,2140,105,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/146",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "jie"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=396,2139,22,27"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/147",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "fan"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=430,2139,41,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/148",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "benfen,"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=484,2140,62,20"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/149",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "ba"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=559,2131,31,30"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/150",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "bie"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=139,2162,24,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/151",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Sreifpregung"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=172,2162,123,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/152",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Betudjoffs"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=305,2162,91,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/153",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "ein"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=405,2162,26,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/154",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Mejultat"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=441,2162,73,26"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/155",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "ber"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=523,2153,27,27"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/156",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Be:"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=558,2162,33,18"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/157",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "zebtjamfeit"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=139,2185,98,26"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/158",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "feines"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=250,2185,51,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/159",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Bertheidigers"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=313,2184,119,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/160",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "fei."
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=445,2184,26,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/161",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Er"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=490,2184,23,18"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/162",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "jat"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=526,2185,32,26"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/163",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "if"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=565,2185,26,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/164",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "bot)"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=140,2206,35,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/165",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "cine"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=189,2207,35,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/166",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Bcitfang"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=238,2207,75,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/167",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "ben"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=327,2207,30,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/168",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Go"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=371,2207,32,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/169",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "gemadt"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=416,2206,69,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/170",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "und"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=498,2206,33,18"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/171",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "einen"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=544,2207,47,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/172",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Rorb"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=141,2228,43,18"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/173",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "befommen,"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=196,2229,95,20"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/174",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "und"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=302,2229,33,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/175",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "jest,"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=347,2229,37,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/176",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "heute"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=397,2229,44,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/177",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "fann"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=453,2229,41,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/178",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "er"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=505,2234,17,12"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/179",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "trium-"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=533,2229,58,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/180",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "phiran...."
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=136,2255,105,20"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/181",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Jin,"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=265,2255,45,19"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/182",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "nem!"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=327,2254,54,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/183",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "—"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=400,2263,21,3"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/184",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "entidloh"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=439,2252,71,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/185",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "fé"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=528,2252,25,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/186",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "M"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=565,2252,29,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/187",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "fofei"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=137,2276,38,21"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/188",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "Stepanowitié"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=196,2277,118,20"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/189",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "—"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=344,2286,11,3"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/190",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "id"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=375,2275,31,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/191",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "fann"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=426,2275,37,17"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/192",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "nid!"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=482,2274,47,22"
+    },
+    {
+      "id": "{{ id.path }}/zone1/annotation/193",
+      "type": "Annotation",
+      "motivation": "supplementing",
+      "body": {
+        "type": "TextualBody",
+        "format": "text/plain",
+        "value": "tan"
+      },
+      "target": "https://iiif.io/api/cookbook/recipe/newspaper/canvas/p3#xywh=552,2274,42,17"
+    }
+  ]
+}

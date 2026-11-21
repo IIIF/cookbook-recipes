@@ -1,0 +1,18 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "{{ id.url }}",
+  "type": "AnnotationCollection",
+  "label": {
+    "de": [
+      "Das Turnier"
+    ]
+  },
+  "first": {
+    "id": "{{ id.path }}/e7b8a637-6864-4d1c-b2a3-a3f2e5fe3abc/zone1.json",
+    "type": "AnnotationPage"
+  },
+  "last": {
+    "id": "{{ id.path }}/e7b8a637-6864-4d1c-b2a3-a3f2e5fe3abc/zone3.json",
+    "type": "AnnotationPage"
+  }
+}
