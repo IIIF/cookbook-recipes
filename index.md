@@ -41,6 +41,7 @@ Anyone is welcome to submit a recipe idea or work on implementing a recipe. Advi
 * Simplest Manifest - Image ([version 3][0001] / [version 4][0001-4])
 * Simplest Manifest - Audio ([version 3][0002] / [version 4][0002-4])
 * Simplest Manifest - Video ([version 3][0003] / [version 4][0003-4])
+* Audio Streamed via HLS ([version 3][0730] / [version 4][0730-4])
 * Simplest Manifest - 3D ([version 4][0608-4])
 * Image and Canvas with Differing Dimensions ([version 3][0004])
 * Support Deep Viewing with Basic Use of a IIIF Image Service ([version 3][0005])

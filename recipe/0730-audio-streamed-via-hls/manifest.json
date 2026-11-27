@@ -1,0 +1,33 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "{{ id.url }}",
+    "type": "Manifest",
+    "label": { "en": [ "Mediation and Lived Experience - Daphne Marlatt Performs With Her Younger Self" ] },
+    "items": [
+      {
+        "id": "{{ id.path }}/canvas",
+        "type": "Canvas",
+        "duration": 707.81,
+        "items": [
+          {
+            "id": "{{ id.path }}/canvas/page",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "{{ id.path }}/canvas/page/annotation",
+                "type": "Annotation",
+                "motivation": "painting",
+                "target": "{{ id.path }}/canvas",
+                "body": {
+                  "id": "https://fixtures.iiif.io/audio/ubc/hls-fixture/high/Performing-the-Archive-Leaf-leafs-by-Daphne-Marlatt_128kb.m3u8",
+                  "type": "Sound",
+                  "duration": 707.81,
+                  "format": "application/vnd.apple.mpegurl"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

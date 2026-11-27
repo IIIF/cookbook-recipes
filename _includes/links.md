@@ -96,6 +96,8 @@
 [0599]: {{ site.cookbook_url | absolute_url }}/recipe/0599-drag-and-drop/ "Drag and Drop"
 
 [0608-4]: {{ site.cookbook_url | absolute_url }}/recipe/0608-mvm-3d/#version-4 "Simplest Manifest - 3D model"
+[0730]: {{ site.cookbook_url | absolute_url }}/recipe/0730-audio-streamed-via-hls/ "Audio Streamed via HLS"
+[0730-4]: {{ site.cookbook_url | absolute_url }}/recipe/0730-audio-streamed-via-hls/#version-4 "Audio Streamed via HLS"
 
 [cookbook-process]: {{site.cookbook_url | absolute_url }}/recipe
 
